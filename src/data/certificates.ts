@@ -13,8 +13,8 @@ export interface CertificateMeta {
 export const certificates: CertificateMeta[] = [
   { id: 'ai-901', code: 'AI-901', name: 'Azure AI Fundamentals' },
   { id: 'az-204', code: 'AZ-204', name: 'Developing Solutions for MS Azure' },
-  { id: 'az-305', code: 'AZ-305', name: 'Designing Microsoft Azure Infrastructure Solutions' },
-  { id: 'az-400', code: 'AZ-400', name: 'Designing and Implementing Microsoft DevOps Solutions' },
+  { id: 'az-305', code: 'AZ-305', name: 'MS Azure Infrastructure Solutions' },
+  { id: 'az-400', code: 'AZ-400', name: 'MS DevOps Solutions' },
 ];
 
 function withCertId(items: Question[], certificateId: CertificateId, idOffset: number): Question[] {
