@@ -37,25 +37,31 @@ export function schedule(card: CardState, correct: boolean, now = new Date()): C
   next.streak = card.streak + 1;
   next.ease = Math.min(3.0, card.ease + 0.05);
 
+  if (card.status === 'review') {
+    next.status = 'mastered';
+    next.interval = Math.max(21, card.interval || 1);
+    next.due = addDays(now, next.interval);
+    return next;
+  }
+
+  if (card.status === 'mastered') {
+    const interval = Math.max(21, Math.round((card.interval || 21) * next.ease));
+    next.status = 'mastered';
+    next.interval = interval;
+    next.due = addDays(now, interval);
+    return next;
+  }
+
   let status: SrsStatus;
   let interval: number;
 
-  if (card.status === 'new' || card.status === 'learning') {
-    if (next.streak >= 2) {
-      status = 'review';
-      interval = 1;
-    } else {
-      status = 'learning';
-      interval = 0;
-      next.due = new Date(now.getTime() + 10 * 60 * 1000).toISOString();
-      next.status = status;
-      next.interval = interval;
-      return next;
-    }
+  if (card.status === 'new') {
+    status = 'review';
+    interval = 1;
   } else {
-    // review or mastered
-    interval = Math.max(1, Math.round((card.interval || 1) * next.ease));
-    status = interval >= 21 ? 'mastered' : 'review';
+    // learning -> review on first correct answer
+    status = 'review';
+    interval = 1;
   }
 
   next.status = status;

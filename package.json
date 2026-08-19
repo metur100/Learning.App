@@ -6,7 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "extract:az204": "node scripts/extract-az204-qa.mjs",
+    "build:az204": "node scripts/build-az204-bank.mjs",
+    "extract:az305": "node scripts/extract-az305-qa.mjs",
+    "build:az305": "node scripts/build-az305-bank.mjs"
   },
   "dependencies": {
     "mammoth": "^1.12.1",

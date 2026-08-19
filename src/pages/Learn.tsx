@@ -7,7 +7,7 @@ export function Learn() {
   const { data } = useAppData();
   const { questions, selectedCertificate } = useQuestionBank();
   const queue = useMemo(
-    () => questions.filter((q) => data.cards[q.id]?.status === 'new').slice(0, 15),
+    () => questions.filter((q) => data.cards[q.id]?.status === 'new'),
     [data.cards],
   );
   return (

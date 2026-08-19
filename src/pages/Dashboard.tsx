@@ -16,11 +16,15 @@ export function Dashboard() {
     for (const c of cards) by[c.status] += 1;
     const now = new Date();
     const due = cards.filter((c) => c.status !== 'new' && isDue(c, now)).length;
+    const reviewPool = questions.filter((q) => {
+      const c = data.cards[q.id];
+      return c && c.status === 'review';
+    }).length;
     const seen = cards.filter((c) => c.reps > 0).length;
     const totalReps = cards.reduce((s, c) => s + c.reps, 0);
     const correctReps = cards.reduce((s, c) => s + c.correctReps, 0);
     const accuracy = totalReps ? Math.round((correctReps / totalReps) * 100) : 0;
-    return { by, due, seen, accuracy, total: questions.length };
+    return { by, due, reviewPool, seen, accuracy, total: questions.length };
   }, [data.cards, questions]);
 
   const completion = Math.round((stats.seen / stats.total) * 100);
@@ -37,11 +41,14 @@ export function Dashboard() {
       </header>
 
       <section className="hero-stat" aria-label="Cards due now">
-        <div className="hero-stat__num">{stats.due}</div>
+        <div className="hero-stat__num">{stats.reviewPool}</div>
         <div className="hero-stat__body">
-          <p className="hero-stat__label">due for review right now</p>
-          {stats.due > 0 ? (
-            <Link className="btn btn--primary" to="/review">Start review</Link>
+          <p className="hero-stat__label">questions in your review pool</p>
+          {stats.reviewPool > 0 ? (
+            <div className="hero-stat__actions">
+              <Link className="btn btn--primary" to="/review">Start review</Link>
+              {newCount > 0 && <Link className="btn btn--primary" to="/learn">Learn</Link>}
+            </div>
           ) : newCount > 0 ? (
             <Link className="btn btn--primary" to="/learn">Learn {newCount} new</Link>
           ) : (

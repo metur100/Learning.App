@@ -1,18 +1,16 @@
 import { useMemo } from 'react';
 import { StudySession } from '../components/StudySession';
 import { useAppData } from '../hooks/useAppData';
-import { isDue } from '../services/scheduler';
 import { useQuestionBank } from '../hooks/useQuestionBank';
 
 export function Review() {
   const { data } = useAppData();
   const { questions, selectedCertificate } = useQuestionBank();
   const queue = useMemo(() => {
-    const now = new Date();
     return questions
       .filter((q) => {
         const c = data.cards[q.id];
-        return c && c.status !== 'new' && isDue(c, now);
+        return c && c.status === 'review';
       })
       .sort((a, b) => +new Date(data.cards[a.id].due) - +new Date(data.cards[b.id].due));
   }, [data.cards]);
@@ -23,9 +21,9 @@ export function Review() {
       mode="review"
       certificateKey={selectedCertificate}
       sessionTitle="Review mode"
-      sessionBody="This queue contains due questions you already started. Correct answers are scheduled further out, while missed answers come back sooner."
-      emptyTitle="Nothing due right now"
-      emptyBody="Come back later, or learn new questions to add more to your review pool."
+      sessionBody="This queue contains questions in review. Correct review answers move to mastered, and missed answers move to learning."
+      emptyTitle="No questions in review yet"
+      emptyBody="Answer questions correctly in Learn to move them into Review."
     />
   );
 }

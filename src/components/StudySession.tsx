@@ -27,8 +27,13 @@ interface EntryState {
   result: GradeResult | null;
 }
 
-const MIN_REPEAT_GAP = 2;
+const REPEAT_GAP_MIN = 5;
+const REPEAT_GAP_MAX = 10;
 const SESSION_KEY_PREFIX = 'ai901-study-session-v1-';
+
+function randomRepeatGap(): number {
+  return REPEAT_GAP_MIN + Math.floor(Math.random() * (REPEAT_GAP_MAX - REPEAT_GAP_MIN + 1));
+}
 
 interface SessionSnapshot {
   entries: Array<{ entryId: number; questionId: number }>;
@@ -45,6 +50,7 @@ interface InitialSessionState {
   index: number;
   entryStates: Record<number, EntryState>;
   correctByQuestion: Record<number, boolean>;
+  baseQuestionIds: number[];
   resumed: boolean;
 }
 
@@ -53,14 +59,20 @@ function snapshotKey(mode: 'learn' | 'review', certificateKey: string): string {
 }
 
 function makeFreshState(queue: Question[]): InitialSessionState {
+  const baseQuestionIds = queue.map((q) => q.id);
   return {
     entries: queue.map((question, i) => ({ entryId: i + 1, question })),
     nextEntryId: queue.length + 1,
     index: 0,
     entryStates: {},
-    correctByQuestion: Object.fromEntries(queue.map((q) => [q.id, false])),
+    correctByQuestion: Object.fromEntries(baseQuestionIds.map((id) => [id, false])),
+    baseQuestionIds,
     resumed: false,
   };
+}
+
+function sameIds(a: number[], b: number[]): boolean {
+  return a.length === b.length && a.every((id, i) => id === b[i]);
 }
 
 function loadInitialState(queue: Question[], mode: 'learn' | 'review', certificateKey: string): InitialSessionState {
@@ -77,9 +89,7 @@ function loadInitialState(queue: Question[], mode: 'learn' | 'review', certifica
     if (!parsed || !Array.isArray(parsed.entries)) return fresh;
     if (!Array.isArray(parsed.baseQuestionIds)) return fresh;
 
-    const sameBase =
-      parsed.baseQuestionIds.length === baseQuestionIds.length &&
-      parsed.baseQuestionIds.every((id, i) => id === baseQuestionIds[i]);
+    const sameBase = sameIds(parsed.baseQuestionIds, baseQuestionIds);
     if (!sameBase) return fresh;
 
     const entries: SessionEntry[] = [];
@@ -107,6 +117,7 @@ function loadInitialState(queue: Question[], mode: 'learn' | 'review', certifica
       index,
       entryStates: parsed.entryStates ?? {},
       correctByQuestion,
+      baseQuestionIds,
       resumed: true,
     };
   } catch {
@@ -130,6 +141,7 @@ export function StudySession({
   const [index, setIndex] = useState(initial.index);
   const [entryStates, setEntryStates] = useState<Record<number, EntryState>>(initial.entryStates);
   const [correctByQuestion, setCorrectByQuestion] = useState<Record<number, boolean>>(initial.correctByQuestion);
+  const [baseQuestionIds] = useState<number[]>(initial.baseQuestionIds);
   const [resumed] = useState(initial.resumed);
 
   const current = entries[index];
@@ -138,7 +150,7 @@ export function StudySession({
     () => Object.values(correctByQuestion).filter(Boolean).length,
     [correctByQuestion],
   );
-  const totalQuestions = queue.length;
+  const totalQuestions = baseQuestionIds.length;
   const unresolvedCount = totalQuestions - correctCount;
   const isComplete = totalQuestions > 0 && unresolvedCount === 0 && index >= entries.length - 1;
 
@@ -158,14 +170,14 @@ export function StudySession({
       index,
       entryStates,
       correctByQuestion,
-      baseQuestionIds: queue.map((q) => q.id),
+      baseQuestionIds,
     };
     try {
       localStorage.setItem(snapshotKey(mode, certificateKey), JSON.stringify(snap));
     } catch {
       /* ignore storage failures */
     }
-  }, [queue, mode, certificateKey, isComplete, entries, nextEntryId, index, entryStates, correctByQuestion]);
+  }, [queue, mode, certificateKey, isComplete, entries, nextEntryId, index, entryStates, correctByQuestion, baseQuestionIds]);
 
   const onGraded = useCallback(
     (r: GradeResult) => {
@@ -219,7 +231,8 @@ export function StudySession({
     } else {
       const alreadyQueuedLater = entries.some((e, i) => i > index && e.question.id === qid);
       if (!alreadyQueuedLater) {
-        const gap = Math.min(MIN_REPEAT_GAP, Math.max(0, entries.length - index - 1));
+        const wantedGap = randomRepeatGap();
+        const gap = Math.min(wantedGap, Math.max(0, entries.length - index - 1));
         const insertAt = Math.min(entries.length, index + 1 + gap);
         const repeatEntry: SessionEntry = { entryId: idSeed, question: current.question };
         idSeed += 1;
@@ -233,7 +246,7 @@ export function StudySession({
     setIndex((i) => Math.min(i + 1, nextEntries.length - 1));
   }, [current, entryStates, correctByQuestion, entries, index, nextEntryId]);
 
-  if (queue.length === 0) {
+  if (entries.length === 0) {
     return (
       <div className="empty">
         <h2>{emptyTitle}</h2>
