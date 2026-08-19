@@ -13,6 +13,19 @@ localStorage. No backend, no network calls.
 
 Open the URL printed by the dev server (default http://localhost:5173).
 
+## Deploy to GitHub Pages
+
+This repo includes a workflow at `.github/workflows/deploy.yml` that builds and
+deploys the app to GitHub Pages whenever you push to the `main` branch.
+
+1. Push this project to a GitHub repository.
+2. In GitHub, open Settings > Pages.
+3. Under Build and deployment, set Source to `GitHub Actions`.
+4. Push to `main` (or run the workflow manually from the Actions tab).
+
+The workflow sets `VITE_BASE_PATH` automatically to your repository name so the
+built asset URLs work on Pages.
+
 ## What is inside
 
 - Dashboard - cards due now, status breakdown (new / learning / review / mastered),
