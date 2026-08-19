@@ -1,0 +1,1412 @@
+[
+  {
+    "topic": 1,
+    "questionNumber": 1,
+    "text": "A. In Azure Active Directory (Azure AD), create an access review of Application1"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 2,
+    "text": "shared access signatures (SAS)"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 3,
+    "text": "A. Azure AD Application Proxy, E. Azure AD enterprise applications"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 4,
+    "text": "Create an access review"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 5,
+    "text": "Premium, Credential passthrough"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 6,
+    "text": "An Azure AD app registration, A conditional Access policy"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 7,
+    "text": "NO"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 8,
+    "text": "NO"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 9,
+    "text": "YES"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 10,
+    "text": "Event, Syslog"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 11,
+    "text": "subscriptions, resource groups, management groups"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 12,
+    "text": "Azure AD Application Proxy, an Azure AD enterprise application, a Conditional Access policy"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 13,
+    "text": "Azure Activity Log"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 14,
+    "text": "NO"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 15,
+    "text": "Azure Event Hubs, Azure Functions"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 16,
+    "text": "Azure API Management"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 17,
+    "text": "A Log Analytics workspace, Install the Azure Monitor agent"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 18,
+    "text": "Azure AD Privileged Identity Management, Azure Managed Identity, Azure AD Privileged Identity Management"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 19,
+    "text": "2,2,2"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 20,
+    "text": "Modify, A managed identity with the Contributor role"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 21,
+    "text": "YES, YES, YES"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 22,
+    "text": "dynamic data masking"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 23,
+    "text": "blobs in a general purpose v2 storage account"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 24,
+    "text": "Key Vault references in Application settings, Secrets: Get"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 25,
+    "text": "a user-assigned managed identity"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 26,
+    "text": "Azure Synapse Link for Azure Cosmos DB"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 27,
+    "text": "90 Days, 730 days"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 28,
+    "text": "password-based"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 29,
+    "text": "Azure Bastion, A Conditional Access policy that has the Cloud apps assignment set to Azure Windows VM Sign-in"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 30,
+    "text": "an Azure policy that enforces tagging rules"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 31,
+    "text": "In the Azure AD tenant of Contoso, create guest accounts for the Fabnkam developers."
+  },
+  {
+    "topic": 1,
+    "questionNumber": 32,
+    "text": "Use Azure AD entitlement management to govern external users."
+  },
+  {
+    "topic": 1,
+    "questionNumber": 33,
+    "text": "Azure AD, Azure API Managment"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 34,
+    "text": "Azure Log Analytics"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 35,
+    "text": "Use Azure AD entitlement management to govern external users."
+  },
+  {
+    "topic": 1,
+    "questionNumber": 36,
+    "text": "system-assigned managed identities"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 37,
+    "text": "Use Azure AD entitlement management to govern external users."
+  },
+  {
+    "topic": 1,
+    "questionNumber": 38,
+    "text": "Use Azure AD entitlement management to govern external users"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 39,
+    "text": "Azure Activity Log"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 40,
+    "text": "Client credentials grant flows, Azure Instance Metadata Service (MDS) endpoint"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 41,
+    "text": "Configure Supported account types in the application registration and update the sign-in endpoint."
+  },
+  {
+    "topic": 1,
+    "questionNumber": 42,
+    "text": "Create an access review"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 43,
+    "text": "Application registration in Azure AD, Delegated permissions"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 44,
+    "text": "Use Azure AD entitlement management to govern external users."
+  },
+  {
+    "topic": 1,
+    "questionNumber": 45,
+    "text": "Configure Supported account types in the application registration and update the sign-in endpoint."
+  },
+  {
+    "topic": 1,
+    "questionNumber": 46,
+    "text": "YES,NO,YES"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 47,
+    "text": "Configure Supported account types in the application registration and update the sign-in endpoint."
+  },
+  {
+    "topic": 1,
+    "questionNumber": 48,
+    "text": "Use Azure AD entitlement management to govern external users."
+  },
+  {
+    "topic": 1,
+    "questionNumber": 49,
+    "text": "Azure Policy and tags"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 50,
+    "text": "Azure Log Analytics"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 51,
+    "text": "Azure Activity Log"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 52,
+    "text": "User Administrator for MarketingAU, Helpdesk Administrator for Marketing"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 53,
+    "text": "Azure Log Analytics"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 54,
+    "text": "Secret, A managed service identity (MSI)"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 55,
+    "text": "App roles, API permissions"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 56,
+    "text": "Azure Log Analytics"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 57,
+    "text": "1"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 58,
+    "text": "Azure Activity Log"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 59,
+    "text": "1, 2"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 60,
+    "text": "Azure AD Identity Governance"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 61,
+    "text": "DepoyIfNotExists, The role-based access control (RBAC) roles required to perform the remediation task."
+  },
+  {
+    "topic": 1,
+    "questionNumber": 62,
+    "text": "Application Insights"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 63,
+    "text": "Workspace 1, Change to a commitment pricing tier"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 64,
+    "text": "budgets, resource tags"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 65,
+    "text": "The Azure Command-Line interface (CLI), Azure acticvity logs"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 66,
+    "text": "A user delegation shared access signature (SAS) only, Azure AD credentials"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 67,
+    "text": "An Azure Monitor data collection endpoint, A KQL query"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 68,
+    "text": "Azure Lighthouse, The Azure Monitor agent"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 1,
+    "text": "Azure SQL Managed Instance"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 2,
+    "text": "an Azure Import/Export job, Azure Data Factory"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 3,
+    "text": "one Azure Service Bus topic"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 4,
+    "text": "BlockBlobStorage, Blob"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 5,
+    "text": "Storage1,and storage3 only, Storage1 and storage4 only"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 6,
+    "text": "Azure Blob Storage"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 7,
+    "text": "an elastic pool that contains 20 Azure SQL databases"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 8,
+    "text": "Azure SQL Database, Hyperscale"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 9,
+    "text": "Azure Cosmos DB SQL API, Azure Time Series Insights"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 10,
+    "text": "Azure Cosmos DB SQL API"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 11,
+    "text": "YES,NO, NO"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 12,
+    "text": "Data Migration Assistant, Azure Cosmos DB Data Migration Tool"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 14,
+    "text": "Create an Azure Blob Storage account that is configured for the Cool default access tier. Create a blob container, copy the files to the blob container, and set each file to the Archive access tier,Create a general-purpose v2 storage account that is configured for the Hot default access tier. Create a blob container, copy the files to the blob container, and set each file to the Archive access tier."
+  },
+  {
+    "topic": 2,
+    "questionNumber": 15,
+    "text": "two databases on the same Azure SQL managed instance"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 16,
+    "text": "Azure SQL Database Premium"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 17,
+    "text": "General purpose v2 with Hot access tier for blobs, Container access policy"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 18,
+    "text": "Azure Data Lake Storage Gen2, Azure SQL Database Hyperscale"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 19,
+    "text": "RSA 3072"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 20,
+    "text": "Azure Cosmos DB for NoSQL, Azure Time Series Insights"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 21,
+    "text": "General purpose v2 with Hot access tier for blobs, Container access policy"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 22,
+    "text": "A dedicated SQL pool, A serverless Apache Spark pool"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 23,
+    "text": "Azure Data Lake Storage Gen2"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 24,
+    "text": "Azure Blob Storage, Azure Cosmos DB"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 25,
+    "text": "Azure Cosmos DB for NoSQL"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 26,
+    "text": "General Purpose"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 27,
+    "text": "PostgreSQL"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 28,
+    "text": "Azure Data Lake Storage Gen2, Avro"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 29,
+    "text": "Azure Synapse Link for Azure Cosmos DB"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 30,
+    "text": "Dynamic data masking, Always Encrypted"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 31,
+    "text": "Azure Data Lake Storage"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 32,
+    "text": "Azure Data Explorer, KQL"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 33,
+    "text": "A single Azure SQL Database, Gerneal Purpose"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 34,
+    "text": "Block, The change feed"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 35,
+    "text": "Azure Synpase pipelines, Azure Data Share"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 36,
+    "text": "An Azure Synpase Analytics dedicated SQL pool"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 37,
+    "text": "A single Azure SQL database, Hyperscale"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 38,
+    "text": "blob versioning"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 39,
+    "text": "Azure Data Factory"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 1,
+    "text": "Azure Site Recovery"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 2,
+    "text": "36 months, 1 day"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 3,
+    "text": "YES"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 4,
+    "text": "NO"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 5,
+    "text": "Premium, Zone-redundant storage (ZRS)"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 6,
+    "text": "NO"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 7,
+    "text": "BlockBlobStorage with Premium performance and Zone-redundant storage (ZRS) replication"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 8,
+    "text": "Premium block blobs, Zone-redundant storage (ZRS)"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 9,
+    "text": "Azure Front Door"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 10,
+    "text": "Standard general-pupose v2, Zone-redudant stprage (ZRS)"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 11,
+    "text": "A server in the paired region, Delete"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 12,
+    "text": "Azure Site Recovery only, Azure Site Recovery and Azure Backup, Azure Backup only"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 14,
+    "text": "Azure SQL Database Premium"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 15,
+    "text": "NO"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 16,
+    "text": "Azure SQL Database Business Critical"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 17,
+    "text": "The Hyperscale service tier, Active geo-replication"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 18,
+    "text": "Creating an Always On availability group on VM1, Azure Migrate"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 19,
+    "text": "General Purpose service tier and Serverless computer tier, Always Encrypted"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 20,
+    "text": "Implement Geo-redundant backup"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 21,
+    "text": "Gateway Load Balancer"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 22,
+    "text": "A Recovery Service vault, A Resource Guard"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 23,
+    "text": "The Micorsoft Azure Recovery Service(Mars) agent, Locally-redudant storage (LRS)"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 24,
+    "text": "Azure Front Door, Azure Application Gateway"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 25,
+    "text": "Enable operational backup with Azure Backup, Enable permanent delete for soft deleted items."
+  },
+  {
+    "topic": 3,
+    "questionNumber": 26,
+    "text": "Azure Container Apps, Azure Container Registry"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 27,
+    "text": "- Before a failover, configure geo-redudant storage(GRS) replicantion for the storage account,- Initate a failover,- After a failover, configure geo redundant storage (GRS) replication for the storage account."
+  },
+  {
+    "topic": 4,
+    "questionNumber": 1,
+    "text": "Upgrade VirtualWAN1 to Standard"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 2,
+    "text": "Azure Logic Apps and Azure Functions"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 3,
+    "text": "Azure AD Domain Services (Azure AD DS)"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 4,
+    "text": "Azure Functions in the Premium plan"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 5,
+    "text": "an Azure file share and Azure File Sync"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 6,
+    "text": "An On premises data gateway, A connection gateway resource"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 7,
+    "text": "YES, YES, NO"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 8,
+    "text": "Azure Application gateway, Web Application Firewall (WAF)"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 9,
+    "text": "Azure API Management Premium tier with virtual network connection"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 10,
+    "text": "an Azure App Service web app"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 11,
+    "text": "3"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 12,
+    "text": "vCore-based General Purpose"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 14,
+    "text": "Azure Migrate"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 15,
+    "text": "Azure CycleCloud"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 16,
+    "text": "A Traffic Manager profile, Priority traffic routing"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 17,
+    "text": "NO"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 18,
+    "text": "NO"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 19,
+    "text": "NO"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 20,
+    "text": "Border Gateway Protocol (BGP), Border Gateway Protocol (BGP)"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 21,
+    "text": "Standard general-purpose v2. Geo redundant storage (GRS), a private endpoint"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 22,
+    "text": "GET only, Anonymous"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 23,
+    "text": "Azure Policy"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 24,
+    "text": "192.168.0.0/24, 192.168.1.0/27"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 25,
+    "text": "Azure Data Factory"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 26,
+    "text": "cluster autoscaler"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 27,
+    "text": "Install a self-hosted integration runtime, Create a pipeline"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 28,
+    "text": "virtual nodes"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 29,
+    "text": "an Azure Service Bus queue"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 30,
+    "text": "Azure Data Factory"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 31,
+    "text": "the self-hosted integration runtime"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 32,
+    "text": "Azure AD enterprise applications, Conditional Access policies"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 33,
+    "text": "Blueprints remain connected to the deployed resources."
+  },
+  {
+    "topic": 4,
+    "questionNumber": 34,
+    "text": "Azure Resource Mover, Azure Migrate"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 35,
+    "text": "Azure Front Door"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 36,
+    "text": "Configure VM1 to forward contoso.com to the Azure-provided DNS at 168.63.129.16, Forward contoso.com to VM1"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 37,
+    "text": "Azure Service Fabric"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 38,
+    "text": "YES"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 39,
+    "text": "Azure Activity Log"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 40,
+    "text": "Azure Policy"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 41,
+    "text": "Azure Service Bus"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 42,
+    "text": "Azure Data Factory"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 43,
+    "text": "Azure Cosmos DB"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 44,
+    "text": "premium block blobs"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 45,
+    "text": "tables in an Azure Storage account that use geo-redundant storage (GRS)"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 46,
+    "text": "Azure AD, A web API"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 47,
+    "text": "The root management group, The subscription"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 48,
+    "text": "None, ReadOnly"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 49,
+    "text": "Create a render farm that uses Azure Batch., Enable parallel task execution on compute nodes"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 50,
+    "text": "SQL Server on an Azure virtual machine, Azure SQL Managed Instance"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 51,
+    "text": "Azure SQL MAnaged Instance, Auto-failover-group"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 52,
+    "text": "Azure SQL Database Business Critical"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 53,
+    "text": "the same geography only"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 54,
+    "text": "an Always On Failover Cluster Instance that has a virtual network name (VNN) and a standard file share"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 55,
+    "text": "NO"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 56,
+    "text": "NO"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 57,
+    "text": "YES"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 58,
+    "text": "Deploy a load balancer and a virtual machine scale set across two availability zones"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 59,
+    "text": "Premium SKU Azure Container Registry"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 60,
+    "text": "a resource token and an Access control (IAM) role assignment"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 61,
+    "text": "a general purpose v2 storage account that has hierarchical namespace enabled"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 62,
+    "text": "vCore, An Azure SQL Database elastic pool"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 63,
+    "text": "Azure Data Lake Storage, Azure Data Factory"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 64,
+    "text": "User subsription and low-priority virtual machines, Batch service and dedicated virtual machines"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 65,
+    "text": "Azure Queue Storage"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 66,
+    "text": "Azure Queue Storage"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 67,
+    "text": "Azure SQL Database Premium"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 68,
+    "text": "Azure Service Bus"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 69,
+    "text": "Azure SQL Database Business Critical"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 70,
+    "text": "cluster autoscaler"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 71,
+    "text": "Azure Service Bus"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 72,
+    "text": "Azure Virtual WAN with a secured virtual hub"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 73,
+    "text": "Azure SQL Database Business Critical"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 74,
+    "text": "a service principal"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 75,
+    "text": "Owner, Owner"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 76,
+    "text": "Use Azure AD entitlement management to govern external users."
+  },
+  {
+    "topic": 4,
+    "questionNumber": 77,
+    "text": "Azure Cache for Redis"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 78,
+    "text": "Azure Front Door Premium"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 79,
+    "text": "Azure Service Bus queues with sessions enabled"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 80,
+    "text": "DS, Premium SSD"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 81,
+    "text": "Premium"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 82,
+    "text": "Azure Service Bus"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 83,
+    "text": "Azure Queue Storage"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 84,
+    "text": "Azure SQL Database Business Critical"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 85,
+    "text": "Azure SQL Database Premium"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 86,
+    "text": "3, Standard"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 87,
+    "text": "Configure the horizontal pod autoscaler, Install Kubernetes-based Event Driven Autoscaling (KEDA)."
+  },
+  {
+    "topic": 4,
+    "questionNumber": 88,
+    "text": "Azure Queue Storage"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 89,
+    "text": "Azure SQL Database Premium"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 90,
+    "text": "Azure SQL Database Premium"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 91,
+    "text": "Azure Service Bus"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 92,
+    "text": "Azure Queue Storage"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 93,
+    "text": "Azure Data Studio"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 94,
+    "text": "Azure SQL Database Premium"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 95,
+    "text": "Azure SQL Database Business Critical"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 96,
+    "text": "Azure Queue Storage"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 97,
+    "text": "Azure Queue Storage"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 98,
+    "text": "Azure Queue Storage"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 99,
+    "text": "Azure SQL Database Business Critical"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 100,
+    "text": "Azure SQL Database Premium"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 101,
+    "text": "Azure Queue Storage"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 102,
+    "text": "2, B-Series"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 103,
+    "text": "Azure Service Bus"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 104,
+    "text": "Azure Database Migration Service"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 105,
+    "text": "Azure Service Bus"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 106,
+    "text": "Azure Service Bus"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 107,
+    "text": "Azure SQL Database Business Critical"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 108,
+    "text": "Protection against Open Web Application Security Project (OWASP) vulnerablilties"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 109,
+    "text": "NO"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 110,
+    "text": "Azure App Service"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 111,
+    "text": "1 subnet, A private DNS zone"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 112,
+    "text": "An enterprise application, A server that runs Windows Server and has the Azure AD Application Proxy connector installed"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 113,
+    "text": "Deploy an ingress controller to AKS1."
+  },
+  {
+    "topic": 4,
+    "questionNumber": 114,
+    "text": "Configure a dedicated managemd virtual network, Managed private endpoints."
+  },
+  {
+    "topic": 4,
+    "questionNumber": 115,
+    "text": "Apache Spark"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 116,
+    "text": "An Azure MIgrate project, An Azure Migrate appliance"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 117,
+    "text": "SQL Server on Azure Virtual Machines, Azure Migrate"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 118,
+    "text": "Azure SQL Database Business Critical"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 119,
+    "text": "Azure Log Analytics"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 120,
+    "text": "Azure Log Analytics"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 121,
+    "text": "Azure Log Analytics"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 122,
+    "text": "Azure SQL Database Premium"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 123,
+    "text": "Azure Log Analytics"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 124,
+    "text": "1, 2"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 125,
+    "text": "Azure SQL Database Premium"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 126,
+    "text": "Attribute-based access control (ABAC), Blobs"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 127,
+    "text": "Azure Service Bus"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 1,
+    "text": "Azure AD Identity Protection, Grant control in Capolicy1"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 2,
+    "text": "Create an access policy for the blob service"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 1,
+    "text": "an Azure function"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 2,
+    "text": "deployment slots"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 3,
+    "text": "one App Service plan per region"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 4,
+    "text": "A system-assigned managed identity, A role assignment"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 1,
+    "text": "YES,NO,NO"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 2,
+    "text": "Deploy domain controllers for corp.fabrikam.com to virtual networks in Azure."
+  },
+  {
+    "topic": 4,
+    "questionNumber": 1,
+    "text": "3, 3"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 2,
+    "text": "Standard general-purpose v2, Hierachical namespace"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 3,
+    "text": "a private endpoint"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 4,
+    "text": "2"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 4,
+    "text": "Create an Azure policy definition that uses the deployIfNotExists effect, Create an Azure policy assignment, Invoke a remediation task."
+  },
+  {
+    "topic": 4,
+    "questionNumber": 1,
+    "text": "1,1,2"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 2,
+    "text": "Azure AD Connect Health"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 1,
+    "text": "Azure AD Identity Governance, Access reviews"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 2,
+    "text": "Azure Application Insights"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 1,
+    "text": "a vCore-based Azure SQL database"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 1,
+    "text": "An Azure SQL Datbase elastic pool, Business Critical"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 1,
+    "text": "Azure Files, Azure File Sync"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 2,
+    "text": "an Azure Cosmos DB that uses multi-region writes"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 1,
+    "text": "1,2"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 1,
+    "text": "An Azure SQL Databse elastic pool, Business Critical"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 1,
+    "text": "YES,YES,NO"
+  }
+]

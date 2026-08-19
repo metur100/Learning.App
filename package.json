@@ -10,7 +10,10 @@
     "extract:az204": "node scripts/extract-az204-qa.mjs",
     "build:az204": "node scripts/build-az204-bank.mjs",
     "extract:az305": "node scripts/extract-az305-qa.mjs",
-    "build:az305": "node scripts/build-az305-bank.mjs"
+    "build:az305": "node scripts/build-az305-bank.mjs",
+    "extract:az400": "node scripts/extract-az400-qa.mjs",
+    "extract:az400:ocr": "node scripts/extract-az400-ocr-options.mjs",
+    "build:az400": "node scripts/build-az400-bank.mjs"
   },
   "dependencies": {
     "mammoth": "^1.12.1",

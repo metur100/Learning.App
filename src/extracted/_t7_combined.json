@@ -1,0 +1,470 @@
+{
+  "281": {
+    "paired": {
+      "index": 281,
+      "topic": 7,
+      "questionNumber": 6,
+      "questionText": "DRAG DROP -\nYou are configuring Azure Pipelines for three projects in Azure DevOps as shown in the following table.\nWhich version control system should you recommend for each project? To answer, drag the appropriate version control systems to the correct\nprojects. Each version control system may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll\nto view content.\nNOTE: Each correct selection is worth one point.\nSelect and Place:\n",
+      "docxAnswer": "1 -> Git in Azure DevOps, 2 -> Github Enterprise, 3 -> Subversion",
+      "hasAnswer": true
+    },
+    "ocr": {
+      "topic": 7,
+      "questionNumber": 6,
+      "page": 122,
+      "options": [
+        "GitHub Enterprise"
+      ]
+    }
+  },
+  "288": {
+    "paired": {
+      "index": 288,
+      "topic": 7,
+      "questionNumber": 13,
+      "questionText": "DRAG DROP -\nYour company has four projects. The version control requirements for each project are shown in the following table.\nYou plan to use Azure Repos for all the projects.\nWhich version control system should you use for each project? To answer, drag the appropriate version control systems to the correct projects.\nEach version control system may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view\ncontent.\nNOTE: Each correct selection is worth one point.\nSelect and Place:",
+      "docxAnswer": "TFVS(Team Foundation Version Control), Git, Git, TFVS",
+      "hasAnswer": true
+    },
+    "ocr": {
+      "topic": 7,
+      "questionNumber": 13,
+      "page": 125,
+      "options": [
+        "JaCoCo",
+        "MSTest",
+        "pasaz",
+        "JUnit"
+      ]
+    }
+  },
+  "290": {
+    "paired": {
+      "index": 290,
+      "topic": 7,
+      "questionNumber": 15,
+      "questionText": "HOTSPOT -\nYou company uses Azure DevOps to deploy infrastructures to Azure.\nPipelines are developed by using YAML.\nYou execute a pipeline and receive the results in the web portal for Azure Pipelines as shown in the following exhibit.\nUse the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\nNOTE: Each correct selection is worth one point.\nHot Area:\n",
+      "docxAnswer": "1 Job, 3 stages (build, deploy to dev, deploy to UAT)",
+      "hasAnswer": true
+    },
+    "ocr": {
+      "topic": 7,
+      "questionNumber": 15,
+      "page": 126,
+      "options": [
+        "one stage",
+        "Build_vmecontains | [¥]",
+        "The pipeline contains J]"
+      ]
+    }
+  },
+  "291": {
+    "paired": {
+      "index": 291,
+      "topic": 7,
+      "questionNumber": 16,
+      "questionText": "DRAG DROP -\nYou are configuring Azure DevOps build pipelines.\nYou plan to use hosted build agents.\nWhich build agent pool should you use to compile each application type? To answer, drag the appropriate build agent pools to the correct\napplication types. Each build agent pool may be used once, more than once, or not at all. You may need to drag the split bar between panes or\nscroll to view content.\nNOTE: Each correct selection is worth one point.\nSelect and Place:",
+      "docxAnswer": "Hosted macOs, hosted windows container",
+      "hasAnswer": true
+    },
+    "ocr": {
+      "topic": 7,
+      "questionNumber": 16,
+      "page": 127,
+      "options": [
+        "Build Agent Pools Answer Area",
+        "MSTest",
+        "Coverlet",
+        "Cobertura",
+        "a self-hosted agent",
+        "a File Transform task",
+        "You have an existing build pipeline in Azure Pipelines."
+      ]
+    }
+  },
+  "294": {
+    "paired": {
+      "index": 294,
+      "topic": 7,
+      "questionNumber": 19,
+      "questionText": "HOTSPOT -\nYou are designing YAML-based Azure pipelines for the apps shown in the following table.\nYou need to configure the YAML strategy value for each app. The solution must minimize app downtime.\nWhich value should you configure for each app? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+      "docxAnswer": "App1: rolling, App2: canary",
+      "hasAnswer": true
+    },
+    "ocr": {
+      "topic": 7,
+      "questionNumber": 19,
+      "page": 128,
+      "options": [
+        "canary",
+        "Reader",
+        "rolling",
+        "runonce",
+        "Contributor"
+      ]
+    }
+  },
+  "298": {
+    "paired": {
+      "index": 298,
+      "topic": 7,
+      "questionNumber": 23,
+      "questionText": "DRAG DROP -\nYour company has two virtual machines that run Linux in a third-party public cloud.\nYou plan to use the company's Azure Automation State Configuration implementation to manage the two virtual machines and detect\nconfiguration drift.\nYou need to onboard the Linux virtual machines.\nYou install PowerShell Desired State Configuration (DSC) on the virtual machines, and then run register.py.\nWhich three actions should you perform next in sequence? To answer, move the actions from the list of actions to the answer area and arrange\nthem in the correct order.\nSelect and Place:",
+      "docxAnswer": "Create a DSC metaconfiguration\n\nCopy the metaconfiguration to the virtual machines\n\nFrom the virtual machines, run setdsclocalconfigurationmanager.py",
+      "hasAnswer": true
+    },
+    "ocr": {
+      "topic": 7,
+      "questionNumber": 23,
+      "page": 130,
+      "options": [
+        "Create a DSC metaconfiguration",
+        "From the virtual machines, run",
+        "setdsclocalconfigurationmanager.py",
+        "machines",
+        "Azure Automation ®",
+        "To complete this task, sign in to the Microsoft Azure portal."
+      ]
+    }
+  },
+  "300": {
+    "paired": {
+      "index": 300,
+      "topic": 7,
+      "questionNumber": 25,
+      "questionText": "DRAG DROP -\nYou are creating a container for an ASP.NET Core app.\nYou need to create a Dockerfile file to build the image. The solution must ensure that the size of the image is minimized.\nHow should you configure the file? To answer, drag the appropriate values to the correct targets. Each value may be used once, more than once, or\nnot at all. You may need to drag the split bar between panes or scroll to view content.\nNOTE: Each correct selection is worth one point.\nSelect and Place:",
+      "docxAnswer": "FROM mcr.microsoft.com/dotnet/core/sdk:2.1 AS build-env\n\nWORKDIR /app\n\nCOPY *.csproj ./\n\nRUN dotnet restore\n\nCOPY . ./\n\nRUN dotnet publish -c Release -o out\n\nFROM mcr.microsoft.com/dotnet/core/aspnet:2.1\n\nWORKDIR /app\n\nCOPY --from=build-env /app/out .\n\nENTRYPOINT [\"dotnet\", \"asp-net-getting-started.dll\"]",
+      "hasAnswer": true
+    },
+    "ocr": {
+      "topic": 7,
+      "questionNumber": 25,
+      "page": 131,
+      "options": [
+        "dotnet",
+        "MvcMovie.dl1",
+        "Policy Types",
+        "A status policy",
+        "dotnet publish -c Release -o out FROM | Value i AS build-env",
+        "A check-in policy Pull requests must have a Quality Gate status"
+      ]
+    }
+  },
+  "301": {
+    "paired": {
+      "index": 301,
+      "topic": 7,
+      "questionNumber": 26,
+      "questionText": "DRAG DROP -\nYou are configuring the settings of a new Git repository in Azure Repos.\nYou need to ensure that pull requests in a branch meet the following criteria before they are merged:\n✑ Committed code must compile successfully.\n✑ Pull requests must have a Quality Gate status of Passed in SonarCloud.\nWhich policy type should you configure for each requirement? To answer, drag the appropriate policy types to the correct requirements. Each\npolicy type may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.\nNOTE: Each correct selection is worth one point.\nSelect and Place:\n",
+      "docxAnswer": "a build policy, a status policy",
+      "hasAnswer": true
+    },
+    "ocr": {
+      "topic": 7,
+      "questionNumber": 26,
+      "page": 131,
+      "options": [
+        "dotnet",
+        "MvcMovie.dl1",
+        "Policy Types",
+        "A status policy",
+        "dotnet publish -c Release -o out FROM | Value i AS build-env",
+        "A check-in policy Pull requests must have a Quality Gate status"
+      ]
+    }
+  },
+  "310": {
+    "paired": {
+      "index": 310,
+      "topic": 7,
+      "questionNumber": 35,
+      "questionText": "HOTSPOT -\nYou need to deploy Azure Kubernetes Service (AKS) to host an application. The solution must meet the following requirements:\n✑ Containers must only be published internally.\n✑ AKS clusters must be able to create and manage containers in Azure.\nWhat should you use for each requirement? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+      "docxAnswer": "Azure Container Registry, An Azure service principal",
+      "hasAnswer": true
+    },
+    "ocr": {
+      "topic": 7,
+      "questionNumber": 35,
+      "page": 135,
+      "options": [
+        "Dockerfile",
+        "Azure Container Registry",
+        "Azure Container Instances",
+        "shrinkwrap.json files.",
+        "Delete Package-lock.json.",
+        "Configure the File System Agent plug-in.",
+        "Add a devDependencies section to Package-lock.json.",
+        "manual tasks performed during the planning phase and the deployment phase"
+      ]
+    }
+  },
+  "316": {
+    "paired": {
+      "index": 316,
+      "topic": 7,
+      "questionNumber": 41,
+      "questionText": "DRAG DROP -\nYou are deploying a new application that uses Azure virtual machines.\nYou plan to use the Desired State Configuration (DSC) extension on the virtual machines.\nYou need to ensure that the virtual machines always have the same Windows feature installed.\nWhich three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and\narrange them in the correct order.\nSelect and Place:",
+      "docxAnswer": "- Create a PowerShell configuration file\n\n- Load the file to Azure Blob storage\n\n- Configure the *DSC extension* on the virtual machines",
+      "hasAnswer": true
+    },
+    "ocr": {
+      "topic": 7,
+      "questionNumber": 41,
+      "page": 137,
+      "options": [
+        "Create a YAML configuration file.",
+        "Create a PowerShell configuration file.",
+        "a multi-stage Dockerfile",
+        "a single stage Dockerfile",
+        "being published to the pipeline.",
+        "Configure the Custom Script Extension",
+        "Load the file to Azure Blob storage. S ®"
+      ]
+    }
+  },
+  "323": {
+    "paired": {
+      "index": 323,
+      "topic": 7,
+      "questionNumber": 48,
+      "questionText": "DRAG DROP -\nYou have an Azure DevOps release pipeline as shown in the following exhibit.\nYou need to complete the pipeline to configure OWASP ZAP for security testing.\nWhich five Azure CLI tasks should you add in sequence? To answer, move the tasks from the list of tasks to the answer area and arrange them in\nthe correct order.\nSelect and Place:\n",
+      "docxAnswer": "Docker CLI installer (f)\n\nBuild machine image (b)\n\nCall the Baseline Scan (e)\n\nConvert Report Format (a)\n\nDestroy OWASP Container (d)",
+      "hasAnswer": true
+    },
+    "ocr": {
+      "topic": 7,
+      "questionNumber": 48,
+      "page": 139,
+      "options": [
+        "Build machine image",
+        "Docker CLI installer",
+        "Call the Baseline Scan"
+      ]
+    }
+  },
+  "324": {
+    "paired": {
+      "index": 324,
+      "topic": 7,
+      "questionNumber": 49,
+      "questionText": "DRAG DROP -\nYou have an Azure DevOps pipeline that is used to deploy a Node.js app.\nYou need to ensure that the dependencies are cached between builds.\nHow should you configure the deployment YAML? To answer, drag the appropriate values to the correct targets. Each value may be used once,\nmore than once, or not at all. You may need to drag the split bar between panes or scroll to view content.\nNOTE: Each correct selection is worth one point.",
+      "docxAnswer": "Entweder ( build.sh + eq(var…)) oder (npm install + ne(var…))",
+      "hasAnswer": true
+    },
+    "ocr": {
+      "topic": 7,
+      "questionNumber": 49,
+      "page": 140,
+      "options": [
+        "Create an agent pool",
+        "Create a deployment group",
+        "build.sh npm_config cache: $(Pipeline.Workspace)/.npm",
+        "Move to a blue/green deployment pattern",
+        "The build pipeline takes approximately one day to complete.",
+        "nem | nS (Agent 08) ”"
+      ]
+    }
+  },
+  "327": {
+    "paired": {
+      "index": 327,
+      "topic": 7,
+      "questionNumber": 52,
+      "questionText": "DRAG DROP -\nYou have an Azure subscription that contains a resources group named RG1. RG1 contains the following resources:\n✑ Four Azure virtual machines that run Windows Server and have Internet Information Services (IIS) installed.\n✑ SQL Server on an Azure virtual machine.\n✑ An Azure Load Balancer.\nYou need to deploy an application to the virtual machines in RG1 by using Azure Pipelines.\nWhich four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and\narrange them in the correct order.\nNOTE: More than one order of answer choices is correct. You will receive credit for any of the correct orders you select.\nSelect and Place:",
+      "docxAnswer": "Create a deployment group\n\nAdd the Azure Pipelines Agent extension to the virtual machines\n\nAdd and configure a deployment group job for the pipeline\n\nexcuse the pipeline",
+      "hasAnswer": true
+    },
+    "ocr": {
+      "topic": 7,
+      "questionNumber": 52,
+      "page": 141,
+      "options": [
+        "Create an agent pool",
+        "Create a deployment group",
+        "Execute the pipeline",
+        "Add the Azure Pipelines Agent",
+        "Add and configure a deployment group",
+        "Add the Puppet Agent extension to the",
+        "job for the pipeline ®"
+      ]
+    }
+  },
+  "330": {
+    "paired": {
+      "index": 330,
+      "topic": 7,
+      "questionNumber": 55,
+      "questionText": "HOTSPOT -\nYou currently use JIRA, Jenkins, and Octopus as part of your DevOps processes.\nYou plan to use Azure DevOps to replace these tools.\nWhich Azure DevOps service should you use to replace each tool? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:\n",
+      "docxAnswer": "Jira: Boards, Jenkins: Build pipelines, Octopus: Release pipelines",
+      "hasAnswer": true
+    },
+    "ocr": {
+      "topic": 7,
+      "questionNumber": 55,
+      "page": 142,
+      "options": [
+        "Build pipelines",
+        "Release pipelines",
+        "Boards",
+        "Repos"
+      ]
+    }
+  },
+  "333": {
+    "paired": {
+      "index": 333,
+      "topic": 7,
+      "questionNumber": 58,
+      "questionText": "DRAG DROP -\nYou have a project in Azure DevOps that uses packages from multiple public feeds. Some of the feeds are unreliable.\nYou need to consolidate the packages into a single feed.\nWhich three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and\narrange them in the correct order.\nSelect and Place:\n",
+      "docxAnswer": "(erklärung in Comments)\n\nCreate an azure artifacts feed that uses upstream sources\n\nModify the configuration files to reference the Arure Artifacts feed\n\nRun an initial package restore",
+      "hasAnswer": true
+    },
+    "ocr": {
+      "topic": 7,
+      "questionNumber": 58,
+      "page": 143,
+      "options": [
+        "Create an npm package.",
+        "Create a NuGet package.",
+        "Create a Microsoft Visual Studio project that includes all the",
+        "Create an Azure Artifacts feed that uses upstream sources. ® ©",
+        "feed."
+      ]
+    }
+  },
+  "334": {
+    "paired": {
+      "index": 334,
+      "topic": 7,
+      "questionNumber": 59,
+      "questionText": "HOTSPOT -\nYou have the Azure DevOps pipeline shown in the following exhibit.\nUse the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+      "docxAnswer": "1 Job: (Cloud Agent), 4 Tasks (Nuget Restore, Compile Application, Copy Files, Publish Artifact)",
+      "hasAnswer": true
+    },
+    "ocr": {
+      "topic": 7,
+      "questionNumber": 59,
+      "page": 144,
+      "options": [
+        "The pipeline has w job(s).",
+        "The pipeline has w task(s).",
+        "To complete this task, sign in to the Microsoft Azure portal."
+      ]
+    }
+  },
+  "336": {
+    "paired": {
+      "index": 336,
+      "topic": 7,
+      "questionNumber": 61,
+      "questionText": "DRAG DROP -\nYou need to use Azure Automation State Configuration to manage the ongoing consistency of virtual machine configurations.\nWhich five actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and\narrange them in the correct order.\nNOTE: More than one order of answer choices is correct. You will receive credit for any of the correct orders you select.\nSelect and Place:",
+      "docxAnswer": "Upload\n\nCompile\n\nOnboard\n\nAssing the node configuration\n\nCheck",
+      "hasAnswer": true
+    },
+    "ocr": {
+      "topic": 7,
+      "questionNumber": 61,
+      "page": 145,
+      "options": [
+        "Create a management group.",
+        "Rebase",
+        "Configuration.",
+        "You make several changes to a branch used for experimentation.",
+        "Push",
+        "Fetch",
+        "Merge"
+      ]
+    }
+  },
+  "350": {
+    "paired": {
+      "index": 350,
+      "topic": 7,
+      "questionNumber": 75,
+      "questionText": "DRAG DROP -\nYou are building an application that has the following assets:\n✑ Source code\n✑ Logs from automated tests and builds\n✑ Large and frequently updated binary assets\n✑ A common library used by multiple applications\nWhere should you store each asset? To answer, drag the appropriate Azure services to the correct assets. Each service may be used once. You\nmay need to drag the split bar between panes or scroll to view content.\nNOTE: Each correct selection is worth one point.\nSelect and Place:",
+      "docxAnswer": "1. Azure Repos\n\nAzure Artifacts\n\nAzure Pipelines\n\nAzure Storage",
+      "hasAnswer": true
+    },
+    "ocr": {
+      "topic": 7,
+      "questionNumber": 75,
+      "page": 150,
+      "options": [
+        "Create two container jobs.",
+        "Azure Test Plans",
+        "development.",
+        "Azure Services ~~ Answer Area",
+        "Add another self-hosted agent.",
+        "Add a Docker Compose task to the build pipelines.",
+        "Azure Pipelines | A common library used by muttiple applications C1]",
+        "Change the self-hosted agent to use Red Hat Enterprise Linux (RHEL) 8.",
+        "views"
+      ]
+    }
+  },
+  "355": {
+    "paired": {
+      "index": 355,
+      "topic": 7,
+      "questionNumber": 80,
+      "questionText": "HOTSPOT -\nYour company uses Team Foundation Server 2013 (TFS 2013).\nYou plan to migrate to Azure DevOps.\nYou need to recommend a migration strategy that meets the following requirements:\n✑ Preserves the dates of Team Foundation Version Control changesets\n✑ Preserves the changed dates of work items revisions\nMinimizes migration effort -\n✑ Migrates all TFS artifacts\nWhat should you recommend? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:\n",
+      "docxAnswer": "Upgrade TFS to the most recent RTW release\n\nUse TFS Database Import Service",
+      "hasAnswer": true
+    },
+    "ocr": {
+      "topic": 7,
+      "questionNumber": 80,
+      "page": 151,
+      "options": []
+    }
+  },
+  "359": {
+    "paired": {
+      "index": 359,
+      "topic": 7,
+      "questionNumber": 84,
+      "questionText": "HOTSPOT -\nYou plan to use Desired State Configuration (DSC) to maintain the configuration state of virtual machines that run Windows Server.\nYou need to perform the following:\n✑ Install Internet Information Services (IIS) on the virtual machines.\n✑ Update the default home page of the IIS web server.\nHow should you configure the DSC configuration file? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+      "docxAnswer": "1. WindowsFeature 2. File",
+      "hasAnswer": true
+    },
+    "ocr": {
+      "topic": 7,
+      "questionNumber": 84,
+      "page": 153,
+      "options": [
+        "Script",
+        "Present",
+        "Service",
+        "Archive",
+        "Package",
+        "Web-Server",
+        "WindowsFeature",
+        "WindowsProcess",
+        "File",
+        "\\DSCResources\\web\\index.htm’"
+      ]
+    }
+  },
+  "361": {
+    "paired": {
+      "index": 361,
+      "topic": 7,
+      "questionNumber": 86,
+      "questionText": "HOTSPOT -\nYou are creating a YAML-based Azure pipeline to deploy an Azure Data Factory instance that has the following requirements:\n✑ If a Data Factory instance exists already, the instance must be overwritten.\n✑ No other resources in a resource group named Fabrikam must be affected.\nHow should you complete the code? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:",
+      "docxAnswer": "Create or Update Resource Group, Incremental",
+      "hasAnswer": true
+    },
+    "ocr": {
+      "topic": 7,
+      "questionNumber": 86,
+      "page": 154,
+      "options": [
+        "deploymentMode: 5,2",
+        "deploymentScope: \"Resource Group'",
+        "‘Create Or Update Resource Group’",
+        "task: AzureResourceManagerTemplateDeployment@3",
+        "azureResourceManagerConnection: 'Fabrikam Corporate(a41fbled-a2aa-42f@-a7ac-8fcc6eflcsdb)’"
+      ]
+    }
+  }
+}

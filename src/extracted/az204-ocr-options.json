@@ -1,0 +1,2161 @@
+{
+  "2": {
+    "topic": 1,
+    "questionNumber": 2,
+    "page": 2,
+    "options": [
+      "Azure Active Directory (AD)",
+      "An Azure policy",
+      "A backup policy",
+      "An access policy",
+      "An Azure Storage account"
+    ]
+  },
+  "8": {
+    "topic": 1,
+    "questionNumber": 8,
+    "page": 5,
+    "options": [
+      "AzCopy",
+      "Consumption plan",
+      "Azure Storage Explorer",
+      "binding",
+      "Azure Cosmos DB",
+      "Azure Event Hubs",
+      "connector",
+      "mongorestore",
+      "SendGrid binding"
+    ]
+  },
+  "13": {
+    "topic": 1,
+    "questionNumber": 13,
+    "page": 7,
+    "options": [
+      "Azure AD token.",
+      "Azure Multi-Factor authentication.",
+      "Grant @ >",
+      "Cloud apps @ >",
+      "Users and groups @ o)"
+    ]
+  },
+  "16": {
+    "topic": 1,
+    "questionNumber": 16,
+    "page": 8,
+    "options": [
+      "az monitor metrics alert create -n myAlert -g myResourceGroup"
+    ]
+  },
+  "30": {
+    "topic": 1,
+    "questionNumber": 30,
+    "page": 13,
+    "options": [
+      "Create a SearchindexClient object to",
+      "Create an IndexBatch that contains the",
+      "Call the Documents.Index method of the",
+      "Create a DataSource instance and set its",
+      "Azure Event Grid and performs policy actions based on those events.",
+      "Create a separate Azure Event Grid handler for sign-in and sign-out events.",
+      "Set the DataSources property of the",
+      "Call the Documents.Suggest method of the",
+      "filter.",
+      "SearchServiceClient.",
+      "connect to the search index.",
+      "Create separate Azure Event Grid topics and subscriptions for sign-in and sign-out events."
+    ]
+  },
+  "32": {
+    "topic": 1,
+    "questionNumber": 32,
+    "page": 14,
+    "options": [
+      "host.json",
+      "http",
+      "enableForwardingHttpRequest",
+      "stream",
+      "result",
+      "worker",
+      "platform",
+      "datatype",
+      "direction",
+      "extensions",
+      "process.exe",
+      "description",
+      "customHandler",
+      "languageWorker",
+      "function. json",
+      "\"type\": \"http\"",
+      "extensionBundle",
+      "defaultExecutablePath",
+      "by",
+      "gem",
+      "out",
+      "type"
+    ]
+  },
+  "33": {
+    "topic": 1,
+    "questionNumber": 33,
+    "page": 15,
+    "options": [
+      "azure",
+      "routes",
+      "return",
+      "headers",
+      "redirect",
+      "referrer",
+      "microsoftonline",
+      "responseOverrides",
+      "navigationFallback",
+      "A04",
+      "add",
+      "graph",
+      "lorig",
+      "route"
+    ]
+  },
+  "34": {
+    "topic": 1,
+    "questionNumber": 34,
+    "page": 16,
+    "options": [
+      "az wv",
+      "ts create",
+      "mainTemplate json",
+      "linkedTemplate1 json",
+      "linkedTemplate2 json",
+      "storage account create",
+      "storage account update",
+      "mainTemplate parameters json",
+      "[blueprint artifact template create",
+      "named mainTemplate.json that contains the following linked templates: linked Template1.json, linked Template2.json."
+    ]
+  },
+  "35": {
+    "topic": 1,
+    "questionNumber": 35,
+    "page": 17,
+    "options": [
+      "user",
+      "system",
+      "message",
+      "bindings",
+      "eventName",
+      "eventType",
+      "lconnected",
+      "webPubSubTrigger",
+      "webPubSubConnection",
+      "Azure Function App that uses the JSON WebSocket subprotocol to receive news events.",
+      "in",
+      "name",
+      "data"
+    ]
+  },
+  "36": {
+    "topic": 1,
+    "questionNumber": 36,
+    "page": 18,
+    "options": [
+      "Premium SSD",
+      "Standard SSD",
+      "Standard HDD",
+      "Geo-redundant storage (GRS)",
+      "Zone-redundant storage (ZRS)",
+      "Locally-redundant storage (LRS)"
+    ]
+  },
+  "37": {
+    "topic": 1,
+    "questionNumber": 37,
+    "page": 19,
+    "options": [
+      "Azure file share",
+      "Secret",
+      "Storage volume v",
+      "« The storage volume must persist through container crashes."
+    ]
+  },
+  "38": {
+    "topic": 2,
+    "questionNumber": 1,
+    "page": 20,
+    "options": [
+      "Premium",
+      "Standard",
+      "Consumption",
+      "Isolated",
+      "App service plan setting Value"
+    ]
+  },
+  "39": {
+    "topic": 2,
+    "questionNumber": 2,
+    "page": 21,
+    "options": [
+      "Secret",
+      "Deployment",
+      "TriggerAuthentication | Azure Storage connection string 7]"
+    ]
+  },
+  "40": {
+    "topic": 2,
+    "questionNumber": 3,
+    "page": 22,
+    "options": [
+      "az webapp create",
+      "az appservice plan create",
+      "az group create --location westeurope --name myResourceGroup",
+      "az webapp",
+      "az group delete",
+      "az webapp deployment"
+    ]
+  },
+  "46": {
+    "topic": 2,
+    "questionNumber": 9,
+    "page": 25,
+    "options": [
+      "az group create",
+      "az appservice plan create",
+      "az webapp create ©) ®",
+      "az group update",
+      "Docker container image to use.",
+      "Azure CLI Commands Answer Area",
+      "Base64",
+      "Unicode",
+      "Client cookie",
+      "HTTP message body",
+      "HTTP request header",
+      "az webapp update © QD)",
+      "Client certificate location v",
+      "URL",
+      "HTML"
+    ]
+  },
+  "47": {
+    "topic": 2,
+    "questionNumber": 10,
+    "page": 25,
+    "options": [
+      "az group create",
+      "az appservice plan create",
+      "az webapp create ©) ®",
+      "az group update",
+      "Docker container image to use.",
+      "Azure CLI Commands Answer Area",
+      "Base64",
+      "Unicode",
+      "Client cookie",
+      "HTTP message body",
+      "HTTP request header",
+      "az webapp update © QD)",
+      "Client certificate location v",
+      "URL",
+      "HTML"
+    ]
+  },
+  "48": {
+    "topic": 2,
+    "questionNumber": 11,
+    "page": 26,
+    "options": [
+      "az webapp create",
+      "Azure CLI Commands Answer Area",
+      "az webapp config container set",
+      "WestUS",
+      "-plan AppSenaceLinuxDockerPlan",
+      "az webapp config hostname add ©, ®",
+      "dockerHubContainerPath=\"FourthCoffee/publicweb:v1\"",
+      "Iqdn=\"http.//www_fourthcoflee.com™>www fourthcoffee.co"
+    ]
+  },
+  "49": {
+    "topic": 2,
+    "questionNumber": 12,
+    "page": 27,
+    "options": [
+      "Premium plan type.",
+      "Consumption plan type.",
+      "Create the Azure Functions app with a",
+      "Create the Azure Functions app with an",
+      "Create an SSL certification in Azure Key",
+      "Create a system-assigned managed identity",
+      "Create an access policy in Azure Key Vault",
+      "Create a user-assigned managed identity for",
+      "App Service plan type."
+    ]
+  },
+  "51": {
+    "topic": 2,
+    "questionNumber": 14,
+    "page": 28,
+    "options": [
+      "group",
+      "az | WF create location centralus name $resourcegroupname",
+      "az 'W create --name Swebappname —resource-group Sresourcegroupname --sku $3",
+      "az | WW create —-name S$webappname --resource-group $resourcegroupname --slot staging",
+      "az | Ww create -name Swebappname --resource-group $resourcegroupname --plan Swebappname",
+      "webapp",
+      "appservice plan",
+      "az | 'W config —name $webappname —resource-group Sresourcegroupname \\"
+    ]
+  },
+  "52": {
+    "topic": 2,
+    "questionNumber": 15,
+    "page": 29,
+    "options": [
+      "Solution: Use the Durable Function async pattern to process the blob data.",
+      "tip",
+      "function ensureTip() {"
+    ]
+  },
+  "58": {
+    "topic": 2,
+    "questionNumber": 21,
+    "page": 31,
+    "options": [
+      "dotnet",
+      "FROM microsoft/aspnetcore:latest",
+      "ContosoApp.dll",
+      "CMD [\"dotnet\", \"ContosoApp.dll\"]"
+    ]
+  },
+  "60": {
+    "topic": 2,
+    "questionNumber": 23,
+    "page": 33,
+    "options": [
+      "Standard_LRS",
+      "Storage",
+      "outputs",
+      "priority",
+      "resources",
+      "copylndex",
+      "dependsOn",
+      "apiVersion",
+      "properties",
+      "storagesetup",
+      "\"kind\": \"Storage\",",
+      "Microsoft.Storage/storageAccounts",
+      "\"type\": \"Microsoft.Storage/storageAccounts\",",
+      "in",
+      "bs",
+      "Is",
+      "type",
+      "name"
+    ]
+  },
+  "61": {
+    "topic": 2,
+    "questionNumber": 24,
+    "page": 34,
+    "options": [
+      "Consistent.",
+      "Table Storage.",
+      "retrieved from the queue and the ProcessOrders function will run multiple"
+    ]
+  },
+  "62": {
+    "topic": 2,
+    "questionNumber": 25,
+    "page": 34,
+    "options": [
+      "Consistent.",
+      "Table Storage.",
+      "retrieved from the queue and the ProcessOrders function will run multiple"
+    ]
+  },
+  "63": {
+    "topic": 2,
+    "questionNumber": 26,
+    "page": 35,
+    "options": [
+      "Azure Blob Storage",
+      "Azure File Storage",
+      "Azure Table Storage",
+      "Azure Data Lake Storage",
+      "Azure Backup",
+      "Azure Migrate",
+      "Azure PowerShell",
+      "Visual Studio command prompt",
+      "You plan to use the Azure Web App continuous deployment feature."
+    ]
+  },
+  "65": {
+    "topic": 2,
+    "questionNumber": 28,
+    "page": 36,
+    "options": [
+      "Create a new template deployment.",
+      "Custom Script Extension",
+      "the new storage account.",
+      "r ) Supporting services script",
+      "storage account name and region.",
+      "Deploy the template to create a new",
+      "storage account in the target region."
+    ]
+  },
+  "66": {
+    "topic": 2,
+    "questionNumber": 29,
+    "page": 36,
+    "options": [
+      "Create a new template deployment.",
+      "Custom Script Extension",
+      "the new storage account.",
+      "r ) Supporting services script",
+      "storage account name and region.",
+      "Deploy the template to create a new",
+      "storage account in the target region."
+    ]
+  },
+  "67": {
+    "topic": 2,
+    "questionNumber": 30,
+    "page": 37,
+    "options": [
+      "master",
+      "WestUS2",
+      "ContosoRG",
+      "ContosoVM",
+      "New-AzWebApp",
+      "TailSpinToysWeb",
+      "New-AzWebAppSiot",
+      "New-AzWebAppSlot",
+      "New-AzResourceGroup",
+      "New-AzAppServicePlan",
+      "Set-AzResource -PropertyObject $PropertiesObject -ResourceGroupName myResourceGroup -ResourceType"
+    ]
+  },
+  "68": {
+    "topic": 2,
+    "questionNumber": 31,
+    "page": 37,
+    "options": [
+      "master",
+      "WestUS2",
+      "ContosoRG",
+      "ContosoVM",
+      "New-AzWebApp",
+      "TailSpinToysWeb",
+      "New-AzWebAppSiot",
+      "New-AzWebAppSlot",
+      "New-AzResourceGroup",
+      "New-AzAppServicePlan",
+      "Set-AzResource -PropertyObject $PropertiesObject -ResourceGroupName myResourceGroup -ResourceType"
+    ]
+  },
+  "71": {
+    "topic": 2,
+    "questionNumber": 34,
+    "page": 39,
+    "options": [
+      "Trigger",
+      "Hosting plan",
+      "Declaratively connect to an Azure Blob Storage Fah",
+      "c= Declaratively connect to an Azure Blob Storage account."
+    ]
+  },
+  "72": {
+    "topic": 2,
+    "questionNumber": 35,
+    "page": 39,
+    "options": [
+      "Trigger",
+      "Hosting plan",
+      "Declaratively connect to an Azure Blob Storage Fah",
+      "c= Declaratively connect to an Azure Blob Storage account."
+    ]
+  },
+  "73": {
+    "topic": 2,
+    "questionNumber": 36,
+    "page": 40,
+    "options": [
+      "DOTNET_HOSTING_OPTIMIZATION_CACHE /home",
+      "Application"
+    ]
+  },
+  "77": {
+    "topic": 2,
+    "questionNumber": 40,
+    "page": 42,
+    "options": [
+      "Docker Container",
+      "Python",
+      "custom",
+      "Node.js",
+      "Code"
+    ]
+  },
+  "78": {
+    "topic": 2,
+    "questionNumber": 41,
+    "page": 43,
+    "options": [
+      "Run the following command at an elevated command prompt:",
+      "Run the following command at an elevated command prompt: ®"
+    ]
+  },
+  "80": {
+    "topic": 2,
+    "questionNumber": 43,
+    "page": 44,
+    "options": [
+      "using (var client = new HttpClient())",
+      "var response = await client.GetAsync(™. . .\");",
+      "dynamic result = JsonConvert.DeserializeObject(json);",
+      "var json = await response.Content.ReadAsStringAsync();"
+    ]
+  },
+  "82": {
+    "topic": 2,
+    "questionNumber": 45,
+    "page": 45,
+    "options": [
+      "client",
+      "entity",
+      "activity",
+      "environment.",
+      "orchestrator",
+      "Azure Deployment Manager |",
+      "Azure Resource Manager test toolkit EE —"
+    ]
+  },
+  "84": {
+    "topic": 2,
+    "questionNumber": 47,
+    "page": 46,
+    "options": [
+      "strategy",
+      "singleton",
+      "fixedDelay",
+      "healthMonitor",
+      "maxRetryCount",
+      "counterThreshold",
+      "exponentialBackoff",
+      "healthCheckInterval",
+      "healthCheckThreshold",
+      "vv",
+      "retry"
+    ]
+  },
+  "86": {
+    "topic": 2,
+    "questionNumber": 49,
+    "page": 48,
+    "options": [
+      "CallEntityAsync",
+      "SignalEntityAsync",
+      "pic",
+      "POST",
+      "vote",
+      "vVote"
+    ]
+  },
+  "87": {
+    "topic": 2,
+    "questionNumber": 50,
+    "page": 49,
+    "options": [
+      "Standard",
+      "Shared",
+      "Azure App Service feature [|",
+      "Azure App Service pricing tier |",
+      "Basic"
+    ]
+  },
+  "88": {
+    "topic": 2,
+    "questionNumber": 51,
+    "page": 50,
+    "options": [
+      "Enable ingress.",
+      "Enable single revision mode.",
+      "Enable multiple revision mode."
+    ]
+  },
+  "90": {
+    "topic": 2,
+    "questionNumber": 53,
+    "page": 51,
+    "options": []
+  },
+  "91": {
+    "topic": 3,
+    "questionNumber": 1,
+    "page": 52,
+    "options": []
+  },
+  "93": {
+    "topic": 3,
+    "questionNumber": 3,
+    "page": 53,
+    "options": [
+      "az cosmosdb create \\",
+      "Strong",
+      "Eventual",
+      "ConsistentPrefix",
+      "BoundedStaleness"
+    ]
+  },
+  "94": {
+    "topic": 3,
+    "questionNumber": 4,
+    "page": 54,
+    "options": [
+      "az webapp create --plan websitePlan v",
+      "az appservice plan create --name websitePlan v",
+      "az webapp config [ v",
+      "az configure --defaults web=website",
+      "az configure --defaults group=website",
+      "set —python-version 2.7 -generic-configurations user=admin password=admin",
+      "set —python-version 3.6 --generic-configurations user=admin password=admin"
+    ]
+  },
+  "95": {
+    "topic": 3,
+    "questionNumber": 5,
+    "page": 55,
+    "options": [
+      "Maximum",
+      "Average",
+      "Resource",
+      "Criteria",
+      "Resourcetype",
+      "Storage queue",
+      "ad",
+      "Total"
+    ]
+  },
+  "96": {
+    "topic": 3,
+    "questionNumber": 6,
+    "page": 56,
+    "options": [
+      "SetMetadataAsync",
+      "SetPropertiesAsync",
+      "QueueClient",
+      "TopicClient",
+      "Metadata.Add",
+      "UploadFileStream",
+      "CloudQueueClient",
+      "SubscriptionClient",
+      "FetchAttributesAsync"
+    ]
+  },
+  "99": {
+    "topic": 3,
+    "questionNumber": 9,
+    "page": 57,
+    "options": [
+      "AzCopy",
+      "Azure Storage Explorer",
+      "Create a new GPv2 Standard account",
+      "Azure portal",
+      ".NET Storage Client Library",
+      "Change the storage account access",
+      "Upgrade the storage account to GPv2",
+      "data from the original storage account",
+      "GPv2 storage account and then delete the"
+    ]
+  },
+  "102": {
+    "topic": 3,
+    "questionNumber": 12,
+    "page": 58,
+    "options": [
+      "Azure",
+      "http: //localhost:50342/0auth2/token",
+      "http: //169.254.169.254:50432/0auth2/token",
+      "var client = new HttpClient();"
+    ]
+  },
+  "103": {
+    "topic": 3,
+    "questionNumber": 13,
+    "page": 59,
+    "options": [
+      "automatic",
+      "descending",
+      "includedPaths",
+      "JSON segments Answer Area",
+      "io",
+      "order"
+    ]
+  },
+  "104": {
+    "topic": 3,
+    "questionNumber": 14,
+    "page": 60,
+    "options": [
+      "Setting Value",
+      "Highway",
+      "Timestamp",
+      "Department"
+    ]
+  },
+  "105": {
+    "topic": 3,
+    "questionNumber": 15,
+    "page": 61,
+    "options": [
+      "CoreDNS",
+      "addressing."
+    ]
+  },
+  "106": {
+    "topic": 3,
+    "questionNumber": 16,
+    "page": 62,
+    "options": []
+  },
+  "107": {
+    "topic": 3,
+    "questionNumber": 17,
+    "page": 63,
+    "options": [
+      "the image to the client."
+    ]
+  },
+  "109": {
+    "topic": 3,
+    "questionNumber": 19,
+    "page": 64,
+    "options": []
+  },
+  "110": {
+    "topic": 3,
+    "questionNumber": 20,
+    "page": 65,
+    "options": [
+      "Set a lifecycle management policy to move blobs to the cool tier",
+      "Set a lifecycle management policy to move blobs to the archive tier",
+      "Implement Blob Storage",
+      "Implement Storage (general purpose v1)",
+      "=» Implement Zone Redundant Storage for application data."
+    ]
+  },
+  "111": {
+    "topic": 3,
+    "questionNumber": 21,
+    "page": 65,
+    "options": [
+      "Set a lifecycle management policy to move blobs to the cool tier",
+      "Set a lifecycle management policy to move blobs to the archive tier",
+      "Implement Blob Storage",
+      "Implement Storage (general purpose v1)",
+      "=» Implement Zone Redundant Storage for application data."
+    ]
+  },
+  "112": {
+    "topic": 3,
+    "questionNumber": 22,
+    "page": 66,
+    "options": []
+  },
+  "114": {
+    "topic": 3,
+    "questionNumber": 24,
+    "page": 67,
+    "options": [
+      "Azure Cosmos DB partition key Fv",
+      "Gremlin",
+      "Azure Cosmos DB API | [Y"
+    ]
+  },
+  "115": {
+    "topic": 3,
+    "questionNumber": 25,
+    "page": 68,
+    "options": [
+      "Nr"
+    ]
+  },
+  "116": {
+    "topic": 3,
+    "questionNumber": 26,
+    "page": 69,
+    "options": []
+  },
+  "119": {
+    "topic": 3,
+    "questionNumber": 29,
+    "page": 71,
+    "options": [
+      "Azure Blob index tags",
+      "Azure Blob inventory policy",
+      "Azure Blob metadata",
+      "Azure Cognitive Search"
+    ]
+  },
+  "120": {
+    "topic": 3,
+    "questionNumber": 30,
+    "page": 72,
+    "options": [
+      "If-Match",
+      "Versionld",
+      "If-None-Match",
+      "WithSnapshotCore",
+      "If-Modified-Since",
+      "Delete (Azure.Storage.Blobs.Models.DeleteSnapshotsOption",
+      "ETag",
+      "HTTP Headervalue | [v]",
+      "snapshotsOption = Azure.Storage.Blobs.Models.[ [vy] .[— \"Tvy])"
+    ]
+  },
+  "121": {
+    "topic": 3,
+    "questionNumber": 31,
+    "page": 72,
+    "options": [
+      "If-Match",
+      "Versionld",
+      "If-None-Match",
+      "WithSnapshotCore",
+      "If-Modified-Since",
+      "Delete (Azure.Storage.Blobs.Models.DeleteSnapshotsOption",
+      "ETag",
+      "HTTP Headervalue | [v]",
+      "snapshotsOption = Azure.Storage.Blobs.Models.[ [vy] .[— \"Tvy])"
+    ]
+  },
+  "122": {
+    "topic": 3,
+    "questionNumber": 32,
+    "page": 73,
+    "options": [
+      "snapshots_present",
+      "ContinuationToken"
+    ]
+  },
+  "123": {
+    "topic": 3,
+    "questionNumber": 33,
+    "page": 73,
+    "options": [
+      "snapshots_present",
+      "ContinuationToken"
+    ]
+  },
+  "124": {
+    "topic": 3,
+    "questionNumber": 34,
+    "page": 74,
+    "options": [
+      "group by",
+      "SELECT",
+      "FROM ©"
+    ]
+  },
+  "125": {
+    "topic": 3,
+    "questionNumber": 35,
+    "page": 75,
+    "options": [
+      "Create a service shared-access signature (SAS).",
+      "Create an account shared-access signature (SAS).",
+      "Enable the blob change feed for the storage account.",
+      "Enable version-level immutability support for the storage account.",
+      "Enable point-in-time restore for containers in the storage account.",
+      "Configure a time-based retention policy for the storage account."
+    ]
+  },
+  "130": {
+    "topic": 3,
+    "questionNumber": 40,
+    "page": 78,
+    "options": [
+      "strong",
+      "account1."
+    ]
+  },
+  "131": {
+    "topic": 3,
+    "questionNumber": 41,
+    "page": 79,
+    "options": [
+      "index tags across multiple blobs in the container."
+    ]
+  },
+  "132": {
+    "topic": 3,
+    "questionNumber": 42,
+    "page": 80,
+    "options": [
+      "Azure file share",
+      "Secret",
+      "Always",
+      "OnfFailure",
+      "Never"
+    ]
+  },
+  "133": {
+    "topic": 3,
+    "questionNumber": 43,
+    "page": 81,
+    "options": [
+      "Azure Storage Service Encryption (SSE)",
+      "Azure Content Delivery Network (CDN)",
+      "Blob index tags"
+    ]
+  },
+  "135": {
+    "topic": 3,
+    "questionNumber": 45,
+    "page": 83,
+    "options": [
+      "azure-disk",
+      "azure-file",
+      "retain",
+      "delete",
+      "scaleio",
+      "PodStorage",
+      "StorageClass",
+      "portworx-volume",
+      "PersistentVolume",
+      "PersistentVolumeClaim",
+      "apiVersion: storage.k8s.io/vl",
+      "local"
+    ]
+  },
+  "136": {
+    "topic": 3,
+    "questionNumber": 46,
+    "page": 84,
+    "options": [
+      "Background"
+    ]
+  },
+  "138": {
+    "topic": 3,
+    "questionNumber": 48,
+    "page": 87,
+    "options": [
+      "Cassandra"
+    ]
+  },
+  "143": {
+    "topic": 4,
+    "questionNumber": 5,
+    "page": 89,
+    "options": [
+      "Enable retention period and accidental deletion. rr Feature |"
+    ]
+  },
+  "145": {
+    "topic": 4,
+    "questionNumber": 7,
+    "page": 90,
+    "options": [
+      "Settings Answer Area",
+      "delegated Azure Storage TO cc I (I Oc"
+    ]
+  },
+  "146": {
+    "topic": 4,
+    "questionNumber": 8,
+    "page": 91,
+    "options": [
+      "UseRequestLocalization",
+      "UseCors",
+      "UseSession",
+      "UseStaticFiles",
+      "UseCoakiePolicy",
+      "UseCookiePolicy",
+      "UseAuthorization",
+      "UseAuthentication",
+      "UseHttpsRedirection",
+      "HH",
+      "else"
+    ]
+  },
+  "151": {
+    "topic": 4,
+    "questionNumber": 13,
+    "page": 94,
+    "options": [
+      "az W create \\",
+      "az WW create \\",
+      "az group create --name S$resourcegroup --location westus",
+      "az W enable)",
+      "az provider register -n Microsoft.KeyVault",
+      "keyvault",
+      "vm",
+      "os",
+      "all",
+      "data"
+    ]
+  },
+  "153": {
+    "topic": 4,
+    "questionNumber": 15,
+    "page": 95,
+    "options": [
+      "Set-AzReyVaultSecret —-VaultName",
+      "Set-AzContext —SubscriptionId ) QD)"
+    ]
+  },
+  "156": {
+    "topic": 4,
+    "questionNumber": 18,
+    "page": 97,
+    "options": [
+      "FROM DeliveryRulePostArgsConditionParameters",
+      "iPhone",
+      "Desktop",
+      "IsDevice",
+      "operator",
+      "Contains",
+      "selector",
+      "conditions",
+      "parameters",
+      "matchValues",
+      "X-POWERED-BY",
+      "RequestHeader",
+      "HTTP_USER_AGENT",
+      "Th",
+      "name"
+    ]
+  },
+  "159": {
+    "topic": 4,
+    "questionNumber": 21,
+    "page": 99,
+    "options": [
+      "groupMembershipClaims",
+      "internal",
+      "displayName",
+      "optionalClaims",
+      "\"optionalClaims\"",
+      "oauth2Permissions",
+      "\"oauth2Permissions\"",
+      "\"groupMembershipClaims\"",
+      "\"requiredResourceAccess\"",
+      "yo",
+      "appld"
+    ]
+  },
+  "164": {
+    "topic": 4,
+    "questionNumber": 26,
+    "page": 101,
+    "options": [
+      "KEY_VAULT_URI",
+      "Policy section Policy Policy section"
+    ]
+  },
+  "165": {
+    "topic": 4,
+    "questionNumber": 27,
+    "page": 101,
+    "options": [
+      "KEY_VAULT_URI",
+      "Policy section Policy Policy section"
+    ]
+  },
+  "168": {
+    "topic": 4,
+    "questionNumber": 30,
+    "page": 102,
+    "options": [
+      "Create a custom policy definition in Azure Policy.",
+      "Run the az keyvault key restore COMmand."
+    ]
+  },
+  "170": {
+    "topic": 4,
+    "questionNumber": 32,
+    "page": 104,
+    "options": []
+  },
+  "172": {
+    "topic": 4,
+    "questionNumber": 34,
+    "page": 106,
+    "options": []
+  },
+  "173": {
+    "topic": 4,
+    "questionNumber": 35,
+    "page": 107,
+    "options": [
+      "appsettings.json",
+      "scopes",
+      "config",
+      "AcrPull",
+      "AcrPush",
+      "Contributor",
+      "app",
+      "Owner",
+      "var app = = .Create(config.Clientld)"
+    ]
+  },
+  "174": {
+    "topic": 4,
+    "questionNumber": 36,
+    "page": 107,
+    "options": [
+      "appsettings.json",
+      "scopes",
+      "config",
+      "AcrPull",
+      "AcrPush",
+      "Contributor",
+      "app",
+      "Owner",
+      "var app = = .Create(config.Clientld)"
+    ]
+  },
+  "177": {
+    "topic": 4,
+    "questionNumber": 39,
+    "page": 109,
+    "options": [
+      "Create a new application and provide the Q) Q)",
+      "resource.",
+      "application.",
+      "registration.",
+      "In Azure AD, create a new conditional access policy.",
+      "In Azure AD conditional access, enable the baseline policy."
+    ]
+  },
+  "179": {
+    "topic": 4,
+    "questionNumber": 41,
+    "page": 110,
+    "options": [
+      "User delegation Delegate access to a resource in a single storage i",
+      "ervice-leve storage services amma"
+    ]
+  },
+  "180": {
+    "topic": 4,
+    "questionNumber": 42,
+    "page": 111,
+    "options": [
+      "TypeFilter",
+      "FeatureGate",
+      "ServiceFilter",
+      "AddUserSecrets",
+      "Route"
+    ]
+  },
+  "181": {
+    "topic": 4,
+    "questionNumber": 43,
+    "page": 112,
+    "options": [
+      "AzureADMyOrg",
+      "AzureADMultipleOrgs",
+      "User Delegation SAS",
+      "AzureADandPersonalMicrosoftAccount",
+      "resourceAppId",
+      "orgRestrictions",
+      "Service SAS with a stored access policy",
+      "type",
+      "Scope"
+    ]
+  },
+  "183": {
+    "topic": 4,
+    "questionNumber": 45,
+    "page": 113,
+    "options": [
+      "User-assigned Managed Identity",
+      "Stored Access Policy",
+      "Storage Account Access Key",
+      "aud",
+      "oid",
+      "nonce",
+      "D.idp",
+      "Application (Client) | ~~ [¥]"
+    ]
+  },
+  "189": {
+    "topic": 4,
+    "questionNumber": 51,
+    "page": 115,
+    "options": [
+      "AddAzureKeyVault",
+      "Host .CreateDefaultBuilder(args)",
+      "BH"
+    ]
+  },
+  "190": {
+    "topic": 4,
+    "questionNumber": 52,
+    "page": 116,
+    "options": [
+      "Version",
+      "Transport",
+      "EncryptionScope",
+      "CustomerProvidedKey",
+      "bs"
+    ]
+  },
+  "191": {
+    "topic": 4,
+    "questionNumber": 53,
+    "page": 117,
+    "options": [
+      "Refresh",
+      "ID",
+      "SAML"
+    ]
+  },
+  "192": {
+    "topic": 4,
+    "questionNumber": 54,
+    "page": 118,
+    "options": [
+      "routes",
+      "contributors",
+      "authenticated",
+      "br",
+      "route"
+    ]
+  },
+  "194": {
+    "topic": 4,
+    "questionNumber": 56,
+    "page": 119,
+    "options": [
+      "Azure AD Graph",
+      "Azure Key Vault",
+      "Azure Identity libra",
+      "Azure AD entitlement management",
+      "Azure B2C service. All user profile information is stored in Azure B2C.",
+      "tenant",
+      "client_id",
+      "code_challenge",
+      "state",
+      "scope"
+    ]
+  },
+  "195": {
+    "topic": 4,
+    "questionNumber": 57,
+    "page": 120,
+    "options": [
+      "routes",
+      "DELETE",
+      "methods",
+      "rewrite",
+      "redirect",
+      "mimeTypes",
+      "text/json",
+      "statusCode",
+      "\".json\": \"text/json\"",
+      "\"rewrite\": \"index.html\",",
+      "a1",
+      "IY",
+      "GET",
+      "PUT",
+      "POST",
+      "route",
+      "PATCH"
+    ]
+  },
+  "198": {
+    "topic": 4,
+    "questionNumber": 60,
+    "page": 122,
+    "options": [
+      "groupTypes/contains('Unified') eq false",
+      "secret",
+      "CloudClients"
+    ]
+  },
+  "199": {
+    "topic": 4,
+    "questionNumber": 61,
+    "page": 122,
+    "options": [
+      "groupTypes/contains('Unified') eq false",
+      "secret",
+      "CloudClients"
+    ]
+  },
+  "200": {
+    "topic": 4,
+    "questionNumber": 62,
+    "page": 123,
+    "options": [
+      "from azure.identity import v",
+      "from azure.app configuration import v",
+      "client = ¥ | (base_url=\"..\", credential=credential)"
+    ]
+  },
+  "203": {
+    "topic": 4,
+    "questionNumber": 65,
+    "page": 125,
+    "options": [
+      "az storage account update",
+      "secret",
+      "recover",
+      "certificate",
+      "Microsoft.Secret",
+      "properties.hsmUri",
+      "Microsoft Storage",
+      "Microsoft.Certificate",
+      "customer must be provided a script to rotate keys.",
+      "Configure and apply a new backend policy scoped to global.",
+      "Configure and apply a new outbound policy scoped to global.",
+      "Configure and apply a new inbound policy scoped to a product.",
+      "Configure and apply a new outbound policy scoped to the operation.",
+      "key"
+    ]
+  },
+  "205": {
+    "topic": 5,
+    "questionNumber": 1,
+    "page": 126,
+    "options": [
+      "Premium App Service tier.",
+      "Enable autoscaling on the",
+      "Standard App Service tier.",
+      "output.",
+      "Services consumption plan.",
+      "c= Save full HTTP responses for concurrent requests."
+    ]
+  },
+  "208": {
+    "topic": 5,
+    "questionNumber": 4,
+    "page": 127,
+    "options": [
+      "Team"
+    ]
+  },
+  "209": {
+    "topic": 5,
+    "questionNumber": 5,
+    "page": 128,
+    "options": [
+      "Create a blank Logic app.",
+      "thresholds.",
+      "user's decision to purchase a product? Co"
+    ]
+  },
+  "210": {
+    "topic": 5,
+    "questionNumber": 6,
+    "page": 128,
+    "options": [
+      "Create a blank Logic app.",
+      "thresholds.",
+      "user's decision to purchase a product? Co"
+    ]
+  },
+  "215": {
+    "topic": 5,
+    "questionNumber": 11,
+    "page": 130,
+    "options": [
+      "Cluster1",
+      "ContainerLog"
+    ]
+  },
+  "216": {
+    "topic": 5,
+    "questionNumber": 12,
+    "page": 131,
+    "options": [
+      "az webapp log Ww name Contosoweb --resource-group ContosoDevRG",
+      "config",
+      "download",
+      "integration",
+      "az ¥ log W name ContosoWeb —resource-group ContosoDevRG",
+      "show",
+      "tail",
+      "unit",
+      "load"
+    ]
+  },
+  "218": {
+    "topic": 5,
+    "questionNumber": 14,
+    "page": 132,
+    "options": [
+      "Create an Azure function to query the home page.",
+      "Create a multi-step web test to query the home page.",
+      "Create a Custom Track Availability Test to query the home page.",
+      "Set up a URL ping test to query the home page.",
+      "ess"
+    ]
+  },
+  "221": {
+    "topic": 5,
+    "questionNumber": 17,
+    "page": 133,
+    "options": [
+      "Create an authentication provider.",
+      "Create a new instance of the GraphServiceClient.",
+      "Build a client by using the client app ID."
+    ]
+  },
+  "222": {
+    "topic": 5,
+    "questionNumber": 18,
+    "page": 134,
+    "options": [
+      "Create an Azure storage account.",
+      "Create a Log Analytics workspace.",
+      "Create action groups and alert rules.",
+      "Create an Application Insights resource.",
+      "Add a diagnostic setting to the Azure Function App. ® ©"
+    ]
+  },
+  "223": {
+    "topic": 5,
+    "questionNumber": 19,
+    "page": 134,
+    "options": [
+      "Create an Azure storage account.",
+      "Create a Log Analytics workspace.",
+      "Create action groups and alert rules.",
+      "Create an Application Insights resource.",
+      "Add a diagnostic setting to the Azure Function App. ® ©"
+    ]
+  },
+  "225": {
+    "topic": 5,
+    "questionNumber": 21,
+    "page": 135,
+    "options": [
+      "set publisher/subscriber mechanism",
+      "Telemetry.Id",
+      "Telemetry.Name"
+    ]
+  },
+  "227": {
+    "topic": 5,
+    "questionNumber": 23,
+    "page": 136,
+    "options": []
+  },
+  "228": {
+    "topic": 5,
+    "questionNumber": 24,
+    "page": 137,
+    "options": [
+      "Setting Action",
+      "Set if missing",
+      "Override"
+    ]
+  },
+  "229": {
+    "topic": 5,
+    "questionNumber": 25,
+    "page": 138,
+    "options": [
+      "Httpdxx",
+      "HttpSxx",
+      "properties",
+      "metricName",
+      "noeviction",
+      "allkeys-Iru",
+      "volatile-lru",
+      "volatile-ttl",
+      "allkeys-random",
+      "volatile-random",
+      "alertSensitivity",
+      "Hl",
+      "type",
+      "High"
+    ]
+  },
+  "231": {
+    "topic": 5,
+    "questionNumber": 27,
+    "page": 139,
+    "options": [
+      "Create an Application Insights resource",
+      "Create an Azure Machine Learning workspace",
+      "Profiler",
+      "AppServiceAppLogs",
+      "AppServiceAuditLogs",
+      "AppServiceConsoleLogs"
+    ]
+  },
+  "234": {
+    "topic": 5,
+    "questionNumber": 30,
+    "page": 140,
+    "options": [
+      "Set backup frequency to the minimum value.",
+      "reprocessed.",
+      "Configure second storage account for persistence."
+    ]
+  },
+  "239": {
+    "topic": 5,
+    "questionNumber": 35,
+    "page": 142,
+    "options": [
+      "item."
+    ]
+  },
+  "240": {
+    "topic": 5,
+    "questionNumber": 36,
+    "page": 143,
+    "options": [
+      "Create and implement environment variables for each App Configuration store setting.",
+      "Create and configure Azure Key Vault. Implement the Azure Key Vault configuration provider."
+    ]
+  },
+  "242": {
+    "topic": 5,
+    "questionNumber": 38,
+    "page": 144,
+    "options": [
+      "Enable client connection logging. I —",
+      "Blob Storage account",
+      "Data Lake Storage Gen2 Storage account",
+      "+ The number of Redis client connections from an associated IP address."
+    ]
+  },
+  "246": {
+    "topic": 5,
+    "questionNumber": 42,
+    "page": 146,
+    "options": [
+      "Azure Monitor metrics",
+      "Azure Container Registry",
+      "Azure Monitor Log Analytics",
+      "Location",
+      "Host name"
+    ]
+  },
+  "251": {
+    "topic": 6,
+    "questionNumber": 3,
+    "page": 150,
+    "options": [
+      "Code View Editor Edit definitions in JSON 7]"
+    ]
+  },
+  "253": {
+    "topic": 6,
+    "questionNumber": 5,
+    "page": 152,
+    "options": []
+  },
+  "256": {
+    "topic": 6,
+    "questionNumber": 8,
+    "page": 154,
+    "options": [
+      "Create s single Service Bus Namespace.",
+      "Create a Service Bus Namespace for each",
+      "Create a single Service Bus subscription.",
+      "Create a Service Bus subscription for each"
+    ]
+  },
+  "257": {
+    "topic": 6,
+    "questionNumber": 9,
+    "page": 155,
+    "options": [
+      "contoso_hub",
+      "NotificationHubJob",
+      "NotificationDetails",
+      "NotificationHubClient",
+      "try",
+      "<toast><visual»><binding template=",
+      "</text></binding></visual></toast>",
+      "@\"New item to view\" + @\"</text></binding></visual></toast>\";",
+      "@\"<toast><visual»><binding template=\"\"ToastText@l\"\"><text id=\"\"1\"\">\" +"
+    ]
+  },
+  "259": {
+    "topic": 6,
+    "questionNumber": 11,
+    "page": 156,
+    "options": [
+      "Azure Resource",
+      "Client cert",
+      "HTTP(s) endpoint J"
+    ]
+  },
+  "260": {
+    "topic": 6,
+    "questionNumber": 12,
+    "page": 157,
+    "options": []
+  },
+  "261": {
+    "topic": 6,
+    "questionNumber": 13,
+    "page": 158,
+    "options": [
+      "Queue"
+    ]
+  },
+  "266": {
+    "topic": 6,
+    "questionNumber": 18,
+    "page": 160,
+    "options": [
+      "Policy segments Answer Area"
+    ]
+  },
+  "267": {
+    "topic": 6,
+    "questionNumber": 19,
+    "page": 161,
+    "options": [
+      "X-WNS-Type",
+      "await client.SendAsync (request);",
+      "application/xml var client = new HttpClient();"
+    ]
+  },
+  "269": {
+    "topic": 6,
+    "questionNumber": 21,
+    "page": 162,
+    "options": [
+      "Azure Blob Storage Am Co",
+      "Azure Logic App",
+      "Azure App Service Le",
+      "Azure Event Hub Object Technology",
+      "Azure Service Bus . Es |",
+      "Azure Event Grid Event Source i |"
+    ]
+  },
+  "271": {
+    "topic": 6,
+    "questionNumber": 23,
+    "page": 163,
+    "options": [
+      "contoso-storage",
+      "try",
+      "Ww DpVarZ = pVarl. Ww | (\"contoso-storage\");"
+    ]
+  },
+  "272": {
+    "topic": 6,
+    "questionNumber": 24,
+    "page": 164,
+    "options": [
+      "PrimaryASP",
+      "ExcelParser",
+      "Set-AzWebApp $app",
+      "Set-AzAppServicePlan *'"
+    ]
+  },
+  "273": {
+    "topic": 6,
+    "questionNumber": 25,
+    "page": 165,
+    "options": [
+      "Azure Storage Queue",
+      "Azure Event Hub",
+      "Azure Event Grid",
+      "Azure Service Bus",
+      "Inbound",
+      "Policy types Answer Area",
+      "Support alternative input parameters. policy type",
+      ": Remove formatting text from responses. policy type",
+      "Provide additional context to back-end services. policy type"
+    ]
+  },
+  "275": {
+    "topic": 6,
+    "questionNumber": 27,
+    "page": 166,
+    "options": [
+      "vanabie"
+    ]
+  },
+  "279": {
+    "topic": 6,
+    "questionNumber": 31,
+    "page": 168,
+    "options": [
+      "From the code on the VM, generate a user delegation SAS token.",
+      "Manager.",
+      "From the code on the VM, call Azure Resource Manager using a SAS token.",
+      "From the code on the VM, call Azure Resource Manager using an access token."
+    ]
+  },
+  "284": {
+    "topic": 6,
+    "questionNumber": 36,
+    "page": 170,
+    "options": [
+      "set-body base-url",
+      "set-backend-service vary-by-header",
+      "set-query-parameter publish-to-dapr",
+      "imageSize",
+      "x-large-request",
+      "{{large-image-host}}",
+      "< - ¥ | =\"{{large-image-host}}\"/>"
+    ]
+  },
+  "285": {
+    "topic": 6,
+    "questionNumber": 37,
+    "page": 171,
+    "options": [
+      "Azure Functions app endpoint to handle >"
+    ]
+  },
+  "289": {
+    "topic": 6,
+    "questionNumber": 41,
+    "page": 174,
+    "options": [
+      "set-variable",
+      "User ID",
+      "Client IP",
+      "custom-metrics",
+      "include-fragment",
+      "You create the following policy fragment named APICounts:",
+      "«dimension name=\"Client IP\" value=\"@(context.Request.IpAddress)\" />"
+    ]
+  },
+  "290": {
+    "topic": 6,
+    "questionNumber": 42,
+    "page": 175,
+    "options": [
+      "Premium",
+      "Standard",
+      "Create and publish a product.",
+      "Contributor",
+      "Basic"
+    ]
+  },
+  "292": {
+    "topic": 6,
+    "questionNumber": 44,
+    "page": 176,
+    "options": [
+      "Capture",
+      "account.",
+      "Namespace",
+      "Checkpoint",
+      "Mark the event processor client position within a partition rv]"
+    ]
+  },
+  "293": {
+    "topic": 6,
+    "questionNumber": 45,
+    "page": 177,
+    "options": [
+      "set-status",
+      "inbound",
+      "backend",
+      "on-error",
+      "outbound",
+      "Policy CC",
+      "mock-response",
+      "forward-request",
+      "Policy section I",
+      "HTTP response code I",
+      "proxy"
+    ]
+  },
+  "296": {
+    "topic": 6,
+    "questionNumber": 48,
+    "page": 179,
+    "options": [
+      "input_gqueue",
+      "You plan to implement an Azure Functions app."
+    ]
+  },
+  "297": {
+    "topic": 6,
+    "questionNumber": 49,
+    "page": 180,
+    "options": [
+      "policy",
+      "config",
+      "TARGET1",
+      "context",
+      "override",
+      "all"
+    ]
+  },
+  "299": {
+    "topic": 6,
+    "questionNumber": 51,
+    "page": 182,
+    "options": [
+      "enabled for the microservices.",
+      "CONNECT",
+      "metadata",
+      "metricType",
+      "authenticationRef",
+      "PUT",
+      "POST",
+      "HEAD",
+      "type",
+      "name"
+    ]
+  },
+  "301": {
+    "topic": 7,
+    "questionNumber": 1,
+    "page": 183,
+    "options": [
+      "ports."
+    ]
+  },
+  "302": {
+    "topic": 7,
+    "questionNumber": 2,
+    "page": 186,
+    "options": [
+      "ports."
+    ]
+  },
+  "303": {
+    "topic": 8,
+    "questionNumber": 1,
+    "page": 188,
+    "options": [
+      "Users table -",
+      "Azure File upload, and instructions on how to configure the mounted folder.",
+      "reimbursement.",
+      "Data Storage -"
+    ]
+  },
+  "304": {
+    "topic": 8,
+    "questionNumber": 2,
+    "page": 192,
+    "options": [
+      "Users table -",
+      "Azure File upload, and instructions on how to configure the mounted folder.",
+      "reimbursement.",
+      "Data Storage -"
+    ]
+  },
+  "305": {
+    "topic": 9,
+    "questionNumber": 1,
+    "page": 196,
+    "options": [
+      "Storage of e-commerce application settings must be maintained in Azure Key Vault."
+    ]
+  },
+  "306": {
+    "topic": 9,
+    "questionNumber": 2,
+    "page": 199,
+    "options": [
+      "Storage of e-commerce application settings must be maintained in Azure Key Vault."
+    ]
+  },
+  "307": {
+    "topic": 10,
+    "questionNumber": 1,
+    "page": 202,
+    "options": [
+      "verification.",
+      "Minimize costs for data storage and hosting.",
+      "Azure Functions must process data immediately when data is uploaded to Blob storage. Azure Functions must update Azure Cosmos DB by using"
+    ]
+  },
+  "309": {
+    "topic": 10,
+    "questionNumber": 3,
+    "page": 206,
+    "options": [
+      "verification.",
+      "Minimize costs for data storage and hosting.",
+      "storage account for three months to include read-only access to the data.",
+      "Azure Functions must process data immediately when data is uploaded to Blob storage. Azure Functions must update Azure Cosmos DB by using"
+    ]
+  },
+  "311": {
+    "topic": 11,
+    "questionNumber": 1,
+    "page": 210,
+    "options": [
+      "Azure Active Directory -"
+    ]
+  },
+  "312": {
+    "topic": 11,
+    "questionNumber": 2,
+    "page": 213,
+    "options": [
+      "Azure Active Directory -"
+    ]
+  },
+  "313": {
+    "topic": 11,
+    "questionNumber": 3,
+    "page": 216,
+    "options": [
+      "Azure Active Directory -"
+    ]
+  },
+  "314": {
+    "topic": 11,
+    "questionNumber": 4,
+    "page": 219,
+    "options": [
+      "Azure Active Directory -"
+    ]
+  },
+  "315": {
+    "topic": 11,
+    "questionNumber": 5,
+    "page": 222,
+    "options": [
+      "Azure Active Directory -"
+    ]
+  },
+  "316": {
+    "topic": 12,
+    "questionNumber": 1,
+    "page": 225,
+    "options": [
+      "ports."
+    ]
+  },
+  "318": {
+    "topic": 13,
+    "questionNumber": 1,
+    "page": 230,
+    "options": [
+      "Azure CDN Azure Storage",
+      "User authentication -",
+      "Azure Active Bell Bell",
+      "User C - <&> w",
+      "! Web Site API Function Azure Database for"
+    ]
+  },
+  "319": {
+    "topic": 13,
+    "questionNumber": 2,
+    "page": 233,
+    "options": [
+      "Azure CDN Azure Storage",
+      "User authentication -",
+      "Azure Active Bell Bell",
+      "User C - <&> w",
+      "Web Site API Function Azure Database for"
+    ]
+  },
+  "320": {
+    "topic": 13,
+    "questionNumber": 3,
+    "page": 236,
+    "options": [
+      "Azure CDN Azure Storage",
+      "User authentication -",
+      "Azure Active Bell Bell",
+      "User C - <&> w",
+      "Web Site API Function Azure Database for"
+    ]
+  },
+  "322": {
+    "topic": 13,
+    "questionNumber": 5,
+    "page": 242,
+    "options": [
+      "Azure CDN Azure Storage",
+      "User authentication -",
+      "Azure Active Bell Bell",
+      "User C - <&> w",
+      "Web Site API Function Azure Database for"
+    ]
+  },
+  "323": {
+    "topic": 13,
+    "questionNumber": 6,
+    "page": 245,
+    "options": [
+      "Azure CDN Azure Storage",
+      "User authentication -",
+      "Azure Active Bell Bell",
+      "User C - <&> w",
+      "Web Site API Function Azure Database for"
+    ]
+  },
+  "324": {
+    "topic": 14,
+    "questionNumber": 1,
+    "page": 248,
+    "options": [
+      "Users table -",
+      "Azure File upload, and instructions on how to configure the mounted folder.",
+      "reimbursement.",
+      "Data Storage -"
+    ]
+  },
+  "331": {
+    "topic": 17,
+    "questionNumber": 2,
+    "page": 270,
+    "options": [
+      "Azure CDN Azure Storage",
+      "User authentication -",
+      "Azure Active Bell Bell",
+      "User C - <&> w",
+      "Web Site API Function Azure Database for"
+    ]
+  },
+  "333": {
+    "topic": 19,
+    "questionNumber": 1,
+    "page": 276,
+    "options": [
+      "Log policy -",
+      "Policy service -"
+    ]
+  },
+  "335": {
+    "topic": 19,
+    "questionNumber": 3,
+    "page": 284,
+    "options": [
+      "Log policy -",
+      "Policy service -"
+    ]
+  },
+  "336": {
+    "topic": 19,
+    "questionNumber": 4,
+    "page": 288,
+    "options": [
+      "Log policy -",
+      "Policy service -"
+    ]
+  },
+  "340": {
+    "topic": 21,
+    "questionNumber": 1,
+    "page": 304,
+    "options": [
+      "verification.",
+      "Minimize costs for data storage and hosting.",
+      "Azure Functions must process data immediately when data is uploaded to Blob storage. Azure Functions must update Azure Cosmos DB by using"
+    ]
+  },
+  "342": {
+    "topic": 22,
+    "questionNumber": 2,
+    "page": 309,
+    "options": [
+      "Storage of e-commerce application settings must be maintained in Azure Key Vault."
+    ]
+  },
+  "343": {
+    "topic": 23,
+    "questionNumber": 1,
+    "page": 313,
+    "options": [
+      "ports."
+    ]
+  },
+  "345": {
+    "topic": 24,
+    "questionNumber": 1,
+    "page": 318,
+    "options": [
+      "Azure CDN Azure Storage",
+      "User authentication -",
+      "Azure Active Bell Bell",
+      "User C - <&> w",
+      "! Web Site API Function Azure Database for"
+    ]
+  },
+  "347": {
+    "topic": 25,
+    "questionNumber": 1,
+    "page": 324,
+    "options": [
+      "Log policy -",
+      "Policy service -"
+    ]
+  },
+  "348": {
+    "topic": 25,
+    "questionNumber": 2,
+    "page": 328,
+    "options": [
+      "Log policy -",
+      "Policy service -"
+    ]
+  },
+  "349": {
+    "topic": 25,
+    "questionNumber": 3,
+    "page": 332,
+    "options": [
+      "Log policy -",
+      "Policy service -"
+    ]
+  },
+  "351": {
+    "topic": 27,
+    "questionNumber": 1,
+    "page": 340,
+    "options": [
+      "Azure Active Directory -"
+    ]
+  },
+  "353": {
+    "topic": 28,
+    "questionNumber": 1,
+    "page": 346,
+    "options": [
+      "Storage of e-commerce application settings must be maintained in Azure Key Vault."
+    ]
+  },
+  "355": {
+    "topic": 29,
+    "questionNumber": 1,
+    "page": 352,
+    "options": [
+      "verification.",
+      "Minimize costs for data storage and hosting.",
+      "Azure Functions must process data immediately when data is uploaded to Blob storage. Azure Functions must update Azure Cosmos DB by using"
+    ]
+  },
+  "356": {
+    "topic": 29,
+    "questionNumber": 2,
+    "page": 354,
+    "options": [
+      "verification.",
+      "Minimize costs for data storage and hosting.",
+      "storage account for three months to include read-only access to the data.",
+      "Azure Functions must process data immediately when data is uploaded to Blob storage. Azure Functions must update Azure Cosmos DB by using"
+    ]
+  },
+  "359": {
+    "topic": 31,
+    "questionNumber": 2,
+    "page": 361,
+    "options": [
+      "Azure Active Directory -"
+    ]
+  },
+  "361": {
+    "topic": 32,
+    "questionNumber": 1,
+    "page": 367,
+    "options": [
+      "Azure CDN Azure Storage",
+      "User authentication -",
+      "Azure Active Bell Bell",
+      "User C - <&> w",
+      "! Web Site API Function Azure Database for"
+    ]
+  }
+}

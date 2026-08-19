@@ -1,0 +1,2467 @@
+[
+  {
+    "topic": 1,
+    "questionNumber": 1,
+    "text": "C. Cycle time"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 2,
+    "text": "B. Lead time"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 3,
+    "text": "D. License procurement"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 4,
+    "text": "B. Static code analysis"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 5,
+    "text": "B. Using the TFS Database Import Service to perform the upgrade."
+  },
+  {
+    "topic": 1,
+    "questionNumber": 6,
+    "text": "A self-hosted agent, An external git service connection"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 7,
+    "text": "D. CMMI"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 8,
+    "text": "B: No"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 9,
+    "text": "B: No"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 10,
+    "text": "Yes"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 11,
+    "text": "B. Hosted Windows Container"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 12,
+    "text": "D. Configure conditional access in Azure Active Directory."
+  },
+  {
+    "topic": 1,
+    "questionNumber": 13,
+    "text": "D. Git in Azure Repos"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 14,
+    "text": "D. boards"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 15,
+    "text": "C: npm install"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 16,
+    "text": "A: Red/Black deployment"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 17,
+    "text": "C. You should make use of a gate."
+  },
+  {
+    "topic": 1,
+    "questionNumber": 18,
+    "text": "C: deployment"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 19,
+    "text": "Yeoman, Terratest"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 20,
+    "text": "B. You should make use of views."
+  },
+  {
+    "topic": 1,
+    "questionNumber": 21,
+    "text": "C. WhiteSource"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 22,
+    "text": "A. You should create a build task and use the WhiteSource Bolt service."
+  },
+  {
+    "topic": 1,
+    "questionNumber": 23,
+    "text": "A. No adjustment required."
+  },
+  {
+    "topic": 1,
+    "questionNumber": 24,
+    "text": "A. Azure Resource Manager templates und B. The PowerShell Desired State Configuration (DSC) extension for Windows"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 25,
+    "text": "D. Azure Security Center"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 26,
+    "text": "B: Azure Application Insights"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 27,
+    "text": "B: No"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 28,
+    "text": "B: No"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 29,
+    "text": "B: No"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 30,
+    "text": "Azure Logic App, Azure Application Insights"
+  },
+  {
+    "topic": 1,
+    "questionNumber": 31,
+    "text": "A. The Microsoft Test & Feedback extension und B. Azure Application Insights"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 1,
+    "text": "Lead Time, Cycle Time, Burndown"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 2,
+    "text": "percentile_duration_95, success"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 3,
+    "text": "B. an Azure Monitor alert that has a dynamic threshold A. An Azure Automation runbook"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 4,
+    "text": "readinessProbe, periodSeconds: 15"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 5,
+    "text": "B. Create an Azure Application Insights availability test and alert."
+  },
+  {
+    "topic": 2,
+    "questionNumber": 6,
+    "text": "A. Azure Application Insights"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 7,
+    "text": "Step 1: Create an instance of Azure Application Insights1. Open Microsoft Azure Portal2. Log into your Azure account, Select Create a resource > Developer tools > Application Insights.\n\n3. Enter the following settings, and then select Review + create.Name: az400-123456789-main -Step 2: Configure App Insights SDK1. Open your ASP.NET Core Web App project in Visual Studio > Right-click on the AppName in the Solution Explorer > Select Add > Application InsightsTelemetry.\n\n2. Click the Get Started button3. Select your account and subscription > Select the Existing resource you created in the Azure portal > Click Register."
+  },
+  {
+    "topic": 2,
+    "questionNumber": 8,
+    "text": "C. IT Service Management Connector (ITSM)"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 9,
+    "text": "Basic, Stakeholder"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 10,
+    "text": "A. Kusto Query Language (KQL)"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 11,
+    "text": "A. Azure Logic Apps E. Azure Application Insights"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 12,
+    "text": "User Flows, Users, Impact"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 13,
+    "text": "B. Microsoft Visual Studio App Center integration"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 14,
+    "text": "CDE"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 15,
+    "text": "1. Open Microsoft Azure Portal2. Log into your Azure account and go to App Service and look under Monitoring then you will see Alert.3. Select Add an alert rule4. Configure the alert rule as per below and click Ok.Source: Alert on Metrics -Resource Group: az400-123456789-mainResource: az400-123456789-main -Threshold: 5 -Period: Over the last 5 minutes -Webhook: https://contoso.com/notify"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 16,
+    "text": "Step 1: To create a general-purpose v2 storage account in the Azure portal, follow these steps:1. On the Azure portal menu, select All services. In the list of resources, type Storage Accounts. As you begin typing, the list filters based on your input. SelectStorage Accounts.2. On the Storage Accounts window that appears, choose Add.3. Select the subscription in which to create the storage account.4. Under the Resource group field, select RG1lod1234567895. Next, enter a name for your storage account named: az400lod123456789stor6. Select Create.Step 2: Enable boot diagnostics on existing virtual machineTo enable Boot diagnostics on an existing virtual machine, follow these steps:1. Sign in to the Azure portal, and then select the virtual machine VM1.2. In the Support + troubleshooting section, select Boot diagnostics, then select the Settings tab.3. In Boot diagnostics settings, change the status to On, and from the Storage account drop-down list, select the storage account az400lod123456789stor.4. Save the change.You must restart the virtual machine for the change to take effect."
+  },
+  {
+    "topic": 2,
+    "questionNumber": 17,
+    "text": ""
+  },
+  {
+    "topic": 2,
+    "questionNumber": 18,
+    "text": "summarize, makelist(EventID)"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 19,
+    "text": "requests, success == false"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 20,
+    "text": "D. Smart Detection"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 21,
+    "text": "subscribe, https://dev.azure.com/contoso/contoso-app/"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 22,
+    "text": "C"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 23,
+    "text": "C"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 24,
+    "text": "B"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 25,
+    "text": "A"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 26,
+    "text": "A"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 27,
+    "text": "5 minutes, static, Greater than"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 28,
+    "text": "A"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 29,
+    "text": "System.Debug, true"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 30,
+    "text": "C. Configure the Crashlytics pod in the app."
+  },
+  {
+    "topic": 2,
+    "questionNumber": 31,
+    "text": "C"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 32,
+    "text": "stateDiagram, processing"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 33,
+    "text": "Modify Application.config, Modify the suage and estimated costs settings"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 34,
+    "text": "D. OpenTelemetry E. OpenCensus"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 35,
+    "text": "B"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 36,
+    "text": "Logs, where continent == ‘Asia’, join (Events, where timestamp> ago(2d),) on Requestid"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 37,
+    "text": "bin(TimeGenerated, 1h), extend"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 38,
+    "text": "C"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 39,
+    "text": "TimeGenerated > ago (7d), bin(timeGenerated,1h)"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 40,
+    "text": "timestamp >= ago(1hr), project"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 41,
+    "text": "Burndown chart, Cycle time, Sprint burndown"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 42,
+    "text": "D. the ID of WS1 A. the secret key of WS1"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 43,
+    "text": "D. Users"
+  },
+  {
+    "topic": 2,
+    "questionNumber": 44,
+    "text": "Monitoring Contributor, Monitoring Reader"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 1,
+    "text": ""
+  },
+  {
+    "topic": 3,
+    "questionNumber": 2,
+    "text": "B. No"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 3,
+    "text": "B"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 4,
+    "text": "Scrum, Agile, CMMI"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 5,
+    "text": ""
+  },
+  {
+    "topic": 3,
+    "questionNumber": 6,
+    "text": "A. Add a liveness probe to the YAML configuration of App1."
+  },
+  {
+    "topic": 3,
+    "questionNumber": 7,
+    "text": "D. Azure Log Analytics"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 8,
+    "text": "A. the Smart Detection feature in Azure Application Insights"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 9,
+    "text": "Enable Remote Debugging -Before we start a debugging session to our Azure Function app we need to enable the functionality.1. Navigate in the Azure portal to your function app fa-115668952. Go to the ג€Application settingsג€3. Under ג€Debuggingג€ set Remote Debugging to On and set Remote Visual Studio version to 2017.Reference:https://www.locktar.nl/uncategorized/azure-remote-debugging-manually-in-visual-studio-2017/"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 10,
+    "text": "D. Azure dashboards"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 11,
+    "text": "B. Selenium"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 12,
+    "text": ""
+  },
+  {
+    "topic": 3,
+    "questionNumber": 13,
+    "text": "A. an Azure Load Balancer health probe"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 14,
+    "text": "every five minutes at a random location, all the HTML, Javascripts and images of APP1 load"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 15,
+    "text": ""
+  },
+  {
+    "topic": 3,
+    "questionNumber": 16,
+    "text": "C. a gate"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 17,
+    "text": "B. No"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 18,
+    "text": "C. the Azure virtual machines that run the latest version of Ubuntu E. The Windows Server 2019 container images hosted in the Azure Container"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 19,
+    "text": "B"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 20,
+    "text": "B. No"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 21,
+    "text": "B. No"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 22,
+    "text": "A: Yes"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 23,
+    "text": "C. Azure App Configuration"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 24,
+    "text": "C. a readiness probe"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 25,
+    "text": "B. the Azure Log Analytics agent D. the Dependency agent"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 26,
+    "text": "Create an Azure, Select the HTTP request trigger, Update the action group in Azure Monitor"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 27,
+    "text": "B. No"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 28,
+    "text": "B. No"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 29,
+    "text": "A. Yes"
+  },
+  {
+    "topic": 3,
+    "questionNumber": 30,
+    "text": "Link width, Link color"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 1,
+    "text": "Secret, Access policy"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 2,
+    "text": "D. conditional access"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 3,
+    "text": "A"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 4,
+    "text": "B"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 5,
+    "text": "A. personal access tokens (PATs) in Azure DevOps"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 6,
+    "text": "D. Compute & apps in Azure Security Center"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 7,
+    "text": "C. Add an Azure Key Vault task to the pipeline."
+  },
+  {
+    "topic": 4,
+    "questionNumber": 8,
+    "text": ""
+  },
+  {
+    "topic": 4,
+    "questionNumber": 9,
+    "text": "B. Get only"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 10,
+    "text": "A Key Vault advanced access policy, RBAC"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 11,
+    "text": "Reader, Service Account"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 12,
+    "text": "D. From the Security settings of the branch, modify the access control for the user."
+  },
+  {
+    "topic": 4,
+    "questionNumber": 13,
+    "text": "A. Azure Key Vault"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 14,
+    "text": ""
+  },
+  {
+    "topic": 4,
+    "questionNumber": 15,
+    "text": "You can use a system-assigned managed identity for a Windows virtual machine (VM) to access Azure Key Vault.1. Sign in to Azure portal2. Locate virtual machine VM1.3. Select Identity4. Enable the system-assigned identity for VM1 by setting the Status to On."
+  },
+  {
+    "topic": 4,
+    "questionNumber": 15,
+    "text": ""
+  },
+  {
+    "topic": 4,
+    "questionNumber": 16,
+    "text": "a clusterm a system-assigned managed identity, an RBAC binding"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 17,
+    "text": "Team Foundattion Server / Azure Pipelines service connection, Managed Service Identity Authentication"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 18,
+    "text": ""
+  },
+  {
+    "topic": 4,
+    "questionNumber": 19,
+    "text": "Microsoft Visual Studio App Center distribution groups, shared"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 20,
+    "text": "C"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 21,
+    "text": "organization-level Administration, Creator, User"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 22,
+    "text": "B"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 23,
+    "text": "A"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 24,
+    "text": "From Developer settings in Github Enterprise Server, register a new OAuth app, From Organisation settings in Azure DevOps, add an Oauith configuration, From Project Seetings in Azure DevOps, add a GitHub connection"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 25,
+    "text": "Create a service principal in Azure Active Directory (Azure AD), Configure an access policy in the key vault., Add an azure Resource Manager service connection to the pipeline"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 26,
+    "text": "User1: Project Administrators, User2: Contributors"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 27,
+    "text": "AD"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 28,
+    "text": "B: No"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 29,
+    "text": "B. No"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 30,
+    "text": "A. Yes"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 31,
+    "text": "B. No"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 32,
+    "text": ""
+  },
+  {
+    "topic": 4,
+    "questionNumber": 33,
+    "text": "MicrosoftResources/subscriptions/resourceGroups, Deny"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 34,
+    "text": "B. Register GitHub in Azure AD."
+  },
+  {
+    "topic": 4,
+    "questionNumber": 35,
+    "text": "A. Add a deployment gate."
+  },
+  {
+    "topic": 4,
+    "questionNumber": 36,
+    "text": "Create a YAML file, Run kubectl apply, Run helm init"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 37,
+    "text": "C. WhiteSource Bolt"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 38,
+    "text": "D. SonarQube"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 39,
+    "text": "B. Contributor"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 40,
+    "text": "No, Yes, Yes"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 41,
+    "text": "C: Black Duck"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 42,
+    "text": "The .npmrc file in the project, The .npmrc file in the user’s home folder"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 43,
+    "text": "a build task, WhiteSource Bolt"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 44,
+    "text": "C"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 45,
+    "text": "az aks create, az ad sp create-for-rbac, kubectl create"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 46,
+    "text": "C"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 47,
+    "text": "1. Open Microsoft Azure Portal and Log into your Azure account.2. Select network security group (NSG) named az400-123456789-nsg13. Select Settings, Outbound security rules, and click Add4. Click Advanced5. Change the following settings:✑ Destination Port range: 8080✑ Protocol. TCP✑ Action: AllowNote: By default, Azure DevOps Server uses TCP Port 8080."
+  },
+  {
+    "topic": 4,
+    "questionNumber": 48,
+    "text": "Create a service principal in Azure Active Directory, In Project1, create a service connection, In project1, configure permissions"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 49,
+    "text": "threat modeling, Static code analysis, Penetration testing"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 50,
+    "text": "D"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 51,
+    "text": "B"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 52,
+    "text": "Antwort A"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 53,
+    "text": "Antwort B"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 54,
+    "text": "Antwort Create an Azure key vault and store the key, Create an Azure Monitor logs dedicated cluster that has a system-assigned managed identity, Grant the system-assigned managed identity key permissions for the key vault, Configure the key vault properties for the cluster, Link the Log Analytics workspace to the cluster"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 55,
+    "text": "Antwort Enable soft delete for the key Vault, Create a Log Analytics cluster, Frant permissions to the key vault, Link the workspace"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 56,
+    "text": "A"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 57,
+    "text": "Readers. Project Administartions, Contributors"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 58,
+    "text": "Readers, Project Administrators, Contributors"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 59,
+    "text": "D"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 60,
+    "text": "C"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 61,
+    "text": "A"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 62,
+    "text": "Configure personal access token (PAT)- based authentication, Perform a custom installation of Git for Windows that includes Git Virtual File System (GVFS), Configure Git Large File Storage (LFS) file tracking"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 63,
+    "text": "C"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 64,
+    "text": "B"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 65,
+    "text": "Secret, Access policies"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 66,
+    "text": "B"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 67,
+    "text": "Write, Triage, Maintain"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 68,
+    "text": "C"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 69,
+    "text": "A"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 70,
+    "text": "Start a container, Run the baseline, Run an active scan, Report the results."
+  },
+  {
+    "topic": 4,
+    "questionNumber": 71,
+    "text": "A"
+  },
+  {
+    "topic": 4,
+    "questionNumber": 72,
+    "text": "A. The dependency graph of a repository changes. E. A new advisory is added."
+  },
+  {
+    "topic": 5,
+    "questionNumber": 1,
+    "text": "C"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 2,
+    "text": "A. Yes"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 3,
+    "text": "BC"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 4,
+    "text": "A"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 5,
+    "text": "Markdown (.md), Mermaid diagrams"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 6,
+    "text": "C"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 7,
+    "text": "Prepare Analysis Configuration, Visual Studio Build, Visual Studio Test, Run Code Analysis"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 8,
+    "text": "B"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 9,
+    "text": "Create a dependency graph for the application, Group the related components, Assign ownership to each component group"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 10,
+    "text": "Configure a self-hosted agent, Create a new Azure Artifacts feed, Publish a package, Connect to an Azure Artifacts feed."
+  },
+  {
+    "topic": 5,
+    "questionNumber": 11,
+    "text": "B"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 12,
+    "text": "ABE"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 13,
+    "text": "AB"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 14,
+    "text": "CE"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 15,
+    "text": "D"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 16,
+    "text": "B. No"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 17,
+    "text": "B. No"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 18,
+    "text": "A. Yes"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 19,
+    "text": "A"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 20,
+    "text": "D. Publish the package to a public NuGet repository"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 21,
+    "text": ""
+  },
+  {
+    "topic": 5,
+    "questionNumber": 22,
+    "text": "C"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 23,
+    "text": ""
+  },
+  {
+    "topic": 5,
+    "questionNumber": 24,
+    "text": "- ‘releases/**’, -‘src/**’, -**/*.md’"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 25,
+    "text": ""
+  },
+  {
+    "topic": 5,
+    "questionNumber": 26,
+    "text": "git clone –bare https://github.com/contoso/project1.git, cd project1.git, git push –mirror https://dev.azure.com/contoso/project1/_it/proj"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 27,
+    "text": "clone, branch"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 28,
+    "text": "reflog,gc,now"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 29,
+    "text": "Sign in to Azure DevOps, Create SHH keys by using ssh-keygen, Add the SSH public key, Clone repo1."
+  },
+  {
+    "topic": 5,
+    "questionNumber": 30,
+    "text": "git log, gitcheckout Hash -1 –path/to/file, git restore path/to/file"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 31,
+    "text": "checkout, --staged"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 32,
+    "text": "Main, Develop"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 33,
+    "text": "https://dev.azure.com/organi..., repo1/src/, web"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 34,
+    "text": "B"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 35,
+    "text": "C"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 36,
+    "text": "repo1 repo URL, repo1, repo2 clone URL"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 37,
+    "text": "git branch feature/feature11, git log, git checkout <SHA>"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 38,
+    "text": "B. 11.2.1"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 39,
+    "text": "git lfs install # Initialize Git LFS in the repository git lfs track \"*.psd\" # Track the large PSD files using Git LFS git add .gitattributes # Generated by lfs track, contains the LFS tracking information git commit -m \"commit changes\" git lfs migrate import --include=\"*.psd\" --everything # Migrate the existing large PSD filesgit push # Send the commit changes to Azure Repo"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 40,
+    "text": "B"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 41,
+    "text": "D"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 42,
+    "text": "C"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 43,
+    "text": "Check-in, Status, Branch"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 44,
+    "text": "B"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 45,
+    "text": "AC"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 46,
+    "text": "A"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 47,
+    "text": "A dependency graph"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 48,
+    "text": "git clone, git sparse-checkout"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 49,
+    "text": "A"
+  },
+  {
+    "topic": 5,
+    "questionNumber": 50,
+    "text": "BE"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 1,
+    "text": "D Stories and Tasks"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 2,
+    "text": "A Kanban boards"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 3,
+    "text": "CDE"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 4,
+    "text": "D"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 5,
+    "text": "B.No"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 6,
+    "text": "Jira"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 7,
+    "text": "Github Codespaces"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 8,
+    "text": "B.No"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 9,
+    "text": "A. Yes"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 10,
+    "text": "B. No"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 11,
+    "text": "B. Git"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 12,
+    "text": "D Visual Studio Codespaces"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 13,
+    "text": "D. Creates a service hook subscription"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 14,
+    "text": "B.D."
+  },
+  {
+    "topic": 6,
+    "questionNumber": 15,
+    "text": "subscribe, dev.azure.com/contoso/contoso-app"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 16,
+    "text": "C. In Project1, create an Azure DevOps repository."
+  },
+  {
+    "topic": 6,
+    "questionNumber": 17,
+    "text": "D. Microsoft Teams"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 18,
+    "text": "B"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 19,
+    "text": "D"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 20,
+    "text": "https://github.com/orgs/org1, https://github.com/orgs/org1/saml/consume, https://github.com/orgs/org1/sso"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 21,
+    "text": "Slack"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 22,
+    "text": "A: ${{parameters.outputfile}}, E: ${{parameters['outputfile']}}"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 23,
+    "text": "B; a Docker registery"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 24,
+    "text": "azure boards link"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 25,
+    "text": "Fixes #123"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 26,
+    "text": "JSON"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 27,
+    "text": "Create a client secret, Register an Exambeam application in Microsoft Azure Active Directory (Azure AD), part of Microsoft Entra."
+  },
+  {
+    "topic": 6,
+    "questionNumber": 29,
+    "text": "Lead Time, cycle time"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 30,
+    "text": "D.E."
+  },
+  {
+    "topic": 6,
+    "questionNumber": 31,
+    "text": "B. AB#715"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 32,
+    "text": "A. cycle time"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 33,
+    "text": "B. Fixes #AB456, #AB457, #AB458"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 34,
+    "text": "B. .github/"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 35,
+    "text": "Cycle time, Defect escape rate"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 36,
+    "text": "D (statt completed -> fixed)"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 37,
+    "text": "A. az acr task run"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 38,
+    "text": "D (verifies)"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 39,
+    "text": "B"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 40,
+    "text": "B"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 41,
+    "text": "C. Service1 and Service 2"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 42,
+    "text": "Item1: Resolved, Item2: Proposed, Item3: Completed"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 43,
+    "text": "C. a subscription"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 44,
+    "text": "A.B."
+  },
+  {
+    "topic": 6,
+    "questionNumber": 45,
+    "text": "Bug report rate, Defect escape rate, Application failure rates"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 46,
+    "text": "D."
+  },
+  {
+    "topic": 6,
+    "questionNumber": 47,
+    "text": "D. Cycle time"
+  },
+  {
+    "topic": 6,
+    "questionNumber": 48,
+    "text": "D. Fixes #123"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 1,
+    "text": "B. No"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 2,
+    "text": "C. extends: template:"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 3,
+    "text": "A oder D (most voted A)"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 4,
+    "text": "B. No"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 5,
+    "text": "B. a personal access token(PAT)"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 6,
+    "text": "1 -> Git in Azure DevOps, 2 -> Github Enterprise, 3 -> Subversion"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 7,
+    "text": "B. No"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 8,
+    "text": "A. Yes"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 9,
+    "text": "B. No"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 10,
+    "text": "B. no"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 11,
+    "text": "A. squash merge"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 12,
+    "text": "C.D.E. (most voted 48%)"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 13,
+    "text": "TFVS(Team Foundation Version Control), Git, Git, TFVS"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 14,
+    "text": "C. JaCoCo"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 15,
+    "text": "1 Job, 3 stages (build, deploy to dev, deploy to UAT)"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 16,
+    "text": "Hosted macOs, hosted windows container"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 17,
+    "text": "A. Cobertura"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 18,
+    "text": "A. a self-hosted agent"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 19,
+    "text": "App1: rolling, App2: canary"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 20,
+    "text": "D. Contributor"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 21,
+    "text": "A. ARM templates…PowerShell Desired State configuration (DSC)"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 22,
+    "text": "B. upstream sources"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 23,
+    "text": "Create a DSC metaconfiguration\n\nCopy the metaconfiguration to the virtual machines\n\nFrom the virtual machines, run setdsclocalconfigurationmanager.py"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 24,
+    "text": "(Simulation)"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 25,
+    "text": "FROM mcr.microsoft.com/dotnet/core/sdk:2.1 AS build-env\n\nWORKDIR /app\n\nCOPY *.csproj ./\n\nRUN dotnet restore\n\nCOPY . ./\n\nRUN dotnet publish -c Release -o out\n\nFROM mcr.microsoft.com/dotnet/core/aspnet:2.1\n\nWORKDIR /app\n\nCOPY --from=build-env /app/out .\n\nENTRYPOINT [\"dotnet\", \"asp-net-getting-started.dll\"]"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 26,
+    "text": "a build policy, a status policy"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 27,
+    "text": "A. branch policies of the default branch"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 28,
+    "text": "B. No"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 29,
+    "text": "A. Yes"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 30,
+    "text": "B. No"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 31,
+    "text": "B. No"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 32,
+    "text": "multi-stage builds"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 33,
+    "text": "C. 4"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 34,
+    "text": "B. no"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 35,
+    "text": "Azure Container Registry, An Azure service principal"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 36,
+    "text": "B. add a devDependencies section to Package-lock.json"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 37,
+    "text": "A. a task executed in the continuous integration pipeline and a scheduled task that analyzes the image registry"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 38,
+    "text": "D. Azure DevOps self-hosted agents on virtual machines that run on Azure Stack"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 39,
+    "text": "D.E."
+  },
+  {
+    "topic": 7,
+    "questionNumber": 40,
+    "text": "A.C.D. the tenant ID, the client secret, the app ID"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 41,
+    "text": "- Create a PowerShell configuration file\n\n- Load the file to Azure Blob storage\n\n- Configure the *DSC extension* on the virtual machines"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 42,
+    "text": "C. a multi-stage Dockerfile"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 43,
+    "text": "D. the percentage of overall time spent on rework"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 44,
+    "text": "B. GitHub App"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 45,
+    "text": "B. No"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 46,
+    "text": "B. No"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 47,
+    "text": "B. No"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 48,
+    "text": "Docker CLI installer (f)\n\nBuild machine image (b)\n\nCall the Baseline Scan (e)\n\nConvert Report Format (a)\n\nDestroy OWASP Container (d)"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 49,
+    "text": "Entweder ( build.sh + eq(var…)) oder (npm install + ne(var…))"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 50,
+    "text": "C.E. Increase the number of parallel jobs, Create an agent pool"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 51,
+    "text": "B. Configure flaky tests"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 52,
+    "text": "Create a deployment group\n\nAdd the Azure Pipelines Agent extension to the virtual machines\n\nAdd and configure a deployment group job for the pipeline\n\nexcuse the pipeline"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 53,
+    "text": "A. Yes"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 54,
+    "text": "A.B."
+  },
+  {
+    "topic": 7,
+    "questionNumber": 55,
+    "text": "Jira: Boards, Jenkins: Build pipelines, Octopus: Release pipelines"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 56,
+    "text": "B. deployment queue settings"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 57,
+    "text": "D. build"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 58,
+    "text": "(erklärung in Comments)\n\nCreate an azure artifacts feed that uses upstream sources\n\nModify the configuration files to reference the Arure Artifacts feed\n\nRun an initial package restore"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 59,
+    "text": "1 Job: (Cloud Agent), 4 Tasks (Nuget Restore, Compile Application, Copy Files, Publish Artifact)"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 60,
+    "text": "Simulation"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 61,
+    "text": "Upload\n\nCompile\n\nOnboard\n\nAssing the node configuration\n\nCheck"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 62,
+    "text": "A. Rebase"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 63,
+    "text": "B. No"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 64,
+    "text": "A. Yes"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 65,
+    "text": "B. No"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 66,
+    "text": "B. No"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 67,
+    "text": "B. No"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 68,
+    "text": "B. No"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 69,
+    "text": "B. No"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 70,
+    "text": "A. Yes (50%)"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 71,
+    "text": "C. Create and rund an Azure Container Registry task."
+  },
+  {
+    "topic": 7,
+    "questionNumber": 72,
+    "text": "B. No"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 73,
+    "text": "B. No"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 74,
+    "text": "A. Yes"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 75,
+    "text": "1. Azure Repos\n\nAzure Artifacts\n\nAzure Pipelines\n\nAzure Storage"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 76,
+    "text": "B. views"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 77,
+    "text": "D. Create two container jobs"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 78,
+    "text": "Simulation"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 79,
+    "text": "D. procuring licenses"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 80,
+    "text": "Upgrade TFS to the most recent RTW release\n\nUse TFS Database Import Service"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 81,
+    "text": "D. gradle"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 82,
+    "text": "A. Maven"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 83,
+    "text": "A. a pre-deployment task that runs a security and compliance assessment"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 84,
+    "text": "1. WindowsFeature 2. File"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 85,
+    "text": "C."
+  },
+  {
+    "topic": 7,
+    "questionNumber": 86,
+    "text": "Create or Update Resource Group, Incremental"
+  },
+  {
+    "topic": 7,
+    "questionNumber": 87,
+    "text": "D."
+  },
+  {
+    "topic": 7,
+    "questionNumber": 88,
+    "text": "A."
+  },
+  {
+    "topic": 7,
+    "questionNumber": 89,
+    "text": "B. the retention settings of the project’s pipeline"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 1,
+    "text": "aggressive, prune"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 2,
+    "text": "1. Sign in to the portal.2. Choose template Deploy-lod1234567893. Select Edit template, and then paste your JSON template code into the code window.4. Change the ASddressPrefixes to 10.0.0.0/24 in order to support only 256 total IP addresses. addressSpace\":{\"addressPrefixes\": [\"10.0.0.0/24\"]},5. Change the firstSubnet addressprefix to 10.0.0.0/26 to support only 64 total IP addresses.\"subnets\":[{\"name\":\"firstSubnet\",\"properties\":{\"addressPrefix\":\"10.0.0.0/24\"}6. Select Save.7. Select Edit parameters, provide values for the parameters that are shown, and then select OK.8. Select Subscription. Choose the subscription you want to use, and then select OK.9. Select Resource group. Choose an existing resource group or create a new one, and then select OK.10. Select Create. A new tile on the dashboard tracks the progress of your template deployment."
+  },
+  {
+    "topic": 8,
+    "questionNumber": 3,
+    "text": "1. In the Azure portal, navigate to the az400-123456789-main app's management page. In the app's left menu, click Configuration > Application settings.2. Click New Application settings3. Enter the following:✑ Name: MAX_ITEMS✑ Value: 50"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 4,
+    "text": "kubectl create, helm init, helm install"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 5,
+    "text": "D"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 6,
+    "text": "Group1: Private, Group2: Public, Group3: Shared"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 7,
+    "text": "1. Sign in to the Azure portal.2. Navigate to the container registry az400123456789acr1.3. Under Services, select Webhooks.4. Select the existing webhook https://contoso.com/statushook, and double-click on it to get its properties.5. For Trigger actions select image push"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 8,
+    "text": "provisioner: Kubernetes.io/azure-file, : provisioner: Kubernetes.io/azure-disk, driver: secrets-store.csi.k8s.io"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 9,
+    "text": "C"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 10,
+    "text": "Delete and recreate the repository, Add Config.json to the .gitignore file, Run the git add .gitignore command."
+  },
+  {
+    "topic": 8,
+    "questionNumber": 11,
+    "text": "B"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 12,
+    "text": "tag, -a, -m"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 13,
+    "text": "C"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 14,
+    "text": "an Azure Key Vault access policy"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 15,
+    "text": "Create a release pipeline, Add an Azure Resource Group Deployment task, Set the template parameters."
+  },
+  {
+    "topic": 8,
+    "questionNumber": 16,
+    "text": "A"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 17,
+    "text": "Server-level firewall rules can be used to manage access to an Azure Database for MySQL Server from a specified IP address or a range of IP addresses.Create a server-level firewall rule in the Azure portal1. On the MySQL server page, under Settings heading, click Connection Security to open the Connection Security page for the Azure Database for MySQL. 2. In the firewall rules for the Azure Database for MySQL, you can specify a single IP address or a range of addresses. If you want to limit the rule to a single IP address, type the same address in the Start IP and End IP fields. Opening the firewall enables administrators, users, and application to access any database on the MySQL server to which they have valid credentials. 3. Click Save on the toolbar to save this server-level firewall rule. Wait for the confirmation that the update to the firewall rules is successful."
+  },
+  {
+    "topic": 8,
+    "questionNumber": 18,
+    "text": "D"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 19,
+    "text": "Open Microsoft Azure Portal2. Select All Services, and then select DevTest Labs in the DEVOPS section.\n\n3. From the list of labs, select the az400-123456789-dtl1 lab.4. On the home page for your lab, select + Add on the toolbar.5. Select the Windows Server 2019 Datacenter base image for the VM.6. Select automation options at the bottom of the page above the Submit button.7. You see the Azure Resource Manager template for creating the virtual machine.8. The JSON segment in the resources section has the definition for the image type you selected earlier."
+  },
+  {
+    "topic": 8,
+    "questionNumber": 20,
+    "text": "5, The internal Review stage"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 21,
+    "text": "A deployment group, A deployment group"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 22,
+    "text": "BD"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 23,
+    "text": "1. In the Azure portal, search for and select App Services and select your app az400-123456789-main.2. In the left pane, select Deployment slots > Add Slot.3. In the Add a slot dialog box, give the slot a name, and select whether to clone an app configuration from another deployment slot. Select Add to continue."
+  },
+  {
+    "topic": 8,
+    "questionNumber": 24,
+    "text": "1. To enable automatic tuning on a single database, navigate to the database in the Azure portal and select Automatic tuning.2. Select the automatic tuning options you want to enable and select Apply.Note: Individual automatic tuning settings can be separately configured for each database. You can manually configure an individual automatic tuning option, or specify that an option inherits its settings from the server.4. After the slot is added, select Close to close the dialog box. The new slot is now shown on the Deployment slots page."
+  },
+  {
+    "topic": 8,
+    "questionNumber": 25,
+    "text": "Progressive exposure, Feature flags, Blue/green"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 26,
+    "text": "Create a test project, Check in a project to the Azure DevOps repository, Add the automated test to the build pipeline"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 27,
+    "text": "Create a service principal in Azure Active Directory, Add a Helm package and deploy to task to the deployment pipeline, Add a Docker Compose task to the deployment pipeline."
+  },
+  {
+    "topic": 8,
+    "questionNumber": 28,
+    "text": "B. No"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 29,
+    "text": "B. No"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 30,
+    "text": "B. No"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 31,
+    "text": "Canary deployment, Rolling deployment"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 32,
+    "text": "B. No"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 33,
+    "text": "Create an Azure Automation Account, Install the custom Desired State Configuration (DSC) extension on the virtual machines, Onboard the virtual machines to the Azure Automation account, Compile the Desires State Configuration(DSC) configuration."
+  },
+  {
+    "topic": 8,
+    "questionNumber": 34,
+    "text": "B"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 35,
+    "text": "Set up staging environments in Azure App Service1. Open Microsoft Azure Portal2. Log into your Azure account, select your app's resource page, in the left pane, select Deployment slots > Add Slot.3. In the Add a slot dialog box, give the slot a name, and select whether to clone an app configuration from another deployment slot. Select Add to continue.4. After the slot is added, select Close to close the dialog box. The new slot is now shown on the Deployment slots page. By default, Traffic % is set to 0 for the new slot, with all customer traffic routed to the production slot.5. Select the new deployment slot to open that slot's resource page.6. Change TRAFFIC % to 10"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 36,
+    "text": "B"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 37,
+    "text": "Microsoft Resources/deployments, templateLink"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 38,
+    "text": "BD"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 39,
+    "text": "A"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 40,
+    "text": "B"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 41,
+    "text": "BF"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 42,
+    "text": "A"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 43,
+    "text": "1. Go to the Azure portal, navigate to Traffic Manager profiles and click on the Add button to create a routing profile. 2, In the Create Traffic Manager profile, enter, or select these settings:Name: az400123456789n1-tm -Routing method: Geographic -Resource group: RG1lod123456789 -"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 44,
+    "text": "DE"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 45,
+    "text": "Short-lived, Feature"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 46,
+    "text": "AD"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 47,
+    "text": "rwx, /tmp"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 48,
+    "text": "Get-AzResource, -ResourceType"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 49,
+    "text": "B"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 50,
+    "text": "B"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 51,
+    "text": "A"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 52,
+    "text": "Configuration, WindowsFeature"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 53,
+    "text": "= SMTP-Server, Web-Server, Ensure"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 54,
+    "text": "A"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 55,
+    "text": "B"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 56,
+    "text": "ABD"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 57,
+    "text": "A"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 58,
+    "text": "B. No"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 59,
+    "text": "BC"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 60,
+    "text": "C"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 61,
+    "text": "Yes, Yes, No"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 62,
+    "text": "bin(timestamp,Id), render timechart"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 63,
+    "text": "D"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 64,
+    "text": "D"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 65,
+    "text": "AppEvents, where Name startswith “Clicked Create New ticket, summarize NumberOfClicks = count() by bin (TimerGenerated, Id), UserId, where NumberOfClicks >=3, top 10 by NumberOfClicks desc"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 66,
+    "text": "Deployment mode, location specified in the Linked artifact variable"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 67,
+    "text": "job, stage, pipeline root, pipeline seetings UI"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 68,
+    "text": "B"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 69,
+    "text": "Major, Minor, Minor"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 70,
+    "text": "D"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 71,
+    "text": "Category, OperationName, ResultType"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 72,
+    "text": "A"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 73,
+    "text": "Add a task to configure alert rules in Application Insights, Configure a gate in the pre-deployment conditions"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 74,
+    "text": "A"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 75,
+    "text": "B"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 76,
+    "text": "C"
+  },
+  {
+    "topic": 8,
+    "questionNumber": 77,
+    "text": "Create a personal access token (PAT), Create a service principal, Create a PowerShell task in RealseP1 that writes the retrieved data to a markdown file"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 1,
+    "text": "C"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 2,
+    "text": "D"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 3,
+    "text": "D"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 4,
+    "text": "In Project1, create a service connection, Create a service principal in Microsoft Azure Active Directory (Azure AD), part of Microsoft Entra, In Pipeline1, authorize the service connection"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 5,
+    "text": "A"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 6,
+    "text": "D"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 7,
+    "text": "B"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 8,
+    "text": "D"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 9,
+    "text": "kind, properties"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 10,
+    "text": "- ‘releases/**’, - ‘src/**’, -‘*.md’"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 11,
+    "text": "BD"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 12,
+    "text": "D"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 13,
+    "text": "Minor, Major, Patch"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 14,
+    "text": "A. Yes"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 15,
+    "text": "B .No"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 16,
+    "text": "B. No"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 17,
+    "text": "B"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 18,
+    "text": "echo $GITHUB_TOKEN .. , docker build. –file Dockerfile –tag ….. ,Docker push ghcr.io/$..."
+  },
+  {
+    "topic": 9,
+    "questionNumber": 19,
+    "text": "B. No"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 20,
+    "text": "D"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 21,
+    "text": "B"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 22,
+    "text": "key: , path:"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 23,
+    "text": "(subscription().id), (resourceGroup().id)"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 24,
+    "text": "$Build.SourcesDirectory)/**/packages.lock.json, $Agent.OS, $NUGET_Packages"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 25,
+    "text": "D\n\nTopic 10: Testlet 1 - Introductory Info"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 1,
+    "text": "Threshold value, Aggregation granularity (Period)\n\nTopic 11: Testlet 2 - Introductory Info"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 1,
+    "text": "MSAnaltics.self, MSChrashes.self\n\nTopic 12: Testlet 3 - Introductory Info"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 1,
+    "text": "Run the Register-AzureRmAutomationDscNode Azure Powershell cmdlet."
+  },
+  {
+    "topic": 9,
+    "questionNumber": 2,
+    "text": "Create a repository, Create a fork, Add a build policy for the fork"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 3,
+    "text": "Create a Desired State Configuration (DSC) configuration file that has an extension of .ps1\n\nTopic 13: Testlet 4 - Introductory Info"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 1,
+    "text": "Shared Access Authorization token, Azure Storage with HTTPS access"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 2,
+    "text": "Shared Access Authorization token, Azure Storage with HTTPS access"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 3,
+    "text": "Reader, Owner\n\nTopic 14: Testlet 5 - Introductory Info"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 1,
+    "text": "C"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 2,
+    "text": "D"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 3,
+    "text": "Create am app, Create a managed service identity\n\nTopic 15: Testlet 6 - Introductory Info"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 1,
+    "text": "Azure Boards, Azure Pipelines, Github repositories"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 2,
+    "text": "A\n\nTopic 16: Testlet 7 - Introductory Info"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 1,
+    "text": "Topic 17: Testlet 8 - Introductory Info"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 1,
+    "text": "path filter to exclude, branch filter to include"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 2,
+    "text": ""
+  },
+  {
+    "topic": 9,
+    "questionNumber": 3,
+    "text": "C"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 4,
+    "text": "Sign in to Azure DevOps by using an account that is assigned the Administrator service connection security role, Create a personal access token in the Azure DevOps organization of Contoso, Install and register the Azure pipelines agent on an Azure virtual machine"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 5,
+    "text": "Open the release pipeline editor, Enable gates, Add Query Work Items.\n\nTopic 18: Testlet 9 - Introductory Info"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 1,
+    "text": "A"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 2,
+    "text": "D"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 3,
+    "text": "B"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 4,
+    "text": "Set the default retention policy to 30 days, Set the stage retention policy to 60 days."
+  },
+  {
+    "topic": 9,
+    "questionNumber": 5,
+    "text": "A source control system, A hosted service\n\nTopic 19: Testlet 10 - Introductory Info"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 1,
+    "text": "Velocity, Releasse pipeline overview, Query tile"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 2,
+    "text": "B"
+  },
+  {
+    "topic": 9,
+    "questionNumber": 3,
+    "text": "B"
+  }
+]

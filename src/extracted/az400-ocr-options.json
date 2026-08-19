@@ -1,0 +1,1750 @@
+{
+  "6": {
+    "topic": 1,
+    "questionNumber": 6,
+    "page": 2,
+    "options": [
+      "agent",
+      "A self-hosted agent"
+    ]
+  },
+  "19": {
+    "topic": 1,
+    "questionNumber": 19,
+    "page": 7,
+    "options": [
+      "Yeoman",
+      "Tiller",
+      "Terratest",
+      "WhiteSource",
+      "Vault"
+    ]
+  },
+  "30": {
+    "topic": 1,
+    "questionNumber": 30,
+    "page": 10,
+    "options": [
+      "Azure DevOps",
+      "Azure Pipelines",
+      "Azure Logic Apps",
+      "Azure Application",
+      "Project",
+      "Insights"
+    ]
+  },
+  "32": {
+    "topic": 2,
+    "questionNumber": 1,
+    "page": 11,
+    "options": []
+  },
+  "33": {
+    "topic": 2,
+    "questionNumber": 2,
+    "page": 12,
+    "options": [
+      "source",
+      "threshold",
+      "resultCode",
+      "users, the alerting level must be based on [answer choice]. - -",
+      "To only create an alert when authentication error occurs Iv]"
+    ]
+  },
+  "35": {
+    "topic": 2,
+    "questionNumber": 4,
+    "page": 13,
+    "options": [
+      "name: readiness-http"
+    ]
+  },
+  "40": {
+    "topic": 2,
+    "questionNumber": 9,
+    "page": 15,
+    "options": [
+      "Azure Pipelines",
+      "Azure Logic Apps",
+      "Azure DevOps Project",
+      "Azure Application Insights",
+      "Stakeholder",
+      "Transact-SQL"
+    ]
+  },
+  "43": {
+    "topic": 2,
+    "questionNumber": 12,
+    "page": 16,
+    "options": [
+      "Azure Application Insights widgets"
+    ]
+  },
+  "49": {
+    "topic": 2,
+    "questionNumber": 18,
+    "page": 18,
+    "options": [
+      "traces",
+      "requests",
+      "pageViews",
+      "exceptions",
+      "availabilityResult"
+    ]
+  },
+  "50": {
+    "topic": 2,
+    "questionNumber": 19,
+    "page": 18,
+    "options": [
+      "traces",
+      "requests",
+      "pageViews",
+      "exceptions",
+      "availabilityResult"
+    ]
+  },
+  "52": {
+    "topic": 2,
+    "questionNumber": 21,
+    "page": 19,
+    "options": [
+      "Create a GitHub action in GitHub."
+    ]
+  },
+  "58": {
+    "topic": 2,
+    "questionNumber": 27,
+    "page": 22,
+    "options": [
+      "Static",
+      "Dynamic",
+      "the Telegraf agent",
+      "the Dependency agent",
+      "the Azure monitor agent",
+      "The virtual machine has the Azure Log Analytics agent installed.",
+      "You plan to deploy the Service Map solution from the Azure Marketplace."
+    ]
+  },
+  "60": {
+    "topic": 2,
+    "questionNumber": 29,
+    "page": 23,
+    "options": [
+      "detailed",
+      "System.Log",
+      "System.Debug",
+      "Log",
+      "true",
+      "Debug"
+    ]
+  },
+  "63": {
+    "topic": 2,
+    "questionNumber": 32,
+    "page": 25,
+    "options": [
+      "sequenceDiagram"
+    ]
+  },
+  "64": {
+    "topic": 2,
+    "questionNumber": 33,
+    "page": 26,
+    "options": [
+      "From Applnsights1: v",
+      "Disable adaptive sampling.",
+      "Enable fixed-rate sampling.",
+      "From the code repository of webapp: -",
+      "modification.",
+      "You plan to deploy webapp1 by using an Azure DevOps pipeline."
+    ]
+  },
+  "67": {
+    "topic": 2,
+    "questionNumber": 36,
+    "page": 28,
+    "options": [
+      "percent."
+    ]
+  },
+  "68": {
+    "topic": 2,
+    "questionNumber": 37,
+    "page": 28,
+    "options": [
+      "percent."
+    ]
+  },
+  "70": {
+    "topic": 2,
+    "questionNumber": 39,
+    "page": 29,
+    "options": [
+      "project.json",
+      "appsettings.json",
+      "launchSettings.json",
+      "startup.cs",
+      "You create an Application Insights instance named Al1.",
+      "You plan to monitor App1 by using Application Insights.",
+      "webl",
+      "Perf"
+    ]
+  },
+  "71": {
+    "topic": 2,
+    "questionNumber": 40,
+    "page": 30,
+    "options": [
+      "London",
+      "Paris",
+      ". | where resultCode == “404” and (client City",
+      "timestamp >= ago (lhr) == “London” or client City == “Paris”)"
+    ]
+  },
+  "72": {
+    "topic": 2,
+    "questionNumber": 41,
+    "page": 31,
+    "options": [
+      "Velocity"
+    ]
+  },
+  "75": {
+    "topic": 2,
+    "questionNumber": 44,
+    "page": 33,
+    "options": [
+      "User e Create private monitoring dashboards.",
+      "User: v",
+      "User2: v",
+      "workspace.",
+      "User2 ¢ View autoscale settings.",
+      "You plan to use Azure Monitor to manage logs."
+    ]
+  },
+  "79": {
+    "topic": 3,
+    "questionNumber": 4,
+    "page": 35,
+    "options": [
+      "an HTTP trigger"
+    ]
+  },
+  "89": {
+    "topic": 3,
+    "questionNumber": 14,
+    "page": 39,
+    "options": [
+      "Enabled",
+      "Create test",
+      "Enable retries for availability test failures. @",
+      "HTTP response @"
+    ]
+  },
+  "101": {
+    "topic": 3,
+    "questionNumber": 26,
+    "page": 44,
+    "options": [
+      "Create an Azure",
+      "trigger.",
+      "Select the HTTP ©) ®)"
+    ]
+  },
+  "105": {
+    "topic": 3,
+    "questionNumber": 30,
+    "page": 46,
+    "options": [
+      "ll",
+      "eT"
+    ]
+  },
+  "106": {
+    "topic": 4,
+    "questionNumber": 1,
+    "page": 47,
+    "options": [
+      "Secret",
+      "Certificate",
+      "Access policy",
+      "Service endpoint policy",
+      "Key"
+    ]
+  },
+  "115": {
+    "topic": 4,
+    "questionNumber": 10,
+    "page": 50,
+    "options": [
+      "o> View the agent pool and agents of the organization.",
+      "o> Use a project agent pool when authoring build or release pipelines."
+    ]
+  },
+  "116": {
+    "topic": 4,
+    "questionNumber": 11,
+    "page": 50,
+    "options": [
+      "o> View the agent pool and agents of the organization.",
+      "o> Use a project agent pool when authoring build or release pipelines."
+    ]
+  },
+  "121": {
+    "topic": 4,
+    "questionNumber": 16,
+    "page": 52,
+    "options": [
+      "Grant authorization",
+      "Azure Resource Manager",
+      "Azure Active Directory OAuth 2.0",
+      "Objects",
+      "an RBAC binding"
+    ]
+  },
+  "122": {
+    "topic": 4,
+    "questionNumber": 17,
+    "page": 52,
+    "options": [
+      "Grant authorization",
+      "Azure Resource Manager",
+      "Azure Active Directory OAuth 2.0",
+      "Objects",
+      "an RBAC binding"
+    ]
+  },
+  "124": {
+    "topic": 4,
+    "questionNumber": 19,
+    "page": 53,
+    "options": [
+      "Create an XAML build service.",
+      "Create a variable group in Project1.",
+      "Group type: v",
+      "Azure Active Directory groups",
+      "Groups to control the build access: v",
+      "Public",
+      "Shared",
+      "Private",
+      "Configure the security policy of Contoso."
+    ]
+  },
+  "126": {
+    "topic": 4,
+    "questionNumber": 21,
+    "page": 54,
+    "options": [
+      "Group2, and Group3.",
+      "Creator",
+      "Contributor",
+      "You create a new project in Azure DevOps named Project."
+    ]
+  },
+  "129": {
+    "topic": 4,
+    "questionNumber": 24,
+    "page": 56,
+    "options": [
+      "pipeline.",
+      "From Project Settings in Azure DevOps, create a service hook",
+      "Create a service principal in Azure Active Directory (Azure AD).",
+      "From Organization settings in Azure DevOps, add an OAuth",
+      "From Organization settings in Azure DevOps, connect to Azure",
+      "From Developer settings in GitHub Enterprise Server, register",
+      "From Developer settings in GitHub Enterprise Server, generate",
+      "connection.",
+      "subscription.",
+      "configuration.",
+      "From Project Settings in Azure DevOps, add a GitHub (©) ©",
+      "Configure an access policy in the key vault. ® ®"
+    ]
+  },
+  "130": {
+    "topic": 4,
+    "questionNumber": 25,
+    "page": 56,
+    "options": [
+      "pipeline.",
+      "From Project Settings in Azure DevOps, create a service hook",
+      "Create a service principal in Azure Active Directory (Azure AD).",
+      "From Organization settings in Azure DevOps, add an OAuth",
+      "From Organization settings in Azure DevOps, connect to Azure",
+      "From Developer settings in GitHub Enterprise Server, register",
+      "From Developer settings in GitHub Enterprise Server, generate",
+      "connection.",
+      "subscription.",
+      "configuration.",
+      "From Project Settings in Azure DevOps, add a GitHub (©) ©",
+      "Configure an access policy in the key vault. ® ®"
+    ]
+  },
+  "131": {
+    "topic": 4,
+    "questionNumber": 26,
+    "page": 57,
+    "options": [
+      "Groups Answer Area",
+      "Stakeholders",
+      "of a production deployment.",
+      "Build Administrators Userl: rT]",
+      "Modify the devDependencies section of the project's Package json file."
+    ]
+  },
+  "138": {
+    "topic": 4,
+    "questionNumber": 33,
+    "page": 60,
+    "options": [
+      "Create a conditional access policy in Azure AD.",
+      "Create an Azure Active Directory B2C (Azure AD B2C) tenant.",
+      "equals",
+      "Contoso",
+      "details",
+      "policyRule",
+      "ba",
+      "not",
+      "ro.",
+      "type",
+      "then",
+      "field"
+    ]
+  },
+  "141": {
+    "topic": 4,
+    "questionNumber": 36,
+    "page": 61,
+    "options": [
+      "Create a YAML file. ® @",
+      "Ansible",
+      "Helm",
+      "Maven"
+    ]
+  },
+  "145": {
+    "topic": 4,
+    "questionNumber": 40,
+    "page": 63,
+    "options": [
+      "Project administrators can create new dashboards. O ©)"
+    ]
+  },
+  "147": {
+    "topic": 4,
+    "questionNumber": 42,
+    "page": 64,
+    "options": [
+      "The Project.json file in the project",
+      "Files"
+    ]
+  },
+  "148": {
+    "topic": 4,
+    "questionNumber": 43,
+    "page": 65,
+    "options": [
+      "Helm",
+      "NuGet",
+      "Maven",
+      "Object to create: | lw"
+    ]
+  },
+  "150": {
+    "topic": 4,
+    "questionNumber": 45,
+    "page": 66,
+    "options": [
+      "kubectl create",
+      "az ad sp create-for-rbac",
+      "az role assignment create",
+      "az aks get-credentials",
+      "C..p12",
+      "You plan to distribute a new release of the app.",
+      "To complete this task, sign in to the Microsoft Azure portal.",
+      "cer"
+    ]
+  },
+  "153": {
+    "topic": 4,
+    "questionNumber": 48,
+    "page": 67,
+    "options": [
+      "Create a service principal in Azure",
+      "Create a system-assigned managed ©) ©",
+      "connection.",
+      "In Project, create a service",
+      "In Pipeline, create a variable.",
+      "In Pipeline, authorize the service"
+    ]
+  },
+  "154": {
+    "topic": 4,
+    "questionNumber": 49,
+    "page": 67,
+    "options": [
+      "Create a service principal in Azure",
+      "Create a system-assigned managed ©) ©",
+      "connection.",
+      "In Project, create a service",
+      "In Pipeline, create a variable.",
+      "In Pipeline, authorize the service"
+    ]
+  },
+  "159": {
+    "topic": 4,
+    "questionNumber": 54,
+    "page": 69,
+    "options": [
+      "Create a Log Analytics cluster.",
+      "Create an Azure key vault and store the key",
+      "Create an Azure Monitor Logs dedicated cluster that",
+      "Enable soft delete for the key vault.",
+      "Grant the system-assigned managed identity",
+      "Grant the system-assigned managed identity Key",
+      "Grant permissions to the key vault. © ®"
+    ]
+  },
+  "160": {
+    "topic": 4,
+    "questionNumber": 55,
+    "page": 69,
+    "options": [
+      "Create a Log Analytics cluster.",
+      "Create an Azure key vault and store the key",
+      "Create an Azure Monitor Logs dedicated cluster that",
+      "Enable soft delete for the key vault.",
+      "Grant the system-assigned managed identity",
+      "Grant the system-assigned managed identity Key",
+      "Grant permissions to the key vault. © ®"
+    ]
+  },
+  "162": {
+    "topic": 4,
+    "questionNumber": 57,
+    "page": 70,
+    "options": [
+      "Azure DevOps groups Answer Area"
+    ]
+  },
+  "163": {
+    "topic": 4,
+    "questionNumber": 58,
+    "page": 71,
+    "options": [
+      "User2 Development Lead Create repositories and",
+      "User2:",
+      "User3:",
+      "Readers",
+      "content.",
+      "Contributors",
+      "* Requires approval to activate privileged access"
+    ]
+  },
+  "167": {
+    "topic": 4,
+    "questionNumber": 62,
+    "page": 73,
+    "options": [
+      "tracking.",
+      "authentication.",
+      "Configure Git Large File Storage (LFS) file",
+      "that includes Git Large File Storage (LFS)."
+    ]
+  },
+  "170": {
+    "topic": 4,
+    "questionNumber": 65,
+    "page": 74,
+    "options": [
+      "Grant Pipeline? access to Vault1 by modifying the: [»",
+      "Secret",
+      "Certificate",
+      "Key"
+    ]
+  },
+  "172": {
+    "topic": 4,
+    "questionNumber": 67,
+    "page": 75,
+    "options": [
+      "Enable required reviewers.",
+      "repol.",
+      "Triage",
+      "« Ensure that User3 can manage repo.",
+      "« Ensure that User1 can actively push to repo.",
+      "+ Ensure that User2 can manage issues and pull requests for repo."
+    ]
+  },
+  "175": {
+    "topic": 4,
+    "questionNumber": 70,
+    "page": 77,
+    "options": [
+      "Rollbar",
+      "libraries.",
+      "DeepSource",
+      "You have an Azure Pipelines application CI/CD pipeline named Pipeline."
+    ]
+  },
+  "182": {
+    "topic": 5,
+    "questionNumber": 5,
+    "page": 80,
+    "options": [
+      "Octopus",
+      "Gulp",
+      "Grunt",
+      "Maven"
+    ]
+  },
+  "184": {
+    "topic": 5,
+    "questionNumber": 7,
+    "page": 81,
+    "options": [
+      "Create a dependency graph for the application.",
+      "Group the related components.",
+      "Configure post-deployment approvals in the deployment pipeline."
+    ]
+  },
+  "186": {
+    "topic": 5,
+    "questionNumber": 9,
+    "page": 81,
+    "options": [
+      "Create a dependency graph for the application.",
+      "Group the related components.",
+      "Configure post-deployment approvals in the deployment pipeline."
+    ]
+  },
+  "187": {
+    "topic": 5,
+    "questionNumber": 10,
+    "page": 82,
+    "options": [
+      "Create a new Azure Artifacts feed.",
+      "Create a new feed in Azure Artifacts.",
+      "Create a Git repository in Azure Repos.",
+      "Configure a self-hosted agent.",
+      "In a Maven build task, select Run PMD.",
+      "In a Gradle build task, select Run Checkstyle.",
+      "In a Xcode build task, select Use xcpretty from Advanced.",
+      "In a Grunt build task, select Enabled from Control Options."
+    ]
+  },
+  "201": {
+    "topic": 5,
+    "questionNumber": 24,
+    "page": 87,
+    "options": [
+      "CC",
+      "+ Scan on pushes to the main branch.",
+      "« Scan on pull requests to the main branch."
+    ]
+  },
+  "203": {
+    "topic": 5,
+    "questionNumber": 26,
+    "page": 88,
+    "options": [
+      "git clone --bare",
+      "GitHub hitps:/github.com/contoso/project.git",
+      "the branch",
+      "git push —-mirrcr",
+      "git push —-mirrcr © ®"
+    ]
+  },
+  "204": {
+    "topic": 5,
+    "questionNumber": 27,
+    "page": 89,
+    "options": [
+      "reflog",
+      "git ¥ ——prune= v",
+      "git W expire --expire-unreachable=now --all",
+      "gc",
+      "reset",
+      "stash",
+      "+ Remove history that is NOT in any current branch."
+    ]
+  },
+  "205": {
+    "topic": 5,
+    "questionNumber": 28,
+    "page": 89,
+    "options": [
+      "reflog",
+      "git ¥ ——prune= v",
+      "git W expire --expire-unreachable=now --all",
+      "gc",
+      "reset",
+      "stash",
+      "+ Remove history that is NOT in any current branch."
+    ]
+  },
+  "206": {
+    "topic": 5,
+    "questionNumber": 29,
+    "page": 90,
+    "options": [
+      "Create SSH keys by using ssh-keygen",
+      "git checkout [hash]~1 --path/to/file ® ®»",
+      "Save the SSH key to the root of repo. G) ®"
+    ]
+  },
+  "207": {
+    "topic": 5,
+    "questionNumber": 30,
+    "page": 90,
+    "options": [
+      "Create SSH keys by using ssh-keygen",
+      "git checkout [hash]~1 --path/to/file ® ®»",
+      "Save the SSH key to the root of repo. G) ®"
+    ]
+  },
+  "208": {
+    "topic": 5,
+    "questionNumber": 31,
+    "page": 91,
+    "options": [
+      "branch",
+      "git w main",
+      "switch",
+      "source",
+      "Feature",
+      "Develop",
+      "checkout",
+      "git restore w main~3 App.exe.config",
+      "You plan to implement GitFlow as a workflow strategy.",
+      "Main",
+      "reset",
+      "patch"
+    ]
+  },
+  "209": {
+    "topic": 5,
+    "questionNumber": 32,
+    "page": 91,
+    "options": [
+      "branch",
+      "git w main",
+      "switch",
+      "source",
+      "Feature",
+      "Develop",
+      "checkout",
+      "git restore w main~3 App.exe.config",
+      "You plan to implement GitFlow as a workflow strategy.",
+      "Main",
+      "reset",
+      "patch"
+    ]
+  },
+  "210": {
+    "topic": 5,
+    "questionNumber": 33,
+    "page": 92,
+    "options": [
+      "You have an Azure Repos repository named repo.",
+      "git@ssh.dev.azure.com:v3/organization/project/repol cd repos"
+    ]
+  },
+  "213": {
+    "topic": 5,
+    "questionNumber": 36,
+    "page": 93,
+    "options": [
+      "GitHub Copilot",
+      "repol repo URL",
+      "You have a GitHub repository named repo.",
+      "git remote add --mirror=fetch upstream 1]",
+      "You migrate repo to an Azure Repos repository named repo2."
+    ]
+  },
+  "214": {
+    "topic": 5,
+    "questionNumber": 37,
+    "page": 94,
+    "options": [
+      "You delete a branch named features/feature11.",
+      "You have an Azure Repos repository named repo.",
+      "You use GitHub to host container packages that use Semantic Versioning (SemVer)."
+    ]
+  },
+  "216": {
+    "topic": 5,
+    "questionNumber": 39,
+    "page": 95,
+    "options": [
+      "git 1fs install",
+      "git commit -m “track *.psd files using Git LFS”",
+      "Configure branch protection rules for each repository."
+    ]
+  },
+  "220": {
+    "topic": 5,
+    "questionNumber": 43,
+    "page": 97,
+    "options": [
+      "You create a Git repository named Repo in Azure Repos.",
+      "git clone git@ssh.dev.azure.com.com:v3/org/Project1/repol",
+      "git clone —-depth-1 git@ssh.dev.azure.com:v3/org/Project1/repol",
+      "git clone —filter=true:0 git@ssh.dev.azure.com:v3/org/Project1/repo1",
+      "git clone —-filter=blob:none git@ssh.dev.azure.com:v3/org/Project1/repol"
+    ]
+  },
+  "224": {
+    "topic": 5,
+    "questionNumber": 47,
+    "page": 99,
+    "options": []
+  },
+  "225": {
+    "topic": 5,
+    "questionNumber": 48,
+    "page": 100,
+    "options": [
+      "branch policies",
+      "branch security",
+      "You plan to modify files in directory1.",
+      "git sparse-checkout [ https://dev.azure.com/organisation/_git/Repol"
+    ]
+  },
+  "242": {
+    "topic": 6,
+    "questionNumber": 15,
+    "page": 106,
+    "options": [
+      "Bamboo",
+      "Modify the Storage settings of Project1.",
+      "In Project, create an Azure DevOps pipeline.",
+      "In Project1, create an Azure DevOps repository."
+    ]
+  },
+  "247": {
+    "topic": 6,
+    "questionNumber": 20,
+    "page": 107,
+    "options": []
+  },
+  "254": {
+    "topic": 6,
+    "questionNumber": 27,
+    "page": 110,
+    "options": [
+      "comment",
+      "milestone",
+      "description",
+      "You plan to create a pull request in GitHub.",
+      "label",
+      "title"
+    ]
+  },
+  "256": {
+    "topic": 6,
+    "questionNumber": 29,
+    "page": 111,
+    "options": [
+      "GitHub user credentials",
+      "Velocity"
+    ]
+  },
+  "262": {
+    "topic": 6,
+    "questionNumber": 35,
+    "page": 113,
+    "options": [
+      "Deployment speed"
+    ]
+  },
+  "269": {
+    "topic": 6,
+    "questionNumber": 42,
+    "page": 117,
+    "options": []
+  },
+  "272": {
+    "topic": 6,
+    "questionNumber": 45,
+    "page": 119,
+    "options": [
+      "Deployment failure rates",
+      "You plan to use Azure DevOps in development processes."
+    ]
+  },
+  "281": {
+    "topic": 7,
+    "questionNumber": 6,
+    "page": 122,
+    "options": [
+      "GitHub Enterprise"
+    ]
+  },
+  "288": {
+    "topic": 7,
+    "questionNumber": 13,
+    "page": 125,
+    "options": [
+      "JaCoCo",
+      "MSTest",
+      "pasaz",
+      "JUnit"
+    ]
+  },
+  "290": {
+    "topic": 7,
+    "questionNumber": 15,
+    "page": 126,
+    "options": [
+      "one stage",
+      "Build_vmecontains | [¥]",
+      "The pipeline contains J]"
+    ]
+  },
+  "291": {
+    "topic": 7,
+    "questionNumber": 16,
+    "page": 127,
+    "options": [
+      "Build Agent Pools Answer Area",
+      "MSTest",
+      "Coverlet",
+      "Cobertura",
+      "a self-hosted agent",
+      "a File Transform task",
+      "You have an existing build pipeline in Azure Pipelines."
+    ]
+  },
+  "294": {
+    "topic": 7,
+    "questionNumber": 19,
+    "page": 128,
+    "options": [
+      "canary",
+      "Reader",
+      "rolling",
+      "runonce",
+      "Contributor"
+    ]
+  },
+  "298": {
+    "topic": 7,
+    "questionNumber": 23,
+    "page": 130,
+    "options": [
+      "Create a DSC metaconfiguration",
+      "From the virtual machines, run",
+      "setdsclocalconfigurationmanager.py",
+      "machines",
+      "Azure Automation ®",
+      "To complete this task, sign in to the Microsoft Azure portal."
+    ]
+  },
+  "300": {
+    "topic": 7,
+    "questionNumber": 25,
+    "page": 131,
+    "options": [
+      "dotnet",
+      "MvcMovie.dl1",
+      "Policy Types",
+      "A status policy",
+      "dotnet publish -c Release -o out FROM | Value i AS build-env",
+      "A check-in policy Pull requests must have a Quality Gate status"
+    ]
+  },
+  "301": {
+    "topic": 7,
+    "questionNumber": 26,
+    "page": 131,
+    "options": [
+      "dotnet",
+      "MvcMovie.dl1",
+      "Policy Types",
+      "A status policy",
+      "dotnet publish -c Release -o out FROM | Value i AS build-env",
+      "A check-in policy Pull requests must have a Quality Gate status"
+    ]
+  },
+  "310": {
+    "topic": 7,
+    "questionNumber": 35,
+    "page": 135,
+    "options": [
+      "Dockerfile",
+      "Azure Container Registry",
+      "Azure Container Instances",
+      "shrinkwrap.json files.",
+      "Delete Package-lock.json.",
+      "Configure the File System Agent plug-in.",
+      "Add a devDependencies section to Package-lock.json.",
+      "manual tasks performed during the planning phase and the deployment phase"
+    ]
+  },
+  "316": {
+    "topic": 7,
+    "questionNumber": 41,
+    "page": 137,
+    "options": [
+      "Create a YAML configuration file.",
+      "Create a PowerShell configuration file.",
+      "a multi-stage Dockerfile",
+      "a single stage Dockerfile",
+      "being published to the pipeline.",
+      "Configure the Custom Script Extension",
+      "Load the file to Azure Blob storage. S ®"
+    ]
+  },
+  "323": {
+    "topic": 7,
+    "questionNumber": 48,
+    "page": 139,
+    "options": [
+      "Build machine image",
+      "Docker CLI installer",
+      "Call the Baseline Scan"
+    ]
+  },
+  "324": {
+    "topic": 7,
+    "questionNumber": 49,
+    "page": 140,
+    "options": [
+      "Create an agent pool",
+      "Create a deployment group",
+      "build.sh npm_config cache: $(Pipeline.Workspace)/.npm",
+      "Move to a blue/green deployment pattern",
+      "The build pipeline takes approximately one day to complete.",
+      "nem | nS (Agent 08) ”"
+    ]
+  },
+  "327": {
+    "topic": 7,
+    "questionNumber": 52,
+    "page": 141,
+    "options": [
+      "Create an agent pool",
+      "Create a deployment group",
+      "Execute the pipeline",
+      "Add the Azure Pipelines Agent",
+      "Add and configure a deployment group",
+      "Add the Puppet Agent extension to the",
+      "job for the pipeline ®"
+    ]
+  },
+  "330": {
+    "topic": 7,
+    "questionNumber": 55,
+    "page": 142,
+    "options": [
+      "Build pipelines",
+      "Release pipelines",
+      "Boards",
+      "Repos"
+    ]
+  },
+  "333": {
+    "topic": 7,
+    "questionNumber": 58,
+    "page": 143,
+    "options": [
+      "Create an npm package.",
+      "Create a NuGet package.",
+      "Create a Microsoft Visual Studio project that includes all the",
+      "Create an Azure Artifacts feed that uses upstream sources. ® ©",
+      "feed."
+    ]
+  },
+  "334": {
+    "topic": 7,
+    "questionNumber": 59,
+    "page": 144,
+    "options": [
+      "The pipeline has w job(s).",
+      "The pipeline has w task(s).",
+      "To complete this task, sign in to the Microsoft Azure portal."
+    ]
+  },
+  "336": {
+    "topic": 7,
+    "questionNumber": 61,
+    "page": 145,
+    "options": [
+      "Create a management group.",
+      "Rebase",
+      "Configuration.",
+      "You make several changes to a branch used for experimentation.",
+      "Push",
+      "Fetch",
+      "Merge"
+    ]
+  },
+  "350": {
+    "topic": 7,
+    "questionNumber": 75,
+    "page": 150,
+    "options": [
+      "Create two container jobs.",
+      "Azure Test Plans",
+      "development.",
+      "Azure Services ~~ Answer Area",
+      "Add another self-hosted agent.",
+      "Add a Docker Compose task to the build pipelines.",
+      "Azure Pipelines | A common library used by muttiple applications C1]",
+      "Change the self-hosted agent to use Red Hat Enterprise Linux (RHEL) 8.",
+      "views"
+    ]
+  },
+  "355": {
+    "topic": 7,
+    "questionNumber": 80,
+    "page": 151,
+    "options": []
+  },
+  "359": {
+    "topic": 7,
+    "questionNumber": 84,
+    "page": 153,
+    "options": [
+      "Script",
+      "Present",
+      "Service",
+      "Archive",
+      "Package",
+      "Web-Server",
+      "WindowsFeature",
+      "WindowsProcess",
+      "File",
+      "\\DSCResources\\web\\index.htm’"
+    ]
+  },
+  "361": {
+    "topic": 7,
+    "questionNumber": 86,
+    "page": 154,
+    "options": [
+      "deploymentMode: 5,2",
+      "deploymentScope: \"Resource Group'",
+      "‘Create Or Update Resource Group’",
+      "task: AzureResourceManagerTemplateDeployment@3",
+      "azureResourceManagerConnection: 'Fabrikam Corporate(a41fbled-a2aa-42f@-a7ac-8fcc6eflcsdb)’"
+    ]
+  },
+  "365": {
+    "topic": 8,
+    "questionNumber": 1,
+    "page": 156,
+    "options": [
+      "git gc -",
+      "git w ——expire now",
+      "To complete this task, sign in to the Microsoft Azure portal."
+    ]
+  },
+  "368": {
+    "topic": 8,
+    "questionNumber": 4,
+    "page": 157,
+    "options": [
+      "From Azure Cloud Shell, run Azure PowerShell commands to create and delete the new virtual machines in a staging resource group."
+    ]
+  },
+  "370": {
+    "topic": 8,
+    "questionNumber": 6,
+    "page": 158,
+    "options": [
+      "To complete this task, sign in to the Microsoft Azure portal."
+    ]
+  },
+  "372": {
+    "topic": 8,
+    "questionNumber": 8,
+    "page": 159,
+    "options": [
+      "Deployment 2: ir",
+      "Set as default branch",
+      "Deployment 1: ~",
+      "Deployment 3: ~",
+      "Revert",
+      "Reactivate",
+      "Cherry-pick",
+      "volume.beta.kubernetes.io/storage-provisioner",
+      "Ivolume.beta kubernetes.io/storage- provisioner"
+    ]
+  },
+  "374": {
+    "topic": 8,
+    "questionNumber": 10,
+    "page": 160,
+    "options": [
+      "Azure virtual machines",
+      "Azure Container Instances",
+      "Runthe git commit command.",
+      "Runthe git reflog expire command.",
+      "Runthe git add .gitignore command. © ®",
+      "Add Config.json to the .gitignore file. ® ©"
+    ]
+  },
+  "376": {
+    "topic": 8,
+    "questionNumber": 12,
+    "page": 161,
+    "options": [
+      "Azure RM Web App Deployment",
+      "Azure Cloud Service Deployment",
+      "Release v3.0",
+      "Azure PowerShell",
+      "Azure DevOps project.",
+      "Azure App Service Manage",
+      "git v vw v3.0 ¥ \"Release v3.0\""
+    ]
+  },
+  "378": {
+    "topic": 8,
+    "questionNumber": 14,
+    "page": 162,
+    "options": [
+      "Create a package.",
+      "Create a job agent.",
+      "Create a release pipeline. 8 B",
+      "Set the template parameters.",
+      "Add an Azure Resource Group Deployment task."
+    ]
+  },
+  "379": {
+    "topic": 8,
+    "questionNumber": 15,
+    "page": 162,
+    "options": [
+      "Create a package.",
+      "Create a job agent.",
+      "Create a release pipeline. 8 B",
+      "Set the template parameters.",
+      "Add an Azure Resource Group Deployment task."
+    ]
+  },
+  "384": {
+    "topic": 8,
+    "questionNumber": 20,
+    "page": 164,
+    "options": [
+      "The Production stage",
+      "The Development stage",
+      "The Internal Review stage"
+    ]
+  },
+  "385": {
+    "topic": 8,
+    "questionNumber": 21,
+    "page": 165,
+    "options": [
+      "Yeoman",
+      "Tiller",
+      "Node.js",
+      "Terratest",
+      "A deployment group",
+      "To complete this task, sign in to the Microsoft Azure portal.",
+      "Vault"
+    ]
+  },
+  "389": {
+    "topic": 8,
+    "questionNumber": 25,
+    "page": 166,
+    "options": [
+      "Releases will be made available to users who are grouped v",
+      "When a new release occurs, the existing deployment will v"
+    ]
+  },
+  "390": {
+    "topic": 8,
+    "questionNumber": 26,
+    "page": 167,
+    "options": [
+      "deployment pipeline.",
+      "Create a test project",
+      "Create a service principal in Azure Active",
+      "Create a work item ® ®",
+      "Actions",
+      "repository",
+      "the deployment pipeline.",
+      "Add a Docker Compose task to the",
+      "Add an Azure Function App for Container",
+      "Add a Helm package and deploy a task to",
+      "Add the automated test to a build pipeline"
+    ]
+  },
+  "391": {
+    "topic": 8,
+    "questionNumber": 27,
+    "page": 167,
+    "options": [
+      "deployment pipeline.",
+      "Create a test project",
+      "Create a service principal in Azure Active",
+      "Create a work item ® ®",
+      "Actions",
+      "repository",
+      "the deployment pipeline.",
+      "Add a Docker Compose task to the",
+      "Add an Azure Function App for Container",
+      "Add a Helm package and deploy a task to",
+      "Add the automated test to a build pipeline"
+    ]
+  },
+  "395": {
+    "topic": 8,
+    "questionNumber": 31,
+    "page": 169,
+    "options": [
+      "deployed.",
+      "Release Strategies Answer Area:",
+      "Rolling deployment",
+      "Blue/Green deployment",
+      "canary deployment foe 1",
+      "You have a policy stating that approvals must occur within eight hours.",
+      "Solution: From Post-deployment conditions, you modify the Timeout setting for post-deployment approvals."
+    ]
+  },
+  "397": {
+    "topic": 8,
+    "questionNumber": 33,
+    "page": 170,
+    "options": [
+      "Create an Azure Automation account.",
+      "Create a zip file and upload it to Azure Blob storage. 2 Q",
+      "To complete this task, sign in to the Microsoft Azure portal."
+    ]
+  },
+  "401": {
+    "topic": 8,
+    "questionNumber": 37,
+    "page": 171,
+    "options": [
+      "secret",
+      "secrets",
+      "resources",
+      "reference",
+      "apiversion",
+      "parameters",
+      "secretiame",
+      "Incremental",
+      "be",
+      "Te",
+      "name",
+      "mode",
+      "concat('./nested/sqlserver.json’,"
+    ]
+  },
+  "409": {
+    "topic": 8,
+    "questionNumber": 45,
+    "page": 174,
+    "options": [
+      "Master",
+      "Feature",
+      "Long-lived",
+      "Short-lived",
+      "Integration",
+      "the agent pool name",
+      "the deployment group name",
+      "Branch type: |__| v]",
+      "Branch lifetime: | [|"
+    ]
+  },
+  "411": {
+    "topic": 8,
+    "questionNumber": 47,
+    "page": 175,
+    "options": [
+      "setfacl -m u:omsagent: i Io",
+      "branch filters",
+      "The build pipeline has continuous integration enabled."
+    ]
+  },
+  "412": {
+    "topic": 8,
+    "questionNumber": 48,
+    "page": 175,
+    "options": [
+      "setfacl -m u:omsagent: i Io",
+      "branch filters",
+      "The build pipeline has continuous integration enabled."
+    ]
+  },
+  "416": {
+    "topic": 8,
+    "questionNumber": 52,
+    "page": 176,
+    "options": [
+      "MyDsc"
+    ]
+  },
+  "417": {
+    "topic": 8,
+    "questionNumber": 53,
+    "page": 177,
+    "options": [
+      "Create an unsigned build.",
+      "Web-Server",
+      "Mail-Server",
+      "SMTP-Server"
+    ]
+  },
+  "425": {
+    "topic": 8,
+    "questionNumber": 61,
+    "page": 180,
+    "options": []
+  },
+  "426": {
+    "topic": 8,
+    "questionNumber": 62,
+    "page": 181,
+    "options": [
+      "performanceCounters",
+      "EN"
+    ]
+  },
+  "429": {
+    "topic": 8,
+    "questionNumber": 65,
+    "page": 182,
+    "options": [
+      "Userld",
+      "| where Name startswith \"Clicked Create New Ticket |"
+    ]
+  },
+  "430": {
+    "topic": 8,
+    "questionNumber": 66,
+    "page": 183,
+    "options": [
+      "Deployment mode * @",
+      "Deployment scope * ®",
+      "Create or update resource group ~",
+      "Deploy the Contoso Data Factory",
+      "Azure Details ~",
+      "Azure Resource Manager connection * (@ | Manage 12",
+      "Data Factory, and a release pipeline in Azure Pipelines named Pipeline1.",
+      "You plan to deploy Contoso Data Factory to ContosoRG by using Pipeline1.",
+      "Task version 3° hd",
+      "ARM template deployment @ ff ViewYAML [il Remove"
+    ]
+  },
+  "431": {
+    "topic": 8,
+    "questionNumber": 67,
+    "page": 184,
+    "options": [
+      "Deployment scope.",
+      "You have an Azure Pipeline.",
+      "default branch of the Git repository of Contoso Data Factory",
+      "Pipeline will retrieve the ARM template from the [answer choice]. BN oo ="
+    ]
+  },
+  "433": {
+    "topic": 8,
+    "questionNumber": 69,
+    "page": 185,
+    "options": [
+      "Azure Load Balancer",
+      "Azure Traffic Manager",
+      "web app deployment slots",
+      "You plan to use a Semantic Versioning (SemVer)-based strategy."
+    ]
+  },
+  "435": {
+    "topic": 8,
+    "questionNumber": 71,
+    "page": 186,
+    "options": [
+      "azuzeniagnostics",
+      "modifier",
+      "compliant",
+      "DscNodestatus",
+      "minor",
+      "major",
+      "micro"
+    ]
+  },
+  "437": {
+    "topic": 8,
+    "questionNumber": 73,
+    "page": 187,
+    "options": [
+      "deployment of new code to webapp.",
+      "a task group",
+      "a JSON template",
+      "a PowerShell task",
+      "Configure a gate in the pre-deployment conditions.",
+      "Configure a trigger in the pre-deployment conditions.",
+      "Add a task to configure alert rules in Application Insights.",
+      "Configure an auto-redeploy trigger in the post-deployment conditions",
+      "Configure a post-deployment approval in the post-deployment conditions",
+      "Configure the Deployment queue settings in the pre-deployment conditions.",
+      "\\Add a task to configure an alert rule in Application Insights.",
+      "Azure web app named webapp. Prod deploys code to an Azure web app named webapp2."
+    ]
+  },
+  "441": {
+    "topic": 8,
+    "questionNumber": 77,
+    "page": 189,
+    "options": [
+      "dotnet",
+      "Create a query that retrieves the feature and bug fix information.",
+      "Create 2 service principal. ® 2] ®»",
+      "Create a personal access token (PAT). [1]",
+      "appl.dll",
+      "Al",
+      "B.3",
+      "C.4",
+      "D.7"
+    ]
+  },
+  "445": {
+    "topic": 9,
+    "questionNumber": 4,
+    "page": 191,
+    "options": [
+      "Create a system-assigned managed identity in Microsoft Azure",
+      "Create a service principal in Microsoft Azure Active Directory",
+      "a single web app and two deployment slots",
+      "a single web app and two deployment pipelines",
+      "Ba",
+      "+ Minimize downtime during the deployment."
+    ]
+  },
+  "450": {
+    "topic": 9,
+    "questionNumber": 9,
+    "page": 194,
+    "options": [
+      "resource invoiceStorage 'Microsoft.Storage/storageAccounts@2022-05-01' = {"
+    ]
+  },
+  "451": {
+    "topic": 9,
+    "questionNumber": 10,
+    "page": 195,
+    "options": [
+      "View the Pipeline duration report.",
+      "min",
+      "+ Scan on pushes to the main branch.",
+      "« Scan on pull requests to the main branch."
+    ]
+  },
+  "454": {
+    "topic": 9,
+    "questionNumber": 13,
+    "page": 196,
+    "options": []
+  },
+  "459": {
+    "topic": 9,
+    "questionNumber": 18,
+    "page": 199,
+    "options": [
+      "docker login ghcr.io -u USERNAME --password-stdin",
+      "You plan to use the repository to create a container.",
+      "docker push ghcr.io/${{ github.repository_owner }}/${{ github.repository }}latest",
+      "docker pull ghcr.io/${{ github.repository_owner }}/${{ github.repository }}:latest",
+      "docker push ghcr.io/${{ github.repository_owner }}/${{ github.repository }}:latest",
+      "docker build. --file Dockerfile --tag ${{ github.repository }}:latest --label \"runnumber=${{ github.run_number }}\""
+    ]
+  },
+  "463": {
+    "topic": 9,
+    "questionNumber": 22,
+    "page": 201,
+    "options": [
+      "Deployment Environments User",
+      "Build Administrators",
+      "Contributors",
+      "script: yarn --frozen-lockfile",
+      "You plan to test App1 by using an Azure Deployment Environments environment.",
+      "yarn",
+      "$(Agent.05)",
+      "task: Cache§2",
+      "¥ | ‘\"yarn\" | \"$(Agent.05)\" | yarn.lock'",
+      "YARN_CACHE_FOLDER: $(Pipeline.lWorkspace)/.yarn"
+    ]
+  },
+  "464": {
+    "topic": 9,
+    "questionNumber": 23,
+    "page": 202,
+    "options": [
+      "(deployment().name)')",
+      "You plan to deploy an instance of App1 to each resource group.",
+      "hs",
+      "(deployment().name)’)"
+    ]
+  },
+  "465": {
+    "topic": 9,
+    "questionNumber": 24,
+    "page": 203,
+    "options": [
+      "effort.",
+      "an Azure Repos branch policy",
+      "an Azure Pipelines deployment gate",
+      "nuget",
+      "$(Agent.0) variables:",
+      "NUGET_PACKAGES: $(Pipeline.Workspace)/.nuget/packages"
+    ]
+  },
+  "467": {
+    "topic": 10,
+    "questionNumber": 1,
+    "page": 204,
+    "options": [
+      "Deploy App1 to Azure App Service.",
+      "Deploy an Azure AD tenant named woodgrovebank.com.",
+      "Deploy App2 to an Azure virtual machine named VM1.",
+      "Merge the POC branch into the GitHub default branch."
+    ]
+  },
+  "468": {
+    "topic": 11,
+    "questionNumber": 1,
+    "page": 206,
+    "options": [
+      "branch offices access the source code by using TFS proxy servers.",
+      "base."
+    ]
+  },
+  "470": {
+    "topic": 12,
+    "questionNumber": 2,
+    "page": 210,
+    "options": [
+      "Enable Team2 to submit pull requests for Project2.",
+      "Enable Team2 to work independently on changes to a copy of Project2.",
+      "Project6 will provide support for build and deployment pipelines. Deployment",
+      "Project? will contain a target deployment group named Group? that maps"
+    ]
+  },
+  "471": {
+    "topic": 12,
+    "questionNumber": 3,
+    "page": 212,
+    "options": [
+      "Enable Team2 to submit pull requests for Project2.",
+      "Enable Team2 to work independently on changes to a copy of Project2.",
+      "Project6 will provide support for build and deployment pipelines. Deployment",
+      "Project? will contain a target deployment group named Group? that maps"
+    ]
+  },
+  "472": {
+    "topic": 13,
+    "questionNumber": 1,
+    "page": 214,
+    "options": [
+      "branch offices access the source code by using TFS proxy servers.",
+      "base."
+    ]
+  },
+  "473": {
+    "topic": 13,
+    "questionNumber": 2,
+    "page": 216,
+    "options": [
+      "branch offices access the source code by using TFS proxy servers.",
+      "base."
+    ]
+  },
+  "474": {
+    "topic": 13,
+    "questionNumber": 3,
+    "page": 218,
+    "options": [
+      "branch offices access the source code by using TFS proxy servers.",
+      "base."
+    ]
+  },
+  "477": {
+    "topic": 14,
+    "questionNumber": 3,
+    "page": 224,
+    "options": [
+      "Deploy App1 to Azure App Service.",
+      "Deploy an Azure AD tenant named woodgrovebank.com.",
+      "Deploy App2 to an Azure virtual machine named VM1.",
+      "Merge the POC branch into the GitHub default branch."
+    ]
+  },
+  "478": {
+    "topic": 15,
+    "questionNumber": 1,
+    "page": 226,
+    "options": [
+      "Deploy App1 to Azure App Service.",
+      "Deploy an Azure AD tenant named woodgrovebank.com.",
+      "Deploy App2 to an Azure virtual machine named VM1.",
+      "Merge the POC branch into the GitHub default branch."
+    ]
+  },
+  "481": {
+    "topic": 17,
+    "questionNumber": 1,
+    "page": 232,
+    "options": [
+      "Project6 will provide support for build and deployment pipelines. Deployment",
+      "Project? will contain a target deployment group named Group? that maps"
+    ]
+  },
+  "484": {
+    "topic": 17,
+    "questionNumber": 4,
+    "page": 238,
+    "options": [
+      "Enable Team2 to submit pull requests for Project2.",
+      "Enable Team2 to work independently on changes to a copy of Project2.",
+      "Project6 will provide support for build and deployment pipelines. Deployment",
+      "Project? will contain a target deployment group named Group? that maps"
+    ]
+  },
+  "485": {
+    "topic": 17,
+    "questionNumber": 5,
+    "page": 240,
+    "options": [
+      "Enable Team2 to submit pull requests for Project2.",
+      "Enable Team2 to work independently on changes to a copy of Project2.",
+      "Project6 will provide support for build and deployment pipelines. Deployment",
+      "Project? will contain a target deployment group named Group? that maps"
+    ]
+  },
+  "489": {
+    "topic": 18,
+    "questionNumber": 4,
+    "page": 248,
+    "options": [
+      "branch offices access the source code by using TFS proxy servers.",
+      "base."
+    ]
+  },
+  "490": {
+    "topic": 18,
+    "questionNumber": 5,
+    "page": 250,
+    "options": [
+      "branch offices access the source code by using TFS proxy servers.",
+      "base."
+    ]
+  },
+  "491": {
+    "topic": 19,
+    "questionNumber": 1,
+    "page": 252,
+    "options": [
+      "Deploy App1 to Azure App Service.",
+      "Deploy an Azure AD tenant named woodgrovebank.com.",
+      "Deploy App2 to an Azure virtual machine named VM1.",
+      "Merge the POC branch into the GitHub default branch."
+    ]
+  }
+}

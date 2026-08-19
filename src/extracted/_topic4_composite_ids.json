@@ -1,0 +1,102 @@
+[
+  {
+    "id": 106,
+    "type": "hotspot-dropdown"
+  },
+  {
+    "id": 115,
+    "type": "drag-drop"
+  },
+  {
+    "id": 116,
+    "type": "drag-drop"
+  },
+  {
+    "id": 121,
+    "type": "drag-drop"
+  },
+  {
+    "id": 122,
+    "type": "hotspot-dropdown"
+  },
+  {
+    "id": 124,
+    "type": "hotspot-dropdown"
+  },
+  {
+    "id": 126,
+    "type": "drag-drop"
+  },
+  {
+    "id": 129,
+    "type": "drag-drop"
+  },
+  {
+    "id": 130,
+    "type": "drag-drop"
+  },
+  {
+    "id": 131,
+    "type": "drag-drop"
+  },
+  {
+    "id": 138,
+    "type": "hotspot-dropdown"
+  },
+  {
+    "id": 141,
+    "type": "drag-drop"
+  },
+  {
+    "id": 147,
+    "type": "drag-drop"
+  },
+  {
+    "id": 148,
+    "type": "hotspot-dropdown"
+  },
+  {
+    "id": 150,
+    "type": "drag-drop"
+  },
+  {
+    "id": 153,
+    "type": "drag-drop"
+  },
+  {
+    "id": 154,
+    "type": "drag-drop"
+  },
+  {
+    "id": 159,
+    "type": "drag-drop"
+  },
+  {
+    "id": 160,
+    "type": "drag-drop"
+  },
+  {
+    "id": 162,
+    "type": "drag-drop"
+  },
+  {
+    "id": 163,
+    "type": "drag-drop"
+  },
+  {
+    "id": 167,
+    "type": "drag-drop"
+  },
+  {
+    "id": 170,
+    "type": "hotspot-dropdown"
+  },
+  {
+    "id": 172,
+    "type": "drag-drop"
+  },
+  {
+    "id": 175,
+    "type": "drag-drop"
+  }
+]
