@@ -72,17 +72,6 @@ function expectedSlotsFromPrompt(prompt) {
   return null;
 }
 
-function looksStandaloneAnswerLine(line) {
-  const l = cleanText(line);
-  if (!l) return false;
-  if (/^[A-G](\s*,\s*[A-G])*$/i.test(l)) return true;
-  if (/^(yes|no)$/i.test(l)) return true;
-  if (/^(yes|no)\b/i.test(l)) return true;
-  if (/^no\s+change\s+required/i.test(l)) return true;
-  if (/^[A-G]\s*\(/i.test(l)) return true;
-  return false;
-}
-
 function countAnswerParts(text) {
   const parts = splitAnswerParts(text);
   return parts.length;
@@ -127,6 +116,13 @@ function assignAnswerBlocks(questions, answerLines) {
       continue;
     }
 
+    // The docx answer sheet has no per-question anchor, so the only safe way to
+    // avoid runaway drift (a single bad guess permanently shifts every later
+    // question) is to consume exactly one line per question by default. We only
+    // consume more when the prompt explicitly tells us how many parts to expect
+    // ("which three settings...", etc.) - that signal is reliable and the
+    // question's full multi-part answer is written on a single comma-joined
+    // docx line in the overwhelming majority of cases anyway.
     let consumed = 0;
     let joined = "";
 
@@ -141,15 +137,10 @@ function assignAnswerBlocks(questions, answerLines) {
       ai += 1;
       consumed += 1;
 
+      if (!expected) break;
       const parts = countAnswerParts(joined);
-      const nextLine = cleanText(answerLines[ai]?.text ?? "");
-      const nextLooksStandalone = looksStandaloneAnswerLine(nextLine);
-
-      if (expected && parts < expected) continue;
-      if (expected && parts >= expected) break;
-      if (!expected && parts >= 2 && nextLooksStandalone) break;
-      if (!expected && consumed >= 2 && nextLooksStandalone) break;
-      if (!expected && consumed >= 3) break;
+      if (parts < expected) continue;
+      break;
     }
 
     blocks.push(cleanText(joined));
