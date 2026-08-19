@@ -82,10 +82,11 @@ export function QuestionCard({
   const isMulti = question.type === 'multiple';
   const isBoolean = question.type === 'hotspot-boolean';
   const isDragDrop = question.type === 'drag-drop';
+  const isHotspotDropdown = question.type === 'hotspot-dropdown';
 
   const currentResponse: Response | null = isBoolean
     ? { kind: 'boolean', answers: boolAnswers }
-    : isDragDrop
+    : isDragDrop || isHotspotDropdown
       ? { kind: 'dragdrop', assignments: dragAssignments }
       : { kind: 'options', selected };
 
@@ -281,6 +282,33 @@ export function QuestionCard({
             })}
           </div>
         </div>
+      ) : isHotspotDropdown ? (
+        <div className="hsdd" aria-label="Hotspot answer area">
+          {(question.targets ?? []).map((t) => {
+            const assignedId = dragAssignments[t.id] ?? '';
+            const right = showFeedback && assignedId === expectedAssignments.get(t.id);
+            const wrong = showFeedback && assignedId && assignedId !== expectedAssignments.get(t.id);
+            const expected = (question.options ?? []).find((o) => o.id === expectedAssignments.get(t.id));
+            return (
+              <label key={t.id} className={`hsdd__row${right ? ' is-correct' : ''}${wrong ? ' is-wrong' : ''}`}>
+                <span className="hsdd__label">{t.text}</span>
+                <select
+                  value={assignedId}
+                  disabled={checked}
+                  onChange={(e) => assignTarget(t.id, e.target.value)}
+                >
+                  <option value="">Select...</option>
+                  {(question.options ?? []).map((opt) => (
+                    <option key={opt.id} value={opt.id}>{opt.text}</option>
+                  ))}
+                </select>
+                {showFeedback && wrong && expected && (
+                  <span className="hsdd__hint">Correct: {expected.text}</span>
+                )}
+              </label>
+            );
+          })}
+        </div>
       ) : (
         <ul className="options" role={isMulti ? 'group' : 'radiogroup'}>
           {options.map((opt) => {
@@ -353,6 +381,7 @@ function labelForType(t: Question['type']): string {
     case 'single': return 'Single choice';
     case 'multiple': return 'Multiple choice';
     case 'hotspot-select': return 'Hotspot';
+    case 'hotspot-dropdown': return 'Hotspot dropdown';
     case 'hotspot-boolean': return 'Yes / No';
     case 'drag-drop': return 'Drag & drop';
   }

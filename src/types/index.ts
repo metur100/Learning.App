@@ -1,9 +1,12 @@
 /** Domain and app-wide type definitions for the AI-901 study app. */
 
+export type CertificateId = 'ai-901' | 'az-204';
+
 export type QuestionType =
   | 'single' // one correct option
   | 'multiple' // two or more correct options
   | 'hotspot-select' // "complete the sentence" — pick one option
+  | 'hotspot-dropdown' // one or more dropdown blanks
   | 'hotspot-boolean' // per-statement Yes/No grid
   | 'drag-drop'; // assign values to one or more targets
 
@@ -28,6 +31,7 @@ export interface DragDropTarget {
 
 export interface Question {
   id: number;
+  certificateId?: CertificateId;
   number: number;
   type: QuestionType;
   topic: string;
@@ -78,6 +82,7 @@ export interface AttemptRecord {
 }
 
 export interface Settings {
+  selectedCertificate: CertificateId;
   showExplanationImmediately: boolean;
   shuffleOptions: boolean;
   examLength: number;

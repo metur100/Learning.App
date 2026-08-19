@@ -2,19 +2,21 @@ import { useMemo, useState } from 'react';
 import type { Question } from '../types';
 import { QuestionCard } from '../components/QuestionCard';
 import { useAppData } from '../hooks/useAppData';
-import { questions } from '../data/questions';
+import { useQuestionBank } from '../hooks/useQuestionBank';
 
 const TYPES: { value: string; label: string }[] = [
   { value: 'all', label: 'All types' },
   { value: 'single', label: 'Single choice' },
   { value: 'multiple', label: 'Multiple choice' },
   { value: 'hotspot-select', label: 'Hotspot' },
+  { value: 'hotspot-dropdown', label: 'Hotspot dropdown' },
   { value: 'hotspot-boolean', label: 'Yes / No' },
   { value: 'drag-drop', label: 'Drag & drop' },
 ];
 
 export function Browse() {
   const { data } = useAppData();
+  const { questions, meta } = useQuestionBank();
   const [q, setQ] = useState('');
   const [topic, setTopic] = useState('all');
   const [type, setType] = useState('all');
@@ -44,7 +46,7 @@ export function Browse() {
     <div className="page page--browse">
       <header className="page__head">
         <p className="eyebrow">Question bank</p>
-        <h1>Browse all {questions.length} questions</h1>
+        <h1>{meta.code}: browse all {questions.length} questions</h1>
       </header>
 
       <div className="filters">

@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import type { Question } from '../types';
 import { QuestionCard } from '../components/QuestionCard';
 import { useAppData } from '../hooks/useAppData';
-import { questions } from '../data/questions';
 import { grade, type Response } from '../services/grading';
+import { useQuestionBank } from '../hooks/useQuestionBank';
 
 function sample(arr: Question[], n: number): Question[] {
   const a = [...arr];
@@ -19,6 +19,7 @@ type Phase = 'setup' | 'running' | 'done';
 
 export function Exam() {
   const { data, recordAttempt } = useAppData();
+  const { questions, meta } = useQuestionBank();
   const [phase, setPhase] = useState<Phase>('setup');
   const [paper, setPaper] = useState<Question[]>([]);
   const [pos, setPos] = useState(0);
@@ -81,7 +82,7 @@ export function Exam() {
       <div className="page">
         <header className="page__head">
           <p className="eyebrow">Exam simulation</p>
-          <h1>Timed practice exam</h1>
+          <h1>{meta.code}: timed practice exam</h1>
           <p className="lede">
             {data.settings.examLength} questions in {data.settings.examMinutes} minutes.
             Feedback is hidden until you submit.

@@ -8,15 +8,15 @@ import {
   useState,
   type ReactNode,
 } from 'react';
-import type { AppData, AttemptRecord, CardState, Settings } from '../types';
-import { loadData, resetAll, resetProgress, saveData } from '../services/storage';
+import type { AppData, AttemptRecord, CardState, CertificateId, Settings } from '../types';
+import { loadData, resetAll, resetProgressForCertificate, saveData } from '../services/storage';
 
 interface AppDataContextValue {
   data: AppData;
   updateCard: (card: CardState) => void;
   recordAttempt: (attempt: AttemptRecord) => void;
   updateSettings: (patch: Partial<Settings>) => void;
-  doResetProgress: () => void;
+  doResetProgress: (certificateId: CertificateId) => void;
   doResetAll: () => void;
 }
 
@@ -46,7 +46,10 @@ export function AppDataProvider({ children }: { children: ReactNode }) {
     setData((d) => ({ ...d, settings: { ...d.settings, ...patch } }));
   }, []);
 
-  const doResetProgress = useCallback(() => setData(resetProgress()), []);
+  const doResetProgress = useCallback(
+    (certificateId: CertificateId) => setData((d) => resetProgressForCertificate(certificateId, d)),
+    [],
+  );
   const doResetAll = useCallback(() => setData(resetAll()), []);
 
   const value = useMemo(

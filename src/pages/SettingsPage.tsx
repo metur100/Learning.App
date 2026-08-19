@@ -1,10 +1,18 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useAppData } from '../hooks/useAppData';
+import { certificates } from '../data/certificates';
+import { useQuestionBank } from '../hooks/useQuestionBank';
 
 export function SettingsPage() {
   const { data, updateSettings, doResetProgress, doResetAll } = useAppData();
+  const { questions } = useQuestionBank();
   const s = data.settings;
   const [confirm, setConfirm] = useState<null | 'progress' | 'all'>(null);
+
+  useEffect(() => {
+    const max = Math.max(5, questions.length);
+    if (s.examLength > max) updateSettings({ examLength: max });
+  }, [questions.length, s.examLength, updateSettings]);
 
   return (
     <div className="page">
@@ -12,6 +20,24 @@ export function SettingsPage() {
         <p className="eyebrow">Preferences</p>
         <h1>Settings</h1>
       </header>
+
+      <section className="settings-group">
+        <h2>Certificate</h2>
+        <p className="certpick__label">Active certificate</p>
+        <div className="certpick__grid certpick__grid--settings">
+          {certificates.map((c) => (
+            <button
+              key={c.id}
+              className={`certpick__card${s.selectedCertificate === c.id ? ' is-active' : ''}`}
+              onClick={() => updateSettings({ selectedCertificate: c.id })}
+              aria-pressed={s.selectedCertificate === c.id}
+            >
+              <span className="certpick__code">{c.code}</span>
+              <span className="certpick__name">{c.name}</span>
+            </button>
+          ))}
+        </div>
+      </section>
 
       <section className="settings-group">
         <h2>Studying</h2>
@@ -40,9 +66,9 @@ export function SettingsPage() {
           <input
             type="number"
             min={5}
-            max={52}
+            max={Math.max(5, questions.length)}
             value={s.examLength}
-            onChange={(e) => updateSettings({ examLength: clamp(+e.target.value, 5, 52) })}
+            onChange={(e) => updateSettings({ examLength: clamp(+e.target.value, 5, Math.max(5, questions.length)) })}
           />
         </label>
         <label className="field">
@@ -91,11 +117,11 @@ export function SettingsPage() {
         <div className="modal" role="dialog" aria-modal="true" aria-labelledby="confirm-title">
           <div className="modal__box">
             <h3 id="confirm-title">
-              {confirm === 'progress' ? 'Reset all progress?' : 'Reset everything?'}
+              {confirm === 'progress' ? 'Reset selected certificate progress?' : 'Reset everything?'}
             </h3>
             <p>
-              {confirm === 'progress'
-                ? 'Your scheduling and attempt history will be cleared. Settings are kept.'
+                  {confirm === 'progress'
+                    ? 'Only the selected certificate progress and history will be cleared. Other certificates are kept.'
                 : 'Progress, history, and settings will all be restored to defaults.'}
             </p>
             <div className="modal__actions">
@@ -103,7 +129,7 @@ export function SettingsPage() {
               <button
                 className="btn btn--danger"
                 onClick={() => {
-                  if (confirm === 'progress') doResetProgress();
+                      if (confirm === 'progress') doResetProgress(s.selectedCertificate);
                   else doResetAll();
                   setConfirm(null);
                 }}

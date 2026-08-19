@@ -1,0 +1,4258 @@
+[
+  {
+    "index": 1,
+    "text": "C ✓ ✗"
+  },
+  {
+    "index": 2,
+    "text": "Key Vault, An access policy"
+  },
+  {
+    "index": 3,
+    "text": "YES"
+  },
+  {
+    "index": 4,
+    "text": "No (should be kubectl command)"
+  },
+  {
+    "index": 5,
+    "text": "B (WebJobs)"
+  },
+  {
+    "index": 6,
+    "text": "Max Value"
+  },
+  {
+    "index": 7,
+    "text": "B (20) even though 40 is right…"
+  },
+  {
+    "index": 8,
+    "text": "Consumption Plan(reduce costs), SendGrid binding(sends email)"
+  },
+  {
+    "index": 9,
+    "text": "B (mongorestore)"
+  },
+  {
+    "index": 10,
+    "text": "C (MSI)"
+  },
+  {
+    "index": 11,
+    "text": "A"
+  },
+  {
+    "index": 12,
+    "text": "B,D"
+  },
+  {
+    "index": 13,
+    "text": "Users and Group, Cloud apps, Grant"
+  },
+  {
+    "index": 14,
+    "text": "C"
+  },
+  {
+    "index": 15,
+    "text": "B"
+  },
+  {
+    "index": 16,
+    "text": "Avg Percentage, window size"
+  },
+  {
+    "index": 17,
+    "text": "NO"
+  },
+  {
+    "index": 18,
+    "text": "YES"
+  },
+  {
+    "index": 19,
+    "text": "NO"
+  },
+  {
+    "index": 20,
+    "text": "C"
+  },
+  {
+    "index": 21,
+    "text": "C"
+  },
+  {
+    "index": 22,
+    "text": "B"
+  },
+  {
+    "index": 23,
+    "text": "B"
+  },
+  {
+    "index": 24,
+    "text": "B"
+  },
+  {
+    "index": 25,
+    "text": "Yes"
+  },
+  {
+    "index": 26,
+    "text": "B"
+  },
+  {
+    "index": 27,
+    "text": "A"
+  },
+  {
+    "index": 28,
+    "text": "D"
+  },
+  {
+    "index": 29,
+    "text": "D"
+  },
+  {
+    "index": 30,
+    "text": "Create SearchIndexClient, Create IndexBatch, Call Document.Index"
+  },
+  {
+    "index": 31,
+    "text": "D m"
+  },
+  {
+    "index": 32,
+    "text": "Type: “http”, customHandler: description, enableForwardinghttprequeste: true"
+  },
+  {
+    "index": 33,
+    "text": "responseOverrides, 401, aad, .referrer"
+  },
+  {
+    "index": 34,
+    "text": "ts create, meinTemplate.json"
+  },
+  {
+    "index": 35,
+    "text": "webpubsubTrigger, user"
+  },
+  {
+    "index": 36,
+    "text": "premium ssd, geo-redundant storage"
+  },
+  {
+    "index": 37,
+    "text": "Container Group, empty dir"
+  },
+  {
+    "index": 38,
+    "text": "4,isolated"
+  },
+  {
+    "index": 39,
+    "text": "Developer for a Saas company"
+  },
+  {
+    "index": 40,
+    "text": "Deployment"
+  },
+  {
+    "index": 41,
+    "text": "ScaledObject"
+  },
+  {
+    "index": 42,
+    "text": "Secret"
+  },
+  {
+    "index": 43,
+    "text": "CLI Script"
+  },
+  {
+    "index": 44,
+    "text": "Az appservice plan create"
+  },
+  {
+    "index": 45,
+    "text": "az webapp create"
+  },
+  {
+    "index": 46,
+    "text": "--plan $webappname"
+  },
+  {
+    "index": 47,
+    "text": "az webapp deployment"
+  },
+  {
+    "index": 48,
+    "text": "-repo url $gitrepo –branch master –manual integration"
+  },
+  {
+    "index": 49,
+    "text": "NO (blob storage is not reliable when it comes to time consumption)"
+  },
+  {
+    "index": 50,
+    "text": "YES – web.config include applicationinitialization"
+  },
+  {
+    "index": 51,
+    "text": "NO - Enable auto swap, deploy the app"
+  },
+  {
+    "index": 52,
+    "text": "NO – use web.config applicationinitialization instead"
+  },
+  {
+    "index": 53,
+    "text": "NO - Convert Azure Storage account to BlockBlobStorage"
+  },
+  {
+    "index": 54,
+    "text": "HTTP Request Header, Base64"
+  },
+  {
+    "index": 55,
+    "text": "Develop Docker using Azure App Service Web App for Containers"
+  },
+  {
+    "index": 56,
+    "text": "az group create"
+  },
+  {
+    "index": 57,
+    "text": "az appservice plan create"
+  },
+  {
+    "index": 58,
+    "text": "az webapp create"
+  },
+  {
+    "index": 59,
+    "text": "Fourth Coffee"
+  },
+  {
+    "index": 60,
+    "text": "/bin/bash"
+  },
+  {
+    "index": 61,
+    "text": "Az webapp create"
+  },
+  {
+    "index": 62,
+    "text": "~  config container set"
+  },
+  {
+    "index": 63,
+    "text": "~ config hostname add"
+  },
+  {
+    "index": 64,
+    "text": "Serverless Java Application on Azure"
+  },
+  {
+    "index": 65,
+    "text": "Premium plan type (avoid any cold starts and connect to a VNet)"
+  },
+  {
+    "index": 66,
+    "text": "Create system assigned"
+  },
+  {
+    "index": 67,
+    "text": "Create an access policy in Azure Key Vault"
+  },
+  {
+    "index": 68,
+    "text": "D (Shared and Free services tier do not offer scaling flexibility and have limits)"
+  },
+  {
+    "index": 69,
+    "text": "Java web app Github repository"
+  },
+  {
+    "index": 70,
+    "text": "Group create"
+  },
+  {
+    "index": 71,
+    "text": "Appservice plan create"
+  },
+  {
+    "index": 72,
+    "text": "Webapp create"
+  },
+  {
+    "index": 73,
+    "text": "Webapp deployment slot create"
+  },
+  {
+    "index": 74,
+    "text": "Webapp deployment source config"
+  },
+  {
+    "index": 75,
+    "text": "Web service pay for food delivery"
+  },
+  {
+    "index": 76,
+    "text": "Var r = getContext().getRequest();"
+  },
+  {
+    "index": 77,
+    "text": "if(isNaN(i[“tip”]) || i[“tip”] ===null){ // isNaN = is Not a Number"
+  },
+  {
+    "index": 78,
+    "text": "r.setBody(i)"
+  },
+  {
+    "index": 79,
+    "text": "YES – Durable function async pattern ensure no time out and process blob data effectively"
+  },
+  {
+    "index": 80,
+    "text": "YES – HTTP trigger payload into azure Service bus, return immediate HTTP success response"
+  },
+  {
+    "index": 81,
+    "text": "NO – Always On setting won’t control an execution timeout"
+  },
+  {
+    "index": 82,
+    "text": "YES – wouldn’t work on a consumption plan, time would exceed 1 minute"
+  },
+  {
+    "index": 83,
+    "text": "B – Change feed (provides a chronological log of events) support in Azure Blob Storage"
+  },
+  {
+    "index": 84,
+    "text": "ContosoApp"
+  },
+  {
+    "index": 85,
+    "text": "CMD [“Dotnet”, [ContosoApp.dll”]"
+  },
+  {
+    "index": 86,
+    "text": "FROM Microsoft/aspnetcore:latest"
+  },
+  {
+    "index": 87,
+    "text": "WORKDIR /apps/ContosoAPP"
+  },
+  {
+    "index": 88,
+    "text": "COPY ./."
+  },
+  {
+    "index": 89,
+    "text": "RUN powershell ./setupScript.ps1"
+  },
+  {
+    "index": 90,
+    "text": "D – Use an App Service plan Configure the Function App to use an Azure Blob trigger"
+  },
+  {
+    "index": 91,
+    "text": "Consumption plan can cause 10-min delay"
+  },
+  {
+    "index": 92,
+    "text": "Virtual Machine Scale Set (VMSS) several storage account, networking component"
+  },
+  {
+    "index": 93,
+    "text": "copyIndex ()"
+  },
+  {
+    "index": 94,
+    "text": "zero-based(starts counting from 0)namensgebung"
+  },
+  {
+    "index": 95,
+    "text": "copy"
+  },
+  {
+    "index": 96,
+    "text": "copy loop, set number of resources to deploy and avoid redundancy"
+  },
+  {
+    "index": 97,
+    "text": "dependsOn"
+  },
+  {
+    "index": 98,
+    "text": "When deploying resources, you may need to make sure some resources exist before other resources. For example, you need a logical SQL server before deploying a database"
+  },
+  {
+    "index": 99,
+    "text": "Develop Azure Function App(process orders input by an Azure Web App)Web App places order information into Azure Queue Storage"
+  },
+  {
+    "index": 100,
+    "text": "NO – ExpirationTime and InsertionTime were added to queue"
+  },
+  {
+    "index": 101,
+    "text": "YES – maxDequeueCount(number of times to process message before putting it to poison queue) default 5 times"
+  },
+  {
+    "index": 102,
+    "text": "YES – maximum number of messages processed concurrently per VM is 24"
+  },
+  {
+    "index": 103,
+    "text": "YES – ProcessOrder function output order to Orders table"
+  },
+  {
+    "index": 104,
+    "text": "[Table(\"Orders\")]ICollector<Order> table bindings"
+  },
+  {
+    "index": 105,
+    "text": "tableBindings.Add(JsonConvert.DeserializeObject<Object>(myQueueItem.AsString));"
+  },
+  {
+    "index": 106,
+    "text": "develop solution for hospital (Consistency level)"
+  },
+  {
+    "index": 107,
+    "text": "strong"
+  },
+  {
+    "index": 108,
+    "text": "bounded staleness"
+  },
+  {
+    "index": 109,
+    "text": "consistent prefix"
+  },
+  {
+    "index": 110,
+    "text": "Strong Consistency: Guarantees that all reads return the most recent write. It's like reading from a single, up-to-date source."
+  },
+  {
+    "index": 111,
+    "text": "Bounded Staleness: Allows a slight delay between writes and reads, but with a defined maximum time lag. Data may not be immediately up-to-date but won't be too stale."
+  },
+  {
+    "index": 112,
+    "text": "Consistent Prefix: Ensures that reads never see writes that occurred after they started. It provides a partial order of operations."
+  },
+  {
+    "index": 113,
+    "text": "Eventual Consistency: No specific guarantees about when data will be consistent. Eventually, all replicas will catch up, but there's no fixed time frame."
+  },
+  {
+    "index": 114,
+    "text": "Configuring a development environment"
+  },
+  {
+    "index": 115,
+    "text": "Azure Powershell (sysprep to generalize virtual machine, powershell to create image)"
+  },
+  {
+    "index": 116,
+    "text": "Azure Blob Storage (store images )"
+  },
+  {
+    "index": 117,
+    "text": "Azure WebApp from GitHup repository"
+  },
+  {
+    "index": 118,
+    "text": "B – Add a Prebuild target (csproject file)"
+  },
+  {
+    "index": 119,
+    "text": "D – Create a file named .deployment"
+  },
+  {
+    "index": 120,
+    "text": "Develop app using blob storage"
+  },
+  {
+    "index": 121,
+    "text": "Export resource manager template"
+  },
+  {
+    "index": 122,
+    "text": "Create new template deployment"
+  },
+  {
+    "index": 123,
+    "text": "Modify template, change storage account name and region"
+  },
+  {
+    "index": 124,
+    "text": "Deploy template to create new storage account in target region"
+  },
+  {
+    "index": 125,
+    "text": "Use AZcopy to copy data to new storage account"
+  },
+  {
+    "index": 126,
+    "text": "Deploy azure vm"
+  },
+  {
+    "index": 127,
+    "text": "Run Command"
+  },
+  {
+    "index": 128,
+    "text": "Custom Script Extension"
+  },
+  {
+    "index": 129,
+    "text": "Develop node.js web app"
+  },
+  {
+    "index": 130,
+    "text": "New-AzResourceGroup"
+  },
+  {
+    "index": 131,
+    "text": "New-AzAppServicePlan"
+  },
+  {
+    "index": 132,
+    "text": "New-AzWebApp"
+  },
+  {
+    "index": 133,
+    "text": "New-AzWebAppSlot"
+  },
+  {
+    "index": 134,
+    "text": "Develop app Azure VM"
+  },
+  {
+    "index": 135,
+    "text": "IdentityId (should be IdentityType)"
+  },
+  {
+    "index": 136,
+    "text": "SystemAssigned"
+  },
+  {
+    "index": 137,
+    "text": "NO – Consumption plan can take up to several minutes"
+  },
+  {
+    "index": 138,
+    "text": "YES"
+  },
+  {
+    "index": 139,
+    "text": "WEBSITE_SWAP_WARMUP_PING_PATH The path to ping to warm up your site."
+  },
+  {
+    "index": 140,
+    "text": "WEBSITE_SWAP_WARMUP_PING_STATUSES: Valid HTTP response codes for the warm-up operation"
+  },
+  {
+    "index": 141,
+    "text": "Powershell Skript"
+  },
+  {
+    "index": 142,
+    "text": "NO – No log alert when cpu is above 60 for 5 min"
+  },
+  {
+    "index": 143,
+    "text": "YES – log alert that sends e-mail when number of vm heartbeats? Is less than 5"
+  },
+  {
+    "index": 144,
+    "text": "NO – lo g alert is scheduled every 2 hours"
+  },
+  {
+    "index": 145,
+    "text": "Azure function app"
+  },
+  {
+    "index": 146,
+    "text": "Custom handler"
+  },
+  {
+    "index": 147,
+    "text": "Trigger"
+  },
+  {
+    "index": 148,
+    "text": "Diagnostic data that must be persisted across application restarts"
+  },
+  {
+    "index": 149,
+    "text": "WEBSITES_ENABLE_APP_SERVICE_STORAGE"
+  },
+  {
+    "index": 150,
+    "text": "/home"
+  },
+  {
+    "index": 151,
+    "text": "Windows Firewall(WAF)"
+  },
+  {
+    "index": 152,
+    "text": "Gateway’s HTTP setting, enable use for App sercive settings"
+  },
+  {
+    "index": 153,
+    "text": "Overrid backend path option to: contoso22.azurewebsites.net"
+  },
+  {
+    "index": 154,
+    "text": "SAAS software develop. Use Azure Blob Storage change feed to trigger photo processing"
+  },
+  {
+    "index": 155,
+    "text": "NO – Change feed takes several minutes. We want photo processing in under 1 min"
+  },
+  {
+    "index": 156,
+    "text": "Developing a web app using azure web app. OpenTelemetry compliant"
+  },
+  {
+    "index": 157,
+    "text": "Add the customer ID , use the CorrelationContext"
+  },
+  {
+    "index": 158,
+    "text": "Azure function App, develop code, language not supported by azure"
+  },
+  {
+    "index": 159,
+    "text": "Code"
+  },
+  {
+    "index": 160,
+    "text": "Custom Handler"
+  },
+  {
+    "index": 161,
+    "text": "Custom"
+  },
+  {
+    "index": 162,
+    "text": "(not important) VM in development environments"
+  },
+  {
+    "index": 163,
+    "text": "Open C:\\\\temp\\Patch"
+  },
+  {
+    "index": 164,
+    "text": "Dism /image:\\ /get-packages > c:/temp/patch.txt"
+  },
+  {
+    "index": 165,
+    "text": "HTTP triggered Azure Function. Solution: Update timeout function to 10 min?"
+  },
+  {
+    "index": 166,
+    "text": "NO – 230 sec(~4 min) is maximum for HTTP triggered function"
+  },
+  {
+    "index": 167,
+    "text": "Azure durable function"
+  },
+  {
+    "index": 168,
+    "text": "SetOutput()"
+  },
+  {
+    "index": 169,
+    "text": "Completed"
+  },
+  {
+    "index": 170,
+    "text": "Output"
+  },
+  {
+    "index": 171,
+    "text": "Develop an azure durable function"
+  },
+  {
+    "index": 172,
+    "text": "A - Orchestrator"
+  },
+  {
+    "index": 173,
+    "text": "D – Activity"
+  },
+  {
+    "index": 174,
+    "text": "Nested Azure Resource Manager"
+  },
+  {
+    "index": 175,
+    "text": "Azure Resource Manager test toolkit"
+  },
+  {
+    "index": 176,
+    "text": "What-if operation"
+  },
+  {
+    "index": 177,
+    "text": "Durable Function;vehicle loan"
+  },
+  {
+    "index": 178,
+    "text": "Orchestrator"
+  },
+  {
+    "index": 179,
+    "text": "Azure function app(10 attempts, 20wec between attempts up to 15 min)"
+  },
+  {
+    "index": 180,
+    "text": "retry"
+  },
+  {
+    "index": 181,
+    "text": "exponentialBackoff"
+  },
+  {
+    "index": 182,
+    "text": "maxRetryCount"
+  },
+  {
+    "index": 183,
+    "text": "commercial diving company"
+  },
+  {
+    "index": 184,
+    "text": "cpu usage-base autoscaling"
+  },
+  {
+    "index": 185,
+    "text": "predictive autoscaling"
+  },
+  {
+    "index": 186,
+    "text": "game develop, favorite photo vote"
+  },
+  {
+    "index": 187,
+    "text": "IDurableEntityClient"
+  },
+  {
+    "index": 188,
+    "text": "SignalentityAsync"
+  },
+  {
+    "index": 189,
+    "text": "App service plan “asp1” free pricing tier"
+  },
+  {
+    "index": 190,
+    "text": "Always On(shouldn’t go idle)"
+  },
+  {
+    "index": 191,
+    "text": "Basic (cheapest with good compute)"
+  },
+  {
+    "index": 192,
+    "text": "Microsevices to run container apps"
+  },
+  {
+    "index": 193,
+    "text": "Enable ingress"
+  },
+  {
+    "index": 194,
+    "text": "Add custom domain name"
+  },
+  {
+    "index": 195,
+    "text": "Bind the certificate (only enabled after finishing the validation)"
+  },
+  {
+    "index": 196,
+    "text": "Add DNS records to the domain provider"
+  },
+  {
+    "index": 197,
+    "text": "Validate the custom domain name"
+  },
+  {
+    "index": 198,
+    "text": "Microservices container apps. External http ingress traffic enabled"
+  },
+  {
+    "index": 199,
+    "text": "D – Use single environment for all containers"
+  },
+  {
+    "index": 200,
+    "text": "Microservices container apps. External http ingress traffic enabled"
+  },
+  {
+    "index": 201,
+    "text": "Revision label"
+  },
+  {
+    "index": 202,
+    "text": "Revision mode"
+  },
+  {
+    "index": 203,
+    "text": "You plan to develop an Azure Functions app with an HTTP trigger."
+  },
+  {
+    "index": 204,
+    "text": "Premium"
+  },
+  {
+    "index": 205,
+    "text": "230 seconds (Http trigger max 300 sec.)"
+  },
+  {
+    "index": 206,
+    "text": "You develop a Python application for image rendering."
+  },
+  {
+    "index": 207,
+    "text": "Azure Container Instances"
+  },
+  {
+    "index": 208,
+    "text": "Restart policy"
+  },
+  {
+    "index": 209,
+    "text": "Code solution that uses storage client library"
+  },
+  {
+    "index": 210,
+    "text": "Yes (creates an infinite lease)"
+  },
+  {
+    "index": 211,
+    "text": "No (line 06 always creates anew blob"
+  },
+  {
+    "index": 212,
+    "text": "Yes (finally block releases the lease)"
+  },
+  {
+    "index": 213,
+    "text": "Building website using azure blob storage (archive access tier-> lowest storage cost)"
+  },
+  {
+    "index": 214,
+    "text": "B - Between one and 15 hours"
+  },
+  {
+    "index": 215,
+    "text": "Ticket reservation system"
+  },
+  {
+    "index": 216,
+    "text": "Bounded staleness (max-interval indicates this must be bounded staleness"
+  },
+  {
+    "index": 217,
+    "text": "–enable automatic-failover true (indicates this must be multi region)"
+  },
+  {
+    "index": 218,
+    "text": "–locations ‘soutcentralus=0 easus=1 westus=2’"
+  },
+  {
+    "index": 219,
+    "text": "Deploy python website to web app"
+  },
+  {
+    "index": 220,
+    "text": "–sku b1 --is-linux"
+  },
+  {
+    "index": 221,
+    "text": "–deployment-container-image-name images.azurecr.io/website:v1.0.0"
+  },
+  {
+    "index": 222,
+    "text": "Container set --docker-registry-server-url https://images.azurecr.io -u admin -p admin"
+  },
+  {
+    "index": 223,
+    "text": "Back-end azure app service, scale based on number of messages contained in service bus queue"
+  },
+  {
+    "index": 224,
+    "text": "Service Bus queue (metric source)"
+  },
+  {
+    "index": 225,
+    "text": "Active Message Count(criteria: Metric name"
+  },
+  {
+    "index": 226,
+    "text": "Average(time grain statistic)"
+  },
+  {
+    "index": 227,
+    "text": "Less than or equal to(operator)"
+  },
+  {
+    "index": 228,
+    "text": "Decrease count by(operation)"
+  },
+  {
+    "index": 229,
+    "text": "Update metadata"
+  },
+  {
+    "index": 230,
+    "text": "FetchattributesAsync (first it needs to be fetched)"
+  },
+  {
+    "index": 231,
+    "text": "Metadata.add (manipulate metadata to update them )"
+  },
+  {
+    "index": 232,
+    "text": "SetMetadataAsync (changes have to be persisting)"
+  },
+  {
+    "index": 233,
+    "text": "Provision an Azure Event Grid. Configure the machine identifier as the partition key and enable capture."
+  },
+  {
+    "index": 234,
+    "text": "B- NO (It’s Event hub, not Event grid)"
+  },
+  {
+    "index": 235,
+    "text": "“The messages must NOT persist after being processed"
+  },
+  {
+    "index": 236,
+    "text": "A – Queueclient"
+  },
+  {
+    "index": 237,
+    "text": "Azure blob storage GPv1"
+  },
+  {
+    "index": 238,
+    "text": "Upgrade to GPv2"
+  },
+  {
+    "index": 239,
+    "text": "Create New GP2v standard account, set default to cool"
+  },
+  {
+    "index": 240,
+    "text": "Copy the data to be archived to a Standard GPv2 storage account"
+  },
+  {
+    "index": 241,
+    "text": "Connect to a no-SQL globally distributed database by using .NET API"
+  },
+  {
+    "index": 242,
+    "text": "C - new CosmosClient(EndpointUri, PrimaryKey);"
+  },
+  {
+    "index": 243,
+    "text": "Storage account that stores large volumes of data, copy all data to new storage"
+  },
+  {
+    "index": 244,
+    "text": "AzCopy"
+  },
+  {
+    "index": 245,
+    "text": "all virtual machines to use managed identities"
+  },
+  {
+    "index": 246,
+    "text": "http://169.254..../identity/oauth2/token"
+  },
+  {
+    "index": 247,
+    "text": "JsonConvert.DeserializeObject<Dictionary<string,string>>(payload);"
+  },
+  {
+    "index": 248,
+    "text": "New page that uses cosmos db"
+  },
+  {
+    "index": 249,
+    "text": "compositeIndexes -You can order by multiple properties. A query that orders by multiple properties requires a composite index."
+  },
+  {
+    "index": 250,
+    "text": "Descending"
+  },
+  {
+    "index": 251,
+    "text": "You are building a traffic monitoring system that monitors traffic along six highways."
+  },
+  {
+    "index": 252,
+    "text": "6"
+  },
+  {
+    "index": 253,
+    "text": "Highway"
+  },
+  {
+    "index": 254,
+    "text": "You plan to deploy the solution to a multinode Azure Kubernetes Service (AKS) cluster."
+  },
+  {
+    "index": 255,
+    "text": "Helm (Helm helps you manage Kubernetes applications)"
+  },
+  {
+    "index": 256,
+    "text": "KubeCtl (The Kubernetes command-line tool, kubectl, allows you to run commands against Kubernetes clusters.)"
+  },
+  {
+    "index": 257,
+    "text": "Ingress Controller (Kubernetes ingress resources are used to configure the ingress rules and routes for individual Kubernetes services)"
+  },
+  {
+    "index": 258,
+    "text": "You are implementing an order processing system"
+  },
+  {
+    "index": 259,
+    "text": "Correlation Filter"
+  },
+  {
+    "index": 260,
+    "text": "SQL filter"
+  },
+  {
+    "index": 261,
+    "text": "SQL filter"
+  },
+  {
+    "index": 262,
+    "text": "SQL filter"
+  },
+  {
+    "index": 263,
+    "text": "No filter"
+  },
+  {
+    "index": 264,
+    "text": "You use Azure Content Delivery Network (CDN) to store the static image."
+  },
+  {
+    "index": 265,
+    "text": "A user requests the image from CDN"
+  },
+  {
+    "index": 266,
+    "text": "If no edge servers in the POP(Point of Presence) have image in cache, request to origin server"
+  },
+  {
+    "index": 267,
+    "text": "The origin server returns the loho imate to an edge server in the POP"
+  },
+  {
+    "index": 268,
+    "text": "Subsequent request for the file may be directed to the same POP"
+  },
+  {
+    "index": 269,
+    "text": "Azure Cosmos DB SQL API. The data includes millions of documents"
+  },
+  {
+    "index": 270,
+    "text": "D - a concatenation of multiple property values with a random suffix appended"
+  },
+  {
+    "index": 271,
+    "text": "E -  a hash suffix appended to a property value"
+  },
+  {
+    "index": 272,
+    "text": "Azure-hosted e-commerce web application (SalesOrder ManagedSalesOrder)"
+  },
+  {
+    "index": 273,
+    "text": "YES"
+  },
+  {
+    "index": 274,
+    "text": "YES"
+  },
+  {
+    "index": 275,
+    "text": "YES"
+  },
+  {
+    "index": 276,
+    "text": "You need to implement a change feed processor solution."
+  },
+  {
+    "index": 277,
+    "text": "Monitored container"
+  },
+  {
+    "index": 278,
+    "text": "Lease container"
+  },
+  {
+    "index": 279,
+    "text": "Host"
+  },
+  {
+    "index": 280,
+    "text": "Delegate"
+  },
+  {
+    "index": 281,
+    "text": "Develop web app, azure storage"
+  },
+  {
+    "index": 282,
+    "text": "Implement Storage v2"
+  },
+  {
+    "index": 283,
+    "text": "Set a lifecycle management policy to move blobs to the cool tier"
+  },
+  {
+    "index": 284,
+    "text": "Mobile Games . All games use a single leaderboard"
+  },
+  {
+    "index": 285,
+    "text": "YES"
+  },
+  {
+    "index": 286,
+    "text": "No"
+  },
+  {
+    "index": 287,
+    "text": "No"
+  },
+  {
+    "index": 288,
+    "text": "Yes"
+  },
+  {
+    "index": 289,
+    "text": "deploy all Azure resources to a single region, move the Azure Storage account to the new region"
+  },
+  {
+    "index": 290,
+    "text": "A – Export the azure storage account to ARM template"
+  },
+  {
+    "index": 291,
+    "text": "Temeletry data for delivery drivers"
+  },
+  {
+    "index": 292,
+    "text": "Core (SQL)"
+  },
+  {
+    "index": 293,
+    "text": "Item id"
+  },
+  {
+    "index": 294,
+    "text": "Solution using Cosmos DB and Cosmos DB SDK, add change feed processor"
+  },
+  {
+    "index": 295,
+    "text": "Change fedd estimator"
+  },
+  {
+    "index": 296,
+    "text": "Dead-letter queue"
+  },
+  {
+    "index": 297,
+    "text": "Premium block storage account"
+  },
+  {
+    "index": 298,
+    "text": "NO"
+  },
+  {
+    "index": 299,
+    "text": "NO"
+  },
+  {
+    "index": 300,
+    "text": "YES"
+  },
+  {
+    "index": 301,
+    "text": "NO"
+  },
+  {
+    "index": 302,
+    "text": "Deploy Cosmos DB, ensure that index is updated as items are created, updated or deleted"
+  },
+  {
+    "index": 303,
+    "text": "D – Set the indexing mode to consistent"
+  },
+  {
+    "index": 304,
+    "text": "Application needs to be updated to multi region writes"
+  },
+  {
+    "index": 305,
+    "text": "A – Update the ConnectionPolicy class for the Cosmos client and populate the PreferredLocations property based on the geo-proximity of the application."
+  },
+  {
+    "index": 306,
+    "text": "C - Update the ConnectionPolicy class for the Cosmos client and set the UseMultipleWriteLocations property to true"
+  },
+  {
+    "index": 307,
+    "text": "developing a solution to store documents in Azure Blob storage"
+  },
+  {
+    "index": 308,
+    "text": "Azure Blob index tags"
+  },
+  {
+    "index": 309,
+    "text": "Azure Cognitive Search"
+  },
+  {
+    "index": 310,
+    "text": "Web application accesses data in a zone-redundant BlobBlobStorage"
+  },
+  {
+    "index": 311,
+    "text": "ETag (Entity Tag) is an HTTP header that represents a unique identifier for a version of the resource"
+  },
+  {
+    "index": 312,
+    "text": "If-match"
+  },
+  {
+    "index": 313,
+    "text": "You need to delete all snapshots of the blob storage account. You must not delete the blob storage account itself."
+  },
+  {
+    "index": 314,
+    "text": "DeleteSnapshotOption"
+  },
+  {
+    "index": 315,
+    "text": "OnlySnapshots"
+  },
+  {
+    "index": 316,
+    "text": "Same scene as 31"
+  },
+  {
+    "index": 317,
+    "text": "delete_blob= (delete_snapshots = Only)"
+  },
+  {
+    "index": 318,
+    "text": "need to process each change made to the storage account"
+  },
+  {
+    "index": 319,
+    "text": "changeFeedClient.GetChanges(x).AsPages()"
+  },
+  {
+    "index": 320,
+    "text": "c.ContinuationToken"
+  },
+  {
+    "index": 321,
+    "text": "application that sells AI generated images based on user input"
+  },
+  {
+    "index": 322,
+    "text": "Count(c.whenFinished) ( Date not a number, can’t sum it)"
+  },
+  {
+    "index": 323,
+    "text": "DatetimeBin(c.whenFinished, ‘day’,2)"
+  },
+  {
+    "index": 324,
+    "text": "DateTimeBin(c.whenFinished, ‘day’,2)"
+  },
+  {
+    "index": 325,
+    "text": "A large batch of documents continues to fail when reading one of the documents in the batch."
+  },
+  {
+    "index": 326,
+    "text": "Change feed estimator"
+  },
+  {
+    "index": 327,
+    "text": "Dead-letter queue"
+  },
+  {
+    "index": 328,
+    "text": "store business-critical data in Azure Blob storage"
+  },
+  {
+    "index": 329,
+    "text": "A - Configure a time-based retention policy for the storage account"
+  },
+  {
+    "index": 330,
+    "text": "A time-based retention policy stores blob data in a Write-Once, Read-Many (WORM) format for a specified interval. When a time-based retention policy is set, clients can create and read blobs, but can't modify or delete them. After the retention interval has expired, blobs can be deleted but not overwritten."
+  },
+  {
+    "index": 331,
+    "text": "D - Enable version-level immutability support for the storage account."
+  },
+  {
+    "index": 332,
+    "text": "Before you can apply a time-based retention policy to a blob version, you must enable support for version-level immutability."
+  },
+  {
+    "index": 333,
+    "text": "updating an application that stores data on Azure and uses Azure Cosmos DB for storage"
+  },
+  {
+    "index": 334,
+    "text": "Create an unsharded collection to store documents. This will ensure that all documents are stored in the same logical partition."
+  },
+  {
+    "index": 335,
+    "text": "Configure Azure Cosmos DB to use the MongoDB API. The MongoDB API supports multi-document ACID transactions, which allow you to update multiple documents in a single atomic operation."
+  },
+  {
+    "index": 336,
+    "text": "No-SQL globally-distributed database"
+  },
+  {
+    "index": 337,
+    "text": "client = CosmosClient(endpoint, key) (Only .NET answer)"
+  },
+  {
+    "index": 338,
+    "text": "web application that provides access to legal documents that are stored on Azure Blob Storage with version-level immutability policies."
+  },
+  {
+    "index": 339,
+    "text": "deleting documents"
+  },
+  {
+    "index": 340,
+    "text": "overwriting existing documents"
+  },
+  {
+    "index": 341,
+    "text": "Azure Cosmos DB for NoSQL account named account1 with the default consistency level."
+  },
+  {
+    "index": 342,
+    "text": "Consistent Prefix"
+  },
+  {
+    "index": 343,
+    "text": "Session"
+  },
+  {
+    "index": 344,
+    "text": "blob storage container named companyimages contained in an Azure blob storage account named companymedia."
+  },
+  {
+    "index": 345,
+    "text": "Companymedia"
+  },
+  {
+    "index": 346,
+    "text": "CompanyImages"
+  },
+  {
+    "index": 347,
+    "text": "Status=’Final’"
+  },
+  {
+    "index": 348,
+    "text": "You develop two Python scripts to process data."
+  },
+  {
+    "index": 349,
+    "text": "Azure file share"
+  },
+  {
+    "index": 350,
+    "text": "Never"
+  },
+  {
+    "index": 351,
+    "text": "The website must support the following requirements:Custom domain nameCustom header values for all responsesCustom SSL certificate"
+  },
+  {
+    "index": 352,
+    "text": "Azure Content Delivery Network (CDN)"
+  },
+  {
+    "index": 353,
+    "text": "CDN"
+  },
+  {
+    "index": 354,
+    "text": "CDN"
+  },
+  {
+    "index": 355,
+    "text": "You are developing an inventory tracking solution."
+  },
+  {
+    "index": 356,
+    "text": "D – strong consistency"
+  },
+  {
+    "index": 357,
+    "text": "You need to configure blob storage.How should you complete the YAML configuration? To answer, select the appropriate options in the answer area."
+  },
+  {
+    "index": 358,
+    "text": "StorageClass"
+  },
+  {
+    "index": 359,
+    "text": "Azure-disk"
+  },
+  {
+    "index": 360,
+    "text": "Retain"
+  },
+  {
+    "index": 361,
+    "text": "VanArsdel, Ltd. is a global office supply company. The company is based in Canada and has retail store locations across the world. The company is developing several cloud-based solutions to support their stores, distributors, suppliers, and delivery services."
+  },
+  {
+    "index": 362,
+    "text": "Core (SQL)"
+  },
+  {
+    "index": 363,
+    "text": "Item id"
+  },
+  {
+    "index": 364,
+    "text": "You need to configure authentication and authorization."
+  },
+  {
+    "index": 365,
+    "text": "A – Add an identity provider"
+  },
+  {
+    "index": 366,
+    "text": "change feed functionality to track changes to containers. App1 will use the pull model and App2 will use the push model."
+  },
+  {
+    "index": 367,
+    "text": "Continuation token"
+  },
+  {
+    "index": 368,
+    "text": "Lease container"
+  },
+  {
+    "index": 369,
+    "text": "You need to configure the console application to access the images."
+  },
+  {
+    "index": 370,
+    "text": "Azure BlobFuse"
+  },
+  {
+    "index": 371,
+    "text": "You are developing several microservices named serviceA, serviceB, and serviceC. You deploy the microservices to a new Azure Container Apps environment."
+  },
+  {
+    "index": 372,
+    "text": "Container file system"
+  },
+  {
+    "index": 373,
+    "text": "Ephemeral volume"
+  },
+  {
+    "index": 374,
+    "text": "Azure File storage"
+  },
+  {
+    "index": 375,
+    "text": "DocumentDB Accounts Contributor"
+  },
+  {
+    "index": 376,
+    "text": "Which role-based access control should you use?"
+  },
+  {
+    "index": 377,
+    "text": "DocumentDB Account Contributor: Can manage Azure Cosmos DB accounts. Cosmos Backup Operator: Can submit a restore request for Azure portal for a periodic backup enabled database or a container. Can modify the backup interval and retention on the Azure portal. Cannot access any data or use Data Explorer."
+  },
+  {
+    "index": 378,
+    "text": "Cosmos DB Operator: Can provision Azure Cosmos accounts, databases, and containers. Cannot access any data or use Data Explorer."
+  },
+  {
+    "index": 379,
+    "text": "Cosmos DB Account Reader: Can read Azure Cosmos DB account data."
+  },
+  {
+    "index": 380,
+    "text": "CosmosRestoreOperator: Can perform restore action for Azure Cosmos DB account with continuous backup mode."
+  },
+  {
+    "index": 381,
+    "text": "Configure the Azure Web App for the website to allow only authenticated requests and require Azure AD log on."
+  },
+  {
+    "index": 382,
+    "text": "NO"
+  },
+  {
+    "index": 383,
+    "text": "✑ Create a new Azure AD application. In the application's manifest, set value of the groupMembershipClaims option to All.✑ In the website, use the value of the groups claim from the JWT for the user to determine permissions."
+  },
+  {
+    "index": 384,
+    "text": "YES"
+  },
+  {
+    "index": 385,
+    "text": "✑ Create a new Azure AD application. In the application's manifest, define application roles that match the required permission levels for the application.✑ Assign the appropriate Azure AD group to each role. In the website, use the value of the roles claim from the JWT for the user to determine permissions."
+  },
+  {
+    "index": 386,
+    "text": "YES"
+  },
+  {
+    "index": 387,
+    "text": "You need to protect the key vault and key vault objects.Which Azure Key Vault feature should you use?"
+  },
+  {
+    "index": 388,
+    "text": "Soft delete"
+  },
+  {
+    "index": 389,
+    "text": "Purge protection"
+  },
+  {
+    "index": 390,
+    "text": "You provide an Azure API Management managed web service to clients. The back-end web service implements HTTP Strict Transport Security (HSTS)."
+  },
+  {
+    "index": 391,
+    "text": "Basic Authentication"
+  },
+  {
+    "index": 392,
+    "text": "Certificate Authentication"
+  },
+  {
+    "index": 393,
+    "text": "You implement role-based access control (RBAC) role permissions on the containers that store photographs. You assign users to RBAC roles."
+  },
+  {
+    "index": 394,
+    "text": "User_impersonation, delegated"
+  },
+  {
+    "index": 395,
+    "text": "Delegated"
+  },
+  {
+    "index": 396,
+    "text": "You need to update the app to meet the following requirements:✑ Use the Export feature in the app without requiring a restart of the app.✑ Validate users before users are allowed access to secure resources.✑ Permit users to access secure resources."
+  },
+  {
+    "index": 397,
+    "text": "UseAuthentication"
+  },
+  {
+    "index": 398,
+    "text": "UseAuthorization"
+  },
+  {
+    "index": 399,
+    "text": "UseAzureAppConfiguration"
+  },
+  {
+    "index": 400,
+    "text": "You need to design the approach to loading application secrets."
+  },
+  {
+    "index": 401,
+    "text": "Create a single user-assigned Managed Identity with permission to access Key Vault and configure each App Service to use that Managed Identity."
+  },
+  {
+    "index": 402,
+    "text": "You need to store the intake forms according to the requirements.Solution:1. Create an Azure Key Vault key named skey.2. Encrypt the intake forms using the public key portion of skey.3. Store the encrypted data in Azure Blob storage."
+  },
+  {
+    "index": 403,
+    "text": "YES"
+  },
+  {
+    "index": 404,
+    "text": "You need to store the intake forms according to the requirements"
+  },
+  {
+    "index": 405,
+    "text": "Create an Azure Cosmos DB database with Storage Service Encryption enabled. Store the intake forms in the Azure Cosmos DB database."
+  },
+  {
+    "index": 406,
+    "text": "NO"
+  },
+  {
+    "index": 407,
+    "text": "You need to store the intake forms according to the requirements.Solution: Store the intake forms as Azure Key Vault secrets."
+  },
+  {
+    "index": 408,
+    "text": "NO"
+  },
+  {
+    "index": 409,
+    "text": "How should you complete the Azure CLI commands? To answer, select the appropriate options in the answer area."
+  },
+  {
+    "index": 410,
+    "text": "Keyvault"
+  },
+  {
+    "index": 411,
+    "text": "Keyvault key"
+  },
+  {
+    "index": 412,
+    "text": "Vm"
+  },
+  {
+    "index": 413,
+    "text": "Vm encryption"
+  },
+  {
+    "index": 414,
+    "text": "All"
+  },
+  {
+    "index": 415,
+    "text": "✑ All API calls must be authenticated.✑ Callers to the API must not send credentials to the API.Which authentication mechanism should you use?"
+  },
+  {
+    "index": 416,
+    "text": "Managed Identity"
+  },
+  {
+    "index": 417,
+    "text": "You are developing an application. You have an Azure user account that has access to two subscriptions"
+  },
+  {
+    "index": 418,
+    "text": "Get-AzSubscription"
+  },
+  {
+    "index": 419,
+    "text": "Set-AzContext -SubscritopnId $subscriptionID"
+  },
+  {
+    "index": 420,
+    "text": "Get-AzStorageAccountKey"
+  },
+  {
+    "index": 421,
+    "text": "$secretvalue = ConvertTo-SecureString"
+  },
+  {
+    "index": 422,
+    "text": "Get-AzKeyVaultSecret"
+  },
+  {
+    "index": 423,
+    "text": "Use an X.509 certificate to authenticate the VM with Azure Resource Manager."
+  },
+  {
+    "index": 424,
+    "text": "NO"
+  },
+  {
+    "index": 425,
+    "text": "Use the Reader role-based access control (RBAC) role to authenticate the VM with Azure Resource Manager."
+  },
+  {
+    "index": 426,
+    "text": "NO"
+  },
+  {
+    "index": 427,
+    "text": "You need to implement an Azure CDN rule that ensures that iPhone users are redirected to the app store."
+  },
+  {
+    "index": 428,
+    "text": "DeliveryRuleDeviceConditionParameters"
+  },
+  {
+    "index": 429,
+    "text": "Mobile"
+  },
+  {
+    "index": 430,
+    "text": "DeliveryRequestHeaderConditionParameters"
+  },
+  {
+    "index": 431,
+    "text": "HTTP_USER_AGENT"
+  },
+  {
+    "index": 432,
+    "text": "iPhone"
+  },
+  {
+    "index": 433,
+    "text": "Configure and use Integrated Windows Authentication in the website.✑ In the website, query Microsoft Graph API to load the groups to which the user is a member."
+  },
+  {
+    "index": 434,
+    "text": "NO"
+  },
+  {
+    "index": 435,
+    "text": "Run the Invoke-RestMethod cmdlet to make a request to the local managed identity for Azure resources endpoint."
+  },
+  {
+    "index": 436,
+    "text": "YES"
+  },
+  {
+    "index": 437,
+    "text": "How should you configure the manifest? To answer, select the appropriate configuration in the answer area."
+  },
+  {
+    "index": 438,
+    "text": "groupMembershipClaims"
+  },
+  {
+    "index": 439,
+    "text": "oauth2AllowImplicitFlow"
+  },
+  {
+    "index": 440,
+    "text": "You need to copy specific blobs from Container1 to Container2 when a new video is uploaded."
+  },
+  {
+    "index": 441,
+    "text": "Create an Event Grid topic that uses the Start-AzureStorageBlobCopy cmdlet"
+  },
+  {
+    "index": 442,
+    "text": "You need to purge individual assets from the Front Door cache."
+  },
+  {
+    "index": 443,
+    "text": "single path"
+  },
+  {
+    "index": 444,
+    "text": "Callers to the API must not send credentials to the API.Which authentication mechanism should you use?"
+  },
+  {
+    "index": 445,
+    "text": "C. Managed identity"
+  },
+  {
+    "index": 446,
+    "text": "A recent security audit found that several web services can be called without any authentication.Which API Management policy should you implement?"
+  },
+  {
+    "index": 447,
+    "text": "D. validate-jwt"
+  },
+  {
+    "index": 448,
+    "text": "Contoso, Ltd. provides an API to customers by using Azure API Management (APIM)."
+  },
+  {
+    "index": 449,
+    "text": "Inbound"
+  },
+  {
+    "index": 450,
+    "text": "Inbound"
+  },
+  {
+    "index": 451,
+    "text": "Inbound"
+  },
+  {
+    "index": 452,
+    "text": "Outbound"
+  },
+  {
+    "index": 453,
+    "text": "You need to develop code to access a secret stored in Azure Key Vault.How should you complete the code segment"
+  },
+  {
+    "index": 454,
+    "text": "SecretClient"
+  },
+  {
+    "index": 455,
+    "text": "DefaultAzureCredential"
+  },
+  {
+    "index": 456,
+    "text": "The API must retrieve and update user profile information stored in Azure Active Directory (Azure AD)."
+  },
+  {
+    "index": 457,
+    "text": "Microsoft Graph API"
+  },
+  {
+    "index": 458,
+    "text": "Microsoft Authentication Library (MSAL)"
+  },
+  {
+    "index": 459,
+    "text": "You develop a REST API. You implement a user delegation SAS token to communicate with Azure Blob storage.The token is compromised.You need to revoke the token."
+  },
+  {
+    "index": 460,
+    "text": "A. Revoke the delegation key."
+  },
+  {
+    "index": 461,
+    "text": "D. Remove the role assignment for the security principle."
+  },
+  {
+    "index": 462,
+    "text": "The key must be transferred to your existing Azure Key Vault by using the Bring Your Own Key (BYOK) process.You need to securely transfer the key to Azure Key Vault."
+  },
+  {
+    "index": 463,
+    "text": "Generate a Key Exchange Key(KEK)"
+  },
+  {
+    "index": 464,
+    "text": "Retrieve the Key exchange Key(KEK) public key"
+  },
+  {
+    "index": 465,
+    "text": "Generate a key transfer blob file by using the HSM vendor-provided tool"
+  },
+  {
+    "index": 466,
+    "text": "Run the “az keyvault key import” command"
+  },
+  {
+    "index": 467,
+    "text": "The Azure Logic app must securely access the Azure Blob storage account. Azure AD resources must remain if the Azure Logic app is deleted.You need to secure the Azure Logic app."
+  },
+  {
+    "index": 468,
+    "text": "Create a user-assigned managed identity and assign role-based access controls."
+  },
+  {
+    "index": 469,
+    "text": "You are developing an application that uses a premium block blob storage account."
+  },
+  {
+    "index": 470,
+    "text": "YES"
+  },
+  {
+    "index": 471,
+    "text": "YES"
+  },
+  {
+    "index": 472,
+    "text": "YES"
+  },
+  {
+    "index": 473,
+    "text": "NO"
+  },
+  {
+    "index": 474,
+    "text": "The solution must meet the following requirements:✑ Send insert and update operations to an Azure Blob storage account.✑ Process changes to all partitions immediately.✑ Allow parallelization of change processing."
+  },
+  {
+    "index": 475,
+    "text": "C.  Create an Azure Function to use a trigger for Azure Cosmos DB. Configure the trigger to connect to the container."
+  },
+  {
+    "index": 476,
+    "text": "D. Create an Azure Function that uses a FeedIterator object that processes the change feed by using the pull model on the container. Use a FeedRange object to parallelize the processing of the change feed across multiple functions."
+  },
+  {
+    "index": 477,
+    "text": "running the following PowerShell script"
+  },
+  {
+    "index": 478,
+    "text": "NO"
+  },
+  {
+    "index": 479,
+    "text": "NO"
+  },
+  {
+    "index": 480,
+    "text": "YES"
+  },
+  {
+    "index": 481,
+    "text": "You create a method named ReadCertificate to return the X509 certificate by name.You need to implement code that acquires a token by using the certificate."
+  },
+  {
+    "index": 482,
+    "text": "ConfidentialClientApplicationBuilder"
+  },
+  {
+    "index": 483,
+    "text": "scopes"
+  },
+  {
+    "index": 484,
+    "text": "The authentication must be managed by Azure Active Directory (Azure AD). The solution must use the principle of least privilege."
+  },
+  {
+    "index": 485,
+    "text": "Service principal"
+  },
+  {
+    "index": 486,
+    "text": "AcrPush"
+  },
+  {
+    "index": 487,
+    "text": "You create an app registration for the app in Azure Active Directory (Azure AD) and Twitter."
+  },
+  {
+    "index": 488,
+    "text": "B. ID token signature"
+  },
+  {
+    "index": 489,
+    "text": "You need to grant developers access to the Azure Blob storage account."
+  },
+  {
+    "index": 490,
+    "text": "A. Generate a shared access signature (SAS) for the Azure Blob storage account and provide the SAS to all developers."
+  },
+  {
+    "index": 491,
+    "text": "You need to register the application with an active Azure Active Directory (Azure AD) tenant."
+  },
+  {
+    "index": 492,
+    "text": "SelectAzure AD instance"
+  },
+  {
+    "index": 493,
+    "text": "In App Registration, select new registration"
+  },
+  {
+    "index": 494,
+    "text": "Create a new application and provide the name"
+  },
+  {
+    "index": 495,
+    "text": "The website uses Azure Active Directory (AzureAD) for authentication."
+  },
+  {
+    "index": 496,
+    "text": "B. In Azure AD, create a new conditional access policy."
+  },
+  {
+    "index": 497,
+    "text": "C. Upgrade to Azure AD Premium."
+  },
+  {
+    "index": 498,
+    "text": "You need to configure shared access signature (SAS) for granting access to Azure Storage"
+  },
+  {
+    "index": 499,
+    "text": "Account-level"
+  },
+  {
+    "index": 500,
+    "text": "Service-level"
+  },
+  {
+    "index": 501,
+    "text": "User delegation"
+  },
+  {
+    "index": 502,
+    "text": "You create an Azure App Configuration store named AppFeatureflagStore as shown in the exhibit:"
+  },
+  {
+    "index": 503,
+    "text": "featuregate"
+  },
+  {
+    "index": 504,
+    "text": "addazure appconfiguration"
+  },
+  {
+    "index": 505,
+    "text": "appfeatureflagstore.azconfig.io"
+  },
+  {
+    "index": 506,
+    "text": "Users must be able to authenticate and access Microsoft Graph by using their own company's Azure AD instance."
+  },
+  {
+    "index": 507,
+    "text": "True"
+  },
+  {
+    "index": 508,
+    "text": "requiredResourceAccess"
+  },
+  {
+    "index": 509,
+    "text": "AzureAdMyOrg"
+  },
+  {
+    "index": 510,
+    "text": "Provide other applications access to the Azure queue.✑ Ensure that you can revoke access to the queue without having to regenerate the storage account keys.✑ Specify access at the queue level and not at the storage account level.Which type of shared access signature (SAS) should you use?"
+  },
+  {
+    "index": 511,
+    "text": "Service SAS with a stored access policy"
+  },
+  {
+    "index": 512,
+    "text": "You need to secure the application access to Azure Blob storage.Which security features should you use?"
+  },
+  {
+    "index": 513,
+    "text": "Shared access signature (SAS) token"
+  },
+  {
+    "index": 514,
+    "text": "Stored Access Policy"
+  },
+  {
+    "index": 515,
+    "text": "You need to retrieve a claim to “uniquely” identify a user."
+  },
+  {
+    "index": 516,
+    "text": "Oid object identifier (contains a unique identifier for the user)"
+  },
+  {
+    "index": 517,
+    "text": "Which value should you store in the Azure Function App configuration"
+  },
+  {
+    "index": 518,
+    "text": "D. @Microsoft.KeyVault(SecretUri=https://mykeyvault.vault.azure.net/secrets/token/)"
+  },
+  {
+    "index": 519,
+    "text": "Each application uses custom in-house identity providers as well as social identity providers.You need to implement single sign-on (SSO) for all the applications."
+  },
+  {
+    "index": 520,
+    "text": "Use Azure Active Directory B2C (Azure AD B2C) with custom policies."
+  },
+  {
+    "index": 521,
+    "text": "The application requires a secret value to be passed when the container is started. The value must only be accessed from within the container.You need to pass the secret value."
+  },
+  {
+    "index": 522,
+    "text": "A. Create an environment variable Set the secureValue property to the secret value."
+  },
+  {
+    "index": 523,
+    "text": "E. Mount a secret volume containing the secret value in a secrets file."
+  },
+  {
+    "index": 524,
+    "text": "You must ensure that administrators have full control and consent over the data."
+  },
+  {
+    "index": 525,
+    "text": "A. Microsoft Graph data connect"
+  },
+  {
+    "index": 526,
+    "text": "Access to Azure App Configuration has been configured to use the identity of the web app for authentication. Security requirements specify that no other authentication systems must be used.You need to load configuration data from Azure App Configuration."
+  },
+  {
+    "index": 527,
+    "text": "AddAzureAppConfiguration"
+  },
+  {
+    "index": 528,
+    "text": "ManagedIdentityCredential"
+  },
+  {
+    "index": 529,
+    "text": "You need to ensure that the blob is encrypted"
+  },
+  {
+    "index": 530,
+    "text": "CustomerProvidedKey(key)"
+  },
+  {
+    "index": 531,
+    "text": "X.Encription == verify"
+  },
+  {
+    "index": 532,
+    "text": "CustomerProvidedKey"
+  },
+  {
+    "index": 533,
+    "text": "You are implementing various authentication and authorization flows for the web application.You need to validate the claims in the authentication token."
+  },
+  {
+    "index": 534,
+    "text": "ID"
+  },
+  {
+    "index": 535,
+    "text": "Access"
+  },
+  {
+    "index": 536,
+    "text": "Refresh"
+  },
+  {
+    "index": 537,
+    "text": "SAML"
+  },
+  {
+    "index": 538,
+    "text": "You need to configure the routing for the web app. Rule evaluation stops at the first match!!!!"
+  },
+  {
+    "index": 539,
+    "text": "/manuals/new.html"
+  },
+  {
+    "index": 540,
+    "text": "Contributors"
+  },
+  {
+    "index": 541,
+    "text": "/manuals"
+  },
+  {
+    "index": 542,
+    "text": "authenticated"
+  },
+  {
+    "index": 543,
+    "text": "A REST API call must read the user’s calendar. The web application requires permission to send an email as the user."
+  },
+  {
+    "index": 544,
+    "text": "E. scope"
+  },
+  {
+    "index": 545,
+    "text": "You must update the web app to display common user properties from Azure B2C to include the following information:"
+  },
+  {
+    "index": 546,
+    "text": "Microsoft Graph"
+  },
+  {
+    "index": 547,
+    "text": "Microsoft Authentication Library (MSAL)"
+  },
+  {
+    "index": 548,
+    "text": "You develop and deploy the following staticwebapp.config.json file to the app_location value specified in the workflow file of an Azure Static Web app:"
+  },
+  {
+    "index": 549,
+    "text": "NO"
+  },
+  {
+    "index": 550,
+    "text": "YES"
+  },
+  {
+    "index": 551,
+    "text": "YES"
+  },
+  {
+    "index": 552,
+    "text": "NO"
+  },
+  {
+    "index": 553,
+    "text": "You need to grant App1 access to Vault1 and automatically rotate credentials. Credentials must not be stored in code."
+  },
+  {
+    "index": 554,
+    "text": "D. Assign a managed identity to App1"
+  },
+  {
+    "index": 555,
+    "text": "You need to configure Always Encrypted to encrypt the sensitive data inside the application."
+  },
+  {
+    "index": 556,
+    "text": "B. Create a customer-managed key (CMK) and store the key in a new Azure Key Vault instance."
+  },
+  {
+    "index": 557,
+    "text": "You build a web page that shows all Azure AD groups that are not of the type 'Unified'. You need to build the Microsoft Graph query for the page."
+  },
+  {
+    "index": 558,
+    "text": "~/groups?$ filter =NOT groupTypes/any(c:c eq 'Unified')&$count=true"
+  },
+  {
+    "index": 559,
+    "text": "You need to develop code to access a secret stored in Azure Key Vault"
+  },
+  {
+    "index": 560,
+    "text": "SecretClient"
+  },
+  {
+    "index": 561,
+    "text": "DefaultAzureCredential"
+  },
+  {
+    "index": 562,
+    "text": "Access to Azure App Configuration has been configured to use the identity of the web app for authentication. Security requirements specify that no other authentication systems must be used. You need to load configuration data from Azure App Configuration."
+  },
+  {
+    "index": 563,
+    "text": "DefaultAzureCredential"
+  },
+  {
+    "index": 564,
+    "text": "AddAzureAppConfiguration"
+  },
+  {
+    "index": 565,
+    "text": "DefaultAzureCredential"
+  },
+  {
+    "index": 566,
+    "text": "AddAzureAppConfiguration"
+  },
+  {
+    "index": 567,
+    "text": "You need to configure key rotation and enable key expiry notifications."
+  },
+  {
+    "index": 568,
+    "text": "A. Create and configure a new Azure Event Grid instance."
+  },
+  {
+    "index": 569,
+    "text": "C. Create and assign an Azure Key Vault access policy"
+  },
+  {
+    "index": 570,
+    "text": "The APIs require an access token from the Microsoft identity platform.You need to request a token."
+  },
+  {
+    "index": 571,
+    "text": "A. Redirect URI/URL"
+  },
+  {
+    "index": 572,
+    "text": "B. Application ID"
+  },
+  {
+    "index": 573,
+    "text": "D. Application secret"
+  },
+  {
+    "index": 574,
+    "text": "You need to provide a script to rotate keys to the customer."
+  },
+  {
+    "index": 575,
+    "text": "key"
+  },
+  {
+    "index": 576,
+    "text": "Microsoft.KeyVault"
+  },
+  {
+    "index": 577,
+    "text": "You must transform the APIs to hide private backend information and obscure the technology stack used to implement the backend processing"
+  },
+  {
+    "index": 578,
+    "text": "C. Configure and apply a new outbound policy scoped to global."
+  },
+  {
+    "index": 579,
+    "text": "You develop a web app that uses the tier D1 app service plan by using the Web Apps feature of Microsoft Azure App Service."
+  },
+  {
+    "index": 580,
+    "text": "Configure the web app to the Standard App Service Tier"
+  },
+  {
+    "index": 581,
+    "text": "Enable autoscaling on the web app"
+  },
+  {
+    "index": 582,
+    "text": "Add a Scale condition"
+  },
+  {
+    "index": 583,
+    "text": "Add a scale rule"
+  },
+  {
+    "index": 584,
+    "text": "Enable Application Request Routing (ARR)."
+  },
+  {
+    "index": 585,
+    "text": "NO"
+  },
+  {
+    "index": 586,
+    "text": "Deploy and configure an Azure Database for PostgreSQL. Update the web applications."
+  },
+  {
+    "index": 587,
+    "text": "NO"
+  },
+  {
+    "index": 588,
+    "text": "You need to invalidate the cache when team data is changed."
+  },
+  {
+    "index": 589,
+    "text": "IDatabase cache = Connection.GetDatabase();"
+  },
+  {
+    "index": 590,
+    "text": "cache.KeyDelete(\"teams\")"
+  },
+  {
+    "index": 591,
+    "text": "A company has multiple warehouses. Each warehouse contains IoT temperature devices which deliver temperature data to an Azure Service Bus queue."
+  },
+  {
+    "index": 592,
+    "text": "Create blank logic app"
+  },
+  {
+    "index": 593,
+    "text": "Add logic app trigger when one or more messages arrive in the queue"
+  },
+  {
+    "index": 594,
+    "text": "Add an Action to read IoT Temp data"
+  },
+  {
+    "index": 595,
+    "text": "Compare upper and lower temp"
+  },
+  {
+    "index": 596,
+    "text": "Add an action that send emails"
+  },
+  {
+    "index": 597,
+    "text": "Which Azure Application Insights Usage Analysis features should you use?"
+  },
+  {
+    "index": 598,
+    "text": "Funnels"
+  },
+  {
+    "index": 599,
+    "text": "Impact"
+  },
+  {
+    "index": 600,
+    "text": "Retention"
+  },
+  {
+    "index": 601,
+    "text": "User Flows"
+  },
+  {
+    "index": 602,
+    "text": "You need to ensure that you can access the news API by using an Azure API Management service instance."
+  },
+  {
+    "index": 603,
+    "text": "A. Import-AzureRmApiManagementApi -Context $ApiMgmtContext -SpecificationFormat \"Swagger\" -SpecificationPath $SwaggerPath -Path $Path"
+  },
+  {
+    "index": 604,
+    "text": "You need to implement a reply trail auditing solution."
+  },
+  {
+    "index": 605,
+    "text": "A. Assign the value of the hazard message SessionID property to the ReplyToSessionId property."
+  },
+  {
+    "index": 606,
+    "text": "D. Assign the value of the hazard message MessageId property to the CorrelationId property."
+  },
+  {
+    "index": 607,
+    "text": "You are developing an Azure function that connects to an Azure SQL Database instance. The function is triggered by an Azure Storage queue."
+  },
+  {
+    "index": 608,
+    "text": "You need to prevent the exception. In the host.json file, decrease the value of the batchSize option"
+  },
+  {
+    "index": 609,
+    "text": "You need to store the information.Proposed Solution: Deploy and configure Azure Cache for Redis. Update the web applications."
+  },
+  {
+    "index": 610,
+    "text": "YES"
+  },
+  {
+    "index": 611,
+    "text": "You are debugging an application that is running on Azure Kubernetes cluster named cluster1 You need to determine on which virtual machines (VMs) the errors are occurring.How should you complete the Azure Monitor query?"
+  },
+  {
+    "index": 612,
+    "text": "ago(1)"
+  },
+  {
+    "index": 613,
+    "text": "distinct ContainerID"
+  },
+  {
+    "index": 614,
+    "text": "where ContainerID in (ContainerIDs)"
+  },
+  {
+    "index": 615,
+    "text": "summarize count() by Computer"
+  },
+  {
+    "index": 616,
+    "text": "You plan to deploy a web app to App Service on Linux. You create an App Service plan. You create and push a custom Docker image that contains the web app to Azure Container Registry.You need to access the console logs generated from inside the container in real-time."
+  },
+  {
+    "index": 617,
+    "text": "config"
+  },
+  {
+    "index": 618,
+    "text": "docker-container-logging"
+  },
+  {
+    "index": 619,
+    "text": "webapp"
+  },
+  {
+    "index": 620,
+    "text": "tail"
+  },
+  {
+    "index": 621,
+    "text": "If the app is not responding, you must send an alert to support staff.You need to configure a test for the web app."
+  },
+  {
+    "index": 622,
+    "text": "B. multi-step web"
+  },
+  {
+    "index": 623,
+    "text": "C. URL ping"
+  },
+  {
+    "index": 624,
+    "text": "Customers must not be able to view cached data for other customers.You need to configure API Management policies for caching."
+  },
+  {
+    "index": 625,
+    "text": "External"
+  },
+  {
+    "index": 626,
+    "text": "Private"
+  },
+  {
+    "index": 627,
+    "text": "Authorization"
+  },
+  {
+    "index": 628,
+    "text": "You need to implement this process with the least amount of effort."
+  },
+  {
+    "index": 629,
+    "text": "B. Set up a URL ping test to query the home page."
+  },
+  {
+    "index": 630,
+    "text": "You must send an alert when any of the function endpoints are unavailable or responding too slowly.You need to monitor the availability and responsiveness of the functions."
+  },
+  {
+    "index": 631,
+    "text": "B -  Create a timer triggered function that calls TrackAvailability() and send the results to Application Insights"
+  },
+  {
+    "index": 632,
+    "text": "You are developing an application to retrieve user profile information. The application will use the Microsoft Graph SDK.The app must retrieve user profile information by using a Microsoft Graph API call.You need to call the Microsoft Graph API from the application."
+  },
+  {
+    "index": 633,
+    "text": "Register the app"
+  },
+  {
+    "index": 634,
+    "text": "Build a client"
+  },
+  {
+    "index": 635,
+    "text": "Create an authentication provider"
+  },
+  {
+    "index": 636,
+    "text": "Create a new instance"
+  },
+  {
+    "index": 637,
+    "text": "Invoke the request"
+  },
+  {
+    "index": 638,
+    "text": "The Logic App must use Azure Monitor logs to record and store information about runtime data and events. The logs must be stored in the Azure Blob storage account.You need to set up Azure Monitor logs and collect diagnostics data for the Azure Logic App."
+  },
+  {
+    "index": 639,
+    "text": "Create a log Analytics workspace"
+  },
+  {
+    "index": 640,
+    "text": "Install the Logic Apps Management solution"
+  },
+  {
+    "index": 641,
+    "text": "Add a diagnostic setting to the Azure Logic App"
+  },
+  {
+    "index": 642,
+    "text": "You develop an application. You plan to host the application on a set of virtual machines (VMs) in Azure.You need to configure Azure Monitor to collect logs from the application."
+  },
+  {
+    "index": 643,
+    "text": "Create a Log Analytics workspace"
+  },
+  {
+    "index": 644,
+    "text": "Add a VMInsights solution"
+  },
+  {
+    "index": 645,
+    "text": "Install agents on the VM and VM scale"
+  },
+  {
+    "index": 646,
+    "text": "Create an Application Insights resource"
+  },
+  {
+    "index": 647,
+    "text": "You develop and deploy an Azure App Service web app. The app is deployed to multiple regions and uses Azure Traffic Manager. Application Insights is enabled for the app.You need to analyze app uptime for each month."
+  },
+  {
+    "index": 648,
+    "text": "Azure Monitor logs"
+  },
+  {
+    "index": 649,
+    "text": "Azure Monitor metrics"
+  },
+  {
+    "index": 650,
+    "text": "Each feature may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content."
+  },
+  {
+    "index": 651,
+    "text": "Set"
+  },
+  {
+    "index": 652,
+    "text": "List"
+  },
+  {
+    "index": 653,
+    "text": "Channel"
+  },
+  {
+    "index": 654,
+    "text": "You need to ensure that dependency tracking works for calls to the third-party database.Which two dependency telemetry properties should you use?"
+  },
+  {
+    "index": 655,
+    "text": "Telemetry.Id"
+  },
+  {
+    "index": 656,
+    "text": "Telemetry.Context.Operation.Id"
+  },
+  {
+    "index": 657,
+    "text": "The files are 9 megabytes (MB) in size.You need to determine the root cause for the issue."
+  },
+  {
+    "index": 658,
+    "text": "YES"
+  },
+  {
+    "index": 659,
+    "text": "No"
+  },
+  {
+    "index": 660,
+    "text": "YES"
+  },
+  {
+    "index": 661,
+    "text": "Customer videos with varying quality must be delivered to the closest regional point of presence(POP) node.You need to configure Azure CDN caching rules."
+  },
+  {
+    "index": 662,
+    "text": "Override"
+  },
+  {
+    "index": 663,
+    "text": "1 hour"
+  },
+  {
+    "index": 664,
+    "text": "Cache every unique URL"
+  },
+  {
+    "index": 665,
+    "text": "You must minimize false-positive alerts.How should you complete the Azure Resource Manager template? To answer, select the appropriate options in the answer area."
+  },
+  {
+    "index": 666,
+    "text": "DynamicThresholdCriterion"
+  },
+  {
+    "index": 667,
+    "text": "Http5XX"
+  },
+  {
+    "index": 668,
+    "text": "Low"
+  },
+  {
+    "index": 669,
+    "text": "You need to configure the Azure Cache for Redis to optimize performance for the predicted usage pattern.Which two eviction policies will achieve the goal?"
+  },
+  {
+    "index": 670,
+    "text": "Allkeys-Iru"
+  },
+  {
+    "index": 671,
+    "text": "Volatile-Iru"
+  },
+  {
+    "index": 672,
+    "text": "The organization wants to track events and telemetry data in the web apps by using Application Insights.You need to configure the web apps for Application Insights.Which three actions should you perform in sequence?"
+  },
+  {
+    "index": 673,
+    "text": "Create an Application Insights resource"
+  },
+  {
+    "index": 674,
+    "text": "Copy the instrumentation key"
+  },
+  {
+    "index": 675,
+    "text": "Install the SDK in your app"
+  },
+  {
+    "index": 676,
+    "text": "You discover that configuration changes were made to some of the web apps.You need to identify the configuration changes."
+  },
+  {
+    "index": 677,
+    "text": "AppServiceEnvironmentPlatformlogs"
+  },
+  {
+    "index": 678,
+    "text": "You deploy a code update and receive multiple failed requests and exceptions in the web app.You need to validate the performance and failure counts of the web app in near real time."
+  },
+  {
+    "index": 679,
+    "text": "Live Metrics Stream"
+  },
+  {
+    "index": 680,
+    "text": "You deploy an ASP.NET web app to Azure App Service.You must monitor the web app by using Application Insights.You need to configure Application Insights to meet the requirements."
+  },
+  {
+    "index": 681,
+    "text": "Smart Detection"
+  },
+  {
+    "index": 682,
+    "text": "Snapshot Debugger"
+  },
+  {
+    "index": 683,
+    "text": "Profiler"
+  },
+  {
+    "index": 684,
+    "text": "In case of an Azure data center outage, metadata loss must be kept to a minimum.You need to configure the Azure Redis cache instance."
+  },
+  {
+    "index": 685,
+    "text": "Configure Azure Redis with AOF persistence."
+  },
+  {
+    "index": 686,
+    "text": "Configure second storage account for persistence"
+  },
+  {
+    "index": 687,
+    "text": "In case of an Azure data center outage, metadata loss must be kept to a minimum.You need to configure the Azure Redis cache instance."
+  },
+  {
+    "index": 688,
+    "text": "Add Azure Monitor alert processing rules to suppress notifications."
+  },
+  {
+    "index": 689,
+    "text": "The system should prioritize players based on how recently they have moved and should not prioritize players who have logged out of the game. Which eviction policy should you use"
+  },
+  {
+    "index": 690,
+    "text": "Volatile-Iru"
+  },
+  {
+    "index": 691,
+    "text": "Which Application Insights feature should you configure?"
+  },
+  {
+    "index": 692,
+    "text": "Snapshot Debugger"
+  },
+  {
+    "index": 693,
+    "text": "Which Application Insights SDK features should you use? To answer, drag the appropriate features to the correct requirements. Each feature may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content."
+  },
+  {
+    "index": 694,
+    "text": "Sampling"
+  },
+  {
+    "index": 695,
+    "text": "Telemetry Initializer"
+  },
+  {
+    "index": 696,
+    "text": "Telemetry processor"
+  },
+  {
+    "index": 697,
+    "text": "You need to implement the Azure Cache for Redis command to receive seismic data.How should you complete the command?"
+  },
+  {
+    "index": 698,
+    "text": "XREAD"
+  },
+  {
+    "index": 699,
+    "text": "BLOCK 0"
+  },
+  {
+    "index": 700,
+    "text": "$"
+  },
+  {
+    "index": 701,
+    "text": "You must implement dynamic configuration updates in the app"
+  },
+  {
+    "index": 702,
+    "text": "Create and register a sentinel key in the App Configuration store. Set the refreshAll parameter of the Register method to true"
+  },
+  {
+    "index": 703,
+    "text": "Increase the App Configuration cache expiration from the default value."
+  },
+  {
+    "index": 704,
+    "text": "The audit information must be captured and analyzed by a security team application deployed to the Central US region.You need to log information on all client connections to the cache."
+  },
+  {
+    "index": 705,
+    "text": "Log Analytics workspace (supports cross-region logging)"
+  },
+  {
+    "index": 706,
+    "text": "Diagnostic setting"
+  },
+  {
+    "index": 707,
+    "text": "Users report that the web app is responding slow. You must capture the complete call stack to help identify performance issues in the code. Call stack data must be correlated across app instances. You must minimize cost and impact to users on the web app.You need to capture the telemetry."
+  },
+  {
+    "index": 708,
+    "text": "Enable Application Insights site extensions."
+  },
+  {
+    "index": 709,
+    "text": "Enable Profiler."
+  },
+  {
+    "index": 710,
+    "text": "Enable Snapshot debugger."
+  },
+  {
+    "index": 711,
+    "text": "The Azure function must be protected against misconfigured or unauthorized invocations.You need to ensure that the CDN allows for the Azure function protection."
+  },
+  {
+    "index": 712,
+    "text": "WebHook-Request-Origin"
+  },
+  {
+    "index": 713,
+    "text": "Which three Azure Redis Cache properties should you use? Each correct answer presents part of the solution."
+  },
+  {
+    "index": 714,
+    "text": "Access key"
+  },
+  {
+    "index": 715,
+    "text": "SSL port"
+  },
+  {
+    "index": 716,
+    "text": "Host name"
+  },
+  {
+    "index": 717,
+    "text": "You are developing several microservices to run on Azure Container Apps.You need to monitor and diagnose the microservices."
+  },
+  {
+    "index": 718,
+    "text": "Log streaming"
+  },
+  {
+    "index": 719,
+    "text": "Container console"
+  },
+  {
+    "index": 720,
+    "text": "VanArsdel, Ltd. is a global office supply company. The company is based in Canada and has retail store locations across the world. The company is developing several cloud-based solutions to support their stores, distributors, suppliers, and delivery services."
+  },
+  {
+    "index": 721,
+    "text": "Standard"
+  },
+  {
+    "index": 722,
+    "text": "Custom testing using the TrackAvailability API method"
+  },
+  {
+    "index": 723,
+    "text": "You plan to use APIM1 to publish an API named API1 that uses a backend database that supports only a limited volume of requests per minute. You also need a policy for API1 that will minimize the possibility that the number of requests to the backend database from an individual IP address you specify exceeds the supported limit.You need to identify a policy for API1 that will meet the requirements."
+  },
+  {
+    "index": 724,
+    "text": "rate-limit-by-key"
+  },
+  {
+    "index": 725,
+    "text": "Provision an Azure Service Bus. Configure a topic to receive the device data by using a correlation filter."
+  },
+  {
+    "index": 726,
+    "text": "NO"
+  },
+  {
+    "index": 727,
+    "text": "Provision an Azure Event Grid. Configure event filtering to evaluate the device identifier."
+  },
+  {
+    "index": 728,
+    "text": "NO"
+  },
+  {
+    "index": 729,
+    "text": "What should you use? To answer, drag the appropriate tools to the correct functionalities. Each tool may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content."
+  },
+  {
+    "index": 730,
+    "text": "Enterprise Integration Pack"
+  },
+  {
+    "index": 731,
+    "text": "Code View Editor"
+  },
+  {
+    "index": 732,
+    "text": "Logic Apps Designer"
+  },
+  {
+    "index": 733,
+    "text": "A company is developing a solution that allows smart refrigerators to send temperature information to a central location."
+  },
+  {
+    "index": 734,
+    "text": "You are developing an application that uses Azure Storage Queues."
+  },
+  {
+    "index": 735,
+    "text": "No - we are not configuring anything here"
+  },
+  {
+    "index": 736,
+    "text": "Yes - a message that is retrieved from a queue and not marked as completely processed will return to the same queue after a given amount of time, no matter if you use Peek or Get."
+  },
+  {
+    "index": 737,
+    "text": "Yes - the queue will stay there until we decide to delete it ourselves."
+  },
+  {
+    "index": 738,
+    "text": "The solution must receive and store messages until they can be processed. You create an Azure Service Bus instance by providing a name, pricing tier, subscription, resource group, and location.You need to complete the configuration."
+  },
+  {
+    "index": 739,
+    "text": "Use the .Net API to add a message to an Azure Storage Queue from the mobile application. Create an Azure Function App that uses an Azure Storage Queue trigger"
+  },
+  {
+    "index": 740,
+    "text": "NO"
+  },
+  {
+    "index": 741,
+    "text": "You develop software solutions for a mobile delivery service. You are developing a mobile app that users can use to order from a restaurant in their area."
+  },
+  {
+    "index": 742,
+    "text": "Create a single Service Bus Namespace."
+  },
+  {
+    "index": 743,
+    "text": "Create a single Service Bus Topic."
+  },
+  {
+    "index": 744,
+    "text": "Create a Service Bus subscription for each restaurant for which a driver can receive orders."
+  },
+  {
+    "index": 745,
+    "text": "You develop a news and blog content app for Windows devices.A notification must arrive on a user's device when there is a new article available for them to view.You need to implement push notifications."
+  },
+  {
+    "index": 746,
+    "text": "NotificationHubClient"
+  },
+  {
+    "index": 747,
+    "text": "NotificationHubClient.CeateClientFromConnectionString"
+  },
+  {
+    "index": 748,
+    "text": "SendWindowsNativeNotificationAsync"
+  },
+  {
+    "index": 749,
+    "text": "You need to ensure that the solution meets the following requirements:✑ Provide transactional support.✑ Provide duplicate detection.✑ Store the messages for an unlimited period of time."
+  },
+  {
+    "index": 750,
+    "text": "Azure Service Bus Topic"
+  },
+  {
+    "index": 751,
+    "text": "Azure Service Bus Queue"
+  },
+  {
+    "index": 752,
+    "text": "The news API back end is implemented as a RESTful service and hosted in an Azure App Service instance."
+  },
+  {
+    "index": 753,
+    "text": "Https(s) endpoint"
+  },
+  {
+    "index": 754,
+    "text": "Client cert"
+  },
+  {
+    "index": 755,
+    "text": "You write a new event subscription at the scope of your resource. The event must be invalidated after a specific period of time.You need to configure Event Grid."
+  },
+  {
+    "index": 756,
+    "text": "SAS tokens"
+  },
+  {
+    "index": 757,
+    "text": "ValidationCode handshake"
+  },
+  {
+    "index": 758,
+    "text": "You are working for Contoso, Ltd.You define an API Policy object by using the following XML markup:"
+  },
+  {
+    "index": 759,
+    "text": "YES"
+  },
+  {
+    "index": 760,
+    "text": "NO"
+  },
+  {
+    "index": 761,
+    "text": "NO"
+  },
+  {
+    "index": 762,
+    "text": "You are developing a solution that will use Azure messaging services.You need to ensure that the solution uses a publish-subscribe model and eliminates the need for constant polling."
+  },
+  {
+    "index": 763,
+    "text": "Service Bus"
+  },
+  {
+    "index": 764,
+    "text": "Event Grid"
+  },
+  {
+    "index": 765,
+    "text": "You create and initialize a subscription client object by supplying the correct details, but the subscription application is still not consuming the messages.You need to ensure that the subscription client processes all messages."
+  },
+  {
+    "index": 766,
+    "text": "subscriptionClient.RegisterMessageHandler(ProcessMessagesAsync, messageHandlerOptions);"
+  },
+  {
+    "index": 767,
+    "text": "Use the .Net API to add a message to an Azure Storage Queue from the mobile application. Create an Azure VM that is triggered from Azure Storage Queue events."
+  },
+  {
+    "index": 768,
+    "text": "NO – Don’t use Vm  (Use Azure Function instead)"
+  },
+  {
+    "index": 769,
+    "text": "Use the .Net API to add a message to an Azure Service Bus Queue from the mobile application. Create an Azure Windows VM that is triggered fromAzure Service Bus Queue."
+  },
+  {
+    "index": 770,
+    "text": "NO – Don’t use VM"
+  },
+  {
+    "index": 771,
+    "text": "You are developing a REST web service."
+  },
+  {
+    "index": 772,
+    "text": "You need to ensure that conflicts produce the correct response.How should you complete the policy?"
+  },
+  {
+    "index": 773,
+    "text": "On-error"
+  },
+  {
+    "index": 774,
+    "text": "Context"
+  },
+  {
+    "index": 775,
+    "text": "Context"
+  },
+  {
+    "index": 776,
+    "text": "Set-status"
+  },
+  {
+    "index": 777,
+    "text": "On-error"
+  },
+  {
+    "index": 778,
+    "text": "You develop solutions that provide the ability to send notifications by using Azure Notification Hubs."
+  },
+  {
+    "index": 779,
+    "text": "Windows"
+  },
+  {
+    "index": 780,
+    "text": "Application/octet-stream"
+  },
+  {
+    "index": 781,
+    "text": "Provision an Azure Event Hub. Configure the machine identifier as the partition key and enable capture."
+  },
+  {
+    "index": 782,
+    "text": "YES"
+  },
+  {
+    "index": 783,
+    "text": "You are developing an Azure solution to collect inventory data from thousands of stores located around the world."
+  },
+  {
+    "index": 784,
+    "text": "Event Source: Azure Blob Storage"
+  },
+  {
+    "index": 785,
+    "text": "Event Receiver: Azure Event Grid"
+  },
+  {
+    "index": 786,
+    "text": "Event Handler: Azure Logic App"
+  },
+  {
+    "index": 787,
+    "text": "You are creating an app that will use CosmosDB for data storage. The app will process batches of relational data."
+  },
+  {
+    "index": 788,
+    "text": "SQL API"
+  },
+  {
+    "index": 789,
+    "text": "You are developing a .NET application that communicates with Azure Storage.A message must be stored when the application initializes.You need to implement the message"
+  },
+  {
+    "index": 790,
+    "text": "CloudQueueClient pVar1 = StorageAccount.CreateCloudQueueClient  (Create the queue client)"
+  },
+  {
+    "index": 791,
+    "text": "CloudQueue pVar2 = pVar1.GetQueueReference (Retrieve a reference to a queue) n"
+  },
+  {
+    "index": 792,
+    "text": "All Azure web apps run in an Azure App Service Plan named PrimaryASP.You are developing a new web service by using a web app named ExcelParser. The web app contains a third-party library for processing Microsoft Excel files."
+  },
+  {
+    "index": 793,
+    "text": "PerSiteScaling $true"
+  },
+  {
+    "index": 794,
+    "text": "SiteConfig.NumberOfWorkers = 1"
+  },
+  {
+    "index": 795,
+    "text": "You have an application that provides weather forecasting data to external partners. You use Azure API Management to publish APIs."
+  },
+  {
+    "index": 796,
+    "text": "Inbound"
+  },
+  {
+    "index": 797,
+    "text": "Outbound"
+  },
+  {
+    "index": 798,
+    "text": "Inbound"
+  },
+  {
+    "index": 799,
+    "text": "You are developing an e-commerce solution that uses a microservice architecture.Messages must be communicated in first-in-first-out (FIFO) order."
+  },
+  {
+    "index": 800,
+    "text": "Azure Service Bus"
+  },
+  {
+    "index": 801,
+    "text": "--- not in exam"
+  },
+  {
+    "index": 802,
+    "text": "Use the .Net API to add a message to an Azure Service Bus Queue from the mobile application. Create an Azure Function App that uses an AzureService Bus Queue trigger."
+  },
+  {
+    "index": 803,
+    "text": "YES"
+  },
+  {
+    "index": 804,
+    "text": "You are developing an Azure solution to collect point-of-sale (POS) device data from 2,000 stores located throughout the world. Provision an Azure Notification Hub. Register all devices with the hub."
+  },
+  {
+    "index": 805,
+    "text": "NO – Service Bus (which is used order processing and financial transactions.)"
+  },
+  {
+    "index": 806,
+    "text": "You are building a loyalty program for a major snack producer"
+  },
+  {
+    "index": 807,
+    "text": "Use publisher policies for retailers."
+  },
+  {
+    "index": 808,
+    "text": "✑ Increase web app availability by re-routing requests away from instances with error status codes and automatically replace instances if they remain in an error state after one hour.✑ Send web server logs, application logs, standard output, and standard error messaging to an Azure Storage blob account.You need to configure Azure App Service."
+  },
+  {
+    "index": 809,
+    "text": "Health check"
+  },
+  {
+    "index": 810,
+    "text": "Diagnostic setting"
+  },
+  {
+    "index": 811,
+    "text": "You need to obtain an access token that uses the VM's system-assigned managed identity."
+  },
+  {
+    "index": 812,
+    "text": "A. From the code on the VM, call Azure Resource Manager using an access token."
+  },
+  {
+    "index": 813,
+    "text": "C. Use PowerShell on the VM to make a request to the local managed identity for Azure resources endpoint."
+  },
+  {
+    "index": 814,
+    "text": "Each road must have a throttling policy uniquely assigned.You need to configure the event hub to allow for per-road throttling."
+  },
+  {
+    "index": 815,
+    "text": "Use a unique application group for each road."
+  },
+  {
+    "index": 816,
+    "text": "Connections to the database appear to drop intermittently and the application code does not handle the connection failure."
+  },
+  {
+    "index": 817,
+    "text": "Wait five seconds before repeating the connection attempt to the database."
+  },
+  {
+    "index": 818,
+    "text": "Set a maximum number of connection attempts to 10 and report an error on subsequent connections."
+  },
+  {
+    "index": 819,
+    "text": "Increase connection repeat attempts exponentially up to 120 seconds."
+  },
+  {
+    "index": 820,
+    "text": "Which Graph API parameter is used to change authentication from one-time passcodes to federation?"
+  },
+  {
+    "index": 821,
+    "text": "resetRedemption"
+  },
+  {
+    "index": 822,
+    "text": "You need to implement API Management policies to ensure that images are processed correctly.How should you complete the API Management inbound policy?"
+  },
+  {
+    "index": 823,
+    "text": "Delete"
+  },
+  {
+    "index": 824,
+    "text": "set-backend"
+  },
+  {
+    "index": 825,
+    "text": "base-url"
+  },
+  {
+    "index": 826,
+    "text": "You must have authorization and authentication control to partition your tenants to receive the event data.You need to configure Azure Event Grid."
+  },
+  {
+    "index": 827,
+    "text": "Custom topic"
+  },
+  {
+    "index": 828,
+    "text": "Event subscription"
+  },
+  {
+    "index": 829,
+    "text": "A company is developing a solution that allows smart refrigerators to send temperature information to a central location."
+  },
+  {
+    "index": 830,
+    "text": "Same as above"
+  },
+  {
+    "index": 831,
+    "text": "The policy fragment must be reused across various scopes and APIs. The policy fragment must be applied to all APIs and run when a calling system invokes any API."
+  },
+  {
+    "index": 832,
+    "text": "You need to emit events to Azure Event Grid from the queues. You must use the principal of least privilege and minimize costs. Service bus + event grid its always premium"
+  },
+  {
+    "index": 833,
+    "text": "Premium"
+  },
+  {
+    "index": 834,
+    "text": "Contributor"
+  },
+  {
+    "index": 835,
+    "text": "You are developing several Azure API Management (APIM) hosted APIs."
+  },
+  {
+    "index": 836,
+    "text": "Create and publish a product"
+  },
+  {
+    "index": 837,
+    "text": "You are developing a solution by using the Azure Event Hubs SDK. You create a standard Azure Event Hub with 16 partitions. You implement eight event processor clients. You need to implement event processing recovery for the solution."
+  },
+  {
+    "index": 838,
+    "text": "Offset"
+  },
+  {
+    "index": 839,
+    "text": "Checkpoint"
+  },
+  {
+    "index": 840,
+    "text": "You must enable developers to continue with the implementation and testing of the APIM instance integrations while you complete the backend API development.You need to configure a test API response."
+  },
+  {
+    "index": 841,
+    "text": "Mock-response"
+  },
+  {
+    "index": 842,
+    "text": "Inbound"
+  },
+  {
+    "index": 843,
+    "text": "200"
+  },
+  {
+    "index": 844,
+    "text": "You are developing several Azure API Management (APIM) hosted APIs.You must inspect request processing of the APIs in APIM. Requests to APIM by using a REST client must also be included"
+  },
+  {
+    "index": 845,
+    "text": "Enable the Allow tracing setting for the subscription used to inspect the API."
+  },
+  {
+    "index": 846,
+    "text": "Add the Ocp-Apim-Trace header value to the API call whit a value set to true"
+  },
+  {
+    "index": 847,
+    "text": "Add the Ocp-Apim-Subscription-Key header value to the key for a subscription that allows access to the API."
+  },
+  {
+    "index": 848,
+    "text": "You need to identify how to reference the queue and blob name in the function.json file of the Azure Functions app."
+  },
+  {
+    "index": 849,
+    "text": "%input_queue%"
+  },
+  {
+    "index": 850,
+    "text": "{queueTrigger}"
+  },
+  {
+    "index": 851,
+    "text": "You have the following requirements for the policy definition:Ensure that the header contains the information about the region hosting the gateway of API1.Ensure the policy applies only after any global level policies are processed first.You need to complete the policy definition."
+  },
+  {
+    "index": 852,
+    "text": "<base/>"
+  },
+  {
+    "index": 853,
+    "text": "Context"
+  },
+  {
+    "index": 854,
+    "text": "You are developing several Azure API Management (APIM) hosted APIs"
+  },
+  {
+    "index": 855,
+    "text": "D - Add a new revision to the API."
+  },
+  {
+    "index": 856,
+    "text": "You need to use the image Exif (exchangeable image file format) data as blob metadata in the application."
+  },
+  {
+    "index": 857,
+    "text": "PUT"
+  },
+  {
+    "index": 858,
+    "text": "HEAD"
+  },
+  {
+    "index": 859,
+    "text": "!!we want to store as Metadata : so PUT for set and GET/HEAD to retrieve.!!"
+  },
+  {
+    "index": 860,
+    "text": "You are developing several microservices to run on Azure Container Apps for a company. External TCP ingress traffic from the internet has been enabled for the microservices. Which two Kubernetes Event-driven Autoscaling (KEDA) trigger fields should you use? Each correct answer presents part of the solution."
+  },
+  {
+    "index": 861,
+    "text": "Metadata"
+  },
+  {
+    "index": 862,
+    "text": "Type"
+  },
+  {
+    "index": 863,
+    "text": "Topic 7 Testlet 1"
+  },
+  {
+    "index": 864,
+    "text": "Wide World Importers"
+  },
+  {
+    "index": 865,
+    "text": "7 1 Azure CDN tiers"
+  },
+  {
+    "index": 866,
+    "text": "Standard"
+  },
+  {
+    "index": 867,
+    "text": "Microsoft"
+  },
+  {
+    "index": 868,
+    "text": "General web delivery"
+  },
+  {
+    "index": 869,
+    "text": "7 2 azure tools on/with VM"
+  },
+  {
+    "index": 870,
+    "text": "Azure Backup"
+  },
+  {
+    "index": 871,
+    "text": "Accelerated Networking"
+  },
+  {
+    "index": 872,
+    "text": "12 1 secure shipping Function app : auth + token + trigger type"
+  },
+  {
+    "index": 873,
+    "text": "Function"
+  },
+  {
+    "index": 874,
+    "text": "JSON Web Token(JWT)"
+  },
+  {
+    "index": 875,
+    "text": "HTTP"
+  },
+  {
+    "index": 876,
+    "text": "12 2 secure shipping Logic App : tool used"
+  },
+  {
+    "index": 877,
+    "text": "Integration Service Environment (ISE)"
+  },
+  {
+    "index": 878,
+    "text": "23 1 setup workflow in logic app"
+  },
+  {
+    "index": 879,
+    "text": "Create integration account"
+  },
+  {
+    "index": 880,
+    "text": "Link Logic app"
+  },
+  {
+    "index": 881,
+    "text": "Add partners..."
+  },
+  {
+    "index": 882,
+    "text": "Update logic app"
+  },
+  {
+    "index": 883,
+    "text": "23 2 setup network to trigger logic app from external server"
+  },
+  {
+    "index": 884,
+    "text": "On-premises Data Gateway"
+  },
+  {
+    "index": 885,
+    "text": "Litware Inc"
+  },
+  {
+    "index": 886,
+    "text": "8 1 code : GetCredentials method"
+  },
+  {
+    "index": 887,
+    "text": "Box 1: AzureServiceTokenProvider()Box 2: tp.GetAccessTokenAsync(\"..\")"
+  },
+  {
+    "index": 888,
+    "text": "8 2 code : disaster recovery requirements"
+  },
+  {
+    "index": 889,
+    "text": "SingleTranferConext"
+  },
+  {
+    "index": 890,
+    "text": "ShouldOverwriteCallbackAsync"
+  },
+  {
+    "index": 891,
+    "text": "true"
+  },
+  {
+    "index": 892,
+    "text": "14 1 code : set encryption with request to blob storage"
+  },
+  {
+    "index": 893,
+    "text": "Await resolver.ResolveKeyAsync(keyBundle…)"
+  },
+  {
+    "index": 894,
+    "text": "New BlobEncryptionPolicy(key, resolver)"
+  },
+  {
+    "index": 895,
+    "text": "clouBlobClient.DefaultRequestOptions.EncryptionPolicy = x"
+  },
+  {
+    "index": 896,
+    "text": "14 2 ARM set keyVault access policy"
+  },
+  {
+    "index": 897,
+    "text": "ג€\"PermissionsToKeys wrapkey, unwrapkey, get"
+  },
+  {
+    "index": 898,
+    "text": "20 1 prevent blob writing concurrency problems"
+  },
+  {
+    "index": 899,
+    "text": "Use blob leases to prevent concurrency problems"
+  },
+  {
+    "index": 900,
+    "text": "20 2 resolve capacity issue at function processing"
+  },
+  {
+    "index": 901,
+    "text": "Update the loop starting on line PC09 to process items in parallel"
+  },
+  {
+    "index": 902,
+    "text": "20 3 resolve capacity issue at extensive logging"
+  },
+  {
+    "index": 903,
+    "text": "Implement Application Insights Sampling"
+  },
+  {
+    "index": 904,
+    "text": "Coho Winery"
+  },
+  {
+    "index": 905,
+    "text": "9 1 configure Azure Cosmos DB"
+  },
+  {
+    "index": 906,
+    "text": "Strong"
+  },
+  {
+    "index": 907,
+    "text": "SQL"
+  },
+  {
+    "index": 908,
+    "text": "9 2 SQL"
+  },
+  {
+    "index": 909,
+    "text": "Orders o"
+  },
+  {
+    "index": 910,
+    "text": "Li"
+  },
+  {
+    "index": 911,
+    "text": "O.line_items"
+  },
+  {
+    "index": 912,
+    "text": "22 1 Review logs/history to troubleshoot the order workflow"
+  },
+  {
+    "index": 913,
+    "text": "C. Review the run history."
+  },
+  {
+    "index": 914,
+    "text": "D. Review the trigger history."
+  },
+  {
+    "index": 915,
+    "text": "22 2 ARM function configuration : retries etc"
+  },
+  {
+    "index": 916,
+    "text": "Fixed"
+  },
+  {
+    "index": 917,
+    "text": "PT10S"
+  },
+  {
+    "index": 918,
+    "text": "5"
+  },
+  {
+    "index": 919,
+    "text": "28 1 workflow for Azure Container Registry"
+  },
+  {
+    "index": 920,
+    "text": "Build a new application image by using dockerfile"
+  },
+  {
+    "index": 921,
+    "text": "Create an alias if the image with the fully qualified path to the registry"
+  },
+  {
+    "index": 922,
+    "text": "Log in to the registry and push image"
+  },
+  {
+    "index": 923,
+    "text": "28 2 access data from the user claim object"
+  },
+  {
+    "index": 924,
+    "text": "Update the e-commerce web app to read the HTTP request header values."
+  },
+  {
+    "index": 925,
+    "text": "VanArsdel, Ltd."
+  },
+  {
+    "index": 926,
+    "text": "10 1 delivery profile information in code"
+  },
+  {
+    "index": 927,
+    "text": "Microsoft Authentication Library (MSAL)"
+  },
+  {
+    "index": 928,
+    "text": "Microsoft Graph"
+  },
+  {
+    "index": 929,
+    "text": "10 2 grant access SAS or AD?"
+  },
+  {
+    "index": 930,
+    "text": "Shared access signature (SAS) token"
+  },
+  {
+    "index": 931,
+    "text": "10 3 JWT +claims"
+  },
+  {
+    "index": 932,
+    "text": "ID"
+  },
+  {
+    "index": 933,
+    "text": "oid"
+  },
+  {
+    "index": 934,
+    "text": "10 4 place to store the RSA-HSM key"
+  },
+  {
+    "index": 935,
+    "text": "Store the RSA-HSM key in Azure Key Vault with soft-delete and purge-protection features enabled"
+  },
+  {
+    "index": 936,
+    "text": "Create a standard tier Azure App Configuration instance with an assigned Azure AD managed identity."
+  },
+  {
+    "index": 937,
+    "text": "15 1 reduce read latency Cosmos DB"
+  },
+  {
+    "index": 938,
+    "text": "Provision an Azure Cosmos DB dedicated gateway. Update the Azure Function app connection string to use the new dedicated gateway endpoint."
+  },
+  {
+    "index": 939,
+    "text": "Configure Azure Cosmos DB consistency to session consistency. Cache session tokens in a new Azure Redis cache instance after every write. Update reads to use the session token stored in Azure Redis."
+  },
+  {
+    "index": 940,
+    "text": "15 2 audit transactions in blob"
+  },
+  {
+    "index": 941,
+    "text": "Process the change feed logs of the Azure Blob storage account by using an Azure Function. Specify a time range for the change feed data."
+  },
+  {
+    "index": 942,
+    "text": "Subscribe to blob storage events by using an Azure Function and Azure Event Grid. Filter the events by store location."
+  },
+  {
+    "index": 943,
+    "text": "21 1 systems for source-receiver-handler"
+  },
+  {
+    "index": 944,
+    "text": "Azure Blob Storage"
+  },
+  {
+    "index": 945,
+    "text": "Azure Event Grid"
+  },
+  {
+    "index": 946,
+    "text": "Azure Function App"
+  },
+  {
+    "index": 947,
+    "text": "29 1 function configuration : binding , trigger, direction"
+  },
+  {
+    "index": 948,
+    "text": "Azure cosmos"
+  },
+  {
+    "index": 949,
+    "text": "output"
+  },
+  {
+    "index": 950,
+    "text": "Blob storage"
+  },
+  {
+    "index": 951,
+    "text": "29 2 tier of SPA web app"
+  },
+  {
+    "index": 952,
+    "text": "Standard"
+  },
+  {
+    "index": 953,
+    "text": "App Service Web App"
+  },
+  {
+    "index": 954,
+    "text": "30 1 Azure Blob features for point-in-time restore and accidental deletion of data"
+  },
+  {
+    "index": 955,
+    "text": "Soft delete"
+  },
+  {
+    "index": 956,
+    "text": "Change feed"
+  },
+  {
+    "index": 957,
+    "text": "Versioning"
+  },
+  {
+    "index": 958,
+    "text": "Contoso, Ltd"
+  },
+  {
+    "index": 959,
+    "text": "11 1 configure ApplicationManifest"
+  },
+  {
+    "index": 960,
+    "text": "allowedMemberType"
+  },
+  {
+    "index": 961,
+    "text": "User"
+  },
+  {
+    "index": 962,
+    "text": "value"
+  },
+  {
+    "index": 963,
+    "text": "11 2 configure ApplicationManifest"
+  },
+  {
+    "index": 964,
+    "text": "oauth2AllowIdTokenImplicitFlow = true"
+  },
+  {
+    "index": 965,
+    "text": "oauth2AllowImplicitFlow = true,"
+  },
+  {
+    "index": 966,
+    "text": "11 3 type of SSL certificate / proxy used"
+  },
+  {
+    "index": 967,
+    "text": "Valid root certificate"
+  },
+  {
+    "index": 968,
+    "text": "Azure Application Gateway"
+  },
+  {
+    "index": 969,
+    "text": "11 4 YAML @Azure Container Instances for mounting"
+  },
+  {
+    "index": 970,
+    "text": "volumeMounts"
+  },
+  {
+    "index": 971,
+    "text": "volumes"
+  },
+  {
+    "index": 972,
+    "text": "secret"
+  },
+  {
+    "index": 973,
+    "text": "11 5 ApplicationManifest optional claims"
+  },
+  {
+    "index": 974,
+    "text": "Sid"
+  },
+  {
+    "index": 975,
+    "text": "email"
+  },
+  {
+    "index": 976,
+    "text": "16 1 cli : az monitor metrics alert create"
+  },
+  {
+    "index": 977,
+    "text": "C. az monitor metrics alert create ג€\"n alert ג€\"g ג€¦ - -scopes ג€¦ - -condition \"CPU Usage > 800\""
+  },
+  {
+    "index": 978,
+    "text": "16 2 cli : az for http server log output"
+  },
+  {
+    "index": 979,
+    "text": "az container attach"
+  },
+  {
+    "index": 980,
+    "text": "27 1 code : read properties from GRID event"
+  },
+  {
+    "index": 981,
+    "text": "ImagePushed"
+  },
+  {
+    "index": 982,
+    "text": "Repository"
+  },
+  {
+    "index": 983,
+    "text": "topic"
+  },
+  {
+    "index": 984,
+    "text": "27 2 tier of function plan @Vnet"
+  },
+  {
+    "index": 985,
+    "text": "App Service plan"
+  },
+  {
+    "index": 986,
+    "text": "31 1 choose best storage solution"
+  },
+  {
+    "index": 987,
+    "text": "Azure Event Hub"
+  },
+  {
+    "index": 988,
+    "text": "31 2 code : bindings for function"
+  },
+  {
+    "index": 989,
+    "text": "QueueTrigger"
+  },
+  {
+    "index": 990,
+    "text": "Blob"
+  },
+  {
+    "index": 991,
+    "text": "31 3 docker file : Private/Public Windows/Linux"
+  },
+  {
+    "index": 992,
+    "text": "Add the following markup to line CS23: type: Private"
+  },
+  {
+    "index": 993,
+    "text": "Add the following markup to line CS24: osType: Linux"
+  },
+  {
+    "index": 994,
+    "text": "City Power & Light company"
+  },
+  {
+    "index": 995,
+    "text": "13 1 API endpoint to Key Vault + variable"
+  },
+  {
+    "index": 996,
+    "text": "Box 1: cpandlkeyvault We specify the key vault, cpandlkeyvault."
+  },
+  {
+    "index": 997,
+    "text": "Box 2: PostgreSQLConn We specify the secret, PostgreSQLConn."
+  },
+  {
+    "index": 998,
+    "text": "Box 3: Environment"
+  },
+  {
+    "index": 999,
+    "text": "13 2 create and import certificate in azure web app"
+  },
+  {
+    "index": 1000,
+    "text": ". Generate a certificate."
+  },
+  {
+    "index": 1001,
+    "text": "2. Upload the certificate to Azure Key Vault."
+  },
+  {
+    "index": 1002,
+    "text": "3. Import the certificate to Azure App Service."
+  },
+  {
+    "index": 1003,
+    "text": "4. Add the certificate thumbprint to the WEBSITE_LOAD_CERTIFICATES app setting."
+  },
+  {
+    "index": 1004,
+    "text": "13 3 configure APIM for authentication with JWT"
+  },
+  {
+    "index": 1005,
+    "text": "Validate JWT"
+  },
+  {
+    "index": 1006,
+    "text": "Inbound"
+  },
+  {
+    "index": 1007,
+    "text": "13 4 authenticate user by JWT"
+  },
+  {
+    "index": 1008,
+    "text": "ID token signatur"
+  },
+  {
+    "index": 1009,
+    "text": "Azure AD endpoint URI"
+  },
+  {
+    "index": 1010,
+    "text": "13 5 MI Authentication to Azure Logic app"
+  },
+  {
+    "index": 1011,
+    "text": "anonymous"
+  },
+  {
+    "index": 1012,
+    "text": "System-assigned"
+  },
+  {
+    "index": 1013,
+    "text": "13 6 Azure Service Bus to Event Grid integration Tier of bus + RBAC role"
+  },
+  {
+    "index": 1014,
+    "text": "Premium"
+  },
+  {
+    "index": 1015,
+    "text": "Contributor"
+  },
+  {
+    "index": 1016,
+    "text": "17 1 Application Insights/Monitor/Log Analytics"
+  },
+  {
+    "index": 1017,
+    "text": "Connect Live Metrics Stream from Application Insights to the Azure Function app and filter the metrics."
+  },
+  {
+    "index": 1018,
+    "text": "17 2 Azure Blob storage settings SAS or MI, file auditing"
+  },
+  {
+    "index": 1019,
+    "text": "shared access signature (SAS) token"
+  },
+  {
+    "index": 1020,
+    "text": "change feed"
+  },
+  {
+    "index": 1021,
+    "text": "18 1 solve function timeout RequestUserApproval Function"
+  },
+  {
+    "index": 1022,
+    "text": "Update the function to be stateful by using Durable Functions to process the request payload."
+  },
+  {
+    "index": 1023,
+    "text": "24 1 cli for integration Azure Service Bus and Azure Event Grid"
+  },
+  {
+    "index": 1024,
+    "text": "Eventgrid"
+  },
+  {
+    "index": 1025,
+    "text": "Event-subscription"
+  },
+  {
+    "index": 1026,
+    "text": "servicebusqueue"
+  },
+  {
+    "index": 1027,
+    "text": "24 2 ingestion for Grid events"
+  },
+  {
+    "index": 1028,
+    "text": "Azure Service Bus queue"
+  },
+  {
+    "index": 1029,
+    "text": "32 1 create appropriate storage account + geo settings + cool/hot"
+  },
+  {
+    "index": 1030,
+    "text": "StorageV2 (general purpose V2)"
+  },
+  {
+    "index": 1031,
+    "text": "Geo-zone-redundant storage (GZRS)"
+  },
+  {
+    "index": 1032,
+    "text": "Cool"
+  },
+  {
+    "index": 1033,
+    "text": "Proseware, Inc."
+  },
+  {
+    "index": 1034,
+    "text": "19 1 ARM for Azure Event Grid subscription, enable + filter logging"
+  },
+  {
+    "index": 1035,
+    "text": "WebHook"
+  },
+  {
+    "index": 1036,
+    "text": "subjectBeginsWith"
+  },
+  {
+    "index": 1037,
+    "text": "Microsoft.Storage.BlobCreated"
+  },
+  {
+    "index": 1038,
+    "text": "19 2 use Application Insights for scaling"
+  },
+  {
+    "index": 1039,
+    "text": "an Application Insights metric"
+  },
+  {
+    "index": 1040,
+    "text": "19 3 code : telemetry filter/ telemetry processor"
+  },
+  {
+    "index": 1041,
+    "text": "ITelemetryProcessor"
+  },
+  {
+    "index": 1042,
+    "text": "ITelemetyProcessor"
+  },
+  {
+    "index": 1043,
+    "text": "ITelemetyProcessor"
+  },
+  {
+    "index": 1044,
+    "text": "RequestTelemetry"
+  },
+  {
+    "index": 1045,
+    "text": "/health"
+  },
+  {
+    "index": 1046,
+    "text": "19 4 code : telemetry initializer"
+  },
+  {
+    "index": 1047,
+    "text": "ITelemetryInitializer"
+  },
+  {
+    "index": 1048,
+    "text": "Initialize"
+  },
+  {
+    "index": 1049,
+    "text": "Telemetry.Context"
+  },
+  {
+    "index": 1050,
+    "text": "EventGridController.EventId.Value"
+  },
+  {
+    "index": 1051,
+    "text": "25 1 code : if-then condition on properties of incomming event from GRID"
+  },
+  {
+    "index": 1052,
+    "text": "Status\t\tSuceeded"
+  },
+  {
+    "index": 1053,
+    "text": "operationName"
+  },
+  {
+    "index": 1054,
+    "text": "25 2 code : class for login event, properties needed"
+  },
+  {
+    "index": 1055,
+    "text": "Id"
+  },
+  {
+    "index": 1056,
+    "text": "eventType"
+  },
+  {
+    "index": 1057,
+    "text": "dataVersion"
+  },
+  {
+    "index": 1058,
+    "text": "25 3 code : programatically update application settings for blob"
+  },
+  {
+    "index": 1059,
+    "text": "Logdrop"
+  },
+  {
+    "index": 1060,
+    "text": "15"
+  },
+  {
+    "index": 1061,
+    "text": "UpdateApplicationSetting"
+  },
+  {
+    "index": 1062,
+    "text": "26 1 azure function delay : always on and tier"
+  },
+  {
+    "index": 1063,
+    "text": "Set Always On to true."
+  },
+  {
+    "index": 1064,
+    "text": "Ensure that the Azure Function is using an App Service plan."
+  }
+]

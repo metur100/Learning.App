@@ -9,6 +9,9 @@ import type { Response } from '../services/grading';
 interface Props {
   queue: Question[];
   mode: 'learn' | 'review';
+  certificateKey: string;
+  sessionTitle?: string;
+  sessionBody?: string;
   emptyTitle: string;
   emptyBody: string;
 }
@@ -45,8 +48,8 @@ interface InitialSessionState {
   resumed: boolean;
 }
 
-function snapshotKey(mode: 'learn' | 'review'): string {
-  return `${SESSION_KEY_PREFIX}${mode}`;
+function snapshotKey(mode: 'learn' | 'review', certificateKey: string): string {
+  return `${SESSION_KEY_PREFIX}${certificateKey}-${mode}`;
 }
 
 function makeFreshState(queue: Question[]): InitialSessionState {
@@ -60,7 +63,7 @@ function makeFreshState(queue: Question[]): InitialSessionState {
   };
 }
 
-function loadInitialState(queue: Question[], mode: 'learn' | 'review'): InitialSessionState {
+function loadInitialState(queue: Question[], mode: 'learn' | 'review', certificateKey: string): InitialSessionState {
   const fresh = makeFreshState(queue);
   if (queue.length === 0) return fresh;
 
@@ -68,7 +71,7 @@ function loadInitialState(queue: Question[], mode: 'learn' | 'review'): InitialS
   const baseQuestionIds = queue.map((q) => q.id);
 
   try {
-    const raw = localStorage.getItem(snapshotKey(mode));
+    const raw = localStorage.getItem(snapshotKey(mode, certificateKey));
     if (!raw) return fresh;
     const parsed = JSON.parse(raw) as SessionSnapshot;
     if (!parsed || !Array.isArray(parsed.entries)) return fresh;
@@ -111,9 +114,17 @@ function loadInitialState(queue: Question[], mode: 'learn' | 'review'): InitialS
   }
 }
 
-export function StudySession({ queue, mode, emptyTitle, emptyBody }: Props) {
+export function StudySession({
+  queue,
+  mode,
+  certificateKey,
+  sessionTitle,
+  sessionBody,
+  emptyTitle,
+  emptyBody,
+}: Props) {
   const { data, updateCard, recordAttempt } = useAppData();
-  const initial = useMemo(() => loadInitialState(queue, mode), [queue, mode]);
+  const initial = useMemo(() => loadInitialState(queue, mode, certificateKey), [queue, mode, certificateKey]);
   const [entries, setEntries] = useState<SessionEntry[]>(initial.entries);
   const [nextEntryId, setNextEntryId] = useState(initial.nextEntryId);
   const [index, setIndex] = useState(initial.index);
@@ -134,7 +145,7 @@ export function StudySession({ queue, mode, emptyTitle, emptyBody }: Props) {
   useEffect(() => {
     if (queue.length === 0 || isComplete) {
       try {
-        localStorage.removeItem(snapshotKey(mode));
+        localStorage.removeItem(snapshotKey(mode, certificateKey));
       } catch {
         /* ignore storage failures */
       }
@@ -150,11 +161,11 @@ export function StudySession({ queue, mode, emptyTitle, emptyBody }: Props) {
       baseQuestionIds: queue.map((q) => q.id),
     };
     try {
-      localStorage.setItem(snapshotKey(mode), JSON.stringify(snap));
+      localStorage.setItem(snapshotKey(mode, certificateKey), JSON.stringify(snap));
     } catch {
       /* ignore storage failures */
     }
-  }, [queue, mode, isComplete, entries, nextEntryId, index, entryStates, correctByQuestion]);
+  }, [queue, mode, certificateKey, isComplete, entries, nextEntryId, index, entryStates, correctByQuestion]);
 
   const onGraded = useCallback(
     (r: GradeResult) => {
@@ -248,6 +259,12 @@ export function StudySession({ queue, mode, emptyTitle, emptyBody }: Props) {
 
   return (
     <div className="page">
+      {(sessionTitle || sessionBody) && (
+        <section className="session-intro" aria-label="Session info">
+          {sessionTitle && <h2>{sessionTitle}</h2>}
+          {sessionBody && <p>{sessionBody}</p>}
+        </section>
+      )}
       {resumed && (
         <p className="hint" role="status">Resumed your previous {mode} session.</p>
       )}

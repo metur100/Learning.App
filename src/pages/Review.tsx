@@ -1,11 +1,12 @@
 import { useMemo } from 'react';
 import { StudySession } from '../components/StudySession';
 import { useAppData } from '../hooks/useAppData';
-import { questions } from '../data/questions';
 import { isDue } from '../services/scheduler';
+import { useQuestionBank } from '../hooks/useQuestionBank';
 
 export function Review() {
   const { data } = useAppData();
+  const { questions, selectedCertificate } = useQuestionBank();
   const queue = useMemo(() => {
     const now = new Date();
     return questions
@@ -20,6 +21,9 @@ export function Review() {
     <StudySession
       queue={queue}
       mode="review"
+      certificateKey={selectedCertificate}
+      sessionTitle="Review mode"
+      sessionBody="This queue contains due questions you already started. Correct answers are scheduled further out, while missed answers come back sooner."
       emptyTitle="Nothing due right now"
       emptyBody="Come back later, or learn new questions to add more to your review pool."
     />

@@ -1,14 +1,17 @@
 import { Link } from 'react-router-dom';
 import { useMemo } from 'react';
 import { useAppData } from '../hooks/useAppData';
-import { questions } from '../data/questions';
 import { isDue } from '../services/scheduler';
+import { useQuestionBank } from '../hooks/useQuestionBank';
 
 export function Dashboard() {
   const { data } = useAppData();
+  const { questions, meta } = useQuestionBank();
 
   const stats = useMemo(() => {
-    const cards = Object.values(data.cards);
+    const cards = questions
+      .map((q) => data.cards[q.id])
+      .filter((c): c is NonNullable<typeof c> => Boolean(c));
     const by = { new: 0, learning: 0, review: 0, mastered: 0 };
     for (const c of cards) by[c.status] += 1;
     const now = new Date();
@@ -18,7 +21,7 @@ export function Dashboard() {
     const correctReps = cards.reduce((s, c) => s + c.correctReps, 0);
     const accuracy = totalReps ? Math.round((correctReps / totalReps) * 100) : 0;
     return { by, due, seen, accuracy, total: questions.length };
-  }, [data]);
+  }, [data.cards, questions]);
 
   const completion = Math.round((stats.seen / stats.total) * 100);
   const newCount = stats.by.new;
@@ -29,7 +32,7 @@ export function Dashboard() {
         <p className="eyebrow">Your progress</p>
         <h1>Study dashboard</h1>
         <p className="lede">
-          {stats.total} questions, spaced so the ones you miss come back sooner.
+          {meta.code}: {stats.total} questions, spaced so the ones you miss come back sooner.
         </p>
       </header>
 

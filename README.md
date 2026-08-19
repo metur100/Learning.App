@@ -1,7 +1,7 @@
-# AI-901 Study - Azure AI Fundamentals
+# Azure Certificate Study App
 
-A frontend-only practice app for the AI-901 (Azure AI Fundamentals) question set.
-All 52 questions are bundled locally; progress is saved in your browser via
+A frontend-only practice app for Azure certification prep.
+Question sets are bundled locally; progress is saved in your browser via
 localStorage. No backend, no network calls.
 
 ## Run
@@ -28,6 +28,7 @@ built asset URLs work on Pages.
 
 ## What is inside
 
+- Certificate selector (Settings) to switch between AI-901 and AZ-204.
 - Dashboard - cards due now, status breakdown (new / learning / review / mastered),
   attempt and accuracy bars, quick links.
 - Learn - work through new questions.
@@ -60,5 +61,5 @@ Everything lives in your browser. Use Settings > Reset to clear progress
       pages/        Dashboard, Learn, Review, Exam, Browse, SettingsPage
       services/     storage (localStorage), scheduler (SRS), grading
       hooks/        useAppData (context + persistence)
-      data/         questions.ts (all 52 questions)
+      data/         certificates + question banks
       types/        shared TypeScript types
