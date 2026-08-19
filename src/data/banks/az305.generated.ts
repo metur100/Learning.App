@@ -25,10 +25,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Create an Azure Automation runbook that runs the Get-AzureADUserAppRoleAssignment cmdlet."
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -55,10 +55,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "access keys"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -93,11 +93,11 @@ export const az305Questions: Question[] = [
       {
         id: "F",
         text: "Azure Application Gateway"
-      }
+      },
     ],
     correct: [
       "A",
-      "E"
+      "E",
     ]
   },
   {
@@ -124,67 +124,120 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Implement Azure AD Privileged Identity Management (PIM)."
-      }
+      },
     ],
     correct: [
-      "C"
+      "C",
     ]
   },
   {
     id: 5,
     number: 5,
     topic: "Topic 1",
-    prompt: "HOTSPOT -\nYou plan to deploy Azure Databricks to support a machine learning application. Data engineers will mount an Azure Data Lake Storage account to\nthe Databricks file system. Permissions to folders are granted directly to the data engineers.\nYou need to recommend a design for the planned Databrick deployment. The solution must meet the following requirements:\nc= Ensure that the data engineers can only access folders to which they have permissions.\nco Minimize development effort.\n© Minimize costs.\nWhat should you include in the recommendation? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:\nAnswer Area\nDatabrickssku: [~~ [+]\nPremium\nStandard\nCluster configuration: [ [+]\nCredential passthrough\nManaged identities\nMLflow\nA runtime that contains Photon\nSecret scope\nAnswer Area\nDatabrickssku: [~~ [+]\nPremium\nStandard",
+    prompt: "HOTSPOT -\nYou plan to deploy Azure Databricks to support a machine learning application. Data engineers will mount an Azure Data Lake Storage account to\nthe Databricks file system. Permissions to folders are granted directly to the data engineers.\nYou need to recommend a design for the planned Databrick deployment. The solution must meet the following requirements:\nc= Ensure that the data engineers can only access folders to which they have permissions.\nco Minimize development effort.\n© Minimize costs.\nWhat should you include in the recommendation? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Premium -, Credential passthrough -",
+    explanation: "Source answer: Databricks SKU = Premium; Cluster configuration = Credential passthrough.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "Premium -"
+        text: "Premium"
       },
       {
         id: "O2",
-        text: "Credential passthrough -"
-      }
+        text: "Standard"
+      },
+      {
+        id: "O3",
+        text: "Credential passthrough"
+      },
+      {
+        id: "O4",
+        text: "Managed identities"
+      },
+      {
+        id: "O5",
+        text: "MLflow"
+      },
+      {
+        id: "O6",
+        text: "A runtime that contains Photon"
+      },
+      {
+        id: "O7",
+        text: "Secret scope"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
+        text: "Databricks SKU"
       },
       {
         id: "t2",
-        text: "Blank 2"
-      }
+        text: "Cluster configuration"
+      },
     ],
     correct: [
       "t1:O1",
-      "t2:O2"
+      "t2:O3",
     ]
   },
   {
     id: 6,
     number: 6,
     topic: "Topic 1",
-    prompt: "HOTSPOT -\nYou plan to deploy an Azure web app named App1 that will use Azure Active Directory (Azure AD) authentication.\nApp1 will be accessed from the internet by the users at your company. All the users have computers that run Windows 10 and are joined to Azure\nAD.\nYou need to recommend a solution to ensure that the users can connect to App1 without being prompted for authentication and can access App1\nonly from company-owned computers.\nWhat should you recommend for each requirement? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point\nHot Area:\nAnswer Area\nThe users can connect to App1 without being I ed\nprompted for authentication: AnAzure AD app registration\nAn Azure AD managed identity\nAzure AD Application Proxy\nThe users can access App1 only from\ncompany-owned computers: [|]\nA Conditional Access policy\nAn Azure AD administrative unit\nAzure Application Gateway\nAzure Blueprints\nAzure Policy",
+    prompt: "HOTSPOT -\nYou plan to deploy an Azure web app named App1 that will use Azure Active Directory (Azure AD) authentication.\nApp1 will be accessed from the internet by the users at your company. All the users have computers that run Windows 10 and are joined to Azure\nAD.\nYou need to recommend a solution to ensure that the users can connect to App1 without being prompted for authentication and can access App1\nonly from company-owned computers.\nWhat should you recommend for each requirement? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point",
     keySource: "source",
-    explanation: "Source answer: Answer Area",
+    explanation: "Source answer: The users can connect to App1 without being prompted for authentication = An Azure AD app registration; The users can access App1 only from company-owned computers = A Conditional Access policy.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "Answer Area"
-      }
+        text: "An Azure AD app registration"
+      },
+      {
+        id: "O2",
+        text: "An Azure AD managed identity"
+      },
+      {
+        id: "O3",
+        text: "Azure AD Application Proxy"
+      },
+      {
+        id: "O4",
+        text: "A Conditional Access policy"
+      },
+      {
+        id: "O5",
+        text: "An Azure AD administrative unit"
+      },
+      {
+        id: "O6",
+        text: "Azure Application Gateway"
+      },
+      {
+        id: "O7",
+        text: "Azure Blueprints"
+      },
+      {
+        id: "O8",
+        text: "Azure Policy"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "The users can connect to App1 without being prompted for authentication"
+      },
+      {
+        id: "t2",
+        text: "The users can access App1 only from company-owned computers"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O1",
+      "t2:O4",
     ]
   },
   {
@@ -203,10 +256,10 @@ export const az305Questions: Question[] = [
       {
         id: "B",
         text: "No (Hest ote)"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -221,10 +274,10 @@ export const az305Questions: Question[] = [
       {
         id: "A",
         text: "Yes B Nome)"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -239,34 +292,51 @@ export const az305Questions: Question[] = [
       {
         id: "B",
         text: "No"
-      }
+      },
     ],
     correct: [
-      "B"
+      "B",
     ]
   },
   {
     id: 10,
     number: 10,
     topic: "Topic 1",
-    prompt: "DRAG DROP -\nYou have an Azure subscription. The subscription contains Azure virtual machines that run Windows Server 2016 and Linux.\nYou need to use Azure Monitor to design an alerting strategy for security-related events.\nWhich Azure Monitor Logs tables should you query? To answer, drag the appropriate tables to the correct log types. Each table may be used once,\nmore than once, or not at all. You may need to drag the split bar between panes or scroll to view content.\nNOTE: Each correct selection is worth one point.\nSelect and Place:\nTables Answer Area\nAzureActivity Events from Windows event logs:\nAzureDiagnostics Events from Linux system logging:\nEvent\nSyslog\nTables Answer Area\nAzureActivity Events from Windows event logs: | Event\nAzureDiagnostics Events from Linux system logging:",
+    prompt: "DRAG DROP -\nYou have an Azure subscription. The subscription contains Azure virtual machines that run Windows Server 2016 and Linux.\nYou need to use Azure Monitor to design an alerting strategy for security-related events.\nWhich Azure Monitor Logs tables should you query? To answer, drag the appropriate tables to the correct log types. Each table may be used once,\nmore than once, or not at all. You may need to drag the split bar between panes or scroll to view content.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: 8 wel cia Syslog",
+    explanation: "Source answer: Events from Windows event logs = Event; Events from Linux system logging = Syslog.",
     type: "drag-drop",
     options: [
       {
         id: "O1",
-        text: "8 wel cia Syslog"
-      }
+        text: "AzureActivity"
+      },
+      {
+        id: "O2",
+        text: "AzureDiagnostics"
+      },
+      {
+        id: "O3",
+        text: "Event"
+      },
+      {
+        id: "O4",
+        text: "Syslog"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Events from Windows event logs"
+      },
+      {
+        id: "t2",
+        text: "Events from Linux system logging"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O3",
+      "t2:O4",
     ]
   },
   {
@@ -301,44 +371,68 @@ export const az305Questions: Question[] = [
       {
         id: "F",
         text: "management groups (ost voted)"
-      }
+      },
     ],
     correct: [
-      "C"
+      "C",
     ]
   },
   {
     id: 12,
     number: 12,
     topic: "Topic 1",
-    prompt: "DRAG DROP -\nYour on-premises network contains a server named Server? that runs an ASPNET application named App1.\nYou have a hybrid deployment of Azure Active Directory (Azure AD).\nYou need to recommend a solution to ensure that users sign in by using their Azure AD account and Azure Multi-Factor Authentication (MFA) when\nthey connect to App1 from the internet.\nWhich three features should you recommend be deployed and configured in sequence? To answer, move the appropriate features from the list of\nfeatures to the answer area and arrange them in the correct order.\nSelect and Place:\nFeatures Answer Area\na public Azure Load Balancer\na managed identity\nan internal Azure Load Balancer\na Conditional Access policy 8\nan Azure App Service plan\nAzure AD Application Proxy\nan Azure AD enterprise application",
+    prompt: "DRAG DROP -\nYour on-premises network contains a server named Server? that runs an ASPNET application named App1.\nYou have a hybrid deployment of Azure Active Directory (Azure AD).\nYou need to recommend a solution to ensure that users sign in by using their Azure AD account and Azure Multi-Factor Authentication (MFA) when\nthey connect to App1 from the internet.\nWhich three features should you recommend be deployed and configured in sequence? To answer, move the appropriate features from the list of\nfeatures to the answer area and arrange them in the correct order.",
     keySource: "source",
-    explanation: "Source answer: Features Answer Area",
+    explanation: "Source answer: Step 1 = Azure AD Application Proxy; Step 2 = an Azure AD enterprise application; Step 3 = a Conditional Access policy.",
     type: "drag-drop",
     options: [
       {
         id: "O1",
-        text: "Features Answer Area"
-      }
+        text: "a public Azure Load Balancer"
+      },
+      {
+        id: "O2",
+        text: "a managed identity"
+      },
+      {
+        id: "O3",
+        text: "an internal Azure Load Balancer"
+      },
+      {
+        id: "O4",
+        text: "a Conditional Access policy"
+      },
+      {
+        id: "O5",
+        text: "an Azure App Service plan"
+      },
+      {
+        id: "O6",
+        text: "Azure AD Application Proxy"
+      },
+      {
+        id: "O7",
+        text: "an Azure AD enterprise application"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
+        text: "Step 1"
       },
       {
         id: "t2",
-        text: "Blank 2"
+        text: "Step 2"
       },
       {
         id: "t3",
-        text: "Blank 3"
-      }
+        text: "Step 3"
+      },
     ],
     correct: [
-      "t1:O1",
-      "t2:O1",
-      "t3:O1"
+      "t1:O6",
+      "t2:O7",
+      "t3:O4",
     ]
   },
   {
@@ -365,10 +459,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Monitor action groups"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -383,34 +477,55 @@ export const az305Questions: Question[] = [
       {
         id: "A",
         text: "Yes 8 Noe)"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 15,
     number: 15,
     topic: "Topic 1",
-    prompt: "DRAG DROP -\nYou need to design an architecture to capture the creation of users and the assignment of roles. The captured data must be stored in Azure\nCosmos DB.\nWhich services should you include in the design? To answer, drag the appropriate services to the correct targets. Each service may be used once,\nmore than once, or not at all. You may need to drag the split bar between panes or scroll to view content.\nNOTE: Each correct selection is worth one point.\nSelect and Place:\nAzure Services Answer Area\nAzure Event Grid\nAzure Event Hubs\nAzure Functions\nAzure Monitor Logs , Azure\nActive Directory\nAzure Notification Hubs audit log\nEr Aotrs voragten.,\ni T i\nee Ta]\n&\nCosmos DB",
+    prompt: "DRAG DROP -\nYou need to design an architecture to capture the creation of users and the assignment of roles. The captured data must be stored in Azure\nCosmos DB.\nWhich services should you include in the design? To answer, drag the appropriate services to the correct targets. Each service may be used once,\nmore than once, or not at all. You may need to drag the split bar between panes or scroll to view content.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Azure Services Answer Area",
+    explanation: "Source answer: Service that captures the Azure AD audit log events = Azure Event Hubs; Service that writes the events to Azure Cosmos DB = Azure Functions.",
     type: "drag-drop",
     options: [
       {
         id: "O1",
-        text: "Azure Services Answer Area"
-      }
+        text: "Azure Event Grid"
+      },
+      {
+        id: "O2",
+        text: "Azure Event Hubs"
+      },
+      {
+        id: "O3",
+        text: "Azure Functions"
+      },
+      {
+        id: "O4",
+        text: "Azure Monitor Logs"
+      },
+      {
+        id: "O5",
+        text: "Azure Notification Hubs"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Service that captures the Azure AD audit log events"
+      },
+      {
+        id: "t2",
+        text: "Service that writes the events to Azure Cosmos DB"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O2",
+      "t2:O3",
     ]
   },
   {
@@ -437,106 +552,216 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure API Management (ost Voted )"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 17,
     number: 17,
     topic: "Topic 1",
-    prompt: "HOTSPOT -\nYou have an Azure subscription that contains 300 virtual machines that run Windows Server 2019.\nYou need to centrally monitor all warning events in the System logs of the virtual machines.\nWhat should you include in the solution? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:\nAnswer Area\nResource to create in Azure: v\nAneventhub\nA Log Analytics workspace\nA search service\nA storage account\nConfiguration to perform on the virtual machines: v\nCreate event subscriptions\nConfigure Continuous delivery\nInstall the Azure Monitor agent\nModify the membership of the Event Log Readers group",
+    prompt: "HOTSPOT -\nYou have an Azure subscription that contains 300 virtual machines that run Windows Server 2019.\nYou need to centrally monitor all warning events in the System logs of the virtual machines.\nWhat should you include in the solution? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Answer Area",
+    explanation: "Source answer: Resource to create in Azure = A Log Analytics workspace; Configuration to perform on the virtual machines = Install the Azure Monitor agent.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "Answer Area"
-      }
+        text: "An event hub"
+      },
+      {
+        id: "O2",
+        text: "A Log Analytics workspace"
+      },
+      {
+        id: "O3",
+        text: "A search service"
+      },
+      {
+        id: "O4",
+        text: "A storage account"
+      },
+      {
+        id: "O5",
+        text: "Create event subscriptions"
+      },
+      {
+        id: "O6",
+        text: "Configure Continuous delivery"
+      },
+      {
+        id: "O7",
+        text: "Install the Azure Monitor agent"
+      },
+      {
+        id: "O8",
+        text: "Modify the membership of the Event Log Readers group"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Resource to create in Azure"
+      },
+      {
+        id: "t2",
+        text: "Configuration to perform on the virtual machines"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O2",
+      "t2:O7",
     ]
   },
   {
     id: 18,
     number: 18,
     topic: "Topic 1",
-    prompt: "HOTSPOT -\nYou have several Azure App Service web apps that use Azure Key Vault to store data encryption keys.\nSeveral departments have the following requests to support the web app:\nSecurity * Review the membership of administrative roles and require\nusers to provide a justification for continued membership.\n* Get alerts about changes in administrator assignments.\no See a history of administrator activation, including which\nchanges administrators made to Azure resources.\nDevelopment * Enable the applications to access Key Vault and retrieve\nkeys for use in code.\nQuality Assurance * Receive temporary administrator access to create and\nconfigure additional web apps in the test environment.\nWhich service should you recommend for each department's request? To answer, configure the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point\nHot Area:\nAnswer Area\nSecurity: v\n| Azure AD Privileged Identity Management\n| Azure Managed Identity\n| Azure AD Connect\n|Azure AD Identity Protection\nDevelopment: v\nAzure AD Privileged Identity Management\n| Azure Managed Identity\n| Azure AD Connect\n| Azure AD Identity Protection\nQuality Assurance: v\nAzure AD Privileged Identity Management\n[Azure Managed Identity\nAzure AD Connect\nAzure AD Identity Protection\nAnswer Area\nSecurity: v\n[Azure AD Privileged Identity Management |\n| Azure Managed Identity\n| Azure AD Connect\n|Azure AD Identity Protection\nDevelopment: v",
+    prompt: "HOTSPOT -\nYou have several Azure App Service web apps that use Azure Key Vault to store data encryption keys.\nSeveral departments have the following requests to support the web app:\nSecurity * Review the membership of administrative roles and require\nusers to provide a justification for continued membership.\n* Get alerts about changes in administrator assignments.\no See a history of administrator activation, including which\nchanges administrators made to Azure resources.\nDevelopment * Enable the applications to access Key Vault and retrieve\nkeys for use in code.\nQuality Assurance * Receive temporary administrator access to create and\nconfigure additional web apps in the test environment.\nWhich service should you recommend for each department's request? To answer, configure the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point",
     keySource: "source",
-    explanation: "Source answer: Azure AD Privileged Identity Management",
+    explanation: "Source answer: Security = Azure AD Privileged Identity Management; Development = Azure Managed Identity; Quality Assurance = Azure AD Privileged Identity Management.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
         text: "Azure AD Privileged Identity Management"
-      }
+      },
+      {
+        id: "O2",
+        text: "Azure Managed Identity"
+      },
+      {
+        id: "O3",
+        text: "Azure AD Connect"
+      },
+      {
+        id: "O4",
+        text: "Azure AD Identity Protection"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Security"
+      },
+      {
+        id: "t2",
+        text: "Development"
+      },
+      {
+        id: "t3",
+        text: "Quality Assurance"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O1",
+      "t2:O2",
+      "t3:O1",
     ]
   },
   {
     id: 19,
     number: 19,
     topic: "Topic 1",
-    prompt: "HOTSPOT -\nYour company has the divisions shown in the following table.\n[Division | Azure subscription | Azure Active Directory (Azure AD) tenant\nEast Sub1, Sub2 East.contoso.com\nWest Sub3, Subd West.contoso.com\nYou plan to deploy a custom application to each subscription. The application will contain the following:\n= A resource group\n= An Azure web app\n= Custom role assignments\n== An Azure Cosmos DB account\nYou need to use Azure Blueprints to deploy the application to each subscription\nWhat is the minimum number of objects required to deploy the application? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:\nAnswer Area\nManagement groups: v\n1\n2\n3\n4\nBlueprint definitions: v\n1\n2\n3\n4\nBlueprint assignments: v\n1 |\n2\n3 |\n4\nAnswer Area\nManagement groups: v\n1\n3\n4\nBlueprint definitions: v",
+    prompt: "HOTSPOT -\nYour company has the divisions shown in the following table.\n[Division | Azure subscription | Azure Active Directory (Azure AD) tenant\nEast Sub1, Sub2 East.contoso.com\nWest Sub3, Subd West.contoso.com\nYou plan to deploy a custom application to each subscription. The application will contain the following:\n= A resource group\n= An Azure web app\n= Custom role assignments\n== An Azure Cosmos DB account\nYou need to use Azure Blueprints to deploy the application to each subscription\nWhat is the minimum number of objects required to deploy the application? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: 3",
+    explanation: "Source answer: Management groups = 2; Blueprint definitions = 2; Blueprint assignments = 2.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
+        text: "1"
+      },
+      {
+        id: "O2",
+        text: "2"
+      },
+      {
+        id: "O3",
         text: "3"
-      }
+      },
+      {
+        id: "O4",
+        text: "4"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Management groups"
+      },
+      {
+        id: "t2",
+        text: "Blueprint definitions"
+      },
+      {
+        id: "t3",
+        text: "Blueprint assignments"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O2",
+      "t2:O2",
+      "t3:O2",
     ]
   },
   {
     id: 20,
     number: 20,
     topic: "Topic 1",
-    prompt: "HOTSPOT -\nYou need to design an Azure policy that will implement the following functionality:\n=> For new resources, assign tags and values that match the tags and values of the resource group to which the resources are deployed.\n= For existing resources, identify whether the tags and values match the tags and values of the resource group that contains the resources.\nc For any non-compliant resources, trigger auto-generated remediation tasks to create missing tags and values.\nThe solution must use the principle of least privilege.\nWhat should you include in the design? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:\nAnswer Area\nAzure Policy effect to use: ”\nAppend\nEnforceOPAConstraint\nEnforceRegoPolicy\nModify\nAzure Active Directory (Azure AD) object and role-based\naccess control (RBAC) role to use for the remediation tasks: v\n‘A managed identity with the Contributor role\nA managed identity with the User Access Administrator role\nA service principal with the Contributor role\nA service principal with the User Access Administrator role",
+    prompt: "HOTSPOT -\nYou need to design an Azure policy that will implement the following functionality:\n=> For new resources, assign tags and values that match the tags and values of the resource group to which the resources are deployed.\n= For existing resources, identify whether the tags and values match the tags and values of the resource group that contains the resources.\nc For any non-compliant resources, trigger auto-generated remediation tasks to create missing tags and values.\nThe solution must use the principle of least privilege.\nWhat should you include in the design? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Answer Area",
+    explanation: "Source answer: Azure Policy effect to use = Modify; Azure AD object and RBAC role to use for the remediation tasks = A managed identity with the Contributor role.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "Answer Area"
-      }
+        text: "Append"
+      },
+      {
+        id: "O2",
+        text: "EnforceOPAConstraint"
+      },
+      {
+        id: "O3",
+        text: "EnforceRegoPolicy"
+      },
+      {
+        id: "O4",
+        text: "Modify"
+      },
+      {
+        id: "O5",
+        text: "A managed identity with the Contributor role"
+      },
+      {
+        id: "O6",
+        text: "A managed identity with the User Access Administrator role"
+      },
+      {
+        id: "O7",
+        text: "A service principal with the Contributor role"
+      },
+      {
+        id: "O8",
+        text: "A service principal with the User Access Administrator role"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Azure Policy effect to use"
+      },
+      {
+        id: "t2",
+        text: "Azure AD object and RBAC role to use for the remediation tasks"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O4",
+      "t2:O5",
     ]
   },
   {
@@ -563,10 +788,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Transparent Data Encryption (TDE)"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -593,34 +818,67 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "files in a general purpose v2 storage account"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 23,
     number: 24,
     topic: "Topic 1",
-    prompt: "HOTSPOT -\nYou have an Azure App Service web app that uses a system-assigned managed identity.\nYou need to recommend a solution to store the settings of the web app as secrets in an Azure key vault. The solution must meet the following\nrequirements:\n== Minimize changes to the app code.\n> Use the principle of least privilege.\nWhat should you include in the recommendation? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:\nAnswer Area\nKey Vault integration method: v\nKey Vault references in Application settings\nKey Vault references in Appsettings.json\nKey Vault references in Web.config\nKey Vault SDK\nKey Vault permissions for the managed identity: v\nKeys: Gey\nReysTseandGet 1]\nSecrets: Get\nSecrets: List and Get",
+    prompt: "HOTSPOT -\nYou have an Azure App Service web app that uses a system-assigned managed identity.\nYou need to recommend a solution to store the settings of the web app as secrets in an Azure key vault. The solution must meet the following\nrequirements:\n== Minimize changes to the app code.\n> Use the principle of least privilege.\nWhat should you include in the recommendation? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Answer Area",
+    explanation: "Source answer: Key Vault integration method = Key Vault references in Application settings; Key Vault permissions for the managed identity = Secrets: Get.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "Answer Area"
-      }
+        text: "Key Vault references in Application settings"
+      },
+      {
+        id: "O2",
+        text: "Key Vault references in Appsettings.json"
+      },
+      {
+        id: "O3",
+        text: "Key Vault references in Web.config"
+      },
+      {
+        id: "O4",
+        text: "Key Vault SDK"
+      },
+      {
+        id: "O5",
+        text: "Keys: Get"
+      },
+      {
+        id: "O6",
+        text: "Keys: List and Get"
+      },
+      {
+        id: "O7",
+        text: "Secrets: Get"
+      },
+      {
+        id: "O8",
+        text: "Secrets: List and Get"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Key Vault integration method"
+      },
+      {
+        id: "t2",
+        text: "Key Vault permissions for the managed identity"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O1",
+      "t2:O7",
     ]
   },
   {
@@ -647,10 +905,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "a user-assigned managed identity (Most Voted)"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -677,34 +935,51 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Synapse Analytics with PolyBase data loading"
-      }
+      },
     ],
     correct: [
-      "C"
+      "C",
     ]
   },
   {
     id: 26,
     number: 27,
     topic: "Topic 1",
-    prompt: "HOTSPOT -\nYou deploy several Azure SQL Database instances.\nYou plan to configure the Diagnostics settings on the databases as shown in the following exhibit.\nDiagnostics setting\nEl sve X piscard [ Delete © Provide feedback\nA diagnostic setting specifies a list of categories of platform logs and/or metrics that you want to collect from a resource, and one or more\nGestinations that you would stream them to. Normal usage charges for the destination wil occur. Learn more about the different log\ncategories and contents of those logs.\nDiagnostic setting name Diagnostic\nCategory details. Destination details\nlog IB send to Log Analytics\nRetention (days)\n[8 saunsights Subscription\nRetent\n8 AutomaticTuning lL]\nLog Analytics workspace\nRetention (3:\n[LT —— — [soma (easesy\n[0] Quenystorewaitstatistics — IB Acchive to a storage account\nRetention (days)\n[J res o (©) Shins srg sors hig csc rege scouts\nRetention (d\n(0) oatabasewaitstatstics — Location\nRetention (days) Fests\ny etention (days)\n[0 Timeouts 0 I Subscription\nAzure Pass - Sponsorship v\nJ whoas on (days) i\nCEN | SPR\nJ osadiods Retention (days) contoso20 ~\n1\nfretrk [0] stream to an event hub\n0 se Bo Gays)\nUse the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\nNOTE: Each correct selection is worth one point.\nHot Area:\nAnswer Area\nThe amount of time that SQLInsights data will be stored in v\nblob storage is [answer choice]. 30 days\n[0days |\n(730days\nindefinite\nThe maximum amount of time that SQLInsights data can be v\nstored in Azure Log Analytics is [answer choice]. 30 days\n190 days\n730 days\nindefinite\nAnswer Area\nThe amount of time that SQLInsights data will be stored in v\nblob storage is [answer choice]. 30 days\n[90days |\n730 days",
+    prompt: "HOTSPOT -\nYou deploy several Azure SQL Database instances.\nYou plan to configure the Diagnostics settings on the databases as shown in the following exhibit.\nDiagnostics setting\nEl sve X piscard [ Delete © Provide feedback\nA diagnostic setting specifies a list of categories of platform logs and/or metrics that you want to collect from a resource, and one or more\nGestinations that you would stream them to. Normal usage charges for the destination wil occur. Learn more about the different log\ncategories and contents of those logs.\nDiagnostic setting name Diagnostic\nCategory details. Destination details\nlog IB send to Log Analytics\nRetention (days)\n[8 saunsights Subscription\nRetent\n8 AutomaticTuning lL]\nLog Analytics workspace\nRetention (3:\n[LT —— — [soma (easesy\n[0] Quenystorewaitstatistics — IB Acchive to a storage account\nRetention (days)\n[J res o (©) Shins srg sors hig csc rege scouts\nRetention (d\n(0) oatabasewaitstatstics — Location\nRetention (days) Fests\ny etention (days)\n[0 Timeouts 0 I Subscription\nAzure Pass - Sponsorship v\nJ whoas on (days) i\nCEN | SPR\nJ osadiods Retention (days) contoso20 ~\n1\nfretrk [0] stream to an event hub\n0 se Bo Gays)\nUse the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: fndesmite",
+    explanation: "Source answer: The amount of time SQLInsights data will be stored in blob storage = 90 days; The maximum amount of time SQLInsights data can be stored in Azure Log Analytics = 730 days.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "fndesmite"
-      }
+        text: "30 days"
+      },
+      {
+        id: "O2",
+        text: "90 days"
+      },
+      {
+        id: "O3",
+        text: "730 days"
+      },
+      {
+        id: "O4",
+        text: "indefinite"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "The amount of time SQLInsights data will be stored in blob storage"
+      },
+      {
+        id: "t2",
+        text: "The maximum amount of time SQLInsights data can be stored in Azure Log Analytics"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O2",
+      "t2:O3",
     ]
   },
   {
@@ -731,34 +1006,59 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "OpenlD Connect"
-      }
+      },
     ],
     correct: [
-      "C"
+      "C",
     ]
   },
   {
     id: 28,
     number: 29,
     topic: "Topic 1",
-    prompt: "HOTSPOT -\nYou have an Azure subscription that contains a virtual network named VNET1 and 10 virtual machines. The virtual machines are connected to\nVNET1.\nYou need to design a solution to manage the virtual machines from the internet. The solution must meet the following requirements:\nc& Incoming connections to the virtual machines must be authenticated by using Azure Multi-Factor Authentication (MFA) before network\nconnectivity is allowed.\n= Incoming connections must use TLS and connect to TCP port 443.\n= The solution must support RDP and SSH.\nWhat should you include in the solution? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:\nAnswer Area\nTo provide access to virtual machines on VNET1, use: v\nAzure Bastion\nJust-in-time (JIT) VM access\nAzure Web Application Firewall (WAF) in Azure Front Door\nTo enforce Azure MFA, use: v\nAn Azure Identity Governance access package\nAA Conditional Access policy that has the Cloud apps\nassignment set to Azure Windows VM Sign-in\nAA Conditional Access policy that has the Cloud apps\nassignment set to Microsoft Azure Management",
+    prompt: "HOTSPOT -\nYou have an Azure subscription that contains a virtual network named VNET1 and 10 virtual machines. The virtual machines are connected to\nVNET1.\nYou need to design a solution to manage the virtual machines from the internet. The solution must meet the following requirements:\nc& Incoming connections to the virtual machines must be authenticated by using Azure Multi-Factor Authentication (MFA) before network\nconnectivity is allowed.\n= Incoming connections must use TLS and connect to TCP port 443.\n= The solution must support RDP and SSH.\nWhat should you include in the solution? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Answer Area",
+    explanation: "Source answer: To provide access to virtual machines on VNET1, use = Azure Bastion; To enforce Azure MFA, use = A Conditional Access policy that has the Cloud apps assignment set to Azure Windows VM Sign-in.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "Answer Area"
-      }
+        text: "Azure Bastion"
+      },
+      {
+        id: "O2",
+        text: "Just-in-time (JIT) VM access"
+      },
+      {
+        id: "O3",
+        text: "Azure Web Application Firewall (WAF) in Azure Front Door"
+      },
+      {
+        id: "O4",
+        text: "An Azure Identity Governance access package"
+      },
+      {
+        id: "O5",
+        text: "A Conditional Access policy that has the Cloud apps assignment set to Azure Windows VM Sign-in"
+      },
+      {
+        id: "O6",
+        text: "A Conditional Access policy that has the Cloud apps assignment set to Microsoft Azure Management"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "To provide access to virtual machines on VNET1, use"
+      },
+      {
+        id: "t2",
+        text: "To enforce Azure MFA, use"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O1",
+      "t2:O5",
     ]
   },
   {
@@ -785,10 +1085,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Active Directory (Azure AD) administrative units"
-      }
+      },
     ],
     correct: [
-      "C"
+      "C",
     ]
   },
   {
@@ -815,10 +1115,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "In the Azure AD tenant of Contoso, create guest accounts for the Fabnkam developers."
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -845,34 +1145,47 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Configure Azure AD join."
-      }
+      },
     ],
     correct: [
-      "C"
+      "C",
     ]
   },
   {
     id: 32,
     number: 33,
     topic: "Topic 1",
-    prompt: "HOTSPOT -\nYour company has 20 web APIs that were developed in-house.\nThe company is developing 10 web apps that will use the web APIs. The web apps and the APIs are registered in the company s Azure Active\nDirectory (Azure\nAD) tenant. The web APIs are published by using Azure API Management.\nYou need to recommend a solution to block unauthorized requests originating from the web apps from reaching the web APIs. The solution must\nmeet the following requirements:\n= Use Azure AD-generated claims.\nMinimize configuration and management effort.\nWhat should you include in the recommendation? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:\nAnswer Area\nGrant permissions to allow the web apps to access the web APIs by using: 2\nAzure AD _\nAzure AP| Management\nThe web APIs\nConfigure a JSON Web Token (JWT) validation policy by using: hd\nAzure AD\nAzure AP| Management\nThe web APIs",
+    prompt: "HOTSPOT -\nYour company has 20 web APIs that were developed in-house.\nThe company is developing 10 web apps that will use the web APIs. The web apps and the APIs are registered in the company s Azure Active\nDirectory (Azure\nAD) tenant. The web APIs are published by using Azure API Management.\nYou need to recommend a solution to block unauthorized requests originating from the web apps from reaching the web APIs. The solution must\nmeet the following requirements:\n= Use Azure AD-generated claims.\nMinimize configuration and management effort.\nWhat should you include in the recommendation? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Answer Area",
+    explanation: "Source answer: Grant permissions to allow the web apps to access the web APIs by using = Azure AD; Configure a JSON Web Token (JWT) validation policy by using = Azure API Management.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "Answer Area"
-      }
+        text: "Azure AD"
+      },
+      {
+        id: "O2",
+        text: "Azure API Management"
+      },
+      {
+        id: "O3",
+        text: "The web APIs"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Grant permissions to allow the web apps to access the web APIs by using"
+      },
+      {
+        id: "t2",
+        text: "Configure a JSON Web Token (JWT) validation policy by using"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O1",
+      "t2:O2",
     ]
   },
   {
@@ -899,10 +1212,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Application Insights"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -929,10 +1242,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Configure Azure AD Identity Protection."
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -959,10 +1272,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "application registration in Azure AD"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -989,10 +1302,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Configure assignments for the fabrikam.com users by using Azure AD Privileged Identity Management (PIM)."
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -1019,10 +1332,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Configure assignments for the fabrikam.com users by using Azure AD Privileged Identity Management (PIM)."
-      }
+      },
     ],
     correct: [
-      "C"
+      "C",
     ]
   },
   {
@@ -1049,34 +1362,59 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Monitor metrics"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 39,
     number: 40,
     topic: "Topic 1",
-    prompt: "HOTSPOT -\nYou have an Azure subscription that contains an Azure key vault named KV1 and a virtual machine named VM1. VM1 runs Windows Server 2022:\nAzure Edition.\nYou plan to deploy an ASP.Net Core-based application named App1 to VM1\nYou need to configure App1 to use a system-assigned managed identity to retrieve secrets from KV1. The solution must minimize development\neffort.\nWhat should you do? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nAnswer Area\nConfigure App1 to use OAuth 2.0: v\nAuthorization code grant flows\nClient credentials grant flows\nImplicit grant flows\nConfigure App1 to use a REST API call v\nto retrieve an authentication token from the: [Azure Instance Metadata Service (MDS) endpoint\n(OAuth 2.0 access token endpoint of Azure AD\n(OAuth 2.0 access token endpoint of Microsoft Identity Platform\nAnswer Area\nConfigure App1 to use OAuth 2.0: v\n|Authorization code grant flows\nClient credentials grant flows",
+    prompt: "HOTSPOT -\nYou have an Azure subscription that contains an Azure key vault named KV1 and a virtual machine named VM1. VM1 runs Windows Server 2022:\nAzure Edition.\nYou plan to deploy an ASP.Net Core-based application named App1 to VM1\nYou need to configure App1 to use a system-assigned managed identity to retrieve secrets from KV1. The solution must minimize development\neffort.\nWhat should you do? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: LS CL —",
+    explanation: "Source answer: Configure App1 to use OAuth 2.0 = Client credentials grant flows; Configure App1 to use a REST API call to retrieve an authentication token from the = Azure Instance Metadata Service (IMDS) endpoint.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "LS CL —"
-      }
+        text: "Authorization code grant flows"
+      },
+      {
+        id: "O2",
+        text: "Client credentials grant flows"
+      },
+      {
+        id: "O3",
+        text: "Implicit grant flows"
+      },
+      {
+        id: "O4",
+        text: "Azure Instance Metadata Service (IMDS) endpoint"
+      },
+      {
+        id: "O5",
+        text: "OAuth 2.0 access token endpoint of Azure AD"
+      },
+      {
+        id: "O6",
+        text: "OAuth 2.0 access token endpoint of Microsoft Identity Platform"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Configure App1 to use OAuth 2.0"
+      },
+      {
+        id: "t2",
+        text: "Configure App1 to use a REST API call to retrieve an authentication token from the"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O2",
+      "t2:O4",
     ]
   },
   {
@@ -1103,10 +1441,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Configure Supported account types in the application registration and update the sign-in endpoint."
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -1133,34 +1471,59 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Implement Azure AD Privileged Identity Management (PIM)."
-      }
+      },
     ],
     correct: [
-      "C"
+      "C",
     ]
   },
   {
     id: 42,
     number: 43,
     topic: "Topic 1",
-    prompt: "HOTSPOT\nYou have an Azure subscription named Sub1 that is linked to an Azure AD tenant named contoso.com.\nYou plan to implement two ASPNET Core apps named App1 and App2 that will be deployed to 100 virtual machines in Sub. Users will sign in to\nApp1 and App2 by using their contoso.com credentials.\nApp1 requires read permissions to access the calendar of the signed-in user. App2 requires write permissions to access the calendar of the\nsigned-in user.\nYou need to recommend an authentication and authorization solution for the apps. The solution must meet the following requirements:\n+ Use the principle of least privilege.\n+ Minimize administrative effort.\nWhat should you include in the recommendation? To answer, select the appropriate options in the answer area\nNOTE: Each correct selection is worth one point\nAnswer Area\nAuthentication: v\nApplication registration in Azure AD\nA system-assigned managed identity\nA user-assigned managed identity\nAuthorization: v\nApplication permissions\nAzure role-based access control (Azure RBAC)\nDelegated permissions\nAnswer Area\nAuthentication:\nApplication registration in Azure AD,",
+    prompt: "HOTSPOT\nYou have an Azure subscription named Sub1 that is linked to an Azure AD tenant named contoso.com.\nYou plan to implement two ASPNET Core apps named App1 and App2 that will be deployed to 100 virtual machines in Sub. Users will sign in to\nApp1 and App2 by using their contoso.com credentials.\nApp1 requires read permissions to access the calendar of the signed-in user. App2 requires write permissions to access the calendar of the\nsigned-in user.\nYou need to recommend an authentication and authorization solution for the apps. The solution must meet the following requirements:\n+ Use the principle of least privilege.\n+ Minimize administrative effort.\nWhat should you include in the recommendation? To answer, select the appropriate options in the answer area\nNOTE: Each correct selection is worth one point",
     keySource: "source",
-    explanation: "Source answer: A system-assigned managed identity",
+    explanation: "Source answer: Authentication = Application registration in Azure AD; Authorization = Delegated permissions.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
+        text: "Application registration in Azure AD"
+      },
+      {
+        id: "O2",
         text: "A system-assigned managed identity"
-      }
+      },
+      {
+        id: "O3",
+        text: "A user-assigned managed identity"
+      },
+      {
+        id: "O4",
+        text: "Application permissions"
+      },
+      {
+        id: "O5",
+        text: "Azure role-based access control (Azure RBAC)"
+      },
+      {
+        id: "O6",
+        text: "Delegated permissions"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Authentication"
+      },
+      {
+        id: "t2",
+        text: "Authorization"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O1",
+      "t2:O6",
     ]
   },
   {
@@ -1187,10 +1550,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Configure Azure AD Identity Protection."
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -1217,10 +1580,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Configure Azure AD join."
-      }
+      },
     ],
     correct: [
-      "C"
+      "C",
     ]
   },
   {
@@ -1239,10 +1602,10 @@ export const az305Questions: Question[] = [
       {
         id: "B",
         text: "No"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -1269,10 +1632,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Configure a Conditional Access policy."
-      }
+      },
     ],
     correct: [
-      "C"
+      "C",
     ]
   },
   {
@@ -1299,10 +1662,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Configure assignments for the fabrikam.com users by using Azure AD Privileged Identity Management (PIM)."
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -1329,10 +1692,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "resource groups and role assignments"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -1359,10 +1722,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Log Analytics"
-      }
+      },
     ],
     correct: [
-      "D"
+      "D",
     ]
   },
   {
@@ -1389,34 +1752,51 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Activity Log"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 51,
     number: 52,
     topic: "Topic 1",
-    prompt: "DRAG DROP\nYou have an Azure AD tenant that contains an administrative unit named MarketingAU. MarketingAU contains 100 users.\nYou create two users named User1 and User2.\nYou need to ensure that the users can perform the following actions in MarketingAU:\n+ User! must be able to create user accounts.\n+ User2 must be able to reset user passwords.\nWhich role should you assign to each user? To answer, drag the appropriate roles to the correct users. Each role may be used once, more than\nonce, or not at all. You may need to drag the split bar between panes or scroll to view content.\nNOTE: Each correct selection is worth one point.\nRoles Answer Area\nHelpdesk Administrator for MarketingAU User1: Role\nHelpdesk Administrator for the tenant User2: Role\nUser Administrator for MarketingAU\nUser Administrator for the tenant\nAnswer Area",
+    prompt: "DRAG DROP\nYou have an Azure AD tenant that contains an administrative unit named MarketingAU. MarketingAU contains 100 users.\nYou create two users named User1 and User2.\nYou need to ensure that the users can perform the following actions in MarketingAU:\n+ User! must be able to create user accounts.\n+ User2 must be able to reset user passwords.\nWhich role should you assign to each user? To answer, drag the appropriate roles to the correct users. Each role may be used once, more than\nonce, or not at all. You may need to drag the split bar between panes or scroll to view content.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: User1 | user Administrator for MarketingAU",
+    explanation: "Source answer: User1 = User Administrator for MarketingAU; User2 = Helpdesk Administrator for MarketingAU.",
     type: "drag-drop",
     options: [
       {
         id: "O1",
-        text: "User1 | user Administrator for MarketingAU"
-      }
+        text: "Helpdesk Administrator for MarketingAU"
+      },
+      {
+        id: "O2",
+        text: "Helpdesk Administrator for the tenant"
+      },
+      {
+        id: "O3",
+        text: "User Administrator for MarketingAU"
+      },
+      {
+        id: "O4",
+        text: "User Administrator for the tenant"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "User1"
+      },
+      {
+        id: "t2",
+        text: "User2"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O3",
+      "t2:O1",
     ]
   },
   {
@@ -1443,58 +1823,108 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Monitor action groups"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 53,
     number: 54,
     topic: "Topic 1",
-    prompt: "HOTSPOT\nYou are designing an app that will be hosted on Azure virtual machines that run Ubuntu. The app will use a third-party email service to send email\nmessages to users. The third-party email service requires that the app authenticate by using an API key.\nYou need to recommend an Azure Key Vault solution for storing and accessing the API key. The solution must minimize administrative effort\nWhat should you recommend using to store and access the key? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nAnswer Area\nStorage: v\nCertificate\nKey\nSecret\nAccess: v\n‘An API token\nA managed service identity (MSI)\nA service principal\nAnswer Area\nStorage: v\nCertificate\nKey",
+    prompt: "HOTSPOT\nYou are designing an app that will be hosted on Azure virtual machines that run Ubuntu. The app will use a third-party email service to send email\nmessages to users. The third-party email service requires that the app authenticate by using an API key.\nYou need to recommend an Azure Key Vault solution for storing and accessing the API key. The solution must minimize administrative effort\nWhat should you recommend using to store and access the key? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: ect",
+    explanation: "Source answer: Storage = Secret; Access = A managed service identity (MSI).",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "ect"
-      }
+        text: "Certificate"
+      },
+      {
+        id: "O2",
+        text: "Key"
+      },
+      {
+        id: "O3",
+        text: "Secret"
+      },
+      {
+        id: "O4",
+        text: "An API token"
+      },
+      {
+        id: "O5",
+        text: "A managed service identity (MSI)"
+      },
+      {
+        id: "O6",
+        text: "A service principal"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Storage"
+      },
+      {
+        id: "t2",
+        text: "Access"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O3",
+      "t2:O5",
     ]
   },
   {
     id: 54,
     number: 55,
     topic: "Topic 1",
-    prompt: "DRAG DROP -\nYou have two app registrations named App1 and App in Azure AD. App1 supports role-based access control (RBAC) and includes a role named\nWriter.\nYou need to ensure that when App2 authenticates to access App, the tokens issued by Azure AD include the Writer role claim.\nWhich blade should you use to modify each app registration? To answer, drag the appropriate blades to the correct app registrations. Each blade\nmay be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.\nNOTE: Each correct selection is worth one point.\nBlades Answer Area\nAppl: Blade i\nApp2 Blade |\nBlades Answer Area",
+    prompt: "DRAG DROP -\nYou have two app registrations named App1 and App in Azure AD. App1 supports role-based access control (RBAC) and includes a role named\nWriter.\nYou need to ensure that when App2 authenticates to access App, the tokens issued by Azure AD include the Writer role claim.\nWhich blade should you use to modify each app registration? To answer, drag the appropriate blades to the correct app registrations. Each blade\nmay be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: ot",
+    explanation: "Source answer: App1 = App roles; App2 = API permissions.",
     type: "drag-drop",
     options: [
       {
         id: "O1",
-        text: "ot"
-      }
+        text: "App roles"
+      },
+      {
+        id: "O2",
+        text: "API permissions"
+      },
+      {
+        id: "O3",
+        text: "Certificates & secrets"
+      },
+      {
+        id: "O4",
+        text: "Expose an API"
+      },
+      {
+        id: "O5",
+        text: "Authentication"
+      },
+      {
+        id: "O6",
+        text: "Token configuration"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "App1"
+      },
+      {
+        id: "t2",
+        text: "App2"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O1",
+      "t2:O2",
     ]
   },
   {
@@ -1521,10 +1951,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Monitor metrics"
-      }
+      },
     ],
     correct: [
-      "C"
+      "C",
     ]
   },
   {
@@ -1543,10 +1973,10 @@ export const az305Questions: Question[] = [
       {
         id: "B",
         text: "Other / unsure"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -1573,34 +2003,55 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Activity Log (Most Voted)"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 58,
     number: 59,
     topic: "Topic 1",
-    prompt: "HOTSPOT\nCase Study\nThis is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However,\nthere may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions\nincluded on this exam in the time provided.\nTo answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might\ncontain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is\nindependent of the other questions in this case study.\nAtthe end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to\nthe next section of the exam. After you begin a new section, you cannot return to this section.\nTo start the case study\nTo display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study\nbefore you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem\nstatements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the\nsubsequent tabs. When you are ready to answer a question, click the Question button to return to the question.\nOverview\nFabrikam, Inc. is an engineering company that has offices throughout Europe. The company has a main office in London and three branch offices\nin Amsterdam, Berlin, and Rome.\nExisting Environment: Active Directory Environment\nThe network contains two Active Directory forests named corp.fabrikam.com and rd.fabrikam.com. There are no trust relationships between the\nforests.\nCorp.fabrikam.com is a production forest that contains identities used for internal user and computer authentication.\nRd.fabrikam.com is used by the research and development (R&D) department only. The R&D department is restricted to using on-premises\nresources only.\nExisting Environment: Network Infrastructure\nEach office contains at least one domain controller from the corp.fabrikam.com domain. The main office contains all the domain controllers for\nthe rd fabrikam.com forest.\nAll the offices have a high-speed connection to the internet.\nAn existing application named WebApp1 is hosted in the data center of the London office. WebApp1 is used by customers to place and track\norders. WebApp1 has a web tier that uses Microsoft Internet Information Services (IIS) and a database tier that runs Microsoft SQL Server 2016.\nThe web tier and the database tier are deployed to virtual machines that run on Hyper-V.\nThe IT department currently uses a separate Hyper-V environment to test updates to WebApp1.\nFabrikam purchases all Microsoft licenses through a Microsoft Enterprise Agreement that includes Software Assurance.\nExisting Environment: Problem Statements\nThe use of WebApp1 is unpredictable. At peak times, users often report delays. At other times, many resources for WebApp1 are underutilized.\nRequirements: Planned Changes\nFabrikam plans to move most of its production workloads to Azure during the next few years, including virtual machines that rely on Active\nDirectory for authentication,\nAs one of its first projects, the company plans to establish a hybrid identity model, facilitating an upcoming Microsoft 365 deployment.\nAll R&D operations will remain on-premises.\nFabrikam plans to migrate the production and test instances of WebApp1 to Azure.\nRequirements: Technical Requirements\nFabrikam identifies the following technical requirements:\n+ Website content must be easily updated from a single point.\n+ User input must be minimized when provisioning new web app instances.\n« Whenever possible, existing on-premises licenses must be used to reduce cost.\n+ Users must always authenticate by using their corp.fabrikam.com UPN identity.\n+ Any new deployments to Azure must be redundant in case an Azure region fails.\n+ Whenever possible, solutions must be deployed to Azure by using the Standard pricing tier of Azure App Service.\n+ An email distribution group named IT Support must be notified of any issues relating to the directory synchronization services.\n«In the event that a link fails between Azure and the on-premises network, ensure that the virtual machines hosted in Azure can authenticate to\nActive Directory.\n- Directory synchronization between Azure Active Directory (Azure AD) and corp. fabrikam.com must not be affected by a link failure between\nAzure and the on-premises network.\nRequirements: Database Requirements\nFabrikam identifies the following database requirements:\n- Database metrics for the production instance of WebApp1 must be available for analysis so that database administrators can optimize the\nperformance settings.\n+ To avoid disrupting customer access, database downtime must be minimized when databases are migrated.\n- Database backups must be retained for a minimum of seven years to meet compliance requirements.\nRequirements: Security Requirements\nFabrikam identifies the following security requirements:\n+ Company information including policies, templates, and data must be inaccessible to anyone outside the company.\n« Users on the on-premises network must be able to authenticate to corp.fabrikam.com if an internet link fails.\n+ Administrators must be able authenticate to the Azure portal by using their corp.fabrikam.com credentials.\n+ All administrative access to the Azure portal must be secured by using multi-factor authentication (MFA).\n- The testing of WebApp1 updates must not be visible to anyone outside the company.\nTo meet the authentication requirements of Fabrikam, what should you include in the solution? To answer, select the appropriate options in the\nanswer area\nNOTE: Each correct selection is worth one point.\nAnswer Area\nMinimum number of Azure AD tenants: v\n0\n1\n2\n3\n2\nMinimum number of conditional access policies to create: v\n0\n1\n2\n3\n4\nAnswer Area\nMinimum number of Azure AD tenants: V\n2\nMinimum number of conditional access policies to create: v",
+    prompt: "HOTSPOT\nCase Study\nThis is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However,\nthere may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions\nincluded on this exam in the time provided.\nTo answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might\ncontain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is\nindependent of the other questions in this case study.\nAtthe end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to\nthe next section of the exam. After you begin a new section, you cannot return to this section.\nTo start the case study\nTo display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study\nbefore you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem\nstatements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the\nsubsequent tabs. When you are ready to answer a question, click the Question button to return to the question.\nOverview\nFabrikam, Inc. is an engineering company that has offices throughout Europe. The company has a main office in London and three branch offices\nin Amsterdam, Berlin, and Rome.\nExisting Environment: Active Directory Environment\nThe network contains two Active Directory forests named corp.fabrikam.com and rd.fabrikam.com. There are no trust relationships between the\nforests.\nCorp.fabrikam.com is a production forest that contains identities used for internal user and computer authentication.\nRd.fabrikam.com is used by the research and development (R&D) department only. The R&D department is restricted to using on-premises\nresources only.\nExisting Environment: Network Infrastructure\nEach office contains at least one domain controller from the corp.fabrikam.com domain. The main office contains all the domain controllers for\nthe rd fabrikam.com forest.\nAll the offices have a high-speed connection to the internet.\nAn existing application named WebApp1 is hosted in the data center of the London office. WebApp1 is used by customers to place and track\norders. WebApp1 has a web tier that uses Microsoft Internet Information Services (IIS) and a database tier that runs Microsoft SQL Server 2016.\nThe web tier and the database tier are deployed to virtual machines that run on Hyper-V.\nThe IT department currently uses a separate Hyper-V environment to test updates to WebApp1.\nFabrikam purchases all Microsoft licenses through a Microsoft Enterprise Agreement that includes Software Assurance.\nExisting Environment: Problem Statements\nThe use of WebApp1 is unpredictable. At peak times, users often report delays. At other times, many resources for WebApp1 are underutilized.\nRequirements: Planned Changes\nFabrikam plans to move most of its production workloads to Azure during the next few years, including virtual machines that rely on Active\nDirectory for authentication,\nAs one of its first projects, the company plans to establish a hybrid identity model, facilitating an upcoming Microsoft 365 deployment.\nAll R&D operations will remain on-premises.\nFabrikam plans to migrate the production and test instances of WebApp1 to Azure.\nRequirements: Technical Requirements\nFabrikam identifies the following technical requirements:\n+ Website content must be easily updated from a single point.\n+ User input must be minimized when provisioning new web app instances.\n« Whenever possible, existing on-premises licenses must be used to reduce cost.\n+ Users must always authenticate by using their corp.fabrikam.com UPN identity.\n+ Any new deployments to Azure must be redundant in case an Azure region fails.\n+ Whenever possible, solutions must be deployed to Azure by using the Standard pricing tier of Azure App Service.\n+ An email distribution group named IT Support must be notified of any issues relating to the directory synchronization services.\n«In the event that a link fails between Azure and the on-premises network, ensure that the virtual machines hosted in Azure can authenticate to\nActive Directory.\n- Directory synchronization between Azure Active Directory (Azure AD) and corp. fabrikam.com must not be affected by a link failure between\nAzure and the on-premises network.\nRequirements: Database Requirements\nFabrikam identifies the following database requirements:\n- Database metrics for the production instance of WebApp1 must be available for analysis so that database administrators can optimize the\nperformance settings.\n+ To avoid disrupting customer access, database downtime must be minimized when databases are migrated.\n- Database backups must be retained for a minimum of seven years to meet compliance requirements.\nRequirements: Security Requirements\nFabrikam identifies the following security requirements:\n+ Company information including policies, templates, and data must be inaccessible to anyone outside the company.\n« Users on the on-premises network must be able to authenticate to corp.fabrikam.com if an internet link fails.\n+ Administrators must be able authenticate to the Azure portal by using their corp.fabrikam.com credentials.\n+ All administrative access to the Azure portal must be secured by using multi-factor authentication (MFA).\n- The testing of WebApp1 updates must not be visible to anyone outside the company.\nTo meet the authentication requirements of Fabrikam, what should you include in the solution? To answer, select the appropriate options in the\nanswer area\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: 2)",
+    explanation: "Source answer: Minimum number of Azure AD tenants = 1; Minimum number of conditional access policies to create = 2.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "2)"
-      }
+        text: "0"
+      },
+      {
+        id: "O2",
+        text: "1"
+      },
+      {
+        id: "O3",
+        text: "2"
+      },
+      {
+        id: "O4",
+        text: "3"
+      },
+      {
+        id: "O5",
+        text: "4"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Minimum number of Azure AD tenants"
+      },
+      {
+        id: "t2",
+        text: "Minimum number of conditional access policies to create"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O2",
+      "t2:O3",
     ]
   },
   {
@@ -1627,43 +2078,59 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure AD Identity Governance"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 60,
     number: 61,
     topic: "Topic 1",
-    prompt: "HOTSPOT -\nYou have an Azure subscription that contains 50 Azure SQL databases.\nYou create an Azure Resource Manager (ARM) template named Template1 that enables Transparent Data Encryption (TDE).\nYou need to create an Azure Policy definition named Policy1 that will use Template to enable TDE for any noncompliant Azure SQL databases.\nHow should you configure Policy1? To answer, select the appropriate options in the answer area\nNOTE: Each correct selection is worth one point.\nAnswer Area\nSet available effects to: v\nDepoylfNotExists\nEnforceRegoPolicy\nModify\nInclude in the definition: v\n[The identity required to perform the remediation task\nThe scopes of the policy assignments\nThe role-based access control (RBAC) roles required to perform the remediation task\nAnswer Area\nSet available effects to:\nDepoyliNotExists\n| ForceRegoPolicy\nInclude in the definition: wv\n[The identity required to perform the remediation task\n[The scopes of the policy assignments\nThe role-based access control (RBAC) roles required to perform the remediation task",
+    prompt: "HOTSPOT -\nYou have an Azure subscription that contains 50 Azure SQL databases.\nYou create an Azure Resource Manager (ARM) template named Template1 that enables Transparent Data Encryption (TDE).\nYou need to create an Azure Policy definition named Policy1 that will use Template to enable TDE for any noncompliant Azure SQL databases.\nHow should you configure Policy1? To answer, select the appropriate options in the answer area\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: DepoyIfNotExists, The role-based access control (RBAC) roles required to perform the remediation task.",
+    explanation: "Source answer: Set available effects to = DeployIfNotExists; Include in the definition = The role-based access control (RBAC) roles required to perform the remediation task.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "DepoyIfNotExists"
+        text: "DeployIfNotExists"
       },
       {
         id: "O2",
-        text: "The role-based access control (RBAC) roles required to perform the remediation task."
-      }
+        text: "EnforceRegoPolicy"
+      },
+      {
+        id: "O3",
+        text: "Modify"
+      },
+      {
+        id: "O4",
+        text: "The identity required to perform the remediation task"
+      },
+      {
+        id: "O5",
+        text: "The scopes of the policy assignments"
+      },
+      {
+        id: "O6",
+        text: "The role-based access control (RBAC) roles required to perform the remediation task"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
+        text: "Set available effects to"
       },
       {
         id: "t2",
-        text: "Blank 2"
-      }
+        text: "Include in the definition"
+      },
     ],
     correct: [
       "t1:O1",
-      "t2:O2"
+      "t2:O6",
     ]
   },
   {
@@ -1690,10 +2157,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Log Analytics Workspace insights"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -1724,83 +2191,150 @@ export const az305Questions: Question[] = [
       {
         id: "E",
         text: "Azure boards"
-      }
+      },
     ],
     correct: [
       "A",
-      "B"
+      "B",
     ]
   },
   {
     id: 63,
     number: 65,
     topic: "Topic 1",
-    prompt: "HOTSPOT\nYou have an Azure subscription that contains multiple storage accounts.\nYou assign Azure Policy definitions to the storage accounts.\nYou need to recommend a solution to meet the following requirements:\n+ Trigger on-demand Azure Policy compliance scans.\n+ Raise Azure Monitor non-compliance alerts by querying logs collected by Log Analytics.\nWhat should you recommend for each requirement? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nAnswer Area\nTo trigger the compliance scans, use: v\nAn Azure template\nThe Azure Command-Line Interface (CLI)\nThe Azure portal\nTo generate the non-compliance alerts, configure diagnostic settings for the: hd\nAzure activity logs\nLog Analytics workspace\nStorage ancaiints\nAnswer Area\nTo trigger the compliance scans, use: =",
+    prompt: "HOTSPOT\nYou have an Azure subscription that contains multiple storage accounts.\nYou assign Azure Policy definitions to the storage accounts.\nYou need to recommend a solution to meet the following requirements:\n+ Trigger on-demand Azure Policy compliance scans.\n+ Raise Azure Monitor non-compliance alerts by querying logs collected by Log Analytics.\nWhat should you recommend for each requirement? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: ETOP",
+    explanation: "Source answer: To trigger the compliance scans, use = The Azure Command-Line Interface (CLI); To generate the non-compliance alerts, configure diagnostic settings for the = Azure activity logs.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "ETOP"
-      }
+        text: "An Azure template"
+      },
+      {
+        id: "O2",
+        text: "The Azure Command-Line Interface (CLI)"
+      },
+      {
+        id: "O3",
+        text: "The Azure portal"
+      },
+      {
+        id: "O4",
+        text: "Azure activity logs"
+      },
+      {
+        id: "O5",
+        text: "Log Analytics workspace"
+      },
+      {
+        id: "O6",
+        text: "Storage accounts"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "To trigger the compliance scans, use"
+      },
+      {
+        id: "t2",
+        text: "To generate the non-compliance alerts, configure diagnostic settings for the"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O2",
+      "t2:O4",
     ]
   },
   {
     id: 64,
     number: 66,
     topic: "Topic 1",
-    prompt: "HOTSPOT -\nYou have an Azure subscription\nYou plan to deploy five storage accounts that will store block blobs and five storage accounts that will host file shares. The file shares will be\naccessed by using the SMB protocol.\nYou need to recommend an access authorization solution for the storage accounts. The solution must meet the following requirements:\n* Maximize security.\n+ Prevent the use of shared keys.\n- Whenever possible, support time-limited access.\nWhat should you include in the solution? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point\nAnswer Area\nFor the blobs: 7\nA user delegation shared access signature (SAS) only\nA shared access signature (SAS) and a stored access policy\nA user delegation shared access signature (SAS) and a stored access policy |\nFor the file shares: -\nAzure AD credentials\nA user delegation shared access signature (SAS) only\nA user delegation shared access signature (SAS) and a stored access policy",
+    prompt: "HOTSPOT -\nYou have an Azure subscription\nYou plan to deploy five storage accounts that will store block blobs and five storage accounts that will host file shares. The file shares will be\naccessed by using the SMB protocol.\nYou need to recommend an access authorization solution for the storage accounts. The solution must meet the following requirements:\n* Maximize security.\n+ Prevent the use of shared keys.\n- Whenever possible, support time-limited access.\nWhat should you include in the solution? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point",
     keySource: "source",
-    explanation: "Source answer: Answer Area",
+    explanation: "Source answer: For the blobs = A user delegation shared access signature (SAS) only; For the file shares = Azure AD credentials.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "Answer Area"
-      }
+        text: "A user delegation shared access signature (SAS) only"
+      },
+      {
+        id: "O2",
+        text: "A shared access signature (SAS) and a stored access policy"
+      },
+      {
+        id: "O3",
+        text: "A user delegation shared access signature (SAS) and a stored access policy"
+      },
+      {
+        id: "O4",
+        text: "Azure AD credentials"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "For the blobs"
+      },
+      {
+        id: "t2",
+        text: "For the file shares"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O1",
+      "t2:O4",
     ]
   },
   {
     id: 65,
     number: 67,
     topic: "Topic 1",
-    prompt: "HOTSPOT\nYou have an Azure subscription. The subscription contains 100 virtual machines that run Windows Server 2022 and have the Azure Monitor Agent\ninstalled.\nYou need to recommend a solution that meets the following requirements:\n+ Forwards JSON-formatted logs from the virtual machines to a Log Analytics workspace\n« Transforms the logs and stores the data in a table in the Log Analytics workspace\nWhat should you include in the recommendation? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nAnswer Area\nTo forward the logs: x.\nA linked storage account for the Log Analytics workspace\nAn Azure Monitor data collection endpoint\nA service endpoint\nTo transform the logs and store the data: =\nAKQL query\nAWQL query\nAn XPAth query\nAnswer Area\nTo forward the logs: -\n| Alinked storage account for the Log Analytics workspace",
+    prompt: "HOTSPOT\nYou have an Azure subscription. The subscription contains 100 virtual machines that run Windows Server 2022 and have the Azure Monitor Agent\ninstalled.\nYou need to recommend a solution that meets the following requirements:\n+ Forwards JSON-formatted logs from the virtual machines to a Log Analytics workspace\n« Transforms the logs and stores the data in a table in the Log Analytics workspace\nWhat should you include in the recommendation? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: TET",
+    explanation: "Source answer: To forward the logs = An Azure Monitor data collection endpoint; To transform the logs and store the data = A KQL query.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "TET"
-      }
+        text: "A linked storage account for the Log Analytics workspace"
+      },
+      {
+        id: "O2",
+        text: "An Azure Monitor data collection endpoint"
+      },
+      {
+        id: "O3",
+        text: "A service endpoint"
+      },
+      {
+        id: "O4",
+        text: "A KQL query"
+      },
+      {
+        id: "O5",
+        text: "A WQL query"
+      },
+      {
+        id: "O6",
+        text: "An XPath query"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "To forward the logs"
+      },
+      {
+        id: "t2",
+        text: "To transform the logs and store the data"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O2",
+      "t2:O4",
     ]
   },
   {
@@ -1827,10 +2361,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "SQL Server 2016 on Azure virtual machines"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -1861,10 +2395,10 @@ export const az305Questions: Question[] = [
       {
         id: "E",
         text: "an Azure Batch account"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -1891,85 +2425,120 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "one Azure Service Bus topic"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 69,
     number: 4,
     topic: "Topic 2",
-    prompt: "HOTSPOT -\nYou need to design a storage solution for an app that will store large amounts of frequently used data. The solution must meet the following\nrequirements:\n=> Maximize data throughput.\n= Prevent the modification of data for one year.\n> Minimize latency for read and write operations.\nWhich Azure Storage account type and storage service should you recommend? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:\nAnswer Area\nStorage account type: [ [+]\nBlobStorage\nBlockBlobStorage\nFileStorage\nStorageV2 with Premium performance\nStorageV2 with Standard performance\nStorageservice: [00000000 [Ww]\nBlob\nFile\nTable",
+    prompt: "HOTSPOT -\nYou need to design a storage solution for an app that will store large amounts of frequently used data. The solution must meet the following\nrequirements:\n=> Maximize data throughput.\n= Prevent the modification of data for one year.\n> Minimize latency for read and write operations.\nWhich Azure Storage account type and storage service should you recommend? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Answer Area",
+    explanation: "Source answer: Storage account type = BlockBlobStorage; Storage service = Blob.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "Answer Area"
-      }
+        text: "BlobStorage"
+      },
+      {
+        id: "O2",
+        text: "BlockBlobStorage"
+      },
+      {
+        id: "O3",
+        text: "FileStorage"
+      },
+      {
+        id: "O4",
+        text: "StorageV2 with Premium performance"
+      },
+      {
+        id: "O5",
+        text: "StorageV2 with Standard performance"
+      },
+      {
+        id: "O6",
+        text: "Blob"
+      },
+      {
+        id: "O7",
+        text: "File"
+      },
+      {
+        id: "O8",
+        text: "Table"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Storage account type"
+      },
+      {
+        id: "t2",
+        text: "Storage service"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O2",
+      "t2:O6",
     ]
   },
   {
     id: 70,
     number: 5,
     topic: "Topic 2",
-    prompt: "HOTSPOT -\nYou have an Azure subscription that contains the storage accounts shown in the following table.\newe [we] reo |\nStorageV2 Standard\nYou plan to implement two new apps that have the requirements shown in the following table.\nAppl Use lifecycle management to migrate app data between\nstorage tiers\nApp2 Store app data in an Azure file share\nWhich storage accounts should you recommend using for each app? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point\nHot Area:\nAnswer Area\napp: [|]\nStorage1 and storage2 only\nStorage1 and storage3 only\nStorage1, storage2, and storage3 only\nStoragel, storage2, storage3, and storage4\napp [+]\nStorage4 only\nStorage1 and storage4 only\nStorage1, storage2, and storage4 only\nStorage1, storage2, storage3, and storage4\nAnswer Area\nappr: [|]\nStoragel and storage2 only\n‘Storage1 and storage3 only\nStorage1, storage2, and storage3 only",
+    prompt: "HOTSPOT -\nYou have an Azure subscription that contains the storage accounts shown in the following table.\newe [we] reo |\nStorageV2 Standard\nYou plan to implement two new apps that have the requirements shown in the following table.\nAppl Use lifecycle management to migrate app data between\nstorage tiers\nApp2 Store app data in an Azure file share\nWhich storage accounts should you recommend using for each app? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point",
     keySource: "source",
-    explanation: "Source answer: Storage1, storage2, storage3, and storage4",
+    explanation: "Source answer: App1 (lifecycle management between storage tiers) = Storage1 and storage3 only; App2 (Azure file share) = Storage1 and storage4 only.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "Storage1"
+        text: "Storage1 and storage2 only"
       },
       {
         id: "O2",
-        text: "storage2"
+        text: "Storage1 and storage3 only"
       },
       {
         id: "O3",
-        text: "storage3"
+        text: "Storage1, storage2, and storage3 only"
       },
       {
         id: "O4",
-        text: "storage4"
-      }
+        text: "Storage1, storage2, storage3, and storage4"
+      },
+      {
+        id: "O5",
+        text: "Storage4 only"
+      },
+      {
+        id: "O6",
+        text: "Storage1 and storage4 only"
+      },
+      {
+        id: "O7",
+        text: "Storage1, storage2, and storage4 only"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
+        text: "App1 (lifecycle management between storage tiers)"
       },
       {
         id: "t2",
-        text: "Blank 2"
+        text: "App2 (Azure file share)"
       },
-      {
-        id: "t3",
-        text: "Blank 3"
-      },
-      {
-        id: "t4",
-        text: "Blank 4"
-      }
     ],
     correct: [
-      "t1:O1",
-      "t2:O2",
-      "t3:O3",
-      "t4:O4"
+      "t1:O2",
+      "t2:O6",
     ]
   },
   {
@@ -1996,10 +2565,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure SQL Database"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -2026,34 +2595,75 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "20 instances of Azure SQL Database serverless"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 73,
     number: 8,
     topic: "Topic 2",
-    prompt: "HOTSPOT -\nYou have an on-premises database that you plan to migrate to Azure.\nYou need to design the database architecture to meet the following requirements:\n<> Support scaling up and down.\n=> Support geo-redundant backups.\nc= Support a database of up to 75 TB.\n== Be optimized for online transaction processing (OLTP).\nWhat should you include in the design? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:\nAnswer Area\nsevice: [+]\nAzure SQL Database\nAzure Synapse Analytics\nSQL Server on Azure Virtual Machines\nsevicetien [ [+]\nBasic\nBusiness Critical\nGeneral Purpose\nHyperscale\nPremium\nStandard\nAnswer Area\nservice: [ [+¥]\nAzure SQL Database\nAzure SQL Managed Instance\nAzure Synapse Analytics\nSQL Server on Azure Virtual Machines",
+    prompt: "HOTSPOT -\nYou have an on-premises database that you plan to migrate to Azure.\nYou need to design the database architecture to meet the following requirements:\n<> Support scaling up and down.\n=> Support geo-redundant backups.\nc= Support a database of up to 75 TB.\n== Be optimized for online transaction processing (OLTP).\nWhat should you include in the design? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: servicetien [ [+]",
+    explanation: "Source answer: Service = Azure SQL Database; Service tier = Hyperscale.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "servicetien [ [+]"
-      }
+        text: "Azure SQL Database"
+      },
+      {
+        id: "O2",
+        text: "Azure SQL Managed Instance"
+      },
+      {
+        id: "O3",
+        text: "Azure Synapse Analytics"
+      },
+      {
+        id: "O4",
+        text: "SQL Server on Azure Virtual Machines"
+      },
+      {
+        id: "O5",
+        text: "Basic"
+      },
+      {
+        id: "O6",
+        text: "Business Critical"
+      },
+      {
+        id: "O7",
+        text: "General Purpose"
+      },
+      {
+        id: "O8",
+        text: "Hyperscale"
+      },
+      {
+        id: "O9",
+        text: "Premium"
+      },
+      {
+        id: "O10",
+        text: "Standard"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Service"
+      },
+      {
+        id: "t2",
+        text: "Service tier"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O1",
+      "t2:O8",
     ]
   },
   {
@@ -2080,10 +2690,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Time Series Insights"
-      }
+      },
     ],
     correct: [
-      "C"
+      "C",
     ]
   },
   {
@@ -2110,10 +2720,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Database for PostgreSQL"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -2132,34 +2742,51 @@ export const az305Questions: Question[] = [
       {
         id: "B",
         text: "No"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 77,
     number: 12,
     topic: "Topic 2",
-    prompt: "DRAG DROP -\nYou plan to import data from your on-premises environment to Azure. The data is shown in the following table.\nOn-premises source Azure target\nA Microsoft SQL Server 2012 database | An Azure SQL database\nA table in a Microsoft SQL Server 2014 | An Azure Cosmos DB account that\ndatabase uses the SQL API\nWhat should you recommend using to migrate the data? To answer, drag the appropriate tools to the correct data sources. Each tool may be used\nonce, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.\nNOTE: Each correct selection is worth one point.\nSelect and Place:\nTools | Answer Area\n‘AzCopy\n/Azure Cosmos DB Data Migration Tool Fa]\nFrom the SQL Server 2012 database: | |\nData Management Gateway J —————————————\n— - From the table in the SQL Server 2014 database: | ]\nData Migration Assistant Less 5 .",
+    prompt: "DRAG DROP -\nYou plan to import data from your on-premises environment to Azure. The data is shown in the following table.\nOn-premises source Azure target\nA Microsoft SQL Server 2012 database | An Azure SQL database\nA table in a Microsoft SQL Server 2014 | An Azure Cosmos DB account that\ndatabase uses the SQL API\nWhat should you recommend using to migrate the data? To answer, drag the appropriate tools to the correct data sources. Each tool may be used\nonce, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Tools Answer Area",
+    explanation: "Source answer: From the SQL Server 2012 database = Data Migration Assistant; From the table in the SQL Server 2014 database = Azure Cosmos DB Data Migration Tool.",
     type: "drag-drop",
     options: [
       {
         id: "O1",
-        text: "Tools Answer Area"
-      }
+        text: "AzCopy"
+      },
+      {
+        id: "O2",
+        text: "Azure Cosmos DB Data Migration Tool"
+      },
+      {
+        id: "O3",
+        text: "Data Management Gateway"
+      },
+      {
+        id: "O4",
+        text: "Data Migration Assistant"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "From the SQL Server 2012 database"
+      },
+      {
+        id: "t2",
+        text: "From the table in the SQL Server 2014 database"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O4",
+      "t2:O2",
     ]
   },
   {
@@ -2186,10 +2813,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Data Factory"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -2220,10 +2847,10 @@ export const az305Questions: Question[] = [
       {
         id: "E",
         text: "Create a general-purpose v1 storage account. Create a fie share in the storage account and copy the files to the file share."
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -2250,10 +2877,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "two Azure SQL databases on different Azure SQL Database servers"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -2280,58 +2907,112 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure SQL Managed Instance General Purpose"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 82,
     number: 17,
     topic: "Topic 2",
-    prompt: "HOTSPOT -\nYou are planning an Azure Storage solution for sensitive data. The data will be accessed daily. The dataset is less than 10 GB.\nYou need to recommend a storage solution that meets the following requirements:\nco All the data written to storage must be retained for five years.\nc= Once the data is written, the data can only be read. Modifications and deletion must be prevented.\n> After five years, the data can be deleted, but never modified.\n= Data access charges must be minimized\nWhat should you recommend? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:\nAnswer Area\nStorage account type: v\nGeneral purpose v2 with Archive access tier for blobs\n(General purpose v2 with Cool access tier for blobs\nGeneral purpose v2 with Hot access tier for blobs\nConfiguration to prevent modifications and deletions: ¥\nContainer access level\nContainer access policy on\nStorage account resource lock",
+    prompt: "HOTSPOT -\nYou are planning an Azure Storage solution for sensitive data. The data will be accessed daily. The dataset is less than 10 GB.\nYou need to recommend a storage solution that meets the following requirements:\nco All the data written to storage must be retained for five years.\nc= Once the data is written, the data can only be read. Modifications and deletion must be prevented.\n> After five years, the data can be deleted, but never modified.\n= Data access charges must be minimized\nWhat should you recommend? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Answer Area",
+    explanation: "Source answer: Storage account type = General purpose v2 with Hot access tier for blobs; Configuration to prevent modifications and deletions = Container access policy.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "Answer Area"
-      }
+        text: "General purpose v2 with Archive access tier for blobs"
+      },
+      {
+        id: "O2",
+        text: "General purpose v2 with Cool access tier for blobs"
+      },
+      {
+        id: "O3",
+        text: "General purpose v2 with Hot access tier for blobs"
+      },
+      {
+        id: "O4",
+        text: "Container access level"
+      },
+      {
+        id: "O5",
+        text: "Container access policy"
+      },
+      {
+        id: "O6",
+        text: "Storage account resource lock"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Storage account type"
+      },
+      {
+        id: "t2",
+        text: "Configuration to prevent modifications and deletions"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O3",
+      "t2:O5",
     ]
   },
   {
     id: 83,
     number: 18,
     topic: "Topic 2",
-    prompt: "HOTSPOT -\nYou are designing a data storage solution to support reporting.\nThe solution will ingest high volumes of data in the JSON format by using Azure Event Hubs. As the data arrives, Event Hubs will write the data to\nstorage. The solution must meet the following requirements:\n5 Organize data in directories by date and time.\n=» Allow stored data to be queried directly, transformed into summarized tables, and then stored in a data warehouse.\n=> Ensure that the data warehouse can store 50 TB of relational data and support between 200 and 300 concurrent read operations.\nWhich service should you recommend for each type of data store? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:\nAnswer Area\nData store for the ingested data: ud\nAzure Blob Storage\nAzure Data Lake Storage Gen2\nAzure Files\nAzure App Files\nData store for the data warehouse: v\nAzure Cosmos DB Cassandra API\nAzure Cosmos DB SQL API\nAzure SQL Database Hyperscale\nAzure Synapse Analytics dedicated SQL pools",
+    prompt: "HOTSPOT -\nYou are designing a data storage solution to support reporting.\nThe solution will ingest high volumes of data in the JSON format by using Azure Event Hubs. As the data arrives, Event Hubs will write the data to\nstorage. The solution must meet the following requirements:\n5 Organize data in directories by date and time.\n=» Allow stored data to be queried directly, transformed into summarized tables, and then stored in a data warehouse.\n=> Ensure that the data warehouse can store 50 TB of relational data and support between 200 and 300 concurrent read operations.\nWhich service should you recommend for each type of data store? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Answer Area",
+    explanation: "Source answer: Data store for the ingested data = Azure Data Lake Storage Gen2; Data store for the data warehouse = Azure SQL Database Hyperscale.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "Answer Area"
-      }
+        text: "Azure Blob Storage"
+      },
+      {
+        id: "O2",
+        text: "Azure Data Lake Storage Gen2"
+      },
+      {
+        id: "O3",
+        text: "Azure Files"
+      },
+      {
+        id: "O4",
+        text: "Azure Cosmos DB Cassandra API"
+      },
+      {
+        id: "O5",
+        text: "Azure Cosmos DB SQL API"
+      },
+      {
+        id: "O6",
+        text: "Azure SQL Database Hyperscale"
+      },
+      {
+        id: "O7",
+        text: "Azure Synapse Analytics dedicated SQL pools"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Data store for the ingested data"
+      },
+      {
+        id: "t2",
+        text: "Data store for the data warehouse"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O2",
+      "t2:O6",
     ]
   },
   {
@@ -2358,10 +3039,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "RSA 2048"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -2388,58 +3069,96 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Time Series Insights"
-      }
+      },
     ],
     correct: [
-      "C"
+      "C",
     ]
   },
   {
     id: 86,
     number: 21,
     topic: "Topic 2",
-    prompt: "HOTSPOT -\nYou are planning an Azure Storage solution for sensitive data. The data will be accessed daily. The dataset is less than 10 GB.\nYou need to recommend a storage solution that meets the following requirements:\n+ All the data written to storage must be retained for five years.\n« Once the data is written, the data can only be read. Modifications and deletion must be prevented.\n« After five years, the data can be deleted, but never modified.\n+ Data access charges must be minimized.\nWhat should you recommend? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nAnswer Area\nStorage account type: v\n[Premium block blobs\n(General purpose v2 with Cool access tier for blobs\n|General purpose v2 with Hot access tier for blobs\nConfiguration to prevent modifications | v\nand deletions: [Container access level\n[Container access policy\n[Storage account resource lock\nAnswer Area\nStorage account type: v\n[Premium block blobs",
+    prompt: "HOTSPOT -\nYou are planning an Azure Storage solution for sensitive data. The data will be accessed daily. The dataset is less than 10 GB.\nYou need to recommend a storage solution that meets the following requirements:\n+ All the data written to storage must be retained for five years.\n« Once the data is written, the data can only be read. Modifications and deletion must be prevented.\n« After five years, the data can be deleted, but never modified.\n+ Data access charges must be minimized.\nWhat should you recommend? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: eneral purpose v2 with Cool acce: er for blob:",
+    explanation: "Source answer: Storage account type = General purpose v2 with Hot access tier for blobs; Configuration to prevent modifications and deletions = Container access policy.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "eneral purpose v2 with Cool acce: er for blob:"
-      }
+        text: "Premium block blobs"
+      },
+      {
+        id: "O2",
+        text: "General purpose v2 with Cool access tier for blobs"
+      },
+      {
+        id: "O3",
+        text: "General purpose v2 with Hot access tier for blobs"
+      },
+      {
+        id: "O4",
+        text: "Container access level"
+      },
+      {
+        id: "O5",
+        text: "Container access policy"
+      },
+      {
+        id: "O6",
+        text: "Storage account resource lock"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Storage account type"
+      },
+      {
+        id: "t2",
+        text: "Configuration to prevent modifications and deletions"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O3",
+      "t2:O5",
     ]
   },
   {
     id: 87,
     number: 22,
     topic: "Topic 2",
-    prompt: "HOTSPOT -\nYou are designing a data analytics solution that will use Azure Synapse and Azure Data Lake Storage Gen2.\nYou need to recommend Azure Synapse pools to meet the following requirements:\n~ Ingest data from Data Lake Storage into hash-distributed tables.\n« Implement query, and update data in Delta Lake.\nWhat should you recommend for each requirement? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nAnswer Area\nIngest data from Data Lake Storage v\ninto hash-distributed tables: [A dedicated SQL pool\nA serverless Apache Spark pool\nA serverless SQL pool\nImplement, query, and update data v\nin Delta Lake: [A dedicated SQL pool\nA serverless Apache Spark pool\n|A serverless SQL pool\nAnswer Area\nIngest data from Data Lake Storage\ninto hash-distributed tables: A dedicated SQL pool",
+    prompt: "HOTSPOT -\nYou are designing a data analytics solution that will use Azure Synapse and Azure Data Lake Storage Gen2.\nYou need to recommend Azure Synapse pools to meet the following requirements:\n~ Ingest data from Data Lake Storage into hash-distributed tables.\n« Implement query, and update data in Delta Lake.\nWhat should you recommend for each requirement? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: A serveriess Apache Spark pool",
+    explanation: "Source answer: Ingest data from Data Lake Storage into hash-distributed tables = A dedicated SQL pool; Implement, query, and update data in Delta Lake = A serverless Apache Spark pool.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "A serveriess Apache Spark pool"
-      }
+        text: "A dedicated SQL pool"
+      },
+      {
+        id: "O2",
+        text: "A serverless Apache Spark pool"
+      },
+      {
+        id: "O3",
+        text: "A serverless SQL pool"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Ingest data from Data Lake Storage into hash-distributed tables"
+      },
+      {
+        id: "t2",
+        text: "Implement, query, and update data in Delta Lake"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O1",
+      "t2:O2",
     ]
   },
   {
@@ -2466,34 +3185,51 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Table storage"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 89,
     number: 24,
     topic: "Topic 2",
-    prompt: "DRAG DROP\nYou have an on-premises app named App1.\nCustomers use App1 to manage digital images.\nYou plan to migrate AppT to Azure.\nYou need to recommend a data storage solution for App1. The solution must meet the following image storage requirements:\n- Encrypt images at rest.\n« Allow files up to 50 MB.\n+ Manage access to the images by using Azure Web Application Firewall (WAF) on Azure Front Door.\nThe solution must meet the following customer account requirements:\n+ Support automatic scale out of the storage.\n+ Maintain the availability of App1 if a datacenter fails.\n« Support reading and writing data from multiple Azure regions.\nWhich service should you include in the recommendation for each type of data? To answer, drag the appropriate services to the correct type of\ndata. Each service may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.\nNOTE: Each correct answer is worth one point.\nServices Answer Area\nAzure Blob storage\n= a EE—\n“Azure Table storage\nAnswer Area",
+    prompt: "DRAG DROP\nYou have an on-premises app named App1.\nCustomers use App1 to manage digital images.\nYou plan to migrate AppT to Azure.\nYou need to recommend a data storage solution for App1. The solution must meet the following image storage requirements:\n- Encrypt images at rest.\n« Allow files up to 50 MB.\n+ Manage access to the images by using Azure Web Application Firewall (WAF) on Azure Front Door.\nThe solution must meet the following customer account requirements:\n+ Support automatic scale out of the storage.\n+ Maintain the availability of App1 if a datacenter fails.\n« Support reading and writing data from multiple Azure regions.\nWhich service should you include in the recommendation for each type of data? To answer, drag the appropriate services to the correct type of\ndata. Each service may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.\nNOTE: Each correct answer is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Image storage:",
+    explanation: "Source answer: Image storage = Azure Blob storage; Customer account data = Azure Cosmos DB.",
     type: "drag-drop",
     options: [
       {
         id: "O1",
-        text: "Image storage:"
-      }
+        text: "Azure Blob storage"
+      },
+      {
+        id: "O2",
+        text: "Azure Table storage"
+      },
+      {
+        id: "O3",
+        text: "Azure Cosmos DB"
+      },
+      {
+        id: "O4",
+        text: "Azure Files"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Image storage"
+      },
+      {
+        id: "t2",
+        text: "Customer account data"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O1",
+      "t2:O3",
     ]
   },
   {
@@ -2520,10 +3256,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Cosmos DB for PostgreSQL"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -2546,10 +3282,10 @@ export const az305Questions: Question[] = [
       {
         id: "C",
         text: "Memory Optimized"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -2576,34 +3312,59 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "NoSQL"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 93,
     number: 28,
     topic: "Topic 2",
-    prompt: "HOTSPOT\nYou have an app that generates 50,000 events daily.\nYou plan to stream the events to an Azure event hub and use Event Hubs Capture to implement cold path processing of the events. The output of\nEvent Hubs Capture will be consumed by a reporting system.\nYou need to identify which type of Azure storage must be provisioned to support Event Hubs Capture, and which inbound data format the reporting\nsystem must support.\nWhat should you identify? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nAnswer Area\nStorage type: hd\nAzure Data Lake Storage Gen2\nPremium block blobs\nPremium file shares\nData format: -\n[Apache Parquet\nAvro\nJSON\nAnswer Area\nStorage type: v\n[Azure Data Lake Storage Gen2",
+    prompt: "HOTSPOT\nYou have an app that generates 50,000 events daily.\nYou plan to stream the events to an Azure event hub and use Event Hubs Capture to implement cold path processing of the events. The output of\nEvent Hubs Capture will be consumed by a reporting system.\nYou need to identify which type of Azure storage must be provisioned to support Event Hubs Capture, and which inbound data format the reporting\nsystem must support.\nWhat should you identify? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Premium block blobs",
+    explanation: "Source answer: Storage type = Azure Data Lake Storage Gen2; Data format = Avro.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
+        text: "Azure Data Lake Storage Gen2"
+      },
+      {
+        id: "O2",
         text: "Premium block blobs"
-      }
+      },
+      {
+        id: "O3",
+        text: "Premium file shares"
+      },
+      {
+        id: "O4",
+        text: "Apache Parquet"
+      },
+      {
+        id: "O5",
+        text: "Avro"
+      },
+      {
+        id: "O6",
+        text: "JSON"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Storage type"
+      },
+      {
+        id: "t2",
+        text: "Data format"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O1",
+      "t2:O5",
     ]
   },
   {
@@ -2630,34 +3391,51 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Cosmos DB change feed"
-      }
+      },
     ],
     correct: [
-      "C"
+      "C",
     ]
   },
   {
     id: 95,
     number: 30,
     topic: "Topic 2",
-    prompt: "HOTSPOT\nYou have an Azure subscription. The subscription contains an Azure SQL managed instance that stores employee details, including social security\nnumbers and phone numbers.\nYou need to configure the managed instance to meet the following requirements:\n+ The helpdesk team must see only the last four digits of an employee's phone number.\n+ Cloud administrators must be prevented from seeing the employees social security numbers.\nWhat should you enable for each column in the managed instance? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nAnswer Area\nPhone numbers: ‘wv\nAlways Encrypted\nColumn encryption\nDynamic data masking\nTransparent Data Encryption (TDE)\nSocial security numbers: v\nAlways Encrypted\nColumn encryption\nDynamic data masking\nTransparent Data Encryption (TDE)\nAnswer Area\nPhone numbers: ‘wv\nAlways Encrypted\nQlumn encrvotion",
+    prompt: "HOTSPOT\nYou have an Azure subscription. The subscription contains an Azure SQL managed instance that stores employee details, including social security\nnumbers and phone numbers.\nYou need to configure the managed instance to meet the following requirements:\n+ The helpdesk team must see only the last four digits of an employee's phone number.\n+ Cloud administrators must be prevented from seeing the employees social security numbers.\nWhat should you enable for each column in the managed instance? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: \" wer Transparent Data encryption (TDE)",
+    explanation: "Source answer: Phone numbers = Dynamic data masking; Social security numbers = Always Encrypted.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "\" wer Transparent Data encryption (TDE)"
-      }
+        text: "Always Encrypted"
+      },
+      {
+        id: "O2",
+        text: "Column encryption"
+      },
+      {
+        id: "O3",
+        text: "Dynamic data masking"
+      },
+      {
+        id: "O4",
+        text: "Transparent Data Encryption (TDE)"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Phone numbers"
+      },
+      {
+        id: "t2",
+        text: "Social security numbers"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O3",
+      "t2:O1",
     ]
   },
   {
@@ -2684,106 +3462,190 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Blob Storage"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 97,
     number: 32,
     topic: "Topic 2",
-    prompt: "HOTSPOT -\nYou are designing a storage solution that will ingest, store, and analyze petabytes (PBs) of structured, semi-structured, and unstructured text data.\nThe analyzed data will be offloaded to Azure Data Lake Storage Gen? for long-term retention.\nYou need to recommend a storage and analytics solution that meets the following requirements:\n« Stores the processed data\n+ Provides interactive analytics\n+ Supports manual scaling, built-in autoscaling, and custom autoscaling\nWhat should you include in the recommendation? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nAnswer Area\nFor storage and interactive analytics: 4\n\\Azure Data Explorer\n|Azure Data Lake Analytics\nLog Analytics\nQuery language: Vi\nKQL\nTransact-SQL\nuU-saL\nAnswer Area\nFor storage and interactive analytics:\nAzure Data Explorer",
+    prompt: "HOTSPOT -\nYou are designing a storage solution that will ingest, store, and analyze petabytes (PBs) of structured, semi-structured, and unstructured text data.\nThe analyzed data will be offloaded to Azure Data Lake Storage Gen? for long-term retention.\nYou need to recommend a storage and analytics solution that meets the following requirements:\n« Stores the processed data\n+ Provides interactive analytics\n+ Supports manual scaling, built-in autoscaling, and custom autoscaling\nWhat should you include in the recommendation? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: ue tla 2 RCS",
+    explanation: "Source answer: For storage and interactive analytics = Azure Data Explorer; Query language = KQL.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "ue tla 2 RCS"
-      }
+        text: "Azure Data Explorer"
+      },
+      {
+        id: "O2",
+        text: "Azure Data Lake Analytics"
+      },
+      {
+        id: "O3",
+        text: "Log Analytics"
+      },
+      {
+        id: "O4",
+        text: "KQL"
+      },
+      {
+        id: "O5",
+        text: "Transact-SQL"
+      },
+      {
+        id: "O6",
+        text: "U-SQL"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "For storage and interactive analytics"
+      },
+      {
+        id: "t2",
+        text: "Query language"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O1",
+      "t2:O4",
     ]
   },
   {
     id: 98,
     number: 34,
     topic: "Topic 2",
-    prompt: "HOTSPOT\nYou have an Azure subscription.\nYou need to deploy a solution that will provide point-n-time restore for blobs in storage accounts that have blob versioning and blob soft delete\nenabled.\nWhich type of blob should you create, and what should you enable for the accounts? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point\nAnswer Area\nBlob type: v\nAppend\nBlock\nPage\nEnable: >\nA stored access policy\nImmutable blob storage\nObject replication\nThe change feed\nAnswer Area\nBlob type: v\nAppend",
+    prompt: "HOTSPOT\nYou have an Azure subscription.\nYou need to deploy a solution that will provide point-n-time restore for blobs in storage accounts that have blob versioning and blob soft delete\nenabled.\nWhich type of blob should you create, and what should you enable for the accounts? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point",
     keySource: "source",
-    explanation: "Source answer: Page",
+    explanation: "Source answer: Blob type = Block; Enable = The change feed.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
+        text: "Append"
+      },
+      {
+        id: "O2",
+        text: "Block"
+      },
+      {
+        id: "O3",
         text: "Page"
-      }
+      },
+      {
+        id: "O4",
+        text: "A stored access policy"
+      },
+      {
+        id: "O5",
+        text: "Immutable blob storage"
+      },
+      {
+        id: "O6",
+        text: "Object replication"
+      },
+      {
+        id: "O7",
+        text: "The change feed"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Blob type"
+      },
+      {
+        id: "t2",
+        text: "Enable"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O2",
+      "t2:O7",
     ]
   },
   {
     id: 99,
     number: 35,
     topic: "Topic 2",
-    prompt: "HOTSPOT\nYour company, named Contoso, Ltd., has an Azure subscription that contains the following resources:\n+ An Azure Synapse Analytics workspace named contosoworkspacel\n+ An Azure Data Lake Storage account named contosolake1\n+ An Azure SQL database named contososqlt\nThe product data of Contoso is copied from contososql1 to contosolake1\nContoso has a partner company named Fabrikam Inc. Fabrikam has an Azure subscription that contains the following resources:\n+ Avirtual machine named FabrikamVM1 that runs Microsoft SQL Server 2019\n+ An Azure Storage account named fabrikamsa1l\nContoso plans to upload the research data on FabrikamVM1 to contosolake1. During the upload, the research data must be transformed to the\ndata formats used by Contoso\nThe data in contosolake1 will be analyzed by using contosoworkspace1\nYou need to recommend a solution that meets the following requirements:\n* Upload and transform the FabrikamVM1 research data.\n+ Provide Fabrikam with restricted access to snapshots of the data in contosoworkspace1.\nWhat should you recommend for each requirement? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nAnswer Area\nUpload and transform the data: Y\nAzure Data Box Gateway\nAzure Data Share\nAzure Synapse pipelines\nProvide restricted access: 3\nAzure Data Box Gateway\nAzure Data Share\nAzure Synapse pipelines\nAnswer Area\nUpload and transform the data: Y\nAzure Data Box Gateway\nAzure Data Share",
+    prompt: "HOTSPOT\nYour company, named Contoso, Ltd., has an Azure subscription that contains the following resources:\n+ An Azure Synapse Analytics workspace named contosoworkspacel\n+ An Azure Data Lake Storage account named contosolake1\n+ An Azure SQL database named contososqlt\nThe product data of Contoso is copied from contososql1 to contosolake1\nContoso has a partner company named Fabrikam Inc. Fabrikam has an Azure subscription that contains the following resources:\n+ Avirtual machine named FabrikamVM1 that runs Microsoft SQL Server 2019\n+ An Azure Storage account named fabrikamsa1l\nContoso plans to upload the research data on FabrikamVM1 to contosolake1. During the upload, the research data must be transformed to the\ndata formats used by Contoso\nThe data in contosolake1 will be analyzed by using contosoworkspace1\nYou need to recommend a solution that meets the following requirements:\n* Upload and transform the FabrikamVM1 research data.\n+ Provide Fabrikam with restricted access to snapshots of the data in contosoworkspace1.\nWhat should you recommend for each requirement? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Provide restricted access: =",
+    explanation: "Source answer: Upload and transform the data = Azure Synapse pipelines; Provide restricted access = Azure Data Share.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "Provide restricted access: ="
-      }
+        text: "Azure Data Box Gateway"
+      },
+      {
+        id: "O2",
+        text: "Azure Data Share"
+      },
+      {
+        id: "O3",
+        text: "Azure Synapse pipelines"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Upload and transform the data"
+      },
+      {
+        id: "t2",
+        text: "Provide restricted access"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O3",
+      "t2:O2",
     ]
   },
   {
     id: 100,
     number: 36,
     topic: "Topic 2",
-    prompt: "HOTSPOT\nYou are designing a data pipeline that will integrate large amounts of data from multiple on-premises Microsoft SQL Server databases into an\nanalytics platform in Azure. The pipeline will include the following actions:\n+ Database updates will be exported periodically into a staging area in Azure Blob storage.\n+ Data from the blob storage will be cleansed and transformed by using a highly parallelized load process.\n« The transformed data will be loaded to a data warehouse.\n« Each batch of updates will be used to refresh an online analytical processing (OLAP) model in a managed serving layer.\n+ The managed serving layer will be used by thousands of end users.\nYou need to implement the data warehouse and serving layers.\nWhat should you use? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nAnswer Area\nTo implement the data warehouse: x\nNT TT TT TE TE\n| An Apache Spark pool in Azure Synapse Analytics\n| An Azure Synapse Analytics dedicated SQL pool\nAzure Data Lake Analytics\nTo implement the serving layer: £7\nAzure Analysis Services\nAn Apache Spark pool Azure Synapse Analytics\nAn Azure Synapse Analytics dedicated SQL pool\nAnswer Area\nTo implement the data warehouse: ~\nAn Apache Spark pool in Azure Synapse Analytics\nAn Azure Synapse Analytics dedicated SQL pool",
-    keySource: "source",
-    explanation: "Source answer: mr ——",
+    prompt: "HOTSPOT\nYou are designing a data pipeline that will integrate large amounts of data from multiple on-premises Microsoft SQL Server databases into an\nanalytics platform in Azure. The pipeline will include the following actions:\n+ Database updates will be exported periodically into a staging area in Azure Blob storage.\n+ Data from the blob storage will be cleansed and transformed by using a highly parallelized load process.\n« The transformed data will be loaded to a data warehouse.\n« Each batch of updates will be used to refresh an online analytical processing (OLAP) model in a managed serving layer.\n+ The managed serving layer will be used by thousands of end users.\nYou need to implement the data warehouse and serving layers.\nWhat should you use? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
+    keySource: "domain",
+    explanation: "Source answer: To implement the data warehouse = An Azure Synapse Analytics dedicated SQL pool; To implement the serving layer = Azure Analysis Services.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "mr ——"
-      }
+        text: "An Apache Spark pool in Azure Synapse Analytics"
+      },
+      {
+        id: "O2",
+        text: "An Azure Synapse Analytics dedicated SQL pool"
+      },
+      {
+        id: "O3",
+        text: "Azure Data Lake Analytics"
+      },
+      {
+        id: "O4",
+        text: "Azure Analysis Services"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "To implement the data warehouse"
+      },
+      {
+        id: "t2",
+        text: "To implement the serving layer"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O2",
+      "t2:O4",
     ]
   },
   {
@@ -2810,10 +3672,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "blob versioning"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -2840,10 +3702,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Data Studio"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -2870,34 +3732,67 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Site Recovery"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 104,
     number: 2,
     topic: "Topic 3",
-    prompt: "HOTSPOT -\nYou plan to deploy the backup policy shown in the following exhibit.\nPolicy 1\nEE Associated items [lJ Delete [| Save ¢ Discard\nBackup schedule\n*Frequency *Time *Timezone\n6:00PM v| [ (UTC) Coordinated Univer...\nInstant Restore @\nRetain instant recovery snapshot(s) for\nDay(s) @\nRetention range\n4 Retention of daily backup point.\n*At For\n6:00PM Vv Day(s)\n[2 Retention of weekly backup point.\n*on *At For\nSoom v Weekis\nv Retention of monthly backup point.\n*on *Day *At For\nETRY worth\n[C]  Retentionof yearly backup point.\nNot Configured\nUse the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\nNOTE: Each correct selection is worth one point.\nHot Area:\nAnswer Area\nVirtual machines that are backed up by using the I\npolicy can be recovered for up to a maximum of | 90 days\n[answer choice]: | 26 weeks\n36 months\n45 months\nThe minimum recovery point objective (RPO) for [ [wr]\nvirtual machines that are backed up by using the [~~\npolicy is [answer choice]: day\n1 week\n1 month\n1year\nAnswer Area\nVirtual machines that are backed up by using the Tw]\npolicy can be recovered for up to a maximum of | 90 days\n[answer choice]: | 26 weeks\n36 months i\n45 months",
+    prompt: "HOTSPOT -\nYou plan to deploy the backup policy shown in the following exhibit.\nPolicy 1\nEE Associated items [lJ Delete [| Save ¢ Discard\nBackup schedule\n*Frequency *Time *Timezone\n6:00PM v| [ (UTC) Coordinated Univer...\nInstant Restore @\nRetain instant recovery snapshot(s) for\nDay(s) @\nRetention range\n4 Retention of daily backup point.\n*At For\n6:00PM Vv Day(s)\n[2 Retention of weekly backup point.\n*on *At For\nSoom v Weekis\nv Retention of monthly backup point.\n*on *Day *At For\nETRY worth\n[C]  Retentionof yearly backup point.\nNot Configured\nUse the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: The minimum recovery point objective (RPO) for [Tw]",
+    explanation: "Source answer: Maximum recovery period for VMs backed up by this policy = 36 months; Minimum recovery point objective (RPO) for VMs backed up by this policy = 1 day.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "The minimum recovery point objective (RPO) for [Tw]"
-      }
+        text: "90 days"
+      },
+      {
+        id: "O2",
+        text: "26 weeks"
+      },
+      {
+        id: "O3",
+        text: "36 months"
+      },
+      {
+        id: "O4",
+        text: "45 months"
+      },
+      {
+        id: "O5",
+        text: "1 day"
+      },
+      {
+        id: "O6",
+        text: "1 week"
+      },
+      {
+        id: "O7",
+        text: "1 month"
+      },
+      {
+        id: "O8",
+        text: "1 year"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Maximum recovery period for VMs backed up by this policy"
+      },
+      {
+        id: "t2",
+        text: "Minimum recovery point objective (RPO) for VMs backed up by this policy"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O3",
+      "t2:O5",
     ]
   },
   {
@@ -2912,10 +3807,10 @@ export const az305Questions: Question[] = [
       {
         id: "B",
         text: "No"
-      }
+      },
     ],
     correct: [
-      "B"
+      "B",
     ]
   },
   {
@@ -2930,34 +3825,59 @@ export const az305Questions: Question[] = [
       {
         id: "A",
         text: "Yes 6 Nom)"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 107,
     number: 5,
     topic: "Topic 3",
-    prompt: "HOTSPOT -\nYou plan to create an Azure Storage account that will host file shares. The shares will be accessed from on-premises applications that are\ntransaction intensive.\nYou need to recommend a solution to minimize latency when accessing the file shares. The solution must provide the highest-level of resiliency\nfor the selected storage tier.\nWhat should you include in the recommendation? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:\nAnswer Area\nStoragetierr: [ [+]\nHot |\nPremium\nTransaction optimized\nRedundancy: [|\nGeo-redundant storage (GRS)\nZone-redundant storage (ZRS)\nLocally-redundant storage (LRS)\nAnswer Area\nstoragetie: | [+]\nHot\nPremium",
+    prompt: "HOTSPOT -\nYou plan to create an Azure Storage account that will host file shares. The shares will be accessed from on-premises applications that are\ntransaction intensive.\nYou need to recommend a solution to minimize latency when accessing the file shares. The solution must provide the highest-level of resiliency\nfor the selected storage tier.\nWhat should you include in the recommendation? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Redundancy: []¥|",
+    explanation: "Source answer: Storage tier = Premium; Redundancy = Zone-redundant storage (ZRS).",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "Redundancy: []¥|"
-      }
+        text: "Hot"
+      },
+      {
+        id: "O2",
+        text: "Premium"
+      },
+      {
+        id: "O3",
+        text: "Transaction optimized"
+      },
+      {
+        id: "O4",
+        text: "Geo-redundant storage (GRS)"
+      },
+      {
+        id: "O5",
+        text: "Zone-redundant storage (ZRS)"
+      },
+      {
+        id: "O6",
+        text: "Locally-redundant storage (LRS)"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Storage tier"
+      },
+      {
+        id: "t2",
+        text: "Redundancy"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O2",
+      "t2:O5",
     ]
   },
   {
@@ -2972,58 +3892,116 @@ export const az305Questions: Question[] = [
       {
         id: "A",
         text: "Yes 8 No)"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 109,
     number: 7,
     topic: "Topic 3",
-    prompt: "HOTSPOT -\nYou need to recommend an Azure Storage account configuration for two applications named Application and Application2. The configuration\nmust meet the following requirements:\n= Storage for Application1 must provide the highest possible transaction rates and the lowest possible latency.\n<> Storage for Application2 must provide the lowest possible storage costs per GB.\n= Storage for both applications must be available in an event of datacenter failure.\n==> Storage for both applications must be optimized for uploads and downloads.\nWhat should you recommend? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area;\nAnswer Area\nApplication1: v\nBlobStorage with Standard performance, Hot access tier, and Read-\naccess geo-redundant storage (RA-GRS) replication\nBlockBlobStorage with Premium performance and Zone-redundant\nstorage (ZRS) replication\nGeneral purpose v1 with Premium performance and Locally-\nredundant storage (LRS) replication\nGeneral purpose v2 with Standard performance, Hot access tier, and\nLocally-redundant storage (LRS) replication\nApplication2: v\nBlobStorage with Standard performance, Cool access tier, and Geo-\nredundant storage (GRS) replication .\nBlockBlobStorage with Premium performance and Zone-redundant\nstorage (ZRS) replication\nGeneral purpose v1 with Standard performance and Read-access\ngeo-redundant storage (RA-GRS) replication\nGeneral purpose v2 with Standard performance, Cool access tier,\nand Read-access geo-redundant storage (RA-GRS) replication",
-    keySource: "source",
-    explanation: "Source answer: Answer Area",
+    prompt: "HOTSPOT -\nYou need to recommend an Azure Storage account configuration for two applications named Application and Application2. The configuration\nmust meet the following requirements:\n= Storage for Application1 must provide the highest possible transaction rates and the lowest possible latency.\n<> Storage for Application2 must provide the lowest possible storage costs per GB.\n= Storage for both applications must be available in an event of datacenter failure.\n==> Storage for both applications must be optimized for uploads and downloads.\nWhat should you recommend? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area;",
+    keySource: "domain",
+    explanation: "Source answer: Application1 = BlockBlobStorage with Premium performance and Zone-redundant storage (ZRS) replication; Application2 = General purpose v2 with Standard performance, Cool access tier, and Read-access geo-redundant storage (RA-GRS) replication.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "Answer Area"
-      }
+        text: "BlobStorage with Standard performance, Hot access tier, and Read-access geo-redundant storage (RA-GRS) replication"
+      },
+      {
+        id: "O2",
+        text: "BlockBlobStorage with Premium performance and Zone-redundant storage (ZRS) replication"
+      },
+      {
+        id: "O3",
+        text: "General purpose v1 with Premium performance and Locally-redundant storage (LRS) replication"
+      },
+      {
+        id: "O4",
+        text: "General purpose v2 with Standard performance, Hot access tier, and Locally-redundant storage (LRS) replication"
+      },
+      {
+        id: "O5",
+        text: "BlobStorage with Standard performance, Cool access tier, and Geo-redundant storage (GRS) replication"
+      },
+      {
+        id: "O6",
+        text: "General purpose v1 with Standard performance and Read-access geo-redundant storage (RA-GRS) replication"
+      },
+      {
+        id: "O7",
+        text: "General purpose v2 with Standard performance, Cool access tier, and Read-access geo-redundant storage (RA-GRS) replication"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Application1"
+      },
+      {
+        id: "t2",
+        text: "Application2"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O2",
+      "t2:O7",
     ]
   },
   {
     id: 110,
     number: 8,
     topic: "Topic 3",
-    prompt: "HOTSPOT -\nYou plan to develop a new app that will store business critical data. The app must meet the following requirements:\n© Prevent new data from being modified for one year.\nco Maximize data resiliency.\n=» Minimize read latency.\nWhat storage solution should you recommend for the app? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:\nAnswer Area\nStorage Account type: v\nPremium block blobs\n‘Standard general-purpose v1 i\nStandard general-purpose v2\nRedundancy: v\nZone-redundant storage (ZRS)\nLocally-redundant storage (LRS)",
+    prompt: "HOTSPOT -\nYou plan to develop a new app that will store business critical data. The app must meet the following requirements:\n© Prevent new data from being modified for one year.\nco Maximize data resiliency.\n=» Minimize read latency.\nWhat storage solution should you recommend for the app? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Answer Area",
+    explanation: "Source answer: Storage Account type = Premium block blobs; Redundancy = Zone-redundant storage (ZRS).",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "Answer Area"
-      }
+        text: "Premium block blobs"
+      },
+      {
+        id: "O2",
+        text: "Standard general-purpose v1"
+      },
+      {
+        id: "O3",
+        text: "Standard general-purpose v2"
+      },
+      {
+        id: "O4",
+        text: "Geo-redundant storage (GRS)"
+      },
+      {
+        id: "O5",
+        text: "Zone-redundant storage (ZRS)"
+      },
+      {
+        id: "O6",
+        text: "Locally-redundant storage (LRS)"
+      },
+      {
+        id: "O7",
+        text: "Read-access geo-redundant storage (RA-GRS)"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Storage Account type"
+      },
+      {
+        id: "t2",
+        text: "Redundancy"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O1",
+      "t2:O5",
     ]
   },
   {
@@ -3050,82 +4028,178 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Load Balancer"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 112,
     number: 10,
     topic: "Topic 3",
-    prompt: "HOTSPOT -\nYou have an on-premises file server that stores 2 TB of data files.\nYou plan to move the data files to Azure Blob Storage in the West Europe Azure region.\nYou need to recommend a storage account type to store the data files and a replication solution for the storage account. The solution must meet\nthe following requirements:\nco Be available if a single Azure datacenter fails\n©» Support storage tiers.\n> Minimize cost.\nWhat should you recommend? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:\nAnswer Area\nStorage Account type: v\nPremium block blobs\nStandard general-purpose v1\nStandard general-purpose v2\nRedundancy: v\nGeo-redundant storage (GRS)\nZone-redundant storage (ZRS)\nLocally-redundant storage (LRS)\nRead-access geo-redundant storage (RA-GRS)",
+    prompt: "HOTSPOT -\nYou have an on-premises file server that stores 2 TB of data files.\nYou plan to move the data files to Azure Blob Storage in the West Europe Azure region.\nYou need to recommend a storage account type to store the data files and a replication solution for the storage account. The solution must meet\nthe following requirements:\nco Be available if a single Azure datacenter fails\n©» Support storage tiers.\n> Minimize cost.\nWhat should you recommend? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Answer Area",
+    explanation: "Source answer: Storage Account type = Standard general-purpose v2; Redundancy = Zone-redundant storage (ZRS).",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "Answer Area"
-      }
+        text: "Premium block blobs"
+      },
+      {
+        id: "O2",
+        text: "Standard general-purpose v1"
+      },
+      {
+        id: "O3",
+        text: "Standard general-purpose v2"
+      },
+      {
+        id: "O4",
+        text: "Geo-redundant storage (GRS)"
+      },
+      {
+        id: "O5",
+        text: "Zone-redundant storage (ZRS)"
+      },
+      {
+        id: "O6",
+        text: "Locally-redundant storage (LRS)"
+      },
+      {
+        id: "O7",
+        text: "Read-access geo-redundant storage (RA-GRS)"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Storage Account type"
+      },
+      {
+        id: "t2",
+        text: "Redundancy"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O3",
+      "t2:O5",
     ]
   },
   {
     id: 113,
     number: 11,
     topic: "Topic 3",
-    prompt: "HOTSPOT -\nYou have an Azure web app named App1 and an Azure key vault named KV1.\nApp stores database connection strings in KV1\nApp1 performs the following types of requests to KV1:\nco Get\n© List\n> Wrap\n* Delete\nUnwrap -\nc= Backup\nco Decrypt\n=» Encrypt\nYou are evaluating the continuity of service for App1.\nYou need to identify the following if the Azure region that hosts KV1 becomes unavailable:\n=# To where will KV1 fail over?\nco During the failover, which request type will be unavailable?\nWhat should you identify? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point\nHot Area:\nAnswer Area\nTo where will KV1 fail over? v\nA server in the same availability set\nA server in the same fault domain\n/Aserver in the paired region\nA virtual machine in a scale set\nDuring the failover, which request type will be unavailable? v\nGet\nList\nWrap\n‘Delete\n‘Unwrap\nBackup\nDecrypt\nEncrypt",
+    prompt: "HOTSPOT -\nYou have an Azure web app named App1 and an Azure key vault named KV1.\nApp stores database connection strings in KV1\nApp1 performs the following types of requests to KV1:\nco Get\n© List\n> Wrap\n* Delete\nUnwrap -\nc= Backup\nco Decrypt\n=» Encrypt\nYou are evaluating the continuity of service for App1.\nYou need to identify the following if the Azure region that hosts KV1 becomes unavailable:\n=# To where will KV1 fail over?\nco During the failover, which request type will be unavailable?\nWhat should you identify? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point",
     keySource: "source",
-    explanation: "Source answer: Answer Area",
+    explanation: "Source answer: To where will KV1 fail over? = A server in the paired region; During the failover, which request type will be unavailable? = Delete.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "Answer Area"
-      }
+        text: "A server in the same availability set"
+      },
+      {
+        id: "O2",
+        text: "A server in the same fault domain"
+      },
+      {
+        id: "O3",
+        text: "A server in the paired region"
+      },
+      {
+        id: "O4",
+        text: "A virtual machine in a scale set"
+      },
+      {
+        id: "O5",
+        text: "Get"
+      },
+      {
+        id: "O6",
+        text: "List"
+      },
+      {
+        id: "O7",
+        text: "Wrap"
+      },
+      {
+        id: "O8",
+        text: "Delete"
+      },
+      {
+        id: "O9",
+        text: "Unwrap"
+      },
+      {
+        id: "O10",
+        text: "Backup"
+      },
+      {
+        id: "O11",
+        text: "Decrypt"
+      },
+      {
+        id: "O12",
+        text: "Encrypt"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "To where will KV1 fail over?"
+      },
+      {
+        id: "t2",
+        text: "During the failover, which request type will be unavailable?"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O3",
+      "t2:O8",
     ]
   },
   {
     id: 114,
     number: 12,
     topic: "Topic 3",
-    prompt: "DRAG DROP -\nYour company identifies the following business continuity and disaster recovery objectives for virtual machines that host sales, finance, and\nreporting applications in the company's on-premises data center:\nco The sales application must be able to fail over to a second on-premises data center.\n> The reporting application must be able to recover point-in-time data at a daily granularity. The RTO is eight hours.\nco The finance application requires that data be retained for seven years. In the event of a disaster, the application must be able to run from\nAzure. The recovery time objective (RTO) is 10 minutes.\nYou need to recommend which services meet the business continuity and disaster recovery objectives. The solution must minimize costs.\nWhat should you recommend for each application? To answer, drag the appropriate services to the correct applications. Each service may be used\nonce, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.\nNOTE: Each correct selection is worth one point.\nSelect and Place:\nServices Answer Area\nAzure Backup only | Sales: Service or Services\n| Azure Site Recovery and Azure Backup - -— ~\n— — EE —— Finance: Service or Services |\nAzure Site Recovery only\nReporting: Service or Services |",
+    prompt: "DRAG DROP -\nYour company identifies the following business continuity and disaster recovery objectives for virtual machines that host sales, finance, and\nreporting applications in the company's on-premises data center:\nco The sales application must be able to fail over to a second on-premises data center.\n> The reporting application must be able to recover point-in-time data at a daily granularity. The RTO is eight hours.\nco The finance application requires that data be retained for seven years. In the event of a disaster, the application must be able to run from\nAzure. The recovery time objective (RTO) is 10 minutes.\nYou need to recommend which services meet the business continuity and disaster recovery objectives. The solution must minimize costs.\nWhat should you recommend for each application? To answer, drag the appropriate services to the correct applications. Each service may be used\nonce, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Services Answer Area",
+    explanation: "Source answer: Sales = Azure Site Recovery only; Finance = Azure Site Recovery and Azure Backup; Reporting = Azure Backup only.",
     type: "drag-drop",
     options: [
       {
         id: "O1",
-        text: "Services Answer Area"
-      }
+        text: "Azure Backup only"
+      },
+      {
+        id: "O2",
+        text: "Azure Site Recovery and Azure Backup"
+      },
+      {
+        id: "O3",
+        text: "Azure Site Recovery only"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Sales"
+      },
+      {
+        id: "t2",
+        text: "Finance"
+      },
+      {
+        id: "t3",
+        text: "Reporting"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O3",
+      "t2:O2",
+      "t3:O1",
     ]
   },
   {
@@ -3152,10 +4226,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure SQL Managed Instance General Purpose"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -3182,10 +4256,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure SQL Database Hyperscale"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -3200,10 +4274,10 @@ export const az305Questions: Question[] = [
       {
         id: "A",
         text: "Yes B.No (Tm)"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -3230,10 +4304,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure SQL Database Standard"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -3242,55 +4316,96 @@ export const az305Questions: Question[] = [
     topic: "Topic 3",
     prompt: "HOTSPOT\nYou have two on-premises Microsoft SQL Server 2017 instances that host an Always On availability group named AG1. AG1 contains a single\ndatabase named DBT.\nYou have an Azure subscription that contains a virtual machine named VM1. VM1 runs Linux and contains a SQL Server 2019 instance.\nYou need to migrate DB1 to VM1. The solution must minimize downtime on DB1.\nWhat should you do? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nPrepare for the migration by: >\nAdding a secondary replica to AG1\nCreating an Always On availability group on VM1\nUpgrading the on-premises SQL Server instances\nPerform the migration by using: -\nA distributed availability group\nAzure Migrate\nLog shipping\nPrepare for the migration by: ~\nCreating an Always On availability group on VM1\nUpGTaaiTg Me OTT=Premmses Sr Server Stance",
     keySource: "source",
-    explanation: "Source answer: Perform the migration by using: >",
+    explanation: "Source answer: Prepare for the migration by = Creating an Always On availability group on VM1; Perform the migration by using = Azure Migrate.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "Perform the migration by using: >"
-      }
+        text: "Adding a secondary replica to AG1"
+      },
+      {
+        id: "O2",
+        text: "Creating an Always On availability group on VM1"
+      },
+      {
+        id: "O3",
+        text: "Upgrading the on-premises SQL Server instances"
+      },
+      {
+        id: "O4",
+        text: "A distributed availability group"
+      },
+      {
+        id: "O5",
+        text: "Azure Migrate"
+      },
+      {
+        id: "O6",
+        text: "Log shipping"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Prepare for the migration by"
+      },
+      {
+        id: "t2",
+        text: "Perform the migration by using"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O2",
+      "t2:O5",
     ]
   },
   {
     id: 120,
     number: 19,
     topic: "Topic 3",
-    prompt: "HOTSPOT -\nYou are building an Azure web app that will store the Personally Identifiable Information (PII) of employees.\nYou need to recommend an Azure SQL. Database solution for the web app. The solution must meet the following requirements:\n+ Maintain availability in the event of a single datacenter outage.\n* Support the encryption of specific columns that contain PII\n+ Automatically scale up during payroll operations.\n* Minimize costs.\nWhat should you include in the recommendations? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nAnswer Area\nService tier and computer tier: v\nBusiness Critical service tier and Serverless computer tier\nGeneral Purpose service tier and Serverless computer tier\nHyperscale service tier and Provisioned compute tier\nEncryption method: v\n[Always Encrypted\nMicrosoft SQL Server and database encryption keys\n[Transparent Data Encryption (TDE)\nAnswer Area\nService tier and computer tier: v\nBusiness Critical service tier and Serverless computer fier",
+    prompt: "HOTSPOT -\nYou are building an Azure web app that will store the Personally Identifiable Information (PII) of employees.\nYou need to recommend an Azure SQL. Database solution for the web app. The solution must meet the following requirements:\n+ Maintain availability in the event of a single datacenter outage.\n* Support the encryption of specific columns that contain PII\n+ Automatically scale up during payroll operations.\n* Minimize costs.\nWhat should you include in the recommendations? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: |General Purpose service tier and Serverless computer fier |",
+    explanation: "Source answer: Service tier and compute tier = General Purpose service tier and Serverless compute tier; Encryption method = Always Encrypted.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "|General Purpose service tier"
+        text: "Business Critical service tier and Serverless compute tier"
       },
       {
         id: "O2",
-        text: "Serverless computer fier |"
-      }
+        text: "General Purpose service tier and Serverless compute tier"
+      },
+      {
+        id: "O3",
+        text: "Hyperscale service tier and Provisioned compute tier"
+      },
+      {
+        id: "O4",
+        text: "Always Encrypted"
+      },
+      {
+        id: "O5",
+        text: "Microsoft SQL Server and database encryption keys"
+      },
+      {
+        id: "O6",
+        text: "Transparent Data Encryption (TDE)"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
+        text: "Service tier and compute tier"
       },
       {
         id: "t2",
-        text: "Blank 2"
-      }
+        text: "Encryption method"
+      },
     ],
     correct: [
-      "t1:O1",
-      "t2:O2"
+      "t1:O2",
+      "t2:O4",
     ]
   },
   {
@@ -3317,10 +4432,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Configure native MySQL replication."
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -3347,58 +4462,108 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Traffic Manager"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 123,
     number: 22,
     topic: "Topic 3",
-    prompt: "HOTSPOT\nYou have the Azure subscriptions shown in the following table.\n| Name [ Location | Azure AD tenant\nEas Us\nEast US contoso-recovery.onmicrosoft.com\nContoso.onmicrosft.com contains a user named User1.\nYou need to deploy a solution to protect against ransomware attacks. The solution must meet the following requirements:\n+ Ensure that all the resources in Sub are backed up by using Azure Backup.\n+ Require that User1 first be assigned a role for Sub2 before the user can make major changes to the backup configuration.\nWhat should you create in each subscription? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nAnswer Area\nSub1: 53\nA Recovery Services vault\nA Resource Guard\nAn Azure Site Recovery job\nMicrosoft Azure Backup Server (MABS)\nThe Microsoft Azure Recovery Services (MARS) agent\nSub2: he\nA Recovery Services vault\nA Resource Guard\nAn Azure Site Recovery job\nMicrosoft Azure Backup Server (MABS)\nThe Microsoft Azure Recovery Services (MARS) agent\nAnswer Area\nSUD: — x\nA Recovery Services vault\nA Resource Guard\nAn Azure Site Recovery job\nMicrosoft Azure Backup Server (MABS)",
+    prompt: "HOTSPOT\nYou have the Azure subscriptions shown in the following table.\n| Name [ Location | Azure AD tenant\nEas Us\nEast US contoso-recovery.onmicrosoft.com\nContoso.onmicrosft.com contains a user named User1.\nYou need to deploy a solution to protect against ransomware attacks. The solution must meet the following requirements:\n+ Ensure that all the resources in Sub are backed up by using Azure Backup.\n+ Require that User1 first be assigned a role for Sub2 before the user can make major changes to the backup configuration.\nWhat should you create in each subscription? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: The Microsoft Azure Recovery Services (MARS) agent",
+    explanation: "Source answer: Sub1 = A Recovery Services vault; Sub2 = A Resource Guard.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
+        text: "A Recovery Services vault"
+      },
+      {
+        id: "O2",
+        text: "A Resource Guard"
+      },
+      {
+        id: "O3",
+        text: "An Azure Site Recovery job"
+      },
+      {
+        id: "O4",
+        text: "Microsoft Azure Backup Server (MABS)"
+      },
+      {
+        id: "O5",
         text: "The Microsoft Azure Recovery Services (MARS) agent"
-      }
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Sub1"
+      },
+      {
+        id: "t2",
+        text: "Sub2"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O1",
+      "t2:O2",
     ]
   },
   {
     id: 124,
     number: 24,
     topic: "Topic 3",
-    prompt: "HOTSPOT\nYou plan to deploy a containerized web-app that will be hosted in five Azure Kubernetes Service (AKS) clusters. Each cluster will be hosted in a\ndifferent Azure region.\nYou need to provide access to the app from the internet. The solution must meet the following requirements:\n+ Incoming HTTPS requests must be routed to the cluster that has the lowest network latency.\n« HTTPS traffic to individual pods must be routed via an ingress controller.\n+ In the event of an AKS cluster outage, failover time must be minimized.\nWhat should you include in the solution? To answer, select the appropriate options in the answer area\nNOTE: Each correct selection is worth one point.\nAnswer Area\nFor global load balancing: ~\nAzure Front Door\nAzure Traffic Manager\nCross-region load balancing in Azure\nStandard Load Balancer\nAs the ingress controller: -\nAzure Application Gateway\nAzure Standard Load Balancer\nBasic Azure Load Balancer\nAnswer Area\nFor global load balancing: hd\nAzure Front Door,\nAzure Traffic Manager",
+    prompt: "HOTSPOT\nYou plan to deploy a containerized web-app that will be hosted in five Azure Kubernetes Service (AKS) clusters. Each cluster will be hosted in a\ndifferent Azure region.\nYou need to provide access to the app from the internet. The solution must meet the following requirements:\n+ Incoming HTTPS requests must be routed to the cluster that has the lowest network latency.\n« HTTPS traffic to individual pods must be routed via an ingress controller.\n+ In the event of an AKS cluster outage, failover time must be minimized.\nWhat should you include in the solution? To answer, select the appropriate options in the answer area\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Cross-region load balancing in Azure",
+    explanation: "Source answer: For global load balancing = Azure Front Door; As the ingress controller = Azure Application Gateway.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
+        text: "Azure Front Door"
+      },
+      {
+        id: "O2",
+        text: "Azure Traffic Manager"
+      },
+      {
+        id: "O3",
         text: "Cross-region load balancing in Azure"
-      }
+      },
+      {
+        id: "O4",
+        text: "Standard Load Balancer"
+      },
+      {
+        id: "O5",
+        text: "Azure Application Gateway"
+      },
+      {
+        id: "O6",
+        text: "Azure Standard Load Balancer"
+      },
+      {
+        id: "O7",
+        text: "Basic Azure Load Balancer"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "For global load balancing"
+      },
+      {
+        id: "t2",
+        text: "As the ingress controller"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O1",
+      "t2:O5",
     ]
   },
   {
@@ -3407,89 +4572,142 @@ export const az305Questions: Question[] = [
     topic: "Topic 3",
     prompt: "HOTSPOT -\nYou have an Azure subscription.\nYou create a storage account that will store documents.\nYou need to configure the storage account to meet the following requirements:\n- Ensure that retention policies are standardized across the subscription.\n« Ensure that data can be purged if the data is copied to an unauthorized location.\nWhich two settings should you enable? To answer, select the appropriate settings in the answer area.\nNOTE: Each correct selection is worth one point.\nRecovery\nv\n[Onin omar |\ngp [= Enable soft delete for blobs oo\nE\n~\nTracking\n~ [emerge |\n[CT bli range es |\nAccess control\n~ [J enable version-leve! immutability support\nRecovery\nMerry\n[Teubner comres|\n[bits rns |",
     keySource: "source",
-    explanation: "Source answer: id",
+    explanation: "Source answer: First setting to enable = Enable operational backup with Azure Backup; Second setting to enable = Enable permanent delete for soft deleted items.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "id"
-      }
+        text: "Enable operational backup with Azure Backup"
+      },
+      {
+        id: "O2",
+        text: "Enable permanent delete for soft deleted items"
+      },
+      {
+        id: "O3",
+        text: "Enable soft delete for blobs"
+      },
+      {
+        id: "O4",
+        text: "Enable soft delete for containers"
+      },
+      {
+        id: "O5",
+        text: "Enable version-level immutability support"
+      },
+      {
+        id: "O6",
+        text: "Enable point-in-time restore for containers"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
+        text: "First setting to enable"
       },
       {
         id: "t2",
-        text: "Blank 2"
-      }
+        text: "Second setting to enable"
+      },
     ],
     correct: [
       "t1:O1",
-      "t2:O1"
+      "t2:O2",
     ]
   },
   {
     id: 126,
     number: 26,
     topic: "Topic 3",
-    prompt: "HOTSPOT\nYou have an Azure subscription.\nYou are designing a solution for containerized apps. The solution must meet the following requirements:\n+ Automatically scale the apps by creating additional instances.\n* Minimize administrative effort to maintain nodes and clusters.\n« Ensure that containerized apps are highly available across multiple availability zones.\n+ Provide a central location for the lifecycle management and storage of container images.\nWhat should you include in the solution? To answer, select the appropriate options in the answer area\nNOTE: Each correct selection is worth one point.\nAnswer Area\nTorun the containerized apps: [ [v]\nAzure Container Apps\nAzure Container Instances\nAzure Container Registry\nAzure Kubernetes Service (AKS)\nFor the lifecycle management and storage of container images: rT]\nAzure Container Apps\nAzure Container Instances\nAzure Container Registry\nAzure Service Fabric\nAnswer Area\nTo run the containerized apps: iM\nATure Contamner Instances\nAzure Container Registry",
+    prompt: "HOTSPOT\nYou have an Azure subscription.\nYou are designing a solution for containerized apps. The solution must meet the following requirements:\n+ Automatically scale the apps by creating additional instances.\n* Minimize administrative effort to maintain nodes and clusters.\n« Ensure that containerized apps are highly available across multiple availability zones.\n+ Provide a central location for the lifecycle management and storage of container images.\nWhat should you include in the solution? To answer, select the appropriate options in the answer area\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Azure Kubernetes Service (AKS)",
+    explanation: "Source answer: To run the containerized apps = Azure Container Apps; For the lifecycle management and storage of container images = Azure Container Registry.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
+        text: "Azure Container Apps"
+      },
+      {
+        id: "O2",
+        text: "Azure Container Instances"
+      },
+      {
+        id: "O3",
+        text: "Azure Container Registry"
+      },
+      {
+        id: "O4",
         text: "Azure Kubernetes Service (AKS)"
-      }
+      },
+      {
+        id: "O5",
+        text: "Azure Service Fabric"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "To run the containerized apps"
+      },
+      {
+        id: "t2",
+        text: "For the lifecycle management and storage of container images"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O1",
+      "t2:O3",
     ]
   },
   {
     id: 127,
     number: 27,
     topic: "Topic 3",
-    prompt: "DRAG DROP\nYou plan to use Azure Storage to store data assets.\nYou need to identify the procedure to fail over a general-purpose v2 account as part of a disaster recovery plan. The solution must meet the\nfollowing requirements:\n- Apps must be able to access the storage account after a failover.\n« You must be able to fail back the storage account to the original location.\n* Downtime must be minimized.\nWhich three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and\narrange them in the correct order.\nActions Answer Area\nAfter a failover, configure geo-redundant storage (GRS)\nreplication for the storage account.\nInitiate a failover.\nBefore a failover, configure zone-redundant storage ® ®»\n(ZRS) replication for the storage account. © ©\nBefore a failover, configure geo-redundant storage\n(GRS) replication for the storage account.\nAfter a failover, configure zone-redundant storage\n(ZRS) replication for the storage account.\nAnswer Area\nBefore  tadove, configure geo redundant storage.\n(GRS)repicaton for th storage account.",
+    prompt: "DRAG DROP\nYou plan to use Azure Storage to store data assets.\nYou need to identify the procedure to fail over a general-purpose v2 account as part of a disaster recovery plan. The solution must meet the\nfollowing requirements:\n- Apps must be able to access the storage account after a failover.\n« You must be able to fail back the storage account to the original location.\n* Downtime must be minimized.\nWhich three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and\narrange them in the correct order.",
     keySource: "source",
-    explanation: "Source answer: Aft a failover, configure geo- redundant storage (GRS)",
+    explanation: "Source answer: Step 1 = Before a failover, configure geo-redundant storage (GRS) replication for the storage account; Step 2 = Initiate a failover; Step 3 = After a failover, configure geo-redundant storage (GRS) replication for the storage account.",
     type: "drag-drop",
     options: [
       {
         id: "O1",
-        text: "Aft a failover"
+        text: "After a failover, configure geo-redundant storage (GRS) replication for the storage account"
       },
       {
         id: "O2",
-        text: "configure geo- redundant storage (GRS)"
-      }
+        text: "Initiate a failover"
+      },
+      {
+        id: "O3",
+        text: "Before a failover, configure zone-redundant storage (ZRS) replication for the storage account"
+      },
+      {
+        id: "O4",
+        text: "Before a failover, configure geo-redundant storage (GRS) replication for the storage account"
+      },
+      {
+        id: "O5",
+        text: "After a failover, configure zone-redundant storage (ZRS) replication for the storage account"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
+        text: "Step 1"
       },
       {
         id: "t2",
-        text: "Blank 2"
+        text: "Step 2"
       },
       {
         id: "t3",
-        text: "Blank 3"
-      }
+        text: "Step 3"
+      },
     ],
     correct: [
-      "t1:O1",
+      "t1:O4",
       "t2:O2",
-      "t3:O2"
+      "t3:O1",
     ]
   },
   {
@@ -3516,10 +4734,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Create a hub virtual network in US East."
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -3546,10 +4764,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Functions and Azure Batch"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -3576,10 +4794,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure AD Domain Services (Azure AD DS)"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -3606,10 +4824,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Logic Apps in the integrated service environment"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -3632,34 +4850,67 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "an Azure file share and Azure File Sync"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 133,
     number: 6,
     topic: "Topic 4",
-    prompt: "HOTSPOT -\nYou have an Azure subscription named Subscription? that is linked to a hybrid Azure Active Directory (Azure AD) tenant\nYou have an on-premises datacenter that does NOT have a VPN connection to Subscription. The datacenter contains a computer named Server1\nthat has\nMicrosoft SQL Server 2016 installed. Server is prevented from accessing the internet.\nAn Azure logic app resource named LogicApp1 requires write access to a database on Server\nYou need to recommend a solution to provide LogicApp1 with the ability to access Server1.\nWhat should you recommend deploying on-premises and in Azure? To answer, select the appropriate options in the answer area\nNOTE: Each correct selection is worth one point.\nHot Area:\nAnswer Area\nonpremises: | [+]\nA Web Application Proxy for Windows Server\nAn Azure AD Application Proxy connector\nAn On-premises data gateway\nHybrid Connection Manager\nAare: [TT\nA connection gateway resource\nAn Azure Application Gateway\nAn Azure Event Grid domain\nAn enterprise application\nAnswer Area\nonpremises: | [+]\nA Web Application Proxy for Windows Server\nAn Azure AD Application Proxy connector\n‘An On-premises data gateway\nHybrid Connection Manager",
+    prompt: "HOTSPOT -\nYou have an Azure subscription named Subscription? that is linked to a hybrid Azure Active Directory (Azure AD) tenant\nYou have an on-premises datacenter that does NOT have a VPN connection to Subscription. The datacenter contains a computer named Server1\nthat has\nMicrosoft SQL Server 2016 installed. Server is prevented from accessing the internet.\nAn Azure logic app resource named LogicApp1 requires write access to a database on Server\nYou need to recommend a solution to provide LogicApp1 with the ability to access Server1.\nWhat should you recommend deploying on-premises and in Azure? To answer, select the appropriate options in the answer area\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: id =",
+    explanation: "Source answer: On-premises = An On-premises data gateway; Azure = A connection gateway resource.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "id ="
-      }
+        text: "A Web Application Proxy for Windows Server"
+      },
+      {
+        id: "O2",
+        text: "An Azure AD Application Proxy connector"
+      },
+      {
+        id: "O3",
+        text: "An On-premises data gateway"
+      },
+      {
+        id: "O4",
+        text: "Hybrid Connection Manager"
+      },
+      {
+        id: "O5",
+        text: "A connection gateway resource"
+      },
+      {
+        id: "O6",
+        text: "An Azure Application Gateway"
+      },
+      {
+        id: "O7",
+        text: "An Azure Event Grid domain"
+      },
+      {
+        id: "O8",
+        text: "An enterprise application"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "On-premises"
+      },
+      {
+        id: "t2",
+        text: "Azure"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O3",
+      "t2:O5",
     ]
   },
   {
@@ -3678,34 +4929,59 @@ export const az305Questions: Question[] = [
       {
         id: "B",
         text: "No"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 135,
     number: 8,
     topic: "Topic 4",
-    prompt: "DRAG DROP -\nYour company has an existing web app that runs on Azure virtual machines.\nYou need to ensure that the app is protected from SQL injection attempts and uses a layer-7 load balancer. The solution must minimize\ndisruptions to the code of the app.\nWhat should you recommend? To answer, drag the appropriate services to the correct targets. Each service may be used once, more than once, or\nnot at all. You may need to drag the split bar between panes or scroll to view content.\nNOTE: Each correct selection is worth one point.\nSelect and Place:\nServices Answer Area\nWeb Application Firewall (WAF) Azure service:\nAzure Application Gateway Feature:\nAzure Load Balancer\nAzure Traffic Manager\nSSL offloading\nURL-based content routing",
+    prompt: "DRAG DROP -\nYour company has an existing web app that runs on Azure virtual machines.\nYou need to ensure that the app is protected from SQL injection attempts and uses a layer-7 load balancer. The solution must minimize\ndisruptions to the code of the app.\nWhat should you recommend? To answer, drag the appropriate services to the correct targets. Each service may be used once, more than once, or\nnot at all. You may need to drag the split bar between panes or scroll to view content.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Services Answer Area",
+    explanation: "Source answer: Azure service = Azure Application Gateway; Feature = Web Application Firewall (WAF).",
     type: "drag-drop",
     options: [
       {
         id: "O1",
-        text: "Services Answer Area"
-      }
+        text: "Web Application Firewall (WAF)"
+      },
+      {
+        id: "O2",
+        text: "Azure Application Gateway"
+      },
+      {
+        id: "O3",
+        text: "Azure Load Balancer"
+      },
+      {
+        id: "O4",
+        text: "Azure Traffic Manager"
+      },
+      {
+        id: "O5",
+        text: "SSL offloading"
+      },
+      {
+        id: "O6",
+        text: "URL-based content routing"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Azure service"
+      },
+      {
+        id: "t2",
+        text: "Feature"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O2",
+      "t2:O1",
     ]
   },
   {
@@ -3732,10 +5008,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure API Management Premium tier with virtual network connection"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -3762,10 +5038,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "an Azure Functions app"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -3784,10 +5060,10 @@ export const az305Questions: Question[] = [
       {
         id: "B",
         text: "Other / unsure"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -3814,10 +5090,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "DTU-based Basic"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -3844,10 +5120,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Traffic Manager"
-      }
+      },
     ],
     correct: [
-      "C"
+      "C",
     ]
   },
   {
@@ -3874,10 +5150,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Cost Management"
-      }
+      },
     ],
     correct: [
-      "C"
+      "C",
     ]
   },
   {
@@ -3904,34 +5180,63 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Lighthouse"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 143,
     number: 16,
     topic: "Topic 4",
-    prompt: "HOTSPOT -\nYou are designing an Azure App Service web app.\nYou plan to deploy the web app to the North Europe Azure region and the West Europe Azure region.\nYou need to recommend a solution for the web app. The solution must meet the following requirements:\n©» Users must always access the web app from the North Europe region, unless the region fails.\n> The web app must be available to users if an Azure region is unavailable.\n= Deployment costs must be minimized.\nWhat should you include in the recommendation? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:\nAnswer Area\nRequest routing method: [Tv |\nA Traffic Manager profile\nAzure Application Gateway\nAzure Load Balancer\nRequest routing configuration: [~~ [+]\nCookie-based session affinity\nPerformance traffic routing\nPriority traffic routing\nWeighted traffic routing\nAnswer Area\nRequest routing method: [+\nA Traffic Manager profile\nAzure Application Gateway\nAzure Load Balancer",
+    prompt: "HOTSPOT -\nYou are designing an Azure App Service web app.\nYou plan to deploy the web app to the North Europe Azure region and the West Europe Azure region.\nYou need to recommend a solution for the web app. The solution must meet the following requirements:\n©» Users must always access the web app from the North Europe region, unless the region fails.\n> The web app must be available to users if an Azure region is unavailable.\n= Deployment costs must be minimized.\nWhat should you include in the recommendation? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Request routing configuration: [~~ [+]",
+    explanation: "Source answer: Request routing method = A Traffic Manager profile; Request routing configuration = Priority traffic routing.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "Request routing configuration: [~~ [+]"
-      }
+        text: "A Traffic Manager profile"
+      },
+      {
+        id: "O2",
+        text: "Azure Application Gateway"
+      },
+      {
+        id: "O3",
+        text: "Azure Load Balancer"
+      },
+      {
+        id: "O4",
+        text: "Cookie-based session affinity"
+      },
+      {
+        id: "O5",
+        text: "Performance traffic routing"
+      },
+      {
+        id: "O6",
+        text: "Priority traffic routing"
+      },
+      {
+        id: "O7",
+        text: "Weighted traffic routing"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Request routing method"
+      },
+      {
+        id: "t2",
+        text: "Request routing configuration"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O1",
+      "t2:O6",
     ]
   },
   {
@@ -3946,10 +5251,10 @@ export const az305Questions: Question[] = [
       {
         id: "A",
         text: "Yes Bo"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -3964,10 +5269,10 @@ export const az305Questions: Question[] = [
       {
         id: "A",
         text: "Yes Bo"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -3982,91 +5287,170 @@ export const az305Questions: Question[] = [
       {
         id: "A",
         text: "Yes B.No (vor)"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 147,
     number: 20,
     topic: "Topic 4",
-    prompt: "HOTSPOT -\nYour company has two on-premises sites in New York and Los Angeles and Azure virtual networks in the East US Azure region and the West US\nAzure region.\nEach on-premises site has ExpressRoute Global Reach circuits to both regions.\nYou need to recommend a solution that meets the following requirements:\n=» Outbound traffic to the internet from workloads hosted on the virtual networks must be routed through the closest available on-premises site.\n== If an on-premises site fails, traffic from the workloads on the virtual networks to the internet must reroute automatically to the other site.\nWhat should you include in the recommendation? To answer, select the appropriate options in the answer area\nNOTE: Each correct selection is worth one point.\nHot Area:\nAnswer Area\nRouting from the virtual networks to the on-premises\nlocations must be configured by using: v\n|Azure default routes\n|Border Gateway Protocol (BGP)\n|User-defined routes\nThe automatic routing configuration following a\nfailover must be handled by using: v\nBorder Gateway Protocol BGP) |\nHot Standby Routing Protocol (HSRP)\nVirtual Router Redundancy Protocol (VRRP)",
+    prompt: "HOTSPOT -\nYour company has two on-premises sites in New York and Los Angeles and Azure virtual networks in the East US Azure region and the West US\nAzure region.\nEach on-premises site has ExpressRoute Global Reach circuits to both regions.\nYou need to recommend a solution that meets the following requirements:\n=» Outbound traffic to the internet from workloads hosted on the virtual networks must be routed through the closest available on-premises site.\n== If an on-premises site fails, traffic from the workloads on the virtual networks to the internet must reroute automatically to the other site.\nWhat should you include in the recommendation? To answer, select the appropriate options in the answer area\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Answer Area",
+    explanation: "Source answer: Routing from the virtual networks to the on-premises locations must be configured by using = Border Gateway Protocol (BGP); The automatic routing configuration following a failover must be handled by using = Border Gateway Protocol (BGP).",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "Answer Area"
-      }
+        text: "Azure default routes"
+      },
+      {
+        id: "O2",
+        text: "Border Gateway Protocol (BGP)"
+      },
+      {
+        id: "O3",
+        text: "User-defined routes"
+      },
+      {
+        id: "O4",
+        text: "Hot Standby Routing Protocol (HSRP)"
+      },
+      {
+        id: "O5",
+        text: "Virtual Router Redundancy Protocol (VRRP)"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Routing from the virtual networks to the on-premises locations must be configured by using"
+      },
+      {
+        id: "t2",
+        text: "The automatic routing configuration following a failover must be handled by using"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O2",
+      "t2:O2",
     ]
   },
   {
     id: 148,
     number: 21,
     topic: "Topic 4",
-    prompt: "HOTSPOT -\nYou are designing an application that will use Azure Linux virtual machines to analyze video files. The files will be uploaded from corporate offices\nthat connect to\nAzure by using ExpressRoute.\nYou plan to provision an Azure Storage account to host the files.\nYou need to ensure that the storage account meets the following requirements:\n= Supports video files of upto 7 TB\nco Provides the highest availability possible\n= Ensures that storage is optimized for the large video files\n> Ensures that files from the on-premises network are uploaded by using ExpressRoute\nHow should you configure the storage account? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:\nAnswer Area\nStorage account type: v\n|Premium files shares\nPremium page blobs\n|Standard general-purpose v2\nData redundancy: “\nZone-redundant storage (ZRS)\nLocally-redundant storage (LRS)\nGeo-redundant storage (GRS)\nNetworking: v\n(Azure Route Server\n| A private endpoint\n|A service endpoint\nAnswer Area\nStorage account type: v\n|Premium files shares\n‘Premium page blobs\nStandard general-purpose v2\nData redundancy: v",
+    prompt: "HOTSPOT -\nYou are designing an application that will use Azure Linux virtual machines to analyze video files. The files will be uploaded from corporate offices\nthat connect to\nAzure by using ExpressRoute.\nYou plan to provision an Azure Storage account to host the files.\nYou need to ensure that the storage account meets the following requirements:\n= Supports video files of upto 7 TB\nco Provides the highest availability possible\n= Ensures that storage is optimized for the large video files\n> Ensures that files from the on-premises network are uploaded by using ExpressRoute\nHow should you configure the storage account? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Zone-redundant storage (ZRS)",
+    explanation: "Source answer: Storage account type = Standard general-purpose v2; Data redundancy = Geo-redundant storage (GRS); Networking = A private endpoint.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
+        text: "Premium files shares"
+      },
+      {
+        id: "O2",
+        text: "Premium page blobs"
+      },
+      {
+        id: "O3",
+        text: "Standard general-purpose v2"
+      },
+      {
+        id: "O4",
         text: "Zone-redundant storage (ZRS)"
-      }
+      },
+      {
+        id: "O5",
+        text: "Locally-redundant storage (LRS)"
+      },
+      {
+        id: "O6",
+        text: "Geo-redundant storage (GRS)"
+      },
+      {
+        id: "O7",
+        text: "Azure Route Server"
+      },
+      {
+        id: "O8",
+        text: "A private endpoint"
+      },
+      {
+        id: "O9",
+        text: "A service endpoint"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Storage account type"
+      },
+      {
+        id: "t2",
+        text: "Data redundancy"
+      },
+      {
+        id: "t3",
+        text: "Networking"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O3",
+      "t2:O6",
+      "t3:O8",
     ]
   },
   {
     id: 149,
     number: 22,
     topic: "Topic 4",
-    prompt: "HOTSPOT -\nA company plans to implement an HTTP-based API to support a web app. The web app allows customers to check the status of their orders.\nThe API must meet the following requirements:\n=> Implement Azure Functions.\n=» Provide public read-only operations.\nco Prevent write operations.\nYou need to recommend which HTTP methods and authorization level to configure.\nWhat should you recommend? To answer, configure the appropriate options in the dialog box in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:\nAnswer Area\nHTTP methods: v\nAPI methods\nGETonly\nGET and POST only\nGET, POST, and OPTIONS only\nAuthorization level: v\nFunction\nAnonymous\nAdmin\nAnswer Area\nHTTP methods: v\nAPI methods\n(GETenly",
+    prompt: "HOTSPOT -\nA company plans to implement an HTTP-based API to support a web app. The web app allows customers to check the status of their orders.\nThe API must meet the following requirements:\n=> Implement Azure Functions.\n=» Provide public read-only operations.\nco Prevent write operations.\nYou need to recommend which HTTP methods and authorization level to configure.\nWhat should you recommend? To answer, configure the appropriate options in the dialog box in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: GET and POST only",
+    explanation: "Source answer: HTTP methods = GET only; Authorization level = Anonymous.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "GET"
+        text: "GET only"
       },
       {
         id: "O2",
-        text: "POST only"
-      }
+        text: "GET and POST only"
+      },
+      {
+        id: "O3",
+        text: "GET, POST, and OPTIONS only"
+      },
+      {
+        id: "O4",
+        text: "Function"
+      },
+      {
+        id: "O5",
+        text: "Anonymous"
+      },
+      {
+        id: "O6",
+        text: "Admin"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
+        text: "HTTP methods"
       },
       {
         id: "t2",
-        text: "Blank 2"
-      }
+        text: "Authorization level"
+      },
     ],
     correct: [
       "t1:O1",
-      "t2:O2"
+      "t2:O5",
     ]
   },
   {
@@ -4093,34 +5477,51 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "role-based access control (RBAC)"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 151,
     number: 24,
     topic: "Topic 4",
-    prompt: "DRAG DROP -\nYou have an on-premises network that uses an IP address space of 172.16.0.0/16.\nYou plan to deploy 30 virtual machines to a new Azure subscription.\nYou identify the following technical requirements:\n=» All Azure virtual machines must be placed on the same subnet named Subnet1.\nc= All the Azure virtual machines must be able to communicate with all on-premises servers.\n5 The servers must be able to communicate between the on-premises network and Azure by using a site-to-site VPN.\nYou need to recommend a subnet design that meets the technical requirements.\nWhat should you include in the recommendation? To answer, drag the appropriate network addresses to the correct subnets. Each network\naddress may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.\nNOTE: Each correct selection is worth one point.\nSelect and Place:\nNetwork Addresses | Answer Area\n172.16.0.0/16 ee\nSubnet: | i\n172.16.1.0/27 ad\n192.168.0.0/24 Gateway subnet: | i\n192.168.1.0/27",
+    prompt: "DRAG DROP -\nYou have an on-premises network that uses an IP address space of 172.16.0.0/16.\nYou plan to deploy 30 virtual machines to a new Azure subscription.\nYou identify the following technical requirements:\n=» All Azure virtual machines must be placed on the same subnet named Subnet1.\nc= All the Azure virtual machines must be able to communicate with all on-premises servers.\n5 The servers must be able to communicate between the on-premises network and Azure by using a site-to-site VPN.\nYou need to recommend a subnet design that meets the technical requirements.\nWhat should you include in the recommendation? To answer, drag the appropriate network addresses to the correct subnets. Each network\naddress may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Network Addresses | Answer Area",
+    explanation: "Source answer: Subnet1 = 192.168.0.0/24; Gateway subnet = 192.168.1.0/27.",
     type: "drag-drop",
     options: [
       {
         id: "O1",
-        text: "Network Addresses | Answer Area"
-      }
+        text: "172.16.0.0/16"
+      },
+      {
+        id: "O2",
+        text: "172.16.1.0/27"
+      },
+      {
+        id: "O3",
+        text: "192.168.0.0/24"
+      },
+      {
+        id: "O4",
+        text: "192.168.1.0/27"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Subnet1"
+      },
+      {
+        id: "t2",
+        text: "Gateway subnet"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O3",
+      "t2:O4",
     ]
   },
   {
@@ -4147,10 +5548,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Data Box Gateway"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -4177,34 +5578,59 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "horizontal pod autoscaler"
-      }
+      },
     ],
     correct: [
-      "C"
+      "C",
     ]
   },
   {
     id: 154,
     number: 27,
     topic: "Topic 4",
-    prompt: "HOTSPOT -\nYour on-premises network contains a file server named Server? that stores 500 GB of data.\nYou need to use Azure Data Factory to copy the data from Server to Azure Storage.\nYou add a new data factory.\nWhat should you do next? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point\nHot Area:\nAnswer Area\nFrom Server1: v\nInstall an Azure File Sync agent.\nInstall a self-hosted integration runtime.\nInstall the File Server Resource Manager role service.\nFrom the data factory: v\nCreate apipeline.\nCreate an Azure Import/Export job.\nProvision an Azure-SQL Server Integration Services (SSIS) integration runtime.",
+    prompt: "HOTSPOT -\nYour on-premises network contains a file server named Server? that stores 500 GB of data.\nYou need to use Azure Data Factory to copy the data from Server to Azure Storage.\nYou add a new data factory.\nWhat should you do next? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point",
     keySource: "source",
-    explanation: "Source answer: Answer Area",
+    explanation: "Source answer: From Server1 = Install a self-hosted integration runtime; From the data factory = Create a pipeline.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "Answer Area"
-      }
+        text: "Install an Azure File Sync agent"
+      },
+      {
+        id: "O2",
+        text: "Install a self-hosted integration runtime"
+      },
+      {
+        id: "O3",
+        text: "Install the File Server Resource Manager role service"
+      },
+      {
+        id: "O4",
+        text: "Create a pipeline"
+      },
+      {
+        id: "O5",
+        text: "Create an Azure Import/Export job"
+      },
+      {
+        id: "O6",
+        text: "Provision an Azure-SSIS integration runtime"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "From Server1"
+      },
+      {
+        id: "t2",
+        text: "From the data factory"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O2",
+      "t2:O4",
     ]
   },
   {
@@ -4231,10 +5657,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Virtual Kubelet"
-      }
+      },
     ],
     correct: [
-      "C"
+      "C",
     ]
   },
   {
@@ -4261,10 +5687,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "an Azure Event Hubs capture"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -4291,10 +5717,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "SQL Server Migration Assistant (SSMA)"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -4321,10 +5747,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "the Azure File Sync agent"
-      }
+      },
     ],
     correct: [
-      "C"
+      "C",
     ]
   },
   {
@@ -4355,11 +5781,11 @@ export const az305Questions: Question[] = [
       {
         id: "E",
         text: "Conditional Access policies (ios Voied)"
-      }
+      },
     ],
     correct: [
       "C",
-      "E"
+      "E",
     ]
   },
   {
@@ -4386,10 +5812,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Blueprints remain connected to the deployed resources."
-      }
+      },
     ],
     correct: [
-      "D"
+      "D",
     ]
   },
   {
@@ -4416,34 +5842,59 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Load Balancer"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 162,
     number: 36,
     topic: "Topic 4",
-    prompt: "HOTSPOT -\nYou have the Azure resources shown in the following table.\n[Name | Type | Description |\nVNET1 Virtual network Connected to an on-premises network by using\nExpressRoute\nVirtual machine Configured as a DNS server\nSQLDB1 Azure SQL Single instance\nDatabase\n[PET [Private endpoint Provides connectivity to SQLDB1\ncontoso.com | Private DNS zone | Linked to VNET1 and contains an A record for\nPE1\nPublic DNS zone | Contains a C NAME record for SQLDB1\nYou need to design a solution that provides on-premises network connectivity to SQLDB1 through PE1\nHow should you configure name resolution? To answer select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:\nAnswer Area\nAzure configuration - 71]\nConfigure VM1 to forward contoso.com to the public DNS zone\nConfigure VM1 to forward contoso.com to the Azure-provided DNS at 168.63.129.16\nIn VNet1, configure a custom DNS server set to the Azure provided DNS at 168.63.129.16\nOn-premises DNS configuration [—— v|\nForward contoso.com to VM1\nForward contoso.com to the public DNS zone\nForward contoso.com to the Azure-provisioned DNS at 168.63.129.16",
+    prompt: "HOTSPOT -\nYou have the Azure resources shown in the following table.\n[Name | Type | Description |\nVNET1 Virtual network Connected to an on-premises network by using\nExpressRoute\nVirtual machine Configured as a DNS server\nSQLDB1 Azure SQL Single instance\nDatabase\n[PET [Private endpoint Provides connectivity to SQLDB1\ncontoso.com | Private DNS zone | Linked to VNET1 and contains an A record for\nPE1\nPublic DNS zone | Contains a C NAME record for SQLDB1\nYou need to design a solution that provides on-premises network connectivity to SQLDB1 through PE1\nHow should you configure name resolution? To answer select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Answer Area",
+    explanation: "Source answer: Azure configuration = Configure VM1 to forward contoso.com to the Azure-provided DNS at 168.63.129.16; On-premises DNS configuration = Forward contoso.com to VM1.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "Answer Area"
-      }
+        text: "Configure VM1 to forward contoso.com to the public DNS zone"
+      },
+      {
+        id: "O2",
+        text: "Configure VM1 to forward contoso.com to the Azure-provided DNS at 168.63.129.16"
+      },
+      {
+        id: "O3",
+        text: "In VNet1, configure a custom DNS server set to the Azure-provided DNS at 168.63.129.16"
+      },
+      {
+        id: "O4",
+        text: "Forward contoso.com to VM1"
+      },
+      {
+        id: "O5",
+        text: "Forward contoso.com to the public DNS zone"
+      },
+      {
+        id: "O6",
+        text: "Forward contoso.com to the Azure-provisioned DNS at 168.63.129.16"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Azure configuration"
+      },
+      {
+        id: "t2",
+        text: "On-premises DNS configuration"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O2",
+      "t2:O4",
     ]
   },
   {
@@ -4470,10 +5921,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure virtual machine scale set"
-      }
+      },
     ],
     correct: [
-      "C"
+      "C",
     ]
   },
   {
@@ -4488,10 +5939,10 @@ export const az305Questions: Question[] = [
       {
         id: "B",
         text: "No"
-      }
+      },
     ],
     correct: [
-      "B"
+      "B",
     ]
   },
   {
@@ -4518,10 +5969,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Monitor action groups"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -4548,10 +5999,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "role-based access control (RBAC)"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -4578,10 +6029,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Blob Storage"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -4608,10 +6059,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Database Migration Service"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -4638,10 +6089,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Cosmos DB"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -4668,10 +6119,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "premium file shares"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -4698,82 +6149,121 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "an Azure SQL database that uses active geo-replication"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 172,
     number: 46,
     topic: "Topic 4",
-    prompt: "HOTSPOT -\nYou are designing a software as a service (SaaS) application that will enable Azure Active Directory (Azure AD) users to create and publish online\nsurveys. The\nSaas application will have a front-end web app and a back-end web API. The web app will rely on the web API to handle updates to customer\nsurveys.\nYou need to design an authorization flow for the Saa$ application. The solution must meet the following requirements:\n=> To access the back-end web API, the web app must authenticate by using OAuth 2 bearer tokens.\nco The web app must authenticate by using the identities of individual users.\nWhat should you include in the solution? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point\nHot Area:\nAnswer Area\nThe access tokens will be generated by: ¥.\nAzure AD\nA web app\nA web API\nAuthorization decisions will be performed by: v\nAzure AD\nAwebapp\nA web API\nAnswer Area\nThe access tokens will be generated by: ¥.\nZur D\nA web app\nA |",
+    prompt: "HOTSPOT -\nYou are designing a software as a service (SaaS) application that will enable Azure Active Directory (Azure AD) users to create and publish online\nsurveys. The\nSaas application will have a front-end web app and a back-end web API. The web app will rely on the web API to handle updates to customer\nsurveys.\nYou need to design an authorization flow for the Saa$ application. The solution must meet the following requirements:\n=> To access the back-end web API, the web app must authenticate by using OAuth 2 bearer tokens.\nco The web app must authenticate by using the identities of individual users.\nWhat should you include in the solution? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point",
     keySource: "source",
-    explanation: "Source answer: web AP!",
+    explanation: "Source answer: The access tokens will be generated by = Azure AD; Authorization decisions will be performed by = A web API.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "web AP!"
-      }
+        text: "Azure AD"
+      },
+      {
+        id: "O2",
+        text: "A web app"
+      },
+      {
+        id: "O3",
+        text: "A web API"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "The access tokens will be generated by"
+      },
+      {
+        id: "t2",
+        text: "Authorization decisions will be performed by"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O1",
+      "t2:O3",
     ]
   },
   {
     id: 173,
     number: 47,
     topic: "Topic 4",
-    prompt: "HOTSPOT -\nYou plan to create an Azure environment that will contain a root management group and 10 child management groups. Each child management\ngroup will contain five Azure subscriptions. You plan to have between 10 and 30 resource groups in each subscription.\nYou need to design an Azure governance solution. The solution must meet the following requirements:\n=> Use Azure Blueprints to control governance across all the subscriptions and resource groups.\n=> Ensure that Blueprints-based configurations are consistent across all the subscriptions and resource groups.\n== Minimize the number of blueprint definitions and assignments.\nWhat should you include in the solution? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:\nAnswer Area\nLevel at which to define the blueprints: -\nThe child management groups\nThe root management group\nThe subscriptions\nLevel at which to create the blueprint assignments: 2\nThe child management groups\nThe root management group\nThe subscriptions",
+    prompt: "HOTSPOT -\nYou plan to create an Azure environment that will contain a root management group and 10 child management groups. Each child management\ngroup will contain five Azure subscriptions. You plan to have between 10 and 30 resource groups in each subscription.\nYou need to design an Azure governance solution. The solution must meet the following requirements:\n=> Use Azure Blueprints to control governance across all the subscriptions and resource groups.\n=> Ensure that Blueprints-based configurations are consistent across all the subscriptions and resource groups.\n== Minimize the number of blueprint definitions and assignments.\nWhat should you include in the solution? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Answer Area",
+    explanation: "Source answer: Level at which to define the blueprints = The root management group; Level at which to create the blueprint assignments = The subscriptions.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "Answer Area"
-      }
+        text: "The child management groups"
+      },
+      {
+        id: "O2",
+        text: "The root management group"
+      },
+      {
+        id: "O3",
+        text: "The subscriptions"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Level at which to define the blueprints"
+      },
+      {
+        id: "t2",
+        text: "Level at which to create the blueprint assignments"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O2",
+      "t2:O3",
     ]
   },
   {
     id: 174,
     number: 48,
     topic: "Topic 4",
-    prompt: "DRAG DROP -\nYou are designing a virtual machine that will run Microsoft SQL Server and contain two data disks. The first data disk will store log files, and the\nsecond data disk will store data. Both disks are P40 managed disks.\nYou need to recommend a host caching method for each disk. The method must provide the best overall performance for the virtual machine\n‘while preserving the integrity of the SQL data and logs.\nWhich host caching method should you recommend for each disk? To answer, drag the appropriate methods to the correct disks. Each method\nmay be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.\nNOTE: Each correct selection is worth one point.\nSelect and Place:\nMethods Answer Area\nNone log: | Method\n|\nData: Method\nReadWrite",
+    prompt: "DRAG DROP -\nYou are designing a virtual machine that will run Microsoft SQL Server and contain two data disks. The first data disk will store log files, and the\nsecond data disk will store data. Both disks are P40 managed disks.\nYou need to recommend a host caching method for each disk. The method must provide the best overall performance for the virtual machine\n‘while preserving the integrity of the SQL data and logs.\nWhich host caching method should you recommend for each disk? To answer, drag the appropriate methods to the correct disks. Each method\nmay be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Methods Answer Area",
+    explanation: "Source answer: Log disk = None; Data disk = ReadOnly.",
     type: "drag-drop",
     options: [
       {
         id: "O1",
-        text: "Methods Answer Area"
-      }
+        text: "None"
+      },
+      {
+        id: "O2",
+        text: "ReadOnly"
+      },
+      {
+        id: "O3",
+        text: "ReadWrite"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Log disk"
+      },
+      {
+        id: "t2",
+        text: "Data disk"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O1",
+      "t2:O2",
     ]
   },
   {
@@ -4804,11 +6294,11 @@ export const az305Questions: Question[] = [
       {
         id: "E",
         text: "Enable parallel task execution on compute nodes."
-      }
+      },
     ],
     correct: [
       "D",
-      "E"
+      "E",
     ]
   },
   {
@@ -4835,34 +6325,59 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure SQL Managed Instance"
-      }
+      },
     ],
     correct: [
-      "B"
+      "B",
     ]
   },
   {
     id: 177,
     number: 51,
     topic: "Topic 4",
-    prompt: "HOTSPOT -\nYou plan to migrate on-premises Microsoft SQL Server databases to Azure.\nYou need to recommend a deployment and resiliency solution that meets the following requirements:\nc= Supports user-initiated backups\n> Supports multiple automatically replicated instances across Azure regions\n=» Minimizes administrative effort to implement and maintain business continuity\nWhat should you recommend? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:\nAnswer Area\nDeployment solution: hd\nAzure SQL Managed Instance\nSQL Server on Azure Virtual Machines\nAn Azure SQL Database single database\nResiliency solution: v\nAuto-failover group\nActive geo-replication\nZone-redundant deployment\nAnswer Area\nDeployment solution: w\nAzure SQL Managed Instance\nSQL Server on Azure Virtual Machines\nAn Azure SQL Database single database",
+    prompt: "HOTSPOT -\nYou plan to migrate on-premises Microsoft SQL Server databases to Azure.\nYou need to recommend a deployment and resiliency solution that meets the following requirements:\nc= Supports user-initiated backups\n> Supports multiple automatically replicated instances across Azure regions\n=» Minimizes administrative effort to implement and maintain business continuity\nWhat should you recommend? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Resiliency solution: v",
+    explanation: "Source answer: Deployment solution = Azure SQL Managed Instance; Resiliency solution = Auto-failover group.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "Resiliency solution: v"
-      }
+        text: "Azure SQL Managed Instance"
+      },
+      {
+        id: "O2",
+        text: "SQL Server on Azure Virtual Machines"
+      },
+      {
+        id: "O3",
+        text: "An Azure SQL Database single database"
+      },
+      {
+        id: "O4",
+        text: "Auto-failover group"
+      },
+      {
+        id: "O5",
+        text: "Active geo-replication"
+      },
+      {
+        id: "O6",
+        text: "Zone-redundant deployment"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Deployment solution"
+      },
+      {
+        id: "t2",
+        text: "Resiliency solution"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O1",
+      "t2:O4",
     ]
   },
   {
@@ -4889,10 +6404,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure SQL Database Serverless"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -4919,10 +6434,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "the same geography only (ost voted)"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -4949,10 +6464,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "an Always On Failover Cluster Instance that has a virtual network name (VNN) and a premium file share"
-      }
+      },
     ],
     correct: [
-      "C"
+      "C",
     ]
   },
   {
@@ -4967,10 +6482,10 @@ export const az305Questions: Question[] = [
       {
         id: "A",
         text: "Yes 8. No (Tm)"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -4985,10 +6500,10 @@ export const az305Questions: Question[] = [
       {
         id: "A",
         text: "Yes 8. No (Tm)"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -5007,10 +6522,10 @@ export const az305Questions: Question[] = [
       {
         id: "B",
         text: "Other / unsure"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -5037,10 +6552,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "In two Azure regions, deploy an Azure Traffic Manager profile and a web app."
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -5067,10 +6582,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Cache for Redis"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -5097,10 +6612,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "a resource token and an Access control (IAM) role assignment"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -5127,34 +6642,59 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "a premium storage account that is configured for file shares and supports large file shares"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 188,
     number: 62,
     topic: "Topic 4",
-    prompt: "HOTSPOT -\nYou manage a database environment for a Microsoft Volume Licensing customer named Contoso, Ltd. Contoso uses License Mobility through\nSoftware\nAssurance.\nYou need to deploy 50 databases. The solution must meet the following requirements:\n= Support automatic scaling.\n=> Minimize Microsoft SQL Server licensing costs.\nWhat should you include in the solution? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:\nAnswer Area\nPurchase model:\nDTU\nvCore\nAzure reserved virtual machine instances\nDeployment option:\nAn Azure SQL managed instance\nAn Azure SQL Database elastic pool\nA SQL Server Always On availability group\nAnswer Area\nPurchase model:",
+    prompt: "HOTSPOT -\nYou manage a database environment for a Microsoft Volume Licensing customer named Contoso, Ltd. Contoso uses License Mobility through\nSoftware\nAssurance.\nYou need to deploy 50 databases. The solution must meet the following requirements:\n= Support automatic scaling.\n=> Minimize Microsoft SQL Server licensing costs.\nWhat should you include in the solution? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Azure reserved virtual machine instances",
+    explanation: "Source answer: Purchase model = vCore; Deployment option = An Azure SQL Database elastic pool.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
+        text: "DTU"
+      },
+      {
+        id: "O2",
+        text: "vCore"
+      },
+      {
+        id: "O3",
         text: "Azure reserved virtual machine instances"
-      }
+      },
+      {
+        id: "O4",
+        text: "An Azure SQL managed instance"
+      },
+      {
+        id: "O5",
+        text: "An Azure SQL Database elastic pool"
+      },
+      {
+        id: "O6",
+        text: "A SQL Server Always On availability group"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Purchase model"
+      },
+      {
+        id: "t2",
+        text: "Deployment option"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O2",
+      "t2:O5",
     ]
   },
   {
@@ -5185,44 +6725,48 @@ export const az305Questions: Question[] = [
       {
         id: "E",
         text: "Azure Data Factory (Host voted)"
-      }
+      },
     ],
     correct: [
       "C",
-      "E"
+      "E",
     ]
   },
   {
     id: 190,
     number: 64,
     topic: "Topic 4",
-    prompt: "HOTSPOT -\nYou are designing a cost-optimized solution that uses Azure Batch to run two types of jobs on Linux nodes. The first job type will consist of short-\nrunning tasks for a development environment. The second job type will consist of long-running Message Passing Interface (MPI) applications for\na production environment that requires timely job completion.\nYou need to recommend the pool type and node type for each job type. The solution must minimize compute charges and leverage Azure Hybrid\nBenefit whenever possible.\nWhat should you recommend? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:\nAnswer Area\nFirst job: v\nBatch service and dedicated virtual machines\nUser subscription and dedicated virtual machines\nUser subscription and low-priority virtual machines\nSecond job: 2\nBatch service and dedicated virtual machines\nUser subscription and dedicated virtual machines\nUser subscription and low-priority virtual machines\nAnswer Area\nFirst job: D2\nBatch service and dedicated virtual machines\nUser subscription and dedicated virtual machines",
+    prompt: "HOTSPOT -\nYou are designing a cost-optimized solution that uses Azure Batch to run two types of jobs on Linux nodes. The first job type will consist of short-\nrunning tasks for a development environment. The second job type will consist of long-running Message Passing Interface (MPI) applications for\na production environment that requires timely job completion.\nYou need to recommend the pool type and node type for each job type. The solution must minimize compute charges and leverage Azure Hybrid\nBenefit whenever possible.\nWhat should you recommend? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: [User subscription and low-priority virtual machines |",
+    explanation: "Source answer: First job (short-running, development) = User subscription and low-priority virtual machines; Second job (long-running MPI, production) = Batch service and dedicated virtual machines.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "[User subscription"
+        text: "Batch service and dedicated virtual machines"
       },
       {
         id: "O2",
-        text: "low-priority virtual machines |"
-      }
+        text: "User subscription and dedicated virtual machines"
+      },
+      {
+        id: "O3",
+        text: "User subscription and low-priority virtual machines"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
+        text: "First job (short-running, development)"
       },
       {
         id: "t2",
-        text: "Blank 2"
-      }
+        text: "Second job (long-running MPI, production)"
+      },
     ],
     correct: [
-      "t1:O1",
-      "t2:O2"
+      "t1:O3",
+      "t2:O1",
     ]
   },
   {
@@ -5249,10 +6793,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Data Lake"
-      }
+      },
     ],
     correct: [
-      "C"
+      "C",
     ]
   },
   {
@@ -5279,10 +6823,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Application Gateway"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -5309,10 +6853,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure SQL Database Standard"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -5339,10 +6883,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Blob Storage"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -5369,10 +6913,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure SQL Managed Instance Business Critical"
-      }
+      },
     ],
     correct: [
-      "C"
+      "C",
     ]
   },
   {
@@ -5399,10 +6943,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "cluster autoscaler (ost Voted)"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -5429,10 +6973,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Application Gateway"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -5459,10 +7003,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Route Server and Azure Network Function Manager"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -5489,10 +7033,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure SQL Managed Instance General Purpose"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -5515,34 +7059,47 @@ export const az305Questions: Question[] = [
       {
         id: "C",
         text: "a personal access token"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 201,
     number: 75,
     topic: "Topic 4",
-    prompt: "HOTSPOT\nYou have two Azure AD tenants named contoso.com and fabrikam.com. Each tenant is linked to 50 Azure subscriptions. Contoso.com contains\ntwo users named User and User2.\nYou need to meet the following requirements:\n+ Ensure that User1 can change the Azure AD tenant linked to specific Azure subscriptions.\n« If an Azure subscription is liked to a new Azure AD tenant, and no available Azure AD accounts have full subscription-level permissions to the\nsubscription, elevate the access of User? to the subscription.\nThe solution must use the principle of least privilege.\nWhich role should you assign to each user? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nAnswer Area\nUser1: v\nCo-administrator\nOwner\nService administrator\nUser2 v\nCo-adminisrator\nOwner\nService administrator\nAnswer Area\nUser: v\n| Co-administrator",
+    prompt: "HOTSPOT\nYou have two Azure AD tenants named contoso.com and fabrikam.com. Each tenant is linked to 50 Azure subscriptions. Contoso.com contains\ntwo users named User and User2.\nYou need to meet the following requirements:\n+ Ensure that User1 can change the Azure AD tenant linked to specific Azure subscriptions.\n« If an Azure subscription is liked to a new Azure AD tenant, and no available Azure AD accounts have full subscription-level permissions to the\nsubscription, elevate the access of User? to the subscription.\nThe solution must use the principle of least privilege.\nWhich role should you assign to each user? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: [Owner ]",
+    explanation: "Source answer: User1 = Owner; User2 = Owner.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "[Owner ]"
-      }
+        text: "Co-administrator"
+      },
+      {
+        id: "O2",
+        text: "Owner"
+      },
+      {
+        id: "O3",
+        text: "Service administrator"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "User1"
+      },
+      {
+        id: "t2",
+        text: "User2"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O2",
+      "t2:O2",
     ]
   },
   {
@@ -5569,10 +7126,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Configure Azure AD Identity Protection."
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -5599,10 +7156,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Synapse Analytics"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -5629,10 +7186,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Front Door Premium"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -5659,34 +7216,59 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "storage queues with a stored access policy"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 206,
     number: 80,
     topic: "Topic 4",
-    prompt: "HOTSPOT\nYou need to deploy an instance of SQL Server on Azure Virtual Machines. The solution must meet the following requirements:\n+ Support 15,000 disk I0PS.\n+ Support SR-0V.\n* Minimize costs.\nWhat should you include in the solution? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nAnswer Area\nVirtual machine series: v\nDS\nINC\nINV.\nDisk type: v\nStandard SSD\nPremium SSD\nUttra Disk\nAnswer Area\nVirtual machine series: v",
+    prompt: "HOTSPOT\nYou need to deploy an instance of SQL Server on Azure Virtual Machines. The solution must meet the following requirements:\n+ Support 15,000 disk I0PS.\n+ Support SR-0V.\n* Minimize costs.\nWhat should you include in the solution? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Disk type: v",
+    explanation: "Source answer: Virtual machine series = DSv2-series; Disk type = Premium SSD.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "Disk type: v"
-      }
+        text: "DSv2-series"
+      },
+      {
+        id: "O2",
+        text: "Lsv2-series"
+      },
+      {
+        id: "O3",
+        text: "Mv2-series"
+      },
+      {
+        id: "O4",
+        text: "Standard SSD"
+      },
+      {
+        id: "O5",
+        text: "Premium SSD"
+      },
+      {
+        id: "O6",
+        text: "Ultra Disk"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Virtual machine series"
+      },
+      {
+        id: "t2",
+        text: "Disk type"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O1",
+      "t2:O5",
     ]
   },
   {
@@ -5713,10 +7295,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Premium"
-      }
+      },
     ],
     correct: [
-      "D"
+      "D",
     ]
   },
   {
@@ -5743,10 +7325,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Traffic Manager"
-      }
+      },
     ],
     correct: [
-      "C"
+      "C",
     ]
   },
   {
@@ -5769,10 +7351,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Traffic Manager"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -5799,10 +7381,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure SQL Managed Instance General Purpose"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -5829,34 +7411,59 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure SQL Managed Instance General Purpose"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 212,
     number: 86,
     topic: "Topic 4",
-    prompt: "HOTSPOT\nYou company has offices in New York City, Sydney, Paris, and Johannesburg.\nThe company has an Azure subscription.\nYou plan to deploy a new Azure networking solution that meets the following requirements:\n+ Connects to ExpressRoute circuits in the Azure regions of East US, Southeast Asia, North Europe, and South Africa\n+ Minimizes latency by supporting connection in three regions\n- Supports Site-to-site VPN connections\n« Minimizes costs\nYou need to identify the minimum number of Azure Virtual WAN hubs that you must deploy, and which virtual WAN SKU to use.\nWhat should you identify? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nAnswer Area\nNumber of Virtual WAN hubs: hd\n1\n2\n3\n4\nVirtual WAN SKU: x\nBasic\nStandard\nAnswer Area\nNumber of Virtual WAN hubs: £2\n1",
+    prompt: "HOTSPOT\nYou company has offices in New York City, Sydney, Paris, and Johannesburg.\nThe company has an Azure subscription.\nYou plan to deploy a new Azure networking solution that meets the following requirements:\n+ Connects to ExpressRoute circuits in the Azure regions of East US, Southeast Asia, North Europe, and South Africa\n+ Minimizes latency by supporting connection in three regions\n- Supports Site-to-site VPN connections\n« Minimizes costs\nYou need to identify the minimum number of Azure Virtual WAN hubs that you must deploy, and which virtual WAN SKU to use.\nWhat should you identify? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: =",
+    explanation: "Source answer: Number of Virtual WAN hubs = 3; Virtual WAN SKU = Standard.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "="
-      }
+        text: "1"
+      },
+      {
+        id: "O2",
+        text: "2"
+      },
+      {
+        id: "O3",
+        text: "3"
+      },
+      {
+        id: "O4",
+        text: "4"
+      },
+      {
+        id: "O5",
+        text: "Basic"
+      },
+      {
+        id: "O6",
+        text: "Standard"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Number of Virtual WAN hubs"
+      },
+      {
+        id: "t2",
+        text: "Virtual WAN SKU"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O3",
+      "t2:O6",
     ]
   },
   {
@@ -5887,11 +7494,11 @@ export const az305Questions: Question[] = [
       {
         id: "E",
         text: "Install Kubernetes-based Event Driven Autoscaling (KEDA). (Most voted)"
-      }
+      },
     ],
     correct: [
       "A",
-      "E"
+      "E",
     ]
   },
   {
@@ -5918,10 +7525,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Traffic Manager"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -5948,10 +7555,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure SQL Managed Instance Business Critical"
-      }
+      },
     ],
     correct: [
-      "C"
+      "C",
     ]
   },
   {
@@ -5978,10 +7585,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure SQL Database Serverless"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -6008,10 +7615,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Service Fabric"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -6038,10 +7645,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Notification Hubs"
-      }
+      },
     ],
     correct: [
-      "C"
+      "C",
     ]
   },
   {
@@ -6068,10 +7675,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "SQL Server Management Studio (SSMS)"
-      }
+      },
     ],
     correct: [
-      "B"
+      "B",
     ]
   },
   {
@@ -6098,10 +7705,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure SQL Database Premium"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -6128,10 +7735,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure SQL Database Hyperscale"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -6158,10 +7765,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Application Gateway"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -6188,10 +7795,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Blob Storage"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -6218,10 +7825,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Service Fabric"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -6248,10 +7855,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure SQL Database Business Critical"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -6278,10 +7885,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure SQL Database Premium"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -6308,34 +7915,67 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Application Gateway"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 228,
     number: 102,
     topic: "Topic 4",
-    prompt: "HOTSPOT\nYou are developing a multi-tier app named App1 that will be hosted on Azure virtual machines. The peak utilization periods for App1 will be from 8\nAM to 9 AM and 4 PM to 5 PM on weekdays.\nYou need to deploy the infrastructure for App1. The solution must meet the following requirements:\n- Support virtual machines deployed to four availability zones across two Azure regions.\n+ Minimize costs by accumulating CPU credits during periods of low utilization\nWhat is the minimum number of virtual networks you should deploy, and which virtual machine size should you use? To answer, select the\nappropriate options in the answer area.\nAnswer Area\nNumber of virtual networks: | v\n1\n2\n3\n4\nVirtual machine size: v\nA-Series\nB-Series\nD-Series\nM-Series\nAnswer Area\nNumber of virtual networks: | v\nPo\n3",
+    prompt: "HOTSPOT\nYou are developing a multi-tier app named App1 that will be hosted on Azure virtual machines. The peak utilization periods for App1 will be from 8\nAM to 9 AM and 4 PM to 5 PM on weekdays.\nYou need to deploy the infrastructure for App1. The solution must meet the following requirements:\n- Support virtual machines deployed to four availability zones across two Azure regions.\n+ Minimize costs by accumulating CPU credits during periods of low utilization\nWhat is the minimum number of virtual networks you should deploy, and which virtual machine size should you use? To answer, select the\nappropriate options in the answer area.",
     keySource: "source",
-    explanation: "Source answer: 4",
+    explanation: "Source answer: Number of virtual networks = 2; Virtual machine size = B-Series.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
+        text: "1"
+      },
+      {
+        id: "O2",
+        text: "2"
+      },
+      {
+        id: "O3",
+        text: "3"
+      },
+      {
+        id: "O4",
         text: "4"
-      }
+      },
+      {
+        id: "O5",
+        text: "A-Series"
+      },
+      {
+        id: "O6",
+        text: "B-Series"
+      },
+      {
+        id: "O7",
+        text: "D-Series"
+      },
+      {
+        id: "O8",
+        text: "M-Series"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Number of virtual networks"
+      },
+      {
+        id: "t2",
+        text: "Virtual machine size"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O2",
+      "t2:O6",
     ]
   },
   {
@@ -6362,10 +8002,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Application Gateway"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -6392,10 +8032,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Data Migration Assistant (DMA)"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -6422,10 +8062,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Notification Hubs"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -6452,10 +8092,10 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Notification Hubs"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -6482,34 +8122,47 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure SQL Database Standard"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 234,
     number: 108,
     topic: "Topic 4",
-    prompt: "DRAG DROP -\nYou plan to deploy an infrastructure solution that will contain the following configurations:\n- External users will access the infrastructure by using Azure Front Door.\n« External user access to the backend APIs hosted in Azure Kubernetes Service (AKS) will be controlled by using Azure API Management.\n+ External users will be authenticated by an Azure AD B2C tenant that uses OpenlD Connect-based federation with a third-party identity provider.\nWhich function does each service provide? To answer, drag the appropriate functions to the correct services. Each function may be used once,\nmore than once, or not at all. You may need to drag the split bar between panes or scroll to view content.\nNOTE: Each correct selection is worth one point.\nFunctions Answer Area\nProtection against Open Web Application\ney 1]\nIP filtering on a per-AP! level\nValidation of Azure B2C JSON Web\nTokens (JWTs)\nFunctions Answer Area\nProtection against Open Web Application\nSecurity Project (OWASP) vulnerabilities Era Boos Protection against Open Web Application\nc . B Security Project (OWASP) vulnerabilities\norrect Answer:\nIP filtering on a per-API level\nAPI Management: A rvond Soke il B2C JSON Web\nValidation of Azure B2C JSON Web\nTokens (JWTs)",
+    prompt: "DRAG DROP -\nYou plan to deploy an infrastructure solution that will contain the following configurations:\n- External users will access the infrastructure by using Azure Front Door.\n« External user access to the backend APIs hosted in Azure Kubernetes Service (AKS) will be controlled by using Azure API Management.\n+ External users will be authenticated by an Azure AD B2C tenant that uses OpenlD Connect-based federation with a third-party identity provider.\nWhich function does each service provide? To answer, drag the appropriate functions to the correct services. Each function may be used once,\nmore than once, or not at all. You may need to drag the split bar between panes or scroll to view content.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Protection against Open Web Application Security Project (OWASP) vulnerablilties",
+    explanation: "Source answer: Azure Front Door = Protection against Open Web Application Security Project (OWASP) vulnerabilities; Azure API Management = Validation of Azure B2C JSON Web Tokens (JWTs).",
     type: "drag-drop",
     options: [
       {
         id: "O1",
-        text: "Protection against Open Web Application Security Project (OWASP) vulnerablilties"
-      }
+        text: "Protection against Open Web Application Security Project (OWASP) vulnerabilities"
+      },
+      {
+        id: "O2",
+        text: "IP filtering on a per-API level"
+      },
+      {
+        id: "O3",
+        text: "Validation of Azure B2C JSON Web Tokens (JWTs)"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Azure Front Door"
+      },
+      {
+        id: "t2",
+        text: "Azure API Management"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O1",
+      "t2:O3",
     ]
   },
   {
@@ -6524,10 +8177,10 @@ export const az305Questions: Question[] = [
       {
         id: "A",
         text: "Yes 8 Nom)"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
@@ -6554,58 +8207,112 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Azure Virtual Machine Scale Sets"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 237,
     number: 111,
     topic: "Topic 4",
-    prompt: "HOTSPOT\nYou have an Azure App Service web app named Webapp1 that connects to an Azure SQL database named DB1. Webapp1 and DB are deployed to\nthe East US Azure region.\nYou need to ensure that all the traffic between Webapp1 and DB1 is sent via a private connection.\nWhat should you do? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nAnswer Area\nCreate a virtual network that contains at least: i\n1 subnet\n2 subnets\n3 subnets\nFrom the virtual network, configure name resolution to use: -\nA private DNS zone\nA public DNS zone\nThe Azure DNS Private Resolver\nAnswer Area\nCreate a virtual network that contains at least: ~\n2 subnets",
+    prompt: "HOTSPOT\nYou have an Azure App Service web app named Webapp1 that connects to an Azure SQL database named DB1. Webapp1 and DB are deployed to\nthe East US Azure region.\nYou need to ensure that all the traffic between Webapp1 and DB1 is sent via a private connection.\nWhat should you do? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: 3 sublets",
+    explanation: "Source answer: Create a virtual network that contains at least = 1 subnet; From the virtual network, configure name resolution to use = A private DNS zone.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "3 sublets"
-      }
+        text: "1 subnet"
+      },
+      {
+        id: "O2",
+        text: "2 subnets"
+      },
+      {
+        id: "O3",
+        text: "3 subnets"
+      },
+      {
+        id: "O4",
+        text: "A private DNS zone"
+      },
+      {
+        id: "O5",
+        text: "A public DNS zone"
+      },
+      {
+        id: "O6",
+        text: "The Azure DNS Private Resolver"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Create a virtual network that contains at least"
+      },
+      {
+        id: "t2",
+        text: "From the virtual network, configure name resolution to use"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O1",
+      "t2:O4",
     ]
   },
   {
     id: 238,
     number: 112,
     topic: "Topic 4",
-    prompt: "HOTSPOT\nYour on-premises network contains an Active Directory Domain Services (AD DS) domain. The domain contains a server named Server1. Serverl\ncontains an app named App1 that uses AD DS authentication. Remote users access App1 by using a VPN connection to the on-premises network.\nYou have an Azure AD tenant that syncs with the AD DS domain by using Azure AD Connect.\nYou need to ensure that the remote users can access App1 without using a VPN. The solution must meet the following requirements:\n+ Ensure that the users authenticate by using Azure Multi-Factor Authentication (MFA)\n+ Minimize administrative effort.\nWhat should you include in the solution? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nAnswer Area\nIn Azure AD: or\nA managed identity\n| An access package\nAn app registration\nAn enterprise application\nOn-premises: v\nA server that runs Windows Server and has the Azure AD Application Proxy connector installed\nA server that runs Windows Server and has the on-premises data gateway (standard mode) installed\n| A server that runs Windows Server and has the Web Application Proxy role service installed\nAnswer Area\nIn Azure AD: — =\n‘A managed identity\nAn access package",
+    prompt: "HOTSPOT\nYour on-premises network contains an Active Directory Domain Services (AD DS) domain. The domain contains a server named Server1. Serverl\ncontains an app named App1 that uses AD DS authentication. Remote users access App1 by using a VPN connection to the on-premises network.\nYou have an Azure AD tenant that syncs with the AD DS domain by using Azure AD Connect.\nYou need to ensure that the remote users can access App1 without using a VPN. The solution must meet the following requirements:\n+ Ensure that the users authenticate by using Azure Multi-Factor Authentication (MFA)\n+ Minimize administrative effort.\nWhat should you include in the solution? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Ap 200 registration",
+    explanation: "Source answer: In Azure AD = An enterprise application; On-premises = A server that runs Windows Server and has the Azure AD Application Proxy connector installed.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "Ap 200 registration"
-      }
+        text: "A managed identity"
+      },
+      {
+        id: "O2",
+        text: "An access package"
+      },
+      {
+        id: "O3",
+        text: "An app registration"
+      },
+      {
+        id: "O4",
+        text: "An enterprise application"
+      },
+      {
+        id: "O5",
+        text: "A server that runs Windows Server and has the Azure AD Application Proxy connector installed"
+      },
+      {
+        id: "O6",
+        text: "A server that runs Windows Server and has the on-premises data gateway (standard mode) installed"
+      },
+      {
+        id: "O7",
+        text: "A server that runs Windows Server and has the Web Application Proxy role service installed"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "In Azure AD"
+      },
+      {
+        id: "t2",
+        text: "On-premises"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O4",
+      "t2:O5",
     ]
   },
   {
@@ -6628,34 +8335,59 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Deploy an ingress controller to AKS1."
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 240,
     number: 114,
     topic: "Topic 4",
-    prompt: "HOTSPOT\nYou need to recommend a solution to integrate Azure Cosmos DB and Azure Synapse. The solution must meet the following requirements:\n+ Traffic from an Azure Synapse workspace to the Azure Cosmos DB account must be sent via the Microsoft backbone network.\n« Traffic from the Azure Synapse workspace to the Azure Cosmos DB account must NOT be routed over the internet.\n+ Implementation effort must be minimized\nWhat should you include in the recommendation? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nAnswer Area\nWhen provisioning the Azure Synapse workspace: -\nConfigure a dedicated managed virtual network.\nDisable public network access to the workspace endpoints.\nEnable the use of the Azure AD authentication.\nWhen configuring the Azure Cosmos DB account, enable: =\nManaged private endpoints\nServer-level firewall rules\nService endpoint policies\nAnswer Area\nWhen provisioning the Azure Synapse workspace: ER\n| DISSle PUDTC REMOTE Cees To The WOTRSpace endpoints.",
+    prompt: "HOTSPOT\nYou need to recommend a solution to integrate Azure Cosmos DB and Azure Synapse. The solution must meet the following requirements:\n+ Traffic from an Azure Synapse workspace to the Azure Cosmos DB account must be sent via the Microsoft backbone network.\n« Traffic from the Azure Synapse workspace to the Azure Cosmos DB account must NOT be routed over the internet.\n+ Implementation effort must be minimized\nWhat should you include in the recommendation? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Enable the use of the Azure AD authentication.",
+    explanation: "Source answer: When provisioning the Azure Synapse workspace = Configure a dedicated managed virtual network; When configuring the Azure Cosmos DB account, enable = Managed private endpoints.",
     type: "hotspot-dropdown",
     options: [
       {
         id: "O1",
-        text: "Enable the use of the Azure AD authentication."
-      }
+        text: "Configure a dedicated managed virtual network"
+      },
+      {
+        id: "O2",
+        text: "Disable public network access to the workspace endpoints"
+      },
+      {
+        id: "O3",
+        text: "Enable the use of Azure AD authentication"
+      },
+      {
+        id: "O4",
+        text: "Managed private endpoints"
+      },
+      {
+        id: "O5",
+        text: "Server-level firewall rules"
+      },
+      {
+        id: "O6",
+        text: "Service endpoint policies"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "When provisioning the Azure Synapse workspace"
+      },
+      {
+        id: "t2",
+        text: "When configuring the Azure Cosmos DB account, enable"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O1",
+      "t2:O4",
     ]
   },
   {
@@ -6682,34 +8414,51 @@ export const az305Questions: Question[] = [
       {
         id: "D",
         text: "Data Explorer"
-      }
+      },
     ],
     correct: [
-      "A"
+      "A",
     ]
   },
   {
     id: 242,
     number: 116,
     topic: "Topic 4",
-    prompt: "DRAG DROP -\nYou have an on-premises datacenter named Site. Site1 contains a VMware vSphere cluster named Cluster? that hosts 100 virtual machines.\nCluster is managed by using VMware vCenter.\nYou have an Azure subscription named Sub1.\nYou plan to migrate the virtual machines from Cluster to Sub\nYou need to identify which resources are required to run the virtual machines in Azure. The solution must minimize administrative effort.\nWhat should you configure? To answer, drag the appropriate resources to the correct targets. Each resource may be used once, more than once, or\nnot at all. You may need to drag the split bar between panes or scroll to view content.\nNOTE: Each correct selection is worth one point.\nResources Answer Area\nAn Azure Migrate project\nAn Azure VMware Solution private cloud\nAn Azure VMware Solution host",
+    prompt: "DRAG DROP -\nYou have an on-premises datacenter named Site. Site1 contains a VMware vSphere cluster named Cluster? that hosts 100 virtual machines.\nCluster is managed by using VMware vCenter.\nYou have an Azure subscription named Sub1.\nYou plan to migrate the virtual machines from Cluster to Sub\nYou need to identify which resources are required to run the virtual machines in Azure. The solution must minimize administrative effort.\nWhat should you configure? To answer, drag the appropriate resources to the correct targets. Each resource may be used once, more than once, or\nnot at all. You may need to drag the split bar between panes or scroll to view content.\nNOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source answer: Resources Answer Area",
+    explanation: "Source answer: Resource 1 = An Azure Migrate project; Resource 2 = An Azure Migrate appliance.",
     type: "drag-drop",
     options: [
       {
         id: "O1",
-        text: "Resources Answer Area"
-      }
+        text: "An Azure Migrate project"
+      },
+      {
+        id: "O2",
+        text: "An Azure Migrate appliance"
+      },
+      {
+        id: "O3",
+        text: "An Azure VMware Solution private cloud"
+      },
+      {
+        id: "O4",
+        text: "An Azure VMware Solution host"
+      },
     ],
     targets: [
       {
         id: "t1",
-        text: "Blank 1"
-      }
+        text: "Resource 1"
+      },
+      {
+        id: "t2",
+        text: "Resource 2"
+      },
     ],
     correct: [
-      "t1:O1"
+      "t1:O1",
+      "t2:O2",
     ]
   }
 ];
