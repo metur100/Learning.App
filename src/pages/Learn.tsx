@@ -7,7 +7,11 @@ export function Learn() {
   const { data } = useAppData();
   const { questions, selectedCertificate } = useQuestionBank();
   const queue = useMemo(
-    () => questions.filter((q) => data.cards[q.id]?.status === 'new'),
+    () =>
+      questions.filter((q) => {
+        const status = data.cards[q.id]?.status;
+        return status === 'new' || status === 'learning';
+      }),
     [data.cards],
   );
   return (
@@ -15,8 +19,8 @@ export function Learn() {
       queue={queue}
       mode="learn"
       certificateKey={selectedCertificate}
-      emptyTitle="No new questions left"
-      emptyBody="You have started every question at least once. Head to Review to reinforce them."
+      emptyTitle="No questions to learn right now"
+      emptyBody="You have started every question and none are stuck in learning. Head to Review to reinforce them."
     />
   );
 }

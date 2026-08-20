@@ -28,7 +28,7 @@ export function Dashboard() {
   }, [data.cards, questions]);
 
   const completion = Math.round((stats.seen / stats.total) * 100);
-  const newCount = stats.by.new;
+  const learnCount = stats.by.new + stats.by.learning;
 
   return (
     <div className="page">
@@ -47,10 +47,10 @@ export function Dashboard() {
           {stats.reviewPool > 0 ? (
             <div className="hero-stat__actions">
               <Link className="btn btn--primary" to="/review">Start review</Link>
-              {newCount > 0 && <Link className="btn btn--primary" to="/learn">Learn</Link>}
+              {learnCount > 0 && <Link className="btn btn--primary" to="/learn">Learn</Link>}
             </div>
-          ) : newCount > 0 ? (
-            <Link className="btn btn--primary" to="/learn">Learn {newCount} new</Link>
+          ) : learnCount > 0 ? (
+            <Link className="btn btn--primary" to="/learn">Learn {learnCount}</Link>
           ) : (
             <span className="hero-stat__done">All caught up. Nicely done.</span>
           )}
