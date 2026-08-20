@@ -1,5 +1,6 @@
 import type { CertificateId, Question } from '../types';
 import { questions as ai901Base } from './questions';
+import { az104Questions } from './banks/az104.generated';
 import { az204Questions } from './banks/az204.generated';
 import { az305Questions } from './banks/az305.generated';
 import { az400Questions } from './banks/az400.generated';
@@ -12,6 +13,7 @@ export interface CertificateMeta {
 
 export const certificates: CertificateMeta[] = [
   { id: 'ai-901', code: 'AI-901', name: 'Azure AI Fundamentals' },
+  { id: 'az-104', code: 'AZ-104', name: 'MS Azure Administrator' },
   { id: 'az-204', code: 'AZ-204', name: 'Developing Solutions for MS Azure' },
   { id: 'az-305', code: 'AZ-305', name: 'MS Azure Infrastructure Solutions' },
   { id: 'az-400', code: 'AZ-400', name: 'MS DevOps Solutions' },
@@ -27,6 +29,7 @@ function withCertId(items: Question[], certificateId: CertificateId, idOffset: n
 
 export const questionBanks: Record<CertificateId, Question[]> = {
   'ai-901': withCertId(ai901Base, 'ai-901', 0),
+  'az-104': withCertId(az104Questions, 'az-104', 100000),
   'az-204': withCertId(az204Questions, 'az-204', 200000),
   'az-305': withCertId(az305Questions, 'az-305', 300000),
   'az-400': withCertId(az400Questions, 'az-400', 400000),

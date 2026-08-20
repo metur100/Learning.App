@@ -13,13 +13,17 @@
     "build:az305": "node scripts/build-az305-bank.mjs",
     "extract:az400": "node scripts/extract-az400-qa.mjs",
     "extract:az400:ocr": "node scripts/extract-az400-ocr-options.mjs",
-    "build:az400": "node scripts/build-az400-bank.mjs"
+    "build:az400": "node scripts/build-az400-bank.mjs",
+    "extract:az104": "node scripts/extract-az104-qa.mjs",
+    "build:az104": "node scripts/build-az104-bank.mjs"
   },
   "dependencies": {
+    "adm-zip": "^0.6.0",
     "mammoth": "^1.12.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.2",
+    "sql.js": "^1.14.2",
     "tesseract.js": "^7.0.0"
   },
   "devDependencies": {

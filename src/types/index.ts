@@ -1,6 +1,6 @@
 /** Domain and app-wide type definitions for the AI-901 study app. */
 
-export type CertificateId = 'ai-901' | 'az-204' | 'az-305' | 'az-400';
+export type CertificateId = 'ai-901' | 'az-104' | 'az-204' | 'az-305' | 'az-400';
 
 export type QuestionType =
   | 'single' // one correct option

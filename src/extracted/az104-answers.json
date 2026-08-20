@@ -1,0 +1,7206 @@
+[
+  {
+    "index": 1,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 1,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 2,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 2,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 3,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 0,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 4,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 0,
+    "bitFlags": [
+      1,
+      0
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 5,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 5,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 6,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 6,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 7,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 7,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 8,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 8,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 9,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 9,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 10,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 10,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 11,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 11,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 12,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 12,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 13,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 13,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 14,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 14,
+    "bitFlags": [
+      1,
+      0
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 15,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 15,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 16,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 16,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 17,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 17,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 18,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 18,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 19,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 19,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 20,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 20,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 21,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 21,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 22,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 22,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 23,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 23,
+    "bitFlags": [
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 24,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 24,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 25,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 25,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 26,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 26,
+    "bitFlags": [
+      1,
+      0
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 27,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 27,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 28,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 28,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 29,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 29,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 30,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 30,
+    "bitFlags": [
+      1,
+      0
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 31,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 31,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 32,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 32,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 33,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 33,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 34,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 34,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 35,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 35,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 36,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 36,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 37,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 37,
+    "bitFlags": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 38,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 38,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 39,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 39,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 40,
+    "topic": "Topic 1",
+    "sourceFile": "Az-104 T1.apkg",
+    "sourceNumber": 40,
+    "bitFlags": [
+      1,
+      0
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 41,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 1,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 42,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 2,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 43,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 3,
+    "bitFlags": [
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 44,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 4,
+    "bitFlags": [
+      0,
+      0,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 45,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 5,
+    "bitFlags": [
+      0,
+      0,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 46,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 6,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 47,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 7,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 48,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 8,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 49,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 9,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 50,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 10,
+    "bitFlags": [
+      0,
+      1,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 51,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 11,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 52,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 12,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 53,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 13,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 54,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 14,
+    "bitFlags": [
+      0,
+      1,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 55,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 15,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 56,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 16,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 57,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 17,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 58,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 18,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 59,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 19,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 60,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 20,
+    "bitFlags": [
+      1,
+      0
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 61,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 21,
+    "bitFlags": [
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 62,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 22,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 63,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 23,
+    "bitFlags": [
+      1,
+      1,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 64,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 24,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 65,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 25,
+    "bitFlags": [
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 66,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 26,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 67,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 26,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 68,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 28,
+    "bitFlags": [
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 69,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 29,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 70,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 30,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 71,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 31,
+    "bitFlags": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 72,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 32,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 73,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 33,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 74,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 34,
+    "bitFlags": [
+      1,
+      0
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 75,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 35,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 76,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 36,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 77,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 37,
+    "bitFlags": [
+      1,
+      1,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 78,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 38,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 79,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 39,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 80,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 40,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 81,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 41,
+    "bitFlags": [
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 82,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 42,
+    "bitFlags": [],
+    "optionCount": 0
+  },
+  {
+    "index": 83,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 43,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 84,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 44,
+    "bitFlags": [
+      1,
+      0,
+      1
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 85,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 45,
+    "bitFlags": [
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 86,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 46,
+    "bitFlags": [
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 87,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 47,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 88,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 48,
+    "bitFlags": [
+      0,
+      0,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 89,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 49,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 90,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 50,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 91,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 51,
+    "bitFlags": [
+      1,
+      0
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 92,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 52,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 93,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 53,
+    "bitFlags": [],
+    "optionCount": 0
+  },
+  {
+    "index": 94,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 54,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 95,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 55,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 96,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 56,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 97,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 57,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 98,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 58,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 99,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 59,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 100,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 60,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 101,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 61,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 102,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 62,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 103,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 63,
+    "bitFlags": [],
+    "optionCount": 0
+  },
+  {
+    "index": 104,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 64,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 105,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 65,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 106,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 66,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 107,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 68,
+    "bitFlags": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 108,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 68,
+    "bitFlags": [
+      0,
+      1,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 109,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 69,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 110,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 70,
+    "bitFlags": [
+      0,
+      1,
+      1
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 111,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 71,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 112,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 72,
+    "bitFlags": [
+      0,
+      0,
+      1
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 113,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 73,
+    "bitFlags": [],
+    "optionCount": 0
+  },
+  {
+    "index": 114,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 74,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 115,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 75,
+    "bitFlags": [
+      1,
+      0,
+      1
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 116,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 76,
+    "bitFlags": [],
+    "optionCount": 0
+  },
+  {
+    "index": 117,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 77,
+    "bitFlags": [
+      1,
+      1,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 118,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 78,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 119,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 80,
+    "bitFlags": [
+      1,
+      0,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 120,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 81,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 121,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 82,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 122,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 83,
+    "bitFlags": [
+      1,
+      0
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 123,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 84,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 124,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 85,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 125,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 86,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 126,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 87,
+    "bitFlags": [
+      1,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 127,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 88,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 128,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 89,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 129,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 90,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 130,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 91,
+    "bitFlags": [
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 131,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 93,
+    "bitFlags": [
+      0,
+      0,
+      1
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 132,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 94,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 133,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 95,
+    "bitFlags": [
+      0,
+      0,
+      1
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 134,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 96,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 135,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 99,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 136,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 102,
+    "bitFlags": [
+      1,
+      0,
+      1
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 137,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 104,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 138,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 105,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 139,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 106,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 140,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 107,
+    "bitFlags": [
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 141,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 108,
+    "bitFlags": [
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 142,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 109,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 143,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 110,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 144,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 111,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 145,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 112,
+    "bitFlags": [
+      0,
+      0,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 146,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 113,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 147,
+    "topic": "Topic 2",
+    "sourceFile": "Az-104 T2.apkg",
+    "sourceNumber": 114,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 148,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 1,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 149,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 2,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 150,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 3,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 151,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 4,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 152,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 5,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 153,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 6,
+    "bitFlags": [
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 154,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 7,
+    "bitFlags": [
+      1,
+      0,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 155,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 8,
+    "bitFlags": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 156,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 9,
+    "bitFlags": [
+      0,
+      0,
+      1
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 157,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 11,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 158,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 10,
+    "bitFlags": [
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 159,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 12,
+    "bitFlags": [
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 160,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 13,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 161,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 14,
+    "bitFlags": [
+      0,
+      0,
+      1
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 162,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 15,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 163,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 16,
+    "bitFlags": [
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 164,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 17,
+    "bitFlags": [
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 165,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 18,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 166,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 19,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 167,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 20,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 168,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 21,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 169,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 22,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 170,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 23,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 171,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 24,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 172,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 25,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 173,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 26,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 174,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 27,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 175,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 28,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 176,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 29,
+    "bitFlags": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 177,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 30,
+    "bitFlags": [
+      0,
+      1,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 178,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 31,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 179,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 32,
+    "bitFlags": [
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 180,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 33,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 181,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 34,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 182,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 35,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 183,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 36,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 184,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 37,
+    "bitFlags": [
+      0,
+      0,
+      1
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 185,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 39,
+    "bitFlags": [
+      1,
+      1,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 186,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 40,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 187,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 41,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 188,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 42,
+    "bitFlags": [
+      0,
+      1,
+      1
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 189,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 43,
+    "bitFlags": [
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 190,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 44,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 191,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 45,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 192,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 46,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 193,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 47,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 194,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 48,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 195,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 49,
+    "bitFlags": [
+      0,
+      0,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 196,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 50,
+    "bitFlags": [
+      0,
+      0,
+      1
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 197,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 52,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 198,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 53,
+    "bitFlags": [
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 199,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 55,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 200,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 57,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 201,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 61,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 202,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 64,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 203,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 66,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 204,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 68,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 205,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 69,
+    "bitFlags": [
+      0,
+      1,
+      1
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 206,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 70,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 207,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 71,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 208,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 72,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 209,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 73,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 210,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 74,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 211,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 78,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 212,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 79,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 213,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 81,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 214,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 82,
+    "bitFlags": [
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 215,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 83,
+    "bitFlags": [
+      1,
+      0,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 216,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 84,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 217,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 86,
+    "bitFlags": [
+      1,
+      0
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 218,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 94,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 219,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 95,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 220,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 96,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 221,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 97,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 222,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 98,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 223,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 85,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 224,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 89,
+    "bitFlags": [
+      0,
+      1,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 225,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 91,
+    "bitFlags": [
+      0,
+      1,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 226,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 92,
+    "bitFlags": [
+      0,
+      1,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 227,
+    "topic": "Topic 3",
+    "sourceFile": "Az-104 T3.apkg",
+    "sourceNumber": 93,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 228,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 1,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 229,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 2,
+    "bitFlags": [
+      1,
+      0
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 230,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 3,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 231,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 4,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 232,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 5,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 233,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 6,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 234,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 7,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 235,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 8,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 236,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 9,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 237,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 10,
+    "bitFlags": [
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 238,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 11,
+    "bitFlags": [
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 239,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 12,
+    "bitFlags": [
+      1,
+      0,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 240,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 13,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 241,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 14,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 242,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 15,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 243,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 16,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 244,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 17,
+    "bitFlags": [
+      1,
+      0
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 245,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 18,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 246,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 19,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 247,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 20,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 248,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 21,
+    "bitFlags": [
+      1,
+      0
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 249,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 22,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 250,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 23,
+    "bitFlags": [
+      1,
+      0,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 251,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 24,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 252,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 25,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 253,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 26,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 254,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 27,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 255,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 28,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 256,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 29,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 257,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 30,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 258,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 31,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 259,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 32,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 260,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 33,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 261,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 34,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 262,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 35,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 263,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 36,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 264,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 37,
+    "bitFlags": [
+      1,
+      1,
+      1
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 265,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 38,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 266,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 39,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 267,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 40,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 268,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 41,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 269,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 42,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 270,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 43,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 271,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 44,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 272,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 45,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 273,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 46,
+    "bitFlags": [
+      1,
+      0
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 274,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 47,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 275,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 48,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 276,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 49,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 277,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 50,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 278,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 51,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 279,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 52,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 280,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 53,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 281,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 55,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 282,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 56,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 283,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 58,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 284,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 59,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 285,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 60,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 286,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 61,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 287,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 62,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 288,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 63,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 289,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 64,
+    "bitFlags": [
+      1,
+      0
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 290,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 65,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 291,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 66,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 292,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 67,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 293,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 69,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 294,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 70,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 295,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 71,
+    "bitFlags": [
+      1,
+      0
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 296,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 72,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 297,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 73,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 298,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 74,
+    "bitFlags": [
+      1,
+      0
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 299,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 75,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 300,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 76,
+    "bitFlags": [
+      1,
+      0
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 301,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 77,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 302,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 78,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 303,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 79,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 304,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 80,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 305,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 81,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 306,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 82,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 307,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 83,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 308,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 84,
+    "bitFlags": [
+      1,
+      0,
+      1
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 309,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 85,
+    "bitFlags": [
+      1,
+      0
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 310,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 86,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 311,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 87,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 312,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 88,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 313,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 90,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 314,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 91,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 315,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 92,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 316,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 93,
+    "bitFlags": [
+      1,
+      1,
+      1
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 317,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 94,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 318,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 85,
+    "bitFlags": [
+      1,
+      0,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 319,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 96,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 320,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 97,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 321,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 98,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 322,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 99,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 323,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 100,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 324,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 101,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 325,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 102,
+    "bitFlags": [
+      1,
+      0,
+      1
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 326,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 103,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 327,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 104,
+    "bitFlags": [
+      1,
+      0,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 328,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 105,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 329,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 106,
+    "bitFlags": [
+      0,
+      0,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 330,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 107,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 331,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 108,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 332,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 109,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 333,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 110,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 334,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 111,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 335,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 112,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 336,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 113,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 337,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 114,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 338,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 115,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 339,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 116,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 340,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 0,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 341,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 118,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 342,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 119,
+    "bitFlags": [
+      1,
+      0
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 343,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 120,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 344,
+    "topic": "Topic 4",
+    "sourceFile": "Az-104 T4.apkg",
+    "sourceNumber": 121,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 345,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 1,
+    "bitFlags": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 346,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 2,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 347,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 3,
+    "bitFlags": [
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 348,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 4,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 349,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 5,
+    "bitFlags": [
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 350,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 6,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 351,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 7,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 352,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 8,
+    "bitFlags": [
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 353,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 9,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 354,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 10,
+    "bitFlags": [
+      1,
+      1,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 355,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 11,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 356,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 12,
+    "bitFlags": [
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 357,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 13,
+    "bitFlags": [
+      1,
+      1,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 358,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 14,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 359,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 15,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 360,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 16,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 361,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 17,
+    "bitFlags": [
+      1,
+      0
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 362,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 18,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 363,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 19,
+    "bitFlags": [
+      1,
+      0
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 364,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 20,
+    "bitFlags": [
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 365,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 21,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 366,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 22,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 367,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 23,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 368,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 24,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 369,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 25,
+    "bitFlags": [
+      1,
+      0,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 370,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 26,
+    "bitFlags": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 371,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 27,
+    "bitFlags": [
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 372,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 28,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 373,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 29,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 374,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 30,
+    "bitFlags": [
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 375,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 31,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 376,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 32,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 377,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 33,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 378,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 64,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 379,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 35,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 380,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 36,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 381,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 37,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 382,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 38,
+    "bitFlags": [
+      0,
+      1,
+      1
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 383,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 39,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 384,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 40,
+    "bitFlags": [
+      1,
+      0,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 385,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 41,
+    "bitFlags": [
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 386,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 42,
+    "bitFlags": [
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 387,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 43,
+    "bitFlags": [
+      1,
+      1,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 388,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 44,
+    "bitFlags": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 389,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 45,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 390,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 46,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 391,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 47,
+    "bitFlags": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 392,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 48,
+    "bitFlags": [
+      1,
+      0,
+      1
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 393,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 49,
+    "bitFlags": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 394,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 50,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 395,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 51,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 396,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 52,
+    "bitFlags": [
+      1,
+      0
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 397,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 53,
+    "bitFlags": [
+      1,
+      0
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 398,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 54,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 399,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 55,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 400,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 56,
+    "bitFlags": [
+      0,
+      1,
+      1
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 401,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 57,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 402,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 58,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 403,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 59,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 404,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 60,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 405,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 61,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 406,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 62,
+    "bitFlags": [
+      1,
+      0
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 407,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 63,
+    "bitFlags": [
+      1,
+      0
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 408,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 64,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 409,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 65,
+    "bitFlags": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 410,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 66,
+    "bitFlags": [
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 411,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 67,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 412,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 68,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 413,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 69,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 414,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 70,
+    "bitFlags": [
+      0,
+      0,
+      1
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 415,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 71,
+    "bitFlags": [
+      1,
+      1,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 416,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 72,
+    "bitFlags": [
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 417,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 73,
+    "bitFlags": [
+      1,
+      0
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 418,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 74,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 419,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 75,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 420,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 76,
+    "bitFlags": [
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 421,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 77,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 422,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 78,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 423,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 79,
+    "bitFlags": [
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 424,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 80,
+    "bitFlags": [
+      0,
+      1,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 425,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 81,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 426,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 82,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 427,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 83,
+    "bitFlags": [
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 428,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 84,
+    "bitFlags": [
+      0,
+      1
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 429,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 86,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 430,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 87,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 431,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 88,
+    "bitFlags": [
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 432,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 90,
+    "bitFlags": [
+      0,
+      1,
+      1
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 433,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 91,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 434,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 92,
+    "bitFlags": [
+      0,
+      1,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 435,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 93,
+    "bitFlags": [
+      1,
+      1,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 436,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 94,
+    "bitFlags": [
+      0,
+      1,
+      1
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 437,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 95,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 438,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 96,
+    "bitFlags": [
+      0,
+      1,
+      1
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 439,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 97,
+    "bitFlags": [
+      1,
+      0,
+      1
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 440,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 98,
+    "bitFlags": [
+      0,
+      0,
+      1
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 441,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 99,
+    "bitFlags": [
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 442,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 100,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 443,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 101,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 444,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 102,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 445,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 104,
+    "bitFlags": [
+      0,
+      0,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 446,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 105,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 447,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 106,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 448,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 107,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 449,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 109,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 450,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 110,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 451,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 111,
+    "bitFlags": [
+      0,
+      0,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 452,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 112,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 453,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 113,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 454,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 114,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 455,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 115,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 456,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 118,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 457,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 120,
+    "bitFlags": [
+      1,
+      0,
+      1,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 458,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 122,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 459,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 125,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 460,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 129,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 461,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 130,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 462,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 131,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 463,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 132,
+    "bitFlags": [
+      1,
+      0
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 464,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 133,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 465,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 134,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 466,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 135,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 467,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 136,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 468,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 137,
+    "bitFlags": [
+      0,
+      1,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 469,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 138,
+    "bitFlags": [
+      1,
+      0,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 470,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 139,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 471,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 140,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 472,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 141,
+    "bitFlags": [
+      0,
+      1,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 473,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 142,
+    "bitFlags": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 474,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 143,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 475,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 144,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 476,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 145,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 477,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 146,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 478,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 147,
+    "bitFlags": [
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 479,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 148,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 480,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 149,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 481,
+    "topic": "Topic 5",
+    "sourceFile": "Az-104 T5.apkg",
+    "sourceNumber": 150,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 482,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 1,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 483,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 2,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 484,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 3,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 485,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 4,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 486,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 5,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 487,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 6,
+    "bitFlags": [
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 488,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 7,
+    "bitFlags": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 489,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 8,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 490,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 9,
+    "bitFlags": [
+      0,
+      0,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 491,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 10,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 492,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 11,
+    "bitFlags": [
+      0,
+      0,
+      1
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 493,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 12,
+    "bitFlags": [
+      0,
+      0,
+      1
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 494,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 13,
+    "bitFlags": [
+      1,
+      0
+    ],
+    "optionCount": 2
+  },
+  {
+    "index": 495,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 14,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 496,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 15,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 497,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 16,
+    "bitFlags": [
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 498,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 17,
+    "bitFlags": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 499,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 18,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 500,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 19,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 501,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 20,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 502,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 21,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 503,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 22,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 504,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 23,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 505,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 24,
+    "bitFlags": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 506,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 25,
+    "bitFlags": [
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 507,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 26,
+    "bitFlags": [
+      0,
+      1,
+      1
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 508,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 27,
+    "bitFlags": [
+      1,
+      1,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 509,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 28,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 510,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 29,
+    "bitFlags": [
+      0,
+      0,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 511,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 30,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 512,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 31,
+    "bitFlags": [
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 513,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 32,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 514,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 34,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 515,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 35,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 516,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 36,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 517,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 37,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 518,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 38,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 519,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 39,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 520,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 40,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 521,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 41,
+    "bitFlags": [
+      1,
+      0,
+      1
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 522,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 42,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 523,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 43,
+    "bitFlags": [
+      1,
+      0,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 524,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 44,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 525,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 45,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 526,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 46,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 527,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 47,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 528,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 48,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 529,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 49,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 530,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 50,
+    "bitFlags": [
+      1,
+      0,
+      1
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 531,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 51,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 532,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 52,
+    "bitFlags": [
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 533,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 53,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 534,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 54,
+    "bitFlags": [
+      1,
+      0,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 535,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 55,
+    "bitFlags": [
+      0,
+      1,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 536,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 56,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 537,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 57,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 538,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 58,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 539,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 59,
+    "bitFlags": [
+      0,
+      0,
+      1
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 540,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 60,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 541,
+    "topic": "Topic 6",
+    "sourceFile": "Az-104 T6.apkg",
+    "sourceNumber": 61,
+    "bitFlags": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 542,
+    "topic": "Topic 7-16",
+    "sourceFile": "Az-104 T7-T16.apkg",
+    "sourceNumber": 0,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 543,
+    "topic": "Topic 7-16",
+    "sourceFile": "Az-104 T7-T16.apkg",
+    "sourceNumber": 0,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 544,
+    "topic": "Topic 7-16",
+    "sourceFile": "Az-104 T7-T16.apkg",
+    "sourceNumber": 0,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 545,
+    "topic": "Topic 7-16",
+    "sourceFile": "Az-104 T7-T16.apkg",
+    "sourceNumber": 0,
+    "bitFlags": [
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 546,
+    "topic": "Topic 7-16",
+    "sourceFile": "Az-104 T7-T16.apkg",
+    "sourceNumber": 0,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 547,
+    "topic": "Topic 7-16",
+    "sourceFile": "Az-104 T7-T16.apkg",
+    "sourceNumber": 0,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 548,
+    "topic": "Topic 7-16",
+    "sourceFile": "Az-104 T7-T16.apkg",
+    "sourceNumber": 0,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 549,
+    "topic": "Topic 7-16",
+    "sourceFile": "Az-104 T7-T16.apkg",
+    "sourceNumber": 0,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 550,
+    "topic": "Topic 7-16",
+    "sourceFile": "Az-104 T7-T16.apkg",
+    "sourceNumber": 0,
+    "bitFlags": [
+      1,
+      0,
+      0
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 551,
+    "topic": "Topic 7-16",
+    "sourceFile": "Az-104 T7-T16.apkg",
+    "sourceNumber": 0,
+    "bitFlags": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 552,
+    "topic": "Topic 7-16",
+    "sourceFile": "Az-104 T7-T16.apkg",
+    "sourceNumber": 0,
+    "bitFlags": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 553,
+    "topic": "Topic 7-16",
+    "sourceFile": "Az-104 T7-T16.apkg",
+    "sourceNumber": 0,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 554,
+    "topic": "Topic 7-16",
+    "sourceFile": "Az-104 T7-T16.apkg",
+    "sourceNumber": 0,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 555,
+    "topic": "Topic 7-16",
+    "sourceFile": "Az-104 T7-T16.apkg",
+    "sourceNumber": 0,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 556,
+    "topic": "Topic 7-16",
+    "sourceFile": "Az-104 T7-T16.apkg",
+    "sourceNumber": 0,
+    "bitFlags": [
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 557,
+    "topic": "Topic 7-16",
+    "sourceFile": "Az-104 T7-T16.apkg",
+    "sourceNumber": 0,
+    "bitFlags": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 558,
+    "topic": "Topic 7-16",
+    "sourceFile": "Az-104 T7-T16.apkg",
+    "sourceNumber": 0,
+    "bitFlags": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 559,
+    "topic": "Topic 7-16",
+    "sourceFile": "Az-104 T7-T16.apkg",
+    "sourceNumber": 0,
+    "bitFlags": [
+      1,
+      0,
+      1
+    ],
+    "optionCount": 3
+  },
+  {
+    "index": 560,
+    "topic": "Topic 7-16",
+    "sourceFile": "Az-104 T7-T16.apkg",
+    "sourceNumber": 0,
+    "bitFlags": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 561,
+    "topic": "Topic 7-16",
+    "sourceFile": "Az-104 T7-T16.apkg",
+    "sourceNumber": 0,
+    "bitFlags": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "optionCount": 4
+  },
+  {
+    "index": 562,
+    "topic": "Topic 7-16",
+    "sourceFile": "Az-104 T7-T16.apkg",
+    "sourceNumber": 0,
+    "bitFlags": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "optionCount": 5
+  },
+  {
+    "index": 563,
+    "topic": "Topic 7-16",
+    "sourceFile": "Az-104 T7-T16.apkg",
+    "sourceNumber": 0,
+    "bitFlags": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "optionCount": 4
+  }
+]
