@@ -154,6 +154,14 @@ export function StudySession({
   const unresolvedCount = totalQuestions - correctCount;
   const isComplete = totalQuestions > 0 && unresolvedCount === 0 && index >= entries.length - 1;
 
+  const questionsSeen = useMemo(() => {
+    const seen = new Set<number>();
+    for (let i = 0; i <= index && i < entries.length; i += 1) {
+      seen.add(entries[i].question.id);
+    }
+    return seen.size;
+  }, [entries, index]);
+
   useEffect(() => {
     if (queue.length === 0 || isComplete) {
       try {
@@ -282,9 +290,9 @@ export function StudySession({
         <p className="hint" role="status">Resumed your previous {mode} session.</p>
       )}
       <div className="session__bar">
-        <span className="session__count">{Math.min(index + 1, entries.length)} / {entries.length}</span>
+        <span className="session__count">{Math.min(questionsSeen, totalQuestions)} / {totalQuestions}</span>
         <div className="session__progress" aria-hidden="true">
-          <div style={{ width: `${entries.length ? (index / entries.length) * 100 : 0}%` }} />
+          <div style={{ width: `${totalQuestions ? (questionsSeen / totalQuestions) * 100 : 0}%` }} />
         </div>
         <span className="session__score">{correctCount} / {totalQuestions} correct</span>
       </div>
