@@ -1,0 +1,10 @@
+{
+  "418": {
+    "correctOrder": [
+      "Create a Virtual WAN resource",
+      "Create a virtual hub",
+      "Create VPN sites",
+      "Connect the VPN sites to the hub"
+    ]
+  }
+}

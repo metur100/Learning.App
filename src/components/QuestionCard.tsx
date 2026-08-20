@@ -128,6 +128,22 @@ export function QuestionCard({
     }
     return m;
   }, [question.correct]);
+  const textById = useMemo(
+    () => new Map((question.options ?? []).map((o) => [o.id, o.text])),
+    [question.options],
+  );
+  // A few drag-drop/hotspot-dropdown questions assign the same correct value
+  // to two different targets via two option rows that share identical text
+  // (e.g. two dropdowns that both resolve to "SAS token"). The rows are
+  // visually indistinguishable, so a target is judged right by the text the
+  // user picked, not by which specific row's id landed there — matching how
+  // services/grading.ts scores it.
+  function isTargetRight(targetId: string, assignedId: string | undefined) {
+    if (!assignedId) return false;
+    const expectedId = expectedAssignments.get(targetId);
+    if (!expectedId) return false;
+    return textById.get(assignedId) === textById.get(expectedId);
+  }
 
   function assignTarget(targetId: string, optionId: string) {
     if (checked) return;
@@ -169,11 +185,7 @@ export function QuestionCard({
         )}
       </div>
 
-      <div className="qcard__prompt">
-        {question.prompt.split('\n').map((line, i) =>
-          line.trim() === '' ? <div key={i} className="qcard__gap" /> : <p key={i}>{renderBlank(line)}</p>,
-        )}
-      </div>
+      <div className="qcard__prompt">{renderLines(question.prompt)}</div>
 
       {question.codeContext && <pre className="qcard__code">{question.codeContext}</pre>}
 
@@ -244,8 +256,8 @@ export function QuestionCard({
               const assignedId = dragAssignments[t.id];
               const assigned = (question.options ?? []).find((o) => o.id === assignedId);
               const expected = (question.options ?? []).find((o) => o.id === expectedAssignments.get(t.id));
-              const right = showFeedback && assignedId === expectedAssignments.get(t.id);
-              const wrong = showFeedback && assignedId && assignedId !== expectedAssignments.get(t.id);
+              const right = showFeedback && isTargetRight(t.id, assignedId);
+              const wrong = showFeedback && assignedId && !isTargetRight(t.id, assignedId);
               return (
                 <div key={t.id} className="dd__row">
                   <span className="dd__label">{t.text}</span>
@@ -286,8 +298,8 @@ export function QuestionCard({
         <div className="hsdd" aria-label="Hotspot answer area">
           {(question.targets ?? []).map((t) => {
             const assignedId = dragAssignments[t.id] ?? '';
-            const right = showFeedback && assignedId === expectedAssignments.get(t.id);
-            const wrong = showFeedback && assignedId && assignedId !== expectedAssignments.get(t.id);
+            const right = showFeedback && isTargetRight(t.id, assignedId);
+            const wrong = showFeedback && assignedId && !isTargetRight(t.id, assignedId);
             const expected = (question.options ?? []).find((o) => o.id === expectedAssignments.get(t.id));
             return (
               <label key={t.id} className={`hsdd__row${right ? ' is-correct' : ''}${wrong ? ' is-wrong' : ''}`}>
@@ -358,11 +370,25 @@ export function QuestionCard({
       {showFeedback && (revealImmediately || result) && (
         <div className="explain">
           <span className="explain__label">Why</span>
-          <p>{question.explanation}</p>
+          {renderLines(question.explanation)}
         </div>
       )}
     </article>
   );
+}
+
+const IMG_MARKER = /^\{\{img:(.+)\}\}$/;
+
+/** Renders `\n`-joined text, turning any `{{img:URL}}` line (the extractor's
+ * marker for an image embedded in the source material) into an <img>. */
+function renderLines(text: string) {
+  return text.split('\n').map((line, i) => {
+    const trimmed = line.trim();
+    if (trimmed === '') return <div key={i} className="qcard__gap" />;
+    const imgMatch = trimmed.match(IMG_MARKER);
+    if (imgMatch) return <img key={i} className="qcard__image" src={imgMatch[1]} alt="" />;
+    return <p key={i}>{renderBlank(line)}</p>;
+  });
 }
 
 function renderBlank(line: string) {

@@ -1,7 +1,7 @@
 # AZ-104 Extracted Questions and Answers
 
-- Notes read: 564
-- Unique paired entries: 563
+- Notes read: 558
+- Unique paired entries: 558
 
 ## Q1 (Topic 1, Original #1)
 
@@ -27,7 +27,7 @@ Your company has an Azure Active Directory (Azure AD) subscription.
 - [ ] A. Yes
 - [x] B. No
 
-## Q3 (Topic 1, Original #?)
+## Q3 (Topic 1, Original #3)
 
 Your company has an Azure Active Directory (Azure AD) subscription.
  You want to implement an Azure AD conditional access policy.
@@ -38,7 +38,7 @@ Your company has an Azure Active Directory (Azure AD) subscription.
 - [ ] A. Yes
 - [x] B. No
 
-## Q4 (Topic 1, Original #?)
+## Q4 (Topic 1, Original #4)
 
 Your company has an Azure Active Directory (Azure AD) subscription.
  You want to implement an Azure AD conditional access policy.
@@ -269,7 +269,7 @@ Your company has an Azure Active Directory (Azure AD) tenant that is configured 
 ## Q23 (Topic 1, Original #23)
 
 DRAG DROP -   Your company has an Azure subscription that includes a number of Azure virtual machines (VMs), which are all part of the same virtual network.   Your company also has an on-premises Hyper-V server that hosts a VM, named VM1, which must be replicated to Azure.   Which of the following objects that must be created to achieve this goal? Answer by dragging the correct option from the list to the answer area.   Select and Place:
-[Image: https://www.examtopics.com/assets/media/exam-media/04223/0002200001.png]
+{{img:https://www.examtopics.com/assets/media/exam-media/04223/0002200001.png}}
 
 - [x] A. Hyper-V site
 - [ ] B. Storage acount
@@ -486,7 +486,7 @@ Which role should you assign to Admin1 for each task? To answer, select the appr
 NOTE: Each correct selection is worth one point.
 Hot Area:
 
-[Image: 0003600001.jpg]
+{{img:/exam-media/az-104/T2/0003600001.jpg}}
 
 - [ ] A. Contributor on LB1
 - [x] B. Network contributor on LB1
@@ -524,13 +524,13 @@ You have a Microsoft 365 tenant and an Azure Active Directory (Azure AD) tenant 
 
 You have an Azure Active Directory (Azure AD) tenant named contoso.com that contains the users shown in the following table:
 
-[Image: 0003900001.png]
+{{img:/exam-media/az-104/T2/0003900001.png}}
 
  User3 is the owner of Group1.
  Group2 is a member of Group1.
  You configure an access review named Review1 as shown in the following exhibit:
 
-[Image: 0004000001-e122a8a0d4d3523af02ba45380ee892bd89f341e.jpg]
+{{img:/exam-media/az-104/T2/0004000001-e122a8a0d4d3523af02ba45380ee892bd89f341e.jpg}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
  NOTE: Each correct selection is worth one point.
@@ -544,15 +544,15 @@ You have an Azure Active Directory (Azure AD) tenant named contoso.com that cont
 HOTSPOT -
  You have the Azure management groups shown in the following table:
 
-[Image: 0004200001.png]
+{{img:/exam-media/az-104/T2/0004200001.png}}
 
  You add Azure subscriptions to the management groups as shown in the following table:
 
-[Image: 0004200002.png]
+{{img:/exam-media/az-104/T2/0004200002.png}}
 
  You create the Azure policies shown in the following table:
 
-[Image: 0004200003.png]
+{{img:/exam-media/az-104/T2/0004200003.png}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
  NOTE: Each correct selection is worth one point.
@@ -565,7 +565,7 @@ HOTSPOT -
 
 You have an Azure policy as shown in the following exhibit:
 
-[Image: 0004500001-4a3a2705483aaab78f28ec59a529ea8c5dfcf34b.png]
+{{img:/exam-media/az-104/T2/0004500001-4a3a2705483aaab78f28ec59a529ea8c5dfcf34b.png}}
 
  What is the effect of the policy?
 
@@ -579,7 +579,7 @@ You have an Azure policy as shown in the following exhibit:
 HOTSPOT -
  You have an Azure subscription that contains the resources shown in the following table:
 
-[Image: 0004600001-2928bf7554bb2115aa77e1efcb1e244078cbc4fd.png]
+{{img:/exam-media/az-104/T2/0004600001-2928bf7554bb2115aa77e1efcb1e244078cbc4fd.png}}
 
  You assign a policy to RG6 as shown in the following table:
  o RG6, you apply the tag: RGroup: RG6.
@@ -588,7 +588,7 @@ HOTSPOT -
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0004700001.png]
+{{img:/exam-media/az-104/T2/0004700001.png}}
 
 - [ ] A. VNET1: None
 - [x] B. VNET1: Department: D1 only
@@ -600,7 +600,7 @@ HOTSPOT -
 
 You have an Azure subscription named AZPT1 that contains the resources shown in the following table:
 
-[Image: 0004900001.png]
+{{img:/exam-media/az-104/T2/0004900001.png}}
 
  You create a new Azure subscription named AZPT2.
  You need to identify which resources can be moved to AZPT2.
@@ -674,15 +674,15 @@ You sign up for Azure Active Directory (Azure AD) Premium P2.
 
 You have Azure Active Directory tenant named Contoso.com that includes following users:
 
-[Image: 0005300004.png]
+{{img:/exam-media/az-104/T2/0005300004.png}}
 
  Contoso.com includes following Windows 10 devices:
 
-[Image: 0005300005.png]
+{{img:/exam-media/az-104/T2/0005300005.png}}
 
  You create following security groups in Contoso.com:
 
-[Image: 0005400001-c06b6be2e9cac3290a6ef3fe22a40955065c232e.png]
+{{img:/exam-media/az-104/T2/0005400001-c06b6be2e9cac3290a6ef3fe22a40955065c232e.png}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
  NOTE: Each correct selection is worth one point.
@@ -696,7 +696,7 @@ You have Azure Active Directory tenant named Contoso.com that includes following
 You have an Azure subscription that contains a resource group named RG26.
  RG26 is set to the West Europe location and is used to create temporary resources for a project. RG26 contains the resources shown in the following table.
 
-[Image: 0005600001.jpg]
+{{img:/exam-media/az-104/T2/0005600001.jpg}}
 
  SQLDB01 is backed up to RGV1.
  When the project is complete, you attempt to delete RG26 from the Azure portal. The deletion fails.
@@ -777,7 +777,7 @@ You need to send a report to the finance department. The report must detail the 
 Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
 Select and Place:
 
-[Image: 0006100001-113fdc6717317bfd6fbdf8e4352a87b2f0e83933.png]
+{{img:/exam-media/az-104/T2/0006100001-113fdc6717317bfd6fbdf8e4352a87b2f0e83933.png}}
 
 - [x] A. Assign a tag to each resource
 - [x] B. From the Cost analysis blade, filter the view by tag
@@ -802,7 +802,7 @@ You have an Azure subscription that contains a virtual network named VNET1 in th
  VNET1.
  You successfully deploy the following Azure Resource Manager template.
 
-[Image: 0006500001.jpg]
+{{img:/exam-media/az-104/T2/0006500001.jpg}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
  NOTE: Each correct selection is worth one point.
@@ -815,7 +815,7 @@ You have an Azure subscription that contains a virtual network named VNET1 in th
 
 You have an Azure subscription named Subscription1. Subscription1 contains the resource groups in the following table.
 
-[Image: 0006700001-f0320ccb703b4fba923c55ea94156fcd73a6696e.png]
+{{img:/exam-media/az-104/T2/0006700001-f0320ccb703b4fba923c55ea94156fcd73a6696e.png}}
 
  RG1 has a web app named WebApp1. WebApp1 is located in West Europe.
  You move WebApp1 to RG2.
@@ -837,7 +837,7 @@ What should you specify in the assignable scopes and the permission elements of 
 NOTE: Each correct selection is worth one point.
 Hot Area:
 
-[Image: 0006900001.jpg]
+{{img:/exam-media/az-104/T2/0006900001.jpg}}
 
 - [ ] A. "/"
 - [x] B. /subscriptions/c276fc76-9cd4-44c9-99a7-4fd71546435e
@@ -880,7 +880,7 @@ Which three settings should you configure? To answer, select the appropriate set
 NOTE: Each correct selection is worth one point.
 Hot Area:
 
-[Image: 0007300001.png]
+{{img:/exam-media/az-104/T2/0007300001.png}}
 
 - [x] A. Users and Group
 - [x] B. Cloud Apps
@@ -918,17 +918,17 @@ You have an Azure subscription linked to an Azure Active Directory tenant. The t
 HOTSPOT -
  You have an Azure Active Directory (Azure AD) tenant named adatum.com. Adatum.com contains the groups in the following table.
 
-[Image: 0007800001.jpg]
+{{img:/exam-media/az-104/T2/0007800001.jpg}}
 
  You create two user accounts that are configured as shown in the following table.
 
-[Image: 0007800002.png]
+{{img:/exam-media/az-104/T2/0007800002.png}}
 
  Of which groups are User1 and User2 members? To answer, select the appropriate options in the answer area.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0007900001-5ca3cb8b53698a9e7d9013327a1396f5a8961bfe.png]
+{{img:/exam-media/az-104/T2/0007900001-5ca3cb8b53698a9e7d9013327a1396f5a8961bfe.png}}
 
 - [x] A. User1: Group1 only
 - [x] B. User2: Group1 and Group2 only
@@ -940,14 +940,14 @@ HOTSPOT -
 
 You have a hybrid deployment of Azure Active Directory (Azure AD) that contains the users shown in the following table.
 
-[Image: 0008100001.png]
+{{img:/exam-media/az-104/T2/0008100001.png}}
 
  You need to modify the JobTitle and UsageLocation attributes for the users.
  For which users can you modify the attributes from Azure AD? To answer, select the appropriate options in the answer area.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0008200001.png]
+{{img:/exam-media/az-104/T2/0008200001.png}}
 
 - [ ] A. JobTitle: User1 only
 - [x] B. UsageLocation: User1 and User2 only
@@ -999,11 +999,11 @@ You have an Azure Active Directory (Azure AD) tenant that contains three global 
  The tenant is associated to an Azure subscription. Access control for the subscription is configured as shown in the Access control exhibit. (Click the Access
  Control tab.)
 
-[Image: 0008700001.jpg]
+{{img:/exam-media/az-104/T2/0008700001.jpg}}
 
  You sign in to the Azure portal as Admin1 and configure the tenant as shown in the Tenant exhibit. (Click the Tenant tab.)
 
-[Image: 0008800001.jpg]
+{{img:/exam-media/az-104/T2/0008800001.jpg}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
  NOTE: Each correct selection is worth one point.
@@ -1030,7 +1030,7 @@ You have an Azure subscription that contains a resource group named TestRG.
  You use TestRG to validate an Azure deployment.
  TestRG contains the following resources:
 
-[Image: 0009100001.png]
+{{img:/exam-media/az-104/T2/0009100001.png}}
 
  You need to delete TestRG.
  What should you do first?
@@ -1060,7 +1060,7 @@ DRAG DROP -
  Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
  Select and Place:
 
-[Image: 0009300001.jpg]
+{{img:/exam-media/az-104/T2/0009300001.jpg}}
 
 - [x] A. Add a custom name
 - [x] B. Add a record to the public contoso.com DNS zone
@@ -1068,12 +1068,7 @@ DRAG DROP -
 - [ ] D. Add an Entra ID tenant
 - [ ] E. Create an Azure DNS zone
 
-## Q82 (Topic 2, Original #42)
-
-duplicate of #22
-
-
-## Q83 (Topic 2, Original #43)
+## Q82 (Topic 2, Original #43)
 
 You have a registered DNS domain named contoso.com.
  You create a public Azure DNS zone named contoso.com.
@@ -1085,17 +1080,17 @@ You have a registered DNS domain named contoso.com.
 - [ ] C. Create the SOA record in contoso.com.
 - [x] D. Modify the NS records in the DNS domain registrar.
 
-## Q84 (Topic 2, Original #44)
+## Q83 (Topic 2, Original #44)
 
 You have an Azure subscription that contains a storage account named storage1. The subscription is linked to an Azure Active Directory (Azure AD) tenant named contoso.com that syncs to an on-premises Active Directory domain.
  The domain contains the security principals shown in the following table.
 
-[Image: 0009600001.png]
+{{img:/exam-media/az-104/T2/0009600001.png}}
 
  In Azure AD, you create a user named User2.
  The storage1 account contains a file share named share1 and has the following configurations.
 
-[Image: 0009600002.png]
+{{img:/exam-media/az-104/T2/0009600002.png}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
  NOTE: Each correct selection is worth one point.
@@ -1104,18 +1099,18 @@ You have an Azure subscription that contains a storage account named storage1. T
 - [ ] B. You can assign the Storage Fila Data SMB Share Reader rolte to Computer1 for share1
 - [x] C. You can assign the Storage Fila Data SMB Share Elevated Contributor role to User2 for share1
 
-## Q85 (Topic 2, Original #45)
+## Q84 (Topic 2, Original #45)
 
 You have an Azure subscription named Subscription1 that contains a virtual network VNet1.
  You add the users in the following table.
 
-[Image: 0009700003.png]
+{{img:/exam-media/az-104/T2/0009700003.png}}
 
  Which user can perform each configuration? To answer, select the appropriate options in the answer area.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0009800001.jpg]
+{{img:/exam-media/az-104/T2/0009800001.jpg}}
 
 - [x] A. Add a subnet to VNet1: User1 and User3 only
 - [ ] B. Add a subnet to VNet1: User1 only
@@ -1123,18 +1118,18 @@ You have an Azure subscription named Subscription1 that contains a virtual netwo
 - [ ] D. Assign a user the Reader role to VNet1: User2 and User3 only
 - [ ] E. Assign a user the Reader role to VNet1: User3 only
 
-## Q86 (Topic 2, Original #46)
+## Q85 (Topic 2, Original #46)
 
 You have the Azure resources shown on the following exhibit.
 
-[Image: 0010000001.jpg]
+{{img:/exam-media/az-104/T2/0010000001.jpg}}
 
  You plan to track resource usage and prevent the deletion of resources.
  To which resources can you apply locks and tags? To answer, select the appropriate options in the answer area.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0010100001.png]
+{{img:/exam-media/az-104/T2/0010100001.png}}
 
 - [x] A. Locks: Sub1,RG1, and Vm1 only
 - [ ] B. Locks: Rg1 and Vm1 only
@@ -1142,7 +1137,7 @@ You have the Azure resources shown on the following exhibit.
 - [ ] D. Tags: Tenant Root Group, Mg1, Sub1, Rg1, and VM1
 - [ ] E. Tags: Sub1 and RG1 only
 
-## Q87 (Topic 2, Original #47)
+## Q86 (Topic 2, Original #47)
 
 You have an Azure Active Directory (Azure AD) tenant.
  You plan to delete multiple users by using Bulk delete in the Azure Active Directory admin center.
@@ -1155,11 +1150,11 @@ You have an Azure Active Directory (Azure AD) tenant.
 - [ ] D. The display name and usage location of each user only
 - [ ] E. The display name and user principal name of each user only
 
-## Q88 (Topic 2, Original #48)
+## Q87 (Topic 2, Original #48)
 
 You have an Azure subscription named Sub1 that contains the Azure resources shown in the following table.
 
-[Image: 0010400001-86c2938f5b408bb8ed5e17225e4f910989158b34.png]
+{{img:/exam-media/az-104/T2/0010400001-86c2938f5b408bb8ed5e17225e4f910989158b34.png}}
 
  You assign an Azure policy that has the following settings:
  ✑ Scope: Sub1
@@ -1170,7 +1165,7 @@ You have an Azure subscription named Sub1 that contains the Azure resources show
  ✑ Tag value: value4
  You assign tags to the resources as shown in the following table.
 
-[Image: 0010400008.png]
+{{img:/exam-media/az-104/T2/0010400008.png}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
  NOTE: Each correct selection is worth one point.
@@ -1179,7 +1174,7 @@ You have an Azure subscription named Sub1 that contains the Azure resources show
 - [ ] B. Storage1 has the Tag1:subscription,Tag2:IT,Tag3:value1, and Tag4:value4 tags assigned
 - [ ] C. VNET1 has the Tag2:IT and Tag3:value1 tags assigned only
 
-## Q89 (Topic 2, Original #49)
+## Q88 (Topic 2, Original #49)
 
 You need to ensure that an Azure Active Directory (Azure AD) user named Admin1 is assigned the required role to enable Traffic Analytics for an Azure subscription.
  Solution: You assign the Traffic Manager Contributor role at the subscription level to Admin1.
@@ -1188,7 +1183,7 @@ You need to ensure that an Azure Active Directory (Azure AD) user named Admin1 i
 - [ ] A. Yes
 - [x] B. No
 
-## Q90 (Topic 2, Original #50)
+## Q89 (Topic 2, Original #50)
 
 You have three offices and an Azure subscription that contains an Azure Active Directory (Azure AD) tenant.
  You need to grant user management permissions to a local administrator in each office.
@@ -1199,7 +1194,7 @@ You have three offices and an Azure subscription that contains an Azure Active D
 - [ ] C. access packages in Azure AD entitlement management
 - [ ] D. Azure roles
 
-## Q91 (Topic 2, Original #51)
+## Q90 (Topic 2, Original #51)
 
 You have an Azure Directory (Azure AD) tenant named Adatum and an Azure Subscription named Subscription1. Adatum contains a group named Developers.
  Subscription1 contains a resource group named Dev.
@@ -1210,18 +1205,18 @@ You have an Azure Directory (Azure AD) tenant named Adatum and an Azure Subscrip
 - [x] A. Yes
 - [ ] B. No
 
-## Q92 (Topic 2, Original #52)
+## Q91 (Topic 2, Original #52)
 
 You have an Azure Load Balancer named LB1.
  You assign a user named User1 the roles shown in the following exhibit.
 
-[Image: 0010800001.jpg]
+{{img:/exam-media/az-104/T2/0010800001.jpg}}
 
  Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0010900001.jpg]
+{{img:/exam-media/az-104/T2/0010900001.jpg}}
 
 - [ ] A. User1 can DELETE LB1
 - [ ] B. User1 can create a NAT rule for LB1
@@ -1229,31 +1224,26 @@ You have an Azure Load Balancer named LB1.
 - [x] D. User1 can delete a virtual machine from the resource group
 - [ ] E. User1 can modify the load balancing rules in the resource group
 
-## Q93 (Topic 2, Original #53)
-
-Copy of #16
-
-
-## Q94 (Topic 2, Original #54)
+## Q92 (Topic 2, Original #54)
 
 HOTSPOT -
  You configure the custom role shown in the following exhibit.
 
-[Image: 0011200001.png]
+{{img:/exam-media/az-104/T2/0011200001.png}}
 
  Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0011300001.png]
+{{img:/exam-media/az-104/T2/0011300001.png}}
 
 - [ ] A. #1: actions
 - [ ] B. #1: roletype
 - [ ] C. #2: notActions
 - [x] D. #1: dataActions
-- [ ] E. #2: assignableScopes
+- [x] E. #2: assignableScopes
 
-## Q95 (Topic 2, Original #55)
+## Q93 (Topic 2, Original #55)
 
 You have an Azure subscription that contains a storage account named storage1. The storage1 account contains a file share named share1.
  The subscription is linked to a hybrid Azure Active Directory (Azure AD) tenant that contains a security group named Group1.
@@ -1265,7 +1255,7 @@ You have an Azure subscription that contains a storage account named storage1. T
 - [ ] C. Mount share1 by using File Explorer.
 - [ ] D. Create a private endpoint.
 
-## Q96 (Topic 2, Original #56)
+## Q94 (Topic 2, Original #56)
 
 You have 15 Azure subscriptions.
  You have an Azure Active Directory (Azure AD) tenant that contains a security group named Group1.
@@ -1280,19 +1270,19 @@ You have 15 Azure subscriptions.
 - [ ] C. Create a new management group and assign Group1 the User Access Administrator role for the group.
 - [ ] D. Create a new management group and assign Group1 the Owner role for the group
 
-## Q97 (Topic 2, Original #57)
+## Q95 (Topic 2, Original #57)
 
 HOTSPOT -
  You have an Azure subscription that contains the hierarchy shown in the following exhibit.
 
-[Image: 0011800001-af958f9523f284c1fe71f23a61eca16a25579b0d.png]
+{{img:/exam-media/az-104/T2/0011800001-af958f9523f284c1fe71f23a61eca16a25579b0d.png}}
 
  You create an Azure Policy definition named Policy1.
  To which Azure resources can you assign Policy1 and which Azure resources can you specify as exclusions from Policy1? To answer, select the appropriate options in the answer area.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0011900001.png]
+{{img:/exam-media/az-104/T2/0011900001.png}}
 
 - [ ] A. You can assign Policy1 to: Subscription1 and RG1 only
 - [x] B. You can assign Policy1 to: Tenant Root Group, ManagementGroup1, Subscription1 and RG1 only
@@ -1300,11 +1290,11 @@ HOTSPOT -
 - [x] D. You can exclude Policy1 from: ManagementGroup1, Subscription1, RG1 and VM1 only
 - [ ] E. You can exclude Policy1 from: Rg1 and VM1 only
 
-## Q98 (Topic 2, Original #58)
+## Q96 (Topic 2, Original #58)
 
 You have an Azure subscription that contains the following users in an Azure Active Directory tenant named contoso.onmicrosoft.com:
 
-[Image: 0012100001-0e7a6c953f065195fcc0d5360891c7835b7b6e8e.png]
+{{img:/exam-media/az-104/T2/0012100001-0e7a6c953f065195fcc0d5360891c7835b7b6e8e.png}}
 
  User1 creates a new Azure Active Directory tenant named external.contoso.onmicrosoft.com.
  You need to create new user accounts in external.contoso.onmicrosoft.com.
@@ -1314,11 +1304,11 @@ You have an Azure subscription that contains the following users in an Azure Act
 - [ ] A. Yes
 - [x] B. No
 
-## Q99 (Topic 2, Original #59)
+## Q97 (Topic 2, Original #59)
 
 You have an Azure subscription that contains the following users in an Azure Active Directory tenant named contoso.onmicrosoft.com:
 
-[Image: 0012200001.png]
+{{img:/exam-media/az-104/T2/0012200001.png}}
 
  User1 creates a new Azure Active Directory tenant named external.contoso.onmicrosoft.com.
  You need to create new user accounts in external.contoso.onmicrosoft.com.
@@ -1328,11 +1318,11 @@ You have an Azure subscription that contains the following users in an Azure Act
 - [ ] A. Yes
 - [x] B. No
 
-## Q100 (Topic 2, Original #60)
+## Q98 (Topic 2, Original #60)
 
 You have an Azure subscription that contains the following users in an Azure Active Directory tenant named contoso.onmicrosoft.com:
 
-[Image: 0012300001-0e7a6c953f065195fcc0d5360891c7835b7b6e8e.png]
+{{img:/exam-media/az-104/T2/0012300001-0e7a6c953f065195fcc0d5360891c7835b7b6e8e.png}}
 
  User1 creates a new Azure Active Directory tenant named external.contoso.onmicrosoft.com.
  You need to create new user accounts in external.contoso.onmicrosoft.com.
@@ -1342,7 +1332,7 @@ You have an Azure subscription that contains the following users in an Azure Act
 - [ ] A. Yes
 - [x] B. No
 
-## Q101 (Topic 2, Original #61)
+## Q99 (Topic 2, Original #61)
 
 You have two Azure subscriptions named Sub1 and Sub2.
  An administrator creates a custom role that has an assignable scope to a resource group named RG1 in Sub1.
@@ -1354,12 +1344,12 @@ You have two Azure subscriptions named Sub1 and Sub2.
 - [ ] C. Create a new custom role for Sub1 and add Sub2 to the assignable scopes. Remove the role from RG1.
 - [ ] D. Select the custom role and add Sub1 to the assignable scopes. Remove RG1 from the assignable scopes. Create a new custom role for Sub2.
 
-## Q102 (Topic 2, Original #62)
+## Q100 (Topic 2, Original #62)
 
 You have an Azure Subscription that contains a storage account named storageacct1234 and two users named User1 and User2.
  You assign User1 the roles shown in the following exhibit.
 
-[Image: 0012500001.jpg]
+{{img:/exam-media/az-104/T2/0012500001.jpg}}
 
  Which two actions can User1 perform? Each correct answer presents a complete solution.
  NOTE: Each correct selection is worth one point.
@@ -1370,12 +1360,7 @@ You have an Azure Subscription that contains a storage account named storageacct
 - [ ] D. View file shares in storageacct1234.
 - [x] E. View blob data in storageacct1234.
 
-## Q103 (Topic 2, Original #63)
-
-#22 duplicate
-
-
-## Q104 (Topic 2, Original #64)
+## Q101 (Topic 2, Original #64)
 
 You have an Azure App Services web app named App1.
 
@@ -1390,7 +1375,7 @@ You have an Azure App Services web app named App1.
 - [x] C. Assign the Website Contributor role to the developers
 - [ ] D. Configure user-level credentials for FTPS
 
-## Q105 (Topic 2, Original #65)
+## Q102 (Topic 2, Original #65)
 
 You have an Azure Active Directory (Azure AD) tenant named contoso.com.
 
@@ -1405,13 +1390,13 @@ You have an Azure Active Directory (Azure AD) tenant named contoso.com.
 - [ ] A. Yes
 - [x] B. No
 
-## Q106 (Topic 2, Original #66)
+## Q103 (Topic 2, Original #66)
 
 HOTSPOT -
 
  You have an Azure subscription that is linked to an Azure AD tenant. The tenant contains the custom role-based access control (RBAC) roles shown in the following table.
 
-[Image: image567.png]
+{{img:/exam-media/az-104/T2/image567.png}}
 
  From the Azure portal, you need to create two custom roles named Role3 and Role4. Role3 will be an Azure subscription role. Role4 will be an Azure AD role.
 
@@ -1419,7 +1404,7 @@ HOTSPOT -
 
  NOTE: Each correct selection is worth one point.
 
-[Image: image568.png]
+{{img:/exam-media/az-104/T2/image568.png}}
 
 - [ ] A. Role3: Role1 only
 - [ ] B. Role4: Built-in Azure subscription roles only
@@ -1427,7 +1412,7 @@ HOTSPOT -
 - [x] D. Role4: Role1, Role2, built-in Azure subscription roles, and built-in Azure Entra ID roles
 - [x] E. Role3: Role1, Role2, built-in Azure subscription roles, and built-in Azure Entra ID roles
 
-## Q107 (Topic 2, Original #68)
+## Q104 (Topic 2, Original #68)
 
 You have an Azure subscription named Sub1 that contains two users named User1 and User2.
 
@@ -1445,7 +1430,7 @@ You have an Azure subscription named Sub1 that contains two users named User1 an
 - [x] C. Reader and Data Access
 - [ ] D. Storage Account Contributor
 
-## Q108 (Topic 2, Original #68)
+## Q105 (Topic 2, Original #68)
 
 You have an Azure subscription that contains 10 virtual machines, a key vault named Vault1, and a network security group (NSG) named NSG1. All the resources are deployed to the East US Azure region.
 
@@ -1459,15 +1444,15 @@ You have an Azure subscription that contains 10 virtual machines, a key vault na
 - [x] B. a service tag
 - [ ] C. an IP address range
 
-## Q109 (Topic 2, Original #69)
+## Q106 (Topic 2, Original #69)
 
 You have an Azure AD tenant named adatum.com that contains the groups shown in the following table.
 
-[Image: image572.png]
+{{img:/exam-media/az-104/T2/image572.png}}
 
  Adatum.com contains the users shown in the following table.
 
-[Image: image573.png]
+{{img:/exam-media/az-104/T2/image573.png}}
 
  You assign the Azure Active Directory Premium Plan 2 license to Group1 and User4.
 
@@ -1478,7 +1463,7 @@ You have an Azure AD tenant named adatum.com that contains the groups shown in t
 - [ ] C. User1, User2, and User4 only
 - [ ] D. User1, User2, User3, and User4
 
-## Q110 (Topic 2, Original #70)
+## Q107 (Topic 2, Original #70)
 
 You have an Azure AD tenant named contoso.com.
 
@@ -1486,11 +1471,11 @@ You have an Azure AD tenant named contoso.com.
 
  You create an access package as shown in the Access package exhibit. (Click the Access package tab.)
 
-[Image: image574.png]
+{{img:/exam-media/az-104/T2/image574.png}}
 
  You configure the external user lifecycle settings as shown in the Lifecycle exhibit. (Click the Lifecycle tab.)
 
-[Image: image575.png]
+{{img:/exam-media/az-104/T2/image575.png}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
 
@@ -1498,7 +1483,7 @@ You have an Azure AD tenant named contoso.com.
 - [x] B. After 365 days, fabrikam.com users will be removed from Group1
 - [x] C. After 365 days, fabrikam.com users wil be removed from the contoso.com tenant
 
-## Q111 (Topic 2, Original #71)
+## Q108 (Topic 2, Original #71)
 
 You have an Azure subscription named Subscription1 that contains a virtual network named VNet1. VNet1 is in a resource group named RG1.
 
@@ -1517,19 +1502,19 @@ You have an Azure subscription named Subscription1 that contains a virtual netwo
 - [x] C. Assign User1 the Owner role for VNet1.
 - [ ] D. Assign User1 the Network Contributor role for RG1.
 
-## Q112 (Topic 2, Original #72)
+## Q109 (Topic 2, Original #72)
 
 You have an Azure subscription that contains the users shown in the following table.
 
-[Image: image627.png]
+{{img:/exam-media/az-104/T2/image627.png}}
 
  The groups are configured as shown in the following table.
 
-[Image: image628.png]
+{{img:/exam-media/az-104/T2/image628.png}}
 
  You have a resource group named RG1 as shown in the following exhibit.
 
-[Image: image629.png]
+{{img:/exam-media/az-104/T2/image629.png}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
 
@@ -1537,18 +1522,13 @@ You have an Azure subscription that contains the users shown in the following ta
 - [ ] B. You can assign User3 the Owner role for RG1 by adding Group3 as amember of Group1.
 - [x] C. You can assign User3 the Owner role for RG1 by assigning the Owner role to Group3 for
 
-## Q113 (Topic 2, Original #73)
-
-Duplicate of #71
-
-
-## Q114 (Topic 2, Original #74)
+## Q110 (Topic 2, Original #74)
 
 Your on-premises network contains a VPN gateway.
 
  You have an Azure subscription that contains the resources shown in the following table.
 
-[Image: image646.png]
+{{img:/exam-media/az-104/T2/image646.png}}
 
  You need to ensure that all the traffic from VM1 to storage1 travels across the Microsoft backbone network.
 
@@ -1559,20 +1539,20 @@ Your on-premises network contains a VPN gateway.
 - [ ] C. a network security group (NSG)
 - [ ] D. Azure Virtual WAN
 
-## Q115 (Topic 2, Original #75)
+## Q111 (Topic 2, Original #75)
 
 HOTSPOT
  -
 
  You have an Azure subscription that contains a user named User1 and the resources shown in the following table.
 
-[Image: image647.png]
+{{img:/exam-media/az-104/T2/image647.png}}
 
  NSG1 is associated to networkinterface1.
 
  User1 has role assignments for NSG1 as shown in the following table.
 
-[Image: image648.png]
+{{img:/exam-media/az-104/T2/image648.png}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
 
@@ -1580,12 +1560,7 @@ HOTSPOT
 - [ ] B. User1 can modify the DNS setting of networkinterface1
 - [x] C. User1 can create an inbound security rule to filter inbound traffic to networkinterface1
 
-## Q116 (Topic 2, Original #76)
-
-Duplicate of #72
-
-
-## Q117 (Topic 2, Original #77)
+## Q112 (Topic 2, Original #77)
 
 HOTSPOT
  -
@@ -1607,11 +1582,11 @@ HOTSPOT
 - [x] B. User1 can assign the Owner role for RG1
 - [ ] C. User1 can create a new resource froup and deploy a virtual machine to the new group
 
-## Q118 (Topic 2, Original #78)
+## Q113 (Topic 2, Original #78)
 
 You have an Azure subscription that contains the resources shown in the following table.
 
-[Image: image657.png]
+{{img:/exam-media/az-104/T2/image657.png}}
 
  You need to assign User1 the Storage File Data SMB Share Contributor role for share1.
 
@@ -1622,19 +1597,19 @@ You have an Azure subscription that contains the resources shown in the followin
 - [ ] C. Select Default to Azure Active Directory authorization in the Azure portal for storage1.
 - [ ] D. Configure Access control (IAM) for share1
 
-## Q119 (Topic 2, Original #80)
+## Q114 (Topic 2, Original #80)
 
 You have an Azure AD tenant named adatum.com that contains the groups shown in the following table.
 
-[Image: image666.png]
+{{img:/exam-media/az-104/T2/image666.png}}
 
  Adatum.com contains the users shown in the following table.
 
-[Image: image667.png]
+{{img:/exam-media/az-104/T2/image667.png}}
 
  You assign an Azure Active Directory Premium P2 license to Group1 as shown in the following exhibit.
 
-[Image: image668.png]
+{{img:/exam-media/az-104/T2/image668.png}}
 
  Group2 is NOT directly assigned a license.
 
@@ -1644,14 +1619,14 @@ You have an Azure AD tenant named adatum.com that contains the groups shown in t
 - [ ] B. You can remove the Azure Active Directory Premium P2 license from user1
 - [ ] C. User2 is assigned the Azure Active Directory Premium P2
 
-## Q120 (Topic 2, Original #81)
+## Q115 (Topic 2, Original #81)
 
 HOTSPOT
  -
 
  You have a hybrid deployment of Azure Active Directory (Azure AD) that contains the users shown in the following table.
 
-[Image: image683.png]
+{{img:/exam-media/az-104/T2/image683.png}}
 
  You need to modify the JobTitle and UsageLocation attributes for the users.
 
@@ -1659,7 +1634,7 @@ HOTSPOT
 
  NOTE: Each correct selection is worth one point.
 
-[Image: image684.png]
+{{img:/exam-media/az-104/T2/image684.png}}
 
 - [ ] A. JobTitle: User1 only
 - [ ] B. JobTitle: User1 and User2 only
@@ -1667,7 +1642,7 @@ HOTSPOT
 - [ ] D. UsageLocation: User1 and User3 only
 - [x] E. UsageLocation: User1 and User2, and User3
 
-## Q121 (Topic 2, Original #82)
+## Q116 (Topic 2, Original #82)
 
 You have an Azure Active Directory (Azure AD) tenant named contoso.com.
 
@@ -1682,7 +1657,7 @@ You have an Azure Active Directory (Azure AD) tenant named contoso.com.
 - [ ] A. Yes
 - [x] B. No
 
-## Q122 (Topic 2, Original #83)
+## Q117 (Topic 2, Original #83)
 
 You have an Azure Active Directory (Azure AD) tenant named contoso.com.
 
@@ -1697,7 +1672,7 @@ You have an Azure Active Directory (Azure AD) tenant named contoso.com.
 - [x] A. Yes
 - [ ] B. No
 
-## Q123 (Topic 2, Original #84)
+## Q118 (Topic 2, Original #84)
 
 A user named User1 has the following roles for Subscription1:
 
@@ -1714,7 +1689,7 @@ A user named User1 has the following roles for Subscription1:
 - [x] C. Assign User1 the User Access Administrator role for VNet1.
 - [ ] D. Remove User1 from the Security Reader and Reader roles for Subscription1. Assign User1 the Contributor role for Subscription1.
 
-## Q124 (Topic 2, Original #85)
+## Q119 (Topic 2, Original #85)
 
 You have an Azure subscription named Subscription1 that contains virtual network named VNet1. VNet1 is in a resource group named RG1.
 
@@ -1732,7 +1707,7 @@ You have an Azure subscription named Subscription1 that contains virtual network
 - [ ] C. Assign User1 the Network Contributor role for VNet1.
 - [x] D. Assign User1 the User Access Administrator role for VNet1.
 
-## Q125 (Topic 2, Original #86)
+## Q120 (Topic 2, Original #86)
 
 You have an Azure Storage account named storage1 that uses Azure Blob storage and Azure File storage.
 
@@ -1742,7 +1717,7 @@ You have an Azure Storage account named storage1 that uses Azure Blob storage an
 
  NOTE: Each correct selection is worth one point.
 
-[Image: image691.png]
+{{img:/exam-media/az-104/T2/image691.png}}
 
 - [ ] A. Blob storage: Entra ID only
 - [ ] B. Blob storage: Shared access signatures (SAS) only
@@ -1750,7 +1725,7 @@ You have an Azure Storage account named storage1 that uses Azure Blob storage an
 - [x] D. Blob storage: Entra ID and shared access signatures (SAS)
 - [ ] E. File storage: Entra ID and shared access signatures (SAS)
 
-## Q126 (Topic 2, Original #87)
+## Q121 (Topic 2, Original #87)
 
 You have an Azure AD tenant that contains a user named External User.
 
@@ -1762,16 +1737,16 @@ You have an Azure AD tenant that contains a user named External User.
 
  NOTE: Each correct answer is worth one point.
 
-[Image: image693.png]
+{{img:/exam-media/az-104/T2/image693.png}}
 
 - [x] A. identities
 - [x] B. B2B collaboration
 
-## Q127 (Topic 2, Original #88)
+## Q122 (Topic 2, Original #88)
 
 You have an Azure subscription that contains the resources shown in the following table.
 
-[Image: image695.png]
+{{img:/exam-media/az-104/T2/image695.png}}
 
  You need to assign Workspace1 a role to allow read, write, and delete operations for the data stored in the containers of storage1.
 
@@ -1782,7 +1757,7 @@ You have an Azure subscription that contains the resources shown in the followin
 - [x] C. Storage Blob Data Contributor
 - [ ] D. Reader and Data Access
 
-## Q128 (Topic 2, Original #89)
+## Q123 (Topic 2, Original #89)
 
 You have an Azure subscription named Subscription1 that contains virtual network named VNet1. VNet1 is in a resource group named RG1.
 
@@ -1801,11 +1776,11 @@ You have an Azure subscription named Subscription1 that contains virtual network
 - [x] C. Assign User1 the Owner role for VNet1.
 - [ ] D. Assign User1 the Network Contributor role for RG1.
 
-## Q129 (Topic 2, Original #90)
+## Q124 (Topic 2, Original #90)
 
 You have an Azure AD tenant that contains the groups shown in the following table.
 
-[Image: image696.png]
+{{img:/exam-media/az-104/T2/image696.png}}
 
  You purchase Azure Active Directory Premium P2 licenses.
 
@@ -1817,7 +1792,7 @@ You have an Azure AD tenant that contains the groups shown in the following tabl
 - [ ] D. Group1, Group2, and Group3 only
 - [ ] E. Group1, Group2, Group3, and Group4
 
-## Q130 (Topic 2, Original #91)
+## Q125 (Topic 2, Original #91)
 
 You have an Azure AD tenant.
 
@@ -1827,7 +1802,7 @@ How should you complete the dynamic membership rule? To answer, select the appro
 
 NOTE: Each correct answer is worth one point.
 
-[Image: image697.png]
+{{img:/exam-media/az-104/T2/image697.png}}
 
 - [x] A. user.department
 - [x] B. and
@@ -1835,25 +1810,25 @@ NOTE: Each correct answer is worth one point.
 - [ ] D. user.usageLocation
 - [ ] E. or
 
-## Q131 (Topic 2, Original #93)
+## Q126 (Topic 2, Original #93)
 
 You have an Azure subscription named Sub1 that contains the blob containers shown in the following table.
 
-[Image: image701.png]
+{{img:/exam-media/az-104/T2/image701.png}}
 
  Sub1 contains two users named User1 and User2. Both users are assigned the Reader role at the Sub1 scope.
 
  You have a condition named Condition1 as shown in the following exhibit.
 
-[Image: image702.png]
+{{img:/exam-media/az-104/T2/image702.png}}
 
  You have a condition named Condition2 as shown in the following exhibit.
 
-[Image: image703.png]
+{{img:/exam-media/az-104/T2/image703.png}}
 
  You assign roles to User1 and User2 as shown in the following table.
 
-[Image: image704.png]
+{{img:/exam-media/az-104/T2/image704.png}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
 
@@ -1863,7 +1838,7 @@ You have an Azure subscription named Sub1 that contains the blob containers show
 - [ ] B. User1 can read blob3
 - [x] C. User2 can read blob1
 
-## Q132 (Topic 2, Original #94)
+## Q127 (Topic 2, Original #94)
 
 You have an Azure Active Directory (Azure AD) tenant named contoso.com.
 
@@ -1878,13 +1853,13 @@ You have an Azure Active Directory (Azure AD) tenant named contoso.com.
 - [ ] A. Yes
 - [x] B. No
 
-## Q133 (Topic 2, Original #95)
+## Q128 (Topic 2, Original #95)
 
 You purchase a new Azure subscription.
 
  You create an Azure Resource Manager (ARM) template named deploy.json as shown in the following exhibit.
 
-[Image: image764.png]
+{{img:/exam-media/az-104/T2/image764.png}}
 
  You connect to the subscription and run the following command.
 
@@ -1898,13 +1873,13 @@ You purchase a new Azure subscription.
 - [ ] B. A resource group named RGroup5 is created
 - [x] C. All the resource group are created in the East US Azure region
 
-## Q134 (Topic 2, Original #96)
+## Q129 (Topic 2, Original #96)
 
 Your on-premises network contains a VPN gateway.
 
  You have an Azure subscription that contains the resources shown in the following table.
 
-[Image: image768.png]
+{{img:/exam-media/az-104/T2/image768.png}}
 
  You need to ensure that all the traffic from VM1 to storage1 travels across the Microsoft backbone network.
 
@@ -1915,11 +1890,11 @@ Your on-premises network contains a VPN gateway.
 - [ ] C. a network security group (NSG)
 - [ ] D. Azure Peering Service
 
-## Q135 (Topic 2, Original #99)
+## Q130 (Topic 2, Original #99)
 
 You have an Azure subscription named Sub1 that contains the resources shown in the following table.
 
-[Image: image769.png]
+{{img:/exam-media/az-104/T2/image769.png}}
 
  You create a user named Admin1.
 
@@ -1930,19 +1905,19 @@ You have an Azure subscription named Sub1 that contains the resources shown in t
 - [x] C. Sub1
 - [ ] D. VM1
 
-## Q136 (Topic 2, Original #102)
+## Q131 (Topic 2, Original #102)
 
 You have a Microsoft Entra tenant that is linked to the subscriptions shown in the following table.
 
-[Image: image818.png]
+{{img:/exam-media/az-104/T2/image818.png}}
 
  You have the resource groups shown in the following table.
 
-[Image: image819.png]
+{{img:/exam-media/az-104/T2/image819.png}}
 
  You assign roles to users as shown in the following table.
 
-[Image: image820.png]
+{{img:/exam-media/az-104/T2/image820.png}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
 
@@ -1952,7 +1927,7 @@ You have a Microsoft Entra tenant that is linked to the subscriptions shown in t
 - [ ] B. User2 can crrate a new storage account in RG1
 - [x] C. User3 can assign User1 the Owner role for RG3
 
-## Q137 (Topic 2, Original #104)
+## Q132 (Topic 2, Original #104)
 
 You have a Microsoft Entra tenant.
 
@@ -1970,7 +1945,7 @@ You have a Microsoft Entra tenant.
 - [ ] D. Create an XML file that contains user information and the appropriate attributes.
 - [x] E. Create a CSV file that contains user information and the appropriate attributes.
 
-## Q138 (Topic 2, Original #105)
+## Q133 (Topic 2, Original #105)
 
 You have an Azure subscription that contains a storage account named storage1.
 
@@ -1984,11 +1959,11 @@ You have an Azure subscription that contains a storage account named storage1.
 - [x] D. an Azure key vault
 - [ ] E. a Recovery Services vault
 
-## Q139 (Topic 2, Original #106)
+## Q134 (Topic 2, Original #106)
 
 You have an Azure subscription that contains the Microsoft Entra identities shown in the following table.
 
-[Image: image835.png]
+{{img:/exam-media/az-104/T2/image835.png}}
 
  You need to enable self-service password reset (SSPR).
 
@@ -2000,17 +1975,17 @@ You have an Azure subscription that contains the Microsoft Entra identities show
 - [x] D. Group1 and Group2 only
 - [ ] E. User1, Group1, and Group2
 
-## Q140 (Topic 2, Original #107)
+## Q135 (Topic 2, Original #107)
 
 You have a Microsoft Entra tenant.
 
 You need to ensure that when a new Microsoft 365 group is created, the group name is automatically formatted as follows:
 
-[Image: image851.png]
+{{img:/exam-media/az-104/T2/image851.png}}
 
 Which three actions should you perform in sequence in the Microsoft Entra admin center? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
 
-[Image: image849.png]
+{{img:/exam-media/az-104/T2/image849.png}}
 
 - [ ] A. Set Add suffix to Attribute
 - [x] B. Create a group naming policy
@@ -2018,15 +1993,15 @@ Which three actions should you perform in sequence in the Microsoft Entra admin 
 - [ ] D. Set Add suffix to String
 - [x] E. Set Add prefix to Attribute
 
-## Q141 (Topic 2, Original #108)
+## Q136 (Topic 2, Original #108)
 
 You have a Microsoft Entra tenant that contains the users shown in the following table.
 
-[Image: image858.png]
+{{img:/exam-media/az-104/T2/image858.png}}
 
  The tenant contains the groups shown in the following table.
 
-[Image: image859.png]
+{{img:/exam-media/az-104/T2/image859.png}}
 
  Which users and groups can be deleted? To answer, select the appropriate options in the answer area.
 
@@ -2038,11 +2013,11 @@ You have a Microsoft Entra tenant that contains the users shown in the following
 - [ ] D. Groups: Groups4 only
 - [ ] E. Groups: Group1, Group2, Group3, and Group4
 
-## Q142 (Topic 2, Original #109)
+## Q137 (Topic 2, Original #109)
 
 You have an Azure subscription that contains the resources shown in the following table.
 
-[Image: image862.png]
+{{img:/exam-media/az-104/T2/image862.png}}
 
  You plan to use an Azure key vault to provide a secret to app1.
 
@@ -2056,7 +2031,7 @@ You have an Azure subscription that contains the resources shown in the followin
 - [x] D. User secret from: Vault1, Vault2, or Vault3
 - [ ] E. Create a: Service principal
 
-## Q143 (Topic 2, Original #110)
+## Q138 (Topic 2, Original #110)
 
 You have a Microsoft Entra tenant named contoso.com.
 
@@ -2073,7 +2048,7 @@ You have a Microsoft Entra tenant named contoso.com.
 - [ ] C. From External collaboration settings, configure the Guest user access restrictions settings
 - [x] D. From External collaboration settings, configure the Collaboration restrictions settings.
 
-## Q144 (Topic 2, Original #111)
+## Q139 (Topic 2, Original #111)
 
 You have an Azure subscription that contains a storage account named storage1. The storage1 account contains blob data.
 
@@ -2089,7 +2064,7 @@ You have an Azure subscription that contains a storage account named storage1. T
 - [x] D. Storage Blob Data Contributor
 - [x] E. Storage Blob Data Owner
 
-## Q145 (Topic 2, Original #112)
+## Q140 (Topic 2, Original #112)
 
 Case study -
 
@@ -2114,19 +2089,19 @@ Case study -
 
  The subscription contains the storage accounts shown in the following table.
 
-[Image: image865.png]
+{{img:/exam-media/az-104/T2/image865.png}}
 
  The subscription contains the virtual machines shown in the following table.
 
-[Image: image866.png]
+{{img:/exam-media/az-104/T2/image866.png}}
 
  The subscription has an Azure container registry that contains the images shown in the following table.
 
-[Image: image867.png]
+{{img:/exam-media/az-104/T2/image867.png}}
 
  The subscription contains the resources shown in the following table.
 
-[Image: image868.png]
+{{img:/exam-media/az-104/T2/image868.png}}
 
  Azure Key Vault -
 
@@ -2134,21 +2109,21 @@ Case study -
 
  Vault1 contains the certificates shown in the following table.
 
-[Image: image869.png]
+{{img:/exam-media/az-104/T2/image869.png}}
 
  Vault1 contains the keys shown in the following table.
 
-[Image: image870.png]
+{{img:/exam-media/az-104/T2/image870.png}}
 
  Microsoft Entra Environment -
 
  ADatum has a Microsoft Entra tenant named adatum.com that is linked to the Azure subscription and contains the users shown in the following table.
 
-[Image: image871.png]
+{{img:/exam-media/az-104/T2/image871.png}}
 
  The tenant contains the groups shown in the following table.
 
-[Image: image872.png]
+{{img:/exam-media/az-104/T2/image872.png}}
 
  The adatum.com tenant has a custom security attribute named Attribute1.
 
@@ -2185,15 +2160,15 @@ Case study -
 - [ ] B. Admin2 can assign Attribute1 to User1
 - [ ] C. Admin3 can assign Attribute1 to Group2
 
-## Q146 (Topic 2, Original #113)
+## Q141 (Topic 2, Original #113)
 
 You have a Microsoft Entra tenant configured as shown in the following exhibit.
 
-[Image: image875.png]
+{{img:/exam-media/az-104/T2/image875.png}}
 
  The tenant contains the identities shown in the following table.
 
-[Image: image876.png]
+{{img:/exam-media/az-104/T2/image876.png}}
 
  You purchase a Microsoft Fabric license.
 
@@ -2204,7 +2179,7 @@ You have a Microsoft Entra tenant configured as shown in the following exhibit.
 - [ ] C. User1 and Group2 only
 - [ ] D. User1, Group1, and Group2
 
-## Q147 (Topic 2, Original #114)
+## Q142 (Topic 2, Original #114)
 
 You have an Azure subscription that contains a storage account named storage. The storage account contains a blob that stores images.
 
@@ -2219,11 +2194,11 @@ You have an Azure subscription that contains a storage account named storage. Th
 - [ ] C. Add a lifecycle management rule.
 - [x] D. Set Allow recommended upper limit for shared access signature (SAS) expiry interval to Enabled.
 
-## Q148 (Topic 3, Original #1)
+## Q143 (Topic 3, Original #1)
 
 You have an Azure subscription named Subscription1 that contains the storage accounts shown in the following table:
 
-[Image: 0014000001.png]
+{{img:/exam-media/az-104/T3/0014000001.png}}
 
  You plan to use the Azure Import/Export service to export data from Subscription1.
  You need to identify which storage account can be used to export the data.
@@ -2234,17 +2209,17 @@ You have an Azure subscription named Subscription1 that contains the storage acc
 - [ ] C. storage3
 - [x] D. storage4
 
-## Q149 (Topic 3, Original #2)
+## Q144 (Topic 3, Original #2)
 
 You have Azure Storage accounts as shown in the following exhibit.
 
-[Image: 0014100001.jpg]
+{{img:/exam-media/az-104/T3/0014100001.jpg}}
 
  Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0014200001.jpg]
+{{img:/exam-media/az-104/T3/0014200001.jpg}}
 
 - [ ] A. Table Storage: storageaccount1 only
 - [ ] B. Table Storage: storageaccount2 only
@@ -2252,11 +2227,11 @@ You have Azure Storage accounts as shown in the following exhibit.
 - [ ] D. Blob Storage: storageaccount2 and  storageaccount3 only
 - [x] E. Blob Storage:all the storage accounts
 
-## Q150 (Topic 3, Original #3)
+## Q145 (Topic 3, Original #3)
 
 You have Azure subscription that includes data in following locations:
 
-[Image: 0014300004.png]
+{{img:/exam-media/az-104/T3/0014300004.png}}
 
  You plan to export data by using Azure import/export job named Export1.
  You need to identify the data that can be exported by using Export1.
@@ -2267,7 +2242,7 @@ You have Azure subscription that includes data in following locations:
 - [ ] C. share1
 - [ ] D. Table1
 
-## Q151 (Topic 3, Original #4)
+## Q146 (Topic 3, Original #4)
 
 HOTSPOT -
  You have an Azure Storage account named storage1.
@@ -2279,7 +2254,7 @@ HOTSPOT -
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0014500001.jpg]
+{{img:/exam-media/az-104/T3/0014500001.jpg}}
 
 - [ ] A. App1: Access keys
 - [x] B. App1: Access control (IAM)
@@ -2287,7 +2262,7 @@ HOTSPOT -
 - [ ] D. App1: Shared access signatures(SAS)
 - [x] E. App2: Shared access signatures(SAS)
 
-## Q152 (Topic 3, Original #5)
+## Q147 (Topic 3, Original #5)
 
 HOTSPOT -
  You need to create an Azure Storage account that meets the following requirements:
@@ -2298,7 +2273,7 @@ HOTSPOT -
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0014700004.jpg]
+{{img:/exam-media/az-104/T3/0014700004.jpg}}
 
 - [ ] A. FileStorage
 - [ ] B. Storage
@@ -2306,11 +2281,11 @@ HOTSPOT -
 - [x] D. Standard_GRS
 - [ ] E. Standard_LRS
 
-## Q153 (Topic 3, Original #6)
+## Q148 (Topic 3, Original #6)
 
 You have an Azure subscription that contains the resources in the following table.
 
-[Image: 0014900001.png]
+{{img:/exam-media/az-104/T3/0014900001.png}}
 
  Store1 contains a file share named data. Data contains 5,000 files.
  You need to synchronize the files in the file share named data to an on-premises server named Server1.
@@ -2323,16 +2298,16 @@ You have an Azure subscription that contains the resources in the following tabl
 - [ ] D. Download an automation script
 - [x] E. Create a sync group
 
-## Q154 (Topic 3, Original #7)
+## Q149 (Topic 3, Original #7)
 
 You have an Azure subscription that contains the resources shown in the following table.
 
-[Image: 0015000001-6ee844567e04b7fd707dc665c82e86724df35f2d.png]
+{{img:/exam-media/az-104/T3/0015000001-6ee844567e04b7fd707dc665c82e86724df35f2d.png}}
 
  The status of VM1 is Running.
  You assign an Azure policy as shown in the exhibit. (Click the Exhibit tab.)
 
-[Image: 0015100001.jpg]
+{{img:/exam-media/az-104/T3/0015100001.jpg}}
 
  You assign the policy by using the following parameters:
  Microsoft.ClassicNetwork/virtualNetworks
@@ -2345,7 +2320,7 @@ You have an Azure subscription that contains the resources shown in the followin
 - [ ] B. The state of VM1 changed to deallocated
 - [ ] C. An administrator can modify the address space of VNET2
 
-## Q155 (Topic 3, Original #8)
+## Q150 (Topic 3, Original #8)
 
 You have an Azure subscription that contains a storage account.
  You have an on-premises server named Server1 that runs Windows Server 2016. Server1 has 2 TB of data.
@@ -2354,22 +2329,22 @@ You have an Azure subscription that contains a storage account.
  NOTE: More than one order of answer choices is correct. You will receive credit for any of the correct orders you select.
  Select and Place:
 
-[Image: 0015300001.jpg]
+{{img:/exam-media/az-104/T3/0015300001.jpg}}
 
 - [x] A. 1. Attach
 - [x] B. 2. From the Azure portal, create an import job
 - [x] C. 3. Detach
 - [x] D. 4. From the Azure portal, update the import job
 
-## Q156 (Topic 3, Original #9)
+## Q151 (Topic 3, Original #9)
 
 You have Azure subscription that includes following Azure file shares:
 
-[Image: 0015500001.png]
+{{img:/exam-media/az-104/T3/0015500001.png}}
 
  You have the following on-premises servers:
 
-[Image: 0015500002.png]
+{{img:/exam-media/az-104/T3/0015500002.png}}
 
  You create a Storage Sync Service named Sync1 and an Azure File Sync group named Group1. Group1 uses share1 as a cloud endpoint.
  You register Server1 and Server2 in Sync1. You add D:\Folder1 on Server1 as a server endpoint of Group1.
@@ -2380,7 +2355,7 @@ You have Azure subscription that includes following Azure file shares:
 - [ ] B. E:\Folder2 on Server1 can be added as a server endpoint for Group1
 - [x] C. D:\Data on Server2 can be added as a server endpoint for Group1
 
-## Q157 (Topic 3, Original #11)
+## Q152 (Topic 3, Original #11)
 
 You have an Azure subscription that contains an Azure Storage account.
  You plan to copy an on-premises virtual machine image to a container named vmimages.
@@ -2389,7 +2364,7 @@ You have an Azure subscription that contains an Azure Storage account.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0016000001-492139605c77e25b53d016922267838fade591f6.png]
+{{img:/exam-media/az-104/T3/0016000001-492139605c77e25b53d016922267838fade591f6.png}}
 
 - [x] A. make
 - [ ] B. sync
@@ -2397,7 +2372,7 @@ You have an Azure subscription that contains an Azure Storage account.
 - [x] D. blob
 - [ ] E. dfs
 
-## Q158 (Topic 3, Original #10)
+## Q153 (Topic 3, Original #10)
 
 You have an Azure subscription named Subscription1.
  You create an Azure Storage account named contosostorage, and then you create a file share named data.
@@ -2405,7 +2380,7 @@ You have an Azure subscription named Subscription1.
  NOTE: Each correct selection is worth one point.
  Select and Place:
 
-[Image: 0015700001.jpg]
+{{img:/exam-media/az-104/T3/0015700001.jpg}}
 
 - [x] A. contosostorage
 - [x] B. file.core.windows.net
@@ -2413,11 +2388,11 @@ You have an Azure subscription named Subscription1.
 - [ ] D. portal.azure.com
 - [ ] E. blob.core.windows.net
 
-## Q159 (Topic 3, Original #12)
+## Q154 (Topic 3, Original #12)
 
 You have an Azure File sync group that has the endpoints shown in the following table.
 
-[Image: 0016100002.png]
+{{img:/exam-media/az-104/T3/0016100002.png}}
 
  Cloud tiering is enabled for Endpoint3.
  You add a file named File1 to Endpoint1 and a file named File2 to Endpoint2.
@@ -2425,7 +2400,7 @@ You have an Azure File sync group that has the endpoints shown in the following 
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0016200001.jpg]
+{{img:/exam-media/az-104/T3/0016200001.jpg}}
 
 - [x] A. File1: Endpoint1 only
 - [ ] B. File1: Endpoint3 only
@@ -2433,18 +2408,18 @@ You have an Azure File sync group that has the endpoints shown in the following 
 - [ ] D. File2: Endpoint2 and Endpoint3 only
 - [ ] E. File2: Endpoint1 only
 
-## Q160 (Topic 3, Original #13)
+## Q155 (Topic 3, Original #13)
 
 You have several Azure virtual machines on a virtual network named VNet1.
  You configure an Azure Storage account as shown in the following exhibit.
 
-[Image: 0016400001.jpg]
+{{img:/exam-media/az-104/T3/0016400001.jpg}}
 
  Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0016500001.jpg]
+{{img:/exam-media/az-104/T3/0016500001.jpg}}
 
 - [ ] A. 1. always
 - [ ] B. 1. during a backup
@@ -2452,12 +2427,12 @@ You have several Azure virtual machines on a virtual network named VNet1.
 - [ ] D. 2. always
 - [x] E. 2. never
 
-## Q161 (Topic 3, Original #14)
+## Q156 (Topic 3, Original #14)
 
 You have a sync group named Sync1 that has a cloud endpoint. The cloud endpoint includes a file named File1.txt.
  Your on-premises network contains servers that run Windows Server 2016. The servers are configured as shown in the following table.
 
-[Image: 0016700001.png]
+{{img:/exam-media/az-104/T3/0016700001.png}}
 
  You add Share1 as an endpoint for Sync1. One hour later, you add Share2 as an endpoint for Sync1.
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
@@ -2467,11 +2442,11 @@ You have a sync group named Sync1 that has a cloud endpoint. The cloud endpoint 
 - [ ] B. On Server, File1.txt is overwritten by File1.txt from the cloud endpoint
 - [x] C. File1.txt from Share1 replicates to Share2
 
-## Q162 (Topic 3, Original #15)
+## Q157 (Topic 3, Original #15)
 
 You have an Azure subscription that contains the storage accounts shown in the following table.
 
-[Image: 0016900001.png]
+{{img:/exam-media/az-104/T3/0016900001.png}}
 
  You need to identify which storage account can be converted to zone-redundant storage (ZRS) replication by requesting a live migration from Azure support.
  What should you identify?
@@ -2481,7 +2456,7 @@ You have an Azure subscription that contains the storage accounts shown in the f
 - [ ] C. storage3
 - [ ] D. storage4
 
-## Q163 (Topic 3, Original #16)
+## Q158 (Topic 3, Original #16)
 
 You have an Azure subscription that contains a storage account named account1.
  You plan to upload the disk files of a virtual machine to account1 from your on-premises network. The on-premises network uses a public IP address space of
@@ -2500,7 +2475,7 @@ You have an Azure subscription that contains a storage account named account1.
 - [ ] D. From the Networking blade of account1, add VNet1.
 - [ ] E. From the Service endpoints blade of VNet1, add a service endpoint.
 
-## Q164 (Topic 3, Original #17)
+## Q159 (Topic 3, Original #17)
 
 You have an on-premises file server named Server1 that runs Windows Server 2016.
  You have an Azure subscription that contains an Azure file share.
@@ -2509,7 +2484,7 @@ You have an on-premises file server named Server1 that runs Windows Server 2016.
  Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
  Select and Place:
 
-[Image: 0017200001-f6086e5bbbac3bf4f89388681fd829f015590c59.png]
+{{img:/exam-media/az-104/T3/0017200001-f6086e5bbbac3bf4f89388681fd829f015590c59.png}}
 
 - [x] A. Install the Azure File Sync agent on Server1
 - [x] B. Register Server1
@@ -2517,7 +2492,7 @@ You have an on-premises file server named Server1 that runs Windows Server 2016.
 - [ ] D. Create a Recovery Services vault
 - [ ] E. Install the DFS Replication server role on Server1
 
-## Q165 (Topic 3, Original #18)
+## Q160 (Topic 3, Original #18)
 
 You plan to create an Azure Storage account in the Azure region of East US 2.
  You need to create a storage account that meets the following requirements:
@@ -2527,7 +2502,7 @@ You plan to create an Azure Storage account in the Azure region of East US 2.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0017400003.png]
+{{img:/exam-media/az-104/T3/0017400003.png}}
 
 - [x] A. Replication: Zone-redundant storage (ZRS)
 - [ ] B. Replication: Geo-redundant storage (GRS)
@@ -2535,7 +2510,7 @@ You plan to create an Azure Storage account in the Azure region of East US 2.
 - [ ] D. Account type: Blob storage
 - [x] E. Account type: Storage V2 (general purpose V2)
 
-## Q166 (Topic 3, Original #19)
+## Q161 (Topic 3, Original #19)
 
 You plan to use the Azure Import/Export service to copy files to a storage account.
  Which two files should you create before you prepare the drives for the import job? Each correct answer presents part of the solution.
@@ -2547,7 +2522,7 @@ You plan to use the Azure Import/Export service to copy files to a storage accou
 - [ ] D. a PowerShell PS1 file
 - [x] E. a driveset CSV file
 
-## Q167 (Topic 3, Original #20)
+## Q162 (Topic 3, Original #20)
 
 You have a Recovery Service vault that you use to test backups. The test backups contain two protected virtual machines.
  You need to delete the Recovery Services vault.
@@ -2558,18 +2533,18 @@ You have a Recovery Service vault that you use to test backups. The test backups
 - [ ] C. Modify the locks of each virtual machine.
 - [x] D. From the Recovery Service vault, stop the backup of each backup item.
 
-## Q168 (Topic 3, Original #21)
+## Q163 (Topic 3, Original #21)
 
 You have an Azure subscription named Subscription1 that contains the resources shown in the following table.
 
-[Image: 0017800001-9fc8266bbb9872b6161ebf88266862d000652da5.png]
+{{img:/exam-media/az-104/T3/0017800001-9fc8266bbb9872b6161ebf88266862d000652da5.png}}
 
  In storage1, you create a blob container named blob1 and a file share named share1.
  Which resources can be backed up to Vault1 and Vault2? To answer, select the appropriate options in the answer area.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0017900001.png]
+{{img:/exam-media/az-104/T3/0017900001.png}}
 
 - [x] A. Vault1 for backups:VM1 only
 - [ ] B. Vault1 for backups:Vm1 and share1 only
@@ -2577,7 +2552,7 @@ You have an Azure subscription named Subscription1 that contains the resources s
 - [x] D. Vault2 for backups: share1 only
 - [ ] E. Vault2 for backups: storage1 only
 
-## Q169 (Topic 3, Original #22)
+## Q164 (Topic 3, Original #22)
 
 You have an Azure subscription named Subscription1.
  You have 5 TB of data that you need to transfer to Subscription1.
@@ -2589,18 +2564,18 @@ You have an Azure subscription named Subscription1.
 - [x] C. Azure File Storage
 - [ ] D. the Azure File Sync Storage Sync Service
 
-## Q170 (Topic 3, Original #23)
+## Q165 (Topic 3, Original #23)
 
 You have an Azure subscription.
 You create the Azure Storage account shown in the following exhibit.
 
-[Image: 0018300001-323f8d2c5f68541eaa0614db7767ad8460e411f8.jpg]
+{{img:/exam-media/az-104/T3/0018300001-323f8d2c5f68541eaa0614db7767ad8460e411f8.jpg}}
 
 Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
 NOTE: Each correct selection is worth one point.
 Hot Area:
 
-[Image: 0018400001.png]
+{{img:/exam-media/az-104/T3/0018400001.png}}
 
 - [ ] A. 1
 - [ ] B. 2
@@ -2608,7 +2583,7 @@ Hot Area:
 - [x] D. Access tier (default)
 - [ ] E. Performance
 
-## Q171 (Topic 3, Original #24)
+## Q166 (Topic 3, Original #24)
 
 You have an Azure Storage account named storage1.
  You plan to use AzCopy to copy data to storage1.
@@ -2621,7 +2596,7 @@ You have an Azure Storage account named storage1.
 - [ ] D. file only
 - [ ] E. blob, table, and queue only
 
-## Q172 (Topic 3, Original #25)
+## Q167 (Topic 3, Original #25)
 
 You have an Azure Storage account named storage1 that uses Azure Blob storage and Azure File storage.
  You need to use AzCopy to copy data to the blob storage and file storage in storage1.
@@ -2629,7 +2604,7 @@ You have an Azure Storage account named storage1 that uses Azure Blob storage an
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0018700001-6b649140730bf6b815ca58350334cae7c537460b.png]
+{{img:/exam-media/az-104/T3/0018700001-6b649140730bf6b815ca58350334cae7c537460b.png}}
 
 - [ ] A. Blob storage: Entra ID only
 - [ ] B. Blob storage: Access keys and shared access signatures(SAS) only
@@ -2637,7 +2612,7 @@ You have an Azure Storage account named storage1 that uses Azure Blob storage an
 - [x] D. File storage: shared access signatures(SAS) only
 - [ ] E. File storage: Entra ID only
 
-## Q173 (Topic 3, Original #26)
+## Q168 (Topic 3, Original #26)
 
 You have an Azure subscription that contains an Azure Storage account.
  You plan to create an Azure container instance named container1 that will use a Docker image named Image1. Image1 contains a Microsoft SQL Server instance that requires persistent storage.
@@ -2649,7 +2624,7 @@ You have an Azure subscription that contains an Azure Storage account.
 - [ ] C. Azure Queue storage
 - [ ] D. Azure Table storage
 
-## Q174 (Topic 3, Original #27)
+## Q169 (Topic 3, Original #27)
 
 You have an app named App1 that runs on two Azure virtual machines named VM1 and VM2.
  You plan to implement an Azure Availability Set for App1. The solution must ensure that App1 is available during planned maintenance of the hardware hosting
@@ -2661,7 +2636,7 @@ You have an app named App1 that runs on two Azure virtual machines named VM1 and
 - [ ] C. one fault domain
 - [x] D. two update domains
 
-## Q175 (Topic 3, Original #28)
+## Q170 (Topic 3, Original #28)
 
 You have an Azure subscription named Subscription1.
  You have 5 TB of data that you need to transfer to Subscription1.
@@ -2673,7 +2648,7 @@ You have an Azure subscription named Subscription1.
 - [ ] C. Azure Data Lake Store
 - [ ] D. the Azure File Sync Storage Sync Service
 
-## Q176 (Topic 3, Original #29)
+## Q171 (Topic 3, Original #29)
 
 You have an Azure subscription that contains an Azure file share.
  You have an on-premises server named Server1 that runs Windows Server 2016.
@@ -2683,22 +2658,22 @@ You have an Azure subscription that contains an Azure file share.
  NOTE: Each correct selection is worth one point.
   Select and Place:
 
-[Image: 0019100001-b3fdbdebc5808328dde74c024e5587630bda147a.png]
+{{img:/exam-media/az-104/T3/0019100001-b3fdbdebc5808328dde74c024e5587630bda147a.png}}
 
 - [x] A. Create a Storage Sync Service
 - [ ] B. Install the Azure File Sync agent
 - [x] C. Create a sync group
 - [ ] D. Run Server Registration
 
-## Q177 (Topic 3, Original #30)
+## Q172 (Topic 3, Original #30)
 
 You have an Azure subscription that contains the file shares shown in the following table.
 
-[Image: 0019200001-dd9193449a06ae18350bc4d1f93a8581ce87466b.png]
+{{img:/exam-media/az-104/T3/0019200001-dd9193449a06ae18350bc4d1f93a8581ce87466b.png}}
 
  You have the on-premises file shares shown in the following table.
 
-[Image: 0019200002.png]
+{{img:/exam-media/az-104/T3/0019200002.png}}
 
  You create an Azure file sync group named Sync1 and perform the following actions:
  ✑ Add share1 as the cloud endpoint for Sync1.
@@ -2712,11 +2687,11 @@ You have an Azure subscription that contains the file shares shown in the follow
 - [x] B. You can add data2 as an additional server endpoint for Sync1
 - [ ] C. You can add data3 as an additional server endpoint for Sync1
 
-## Q178 (Topic 3, Original #31)
+## Q173 (Topic 3, Original #31)
 
 You have an Azure subscription named Subscription1 that contains the resources shown in the following table:
 
-[Image: 0019400001.png]
+{{img:/exam-media/az-104/T3/0019400001.png}}
 
  You plan to configure Azure Backup reports for Vault1.
  You are configuring the Diagnostics settings for the AzureBackupReports log.
@@ -2724,7 +2699,7 @@ You have an Azure subscription named Subscription1 that contains the resources s
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0019500001.jpg]
+{{img:/exam-media/az-104/T3/0019500001.jpg}}
 
 - [ ] A. Storage accounts: storage1 only
 - [ ] B. Storage accounts: storage2 only
@@ -2732,17 +2707,17 @@ You have an Azure subscription named Subscription1 that contains the resources s
 - [x] D. Log Analytics workspaces: Analytics3 only
 - [ ] E. Log Analytics workspaces: Analytics2 only
 
-## Q179 (Topic 3, Original #32)
+## Q174 (Topic 3, Original #32)
 
 You have an Azure subscription that contains the storage accounts shown in the following exhibit.
 
-[Image: 0019600001-b7796552adde91f1b87b7143253dd16a2f370674.png]
+{{img:/exam-media/az-104/T3/0019600001-b7796552adde91f1b87b7143253dd16a2f370674.png}}
 
  Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0019700001.png]
+{{img:/exam-media/az-104/T3/0019700001.png}}
 
 - [ ] A. premium file share in: contoso101 only
 - [x] B. premium file share in: contoso104 only
@@ -2750,19 +2725,19 @@ You have an Azure subscription that contains the storage accounts shown in the f
 - [ ] D. Archive access tier in: contoso101 only
 - [ ] E. Archive access tier in: contoso101 , contoso102, contoso103, and contoso104
 
-## Q180 (Topic 3, Original #33)
+## Q175 (Topic 3, Original #33)
 
 You have an Azure subscription named Subscription1.
  In Subscription1, you create an Azure file share named share1.
  You create a shared access signature (SAS) named SAS1 as shown in the following exhibit:
 
-[Image: 0019900001.png]
+{{img:/exam-media/az-104/T3/0019900001.png}}
 
  To answer, select the appropriate options in the answer area.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0020000001-9128caf767abb271e148a1df28b154861a6ffeb8.jpg]
+{{img:/exam-media/az-104/T3/0020000001-9128caf767abb271e148a1df28b154861a6ffeb8.jpg}}
 
 - [ ] A. 1. will be prompted for credentials
 - [x] B. 1. will have no access
@@ -2770,7 +2745,7 @@ You have an Azure subscription named Subscription1.
 - [ ] D. 2. will have read-only access
 - [x] E. 2. will have no access
 
-## Q181 (Topic 3, Original #34)
+## Q176 (Topic 3, Original #34)
 
 You have two Azure virtual machines named VM1 and VM2. You have two Recovery Services vaults named RSV1 and RSV2.
 VM2 is backed up to RSV1.
@@ -2782,7 +2757,7 @@ What should you do first?
 - [ ] C. From the VM2 blade, click Disaster recovery, click Replication settings, and then select RSV2 as the Recovery Services vault
 - [ ] D. From the RSV1 blade, click Backup Jobs and export the VM2 job
 
-## Q182 (Topic 3, Original #35)
+## Q177 (Topic 3, Original #35)
 
 You have a general-purpose v1 Azure Storage account named storage1 that uses locally-redundant storage (LRS).
  You need to ensure that the data in the storage account is protected if a zone fails. The solution must minimize costs and administrative effort.
@@ -2793,11 +2768,11 @@ You have a general-purpose v1 Azure Storage account named storage1 that uses loc
 - [x] C. Upgrade the account to general-purpose v2.
 - [ ] D. Modify the Replication setting of storage1.
 
-## Q183 (Topic 3, Original #36)
+## Q178 (Topic 3, Original #36)
 
 You have an Azure subscription that contains the storage accounts shown in the following table.
 
-[Image: 0020200001.png]
+{{img:/exam-media/az-104/T3/0020200001.png}}
 
  You plan to manage the data stored in the accounts by using lifecycle management rules.
  To which storage accounts can you apply lifecycle management rules?
@@ -2808,7 +2783,7 @@ You have an Azure subscription that contains the storage accounts shown in the f
 - [x] D. storage1, storage2, and storage3 only
 - [ ] E. storage1, storage2, storage3, and storage4
 
-## Q184 (Topic 3, Original #37)
+## Q179 (Topic 3, Original #37)
 
 You create an Azure Storage account named contosostorage.
  You plan to create a file share named data.
@@ -2819,12 +2794,12 @@ You create an Azure Storage account named contosostorage.
 - [ ] B. 445
 - [x] C. 3389
 
-## Q185 (Topic 3, Original #39)
+## Q180 (Topic 3, Original #39)
 
 You have an Azure subscription that contains an Azure Storage account named storageaccount1.
  You export storageaccount1 as an Azure Resource Manager template. The template contains the following sections.
 
-[Image: 0020500001.jpg]
+{{img:/exam-media/az-104/T3/0020500001.jpg}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
  NOTE: Each correct selection is worth one point
@@ -2834,12 +2809,12 @@ You have an Azure subscription that contains an Azure Storage account named stor
 - [x] B. Individual blobs in storageaccount1 can be set to use the archive tier
 - [ ] C. Global administrations in Entra ID can access a file share hosted in storageaccount1 by using their Entra ID credentials
 
-## Q186 (Topic 3, Original #40)
+## Q181 (Topic 3, Original #40)
 
 You have an Azure subscription that contains a storage account named storage1.
  You have the devices shown in the following table.
 
-[Image: 0020700001.png]
+{{img:/exam-media/az-104/T3/0020700001.png}}
 
  From which devices can you use AzCopy to copy data to storage1?
 
@@ -2848,7 +2823,7 @@ You have an Azure subscription that contains a storage account named storage1.
 - [ ] C. Device1 and Device2 only
 - [ ] D. Device1 and Device3 only
 
-## Q187 (Topic 3, Original #41)
+## Q182 (Topic 3, Original #41)
 
 You have an Azure Storage account named storage1 that contains a blob container named container1.
  You need to prevent new content added to container1 from being modified for one year.
@@ -2859,16 +2834,16 @@ You have an Azure Storage account named storage1 that contains a blob container 
 - [ ] C. the Access control (IAM) settings
 - [ ] D. the access level
 
-## Q188 (Topic 3, Original #42)
+## Q183 (Topic 3, Original #42)
 
 You have an Azure Storage account named storage1 that contains a blob container. The blob container has a default access tier of Hot. Storage1 contains a container named conainer1.
  You create lifecycle management rules in storage1 as shown in the following table.
 
-[Image: 0020800001.png]
+{{img:/exam-media/az-104/T3/0020800001.png}}
 
  You perform the actions shown in the following table.
 
-[Image: 0020900001.png]
+{{img:/exam-media/az-104/T3/0020900001.png}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
  NOTE: Each correct selection is worth one point.
@@ -2878,7 +2853,7 @@ You have an Azure Storage account named storage1 that contains a blob container.
 - [x] B. On October 10, you can read File2.docx
 - [x] C. On October 10, you can read File3.docx
 
-## Q189 (Topic 3, Original #43)
+## Q184 (Topic 3, Original #43)
 
 You are configuring Azure Active Directory (Azure AD) authentication for an Azure Storage account named storage1.
  You need to ensure that the members of a group named Group1 can upload files by using the Azure portal. The solution must use the principle of least privilege.
@@ -2891,7 +2866,7 @@ You are configuring Azure Active Directory (Azure AD) authentication for an Azur
 - [ ] D. Contributor
 - [ ] E. Storage Blob Data Reader
 
-## Q190 (Topic 3, Original #44)
+## Q185 (Topic 3, Original #44)
 
 You have an Azure Storage account named storage1 that stores images.
  You need to create a new storage account and replicate the images in storage1 to the new account by using object replication.
@@ -2899,7 +2874,7 @@ You have an Azure Storage account named storage1 that stores images.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0021100001.jpg]
+{{img:/exam-media/az-104/T3/0021100001.jpg}}
 
 - [x] A. StorageV2 or BlobStorage only
 - [ ] B. StorageV2 or FileStorage only
@@ -2907,7 +2882,7 @@ You have an Azure Storage account named storage1 that stores images.
 - [x] D. Container
 - [ ] E. File share
 
-## Q191 (Topic 3, Original #45)
+## Q186 (Topic 3, Original #45)
 
 You have an on-premises server that contains a folder named D:\Folder1.
  You need to copy the contents of D:\Folder1 to the public container in an Azure Storage account named contosodata.
@@ -2918,7 +2893,7 @@ You have an on-premises server that contains a folder named D:\Folder1.
 - [x] C. azcopy copy D:\folder1 https://contosodata.blob.core.windows.net/public --recursive
 - [ ] D. az storage blob copy start-batch D:\Folder1 https://contosodata.blob.core.windows.net/public
 
-## Q192 (Topic 3, Original #46)
+## Q187 (Topic 3, Original #46)
 
 You have an Azure subscription.
  In the Azure portal, you plan to create a storage account named storage1 that will have the following settings:
@@ -2934,11 +2909,11 @@ You have an Azure subscription.
 - [ ] C. Access tier(default)
 - [ ] D. Hierarchical namespace
 
-## Q193 (Topic 3, Original #47)
+## Q188 (Topic 3, Original #47)
 
 You have an Azure subscription that contains the storage accounts shown in the following table.
 
-[Image: 0021400001.png]
+{{img:/exam-media/az-104/T3/0021400001.png}}
 
  You plan to use AzCopy to copy a blob from container1 directly to share1.
  You need to identify which authentication method to use when you use AzCopy.
@@ -2946,7 +2921,7 @@ You have an Azure subscription that contains the storage accounts shown in the f
  NOTE: Each correct selection is worth one point.
  Select and Place:
 
-[Image: 0021500001.jpg]
+{{img:/exam-media/az-104/T3/0021500001.jpg}}
 
 - [ ] A. storage1: OAuth
 - [ ] B. storage2: A storage account access key
@@ -2954,7 +2929,7 @@ You have an Azure subscription that contains the storage accounts shown in the f
 - [x] D. storage1: A shared access signature (SAS) token
 - [x] E. storage2: A shared access signature (SAS) token
 
-## Q194 (Topic 3, Original #48)
+## Q189 (Topic 3, Original #48)
 
 You create an Azure Storage account.
  You plan to add 10 blob containers to the storage account.
@@ -2966,15 +2941,15 @@ You create an Azure Storage account.
 - [ ] C. Rotate the access keys.
 - [x] D. Create an encryption scope.
 
-## Q195 (Topic 3, Original #49)
+## Q190 (Topic 3, Original #49)
 
 You have an Azure subscription. The subscription contains a storage account named storage1 that has the lifecycle management rules shown in the following table.
 
-[Image: image578.png]
+{{img:/exam-media/az-104/T3/image578.png}}
 
  On June 1, you store two blobs in storage1 as shown in the following table.
 
-[Image: image579.png]
+{{img:/exam-media/az-104/T3/image579.png}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
 
@@ -2984,7 +2959,7 @@ You have an Azure subscription. The subscription contains a storage account name
 - [ ] B. On June 1, File2 will be stored in the Cool access tier
 - [ ] C. On June 16, File2 will be stored in the Archive access tier
 
-## Q196 (Topic 3, Original #50)
+## Q191 (Topic 3, Original #50)
 
 HOTSPOT
  -
@@ -2993,7 +2968,7 @@ HOTSPOT
 
  You plan to deploy a storage account named storage1 by using the following Azure Resource Manager (ARM) template.
 
-[Image: image582.png]
+{{img:/exam-media/az-104/T3/image582.png}}
 
  For each of the following statements, select Yes if the statement is hue. Otherwise, select No.
 
@@ -3003,7 +2978,7 @@ HOTSPOT
 - [ ] B. Only users located in the East US Azure region can connect to storage1
 - [x] C. Three copies of storage1 will be maintained in the East Us Azure region
 
-## Q197 (Topic 3, Original #52)
+## Q192 (Topic 3, Original #52)
 
 You have an Azure subscription that contains a storage account named storage1. The storage1 account contains a container named container1.
 
@@ -3013,7 +2988,7 @@ You have an Azure subscription that contains a storage account named storage1. T
 
  NOTE: Each correct selection is worth one point.
 
-[Image: image585.png]
+{{img:/exam-media/az-104/T3/image585.png}}
 
 - [ ] A. enableAutoTierToHotFromCool
 - [x] B. tierToAchrive
@@ -3021,7 +2996,7 @@ You have an Azure subscription that contains a storage account named storage1. T
 - [ ] D. blobIndexMatch
 - [x] E. prefixMatch
 
-## Q198 (Topic 3, Original #53)
+## Q193 (Topic 3, Original #53)
 
 You have an Azure subscription that contains a virtual machine named VM1.
 
@@ -3029,7 +3004,7 @@ You need to back up VM1. The solution must ensure that backups are stored across
 
 Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
 
-[Image: image587.png]
+{{img:/exam-media/az-104/T3/image587.png}}
 
 - [x] A. Create Recovery Services Vault
 - [x] B. Set Replication Policy to Zone-redundant storage (ZRS)
@@ -3037,15 +3012,15 @@ Which three actions should you perform in sequence? To answer, move the appropri
 - [ ] D. Configure a replication policy
 - [ ] E. Set Replication Policy to locally-redundant storage (LRS)
 
-## Q199 (Topic 3, Original #55)
+## Q194 (Topic 3, Original #55)
 
 You have an Azure subscription that contains the resources shown in the following table.
 
-[Image: image589.png]
+{{img:/exam-media/az-104/T3/image589.png}}
 
  You need to perform the tasks shown in the following table.
 
-[Image: image590.png]
+{{img:/exam-media/az-104/T3/image590.png}}
 
  Which tasks can you perform by using Azure Storage Explorer?
 
@@ -3055,7 +3030,7 @@ You have an Azure subscription that contains the resources shown in the followin
 - [x] D. Task2, Task3, and Task4 only
 - [ ] E. Task1, Task2, Task3, and Task4
 
-## Q200 (Topic 3, Original #57)
+## Q195 (Topic 3, Original #57)
 
 You have an Azure subscription that contains a storage account named storage1.
 
@@ -3071,11 +3046,11 @@ You have an Azure subscription that contains a storage account named storage1.
 - [ ] D. an RSA key with a key size of 4096 only
 - [x] E. an RSA key type with a key size of 2048, 3072, or 4096 only
 
-## Q201 (Topic 3, Original #61)
+## Q196 (Topic 3, Original #61)
 
 You have an Azure subscription. The subscription contains a storage account named storage1 that has the lifecycle management rules shown in the following table.
 
-[Image: image639.png]
+{{img:/exam-media/az-104/T3/image639.png}}
 
  On June 1, you store a blob named File1 in the Hot access tier of storage1.
 
@@ -3086,7 +3061,7 @@ You have an Azure subscription. The subscription contains a storage account name
 - [ ] C. stored in the Hot access tier
 - [x] D. deleted
 
-## Q202 (Topic 3, Original #64)
+## Q197 (Topic 3, Original #64)
 
 You have an Azure subscription that contains a storage account named storage1. The storage1 account contains a container named container1.
 
@@ -3098,7 +3073,7 @@ You have an Azure subscription that contains a storage account named storage1. T
 
  NOTE: Each correct selection is worth one point.
 
-[Image: image651.png]
+{{img:/exam-media/az-104/T3/image651.png}}
 
 - [ ] A. daysAfterCreationGreateThan
 - [ ] B. dayAfterLAsAccessTimeGreaterThan
@@ -3106,7 +3081,7 @@ You have an Azure subscription that contains a storage account named storage1. T
 - [ ] D. AppendBlob
 - [x] E. Blockblob
 
-## Q203 (Topic 3, Original #66)
+## Q198 (Topic 3, Original #66)
 
 You plan to create an Azure Storage account named storage1 that will contain a file share named share1.
 
@@ -3119,7 +3094,7 @@ You plan to create an Azure Storage account named storage1 that will contain a f
 - [ ] C. Premium performance with geo-redundant storage (GRS)
 - [ ] D. Standard performance with locally-redundant storage (LRS)
 
-## Q204 (Topic 3, Original #68)
+## Q199 (Topic 3, Original #68)
 
 You have an Azure subscription that contains a storage account named storage1.
 
@@ -3133,19 +3108,19 @@ You have an Azure subscription that contains a storage account named storage1.
 - [ ] D. queues only
 - [x] E. containers and queues only
 
-## Q205 (Topic 3, Original #69)
+## Q200 (Topic 3, Original #69)
 
 You have an Azure subscription that contains the resource groups shown in the following table.
 
-[Image: image658.png]
+{{img:/exam-media/az-104/T3/image658.png}}
 
  The subscription contains the virtual networks shown in the following table.
 
-[Image: image659.png]
+{{img:/exam-media/az-104/T3/image659.png}}
 
  You plan to deploy the Azure Kubernetes Service (AKS) clusters shown in the following table.
 
-[Image: image660.png]
+{{img:/exam-media/az-104/T3/image660.png}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
 
@@ -3155,7 +3130,7 @@ You have an Azure subscription that contains the resource groups shown in the fo
 - [x] B. You can deploy AKS2 to VNet1
 - [x] C. You can depliy AKS3 to VNet3
 
-## Q206 (Topic 3, Original #70)
+## Q201 (Topic 3, Original #70)
 
 You have an Azure Storage account named storage1.
 
@@ -3168,19 +3143,19 @@ You have an Azure Storage account named storage1.
 - [ ] A. Yes
 - [x] B. No
 
-## Q207 (Topic 3, Original #71)
+## Q202 (Topic 3, Original #71)
 
 You have an Azure subscription that has offices in the East US and West US Azure regions.
 
  You plan to create the storage account shown in the following exhibit.
 
-[Image: image671.png]
+{{img:/exam-media/az-104/T3/image671.png}}
 
  Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
 
  NOTE: Each correct selection is worth one point.
 
-[Image: image672.png]
+{{img:/exam-media/az-104/T3/image672.png}}
 
 - [ ] A. Default routing tier
 - [ ] B. Endpoint type
@@ -3188,7 +3163,7 @@ You have an Azure subscription that has offices in the East US and West US Azure
 - [ ] D. Enable infrastructure encryption
 - [ ] E. Encryption type
 
-## Q208 (Topic 3, Original #72)
+## Q203 (Topic 3, Original #72)
 
 You have an Azure subscription.
 
@@ -3209,7 +3184,7 @@ You have an Azure subscription.
 - [ ] D. 2048
 - [x] E. 4096
 
-## Q209 (Topic 3, Original #73)
+## Q204 (Topic 3, Original #73)
 
 You have an Azure Storage account that contains 5,000 blobs accessed by multiple users.
 
@@ -3222,7 +3197,7 @@ You have an Azure Storage account that contains 5,000 blobs accessed by multiple
 - [ ] C. just-in-time (JIT) VM access
 - [ ] D. a shared access signature (SAS)
 
-## Q210 (Topic 3, Original #74)
+## Q205 (Topic 3, Original #74)
 
 You have an Azure Storage account named storage1.
 
@@ -3236,7 +3211,7 @@ You have an Azure Storage account named storage1.
 - [ ] D. containers and tables only
 - [ ] E. file shares, containers, and tables only
 
-## Q211 (Topic 3, Original #78)
+## Q206 (Topic 3, Original #78)
 
 You have an Azure virtual machine named VM1 and an Azure key vault named Vault1.
 
@@ -3252,7 +3227,7 @@ You have an Azure virtual machine named VM1 and an Azure key vault named Vault1.
 - [ ] D. Configure a key rotation policy.
 - [x] E. Select Azure Disk Encryption for volume encryption.
 
-## Q212 (Topic 3, Original #79)
+## Q207 (Topic 3, Original #79)
 
 You have an Azure subscription that contains a virtual machine named VM1 and an Azure key vault named KV1.
 
@@ -3269,7 +3244,7 @@ You have an Azure subscription that contains a virtual machine named VM1 and an 
 - [x] C. Azure Disk Encryption
 - [ ] D. encryption at host
 
-## Q213 (Topic 3, Original #81)
+## Q208 (Topic 3, Original #81)
 
 You have an Azure subscription that contains a storage account named storage1. The storage1 account contains a container named container1.
 
@@ -3285,7 +3260,7 @@ You have an Azure subscription that contains a storage account named storage1. T
 - [ ] C. Azure Content Delivery Network (CDN)
 - [ ] D. access keys
 
-## Q214 (Topic 3, Original #82)
+## Q209 (Topic 3, Original #82)
 
 You need to create an Azure Storage account named storage1. The solution must meet the following requirements:
 
@@ -3303,7 +3278,7 @@ You need to create an Azure Storage account named storage1. The solution must me
 - [ ] D. the Hot access tier
 - [x] E. hierarchical namespace
 
-## Q215 (Topic 3, Original #83)
+## Q210 (Topic 3, Original #83)
 
 You have an Azure Storage account named storage1 that contains two containers named container1 and container2. Blob versioning is enabled for both containers.
 
@@ -3311,7 +3286,7 @@ You have an Azure Storage account named storage1 that contains two containers na
 
  You create the following lifecycle management policy.
 
-[Image: image770.png]
+{{img:/exam-media/az-104/T3/image770.png}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
 
@@ -3321,11 +3296,11 @@ You have an Azure Storage account named storage1 that contains two containers na
 - [ ] B. A blob version in container2 automatically moves to the Archive access tier after 30 days
 - [ ] C. A rehydrated version automatically moves to the Archive access tier after 30 days
 
-## Q216 (Topic 3, Original #84)
+## Q211 (Topic 3, Original #84)
 
 You have an Azure subscription that contains the storage accounts shown in the following table.
 
-[Image: image773.png]
+{{img:/exam-media/az-104/T3/image773.png}}
 
  Which storage account can be converted to zone-redundant storage (ZRS) replication?
 
@@ -3334,7 +3309,7 @@ You have an Azure subscription that contains the storage accounts shown in the f
 - [ ] C. storage3
 - [ ] D. storage4
 
-## Q217 (Topic 3, Original #86)
+## Q212 (Topic 3, Original #86)
 
 You have an Azure Storage account named storage1.
 
@@ -3347,7 +3322,7 @@ You have an Azure Storage account named storage1.
 - [x] A. Yes
 - [ ] B. No
 
-## Q218 (Topic 3, Original #94)
+## Q213 (Topic 3, Original #94)
 
 You have an Azure Storage account named storage1.
 
@@ -3360,7 +3335,7 @@ You have an Azure Storage account named storage1.
 - [ ] A. Yes
 - [x] B. No
 
-## Q219 (Topic 3, Original #95)
+## Q214 (Topic 3, Original #95)
 
 You have an Azure subscription that contains a Standard SKU Azure container registry named ContReg1.
 
@@ -3374,7 +3349,7 @@ You have an Azure subscription that contains a Standard SKU Azure container regi
 - [ ] D. Create a cache rule.
 - [x] E. Upgrade the SKU.
 
-## Q220 (Topic 3, Original #96)
+## Q215 (Topic 3, Original #96)
 
 Case study -
 
@@ -3399,19 +3374,19 @@ Case study -
 
  The subscription contains the storage accounts shown in the following table.
 
-[Image: image865.png]
+{{img:/exam-media/az-104/T3/image865.png}}
 
  The subscription contains the virtual machines shown in the following table.
 
-[Image: image866.png]
+{{img:/exam-media/az-104/T3/image866.png}}
 
  The subscription has an Azure container registry that contains the images shown in the following table.
 
-[Image: image867.png]
+{{img:/exam-media/az-104/T3/image867.png}}
 
  The subscription contains the resources shown in the following table.
 
-[Image: image868.png]
+{{img:/exam-media/az-104/T3/image868.png}}
 
  Azure Key Vault -
 
@@ -3419,21 +3394,21 @@ Case study -
 
  Vault1 contains the certificates shown in the following table.
 
-[Image: image869.png]
+{{img:/exam-media/az-104/T3/image869.png}}
 
  Vault1 contains the keys shown in the following table.
 
-[Image: image870.png]
+{{img:/exam-media/az-104/T3/image870.png}}
 
  Microsoft Entra Environment -
 
  ADatum has a Microsoft Entra tenant named adatum.com that is linked to the Azure subscription and contains the users shown in the following table.
 
-[Image: image871.png]
+{{img:/exam-media/az-104/T3/image871.png}}
 
  The tenant contains the groups shown in the following table.
 
-[Image: image872.png]
+{{img:/exam-media/az-104/T3/image872.png}}
 
  The adatum.com tenant has a custom security attribute named Attribute1.
 
@@ -3466,7 +3441,7 @@ Case study -
 
  NOTE: Each correct selection is worth one point.
 
-[Image: image877.png]
+{{img:/exam-media/az-104/T3/image877.png}}
 
 - [ ] A. Stored access policies: 0
 - [ ] B. Stored access policies: 1
@@ -3474,7 +3449,7 @@ Case study -
 - [ ] D. Immutable blob storage policies: 0
 - [x] E. Immutable blob storage policies: 1
 
-## Q221 (Topic 3, Original #97)
+## Q216 (Topic 3, Original #97)
 
 Case study -
 
@@ -3499,19 +3474,19 @@ Case study -
 
  The subscription contains the storage accounts shown in the following table.
 
-[Image: image865.png]
+{{img:/exam-media/az-104/T3/image865.png}}
 
  The subscription contains the virtual machines shown in the following table.
 
-[Image: image866.png]
+{{img:/exam-media/az-104/T3/image866.png}}
 
  The subscription has an Azure container registry that contains the images shown in the following table.
 
-[Image: image867.png]
+{{img:/exam-media/az-104/T3/image867.png}}
 
  The subscription contains the resources shown in the following table.
 
-[Image: image868.png]
+{{img:/exam-media/az-104/T3/image868.png}}
 
  Azure Key Vault -
 
@@ -3519,21 +3494,21 @@ Case study -
 
  Vault1 contains the certificates shown in the following table.
 
-[Image: image869.png]
+{{img:/exam-media/az-104/T3/image869.png}}
 
  Vault1 contains the keys shown in the following table.
 
-[Image: image870.png]
+{{img:/exam-media/az-104/T3/image870.png}}
 
  Microsoft Entra Environment -
 
  ADatum has a Microsoft Entra tenant named adatum.com that is linked to the Azure subscription and contains the users shown in the following table.
 
-[Image: image871.png]
+{{img:/exam-media/az-104/T3/image871.png}}
 
  The tenant contains the groups shown in the following table.
 
-[Image: image872.png]
+{{img:/exam-media/az-104/T3/image872.png}}
 
  The adatum.com tenant has a custom security attribute named Attribute1.
 
@@ -3569,7 +3544,7 @@ Case study -
 - [x] C. VM2 and VM3
 - [ ] D. VM2 and VM4
 
-## Q222 (Topic 3, Original #98)
+## Q217 (Topic 3, Original #98)
 
 Case study -
 
@@ -3594,19 +3569,19 @@ ADatum has an Azure subscription that contains three resource groups named RG1, 
 
 The subscription contains the storage accounts shown in the following table.
 
-[Image: image865.png]
+{{img:/exam-media/az-104/T3/image865.png}}
 
 The subscription contains the virtual machines shown in the following table.
 
-[Image: image866.png]
+{{img:/exam-media/az-104/T3/image866.png}}
 
 The subscription has an Azure container registry that contains the images shown in the following table.
 
-[Image: image867.png]
+{{img:/exam-media/az-104/T3/image867.png}}
 
 The subscription contains the resources shown in the following table.
 
-[Image: image868.png]
+{{img:/exam-media/az-104/T3/image868.png}}
 
 Azure Key Vault -
 
@@ -3614,21 +3589,21 @@ The subscription contains an Azure key vault named Vault1.
 
 Vault1 contains the certificates shown in the following table.
 
-[Image: image869.png]
+{{img:/exam-media/az-104/T3/image869.png}}
 
 Vault1 contains the keys shown in the following table.
 
-[Image: image870.png]
+{{img:/exam-media/az-104/T3/image870.png}}
 
 Microsoft Entra Environment -
 
 ADatum has a Microsoft Entra tenant named adatum.com that is linked to the Azure subscription and contains the users shown in the following table.
 
-[Image: image871.png]
+{{img:/exam-media/az-104/T3/image871.png}}
 
 The tenant contains the groups shown in the following table.
 
-[Image: image872.png]
+{{img:/exam-media/az-104/T3/image872.png}}
 
 The adatum.com tenant has a custom security attribute named Attribute1.
 
@@ -3665,11 +3640,11 @@ Which containers and file shares can you use to organize the content?
 - [x] D. cont1, share1, and share2 only
 - [ ] E. cont1, cont2, share1, and share2
 
-## Q223 (Topic 3, Original #85)
+## Q218 (Topic 3, Original #85)
 
 You have an Azure subscription that contains the devices shown in the following table.
 
-[Image: image774.png]
+{{img:/exam-media/az-104/T3/image774.png}}
 
  On which devices can you install Azure Storage Explorer?
 
@@ -3679,15 +3654,15 @@ You have an Azure subscription that contains the devices shown in the following 
 - [ ] D. Device1, Device3, and Device4 only
 - [ ] E. Device1 and Device3 only
 
-## Q224 (Topic 3, Original #89)
+## Q219 (Topic 3, Original #89)
 
 You have an Azure subscription. The subscription contains a storage account named storage1 that has the lifecycle management rules shown in the following table.
 
-[Image: image782.png]
+{{img:/exam-media/az-104/T3/image782.png}}
 
  On June 1, you store two blobs in storage1 as shown in the following table.
 
-[Image: image783.png]
+{{img:/exam-media/az-104/T3/image783.png}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
 
@@ -3697,19 +3672,19 @@ You have an Azure subscription. The subscription contains a storage account name
 - [x] B. On June 7, File2 will be stored in the Cool access tier.
 - [ ] C. On june 16, File 2 will be storde in the Archive access tier.
 
-## Q225 (Topic 3, Original #91)
+## Q220 (Topic 3, Original #91)
 
 You have an Azure subscription linked to a hybrid Microsoft Entra tenant. The tenant contains the users shown in the following table.
 
-[Image: image824.png]
+{{img:/exam-media/az-104/T3/image824.png}}
 
  You create the Azure Files shares shown in the following table.
 
-[Image: image825.png]
+{{img:/exam-media/az-104/T3/image825.png}}
 
  You configure identity-based access for contoso2024 as shown in the following exhibit.
 
-[Image: image826.png]
+{{img:/exam-media/az-104/T3/image826.png}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
 
@@ -3719,19 +3694,19 @@ You have an Azure subscription linked to a hybrid Microsoft Entra tenant. The te
 - [x] B. User2 can acsess the content in share2.
 - [ ] C. User2 can acsess the content in share3.
 
-## Q226 (Topic 3, Original #92)
+## Q221 (Topic 3, Original #92)
 
 Your network contains an on-premises Active Directory Domain Services (AD DS) domain.
 
  The domain contains the identities shown in the following table.
 
-[Image: image836.png]
+{{img:/exam-media/az-104/T3/image836.png}}
 
  You have an Azure subscription that contains a storage account named storage1. The file shares in storage1 have an identity source of AD DS and Default share-level permissions set to Enable permissions for all authenticated users and groups.
 
  You create an Azure Files share named share1 that has the roles shown in the following table.
 
-[Image: image837.png]
+{{img:/exam-media/az-104/T3/image837.png}}
 
  You have a Microsoft Entra tenant that contains a cloud-only user named User3.
 
@@ -3745,11 +3720,11 @@ Your network contains an on-premises Active Directory Domain Services (AD DS) do
 - [x] B. User2 can access conten in share1.
 - [ ] C. User3 can access conten in share1.
 
-## Q227 (Topic 3, Original #93)
+## Q222 (Topic 3, Original #93)
 
 You have an Azure subscription that contains the storage accounts shown in the following table.
 
-[Image: image852.png]
+{{img:/exam-media/az-104/T3/image852.png}}
 
  Which storage account can be converted to zone-redundant storage (ZRS) replication?
 
@@ -3759,7 +3734,7 @@ You have an Azure subscription that contains the storage accounts shown in the f
 - [ ] D. storage2 and storage3
 - [ ] E. storage1, storage2, and storage3
 
-## Q228 (Topic 4, Original #1)
+## Q223 (Topic 4, Original #1)
 
 You deploy an Azure Kubernetes Service (AKS) cluster named AKS1.
  You need to deploy a YAML file to AKS1.
@@ -3769,7 +3744,7 @@ You deploy an Azure Kubernetes Service (AKS) cluster named AKS1.
 - [ ] A. Yes
 - [x] B. No
 
-## Q229 (Topic 4, Original #2)
+## Q224 (Topic 4, Original #2)
 
 You deploy an Azure Kubernetes Service (AKS) cluster named AKS1.
  You need to deploy a YAML file to AKS1.
@@ -3779,7 +3754,7 @@ You deploy an Azure Kubernetes Service (AKS) cluster named AKS1.
 - [x] A. Yes
 - [ ] B. No
 
-## Q230 (Topic 4, Original #3)
+## Q225 (Topic 4, Original #3)
 
 You deploy an Azure Kubernetes Service (AKS) cluster named AKS1.
  You need to deploy a YAML file to AKS1.
@@ -3789,7 +3764,7 @@ You deploy an Azure Kubernetes Service (AKS) cluster named AKS1.
 - [ ] A. Yes
 - [x] B. No
 
-## Q231 (Topic 4, Original #4)
+## Q226 (Topic 4, Original #4)
 
 You have an Azure virtual machine named VM1 that runs Windows Server 2016.
  You need to create an alert in Azure when more than two error events are logged to the System event log on VM1 within an hour.
@@ -3799,11 +3774,11 @@ You have an Azure virtual machine named VM1 that runs Windows Server 2016.
 - [ ] A. Yes
 - [x] B. No
 
-## Q232 (Topic 4, Original #5)
+## Q227 (Topic 4, Original #5)
 
 You have an Azure subscription named Subscription1. Subscription1 contains the resources in the following table.
 
-[Image: 0023300001.png]
+{{img:/exam-media/az-104/T4/0023300001.png}}
 
  VNet1 is in RG1. VNet2 is in RG2. There is no connectivity between VNet1 and VNet2.
  An administrator named Admin1 creates an Azure virtual machine named VM1 in RG1. VM1 uses a disk named Disk1 and connects to VNet1. Admin1 then installs a custom application in VM1.
@@ -3812,7 +3787,7 @@ You have an Azure subscription named Subscription1. Subscription1 contains the r
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0023400001.png]
+{{img:/exam-media/az-104/T4/0023400001.png}}
 
 - [ ] A. First action:Create a network interface in RG2
 - [x] B. First action: Delete Vm1
@@ -3820,7 +3795,7 @@ You have an Azure subscription named Subscription1. Subscription1 contains the r
 - [x] D. Second action: Create a new virtual machine
 - [ ] E. Second action: Move Vm1 to RG2
 
-## Q233 (Topic 4, Original #6)
+## Q228 (Topic 4, Original #6)
 
 You download an Azure Resource Manager template based on an existing virtual machine. The template will be used to deploy 100 virtual machines.
  You need to modify the template to reference an administrative password. You must prevent the password from being stored in plain text.
@@ -3831,22 +3806,22 @@ You download an Azure Resource Manager template based on an existing virtual mac
 - [ ] C. a Recovery Services vault and a backup policy
 - [ ] D. Azure Active Directory (AD) Identity Protection and an Azure policy
 
-## Q234 (Topic 4, Original #7)
+## Q229 (Topic 4, Original #7)
 
 You have the App Service plans shown in the following table.
 
-[Image: 0023600001.png]
+{{img:/exam-media/az-104/T4/0023600001.png}}
 
  You plan to create the Azure web apps shown in the following table.
 
-[Image: 0023700001.png]
+{{img:/exam-media/az-104/T4/0023700001.png}}
 
  You need to identify which App Service plans can be used for the web apps.
  What should you identify? To answer, select the appropriate options in the answer area.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0023700002.png]
+{{img:/exam-media/az-104/T4/0023700002.png}}
 
 - [ ] A. Webapp1: ASP1 only
 - [ ] B. Webapp1: ASP3 only
@@ -3854,17 +3829,17 @@ You have the App Service plans shown in the following table.
 - [x] D. Webap2: ASP1 only
 - [ ] E. Webap2: ASP1 and ASP2 only
 
-## Q235 (Topic 4, Original #8)
+## Q230 (Topic 4, Original #8)
 
 You create a virtual machine scale set named Scale1. Scale1 is configured as shown in the following exhibit.
 
-[Image: 0024000001.png]
+{{img:/exam-media/az-104/T4/0024000001.png}}
 
  Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0024100001-de6659b19931a8f924691f68fee262efd39c8998.jpg]
+{{img:/exam-media/az-104/T4/0024100001-de6659b19931a8f924691f68fee262efd39c8998.jpg}}
 
 - [ ] A. 1. 2 virtual machine
 - [ ] B. 1. 10 virtual machine
@@ -3872,7 +3847,7 @@ You create a virtual machine scale set named Scale1. Scale1 is configured as sho
 - [x] D. 2. 2 virtual machine
 - [ ] E. 2. 4 virtual machine
 
-## Q236 (Topic 4, Original #9)
+## Q231 (Topic 4, Original #9)
 
 You plan to automate the deployment of a virtual machine scale set that uses the Windows Server 2016 Datacenter image.
  You need to ensure that when the scale set virtual machines are provisioned, they have web server components installed.
@@ -3885,7 +3860,7 @@ You plan to automate the deployment of a virtual machine scale set that uses the
 - [x] D. Modify the extensionProfile section of the Azure Resource Manager template
 - [ ] E. Create a new virtual machine scale set in the Azure portal
 
-## Q237 (Topic 4, Original #10)
+## Q232 (Topic 4, Original #10)
 
 You have an Azure Kubernetes Service (AKS) cluster named AKS1 and a computer named Computer1 that runs Windows 10. Computer1 that has the Azure CLI installed.
  You need to install the kubectl client on Computer1.
@@ -3893,7 +3868,7 @@ You have an Azure Kubernetes Service (AKS) cluster named AKS1 and a computer nam
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0024400001.jpg]
+{{img:/exam-media/az-104/T4/0024400001.jpg}}
 
 - [x] A. az
 - [ ] B. docker
@@ -3901,7 +3876,7 @@ You have an Azure Kubernetes Service (AKS) cluster named AKS1 and a computer nam
 - [ ] D. /package
 - [ ] E. pull
 
-## Q238 (Topic 4, Original #11)
+## Q233 (Topic 4, Original #11)
 
 You onboard 10 Azure virtual machines to Azure Automation State Configuration.
  You need to use Azure Automation State Configuration to manage the ongoing consistency of the virtual machine configurations.
@@ -3909,7 +3884,7 @@ You onboard 10 Azure virtual machines to Azure Automation State Configuration.
  NOTE: More than one order of answer choices is correct. You will receive credit for any of the correct orders you select.
  Select and Place:
 
-[Image: 0024500001.jpg]
+{{img:/exam-media/az-104/T4/0024500001.jpg}}
 
 - [x] A. Upload a configuration to Azure Automation State Configuration
 - [x] B. Compile a configuration into node configuration
@@ -3917,18 +3892,18 @@ You onboard 10 Azure virtual machines to Azure Automation State Configuration.
 - [ ] D. Assign tags to the virtual machines
 - [ ] E. Create a management group
 
-## Q239 (Topic 4, Original #12)
+## Q234 (Topic 4, Original #12)
 
 You have an Azure Resource Manager template named Template1 that is used to deploy an Azure virtual machine.
  Template1 contains the following text:
 
-[Image: 0024700001.png]
+{{img:/exam-media/az-104/T4/0024700001.png}}
 
  The variables section in Template1 contains the following text:
  "location": "westeurope"
  The resources section in Template1 contains the following text:
 
-[Image: 0024700002.png]
+{{img:/exam-media/az-104/T4/0024700002.png}}
 
  You need to deploy the virtual machine to the West US location by using Template1.
  What should you do?
@@ -3937,7 +3912,7 @@ You have an Azure Resource Manager template named Template1 that is used to depl
 - [ ] B. Select West US during the deployment
 - [ ] C. Modify the location in the variables section to westus
 
-## Q240 (Topic 4, Original #13)
+## Q235 (Topic 4, Original #13)
 
 You create an App Service plan named Plan1 and an Azure web app named webapp1.
  You discover that the option to create a staging slot is unavailable.
@@ -3949,7 +3924,7 @@ You create an App Service plan named Plan1 and an Azure web app named webapp1.
 - [ ] C. From webapp1, add a custom domain
 - [ ] D. From Plan1, scale out the App Service plan
 
-## Q241 (Topic 4, Original #14)
+## Q236 (Topic 4, Original #14)
 
 You plan to move a distributed on-premises app named App1 to an Azure subscription.
  After the planned move, App1 will be hosted on several Azure virtual machines.
@@ -3961,7 +3936,7 @@ You plan to move a distributed on-premises app named App1 to an Azure subscripti
 - [ ] C. one Availability Set that has 10 update domains and one fault domain
 - [ ] D. one virtual machine scale set that has 12 virtual machines instances
 
-## Q242 (Topic 4, Original #15)
+## Q237 (Topic 4, Original #15)
 
 You have an Azure virtual machine named VM1 that runs Windows Server 2016.
  You need to create an alert in Azure when more than two error events are logged to the System event log on VM1 within an hour.
@@ -3971,7 +3946,7 @@ You have an Azure virtual machine named VM1 that runs Windows Server 2016.
 - [ ] A. Yes
 - [x] B. No
 
-## Q243 (Topic 4, Original #16)
+## Q238 (Topic 4, Original #16)
 
 You have an Azure virtual machine named VM1. VM1 was deployed by using a custom Azure Resource Manager template named ARM1.json.
  You receive a notification that VM1 will be affected by maintenance.
@@ -3982,7 +3957,7 @@ You have an Azure virtual machine named VM1. VM1 was deployed by using a custom 
 - [ ] A. Yes
 - [x] B. No
 
-## Q244 (Topic 4, Original #17)
+## Q239 (Topic 4, Original #17)
 
 You have an Azure virtual machine named VM1. VM1 was deployed by using a custom Azure Resource Manager template named ARM1.json.
  You receive a notification that VM1 will be affected by maintenance.
@@ -3993,7 +3968,7 @@ You have an Azure virtual machine named VM1. VM1 was deployed by using a custom 
 - [x] A. Yes
 - [ ] B. No
 
-## Q245 (Topic 4, Original #18)
+## Q240 (Topic 4, Original #18)
 
 You have an Azure virtual machine named VM1. VM1 was deployed by using a custom Azure Resource Manager template named ARM1.json.
  You receive a notification that VM1 will be affected by maintenance.
@@ -4004,7 +3979,7 @@ You have an Azure virtual machine named VM1. VM1 was deployed by using a custom 
 - [ ] A. Yes
 - [x] B. no
 
-## Q246 (Topic 4, Original #19)
+## Q241 (Topic 4, Original #19)
 
 You have an Azure subscription that contains a web app named webapp1.
  You need to add a custom domain named www.contoso.com to webapp1.
@@ -4015,11 +3990,11 @@ You have an Azure subscription that contains a web app named webapp1.
 - [ ] C. Upload a certificate.
 - [ ] D. Stop webapp1.
 
-## Q247 (Topic 4, Original #20)
+## Q242 (Topic 4, Original #20)
 
 You have an Azure subscription that contains the resources shown in the following table.
 
-[Image: 0025300001.png]
+{{img:/exam-media/az-104/T4/0025300001.png}}
 
  VM1 connects to VNET1.
  You need to connect VM1 to VNET2.
@@ -4029,11 +4004,11 @@ You have an Azure subscription that contains the resources shown in the followin
 - [ ] A. Yes
 - [x] B. No
 
-## Q248 (Topic 4, Original #21)
+## Q243 (Topic 4, Original #21)
 
 You have an Azure subscription that contains the resources shown in the following table.
 
-[Image: 0025400001.png]
+{{img:/exam-media/az-104/T4/0025400001.png}}
 
 VM1 connects to VNET1.
 You need to connect VM1 to VNET2.
@@ -4043,11 +4018,11 @@ Does this meet the goal?
 - [x] A. Yes
 - [ ] B. No
 
-## Q249 (Topic 4, Original #22)
+## Q244 (Topic 4, Original #22)
 
 You have an Azure subscription that contains the resources shown in the following table.
 
-[Image: 0025600001.png]
+{{img:/exam-media/az-104/T4/0025600001.png}}
 
  VM1 connects to VNET1.
  You need to connect VM1 to VNET2.
@@ -4057,19 +4032,19 @@ You have an Azure subscription that contains the resources shown in the followin
 - [ ] A. Yes
 - [x] B. No
 
-## Q250 (Topic 4, Original #23)
+## Q245 (Topic 4, Original #23)
 
 You have an Azure subscription named Subscription1 that contains the quotas shown in the following table.
 
-[Image: 0025700001.png]
+{{img:/exam-media/az-104/T4/0025700001.png}}
 
  You deploy virtual machines to Subscription1 as shown in the following table.
 
-[Image: 0025700002.png]
+{{img:/exam-media/az-104/T4/0025700002.png}}
 
  You plan to deploy the virtual machines shown in the following table.
 
-[Image: 0025700003.png]
+{{img:/exam-media/az-104/T4/0025700003.png}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
  NOTE: Each correct selection is worth one point.
@@ -4079,18 +4054,18 @@ You have an Azure subscription named Subscription1 that contains the quotas show
 - [ ] B. You can deploy VM4 to West US
 - [ ] C. You can deploy VM5 to West US
 
-## Q251 (Topic 4, Original #24)
+## Q246 (Topic 4, Original #24)
 
 You have an Azure subscription that contains an Azure Availability Set named WEBPROD-AS-USE2 as shown in the following exhibit.
 
-[Image: 0025900001.png]
+{{img:/exam-media/az-104/T4/0025900001.png}}
 
  You add 14 virtual machines to WEBPROD-AS-USE2.
  Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0026000001.png]
+{{img:/exam-media/az-104/T4/0026000001.png}}
 
 - [x] A. 1. 2
 - [ ] B. 1. 7
@@ -4098,11 +4073,11 @@ You have an Azure subscription that contains an Azure Availability Set named WEB
 - [x] D. 2. 7
 - [ ] E. 2. 10
 
-## Q252 (Topic 4, Original #25)
+## Q247 (Topic 4, Original #25)
 
 You deploy an Azure Kubernetes Service (AKS) cluster named Cluster1 that uses the IP addresses shown in the following table.
 
-[Image: 0026200001.png]
+{{img:/exam-media/az-104/T4/0026200001.png}}
 
  You need to provide internet users with access to the applications that run in Cluster1.
  Which IP address should you include in the DNS record for Cluster1?
@@ -4112,7 +4087,7 @@ You deploy an Azure Kubernetes Service (AKS) cluster named Cluster1 that uses th
 - [ ] C. 172.17.7.1
 - [ ] D. 192.168.10.2
 
-## Q253 (Topic 4, Original #26)
+## Q248 (Topic 4, Original #26)
 
 You have a deployment template named Template1 that is used to deploy 10 Azure web apps.
  You need to identify what to deploy before you deploy Template1. The solution must minimize Azure costs.
@@ -4124,17 +4099,17 @@ You have a deployment template named Template1 that is used to deploy 10 Azure w
 - [ ] D. one Azure Traffic Manager
 - [ ] E. one Azure Application Gateway
 
-## Q254 (Topic 4, Original #27)
+## Q249 (Topic 4, Original #27)
 
 You plan to deploy an Azure container instance by using the following Azure Resource Manager template.
 
-[Image: 0026400001.png]
+{{img:/exam-media/az-104/T4/0026400001.png}}
 
  Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the template.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0026500001.jpg]
+{{img:/exam-media/az-104/T4/0026500001.jpg}}
 
 - [x] A. 1. can connect to the container from any device
 - [ ] B. 1. cannot connect to the container
@@ -4142,7 +4117,7 @@ You plan to deploy an Azure container instance by using the following Azure Reso
 - [x] D. 2. the container will restart automatically
 - [ ] E. 2. the container must be redeployed
 
-## Q255 (Topic 4, Original #28)
+## Q250 (Topic 4, Original #28)
 
 You have an Azure subscription that contains a virtual machine named VM1. VM1 hosts a line-of-business application that is available 24 hours a day. VM1 has one network interface and one managed disk. VM1 uses the D4s v3 size.
  You plan to make the following changes to VM1:
@@ -4157,13 +4132,13 @@ You have an Azure subscription that contains a virtual machine named VM1. VM1 ho
 - [x] C. Change the size to D8s v3
 - [ ] D. Add the Puppet Agent extension
 
-## Q256 (Topic 4, Original #29)
+## Q251 (Topic 4, Original #29)
 
 You have an app named App1 that runs on an Azure web app named webapp1.
  The developers at your company upload an update of App1 to a Git repository named Git1.
  Webapp1 has the deployment slots shown in the following table.
 
-[Image: 0026700001.png]
+{{img:/exam-media/az-104/T4/0026700001.png}}
 
  You need to ensure that the App1 update is tested before the update is made available to users.
  Which two actions should you perform? Each correct answer presents part of the solution.
@@ -4175,7 +4150,7 @@ You have an app named App1 that runs on an Azure web app named webapp1.
 - [x] D. Deploy the App1 update to webapp1-test, and then test the update
 - [ ] E. Stop webapp1-test
 
-## Q257 (Topic 4, Original #30)
+## Q252 (Topic 4, Original #30)
 
 You have an Azure subscription named Subscription1 that has the following providers registered:
  ✑ Authorization
@@ -4205,7 +4180,7 @@ You have an Azure subscription named Subscription1 that has the following provid
 - [x] D. Create an Azure Storage account.
 - [x] E. Register the Microsoft.Insights resource provider.
 
-## Q258 (Topic 4, Original #31)
+## Q253 (Topic 4, Original #31)
 
 You need to deploy an Azure virtual machine scale set that contains five instances as quickly as possible.
  What should you do?
@@ -4215,11 +4190,11 @@ You need to deploy an Azure virtual machine scale set that contains five instanc
 - [ ] C. Deploy one virtual machine scale set that is set to VM (virtual machines) orchestration mode.
 - [x] D. Deploy one virtual machine scale set that is set to ScaleSetVM orchestration mode.
 
-## Q259 (Topic 4, Original #32)
+## Q254 (Topic 4, Original #32)
 
 You plan to create the Azure web apps shown in the following table.
 
-[Image: 0026900001.jpg]
+{{img:/exam-media/az-104/T4/0026900001.jpg}}
 
  What is the minimum number of App Service plans you should create for the web apps?
 
@@ -4228,21 +4203,21 @@ You plan to create the Azure web apps shown in the following table.
 - [ ] C. 3
 - [ ] D. 4
 
-## Q260 (Topic 4, Original #33)
+## Q255 (Topic 4, Original #33)
 
 You have a pay-as-you-go Azure subscription that contains the virtual machines shown in the following table.
 
-[Image: 0027000001-59aaa678ae41664cb64237dce47ee48ed144c013.png]
+{{img:/exam-media/az-104/T4/0027000001-59aaa678ae41664cb64237dce47ee48ed144c013.png}}
 
  You create the budget shown in the following exhibit.
 
-[Image: 0027100001.jpg]
+{{img:/exam-media/az-104/T4/0027100001.jpg}}
 
  The AG1 action group contains a user named   admin@contoso.com   only.
  Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
  Hot Area:
 
-[Image: 0027200001.jpg]
+{{img:/exam-media/az-104/T4/0027200001.jpg}}
 
 - [ ] A. VM1 and VM2 are turned off
 - [x] B. VM1 and VM2 continue to run
@@ -4250,7 +4225,7 @@ You have a pay-as-you-go Azure subscription that contains the virtual machines s
 - [ ] D. no email notifications will be sent each month
 - [x] E. one email notifications will be sent each month
 
-## Q261 (Topic 4, Original #34)
+## Q256 (Topic 4, Original #34)
 
 You have an Azure subscription named Subscription1. Subscription1 contains a resource group named RG1. RG1 contains resources that were deployed by using templates.
  You need to view the date and time when the resources were created in RG1.
@@ -4260,11 +4235,11 @@ You have an Azure subscription named Subscription1. Subscription1 contains a res
 - [ ] A. Yes
 - [x] B. No
 
-## Q262 (Topic 4, Original #35)
+## Q257 (Topic 4, Original #35)
 
 You have an Azure subscription that contains the resources shown in the following table.
 
-[Image: 0027400001.png]
+{{img:/exam-media/az-104/T4/0027400001.png}}
 
  VM1 connects to VNET1.
  You need to connect VM1 to VNET2.
@@ -4274,11 +4249,11 @@ You have an Azure subscription that contains the resources shown in the followin
 - [ ] A. Yes
 - [x] B. No
 
-## Q263 (Topic 4, Original #36)
+## Q258 (Topic 4, Original #36)
 
 You have an Azure Active Directory (Azure AD) tenant named adatum.com that contains the users shown in the following table.
 
-[Image: 0027500001.png]
+{{img:/exam-media/az-104/T4/0027500001.png}}
 
  Adatum.com has the following configurations:
  ✑ Users may join devices to Azure AD is set to User1.
@@ -4293,17 +4268,17 @@ You have an Azure Active Directory (Azure AD) tenant named adatum.com that conta
 - [ ] D. User1, User2, and User3 only
 - [ ] E. User1, User2, User3, and User4
 
-## Q264 (Topic 4, Original #37)
+## Q259 (Topic 4, Original #37)
 
 You have Azure subscriptions named Subscription1 and Subscription2.
  Subscription1 has following resource groups:
 
-[Image: 0027600001.png]
+{{img:/exam-media/az-104/T4/0027600001.png}}
 
  RG1 includes a web app named App1 in the West Europe location.
  Subscription2 contains the following resource groups:
 
-[Image: 0027600002.png]
+{{img:/exam-media/az-104/T4/0027600002.png}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
  NOTE: Each correct selection is worth one point.
@@ -4313,7 +4288,7 @@ You have Azure subscriptions named Subscription1 and Subscription2.
 - [x] B. App1 can be moved to RG3
 - [x] C. App1 can be moved to RG4
 
-## Q265 (Topic 4, Original #38)
+## Q260 (Topic 4, Original #38)
 
 You have an Azure subscription named Subscription1 that contains the following resource group:
  ✑ Name: RG1
@@ -4328,7 +4303,7 @@ You have an Azure subscription named Subscription1 that contains the following r
 
  Tag value: value2 -
 
-[Image: 0027800009.png]
+{{img:/exam-media/az-104/T4/0027800009.png}}
 
  After Policy1 is assigned, you create a storage account that has the following configuration:
  ✑ Name: storage1
@@ -4340,7 +4315,7 @@ You have an Azure subscription named Subscription1 that contains the following r
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0027900005.jpg]
+{{img:/exam-media/az-104/T4/0027900005.jpg}}
 
 - [x] A. Tags assigned to RG1: "tag1":"value1" only
 - [ ] B. Tags assigned to RG1: "tag1":"value2" only
@@ -4348,20 +4323,20 @@ You have an Azure subscription named Subscription1 that contains the following r
 - [ ] D. Tags assigned to storage: "tag1":"value1" and "tag3":"value3" only
 - [x] E. Tags assigned to storage: "tag2":"value2" and "tag3":"value3" only
 
-## Q266 (Topic 4, Original #39)
+## Q261 (Topic 4, Original #39)
 
 You have an Azure subscription named Subscription1.
 In Subscription1, you create an alert rule named Alert1.
 The Alert1 action group is configured as shown in the following exhibit.
 
-[Image: 0028100001.jpg]
+{{img:/exam-media/az-104/T4/0028100001.jpg}}
 
 Alert1 alert criteria triggered every minute.
 Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
 NOTE: Each correct selection is worth one point.
 Hot Area:
 
-[Image: 0028200001.png]
+{{img:/exam-media/az-104/T4/0028200001.png}}
 
 - [ ] A. Alert1: 0
 - [ ] B. Alert1: 4
@@ -4369,15 +4344,15 @@ Hot Area:
 - [ ] D. Alert2: 0
 - [x] E. Alert2: 12
 
-## Q267 (Topic 4, Original #40)
+## Q262 (Topic 4, Original #40)
 
 You have an Azure subscription named Subscription1 that contains the resources shown in the following table.
 
-[Image: 0028300005.png]
+{{img:/exam-media/az-104/T4/0028300005.png}}
 
  You create virtual machines in Subscription1 as shown in the following table.
 
-[Image: 0028400001.png]
+{{img:/exam-media/az-104/T4/0028400001.png}}
 
  You plan to use Vault1 for the backup of as many virtual machines as possible.
  Which virtual machines can be backed up to Vault1?
@@ -4388,7 +4363,7 @@ You have an Azure subscription named Subscription1 that contains the resources s
 - [x] D. VM1, VM3, VMA, and VMC only
 - [ ] E. VM1 and VM3 only
 
-## Q268 (Topic 4, Original #41)
+## Q263 (Topic 4, Original #41)
 
 You have an Azure Kubernetes Service (AKS) cluster named AKS1.
  You need to configure cluster autoscaler for AKS1.
@@ -4401,7 +4376,7 @@ You have an Azure Kubernetes Service (AKS) cluster named AKS1.
 - [x] D. the Azure portal
 - [ ] E. the Set-AzAks cmdlet
 
-## Q269 (Topic 4, Original #42)
+## Q264 (Topic 4, Original #42)
 
 You create the following resources in an Azure subscription:
  ✑ An Azure Container Registry instance named Registry1
@@ -4415,11 +4390,11 @@ You create the following resources in an Azure subscription:
 - [ ] C. Run the az acr build command.
 - [ ] D. Run the az aks create command.
 
-## Q270 (Topic 4, Original #43)
+## Q265 (Topic 4, Original #43)
 
 You have an Azure subscription that contains the resources shown in the following table.
 
-[Image: 0028600001.png]
+{{img:/exam-media/az-104/T4/0028600001.png}}
 
  You need to configure a proximity placement group for VMSS1.
  Which proximity placement groups should you use?
@@ -4429,7 +4404,7 @@ You have an Azure subscription that contains the resources shown in the followin
 - [ ] C. Proximity1 only
 - [ ] D. Proximity1 and Proximity3 only
 
-## Q271 (Topic 4, Original #44)
+## Q266 (Topic 4, Original #44)
 
 You have an Azure subscription named Subscription1. Subscription1 contains a resource group named RG1. RG1 contains resources that were deployed by using templates.
  You need to view the date and time when the resources were created in RG1.
@@ -4439,7 +4414,7 @@ You have an Azure subscription named Subscription1. Subscription1 contains a res
 - [ ] A. Yes
 - [x] B. No
 
-## Q272 (Topic 4, Original #45)
+## Q267 (Topic 4, Original #45)
 
 You have an Azure subscription named Subscription1. Subscription1 contains a resource group named RG1. RG1 contains resources that were deployed by using templates.
  You need to view the date and time when the resources were created in RG1.
@@ -4449,7 +4424,7 @@ You have an Azure subscription named Subscription1. Subscription1 contains a res
 - [ ] A. Yes
 - [x] B. No
 
-## Q273 (Topic 4, Original #46)
+## Q268 (Topic 4, Original #46)
 
 You have an Azure subscription named Subscription1. Subscription1 contains a resource group named RG1. RG1 contains resources that were deployed by using templates.
  You need to view the date and time when the resources were created in RG1.
@@ -4459,7 +4434,7 @@ You have an Azure subscription named Subscription1. Subscription1 contains a res
 - [x] A. Yes
 - [ ] B. No
 
-## Q274 (Topic 4, Original #47)
+## Q269 (Topic 4, Original #47)
 
 You have an Azure subscription named Subscription1.
  You deploy a Linux virtual machine named VM1 to Subscription1.
@@ -4471,19 +4446,19 @@ You have an Azure subscription named Subscription1.
 - [ ] C. the AzurePerformanceDiagnostics extension
 - [ ] D. Azure Analysis Services
 
-## Q275 (Topic 4, Original #48)
+## Q270 (Topic 4, Original #48)
 
 You have an Azure subscription named Subscription1. Subscription1 contains a virtual machine named VM1.
  You install and configure a web server and a DNS server on VM1.
  VM1 has the effective network security rules shown in the following exhibit:
 
-[Image: 0029000001.jpg]
+{{img:/exam-media/az-104/T4/0029000001.jpg}}
 
  Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0029100001.png]
+{{img:/exam-media/az-104/T4/0029100001.png}}
 
 - [ ] A. 1. can connect to only the DNS server VM1
 - [x] B. 1. can connect to only the web server on VM1
@@ -4491,7 +4466,7 @@ You have an Azure subscription named Subscription1. Subscription1 contains a vir
 - [x] D. 2. can connect to the web server and the DNS server on VM1
 - [ ] E. 2. can connect to only the web server on VM1
 
-## Q276 (Topic 4, Original #49)
+## Q271 (Topic 4, Original #49)
 
 You plan to deploy three Azure virtual machines named VM1, VM2, and VM3. The virtual machines will host a web app named App1.
  You need to ensure that at least two virtual machines are available if a single Azure datacenter becomes unavailable.
@@ -4502,7 +4477,7 @@ You plan to deploy three Azure virtual machines named VM1, VM2, and VM3. The vir
 - [x] C. each virtual machine in a separate Availability Zone
 - [ ] D. each virtual machine in a separate Availability Set
 
-## Q277 (Topic 4, Original #50)
+## Q272 (Topic 4, Original #50)
 
 You have an Azure virtual machine named VM1 that runs Windows Server 2019.
  You save VM1 as a template named Template1 to the Azure Resource Manager library.
@@ -4514,7 +4489,7 @@ You have an Azure virtual machine named VM1 that runs Windows Server 2019.
 - [ ] C. virtual machine size
 - [x] D. resource group
 
-## Q278 (Topic 4, Original #51)
+## Q273 (Topic 4, Original #51)
 
 You have an Azure subscription that contains an Azure virtual machine named VM1. VM1 runs a financial reporting app named App1 that does not support multiple active instances.
  At the end of each month, CPU usage for VM1 peaks when App1 runs.
@@ -4527,7 +4502,7 @@ You have an Azure subscription that contains an Azure virtual machine named VM1.
 - [ ] D. Increase the vCPU quota for the subscription.
 - [ ] E. Add a Desired State Configuration (DSC) extension to VM1.
 
-## Q279 (Topic 4, Original #52)
+## Q274 (Topic 4, Original #52)
 
 You plan to deploy several Azure virtual machines that will run Windows Server 2019 in a virtual machine scale set by using an Azure Resource Manager template.
  You need to ensure that NGINX is available on all the virtual machines after they are deployed.
@@ -4538,17 +4513,17 @@ You plan to deploy several Azure virtual machines that will run Windows Server 2
 - [ ] C. the New-AzConfigurationAssignment cmdlet
 - [ ] D. a Microsoft Intune device configuration profile
 
-## Q280 (Topic 4, Original #53)
+## Q275 (Topic 4, Original #53)
 
 You deploy an Azure Kubernetes Service (AKS) cluster that has the network profile shown in the following exhibit.
 
-[Image: 0029500003.png]
+{{img:/exam-media/az-104/T4/0029500003.png}}
 
  Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0029600001.jpg]
+{{img:/exam-media/az-104/T4/0029600001.jpg}}
 
 - [x] A. 1. 10.224.0.0/16
 - [ ] B. 2. 10.224.0.0/16
@@ -4556,7 +4531,7 @@ You deploy an Azure Kubernetes Service (AKS) cluster that has the network profil
 - [x] D. 2. 10.0.0.0/16
 - [ ] E. 2. 172.17.0.1/16
 
-## Q281 (Topic 4, Original #55)
+## Q276 (Topic 4, Original #55)
 
 You have an Azure virtual machine named VM1 that runs Windows Server 2019. The VM was deployed using default drive settings.
  You sign in to VM1 as a user named User1 and perform the following actions:
@@ -4572,12 +4547,12 @@ You have an Azure virtual machine named VM1 that runs Windows Server 2019. The V
 - [x] C. the new files on drive D
 - [ ] D. the new files on drive C
 
-## Q282 (Topic 4, Original #56)
+## Q277 (Topic 4, Original #56)
 
 You have an Azure subscription.
  You have an on-premises virtual machine named VM1. The settings for VM1 are shown in the exhibit. (Click the Exhibit tab.)
 
-[Image: 0030300001.png]
+{{img:/exam-media/az-104/T4/0030300001.png}}
 
  You need to ensure that you can use the disks attached to VM1 as a template for Azure virtual machines.
  What should you modify on VM1?
@@ -4588,11 +4563,11 @@ You have an Azure subscription.
 - [ ] D. the processor
 - [ ] E. Integration Services
 
-## Q283 (Topic 4, Original #58)
+## Q278 (Topic 4, Original #58)
 
 You have an Azure subscription named Subscription1 that is used by several departments at your company. Subscription1 contains the resources in the following table:
 
-[Image: 0030700001.png]
+{{img:/exam-media/az-104/T4/0030700001.png}}
 
  Another administrator deploys a virtual machine named VM1 and an Azure Storage account named storage2 by using a single Azure Resource Manager template.
  You need to view the template used for the deployment.
@@ -4603,11 +4578,11 @@ You have an Azure subscription named Subscription1 that is used by several depar
 - [ ] C. storage2
 - [ ] D. container1
 
-## Q284 (Topic 4, Original #59)
+## Q279 (Topic 4, Original #59)
 
 You have an Azure web app named App1. App1 has the deployment slots shown in the following table:
 
-[Image: 0030900002.png]
+{{img:/exam-media/az-104/T4/0030900002.png}}
 
  In webapp1-test, you test several changes to App1.
  You back up App1.
@@ -4620,7 +4595,7 @@ You have an Azure web app named App1. App1 has the deployment slots shown in the
 - [ ] C. Clone App1
 - [ ] D. Restore the backup of App1
 
-## Q285 (Topic 4, Original #60)
+## Q280 (Topic 4, Original #60)
 
 You have an Azure subscription named Subscription1. Subscription1 contains two Azure virtual machines VM1 and VM2. VM1 and VM2 run Windows Server
  2016.
@@ -4631,7 +4606,7 @@ You have an Azure subscription named Subscription1. Subscription1 contains two A
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0031100001.jpg]
+{{img:/exam-media/az-104/T4/0031100001.jpg}}
 
 - [ ] A. file recovery of VM1 to: VM1 only
 - [ ] B. file recovery of VM1 to: A new Azure virtual machine only
@@ -4639,7 +4614,7 @@ You have an Azure subscription named Subscription1. Subscription1 contains two A
 - [x] D. restore VM1 to: VM1 or a new Azure vitual machine only
 - [ ] E. restore VM1 to: Any Windows computer that has Internet connectivity
 
-## Q286 (Topic 4, Original #61)
+## Q281 (Topic 4, Original #61)
 
 You plan to back up an Azure virtual machine named VM1.
  You discover that the Backup Pre-Check status displays a status of Warning.
@@ -4650,7 +4625,7 @@ You plan to back up an Azure virtual machine named VM1.
 - [ ] C. VM1 has an unmanaged disk.
 - [ ] D. A Recovery Services vault is unavailable.
 
-## Q287 (Topic 4, Original #62)
+## Q282 (Topic 4, Original #62)
 
 You have an Azure virtual machine named VM1. VM1 was deployed by using a custom Azure Resource Manager template named ARM1.json.
  You receive a notification that VM1 will be affected by maintenance.
@@ -4661,7 +4636,7 @@ You have an Azure virtual machine named VM1. VM1 was deployed by using a custom 
 - [ ] A. Yes
 - [x] B. No
 
-## Q288 (Topic 4, Original #63)
+## Q283 (Topic 4, Original #63)
 
 You have an Azure subscription.
  You plan to use Azure Resource Manager templates to deploy 50 Azure virtual machines that will be part of the same availability set.
@@ -4670,7 +4645,7 @@ You have an Azure subscription.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0031400001.png]
+{{img:/exam-media/az-104/T4/0031400001.png}}
 
 - [ ] A. platformFaultDomainCount: 0
 - [ ] B. platformFaultDomainCount: 2
@@ -4678,7 +4653,7 @@ You have an Azure subscription.
 - [x] D. platformUpdateDomainCount: 20
 - [ ] E. platformUpdateDomainCount: 10
 
-## Q289 (Topic 4, Original #64)
+## Q284 (Topic 4, Original #64)
 
 You have an Azure virtual machine named VM1 that runs Windows Server 2016.
  You need to create an alert in Azure when more than two error events are logged to the System event log on VM1 within an hour.
@@ -4688,18 +4663,18 @@ You have an Azure virtual machine named VM1 that runs Windows Server 2016.
 - [x] A. Yes
 - [ ] B. No
 
-## Q290 (Topic 4, Original #65)
+## Q285 (Topic 4, Original #65)
 
 You have an Azure subscription.
  You deploy a virtual machine scale set that is configured as shown in the following exhibit.
 
-[Image: 0031800001.png]
+{{img:/exam-media/az-104/T4/0031800001.png}}
 
  Use the drop-down menus to select the answer choice that answers each question based on the information presented in the graphic
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0031900001.png]
+{{img:/exam-media/az-104/T4/0031900001.png}}
 
 - [ ] A. 9:00 AM : 2
 - [x] B. 9:00 AM : 3
@@ -4707,12 +4682,12 @@ You have an Azure subscription.
 - [ ] D. 10:00 AM : 3
 - [x] E. 10:00 AM : 1
 
-## Q291 (Topic 4, Original #66)
+## Q286 (Topic 4, Original #66)
 
 You have web apps in the West US, Central US and East US Azure regions.
  You have the App Service plans shown in the following table.
 
-[Image: 0032100001.png]
+{{img:/exam-media/az-104/T4/0032100001.png}}
 
  You plan to create an additional App Service plan named ASP5 that will use the Linux operating system.
  You need to identify in which of the currently used locations you can deploy ASP5.
@@ -4723,7 +4698,7 @@ You have web apps in the West US, Central US and East US Azure regions.
 - [ ] C. East US only
 - [ ] D. West US only
 
-## Q292 (Topic 4, Original #67)
+## Q287 (Topic 4, Original #67)
 
 You plan to deploy several Azure virtual machines that will run Windows Server 2019 in a virtual machine scale set by using an Azure Resource Manager template.
  You need to ensure that NGINX is available on all the virtual machines after they are deployed.
@@ -4734,7 +4709,7 @@ You plan to deploy several Azure virtual machines that will run Windows Server 2
 - [ ] C. Azure Active Directory (Azure AD) Application Proxy
 - [ ] D. Azure Application Insights
 
-## Q293 (Topic 4, Original #69)
+## Q288 (Topic 4, Original #69)
 
 You deploy an Azure Kubernetes Service (AKS) cluster named AKS1.
  You need to deploy a YAML file to AKS1.
@@ -4744,7 +4719,7 @@ You deploy an Azure Kubernetes Service (AKS) cluster named AKS1.
 - [ ] A. Yes
 - [x] B. No
 
-## Q294 (Topic 4, Original #70)
+## Q289 (Topic 4, Original #70)
 
 You have an Azure virtual machine named VM1 that runs Windows Server 2016.
  You need to create an alert in Azure when more than two error events are logged to the System event log on VM1 within an hour.
@@ -4754,7 +4729,7 @@ You have an Azure virtual machine named VM1 that runs Windows Server 2016.
 - [ ] A. Yes
 - [x] B. No
 
-## Q295 (Topic 4, Original #71)
+## Q290 (Topic 4, Original #71)
 
 You have an Azure virtual machine named VM1 that runs Windows Server 2016.
  You need to create an alert in Azure when more than two error events are logged to the System event log on VM1 within an hour.
@@ -4765,16 +4740,16 @@ You have an Azure virtual machine named VM1 that runs Windows Server 2016.
 - [x] A. Yes
 - [ ] B. No
 
-## Q296 (Topic 4, Original #72)
+## Q291 (Topic 4, Original #72)
 
 You have an Azure subscription that contains the resources shown in the following table.
 
-[Image: 0032600001.png]
+{{img:/exam-media/az-104/T4/0032600001.png}}
 
  All virtual machines run Windows Server 2016.
  On VM1, you back up a folder named Folder1 as shown in the following exhibit.
 
-[Image: 0032600002.jpg]
+{{img:/exam-media/az-104/T4/0032600002.jpg}}
 
  You plan to restore the backup to a different virtual machine.
  You need to restore the backup to VM2.
@@ -4785,7 +4760,7 @@ You have an Azure subscription that contains the resources shown in the followin
 - [ ] C. From VM1, install the Microsoft Azure Recovery Services Agent.
 - [ ] D. From VM2, install the Windows Server Backup feature.
 
-## Q297 (Topic 4, Original #73)
+## Q292 (Topic 4, Original #73)
 
 You have an Azure subscription.
  You need to use an Azure Resource Manager (ARM) template to create a virtual machine that will have multiple data disks.
@@ -4793,7 +4768,7 @@ You have an Azure subscription.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0032800001.png]
+{{img:/exam-media/az-104/T4/0032800001.png}}
 
 - [x] A. storageProfile: copy
 - [ ] B. storageProfile:: copyIndex
@@ -4801,11 +4776,11 @@ You have an Azure subscription.
 - [x] D. lun: copyIndex
 - [ ] E. lun: dependsOn
 
-## Q298 (Topic 4, Original #74)
+## Q293 (Topic 4, Original #74)
 
 You have an Azure subscription named Subscription1 that contains the resources shown in the following table.
 
-[Image: 0033000001.png]
+{{img:/exam-media/az-104/T4/0033000001.png}}
 
  Subscription1 also includes a virtual network named VNET2. VM1 connects to a virtual network named VNET2 by using a network interface named NIC1.
  You need to create a new network interface named NIC2 for VM1.
@@ -4815,11 +4790,11 @@ You have an Azure subscription named Subscription1 that contains the resources s
 - [x] A. Yes
 - [ ] B. No
 
-## Q299 (Topic 4, Original #75)
+## Q294 (Topic 4, Original #75)
 
 You have an Azure subscription named Subscription1 that contains the resources shown in the following table.
 
-[Image: 0033100001.png]
+{{img:/exam-media/az-104/T4/0033100001.png}}
 
  Subscription1 also includes a virtual network named VNET2. VM1 connects to a virtual network named VNET2 by using a network interface named NIC1.
  You need to create a new network interface named NIC2 for VM1.
@@ -4829,11 +4804,11 @@ You have an Azure subscription named Subscription1 that contains the resources s
 - [ ] A. Yes
 - [x] B. No
 
-## Q300 (Topic 4, Original #76)
+## Q295 (Topic 4, Original #76)
 
 You have an Azure subscription named Subscription1 that contains the resources shown in the following table.
 
-[Image: 0033200001.png]
+{{img:/exam-media/az-104/T4/0033200001.png}}
 
  Subscription1 also includes a virtual network named VNET2. VM1 connects to a virtual network named VNET2 by using a network interface named NIC1.
  You need to create a new network interface named NIC2 for VM1.
@@ -4843,11 +4818,11 @@ You have an Azure subscription named Subscription1 that contains the resources s
 - [x] A. Yes
 - [ ] B. No
 
-## Q301 (Topic 4, Original #77)
+## Q296 (Topic 4, Original #77)
 
 You develop the following Azure Resource Manager (ARM) template to create a resource group and deploy an Azure Storage account to the resource group.
 
-[Image: 0033400001.jpg]
+{{img:/exam-media/az-104/T4/0033400001.jpg}}
 
  Which cmdlet should you run to deploy the template?
 
@@ -4856,7 +4831,7 @@ You develop the following Azure Resource Manager (ARM) template to create a reso
 - [ ] C. New-AzTenantDeployment
 - [x] D. New-AzDeployment
 
-## Q302 (Topic 4, Original #78)
+## Q297 (Topic 4, Original #78)
 
 You have an Azure App Service app named WebApp1 that contains two folders named Folder1 and Folder2.
  You need to configure a daily backup of WebApp1. The solution must ensure that Folder2 is excluded from the backup.
@@ -4864,7 +4839,7 @@ You have an Azure App Service app named WebApp1 that contains two folders named 
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0033600001.jpg]
+{{img:/exam-media/az-104/T4/0033600001.jpg}}
 
 - [x] A. First create: An Azure storage account
 - [ ] B. First create: A Bakup vault
@@ -4872,7 +4847,7 @@ You have an Azure App Service app named WebApp1 that contains two folders named 
 - [x] D. To exclude Folder2, use: a_backup.filter file
 - [ ] E. To exclude Folder2, use: a backup policy
 
-## Q303 (Topic 4, Original #79)
+## Q298 (Topic 4, Original #79)
 
 You plan to deploy several Azure virtual machines that will run Windows Server 2019 in a virtual machine scale set by using an Azure Resource Manager template.
  You need to ensure that NGINX is available on all the virtual machines after they are deployed.
@@ -4883,7 +4858,7 @@ You plan to deploy several Azure virtual machines that will run Windows Server 2
 - [x] C. Azure Custom Script Extension
 - [ ] D. a Microsoft Endpoint Manager device configuration profile
 
-## Q304 (Topic 4, Original #80)
+## Q299 (Topic 4, Original #80)
 
 You have an Azure subscription. The subscription contains a virtual machine that runs Windows 10.
  You need to join the virtual machine to an Active Directory domain.
@@ -4891,7 +4866,7 @@ You have an Azure subscription. The subscription contains a virtual machine that
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0034000001.jpg]
+{{img:/exam-media/az-104/T4/0034000001.jpg}}
 
 - [ ] A. "type": "Extensions"
 - [ ] B. "type": "Microsoft.Computer/VirtualMachines"
@@ -4899,7 +4874,7 @@ You have an Azure subscription. The subscription contains a virtual machine that
 - [x] D. "ProtectedSettings":{
 - [ ] E. "Settings":{
 
-## Q305 (Topic 4, Original #81)
+## Q300 (Topic 4, Original #81)
 
 You have an Azure subscription that contains three virtual machines named VM1, VM2, and VM3. All the virtual machines are in an availability set named AVSet1.
 
@@ -4912,17 +4887,17 @@ You have an Azure subscription that contains three virtual machines named VM1, V
 - [ ] C. Convert AvSet1 into a managed availability set.
 - [ ] D. Shut down VM3 and VM3.
 
-## Q306 (Topic 4, Original #82)
+## Q301 (Topic 4, Original #82)
 
 You are creating an Azure Kubernetes Services (AKS) cluster as shown in the following exhibit.
 
-[Image: image593.png]
+{{img:/exam-media/az-104/T4/image593.png}}
 
  Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
 
  NOTE: Each correct selection is worth one point.
 
-[Image: image594.png]
+{{img:/exam-media/az-104/T4/image594.png}}
 
 - [ ] A. create windows container in AKS1: enable virtual nodes
 - [ ] B. create windows container in AKS1: modify the Kubernetes verison setting
@@ -4930,7 +4905,7 @@ You are creating an Azure Kubernetes Services (AKS) cluster as shown in the foll
 - [x] D. integrate AKS with azure container: AKS-managed Entra ID
 - [ ] E. integrate AKS with azure container: authentication method
 
-## Q307 (Topic 4, Original #83)
+## Q302 (Topic 4, Original #83)
 
 You have an Azure subscription that contains an Azure Kubernetes Service (AKS) cluster named Cluster1. Cluster1 hosts a node pool named Pool1 that has four nodes.
 
@@ -4943,7 +4918,7 @@ You have an Azure subscription that contains an Azure Kubernetes Service (AKS) c
 
  NOTE: Each correct selection is worth one point.
 
-[Image: image596.png]
+{{img:/exam-media/az-104/T4/image596.png}}
 
 - [ ] A. add
 - [ ] B. get-update
@@ -4951,17 +4926,17 @@ You have an Azure subscription that contains an Azure Kubernetes Service (AKS) c
 - [ ] D. --max-count 2
 - [x] E. --max-surge 2
 
-## Q308 (Topic 4, Original #84)
+## Q303 (Topic 4, Original #84)
 
 You have an Azure subscription.
 
  You create the following file named Deploy.json.
 
-[Image: image598.png]
+{{img:/exam-media/az-104/T4/image598.png}}
 
  You connect to the subscription and run the following commands.
 
-[Image: image599.png]
+{{img:/exam-media/az-104/T4/image599.png}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
 
@@ -4971,7 +4946,7 @@ You have an Azure subscription.
 - [ ] B. The commands will create storage accounts int the West US Azure region
 - [x] C. The first storace account that is created will have a prefix of 0
 
-## Q309 (Topic 4, Original #85)
+## Q304 (Topic 4, Original #85)
 
 You have an Azure container registry named Registry1 that contains an image named image1.
 
@@ -4986,7 +4961,7 @@ You have an Azure container registry named Registry1 that contains an image name
 - [x] A. Yes
 - [ ] B. No
 
-## Q310 (Topic 4, Original #86)
+## Q305 (Topic 4, Original #86)
 
 You have an Azure subscription that contains a resource group named RG1.
 
@@ -4999,7 +4974,7 @@ You have an Azure subscription that contains a resource group named RG1.
 
  NOTE: Each correct selection is worth one point.
 
-[Image: image602.png]
+{{img:/exam-media/az-104/T4/image602.png}}
 
 - [ ] A. params.json: -QueryString
 - [x] B. params.json: -ResourceGroupName
@@ -5007,23 +4982,23 @@ You have an Azure subscription that contains a resource group named RG1.
 - [x] D. -Mode Complete
 - [ ] E. -Mode Incremental
 
-## Q311 (Topic 4, Original #87)
+## Q306 (Topic 4, Original #87)
 
 You have an Azure App Service web app named app1.
 
  You configure autoscaling as shown in following exhibit.
 
-[Image: image604.png]
+{{img:/exam-media/az-104/T4/image604.png}}
 
  You configure the autoscale rule criteria as shown in the following exhibit.
 
-[Image: image605.png]
+{{img:/exam-media/az-104/T4/image605.png}}
 
  Use the drop-down menus to select the answer choice that answers each question based on the information presented in the graphic.
 
  NOTE: Each correct selection is worth one point.
 
-[Image: image606.png]
+{{img:/exam-media/az-104/T4/image606.png}}
 
 - [ ] A. 1 instance
 - [x] B. 2 instances
@@ -5031,13 +5006,13 @@ You have an Azure App Service web app named app1.
 - [ ] D. 5 minutes
 - [x] E. 15 minutes
 
-## Q312 (Topic 4, Original #88)
+## Q307 (Topic 4, Original #88)
 
 You have an Azure subscription.
 
  You plan to deploy the Azure container instances shown in the following table.
 
-[Image: image643.png]
+{{img:/exam-media/az-104/T4/image643.png}}
 
  Which instances can you deploy to a container group?
 
@@ -5046,11 +5021,11 @@ You have an Azure subscription.
 - [ ] C. Instance1 and Instance2 only
 - [x] D. Instance3 and Instance4 only
 
-## Q313 (Topic 4, Original #90)
+## Q308 (Topic 4, Original #90)
 
 You have an Azure subscription that has the public IP addresses shown in the following table.
 
-[Image: image653.png]
+{{img:/exam-media/az-104/T4/image653.png}}
 
  You plan to deploy an Instance of Azure Firewall Premium named FW1.
 
@@ -5061,7 +5036,7 @@ You have an Azure subscription that has the public IP addresses shown in the fol
 - [ ] C. IP1, IP2, and IP5 only
 - [ ] D. IP1, IP2, IP4, and IP5 only
 
-## Q314 (Topic 4, Original #91)
+## Q309 (Topic 4, Original #91)
 
 You have an Azure subscription.
 
@@ -5071,7 +5046,7 @@ You have an Azure subscription.
 
  NOTE: Each correct selection is worth one point.
 
-[Image: image676.png]
+{{img:/exam-media/az-104/T4/image676.png}}
 
 - [ ] A. dependsOn: reference
 - [x] B. dependsOn: resourceId
@@ -5079,7 +5054,7 @@ You have an Azure subscription.
 - [ ] D. storageProfile: Image
 - [x] E. storageProfile: ImageReference
 
-## Q315 (Topic 4, Original #92)
+## Q310 (Topic 4, Original #92)
 
 You need to configure a new Azure App Service app named WebApp1. The solution must meet the following requirements:
 
@@ -5091,7 +5066,7 @@ You need to configure a new Azure App Service app named WebApp1. The solution mu
 
  NOTE: Each correct answer is worth one point.
 
-[Image: image686.png]
+{{img:/exam-media/az-104/T4/image686.png}}
 
 - [ ] A. Basic
 - [ ] B. Shared
@@ -5099,19 +5074,19 @@ You need to configure a new Azure App Service app named WebApp1. The solution mu
 - [ ] D. AAAA
 - [x] E. TXT
 
-## Q316 (Topic 4, Original #93)
+## Q311 (Topic 4, Original #93)
 
 You have an Azure subscription that contains the virtual machines shown in the following table.
 
-[Image: image713.png]
+{{img:/exam-media/az-104/T4/image713.png}}
 
  You create an Azure Compute Gallery named ComputeGallery1 as shown in the Azure Compute Gallery exhibit. (Click the Azure Compute Gallery tab.)
 
-[Image: image714.png]
+{{img:/exam-media/az-104/T4/image714.png}}
 
  In ComputeGallery1, you create a virtual machine image definition named Image1 as shown in the image definition exhibit. (Click the Image Definition tab.)
 
-[Image: image715.png]
+{{img:/exam-media/az-104/T4/image715.png}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No,
 
@@ -5121,11 +5096,11 @@ You have an Azure subscription that contains the virtual machines shown in the f
 - [x] B. The operating system disk of VM2 can be used as a source for a version of Image1
 - [x] C. The operating system disk of VM3 can be used as a source for a version of Image1
 
-## Q317 (Topic 4, Original #94)
+## Q312 (Topic 4, Original #94)
 
 You plan to create the Azure web apps shown in the following table.
 
-[Image: image718.png]
+{{img:/exam-media/az-104/T4/image718.png}}
 
  What is the minimum number of App Service plans you should create for the web apps?
 
@@ -5134,19 +5109,19 @@ You plan to create the Azure web apps shown in the following table.
 - [ ] C. 3
 - [ ] D. 4
 
-## Q318 (Topic 4, Original #85)
+## Q313 (Topic 4, Original #85)
 
 You have an Azure subscription that contains the resource groups shown in the following table.
 
-[Image: image719.png]
+{{img:/exam-media/az-104/T4/image719.png}}
 
  You create the following Azure Resource Manager (ARM) template named deploy.json.
 
-[Image: image720.png]
+{{img:/exam-media/az-104/T4/image720.png}}
 
  You deploy the template by running the following cmdlet.
 
-[Image: image721.png]
+{{img:/exam-media/az-104/T4/image721.png}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
 
@@ -5156,13 +5131,13 @@ You have an Azure subscription that contains the resource groups shown in the fo
 - [ ] B. The template creates four new resource groups
 - [ ] C. The template creates a resource named RG3 in the East US Azure region
 
-## Q319 (Topic 4, Original #96)
+## Q314 (Topic 4, Original #96)
 
 You have an Azure App Service app named App1 that contains two running instances.
 
  You have an autoscale rule configured as shown in the following exhibit.
 
-[Image: image724.png]
+{{img:/exam-media/az-104/T4/image724.png}}
 
  For the Instance limits scale condition setting, you set Maximum to 5.
 
@@ -5175,11 +5150,11 @@ You have an Azure App Service app named App1 that contains two running instances
 - [ ] C. 4
 - [x] D. 5
 
-## Q320 (Topic 4, Original #97)
+## Q315 (Topic 4, Original #97)
 
 You have an Azure subscription that contains the container images shown in the following table.
 
-[Image: image725.png]
+{{img:/exam-media/az-104/T4/image725.png}}
 
  You plan to use the following services:
 
@@ -5191,7 +5166,7 @@ You have an Azure subscription that contains the container images shown in the f
 
  NOTE: Each correct answer is worth one point.
 
-[Image: image726.png]
+{{img:/exam-media/az-104/T4/image726.png}}
 
 - [ ] A. Image1: Azure Container Instances only
 - [ ] B. Image2: Azure Container Instances only
@@ -5199,7 +5174,7 @@ You have an Azure subscription that contains the container images shown in the f
 - [ ] D. Image2: Azure Container Instances and App Services only
 - [x] E. Image2: Azure Container Instances, Azure Container Apps, and App Services only
 
-## Q321 (Topic 4, Original #98)
+## Q316 (Topic 4, Original #98)
 
 You have an Azure AD tenant named contoso.com.
 
@@ -5216,13 +5191,13 @@ You have an Azure AD tenant named contoso.com.
 - [ ] C. Configure KV1 to use the role-based access control (RBAC) authorization system.
 - [ ] D. Create an access policy for KV1 and assign the policy to User1.
 
-## Q322 (Topic 4, Original #99)
+## Q317 (Topic 4, Original #99)
 
 You have an Azure subscription.
 
  You plan to deploy the resources shown in the following table.
 
-[Image: image767.png]
+{{img:/exam-media/az-104/T4/image767.png}}
 
  You need to create a single Azure Resource Manager (ARM) template that will be used to deploy the resources.
 
@@ -5233,13 +5208,13 @@ You have an Azure subscription.
 - [ ] C. IP1
 - [ ] D. NSG1
 
-## Q323 (Topic 4, Original #100)
+## Q318 (Topic 4, Original #100)
 
 You have an Azure subscription.
 
  You create the following Azure Resource Manager (ARM) template named Template.json.
 
-[Image: image786.png]
+{{img:/exam-media/az-104/T4/image786.png}}
 
  You need to deploy Template.json.
 
@@ -5250,7 +5225,7 @@ You have an Azure subscription.
 - [ ] C. New-AzResourceGroupDeployment
 - [ ] D. New-AzTenantDeployment
 
-## Q324 (Topic 4, Original #101)
+## Q319 (Topic 4, Original #101)
 
 You have an Azure subscription that contains a resource group named RG1.
 
@@ -5267,13 +5242,13 @@ You have an Azure subscription that contains a resource group named RG1.
 - [ ] C. sku
 - [ ] D. location
 
-## Q325 (Topic 4, Original #102)
+## Q320 (Topic 4, Original #102)
 
 Your company purchases a new Azure subscription.
 
  You create a file named Deploy.json as shown in the following exhibit.
 
-[Image: image787.png]
+{{img:/exam-media/az-104/T4/image787.png}}
 
  You connect to the subscription and run the following cmdlet.
 
@@ -5287,11 +5262,11 @@ Your company purchases a new Azure subscription.
 - [ ] B. You can deploy a virtual machine to RG2
 - [x] C. You can manually create a resource group named RG3
 
-## Q326 (Topic 4, Original #103)
+## Q321 (Topic 4, Original #103)
 
 You have an Azure subscription that contains the resources shown in the following table.
 
-[Image: image790.png]
+{{img:/exam-media/az-104/T4/image790.png}}
 
  You need to configure a proximity placement group for VMSS1.
 
@@ -5302,19 +5277,19 @@ You have an Azure subscription that contains the resources shown in the followin
 - [x] C. Proximity1 only
 - [ ] D. Proximity1 and Proximity3 only
 
-## Q327 (Topic 4, Original #104)
+## Q322 (Topic 4, Original #104)
 
 You have an Azure subscription that contains the virtual networks shown in the following table.
 
-[Image: image809.png]
+{{img:/exam-media/az-104/T4/image809.png}}
 
  The subscription contains the virtual machines shown in the following table.
 
-[Image: image810.png]
+{{img:/exam-media/az-104/T4/image810.png}}
 
  The subscription contains the Azure App Service web apps shown in the following table.
 
-[Image: image811.png]
+{{img:/exam-media/az-104/T4/image811.png}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
 
@@ -5324,15 +5299,15 @@ You have an Azure subscription that contains the virtual networks shown in the f
 - [ ] B. NSG1 controls inbound traffic to WebApp1
 - [ ] C. WebApp2 can communicate with VM1
 
-## Q328 (Topic 4, Original #105)
+## Q323 (Topic 4, Original #105)
 
 You have an Azure subscription named Subscription1 that contains the resources shown in the following table.
 
-[Image: image814.png]
+{{img:/exam-media/az-104/T4/image814.png}}
 
  You create virtual machines in Subscription1 as shown in the following table.
 
-[Image: image815.png]
+{{img:/exam-media/az-104/T4/image815.png}}
 
  You plan to use Vault1 for the backup of as many virtual machines as possible.
 
@@ -5344,7 +5319,7 @@ You have an Azure subscription named Subscription1 that contains the resources s
 - [x] D. VM1, VM3, VMA, and VMC only
 - [ ] E. VM1 and VM3 only
 
-## Q329 (Topic 4, Original #106)
+## Q324 (Topic 4, Original #106)
 
 You have an Azure subscription that contains an Azure container registry named ContReg1.
 
@@ -5356,7 +5331,7 @@ You have an Azure subscription that contains an Azure container registry named C
 - [ ] B. administratir
 - [ ] C. ContReg1
 
-## Q330 (Topic 4, Original #107)
+## Q325 (Topic 4, Original #107)
 
 You have an Azure subscription.
 
@@ -5371,11 +5346,11 @@ You have an Azure subscription.
 - [ ] C. Add a token.
 - [x] D. Enable content trust.
 
-## Q331 (Topic 4, Original #108)
+## Q326 (Topic 4, Original #108)
 
 You have an Azure subscription that has the Azure container registries shown in the following table.
 
-[Image: image829.png]
+{{img:/exam-media/az-104/T4/image829.png}}
 
  You plan to use ACR Tasks and configure private endpoint connections.
 
@@ -5383,7 +5358,7 @@ You have an Azure subscription that has the Azure container registries shown in 
 
  NOTE: Each correct selection is worth one point.
 
-[Image: image830.png]
+{{img:/exam-media/az-104/T4/image830.png}}
 
 - [ ] A. ACR Task: ContReg1 only
 - [x] B. Private endpoints: ContReg1 only
@@ -5391,7 +5366,7 @@ You have an Azure subscription that has the Azure container registries shown in 
 - [x] D. ACR Task: ContReg1, ContReg2, and ContReg3
 - [ ] E. Private endpoints: ContReg1, ContReg2, and ContReg3
 
-## Q332 (Topic 4, Original #109)
+## Q327 (Topic 4, Original #109)
 
 You plan to deploy several Azure virtual machines that will run Windows Server 2022 in a virtual machine scale set by using an Azure Resource Manager template.
 
@@ -5404,11 +5379,11 @@ You plan to deploy several Azure virtual machines that will run Windows Server 2
 - [ ] C. Microsoft Entra Application Proxy
 - [ ] D. the Publish-AzVMDscConfiguration cmdlet
 
-## Q333 (Topic 4, Original #110)
+## Q328 (Topic 4, Original #110)
 
 You have an Azure subscription that contains a container group named Group1. Group1 contains two Azure container instances as shown in the following table.
 
-[Image: image832.png]
+{{img:/exam-media/az-104/T4/image832.png}}
 
  You need to ensure that container2 can use CPU resources without negatively affecting container1.
 
@@ -5419,7 +5394,7 @@ You have an Azure subscription that contains a container group named Group1. Gro
 - [x] C. Remove the resource limit for both containers.
 - [ ] D. Decrease the resource limit of container2 to two CPUs.
 
-## Q334 (Topic 4, Original #111)
+## Q329 (Topic 4, Original #111)
 
 You have an Azure subscription.
 
@@ -5435,7 +5410,7 @@ You have an Azure subscription.
 - [ ] D. Azure Container Instances or Azure App Service only
 - [ ] E. Azure Container Apps, Azure Container Instances, or Azure App Service
 
-## Q335 (Topic 4, Original #112)
+## Q330 (Topic 4, Original #112)
 
 You have an Azure subscription that uses Azure Container Instances.
 
@@ -5449,7 +5424,7 @@ You have an Azure subscription that uses Azure Container Instances.
 
  NOTE: Each correct answer is worth one point.
 
-[Image: image833.png]
+{{img:/exam-media/az-104/T4/image833.png}}
 
 - [ ] A. container registry: az acr build
 - [x] B. container registry: az acr create
@@ -5457,7 +5432,7 @@ You have an Azure subscription that uses Azure Container Instances.
 - [ ] D. image1 to the registry: docker pull
 - [x] E. image1 to the registry: docker push
 
-## Q336 (Topic 4, Original #113)
+## Q331 (Topic 4, Original #113)
 
 You have an Azure container registry named Registry1 that contains an image named image1.
 
@@ -5472,7 +5447,7 @@ You have an Azure container registry named Registry1 that contains an image name
 - [ ] A. Yes
 - [x] B. No
 
-## Q337 (Topic 4, Original #114)
+## Q332 (Topic 4, Original #114)
 
 You have an Azure container registry named Registry1 that contains an image named image1.
 
@@ -5487,7 +5462,7 @@ You have an Azure container registry named Registry1 that contains an image name
 - [ ] A. Yes
 - [x] B. No
 
-## Q338 (Topic 4, Original #115)
+## Q333 (Topic 4, Original #115)
 
 You have an Azure container registry named Registry1 that contains an image named image1.
 
@@ -5502,7 +5477,7 @@ You have an Azure container registry named Registry1 that contains an image name
 - [ ] A. Yes
 - [x] B. No
 
-## Q339 (Topic 4, Original #116)
+## Q334 (Topic 4, Original #116)
 
 You have a Standard Azure App Service plan named Plan1.
 
@@ -5516,7 +5491,7 @@ You have a Standard Azure App Service plan named Plan1.
 - [ ] D. Standard S1 in the Scale up (App Service plan) settings
 - [ ] E. Manual in the Scale out method settings
 
-## Q340 (Topic 4, Original #?)
+## Q335 (Topic 4, Original #?)
 
 This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
 
@@ -5539,19 +5514,19 @@ This is a case study. Case studies are not timed separately. You can use as much
 
  The subscription contains the storage accounts shown in the following table.
 
-[Image: image865.png]
+{{img:/exam-media/az-104/T4/image865.png}}
 
  The subscription contains the virtual machines shown in the following table.
 
-[Image: image866.png]
+{{img:/exam-media/az-104/T4/image866.png}}
 
  The subscription has an Azure container registry that contains the images shown in the following table.
 
-[Image: image867.png]
+{{img:/exam-media/az-104/T4/image867.png}}
 
  The subscription contains the resources shown in the following table.
 
-[Image: image868.png]
+{{img:/exam-media/az-104/T4/image868.png}}
 
  Azure Key Vault -
 
@@ -5559,21 +5534,21 @@ This is a case study. Case studies are not timed separately. You can use as much
 
  Vault1 contains the certificates shown in the following table.
 
-[Image: image869.png]
+{{img:/exam-media/az-104/T4/image869.png}}
 
  Vault1 contains the keys shown in the following table.
 
-[Image: image870.png]
+{{img:/exam-media/az-104/T4/image870.png}}
 
  Microsoft Entra Environment -
 
  ADatum has a Microsoft Entra tenant named adatum.com that is linked to the Azure subscription and contains the users shown in the following table.
 
-[Image: image871.png]
+{{img:/exam-media/az-104/T4/image871.png}}
 
  The tenant contains the groups shown in the following table.
 
-[Image: image872.png]
+{{img:/exam-media/az-104/T4/image872.png}}
 
  The adatum.com tenant has a custom security attribute named Attribute1.
 
@@ -5610,7 +5585,7 @@ This is a case study. Case studies are not timed separately. You can use as much
 - [ ] D. Cert3 or Cert4 only
 - [ ] E. Cert1, Cert2 Cert3, or Cert4
 
-## Q341 (Topic 4, Original #118)
+## Q336 (Topic 4, Original #118)
 
 You have an Azure virtual machine named VM1. VM1 was deployed by using a custom Azure Resource Manager template named ARM1.json.
 
@@ -5624,7 +5599,7 @@ You have an Azure virtual machine named VM1. VM1 was deployed by using a custom 
 - [ ] A. Yes
 - [x] B. No
 
-## Q342 (Topic 4, Original #119)
+## Q337 (Topic 4, Original #119)
 
 You have an Azure virtual machine named VM1. VM1 was deployed by using a custom Azure Resource Manager template named ARM1.json.
 
@@ -5639,7 +5614,7 @@ You have an Azure virtual machine named VM1. VM1 was deployed by using a custom 
 - [x] A. Yes
 - [ ] B. No
 
-## Q343 (Topic 4, Original #120)
+## Q338 (Topic 4, Original #120)
 
 You have an Azure virtual machine named VM1. VM1 was deployed by using a custom Azure Resource Manager template named ARM1.json.
 
@@ -5654,7 +5629,7 @@ You have an Azure virtual machine named VM1. VM1 was deployed by using a custom 
 - [ ] A. Yes
 - [x] B. No
 
-## Q344 (Topic 4, Original #121)
+## Q339 (Topic 4, Original #121)
 
 This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
 
@@ -5677,19 +5652,19 @@ This is a case study. Case studies are not timed separately. You can use as much
 
  The subscription contains the storage accounts shown in the following table.
 
-[Image: image865.png]
+{{img:/exam-media/az-104/T4/image865.png}}
 
  The subscription contains the virtual machines shown in the following table.
 
-[Image: image866.png]
+{{img:/exam-media/az-104/T4/image866.png}}
 
  The subscription has an Azure container registry that contains the images shown in the following table.
 
-[Image: image867.png]
+{{img:/exam-media/az-104/T4/image867.png}}
 
  The subscription contains the resources shown in the following table.
 
-[Image: image868.png]
+{{img:/exam-media/az-104/T4/image868.png}}
 
  Azure Key Vault -
 
@@ -5697,21 +5672,21 @@ This is a case study. Case studies are not timed separately. You can use as much
 
  Vault1 contains the certificates shown in the following table.
 
-[Image: image869.png]
+{{img:/exam-media/az-104/T4/image869.png}}
 
  Vault1 contains the keys shown in the following table.
 
-[Image: image870.png]
+{{img:/exam-media/az-104/T4/image870.png}}
 
  Microsoft Entra Environment -
 
  ADatum has a Microsoft Entra tenant named adatum.com that is linked to the Azure subscription and contains the users shown in the following table.
 
-[Image: image871.png]
+{{img:/exam-media/az-104/T4/image871.png}}
 
  The tenant contains the groups shown in the following table.
 
-[Image: image872.png]
+{{img:/exam-media/az-104/T4/image872.png}}
 
  The adatum.com tenant has a custom security attribute named Attribute1.
 
@@ -5747,12 +5722,12 @@ This is a case study. Case studies are not timed separately. You can use as much
 - [ ] C. Set-AzDiskDiskEncryptionKey and Key1
 - [x] D. Set-AzVMDiskEncryptionExtension and Key1.
 
-## Q345 (Topic 5, Original #1)
+## Q340 (Topic 5, Original #1)
 
 You have an Azure subscription named Sub1.
  You plan to deploy a multi-tiered application that will contain the tiers shown in the following table.
 
-[Image: 0034700001.png]
+{{img:/exam-media/az-104/T5/0034700001.png}}
 
  You need to recommend a networking solution to meet the following requirements:
  ✑ Ensure that communication between the web servers and the business logic tier spreads equally across the virtual machines.
@@ -5760,7 +5735,7 @@ You have an Azure subscription named Sub1.
  Which Azure resource should you recommend for each requirement? To answer, select the appropriate options in the answer area.
  NOTE: Each correct selection is worth one point.
 
-[Image: 0034800001.jpg]
+{{img:/exam-media/az-104/T5/0034800001.jpg}}
 
 - [x] A. 1. An internal load balancer
 - [x] B. 2. an application gateway that uses the WAF tier
@@ -5768,7 +5743,7 @@ You have an Azure subscription named Sub1.
 - [ ] D. 2. a network security group (NSG)
 - [ ] E. 1. a public load balancer
 
-## Q346 (Topic 5, Original #2)
+## Q341 (Topic 5, Original #2)
 
 Your company has three offices. The offices are located in Miami, Los Angeles, and New York. Each office contains datacenter.
  You have an Azure subscription that contains resources in the East US and West US Azure regions. Each region contains a virtual network. The virtual networks are peered.
@@ -5780,7 +5755,7 @@ Your company has three offices. The offices are located in Miami, Los Angeles, a
 - [ ] C. three virtual WANs and one virtual hub
 - [ ] D. three On-premises data gateways and one Azure Application Gateway
 
-## Q347 (Topic 5, Original #3)
+## Q342 (Topic 5, Original #3)
 
 You plan to deploy five virtual machines to a virtual network subnet.
  Each virtual machine will have a public IP address and a private IP address.
@@ -5789,7 +5764,7 @@ You plan to deploy five virtual machines to a virtual network subnet.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0035000001.jpg]
+{{img:/exam-media/az-104/T5/0035000001.jpg}}
 
 - [x] A. Minimum number of network interfaces: 5
 - [ ] B. Minimum number of network interfaces: 10
@@ -5797,15 +5772,15 @@ You plan to deploy five virtual machines to a virtual network subnet.
 - [ ] D. Minimum number of NSG: 5
 - [ ] E. Minimum number of NSG: 10
 
-## Q348 (Topic 5, Original #4)
+## Q343 (Topic 5, Original #4)
 
 You have an Azure subscription that contains the resources shown in the following table.
 
-[Image: 0035200001.png]
+{{img:/exam-media/az-104/T5/0035200001.png}}
 
  LB1 is configured as shown in the following table.
 
-[Image: 0035200002.png]
+{{img:/exam-media/az-104/T5/0035200002.png}}
 
  You plan to create new inbound NAT rules that meet the following requirements:
  ✑ Provide Remote Desktop access to VM1 from the internet by using port 3389.
@@ -5817,18 +5792,18 @@ You have an Azure subscription that contains the resources shown in the followin
 - [ ] C. a health probe
 - [ ] D. a backend pool
 
-## Q349 (Topic 5, Original #5)
+## Q344 (Topic 5, Original #5)
 
 You have Azure virtual machines that run Windows Server 2019 and are configured as shown in the following table.
 
-[Image: 0035300001.png]
+{{img:/exam-media/az-104/T5/0035300001.png}}
 
  You create a private Azure DNS zone named adatum.com. You configure the adatum.com zone to allow auto registration from VNET1.
  Which A records will be added to the adatum.com zone for each virtual machine? To answer, select the appropriate options in the answer area.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0035400001.jpg]
+{{img:/exam-media/az-104/T5/0035400001.jpg}}
 
 - [ ] A. VM1: None
 - [x] B. VM1: Private IP address only
@@ -5836,7 +5811,7 @@ You have Azure virtual machines that run Windows Server 2019 and are configured 
 - [ ] D. VM2: Public IP address only
 - [ ] E. VM2: Private and public IP address only
 
-## Q350 (Topic 5, Original #6)
+## Q345 (Topic 5, Original #6)
 
 You have an Azure virtual network named VNet1 that connects to your on-premises network by using a site-to-site VPN. VNet1 contains one subnet named
  Sunet1.
@@ -5846,7 +5821,7 @@ You have an Azure virtual network named VNet1 that connects to your on-premises 
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0035600001.png]
+{{img:/exam-media/az-104/T5/0035600001.png}}
 
 - [ ] A. Resource to create: An Azure Event Grid
 - [x] B. Resource to create: An Azure Log analytics workspace
@@ -5854,11 +5829,11 @@ You have an Azure virtual network named VNet1 that connects to your on-premises 
 - [x] D. Resource on which to enable diagnostics: NSG1
 - [ ] E. Resource to create: An AzureStorage account
 
-## Q351 (Topic 5, Original #7)
+## Q346 (Topic 5, Original #7)
 
 You have the Azure virtual networks shown in the following table.
 
-[Image: 0035700001.png]
+{{img:/exam-media/az-104/T5/0035700001.png}}
 
  To which virtual networks can you establish a peering connection from VNet1?
 
@@ -5867,7 +5842,7 @@ You have the Azure virtual networks shown in the following table.
 - [x] C. VNet3 and VNet4 only
 - [ ] D. VNet2, VNet3, and VNet4
 
-## Q352 (Topic 5, Original #8)
+## Q347 (Topic 5, Original #8)
 
 You have an Azure subscription that contains a virtual network named VNet1. VNet1 contains four subnets named Gateway, Perimeter, NVA, and Production.
  The NVA subnet contains two network virtual appliances (NVAs) that will perform network traffic inspection between the Perimeter subnet and the Production subnet.
@@ -5883,7 +5858,7 @@ You have an Azure subscription that contains a virtual network named VNet1. VNet
 - [ ] D. Add two load balancing rules that have HA Ports enabled and Floating IP disabled
 - [ ] E. Deploy a basic load balancer
 
-## Q353 (Topic 5, Original #9)
+## Q348 (Topic 5, Original #9)
 
 You have an Azure subscription named Subscription1 that contains two Azure virtual networks named VNet1 and VNet2. VNet1 contains a VPN gateway named
  VPNGW1 that uses static routing. There is a site-to-site VPN connection between your on-premises network and VNet1.
@@ -5897,26 +5872,26 @@ You have an Azure subscription named Subscription1 that contains two Azure virtu
 - [ ] C. Select Allow gateway transit on VNet2.
 - [ ] D. Enable BGP on VPNGW1
 
-## Q354 (Topic 5, Original #10)
+## Q349 (Topic 5, Original #10)
 
 You have an Azure subscription. The subscription contains virtual machines that run Windows Server 2016 and are configured as shown in the following table.
 
-[Image: 0036000001.png]
+{{img:/exam-media/az-104/T5/0036000001.png}}
 
  You create a public Azure DNS zone named adatum.com and a private Azure DNS zone named contoso.com.
  You create a virtual network link for contoso.com as shown in the following exhibit.
 
-[Image: 0036100001.jpg]
+{{img:/exam-media/az-104/T5/0036100001.jpg}}
 
 - [x] A. When VM1 starts, a record for VM1 is added to the contoso.com DNS zone.
 - [x] B. When VM2 starts, a record for VM2 is added to the contoso.com DNS zone.
 - [ ] C. When VM3 starts, a record for VM3 is added to the contoso.com DNS zone.
 
-## Q355 (Topic 5, Original #11)
+## Q350 (Topic 5, Original #11)
 
 You have an Azure subscription that contains the resources in the following table.
 
-[Image: 0036300001.png]
+{{img:/exam-media/az-104/T5/0036300001.png}}
 
  To which subnets can you apply NSG1?
 
@@ -5926,18 +5901,18 @@ You have an Azure subscription that contains the resources in the following tabl
 - [x] D. the subnets on VNet3 only
 - [ ] E. the subnets on VNet1, VNet2, and VNet3
 
-## Q356 (Topic 5, Original #12)
+## Q351 (Topic 5, Original #12)
 
 You have an Azure subscription that contains two virtual networks named VNet1 and VNet2. Virtual machines connect to the virtual networks.
  The virtual networks have the address spaces and the subnets configured as shown in the following table.
 
-[Image: 0036300002.png]
+{{img:/exam-media/az-104/T5/0036300002.png}}
 
  You need to add the address space of 10.33.0.0/16 to VNet1. The solution must ensure that the hosts on VNet1 and VNet2 can communicate.
  Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
  Select and Place:
 
-[Image: 0036400001.png]
+{{img:/exam-media/az-104/T5/0036400001.png}}
 
 - [x] A. Remove peering between VNet1 and VNet2
 - [x] B. Add the 10.33.0.0/16 address space to VNet1
@@ -5945,15 +5920,15 @@ You have an Azure subscription that contains two virtual networks named VNet1 an
 - [ ] D. On the peering connection in VNET2, allow gateway transit
 - [ ] E. Remove VNet1
 
-## Q357 (Topic 5, Original #13)
+## Q352 (Topic 5, Original #13)
 
 You have an Azure subscription that contains the resource groups shown in the following table.
 
-[Image: 0036600001.png]
+{{img:/exam-media/az-104/T5/0036600001.png}}
 
  RG1 contains the resources shown in the following table.
 
-[Image: 0036600002.png]
+{{img:/exam-media/az-104/T5/0036600002.png}}
 
  VM1 is running and connects to NIC1 and Disk1. NIC1 connects to VNET1.
  RG2 contains a public IP address named IP2 that is in the East US location. IP2 is not assigned to a virtual machine.
@@ -5964,7 +5939,7 @@ You have an Azure subscription that contains the resource groups shown in the fo
 - [x] B. You can move NIC1 to RG2
 - [ ] C. If you move to IP2 to RG1, the location of IP2 will change
 
-## Q358 (Topic 5, Original #14)
+## Q353 (Topic 5, Original #14)
 
 You have an Azure web app named webapp1.
  You have a virtual network named VNET1 and an Azure virtual machine named VM1 that hosts a MySQL database. VM1 connects to VNET1.
@@ -5976,12 +5951,12 @@ You have an Azure web app named webapp1.
 - [x] C. Connect webapp1 to VNET1
 - [ ] D. Deploy an Azure Application Gateway
 
-## Q359 (Topic 5, Original #15)
+## Q354 (Topic 5, Original #15)
 
 You create an Azure VM named VM1 that runs Windows Server 2019.
  VM1 is configured as shown in the exhibit. (Click the Exhibit tab.)
 
-[Image: 0036900001.jpg]
+{{img:/exam-media/az-104/T5/0036900001.jpg}}
 
  You need to enable Desired State Configuration for VM1.
  What should you do first?
@@ -5991,7 +5966,7 @@ You create an Azure VM named VM1 that runs Windows Server 2019.
 - [ ] C. Capture a snapshot of VM1.
 - [ ] D. Configure a DNS name for VM1.
 
-## Q360 (Topic 5, Original #16)
+## Q355 (Topic 5, Original #16)
 
 You have five Azure virtual machines that run Windows Server 2016. The virtual machines are configured as web servers.
  You have an Azure load balancer named LB1 that provides load balancing services for the virtual machines.
@@ -6003,7 +5978,7 @@ You have five Azure virtual machines that run Windows Server 2016. The virtual m
 - [ ] C. Floating IP (direct server return) to Enabled
 - [x] D. Session persistence to Client IP
 
-## Q361 (Topic 5, Original #17)
+## Q356 (Topic 5, Original #17)
 
 You have an Azure subscription that contains the following resources:
  ✑ A virtual network that has a subnet named Subnet1
@@ -6026,7 +6001,7 @@ You have an Azure subscription that contains the following resources:
 - [x] A. Yes
 - [ ] B. No
 
-## Q362 (Topic 5, Original #18)
+## Q357 (Topic 5, Original #18)
 
 You have an Azure subscription that contains the following resources:
  ✑ A virtual network that has a subnet named Subnet1
@@ -6042,7 +6017,7 @@ You have an Azure subscription that contains the following resources:
 
  Protocol: UDP -
 
-[Image: 0037200009.png]
+{{img:/exam-media/az-104/T5/0037200009.png}}
 
  ✑ Action: Allow
  VM1 has a public IP address and is connected to Subnet1. NSG-VM1 is associated to the network interface of VM1. NSG-Subnet1 is associated to Subnet1.
@@ -6053,7 +6028,7 @@ You have an Azure subscription that contains the following resources:
 - [ ] A. Yes
 - [x] B. No
 
-## Q363 (Topic 5, Original #19)
+## Q358 (Topic 5, Original #19)
 
 You have an Azure subscription that contains the following resources:
  ✑ A virtual network that has a subnet named Subnet1
@@ -6076,17 +6051,17 @@ You have an Azure subscription that contains the following resources:
 - [x] A. Yes
 - [ ] B. No
 
-## Q364 (Topic 5, Original #20)
+## Q359 (Topic 5, Original #20)
 
 You have a virtual network named VNet1 that has the configuration shown in the following exhibit.
 
-[Image: 0037500001.jpg]
+{{img:/exam-media/az-104/T5/0037500001.jpg}}
 
  Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0037600001.png]
+{{img:/exam-media/az-104/T5/0037600001.png}}
 
 - [ ] A. 192.168.1.0/24: add a network interface
 - [x] B. 10.2.1.0/24: add a subnet
@@ -6094,11 +6069,11 @@ You have a virtual network named VNet1 that has the configuration shown in the f
 - [ ] D. 10.2.1.0/24: add an address space
 - [ ] E. 192.168.1.0/24: add a subnet
 
-## Q365 (Topic 5, Original #21)
+## Q360 (Topic 5, Original #21)
 
 You have an Azure subscription that contains a virtual network named VNET1. VNET1 contains the subnets shown in the following table.
 
-[Image: 0037800001.png]
+{{img:/exam-media/az-104/T5/0037800001.png}}
 
  Each virtual machine uses a static IP address.
  You need to create network security groups (NSGs) to meet following requirements:
@@ -6113,11 +6088,11 @@ You have an Azure subscription that contains a virtual network named VNET1. VNET
 - [ ] C. 4
 - [ ] D. 12
 
-## Q366 (Topic 5, Original #22)
+## Q361 (Topic 5, Original #22)
 
 You have an Azure subscription that contains the resources shown in the following table.
 
-[Image: 0037900001.png]
+{{img:/exam-media/az-104/T5/0037900001.png}}
 
  The Not allowed resource types Azure policy that has policy enforcement enabled is assigned to RG1 and uses the following parameters:
  Microsoft.Network/virtualNetworks
@@ -6130,7 +6105,7 @@ You have an Azure subscription that contains the resources shown in the followin
 - [ ] C. Add a subnet to VNET1.
 - [ ] D. Remove Microsoft.Network/virtualNetworks from the policy.
 
-## Q367 (Topic 5, Original #23)
+## Q362 (Topic 5, Original #23)
 
 Your company has an Azure subscription named Subscription1.
  The company also has two on-premises servers named Server1 and Server2 that run Windows Server 2016. Server1 is configured as a DNS server that has a primary DNS zone named adatum.com. Adatum.com contains 1,000 DNS records.
@@ -6146,7 +6121,7 @@ Your company has an Azure subscription named Subscription1.
 - [ ] C. the Azure portal
 - [ ] D. the DNS Manager console
 
-## Q368 (Topic 5, Original #24)
+## Q363 (Topic 5, Original #24)
 
 You have a public load balancer that balances ports 80 and 443 across three virtual machines named VM1, VM2, and VM3.
  You need to direct all the Remote Desktop Protocol (RDP) connections to VM3 only.
@@ -6157,15 +6132,15 @@ You have a public load balancer that balances ports 80 and 443 across three virt
 - [ ] C. a frontend IP configuration
 - [ ] D. a load balancing rule
 
-## Q369 (Topic 5, Original #25)
+## Q364 (Topic 5, Original #25)
 
 You have an Azure subscription named Subscription1 that contains the virtual networks in the following table.
 
-[Image: 0038100001.png]
+{{img:/exam-media/az-104/T5/0038100001.png}}
 
  Subscription1 contains the virtual machines in the following table.
 
-[Image: 0038200001.png]
+{{img:/exam-media/az-104/T5/0038200001.png}}
 
  In Subscription1, you create a load balancer that has the following configurations:
  ✑ Name: LB1
@@ -6178,7 +6153,7 @@ You have an Azure subscription named Subscription1 that contains the virtual net
 - [ ] B. LB1 can balance the traffic between VM3 and VM4
 - [ ] C. LB1 can balance the traffic between VM5 and VM6
 
-## Q370 (Topic 5, Original #26)
+## Q365 (Topic 5, Original #26)
 
 You have an Azure virtual machine that runs Windows Server 2019 and has the following configurations:
  ✑ Name: VM1
@@ -6189,14 +6164,14 @@ You have an Azure virtual machine that runs Windows Server 2019 and has the foll
  ✑ DNS suffix in Windows Server: Adatum.com
  You create the Azure DNS zones shown in the following table.
 
-[Image: 0038400001.png]
+{{img:/exam-media/az-104/T5/0038400001.png}}
 
  You need to identify which DNS zones you can link to VNET1 and the DNS zones to which VM1 can automatically register.
  Which zones should you identify? To answer, select the appropriate options in the answer area.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0038400002.png]
+{{img:/exam-media/az-104/T5/0038400002.png}}
 
 - [x] A. VNET1: The private zones only
 - [x] B. DNS to VM: The private zones only
@@ -6204,7 +6179,7 @@ You have an Azure virtual machine that runs Windows Server 2019 and has the foll
 - [ ] D. VNET1: Adatum.com only
 - [ ] E. DNS to VM: Adatum.pri and adatum.com only
 
-## Q371 (Topic 5, Original #27)
+## Q366 (Topic 5, Original #27)
 
 You have an on-premises network that you plan to connect to Azure by using a site-so-site VPN.
  In Azure, you have an Azure virtual network named VNet1 that uses an address space of 10.0.0.0/16 VNet1 contains a subnet named Subnet1 that uses an address space of 10.0.0.0/24.
@@ -6213,7 +6188,7 @@ You have an on-premises network that you plan to connect to Azure by using a sit
  NOTE: More than one order of answer choice is correct. You will receive credit for any of the correct orders you select.
  Select and Place:
 
-[Image: 0038600001.png]
+{{img:/exam-media/az-104/T5/0038600001.png}}
 
 - [x] A. Create a gateway subnet
 - [x] B. Create a VPN gateway
@@ -6221,16 +6196,16 @@ You have an on-premises network that you plan to connect to Azure by using a sit
 - [x] D. Create a VPN connection
 - [ ] E. Create a Custom DNS server
 
-## Q372 (Topic 5, Original #28)
+## Q367 (Topic 5, Original #28)
 
 You have an Azure subscription that contains the resources in the following table.
 
-[Image: 0038700002.png]
+{{img:/exam-media/az-104/T5/0038700002.png}}
 
  VM1 and VM2 are deployed from the same template and host line-of-business applications.
  You configure the network security group (NSG) shown in the exhibit. (Click the Exhibit tab.)
 
-[Image: 0038800001.jpg]
+{{img:/exam-media/az-104/T5/0038800001.jpg}}
 
  You need to prevent users of VM1 and VM2 from accessing websites on the Internet over TCP port 80.
  What should you do?
@@ -6240,7 +6215,7 @@ You have an Azure subscription that contains the resources in the following tabl
 - [x] C. Associate the NSG to Subnet1.
 - [ ] D. Change the DenyWebSites outbound security rule.
 
-## Q373 (Topic 5, Original #29)
+## Q368 (Topic 5, Original #29)
 
 You have two subscriptions named Subscription1 and Subscription2. Each subscription is associated to a different Azure AD tenant.
  Subscription1 contains a virtual network named VNet1. VNet1 contains an Azure virtual machine named VM1 and has an IP address space of 10.0.0.0/16.
@@ -6251,17 +6226,17 @@ You have two subscriptions named Subscription1 and Subscription2. Each subscript
 - [ ] A. Move VM1 to Subscription2
 - [ ] B. Move VNet1 to Subscription2.
 - [ ] C. Modify the IP address space of VNet2.
-- [ ] D. Provision virtual network gateways.
+- [x] D. Provision virtual network gateways.
 
-## Q374 (Topic 5, Original #30)
+## Q369 (Topic 5, Original #30)
 
 You plan to create an Azure virtual machine named VM1 that will be configured as shown in the following exhibit.
 
-[Image: 0039100001.png]
+{{img:/exam-media/az-104/T5/0039100001.png}}
 
  The planned disk configurations for VM1 are shown in the following exhibit.
 
-[Image: 0039200001.jpg]
+{{img:/exam-media/az-104/T5/0039200001.jpg}}
 
  You need to ensure that VM1 can be created in an Availability Zone.
  Which two settings should you modify? Each correct answer presents part of the solution.
@@ -6273,11 +6248,11 @@ You plan to create an Azure virtual machine named VM1 that will be configured as
 - [ ] D. Size
 - [ ] E. Image
 
-## Q375 (Topic 5, Original #31)
+## Q370 (Topic 5, Original #31)
 
 You have an Azure subscription that contains the resources shown in the following table.
 
-[Image: 0039500001-5181da4aa8bce365ee9e8002cdfb2ec1e19ff7d3.png]
+{{img:/exam-media/az-104/T5/0039500001-5181da4aa8bce365ee9e8002cdfb2ec1e19ff7d3.png}}
 
  VMSS1 is set to VM (virtual machines) orchestration mode.
  You need to deploy a new Azure virtual machine named VM1, and then add VM1 to VMSS1.
@@ -6285,7 +6260,7 @@ You have an Azure subscription that contains the resources shown in the followin
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0039500002.png]
+{{img:/exam-media/az-104/T5/0039500002.png}}
 
 - [ ] A. Resource Group: RG1 only
 - [ ] B. Resource Group: RG1 or RG2 only
@@ -6293,26 +6268,26 @@ You have an Azure subscription that contains the resources shown in the followin
 - [x] D. Location: West US only
 - [ ] E. Location: Central US only
 
-## Q376 (Topic 5, Original #32)
+## Q371 (Topic 5, Original #32)
 
 You have an Azure subscription that contains three virtual networks named VNET1, VNET2, and VNET3.
  Peering for VNET1 is configured as shown in the following exhibit.
 
-[Image: 0039700001.png]
+{{img:/exam-media/az-104/T5/0039700001.png}}
 
  Peering for VNET2 is configured as shown in the following exhibit.
 
-[Image: 0039700002.png]
+{{img:/exam-media/az-104/T5/0039700002.png}}
 
  Peering for VNET3 is configured as shown in the following exhibit.
 
-[Image: 0039800001.png]
+{{img:/exam-media/az-104/T5/0039800001.png}}
 
  How can packets be routed between the virtual networks? To answer, select the appropriate options in the answer area.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0039800002.png]
+{{img:/exam-media/az-104/T5/0039800002.png}}
 
 - [ ] A. VNET1: VNET2 only
 - [ ] B. VNET1: VNET3 only
@@ -6320,7 +6295,7 @@ You have an Azure subscription that contains three virtual networks named VNET1,
 - [ ] D. VNET2: VNET3 only
 - [x] E. VNET1: VNET1 and VNET3
 
-## Q377 (Topic 5, Original #33)
+## Q372 (Topic 5, Original #33)
 
 You have a computer named Computer1 that has a point-to-site VPN connection to an Azure virtual network named VNet1. The point-to-site connection uses a self-signed certificate.
  From Azure, you download and install the VPN client configuration package on a computer named Computer2.
@@ -6331,7 +6306,7 @@ You have a computer named Computer1 that has a point-to-site VPN connection to a
 - [ ] A. Yes
 - [x] B. No
 
-## Q378 (Topic 5, Original #64)
+## Q373 (Topic 5, Original #64)
 
 You have a computer named Computer1 that has a point-to-site VPN connection to an Azure virtual network named VNet1. The point-to-site connection uses a self-signed certificate.
  From Azure, you download and install the VPN client configuration package on a computer named Computer2.
@@ -6342,7 +6317,7 @@ You have a computer named Computer1 that has a point-to-site VPN connection to a
 - [ ] A. Yes
 - [x] B. No
 
-## Q379 (Topic 5, Original #35)
+## Q374 (Topic 5, Original #35)
 
 You have an Azure subscription that contains 10 virtual networks. The virtual networks are hosted in separate resource groups.
  Another administrator plans to create several network security groups (NSGs) in the subscription.
@@ -6353,13 +6328,13 @@ You have an Azure subscription that contains 10 virtual networks. The virtual ne
 - [ ] A. Yes
 - [x] B. No
 
-## Q380 (Topic 5, Original #36)
+## Q375 (Topic 5, Original #36)
 
 You have an Azure subscription named Subscription1. Subscription1 contains a virtual machine named VM1.
  You have a computer named Computer1 that runs Windows 10. Computer1 is connected to the Internet.
  You add a network interface named vm1173 to VM1 as shown in the exhibit. (Click the Exhibit tab.)
 
-[Image: 0040200001.png]
+{{img:/exam-media/az-104/T5/0040200001.png}}
 
  From Computer1, you attempt to connect to VM1 by using Remote Desktop, but the connection fails.
  You need to establish a Remote Desktop connection to VM1.
@@ -6370,16 +6345,16 @@ You have an Azure subscription named Subscription1. Subscription1 contains a vir
 - [ ] C. Delete the DenyAllInBound rule
 - [x] D. Start VM1
 
-## Q381 (Topic 5, Original #37)
+## Q376 (Topic 5, Original #37)
 
 You have the Azure virtual machines shown in the following table.
 
-[Image: 0040300001.png]
+{{img:/exam-media/az-104/T5/0040300001.png}}
 
  A DNS service is installed on VM1.
  You configure the DNS servers settings for each virtual network as shown in the following exhibit.
 
-[Image: 0040400001.png]
+{{img:/exam-media/az-104/T5/0040400001.png}}
 
  You need to ensure that all the virtual machines can resolve DNS names by using the DNS service on VM1.
  What should you do?
@@ -6389,23 +6364,23 @@ You have the Azure virtual machines shown in the following table.
 - [ ] C. Add service endpoints on VNET2 and VNET3
 - [x] D. Configure peering between VNET1, VNET2, and VNET3
 
-## Q382 (Topic 5, Original #38)
+## Q377 (Topic 5, Original #38)
 
 You have an Azure subscription that contains the Azure virtual machines shown in the following table.
 
-[Image: 0040500001.png]
+{{img:/exam-media/az-104/T5/0040500001.png}}
 
  You add inbound security rules to a network security group (NSG) named NSG1 as shown in the following table.
 
-[Image: 0040500002.png]
+{{img:/exam-media/az-104/T5/0040500002.png}}
 
  You run Azure Network Watcher as shown in the following exhibit.
 
-[Image: 0040600001.jpg]
+{{img:/exam-media/az-104/T5/0040600001.jpg}}
 
  You run Network Watcher again as shown in the following exhibit.
 
-[Image: 0040800001.jpg]
+{{img:/exam-media/az-104/T5/0040800001.jpg}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
  NOTE: Each correct selection is worth one point.
@@ -6414,7 +6389,7 @@ You have an Azure subscription that contains the Azure virtual machines shown in
 - [x] B. NSG1 applies to VM2
 - [x] C. VM1 and VM2 connect to the same virtual network
 
-## Q383 (Topic 5, Original #39)
+## Q378 (Topic 5, Original #39)
 
 You have the Azure virtual network named VNet1 that contains a subnet named Subnet1. Subnet1 contains three Azure virtual machines. Each virtual machine has a public IP address.
  The virtual machines host several applications that are accessible over port 443 to users on the Internet.
@@ -6428,11 +6403,11 @@ You have the Azure virtual network named VNet1 that contains a subnet named Subn
 - [ ] C. Remove the public IP addresses from the virtual machines
 - [ ] D. Modify the address space of Subnet1
 
-## Q384 (Topic 5, Original #40)
+## Q379 (Topic 5, Original #40)
 
 You have an Azure subscription that contains the resources in the following table.
 
-[Image: 0041100001.png]
+{{img:/exam-media/az-104/T5/0041100001.png}}
 
  Subnet1 is associated to VNet1. NIC1 attaches VM1 to Subnet1.
  You need to apply ASG1 to VM1.
@@ -6442,7 +6417,7 @@ You have an Azure subscription that contains the resources in the following tabl
 - [ ] B. Modify the properties of ASG1
 - [ ] C. Modify the properties of NSG1
 
-## Q385 (Topic 5, Original #41)
+## Q380 (Topic 5, Original #41)
 
 You have an Azure subscription named Subscription1 that contains an Azure virtual network named VNet1. VNet1 connects to your on-premises network by using
  Azure ExpressRoute.
@@ -6457,17 +6432,17 @@ You have an Azure subscription named Subscription1 that contains an Azure virtua
 - [ ] D. Create a gateway subnet
 - [ ] E. Create a VPN gateway that uses the Basic SKU
 
-## Q386 (Topic 5, Original #42)
+## Q381 (Topic 5, Original #42)
 
 You have peering configured as shown in the following exhibit.
 
-[Image: 0041300001.jpg]
+{{img:/exam-media/az-104/T5/0041300001.jpg}}
 
  Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0041300002.jpg]
+{{img:/exam-media/az-104/T5/0041300002.jpg}}
 
 - [x] A. Box1: vNET6 only
 - [ ] B. Box1: vNET6 and vNET1 only
@@ -6475,20 +6450,20 @@ You have peering configured as shown in the following exhibit.
 - [ ] D. Box2: add a subnet
 - [ ] E. Box2: modify the address space
 
-## Q387 (Topic 5, Original #43)
+## Q382 (Topic 5, Original #43)
 
 You have an Azure subscription that contains the resources in the following table.
 
-[Image: 0041500001.png]
+{{img:/exam-media/az-104/T5/0041500001.png}}
 
  You install the Web Server server role (IIS) on VM1 and VM2, and then add VM1 and VM2 to LB1.
  LB1 is configured as shown in the LB1 exhibit. (Click the LB1 tab.)
 
-[Image: 0041500002.png]
+{{img:/exam-media/az-104/T5/0041500002.png}}
 
  Rule1 is configured as shown in the Rule1 exhibit. (Click the Rule1 tab.)
 
-[Image: 0041600001.jpg]
+{{img:/exam-media/az-104/T5/0041600001.jpg}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
 
@@ -6496,7 +6471,7 @@ You have an Azure subscription that contains the resources in the following tabl
 - [x] B. If Probe1.htm is present on VM1 and Vm2, LB1 will balance TCP port 80 between VM1 and Vm2
 - [ ] C. If you delete Rule1, Lb1 will balance all the requests between Vm1 and Vm2 for all the ports
 
-## Q388 (Topic 5, Original #44)
+## Q383 (Topic 5, Original #44)
 
 You have an Azure virtual machine named VM1 that connects to a virtual network named VNet1. VM1 has the following configurations:
  ✑ Subnet: 10.0.0.0/24
@@ -6510,7 +6485,7 @@ You have an Azure virtual machine named VM1 that connects to a virtual network n
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0041900001.jpg]
+{{img:/exam-media/az-104/T5/0041900001.jpg}}
 
 - [x] A. Box1: Remove the public IP address from VM1
 - [x] B. Box2: Create and configure an NSG
@@ -6518,11 +6493,11 @@ You have an Azure virtual machine named VM1 that connects to a virtual network n
 - [ ] D. Box1: Create and configure an NSG
 - [ ] E. Box2: Change the private IP address of VM1 to static
 
-## Q389 (Topic 5, Original #45)
+## Q384 (Topic 5, Original #45)
 
 You have an Azure subscription that contains the resources shown in the following table.
 
-[Image: 0042000001.png]
+{{img:/exam-media/az-104/T5/0042000001.png}}
 
  You need to create a network interface named NIC1.
  In which location can you create NIC1?
@@ -6532,16 +6507,16 @@ You have an Azure subscription that contains the resources shown in the followin
 - [ ] C. East US, West Europe, and North Europe
 - [ ] D. East US and West Europe only
 
-## Q390 (Topic 5, Original #46)
+## Q385 (Topic 5, Original #46)
 
 You have Azure virtual machines that run Windows Server 2019 and are configured as shown in the following table.
 
-[Image: 0042100001.png]
+{{img:/exam-media/az-104/T5/0042100001.png}}
 
  You create a public Azure DNS zone named adatum.com and a private Azure DNS zone named contoso.com.
  For controso.com, you create a virtual network link named link1 as shown in the exhibit. (Click the Exhibit tab.)
 
-[Image: 0042200001.jpg]
+{{img:/exam-media/az-104/T5/0042200001.jpg}}
 
  You discover that VM1 can resolve names in contoso.com but cannot resolve names in adatum.com. VM1 can resolve other hosts on the Internet.
  You need to ensure that VM1 can resolve host names in adatum.com.
@@ -6552,7 +6527,7 @@ You have Azure virtual machines that run Windows Server 2019 and are configured 
 - [ ] C. Create an SRV record in the contoso.com zone
 - [ ] D. Modify the Access control (IAM) settings for link1
 
-## Q391 (Topic 5, Original #47)
+## Q386 (Topic 5, Original #47)
 
 You plan to use Azure Network Watcher to perform the following tasks:
  ✑ Task1: Identify a security rule that prevents a network packet from reaching an Azure virtual machine.
@@ -6561,7 +6536,7 @@ You plan to use Azure Network Watcher to perform the following tasks:
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0042400001.jpg]
+{{img:/exam-media/az-104/T5/0042400001.jpg}}
 
 - [x] A. Task1: IP flow verify
 - [x] B. Task2: Connection troubleshoot
@@ -6569,19 +6544,19 @@ You plan to use Azure Network Watcher to perform the following tasks:
 - [ ] D. Task1: packet capture
 - [ ] E. Task2: NSG flow logs
 
-## Q392 (Topic 5, Original #48)
+## Q387 (Topic 5, Original #48)
 
 You have an Azure subscription that contains the Azure virtual machines shown in the following table.
 
-[Image: 0042600001.png]
+{{img:/exam-media/az-104/T5/0042600001.png}}
 
  You configure the network interfaces of the virtual machines to use the settings shown in the following table.
 
-[Image: 0042600002.png]
+{{img:/exam-media/az-104/T5/0042600002.png}}
 
  From the settings of VNET1 you configure the DNS servers shown in the following exhibit.
 
-[Image: 0042700001.png]
+{{img:/exam-media/az-104/T5/0042700001.png}}
 
  The virtual machines can successfully connect to the DNS server that has an IP address of 192.168.10.15 and the DNS server that has an IP address of
  193.77.134.10.
@@ -6590,22 +6565,22 @@ You have an Azure subscription that contains the Azure virtual machines shown in
 - [ ] B. Vm2 connects to 193.77.134.10 for DNS queries
 - [x] C. Vm3 connects to 192.168.10.15 for DNS queries
 
-## Q393 (Topic 5, Original #49)
+## Q388 (Topic 5, Original #49)
 
 You have an Azure subscription that contains the resource groups shown in the following table.
 
-[Image: 0042900001.png]
+{{img:/exam-media/az-104/T5/0042900001.png}}
 
  RG1 contains the resources shown in the following table.
 
-[Image: 0042900002.png]
+{{img:/exam-media/az-104/T5/0042900002.png}}
 
  You need to identify which resources you can move from RG1 to RG2, and which resources you can move from RG2 to RG1.
  Which resources should you identify? To answer, select the appropriate options in the answer area.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0043000001.jpg]
+{{img:/exam-media/az-104/T5/0043000001.jpg}}
 
 - [x] A. RG1 to RG2: IP1, VNEt2, an storage1
 - [x] B. RG2 to RG1: IP2, VNEt2, an storage2
@@ -6613,11 +6588,11 @@ You have an Azure subscription that contains the resource groups shown in the fo
 - [ ] D. RG1 to RG2: Ip1 and VNET1 only
 - [ ] E. RG2 to RG1:IP2 and storage2
 
-## Q394 (Topic 5, Original #50)
+## Q389 (Topic 5, Original #50)
 
 You have an Azure subscription that contains the virtual machines shown in the following table.
 
-[Image: 0043200001.png]
+{{img:/exam-media/az-104/T5/0043200001.png}}
 
  You deploy a load balancer that has the following configurations:
  ✑ Name: LB1
@@ -6631,11 +6606,11 @@ You have an Azure subscription that contains the virtual machines shown in the f
 - [ ] A. Yes
 - [x] B. No
 
-## Q395 (Topic 5, Original #51)
+## Q390 (Topic 5, Original #51)
 
 You have an Azure subscription that contains the virtual machines shown in the following table.
 
-[Image: 0043300002.png]
+{{img:/exam-media/az-104/T5/0043300002.png}}
 
  You deploy a load balancer that has the following configurations:
  ✑ Name: LB1
@@ -6649,11 +6624,11 @@ You have an Azure subscription that contains the virtual machines shown in the f
 - [ ] A. Yes
 - [x] B. No
 
-## Q396 (Topic 5, Original #52)
+## Q391 (Topic 5, Original #52)
 
 You have an Azure subscription that contains the virtual machines shown in the following table.
 
-[Image: 0043400002.png]
+{{img:/exam-media/az-104/T5/0043400002.png}}
 
  You deploy a load balancer that has the following configurations:
  ✑ Name: LB1
@@ -6667,7 +6642,7 @@ You have an Azure subscription that contains the virtual machines shown in the f
 - [x] A. Yes
 - [ ] B. No
 
-## Q397 (Topic 5, Original #53)
+## Q392 (Topic 5, Original #53)
 
 You have a computer named Computer1 that has a point-to-site VPN connection to an Azure virtual network named VNet1. The point-to-site connection uses a self-signed certificate.
  From Azure, you download and install the VPN client configuration package on a computer named Computer2.
@@ -6678,12 +6653,12 @@ You have a computer named Computer1 that has a point-to-site VPN connection to a
 - [x] A. Yes
 - [ ] B. No
 
-## Q398 (Topic 5, Original #54)
+## Q393 (Topic 5, Original #54)
 
 You have an Azure virtual machine named VM1.
  The network interface for VM1 is configured as shown in the exhibit. (Click the Exhibit tab.)
 
-[Image: 0043700001.jpg]
+{{img:/exam-media/az-104/T5/0043700001.jpg}}
 
  You deploy a web server on VM1, and then create a secure website that is accessible by using the HTTPS protocol. VM1 is used as a web server only.
  You need to ensure that users can connect to the website from the Internet.
@@ -6694,7 +6669,7 @@ You have an Azure virtual machine named VM1.
 - [x] C. For Rule5, change the Action to Allow and change the priority to 401
 - [ ] D. Create a new inbound rule that allows TCP protocol 443 and configure the rule to have a priority of 501.
 
-## Q399 (Topic 5, Original #55)
+## Q394 (Topic 5, Original #55)
 
 Another administrator plans to create several network security groups (NSGs) in the subscription.
  You need to ensure that when an NSG is created, it automatically blocks TCP port 8080 between the virtual networks.
@@ -6704,16 +6679,16 @@ Another administrator plans to create several network security groups (NSGs) in 
 - [ ] A. Yes
 - [x] B. No
 
-## Q400 (Topic 5, Original #56)
+## Q395 (Topic 5, Original #56)
 
 You manage two Azure subscriptions named Subscription1 and Subscription2.
  Subscription1 has following virtual networks:
 
-[Image: 0043900001.png]
+{{img:/exam-media/az-104/T5/0043900001.png}}
 
  The virtual networks contain the following subnets:
 
-[Image: 0044000001.png]
+{{img:/exam-media/az-104/T5/0044000001.png}}
 
  Subscription2 contains the following virtual network:
  ✑ Name: VNETA
@@ -6721,19 +6696,19 @@ You manage two Azure subscriptions named Subscription1 and Subscription2.
  ✑ Location: Canada Central
  VNETA contains the following subnets:
 
-[Image: 0044000005.png]
+{{img:/exam-media/az-104/T5/0044000005.png}}
 
 - [ ] A. A Site-to-Site connection can be established between VNET1 and VNET2
 - [x] B. VNET1 and VNET2 can be peered
 - [x] C. VNET1 and VNETA can be peered
 
-## Q401 (Topic 5, Original #57)
+## Q396 (Topic 5, Original #57)
 
 You have an app named App1 that is installed on two Azure virtual machines named VM1 and VM2. Connections to App1 are managed by using an Azure Load
  Balancer.
  The effective network security configurations for VM2 are shown in the following exhibit.
 
-[Image: 0044300001.jpg]
+{{img:/exam-media/az-104/T5/0044300001.jpg}}
 
  You discover that connections to App1 from 131.107.100.50 over TCP port 443 fail.
  You verify that the Load Balancer rules are configured correctly.
@@ -6744,13 +6719,13 @@ You have an app named App1 that is installed on two Azure virtual machines named
 - [ ] A. Yes
 - [x] B. No
 
-## Q402 (Topic 5, Original #58)
+## Q397 (Topic 5, Original #58)
 
 You have an app named App1 that is installed on two Azure virtual machines named VM1 and VM2. Connections to App1 are managed by using an Azure Load
  Balancer.
  The effective network security configurations for VM2 are shown in the following exhibit.
 
-[Image: 0044400001.jpg]
+{{img:/exam-media/az-104/T5/0044400001.jpg}}
 
  You discover that connections to App1 from 131.107.100.50 over TCP port 443 fail.
  You verify that the Load Balancer rules are configured correctly.
@@ -6761,13 +6736,13 @@ You have an app named App1 that is installed on two Azure virtual machines named
 - [ ] A. Yes
 - [x] B. No
 
-## Q403 (Topic 5, Original #59)
+## Q398 (Topic 5, Original #59)
 
 You have an app named App1 that is installed on two Azure virtual machines named VM1 and VM2. Connections to App1 are managed by using an Azure Load
  Balancer.
  The effective network security configurations for VM2 are shown in the following exhibit.
 
-[Image: 0044500001.jpg]
+{{img:/exam-media/az-104/T5/0044500001.jpg}}
 
  You discover that connections to App1 from 131.107.100.50 over TCP port 443 fail.
  You verify that the Load Balancer rules are configured correctly.
@@ -6778,7 +6753,7 @@ You have an app named App1 that is installed on two Azure virtual machines named
 - [ ] A. Yes
 - [x] B. No
 
-## Q404 (Topic 5, Original #60)
+## Q399 (Topic 5, Original #60)
 
 You have an Azure subscription that contains 10 virtual networks. The virtual networks are hosted in separate resource groups.
  Another administrator plans to create several network security groups (NSGs) in the subscription.
@@ -6789,7 +6764,7 @@ You have an Azure subscription that contains 10 virtual networks. The virtual ne
 - [ ] A. Yes
 - [x] B. No
 
-## Q405 (Topic 5, Original #61)
+## Q400 (Topic 5, Original #61)
 
 You have an Azure subscription.
  You plan to deploy an Azure Kubernetes Service (AKS) cluster to support an app named App1. On-premises clients connect to App1 by using the IP address of the pod.
@@ -6801,11 +6776,11 @@ You have an Azure subscription.
 - [ ] C. Hybrid Connection endpoints
 - [ ] D. Azure Private Link
 
-## Q406 (Topic 5, Original #62)
+## Q401 (Topic 5, Original #62)
 
 You have an Azure subscription that contains the virtual machines shown in the following table.
 
-[Image: 0044800001.png]
+{{img:/exam-media/az-104/T5/0044800001.png}}
 
  You deploy a load balancer that has the following configurations:
  ✑ Name: LB1
@@ -6819,7 +6794,7 @@ You have an Azure subscription that contains the virtual machines shown in the f
 - [x] A. Yes
 - [ ] B. No
 
-## Q407 (Topic 5, Original #63)
+## Q402 (Topic 5, Original #63)
 
 You have an Azure subscription that contains 10 virtual networks. The virtual networks are hosted in separate resource groups.
  Another administrator plans to create several network security groups (NSGs) in the subscription.
@@ -6830,7 +6805,7 @@ You have an Azure subscription that contains 10 virtual networks. The virtual ne
 - [x] A. Yes
 - [ ] B. No
 
-## Q408 (Topic 5, Original #64)
+## Q403 (Topic 5, Original #64)
 
 You have two Azure virtual networks named VNet1 and VNet2. VNet1 contains an Azure virtual machine named VM1. VNet2 contains an Azure virtual machine named VM2.
  VM1 hosts a frontend application that connects to VM2 to retrieve data.
@@ -6843,11 +6818,11 @@ You have two Azure virtual networks named VNet1 and VNet2. VNet1 contains an Azu
 - [x] C. Connection monitor
 - [ ] D. NSG flow logs
 
-## Q409 (Topic 5, Original #65)
+## Q404 (Topic 5, Original #65)
 
 You have an Azure subscription that contains the public load balancers shown in the following table.
 
-[Image: 0045000001.png]
+{{img:/exam-media/az-104/T5/0045000001.png}}
 
  You plan to create six virtual machines and to load balance requests to the virtual machines. Each load balancer will load balance three virtual machines.
  You need to create the virtual machines for the planned solution.
@@ -6855,7 +6830,7 @@ You have an Azure subscription that contains the public load balancers shown in 
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0045100001.jpg]
+{{img:/exam-media/az-104/T5/0045100001.jpg}}
 
 - [x] A. LB1: be created in the same availability set or vortial machine scale set
 - [x] B. LB2: be connected to the same virtual network
@@ -6863,7 +6838,7 @@ You have an Azure subscription that contains the public load balancers shown in 
 - [ ] D. LB2: be created in the same availability set or vortial machine scale set
 - [ ] E. LB2: be created in the same resource group
 
-## Q410 (Topic 5, Original #66)
+## Q405 (Topic 5, Original #66)
 
 You have an on-premises data center and an Azure subscription. The data center contains two VPN devices. The subscription contains an Azure virtual network named VNet1. VNet1 contains a gateway subnet.
  You need to create a site-to-site VPN. The solution must ensure that if a single instance of an Azure VPN gateway fails, or a single on-premises VPN device fails, the failure will not cause an interruption that is longer than two minutes.
@@ -6871,7 +6846,7 @@ You have an on-premises data center and an Azure subscription. The data center c
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0045300001.jpg]
+{{img:/exam-media/az-104/T5/0045300001.jpg}}
 
 - [x] A. Public Ip addresses: 2
 - [x] B. Virtual network gateways: 1
@@ -6879,11 +6854,11 @@ You have an on-premises data center and an Azure subscription. The data center c
 - [ ] D. Local network gateways: 2
 - [ ] E. Public Ip addresses: 1
 
-## Q411 (Topic 5, Original #67)
+## Q406 (Topic 5, Original #67)
 
 You have an Azure subscription that contains two virtual machines as shown in the following table.
 
-[Image: 0045500002.png]
+{{img:/exam-media/az-104/T5/0045500002.png}}
 
  You perform a reverse DNS lookup for 10.0.0.4 from VM2.
  Which FQDN will be returned?
@@ -6893,13 +6868,13 @@ You have an Azure subscription that contains two virtual machines as shown in th
 - [ ] C. vm1.westeurope.cloudapp.azure.com
 - [x] D. vm1.internal.cloudapp.net
 
-## Q412 (Topic 5, Original #68)
+## Q407 (Topic 5, Original #68)
 
 You have an app named App1 that is installed on two Azure virtual machines named VM1 and VM2. Connections to App1 are managed by using an Azure Load
  Balancer.
  The effective network security configurations for VM2 are shown in the following exhibit.
 
-[Image: 0045600001.jpg]
+{{img:/exam-media/az-104/T5/0045600001.jpg}}
 
  You discover that connections to App1 from 131.107.100.50 over TCP port 443 fail.
  You verify that the Load Balancer rules are configured correctly.
@@ -6910,7 +6885,7 @@ You have an app named App1 that is installed on two Azure virtual machines named
 - [ ] A. Yes
 - [x] B. No
 
-## Q413 (Topic 5, Original #69)
+## Q408 (Topic 5, Original #69)
 
 You have an Azure subscription that contains a policy-based virtual network gateway named GW1 and a virtual network named VNet1.
  You need to ensure that you can configure a point-to-site connection from an on-premises computer to VNet1.
@@ -6923,15 +6898,15 @@ You have an Azure subscription that contains a policy-based virtual network gate
 - [ ] D. Add a connection to GW1
 - [x] E. Delete GW1
 
-## Q414 (Topic 5, Original #70)
+## Q409 (Topic 5, Original #70)
 
 You have an Azure subscription that contains the resources in the following table:
 
-[Image: 0045800001.png]
+{{img:/exam-media/az-104/T5/0045800001.png}}
 
  In Azure, you create a private DNS zone named adatum.com. You set the registration virtual network to VNet2. The adatum.com zone is configured as shown in the following exhibit:
 
-[Image: 0045900001.png]
+{{img:/exam-media/az-104/T5/0045900001.png}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
  NOTE: Each correct selection is worth one point.
@@ -6941,25 +6916,25 @@ You have an Azure subscription that contains the resources in the following tabl
 - [ ] B. VM5 can resolve VM9.adatum.com
 - [x] C. VM6 can resolve VM9.adatum.com
 
-## Q415 (Topic 5, Original #71)
+## Q410 (Topic 5, Original #71)
 
 You have an Azure subscription that contains the virtual networks shown in the following table.
 
-[Image: 0046100001.png]
+{{img:/exam-media/az-104/T5/0046100001.png}}
 
  The subscription contains the private DNS zones shown in the following table.
 
-[Image: 0046100002.png]
+{{img:/exam-media/az-104/T5/0046100002.png}}
 
  You add virtual network links to the private DNS zones as shown in the following table.
 
-[Image: 0046200001.png]
+{{img:/exam-media/az-104/T5/0046200001.png}}
 
 - [x] A. You can enable auto registration for Link2.
 - [x] B. You can add a virtual network link for VNET1 to Zone3.com
-- [ ] C. You can add a virtual network link for VNET2 to Zone1.com and enable auto registration
+- [x] C. You can add a virtual network link for VNET2 to Zone1.com and enable auto registration
 
-## Q416 (Topic 5, Original #72)
+## Q411 (Topic 5, Original #72)
 
 You have an Azure subscription.
  You plan to use an Azure Resource Manager template to deploy a virtual network named VNET1 that will use Azure Bastion.
@@ -6967,7 +6942,7 @@ You have an Azure subscription.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0046400001.png]
+{{img:/exam-media/az-104/T5/0046400001.png}}
 
 - [x] A. name: AzureBastionSubnet
 - [ ] B. name: AzureFirewallSubnet
@@ -6975,7 +6950,7 @@ You have an Azure subscription.
 - [ ] D. adressPrefix: 10.10.10.0/29
 - [ ] E. adressPrefix: 10.10.10.0/30
 
-## Q417 (Topic 5, Original #73)
+## Q412 (Topic 5, Original #73)
 
 You manage a virtual network named VNet1 that is hosted in the West US Azure region.
  VNet1 hosts two virtual machines named VM1 and VM2 that run Windows Server.
@@ -6986,7 +6961,7 @@ You manage a virtual network named VNet1 that is hosted in the West US Azure reg
 - [x] A. Yes
 - [ ] B. No
 
-## Q418 (Topic 5, Original #74)
+## Q413 (Topic 5, Original #74)
 
 You manage a virtual network named VNet1 that is hosted in the West US Azure region.
  VNet1 hosts two virtual machines named VM1 and VM2 that run Windows Server.
@@ -6997,7 +6972,7 @@ You manage a virtual network named VNet1 that is hosted in the West US Azure reg
 - [ ] A. Yes
 - [x] B. No
 
-## Q419 (Topic 5, Original #75)
+## Q414 (Topic 5, Original #75)
 
 You manage a virtual network named VNet1 that is hosted in the West US Azure region.
  VNet1 hosts two virtual machines named VM1 and VM2 that run Windows Server.
@@ -7008,17 +6983,17 @@ You manage a virtual network named VNet1 that is hosted in the West US Azure reg
 - [ ] A. Yes
 - [x] B. No
 
-## Q420 (Topic 5, Original #76)
+## Q415 (Topic 5, Original #76)
 
 You have an Azure subscription that contains the resources shown in the following table.
 
-[Image: 0046800001.png]
+{{img:/exam-media/az-104/T5/0046800001.png}}
 
  You need to load balance HTTPS connections to vm1 and vm2 by using lb1.
  Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
  Select and Place:
 
-[Image: 0046900001.jpg]
+{{img:/exam-media/az-104/T5/0046900001.jpg}}
 
 - [x] A. Remove the public IP addresses from vm1 and vm2
 - [x] B. Create a health probe and backend pool on lb1
@@ -7026,7 +7001,7 @@ You have an Azure subscription that contains the resources shown in the followin
 - [ ] D. Remove nsg1
 - [ ] E. Create an availability set
 
-## Q421 (Topic 5, Original #77)
+## Q416 (Topic 5, Original #77)
 
 You manage a virtual network named VNet1 that is hosted in the West US Azure region.
  VNet1 hosts two virtual machines named VM1 and VM2 that run Windows Server.
@@ -7037,13 +7012,13 @@ You manage a virtual network named VNet1 that is hosted in the West US Azure reg
 - [ ] A. Yes
 - [x] B. No
 
-## Q422 (Topic 5, Original #78)
+## Q417 (Topic 5, Original #78)
 
 You have an app named App1 that is installed on two Azure virtual machines named VM1 and VM2. Connections to App1 are managed by using an Azure Load
  Balancer.
  The effective network security configurations for VM2 are shown in the following exhibit.
 
-[Image: 0047200001.jpg]
+{{img:/exam-media/az-104/T5/0047200001.jpg}}
 
  You discover that connections to App1 from 131.107.100.50 over TCP port 443 fail.
  You verify that the Load Balancer rules are configured correctly.
@@ -7054,14 +7029,14 @@ You have an app named App1 that is installed on two Azure virtual machines named
 - [ ] A. Yes
 - [x] B. No
 
-## Q423 (Topic 5, Original #79)
+## Q418 (Topic 5, Original #79)
 
 You have an Azure subscription that contains two on-premises locations named site1 and site2.
  You need to connect site1 and site2 by using an Azure Virtual WAN.
  Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
  Select and Place:
 
-[Image: 0047300001.jpg]
+{{img:/exam-media/az-104/T5/0047300001.jpg}}
 
 - [x] A. Create a virtual hub
 - [x] B. Create VPN sites
@@ -7069,37 +7044,37 @@ You have an Azure subscription that contains two on-premises locations named sit
 - [x] D. Create a Virtual WAN resource
 - [x] E. Connect the VPN sites to the hub
 
-## Q424 (Topic 5, Original #80)
+## Q419 (Topic 5, Original #80)
 
 You have an Azure subscription that contains the virtual networks shown in the following table.
 
-[Image: 0047400001.png]
+{{img:/exam-media/az-104/T5/0047400001.png}}
 
  You have the virtual machines shown in the following table.
 
-[Image: 0047400002.png]
+{{img:/exam-media/az-104/T5/0047400002.png}}
 
  You have the virtual network interfaces shown in the following table.
 
-[Image: 0047400003.png]
+{{img:/exam-media/az-104/T5/0047400003.png}}
 
  Server1 is a DNS server that contains the resources shown in the following table.
 
-[Image: 0047400004.png]
+{{img:/exam-media/az-104/T5/0047400004.png}}
 
  You have an Azure private DNS zone named contoso.com that has a virtual network link to VNET2 and the records shown in the following table.
 
-[Image: 0047500001.png]
+{{img:/exam-media/az-104/T5/0047500001.png}}
 
 - [ ] A. Server2 resolves host2.contoso.com to 131.107.50.50
 - [x] B. Server2 resolves host1.contoso.com to 131.107.10.15
 - [ ] C. Server3 resolves host2.contoso.com to 131.107.50.50
 
-## Q425 (Topic 5, Original #81)
+## Q420 (Topic 5, Original #81)
 
 You have a virtual network named VNet1 as shown in the exhibit. (Click the Exhibit tab.)
 
-[Image: 0047600001.png]
+{{img:/exam-media/az-104/T5/0047600001.png}}
 
  No devices are connected to VNet1.
  You plan to peer VNet1 to another virtual network named VNet2. VNet2 has an address space of 10.2.0.0/16.
@@ -7111,15 +7086,15 @@ You have a virtual network named VNet1 as shown in the exhibit. (Click the Exhib
 - [ ] C. Create a subnet on VNet1 and VNet2.
 - [ ] D. Configure a service endpoint on VNet2.
 
-## Q426 (Topic 5, Original #82)
+## Q421 (Topic 5, Original #82)
 
 You have the Azure virtual machines shown in the following table.
 
-[Image: 0047700001.png]
+{{img:/exam-media/az-104/T5/0047700001.png}}
 
  VNET1 is linked to a private DNS zone named contoso.com that contains the records shown in the following table.
 
-[Image: 0047700002.png]
+{{img:/exam-media/az-104/T5/0047700002.png}}
 
  You need to ping VM2 from VM1.
  Which DNS names can you use to ping VM2?
@@ -7130,22 +7105,22 @@ You have the Azure virtual machines shown in the following table.
 - [ ] D. comp1.contoso.com and comp2.contoso.com only
 - [ ] E. comp1.contoso.com, comp2.contoso.com, and comp4.contoso.com only
 
-## Q427 (Topic 5, Original #83)
+## Q422 (Topic 5, Original #83)
 
 You have a network security group (NSG) named NSG1 that has the rules defined in the exhibit. (Click the Exhibit tab.)
 
-[Image: 0047900001.jpg]
+{{img:/exam-media/az-104/T5/0047900001.jpg}}
 
  NSG1 is associated to a subnet named Subnet1. Subnet1 contains the virtual machines shown in the following table.
 
-[Image: 0047900002.png]
+{{img:/exam-media/az-104/T5/0047900002.png}}
 
  You need to add a rule to NSG1 to ensure that VM1 can ping VM2. The solution must use the principle of least privilege.
  How should you configure the rule? To answer, select the appropriate options in the answer area.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0048000001.jpg]
+{{img:/exam-media/az-104/T5/0048000001.jpg}}
 
 - [ ] A. Direction: Inbound
 - [x] B. Source: 10.0.0.10
@@ -7153,7 +7128,7 @@ You have a network security group (NSG) named NSG1 that has the rules defined in
 - [x] D. Destination: 10.1.0.11
 - [x] E. Priority: 110
 
-## Q428 (Topic 5, Original #84)
+## Q423 (Topic 5, Original #84)
 
 You have a computer named Computer1 that has a point-to-site VPN connection to an Azure virtual network named VNet1. The point-to-site connection uses a self-signed certificate.
  From Azure, you download and install the VPN client configuration package on a computer named Computer2.
@@ -7164,11 +7139,11 @@ You have a computer named Computer1 that has a point-to-site VPN connection to a
 - [ ] A. Yes
 - [x] B. No
 
-## Q429 (Topic 5, Original #86)
+## Q424 (Topic 5, Original #86)
 
 You have an Azure subscription that uses the public IP addresses shown in the following table.
 
-[Image: 0048300001.png]
+{{img:/exam-media/az-104/T5/0048300001.png}}
 
  You need to create a public Azure Standard Load Balancer.
  Which public IP addresses can you use?
@@ -7178,7 +7153,7 @@ You have an Azure subscription that uses the public IP addresses shown in the fo
 - [x] C. IP3 only
 - [ ] D. IP1 and IP3 only
 
-## Q430 (Topic 5, Original #87)
+## Q425 (Topic 5, Original #87)
 
 You have an Azure subscription.
  You are deploying an Azure Kubernetes Service (AKS) cluster that will contain multiple pods. The pods will use kubernet networking.
@@ -7190,11 +7165,11 @@ You have an Azure subscription.
 - [ ] C. pod security policies
 - [ ] D. an application security group
 
-## Q431 (Topic 5, Original #88)
+## Q426 (Topic 5, Original #88)
 
 You have an Azure subscription that contains a virtual network named VNet1. VNet1 uses an IP address space of 10.0.0.0/16 and contains the VPN Gateway and subnets in the following table:
 
-[Image: 0048500001.png]
+{{img:/exam-media/az-104/T5/0048500001.png}}
 
  Subnet1 contains a virtual appliance named VM1 that operates as a router.
  You create a routing table named RT1.
@@ -7203,7 +7178,7 @@ You have an Azure subscription that contains a virtual network named VNet1. VNet
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0048600001.jpg]
+{{img:/exam-media/az-104/T5/0048600001.jpg}}
 
 - [x] A. Address prefix: 10.0.0.0/16
 - [x] B. Next hop type: Virtual appliance
@@ -7211,11 +7186,11 @@ You have an Azure subscription that contains a virtual network named VNet1. VNet
 - [ ] D. Address prefix: 10.0.1.0/24
 - [ ] E. Next hop type: Virtual network
 
-## Q432 (Topic 5, Original #90)
+## Q427 (Topic 5, Original #90)
 
 You have an Azure subscription that contains the virtual machines shown in the following table:
 
-[Image: 0048900001.png]
+{{img:/exam-media/az-104/T5/0048900001.png}}
 
  VM1 and VM2 use public IP addresses. From Windows Server 2019 on VM1 and VM2, you allow inbound Remote Desktop connections.
  Subnet1 and Subnet2 are in a virtual network named VNET1.
@@ -7236,7 +7211,7 @@ You have an Azure subscription that contains the virtual machines shown in the f
 - [x] B. From the Internet, you can connect to VM2 using Remote Desktop
 - [x] C. From VM1, you can connect to VM2 using Remote Desktop
 
-## Q433 (Topic 5, Original #91)
+## Q428 (Topic 5, Original #91)
 
 You have an Azure subscription that contains two virtual machines named VM1 and VM2.
  You create an Azure load balancer.
@@ -7250,7 +7225,7 @@ You have an Azure subscription that contains two virtual machines named VM1 and 
 - [x] D. a backend pool
 - [x] E. a health probe
 
-## Q434 (Topic 5, Original #92)
+## Q429 (Topic 5, Original #92)
 
 You have an on-premises network that contains a database server named dbserver1.
  You have an Azure subscription.
@@ -7262,15 +7237,15 @@ You have an on-premises network that contains a database server named dbserver1.
 - [x] B. a standard SKU and a static IP address assignment
 - [ ] C. a basic SKU and a dynamic IP address assignment
 
-## Q435 (Topic 5, Original #93)
+## Q430 (Topic 5, Original #93)
 
 You have an Azure subscription that contains the virtual machines shown in the following table.
 
-[Image: image854.png]
+{{img:/exam-media/az-104/T5/image854.png}}
 
  The subscription contains a storage account named contoso2024 as shown in the following exhibit.
 
-[Image: image855.png]
+{{img:/exam-media/az-104/T5/image855.png}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
 
@@ -7278,15 +7253,15 @@ You have an Azure subscription that contains the virtual machines shown in the f
 - [x] B. VM2 can connect to contoso2024 by using 150.120.10.10
 - [ ] C. VM3 must use its pricate IP address to connect to contoso2024
 
-## Q436 (Topic 5, Original #94)
+## Q431 (Topic 5, Original #94)
 
 You have two Azure virtual machines as shown in the following table.
 
-[Image: 0049500001.png]
+{{img:/exam-media/az-104/T5/0049500001.png}}
 
  You create the Azure DNS zones shown in the following table.
 
-[Image: 0049500002.jpg]
+{{img:/exam-media/az-104/T5/0049500002.jpg}}
 
  You perform the following actions:
  ✑ ׀¢׀¾ fabrikam.com, you add a virtual network link to vnet1 and enable auto registration.
@@ -7298,7 +7273,7 @@ You have two Azure virtual machines as shown in the following table.
 - [x] B. The DNS A record for vm1 is added to fabrikam.com and has the IP address of 10.0.1.4
 - [x] C. The DNS A record for vm1 is added to fabrikam.com and has the IP address of 10.0.1.5
 
-## Q437 (Topic 5, Original #95)
+## Q432 (Topic 5, Original #95)
 
 You have an on-premises datacenter and an Azure subscription.
  You plan to connect the datacenter to Azure by using ExpressRoute.
@@ -7314,23 +7289,23 @@ You have an on-premises datacenter and an Azure subscription.
 - [ ] C. ErGw3
 - [x] D. ErGw3AZ
 
-## Q438 (Topic 5, Original #96)
+## Q433 (Topic 5, Original #96)
 
 You have a virtual network named VNET1 that contains the subnets shown in the following table:
 
-[Image: 0049800002.png]
+{{img:/exam-media/az-104/T5/0049800002.png}}
 
  You have Azure virtual machines that have the network configurations shown in the following table:
 
-[Image: 0049900001.png]
+{{img:/exam-media/az-104/T5/0049900001.png}}
 
  For NSG1, you create the inbound security rule shown in the following table:
 
-[Image: 0049900002.png]
+{{img:/exam-media/az-104/T5/0049900002.png}}
 
  For NSG2, you create the inbound security rule shown in the following table:
 
-[Image: 0049900003.png]
+{{img:/exam-media/az-104/T5/0049900003.png}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
  NOTE: Each correct selection is worth one point.
@@ -7339,21 +7314,21 @@ You have a virtual network named VNET1 that contains the subnets shown in the fo
 - [x] B. VM1 can connect to the TCP port 1433 services on VM2
 - [x] C. VM2 can connect to the TCP port 1433 services on VM3
 
-## Q439 (Topic 5, Original #97)
+## Q434 (Topic 5, Original #97)
 
 You have an Azure subscription named Subscription1.
  Subscription1 contains the virtual machines in the following table:
 
-[Image: 0050100001-1e04ef19fb5b001859443c40ed9e5d9b33b5a5f1.png]
+{{img:/exam-media/az-104/T5/0050100001-1e04ef19fb5b001859443c40ed9e5d9b33b5a5f1.png}}
 
  Subscription1 contains a virtual network named VNet1 that has the subnets in the following table:
 
-[Image: 0050100002.png]
+{{img:/exam-media/az-104/T5/0050100002.png}}
 
  VM3 has multiple network adapters, including a network adapter named NIC3. IP forwarding is enabled on NIC3. Routing is enabled on VM3.
  You create a route table named RT1 that contains the routes in the following table:
 
-[Image: 0050100003.png]
+{{img:/exam-media/az-104/T5/0050100003.png}}
 
  You apply RT1 to Subnet1 and Subnet2.
 
@@ -7361,7 +7336,7 @@ You have an Azure subscription named Subscription1.
 - [ ] B. If VM3 is turned off, VM2 can establish a network connection to VM1
 - [x] C. Vm1 can establish a network connection to VM2
 
-## Q440 (Topic 5, Original #98)
+## Q435 (Topic 5, Original #98)
 
 Your on-premises network contains an SMB share named Share1.
  You have an Azure subscription that contains the following resources:
@@ -7374,11 +7349,11 @@ Your on-premises network contains an SMB share named Share1.
 - [ ] B. an Azure Active Directory (Azure AD) Application Proxy
 - [x] C. an Azure Virtual Network Gateway
 
-## Q441 (Topic 5, Original #99)
+## Q436 (Topic 5, Original #99)
 
 You have an Azure subscription that contains the resources shown in the following table.
 
-[Image: image853.png]
+{{img:/exam-media/az-104/T5/image853.png}}
 
  You create a public IP address named IP1.
 
@@ -7390,7 +7365,7 @@ You have an Azure subscription that contains the resources shown in the followin
 - [ ] D. VPN1
 - [ ] E. VNet1
 
-## Q442 (Topic 5, Original #100)
+## Q437 (Topic 5, Original #100)
 
 You have an Azure subscription that contains a storage account named storage1.
 
@@ -7403,7 +7378,7 @@ You have an Azure subscription that contains a storage account named storage1.
 - [ ] C. Select Internet routing.
 - [ ] D. Modify the Access Control (IAM) settings.
 
-## Q443 (Topic 5, Original #101)
+## Q438 (Topic 5, Original #101)
 
 You plan to deploy route-based Site-to-Site VPN connections between several on-premises locations and an Azure virtual network.
  Which tunneling protocol should you use?
@@ -7413,11 +7388,11 @@ You plan to deploy route-based Site-to-Site VPN connections between several on-p
 - [x] C. IKEv2
 - [ ] D. L2TP
 
-## Q444 (Topic 5, Original #102)
+## Q439 (Topic 5, Original #102)
 
 You have an Azure subscription that contains the resources shown in the following table.
 
-[Image: image608.png]
+{{img:/exam-media/az-104/T5/image608.png}}
 
  You configure Azure Site Recovery to replicate VM1 between the US East and West US regions.
 
@@ -7430,15 +7405,15 @@ You have an Azure subscription that contains the resources shown in the followin
 - [ ] C. RecoverySubnetA
 - [ ] D. RecoverySubnetB
 
-## Q445 (Topic 5, Original #104)
+## Q440 (Topic 5, Original #104)
 
 You have an Azure subscription that contains the virtual networks shown in the following table.
 
-[Image: image845.png]
+{{img:/exam-media/az-104/T5/image845.png}}
 
  You have the peering options shown in the following exhibit.
 
-[Image: image846.png]
+{{img:/exam-media/az-104/T5/image846.png}}
 
  You need to design a communication strategy for the resources on the virtual networks.
 
@@ -7446,7 +7421,7 @@ You have an Azure subscription that contains the virtual networks shown in the f
 - [ ] B. Peering 1-3 is a possible configuration
 - [ ] C. Peering 3-2 is a possible configuration
 
-## Q446 (Topic 5, Original #105)
+## Q441 (Topic 5, Original #105)
 
 You have five Azure virtual machines that run Windows Server 2016. The virtual machines are configured as web servers.
 
@@ -7461,7 +7436,7 @@ You have five Azure virtual machines that run Windows Server 2016. The virtual m
 - [ ] C. Protocol to UDP
 - [ ] D. Idle Time-out (minutes) to 20
 
-## Q447 (Topic 5, Original #106)
+## Q442 (Topic 5, Original #106)
 
 You have an Azure subscription that contains 20 virtual machines, a network security group (NSG) named NSG1, and two virtual networks named VNET1 and VNET2 that are peered.
 
@@ -7476,11 +7451,11 @@ You have an Azure subscription that contains 20 virtual machines, a network secu
 - [ ] C. 389
 - [ ] D. 8080
 
-## Q448 (Topic 5, Original #107)
+## Q443 (Topic 5, Original #107)
 
 Your network contains an on-premises Active Directory Domain Services (AD DS) domain named contoso.com. The domain contains the servers shown in the following table.
 
-[Image: image609.png]
+{{img:/exam-media/az-104/T5/image609.png}}
 
  You plan to migrate contoso.com to Azure.
 
@@ -7497,7 +7472,7 @@ Your network contains an on-premises Active Directory Domain Services (AD DS) do
 
  NOTE: Each correct selection is worth one point.
 
-[Image: image610.png]
+{{img:/exam-media/az-104/T5/image610.png}}
 
 - [ ] A. IP address: Obtain an IP address automatically
 - [x] B. IP address: Use 10.0.1.3
@@ -7505,11 +7480,11 @@ Your network contains an on-premises Active Directory Domain Services (AD DS) do
 - [x] D. Name resolution: Create an Azure Private DNS zone named contoso.com
 - [ ] E. Name resolution: Create an Azure public DNS zone named contoso.com
 
-## Q449 (Topic 5, Original #109)
+## Q444 (Topic 5, Original #109)
 
 You have an Azure subscription that contains the virtual networks shown in the following table.
 
-[Image: image612.png]
+{{img:/exam-media/az-104/T5/image612.png}}
 
  You need to deploy an Azure firewall named AF1 to RG1 in the West US Azure region.
 
@@ -7521,13 +7496,13 @@ You have an Azure subscription that contains the virtual networks shown in the f
 - [ ] D. VNET1, VNET2, and VNET4 only
 - [ ] E. VNET1 and VNET4 only
 
-## Q450 (Topic 5, Original #110)
+## Q445 (Topic 5, Original #110)
 
 You have an on-premises network.
 
  You have an Azure subscription that contains three virtual networks named VNET1. VNET2. and VNET3. The virtual networks are peered and connected to the on-premises network. The subscription contains the virtual machines shown in the following table.
 
-[Image: image613.png]
+{{img:/exam-media/az-104/T5/image613.png}}
 
  You need to monitor connectivity between the virtual machines and the on-premises network by using Connection Monitor.
 
@@ -7538,19 +7513,19 @@ You have an on-premises network.
 - [ ] C. 3
 - [ ] D. 4
 
-## Q451 (Topic 5, Original #111)
+## Q446 (Topic 5, Original #111)
 
 HOTSPOT -
 
  You plan to deploy the following Azure Resource Manager (ARM) template.
 
-[Image: image614.png]
+{{img:/exam-media/az-104/T5/image614.png}}
 
 - [ ] A. LB1 will be connected to a subnet named VNET1/netname
 - [ ] B. LB1 can be deployed only to the resource group that contains VNET1
 - [ ] C. The value of the sku variable an be provided as a parameter when the template is deployed from a command prompt
 
-## Q452 (Topic 5, Original #112)
+## Q447 (Topic 5, Original #112)
 
 You have an Azure subscription that contains a storage account. The account stores website data.
 
@@ -7563,7 +7538,7 @@ You have an Azure subscription that contains a storage account. The account stor
 - [x] C. Routing preference
 - [ ] D. load balancing
 
-## Q453 (Topic 5, Original #113)
+## Q448 (Topic 5, Original #113)
 
 You have two Azure virtual machines named VM1 and VM2 that run Windows Server. The virtual machines are in a subnet named Subnet1. Subnet1 is in a virtual network named VNet1.
 
@@ -7576,11 +7551,11 @@ You have two Azure virtual machines named VM1 and VM2 that run Windows Server. T
 - [ ] C. Create a network security group (NSG) that has an outbound security rule to deny source port 3389 and apply the NSG to Subnet1.
 - [ ] D. Create a network security group (NSG) that has an inbound security rule to deny source port 3389 and apply the NSG to Subnet1.
 
-## Q454 (Topic 5, Original #114)
+## Q449 (Topic 5, Original #114)
 
 You have an Azure subscription that contains the resources shown in the following table.
 
-[Image: image617.png]
+{{img:/exam-media/az-104/T5/image617.png}}
 
  You need to manage outbound traffic from VNET1 by using Firewall1.
 
@@ -7591,11 +7566,11 @@ You have an Azure subscription that contains the resources shown in the followin
 - [x] C. Create a route table.
 - [ ] D. Create an Azure Network Watcher.
 
-## Q455 (Topic 5, Original #115)
+## Q450 (Topic 5, Original #115)
 
 You have an Azure subscription that contains the resources shown in the following table.
 
-[Image: image645.png]
+{{img:/exam-media/az-104/T5/image645.png}}
 
  All the resources connect to a virtual network named VNet1.
 
@@ -7609,11 +7584,11 @@ You have an Azure subscription that contains the resources shown in the followin
 - [ ] D. VM1 and contoso.com only
 - [ ] E. VM1, App1, and contoso.com
 
-## Q456 (Topic 5, Original #118)
+## Q451 (Topic 5, Original #118)
 
 You have an Azure subscription that contains 10 virtual machines and the resources shown in the following table.
 
-[Image: image654.png]
+{{img:/exam-media/az-104/T5/image654.png}}
 
  You need to ensure that Bastion1 can support 100 concurrent SSH users. The solution must minimize administrative effort.
 
@@ -7624,11 +7599,11 @@ You have an Azure subscription that contains 10 virtual machines and the resourc
 - [ ] C. Create a network security group (NSG)
 - [x] D. Upgrade Bastion1 to the Standard SKU
 
-## Q457 (Topic 5, Original #120)
+## Q452 (Topic 5, Original #120)
 
 You have a Windows 11 device named Device and an Azure subscription that contains the resources shown in the following table.
 
-[Image: image663.png]
+{{img:/exam-media/az-104/T5/image663.png}}
 
  Device1 has Azure PowerShell and Azure Command-Line Interface (CLI) installed.
 
@@ -7636,7 +7611,7 @@ You have a Windows 11 device named Device and an Azure subscription that contain
 
  Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
 
-[Image: image664.png]
+{{img:/exam-media/az-104/T5/image664.png}}
 
 - [x] A. Upgrade Bastion1 to the Standard SKU
 - [ ] B. From Bastion1, enable Kerberos authentication
@@ -7644,11 +7619,11 @@ You have a Windows 11 device named Device and an Azure subscription that contain
 - [x] D. From Bastion1, select Native Client Support.
 - [ ] E. On Device1, run mstsc.exe.
 
-## Q458 (Topic 5, Original #122)
+## Q453 (Topic 5, Original #122)
 
 You have an Azure subscription that has the public IP addresses shown in the following table.
 
-[Image: image678.png]
+{{img:/exam-media/az-104/T5/image678.png}}
 
  You plan to deploy an Azure Bastion Basic SKU host named Bastion1.
 
@@ -7660,7 +7635,7 @@ You have an Azure subscription that has the public IP addresses shown in the fol
 - [ ] D. IP1, IP2, IP4, and IP5 only
 - [ ] E. IP1, IP2, IP3, IP4, and IP5
 
-## Q459 (Topic 5, Original #125)
+## Q454 (Topic 5, Original #125)
 
 You have two Azure subscriptions named Sub1 and Sub2.
 
@@ -7668,7 +7643,7 @@ You have two Azure subscriptions named Sub1 and Sub2.
 
  VM1 is associated to the resources shown in the following table.
 
-[Image: image679.png]
+{{img:/exam-media/az-104/T5/image679.png}}
 
  You need to move VM1 to Sub2.
 
@@ -7679,7 +7654,7 @@ You have two Azure subscriptions named Sub1 and Sub2.
 - [ ] C. VM1, Disk1, and storage1 only
 - [x] D. VM1, Disk1, NetInt1, and VNet1
 
-## Q460 (Topic 5, Original #129)
+## Q455 (Topic 5, Original #129)
 
 You have an Azure subscription.
 
@@ -7694,11 +7669,11 @@ You have an Azure subscription.
 - [ ] C. Virtual network
 - [x] D. Virtual appliance
 
-## Q461 (Topic 5, Original #130)
+## Q456 (Topic 5, Original #130)
 
 You have two Azure subscriptions named Sub1 and Sub2 that are linked to separate Microsoft Entra tenants.
 
-[Image: image844.png]
+{{img:/exam-media/az-104/T5/image844.png}}
 
  You have the virtual networks shown in the following table.
 
@@ -7710,7 +7685,7 @@ You have two Azure subscriptions named Sub1 and Sub2 that are linked to separate
 - [ ] D. VNet2, VNet3, and VNet4 only
 - [x] E. VNet2, VNet3, VNet4, and VNet5
 
-## Q462 (Topic 5, Original #131)
+## Q457 (Topic 5, Original #131)
 
 You have an Azure subscription that contains a Recovery Services vault named Vault1.
 
@@ -7723,13 +7698,13 @@ You have an Azure subscription that contains a Recovery Services vault named Vau
 - [x] C. a resource guard
 - [ ] D. a custom Azure role
 
-## Q463 (Topic 5, Original #132)
+## Q458 (Topic 5, Original #132)
 
 You have an app named App1 that is installed on two Azure virtual machines named VM1 and VM2. Connections to App1 are managed by using an Azure Load Balancer.
 
  The effective network security configurations for VM2 are shown in the following exhibit.
 
-[Image: image688.png]
+{{img:/exam-media/az-104/T5/image688.png}}
 
  You discover that connections to App1 from 131.107.100.50 over TCP port 443 fail.
 
@@ -7744,11 +7719,11 @@ You have an app named App1 that is installed on two Azure virtual machines named
 - [x] A. Yes
 - [ ] B. No
 
-## Q464 (Topic 5, Original #133)
+## Q459 (Topic 5, Original #133)
 
 You have an Azure subscription that contains the resources shown in the following table.
 
-[Image: image843.png]
+{{img:/exam-media/az-104/T5/image843.png}}
 
  You create a route table named RT1 in the East US Azure region.
 
@@ -7760,13 +7735,13 @@ You have an Azure subscription that contains the resources shown in the followin
 - [ ] D. Subnet1 and NIC1 only
 - [ ] E. VNet1, Subnet1, and NIC1
 
-## Q465 (Topic 5, Original #134)
+## Q460 (Topic 5, Original #134)
 
 You create an Azure VM named VM1 that runs Windows Server 2019.
 
  VM1 is configured as shown in the exhibit. (Click the Exhibit tab.)
 
-[Image: image690.png]
+{{img:/exam-media/az-104/T5/image690.png}}
 
  You need to enable Desired State Configuration for VM1.
 
@@ -7777,15 +7752,15 @@ You create an Azure VM named VM1 that runs Windows Server 2019.
 - [ ] C. Capture a snapshot of VM1.
 - [ ] D. Configure a DNS name for VM1.
 
-## Q466 (Topic 5, Original #135)
+## Q461 (Topic 5, Original #135)
 
 You have an Azure subscription that contains the virtual networks shown in the following table.
 
-[Image: image728.png]
+{{img:/exam-media/az-104/T5/image728.png}}
 
  The subnets have the IP address spaces shown in the following table.
 
-[Image: image729.png]
+{{img:/exam-media/az-104/T5/image729.png}}
 
  You plan to create a container app named contapp1 in the East US Azure region.
 
@@ -7799,7 +7774,7 @@ You have an Azure subscription that contains the virtual networks shown in the f
 
  NOTE: Each correct selection is worth one point.
 
-[Image: image730.png]
+{{img:/exam-media/az-104/T5/image730.png}}
 
 - [ ] A. VNET2 only
 - [x] B. VNET3 only
@@ -7807,11 +7782,11 @@ You have an Azure subscription that contains the virtual networks shown in the f
 - [x] D. /23
 - [ ] E. /26
 
-## Q467 (Topic 5, Original #136)
+## Q462 (Topic 5, Original #136)
 
 You have an Azure subscription that contains the virtual networks shown in the following table.
 
-[Image: image732.png]
+{{img:/exam-media/az-104/T5/image732.png}}
 
  All the virtual networks are peered. Each virtual network contains nine virtual machines.
 
@@ -7824,39 +7799,39 @@ You have an Azure subscription that contains the virtual networks shown in the f
 - [ ] C. 9
 - [ ] D. 10
 
-## Q468 (Topic 5, Original #137)
+## Q463 (Topic 5, Original #137)
 
 You have an Azure subscription that contains the virtual networks shown in the following table.
 
-[Image: image733.png]
+{{img:/exam-media/az-104/T5/image733.png}}
 
  The subscription contains the virtual machines shown in the following table.
 
-[Image: image734.png]
+{{img:/exam-media/az-104/T5/image734.png}}
 
  Each virtual machine contains only a private IP address.
 
  You create an Azure bastion for VNet1 as shown in the following exhibit.
 
-[Image: image735.png]
+{{img:/exam-media/az-104/T5/image735.png}}
 
 - [ ] A. The Remote Desktop Connection client (mstc.exe) can be used to connect to VM1 through to VM1 through Bastion1
 - [x] B. The Azure Portal can use SSH to connect to VM2 through Bastion1
 - [ ] C. The Azure Portal can be used to connect to VM3 through Bastion1
 
-## Q469 (Topic 5, Original #138)
+## Q464 (Topic 5, Original #138)
 
 You have an Azure subscription that contains the virtual networks shown in the following table.
 
-[Image: image738.png]
+{{img:/exam-media/az-104/T5/image738.png}}
 
  The subscription contains the subnets shown in the following table.
 
-[Image: image739.png]
+{{img:/exam-media/az-104/T5/image739.png}}
 
  The subscription contains the storage accounts shown in the following table.
 
-[Image: image740.png]
+{{img:/exam-media/az-104/T5/image740.png}}
 
  You create a service endpoint policy named Policy1 in the South Central US Azure region to allow connectivity to all the storage accounts in the subscription.
 
@@ -7864,13 +7839,13 @@ You have an Azure subscription that contains the virtual networks shown in the f
 
  NOTE: Each correct selection is worth one point.
 
-[Image: image741.png]
+{{img:/exam-media/az-104/T5/image741.png}}
 
 - [x] A. Policy1 can be applied to Subnet3
 - [ ] B. Only storage1 and storage2 can be accessed from VNet2
 - [ ] C. Only storage2 can be accessed from VNet3
 
-## Q470 (Topic 5, Original #139)
+## Q465 (Topic 5, Original #139)
 
 You have an Azure virtual network named VNet1 that contains the following settings:
 
@@ -7886,7 +7861,7 @@ You have an Azure virtual network named VNet1 that contains the following settin
 - [ ] D. 128
 - [ ] E. 251
 
-## Q471 (Topic 5, Original #140)
+## Q466 (Topic 5, Original #140)
 
 You have an Azure subscription that contains a resource group named RG1 and a virtual network named VNet1.
 
@@ -7901,27 +7876,27 @@ You have an Azure subscription that contains a resource group named RG1 and a vi
 - [ ] C. a new subnet on VNet1
 - [ ] D. a confidential SKU
 
-## Q472 (Topic 5, Original #141)
+## Q467 (Topic 5, Original #141)
 
 You have the Azure virtual machines shown in the following table.
 
-[Image: image743.png]
+{{img:/exam-media/az-104/T5/image743.png}}
 
  VNET1, VNET2, and VNET3 are peered.
 
  VM4 has a DNS server that is authoritative for a zone named contoso.com and contains the records shown in the following table.
 
-[Image: image744.png]
+{{img:/exam-media/az-104/T5/image744.png}}
 
  The virtual networks are configured to use the DNS servers shown in the following table.
 
-[Image: image745.png]
+{{img:/exam-media/az-104/T5/image745.png}}
 
 - [ ] A. From VM1, server1.contoso.com resolves to 131.107.3.3
 - [x] B. From VM2, server1.contoso.com resolves to 131.107.3.3
 - [ ] C. From VM3, server2.contoso.com resolves to 131.107.2.4
 
-## Q473 (Topic 5, Original #142)
+## Q468 (Topic 5, Original #142)
 
 You have an Azure subscription that contains a resource group named RG1.
 
@@ -7931,14 +7906,14 @@ You have an Azure subscription that contains a resource group named RG1.
 
  In which order should you deploy the resources? To answer, move all resources from the list of resources to the answer area and arrange them in the correct order.
 
-[Image: image748.png]
+{{img:/exam-media/az-104/T5/image748.png}}
 
 - [x] A. virtual network
 - [x] B. network interface
 - [x] C. virtual machine
-- [ ] D. Azure Monitor extension
+- [x] D. Azure Monitor extension
 
-## Q474 (Topic 5, Original #143)
+## Q469 (Topic 5, Original #143)
 
 You have an Azure subscription.
 
@@ -7963,15 +7938,15 @@ You have an Azure subscription.
 - [ ] D. OS type
 - [ ] E. SKU
 
-## Q475 (Topic 5, Original #144)
+## Q470 (Topic 5, Original #144)
 
 You have an Azure subscription that contains the virtual networks shown in the following table.
 
-[Image: image750.png]
+{{img:/exam-media/az-104/T5/image750.png}}
 
  The subscription contains the virtual machines shown in the following table.
 
-[Image: image751.png]
+{{img:/exam-media/az-104/T5/image751.png}}
 
  All the virtual machines have only private IP addresses.
 
@@ -7984,11 +7959,11 @@ You have an Azure subscription that contains the virtual networks shown in the f
 - [ ] C. VM1 and VM3 only
 - [ ] D. VM1, VM2, and VM3
 
-## Q476 (Topic 5, Original #145)
+## Q471 (Topic 5, Original #145)
 
 You have the Azure virtual networks shown in the following table.
 
-[Image: image817.png]
+{{img:/exam-media/az-104/T5/image817.png}}
 
  Which virtual networks can you peer with VNet1?
 
@@ -7997,7 +7972,7 @@ You have the Azure virtual networks shown in the following table.
 - [x] C. VNet3 and VNet4 only
 - [ ] D. VNet2 and VNet3 only
 
-## Q477 (Topic 5, Original #146)
+## Q472 (Topic 5, Original #146)
 
 You have an Azure subscription.
 
@@ -8012,11 +7987,11 @@ You have an Azure subscription.
 - [ ] C. Deploy an Open Virtualization Application (OVA) template to vSphere.
 - [x] D. Configure a virtual network.
 
-## Q478 (Topic 5, Original #147)
+## Q473 (Topic 5, Original #147)
 
 You have an Azure subscription that contains the virtual networks shown in the following table.
 
-[Image: image791.png]
+{{img:/exam-media/az-104/T5/image791.png}}
 
  Each virtual network has 50 connected virtual machines.
 
@@ -8031,7 +8006,7 @@ You have an Azure subscription that contains the virtual networks shown in the f
 
  NOTE: Each correct answer is worth one point.
 
-[Image: image792.png]
+{{img:/exam-media/az-104/T5/image792.png}}
 
 - [ ] A. /24
 - [x] B. /26
@@ -8039,11 +8014,11 @@ You have an Azure subscription that contains the virtual networks shown in the f
 - [ ] D. Basic SKU with a static allocation
 - [ ] E. Basic SKU with a dynamic allocation
 
-## Q479 (Topic 5, Original #148)
+## Q474 (Topic 5, Original #148)
 
 You have an Azure subscription that contains the virtual networks shown in the following table.
 
-[Image: image816.png]
+{{img:/exam-media/az-104/T5/image816.png}}
 
  You need to ensure that all the traffic between VNet1 and VNet2 traverses the Microsoft backbone network.
 
@@ -8054,7 +8029,7 @@ You have an Azure subscription that contains the virtual networks shown in the f
 - [ ] C. Express Route
 - [ ] D. a route table
 
-## Q480 (Topic 5, Original #149)
+## Q475 (Topic 5, Original #149)
 
 You have an Azure subscription that contains two peered virtual networks named VNet1 and VNet2. VNet1 has a VPN gateway that uses static routing,
 
@@ -8069,7 +8044,7 @@ You have an Azure subscription that contains two peered virtual networks named V
 - [ ] C. Azure Application Gateway
 - [ ] D. ExpressRoute circuits to VNet2
 
-## Q481 (Topic 5, Original #150)
+## Q476 (Topic 5, Original #150)
 
 You have an Azure subscription that contains two peered virtual networks named VNet1 and VNet2.
 
@@ -8084,11 +8059,11 @@ You have an Azure subscription that contains two peered virtual networks named V
 - [ ] C. a service endpoint
 - [ ] D. IP address reservations
 
-## Q482 (Topic 6, Original #1)
+## Q477 (Topic 6, Original #1)
 
 You have an Azure subscription that has a Recovery Services vault named Vault1. The subscription contains the virtual machines shown in the following table:
 
-[Image: 0052600001.png]
+{{img:/exam-media/az-104/T6/0052600001.png}}
 
  You plan to schedule backups to occur every night at 23:00.
  Which virtual machines can you back up by using Azure Backup?
@@ -8098,7 +8073,7 @@ You have an Azure subscription that has a Recovery Services vault named Vault1. 
 - [ ] C. VM1 and VM2 only
 - [ ] D. VM1 only
 
-## Q483 (Topic 6, Original #2)
+## Q478 (Topic 6, Original #2)
 
 You have an Azure subscription that contains a virtual machine named VM1.
 
@@ -8113,11 +8088,11 @@ You have an Azure subscription that contains a virtual machine named VM1.
 - [ ] C. a distribution group
 - [ ] D. a Microsoft 365 group
 
-## Q484 (Topic 6, Original #3)
+## Q479 (Topic 6, Original #3)
 
 You have the Azure virtual machines shown in the following table:
 
-[Image: 0053100001.png]
+{{img:/exam-media/az-104/T6/0053100001.png}}
 
  You have a Recovery Services vault that protects VM1 and VM2.
  You need to protect VM3 and VM4 by using Recovery Services.
@@ -8128,22 +8103,22 @@ You have the Azure virtual machines shown in the following table:
 - [ ] C. Configure the extensions for VM3 and VM4
 - [ ] D. Create a new backup policy
 
-## Q485 (Topic 6, Original #4)
+## Q480 (Topic 6, Original #4)
 
 You have an Azure subscription that contains an Azure Storage account named storage1 and the users shown in the following table.
 
-[Image: 0053200001.png]
+{{img:/exam-media/az-104/T6/0053200001.png}}
 
  You plan to monitor storage1 and to configure email notifications for the signals shown in the following table.
 
-[Image: 0053200002.png]
+{{img:/exam-media/az-104/T6/0053200002.png}}
 
  You need to identify the minimum number of alert rules and action groups required for the planned monitoring.
  How many alert rules and action groups should you identify? To answer, select the appropriate options in the answer area.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0053300001.jpg]
+{{img:/exam-media/az-104/T6/0053300001.jpg}}
 
 - [ ] A. Alert rules: 3
 - [x] B. Alert rules: 4
@@ -8151,11 +8126,11 @@ You have an Azure subscription that contains an Azure Storage account named stor
 - [x] D. Action groups: 3
 - [ ] E. Action groups: 4
 
-## Q486 (Topic 6, Original #5)
+## Q481 (Topic 6, Original #5)
 
 You have an Azure subscription that contains the identities shown in the following table.
 
-[Image: 0053500001.png]
+{{img:/exam-media/az-104/T6/0053500001.png}}
 
  User1, Principal1, and Group1 are assigned the Monitoring Reader role.
  An action group named AG1 has the Email Azure Resource Manager Role notification type and is configured to email the Monitoring Reader role.
@@ -8168,12 +8143,12 @@ You have an Azure subscription that contains the identities shown in the followi
 - [ ] C. User1 only
 - [x] D. User1 and User2 only
 
-## Q487 (Topic 6, Original #6)
+## Q482 (Topic 6, Original #6)
 
 You have an Azure virtual machine named VM1 and a Recovery Services vault named Vault1.
  You create a backup policy named Policy1 as shown in the exhibit. (Click the Exhibit tab.)
 
-[Image: 0053600001.jpg]
+{{img:/exam-media/az-104/T6/0053600001.jpg}}
 
  You configure the backup of VM1 to use Policy1 on Thursday, January 1 at 1:00 AM.
  You need to identify the number of available recovery points for VM1.
@@ -8181,7 +8156,7 @@ You have an Azure virtual machine named VM1 and a Recovery Services vault named 
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0053700001.jpg]
+{{img:/exam-media/az-104/T6/0053700001.jpg}}
 
 - [x] A. Jan 8: 6
 - [ ] B. Jan 8: 9
@@ -8189,18 +8164,18 @@ You have an Azure virtual machine named VM1 and a Recovery Services vault named 
 - [ ] D. Jan 15: 17
 - [ ] E. Jan 15: 5
 
-## Q488 (Topic 6, Original #7)
+## Q483 (Topic 6, Original #7)
 
 You have the web apps shown in the following table.
 
-[Image: 0053900001.png]
+{{img:/exam-media/az-104/T6/0053900001.png}}
 
  You need to monitor the performance and usage of the apps by using Azure Application Insights. The solution must minimize modifications to the application code.
  What should you do on each app? To answer, select the appropriate options in the answer area.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0054000001.png]
+{{img:/exam-media/az-104/T6/0054000001.png}}
 
 - [x] A. App1: Install the Application Insights Agent
 - [x] B. App2: Install the Application Insights Agent
@@ -8208,7 +8183,7 @@ You have the web apps shown in the following table.
 - [ ] D. App2: Install the Application Insights SDK
 - [ ] E. App1: Install the Application Insights SDK
 
-## Q489 (Topic 6, Original #8)
+## Q484 (Topic 6, Original #8)
 
 You have an Azure virtual machine named VM1.
  You use Azure Backup to create a backup of VM1 named Backup1.
@@ -8226,19 +8201,19 @@ You have an Azure virtual machine named VM1.
 - [ ] C. Add a data disk.
 - [x] D. Copy Budget.xls to Data.
 
-## Q490 (Topic 6, Original #9)
+## Q485 (Topic 6, Original #9)
 
 You have an Azure Active Directory (Azure AD) tenant named contoso.onmicrosoft.com that contains the users shown in the following table.
 
-[Image: 0054300001.png]
+{{img:/exam-media/az-104/T6/0054300001.png}}
 
  You enable password reset for contoso.onmicrosoft.com as shown in the Password Reset exhibit. (Click the Password Reset tab.)
 
-[Image: 0054300002.png]
+{{img:/exam-media/az-104/T6/0054300002.png}}
 
  You configure the authentication methods for password reset as shown in the Authentication Methods exhibit. (Click the Authentication Methods tab.)
 
-[Image: 0054400001.png]
+{{img:/exam-media/az-104/T6/0054400001.png}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
  NOTE: Each correct selection is worth one point.
@@ -8247,7 +8222,7 @@ You have an Azure Active Directory (Azure AD) tenant named contoso.onmicrosoft.c
 - [ ] B. If User1 forgets her passweord, she can reset the password by using the mobile phone app.
 - [ ] C. User3 can add security questions to the passweord reset process
 
-## Q491 (Topic 6, Original #10)
+## Q486 (Topic 6, Original #10)
 
 Your company has a main office in London that contains 100 client computers.
  Three years ago, you migrated to Azure Active Directory (Azure AD).
@@ -8262,12 +8237,12 @@ Your company has a main office in London that contains 100 client computers.
 - [ ] C. Create a point-to-site VPN from the home network of User1 to Azure.
 - [ ] D. From the Device settings blade, modify the Users may join devices to Azure AD setting.
 
-## Q492 (Topic 6, Original #11)
+## Q487 (Topic 6, Original #11)
 
 You have two Azure App Service app named App1 and App2. Each app has a production deployment slot and a test deployment slot.
  The Backup Configuration settings for the production slots are shown in the following table.
 
-[Image: 0054700001.png]
+{{img:/exam-media/az-104/T6/0054700001.png}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
  NOTE: Each correct selection is worth one point.
@@ -8277,12 +8252,12 @@ You have two Azure App Service app named App1 and App2. Each app has a productio
 - [ ] B. On February 6, 2021, you can access the backup of the App2 test slot from January 15, 2021
 - [x] C. On January 15,2021, you can restore the App2 production slot backop from January 6 to the App2 test slot
 
-## Q493 (Topic 6, Original #12)
+## Q488 (Topic 6, Original #12)
 
 You have an Azure subscription that contains an Azure Active Directory (Azure AD) tenant named contoso.com. The tenant is synced to the on-premises Active
  Directory domain. The domain contains the users shown in the following table.
 
-[Image: 0054900001.png]
+{{img:/exam-media/az-104/T6/0054900001.png}}
 
  You enable self-service password reset (SSPR) for all users and configure SSPR to have the following authentication methods:
  ✑ Number of methods required to reset: 2
@@ -8298,11 +8273,11 @@ You have an Azure subscription that contains an Azure Active Directory (Azure AD
 - [ ] B. BillAdmin1 must answer the following question during the self-service password reset: What is you favorite food?
 - [x] C. User1 must answer the following question during the self-service password reset: What was the name of your first pet?
 
-## Q494 (Topic 6, Original #13)
+## Q489 (Topic 6, Original #13)
 
 You have an Azure subscription that contains the following users in an Azure Active Directory tenant named contoso.onmicrosoft.com:
 
-[Image: 0055100001.png]
+{{img:/exam-media/az-104/T6/0055100001.png}}
 
  User1 creates a new Azure Active Directory tenant named external.contoso.onmicrosoft.com.
  You need to create new user accounts in external.contoso.onmicrosoft.com.
@@ -8312,7 +8287,7 @@ You have an Azure subscription that contains the following users in an Azure Act
 - [x] A. Yes
 - [ ] B. No
 
-## Q495 (Topic 6, Original #14)
+## Q490 (Topic 6, Original #14)
 
 You have an existing Azure subscription that contains 10 virtual machines.
  You need to monitor the latency between your on-premises network and the virtual machines.
@@ -8323,18 +8298,18 @@ You have an existing Azure subscription that contains 10 virtual machines.
 - [x] C. Network Performance Monitor
 - [ ] D. Effective routes
 
-## Q496 (Topic 6, Original #15)
+## Q491 (Topic 6, Original #15)
 
 You have an Azure App Service plan named ASP1.
  CPU usage for ASP1 is shown in the following exhibit.
 
-[Image: 0055300001.jpg]
+{{img:/exam-media/az-104/T6/0055300001.jpg}}
 
  Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0055400001.png]
+{{img:/exam-media/az-104/T6/0055400001.png}}
 
 - [ ] A. once
 - [x] B. four times
@@ -8342,7 +8317,7 @@ You have an Azure App Service plan named ASP1.
 - [x] D. scaled up
 - [ ] E. scaled down
 
-## Q497 (Topic 6, Original #16)
+## Q492 (Topic 6, Original #16)
 
 You have an Azure Linux virtual machine that is protected by Azure Backup.
  One week ago, two files were deleted from the virtual machine.
@@ -8350,7 +8325,7 @@ You have an Azure Linux virtual machine that is protected by Azure Backup.
  Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
  Select and Place:
 
-[Image: 0055700001.png]
+{{img:/exam-media/az-104/T6/0055700001.png}}
 
 - [x] A. From the Azure Portal, click File Recovery
 - [x] B. Select a restore point that contains the deleted files
@@ -8358,7 +8333,7 @@ You have an Azure Linux virtual machine that is protected by Azure Backup.
 - [x] D. Copy the files by using File Explorer
 - [ ] E. From Azure portal, click Restore VM from the vault
 
-## Q498 (Topic 6, Original #17)
+## Q493 (Topic 6, Original #17)
 
 You purchase a new Azure subscription named Subscription1.
  You create a virtual machine named VM1 in Subscription1. VM1 is not protected by Azure Backup.
@@ -8367,7 +8342,7 @@ You purchase a new Azure subscription named Subscription1.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0056200001.jpg]
+{{img:/exam-media/az-104/T6/0056200001.jpg}}
 
 - [x] A. Box1: A Recovery Service vault
 - [x] B. Box2: a backup policy
@@ -8375,7 +8350,7 @@ You purchase a new Azure subscription named Subscription1.
 - [ ] D. Box1 a blob container
 - [ ] E. Box2: batch job
 
-## Q499 (Topic 6, Original #18)
+## Q494 (Topic 6, Original #18)
 
 You have an Azure virtual machine named VM1.
  Azure collects events from VM1.
@@ -8387,7 +8362,7 @@ You have an Azure virtual machine named VM1.
 - [ ] C. metric alert
 - [x] D. Azure Log Analytics workspace
 
-## Q500 (Topic 6, Original #19)
+## Q495 (Topic 6, Original #19)
 
 You have an Azure subscription that contains 100 virtual machines.
  You regularly create and delete virtual machines.
@@ -8399,7 +8374,7 @@ You have an Azure subscription that contains 100 virtual machines.
 - [ ] C. From Microsoft Azure Storage Explorer, view the Account Management properties
 - [x] D. From Azure Cost Management, view Advisor Recommendations
 
-## Q501 (Topic 6, Original #20)
+## Q496 (Topic 6, Original #20)
 
 You have an Azure web app named webapp1.
  Users report that they often experience HTTP 500 errors when they connect to webapp1.
@@ -8411,7 +8386,7 @@ You have an Azure web app named webapp1.
 - [ ] C. From Azure Monitor, create a Service Health alert
 - [x] D. From webapp1, turn on Application Logging
 
-## Q502 (Topic 6, Original #21)
+## Q497 (Topic 6, Original #21)
 
 You have an Azure web app named App1.
  You need to monitor the availability of App1 by using a multi-step web test.
@@ -8422,7 +8397,7 @@ You have an Azure web app named App1.
 - [ ] C. the Diagnostic settings
 - [ ] D. metrics
 
-## Q503 (Topic 6, Original #22)
+## Q498 (Topic 6, Original #22)
 
 You have an Azure subscription that has diagnostic logging enabled and is configured to send logs to a Log Analytics workspace.
  You are investigating a service outage.
@@ -8431,7 +8406,7 @@ You have an Azure subscription that has diagnostic logging enabled and is config
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0056700001.jpg]
+{{img:/exam-media/az-104/T6/0056700001.jpg}}
 
 - [x] A. AzureActivity
 - [ ] B. NetworkMonitoring
@@ -8439,7 +8414,7 @@ You have an Azure subscription that has diagnostic logging enabled and is config
 - [x] D. | project
 - [ ] E. | join
 
-## Q504 (Topic 6, Original #23)
+## Q499 (Topic 6, Original #23)
 
 You have a Recovery Services vault named RSV1. RSV1 has a backup policy that retains instant snapshots for five days and daily backup for 14 days.
  RSV1 performs daily backups of VM1. VM1 hosts a static website that was updated eight days ago.
@@ -8451,18 +8426,18 @@ You have a Recovery Services vault named RSV1. RSV1 has a backup policy that ret
 - [ ] C. Delete VM1.
 - [x] D. Restore VM1 by using the Create new restore configuration option.
 
-## Q505 (Topic 6, Original #24)
+## Q500 (Topic 6, Original #24)
 
 You have an Azure subscription that contains the resources shown in the following table.
 
-[Image: 0057000001.png]
+{{img:/exam-media/az-104/T6/0057000001.png}}
 
  You plan to create a data collection rule named DCR1 in Azure Monitor.
  Which resources can you set as data sources in DCR1, and which resources can you set as destinations in DCR1? To answer, select the appropriate options in the answer area.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0057100001.jpg]
+{{img:/exam-media/az-104/T6/0057100001.jpg}}
 
 - [x] A. Data sources: VM1 only
 - [x] B. Destinations: Workspace1 only
@@ -8470,17 +8445,17 @@ You have an Azure subscription that contains the resources shown in the followin
 - [ ] D. Data sources: VM1, storage1 and DB1 only
 - [ ] E. Destinations: Workspace1 and storage1 only
 
-## Q506 (Topic 6, Original #25)
+## Q501 (Topic 6, Original #25)
 
 You have the role assignment file shown in the following exhibit.
 
-[Image: 0057300001.png]
+{{img:/exam-media/az-104/T6/0057300001.png}}
 
  Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0057400001.png]
+{{img:/exam-media/az-104/T6/0057400001.png}}
 
 - [x] A. Box1: User1 and User3 are
 - [ ] B. Box1: User3 and User4 are
@@ -8488,11 +8463,11 @@ You have the role assignment file shown in the following exhibit.
 - [ ] D. Box2: User1, User2 and USer4
 - [ ] E. Box2: User1,User2, User3 and User4
 
-## Q507 (Topic 6, Original #26)
+## Q502 (Topic 6, Original #26)
 
 You have the following custom role-based access control (RBAC) role.
 
-[Image: 0057600001.png]
+{{img:/exam-media/az-104/T6/0057600001.png}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
  NOTE: Each correct selection is worth one point.
@@ -8501,15 +8476,15 @@ You have the following custom role-based access control (RBAC) role.
 - [x] B. Users that are assigned Tole1 can deploy new virtual machines
 - [x] C. Users that are assigned Role1 can set a static IP address on a virtual machine
 
-## Q508 (Topic 6, Original #27)
+## Q503 (Topic 6, Original #27)
 
 You have an Azure subscription that contains the resources shown in the following table.
 
-[Image: 0057800001.png]
+{{img:/exam-media/az-104/T6/0057800001.png}}
 
  NSG1 is configured as shown in the following exhibit.
 
-[Image: 0057800002.jpg]
+{{img:/exam-media/az-104/T6/0057800002.jpg}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
  NOTE: Each correct selection is worth one point.
@@ -8518,7 +8493,7 @@ You have an Azure subscription that contains the resources shown in the followin
 - [x] B. VM2 can access VM1 by using the HTTPS protocol
 - [ ] C. The securit rules for NSG1 apply to any virtual machine on VNET1
 
-## Q509 (Topic 6, Original #28)
+## Q504 (Topic 6, Original #28)
 
 You have an Azure subscription named Subscription1 that contains two Azure virtual networks named VNet1 and VNet2. VNet1 contains a VPN gateway named
  VPNGW1 that uses static routing. There is a site-to-site VPN connection between your on-premises network and VNet1.
@@ -8532,26 +8507,26 @@ You have an Azure subscription named Subscription1 that contains two Azure virtu
 - [x] C. Download and re-install the VPN client configuration package on Client1.
 - [ ] D. Enable BGP on VPNGW1.
 
-## Q510 (Topic 6, Original #29)
+## Q505 (Topic 6, Original #29)
 
 You have two Azure subscriptions named Sub1 and Sub2. Sub1 is in a management group named MG1. Sub2 is in a management group named MG2.
  You have the resource groups shown in the following table.
 
-[Image: 0058000001.png]
+{{img:/exam-media/az-104/T6/0058000001.png}}
 
  You have the virtual machines shown in the following table.
 
-[Image: 0058100001.png]
+{{img:/exam-media/az-104/T6/0058100001.png}}
 
  You assign roles to users as shown in the following table.
 
-[Image: 0058100002.png]
+{{img:/exam-media/az-104/T6/0058100002.png}}
 
 - [ ] A. User1 can sign in to VM1
 - [ ] B. User2 can manage disks and disk snapshots of VM1
 - [ ] C. User2 can manage disks and disk Snapshots of VM3
 
-## Q511 (Topic 6, Original #30)
+## Q506 (Topic 6, Original #30)
 
 You have an Azure Active Directory (Azure AD) tenant that is linked to 10 Azure subscriptions.
  You need to centrally monitor user activity across all the subscriptions.
@@ -8562,7 +8537,7 @@ You have an Azure Active Directory (Azure AD) tenant that is linked to 10 Azure 
 - [ ] C. Activity log filters
 - [x] D. a Log Analytics workspace
 
-## Q512 (Topic 6, Original #31)
+## Q507 (Topic 6, Original #31)
 
 You have an Azure subscription that contains a virtual machine name VM1.
  VM1 has an operating system disk named Disk1 and a data disk named Disk2.
@@ -8570,7 +8545,7 @@ You have an Azure subscription that contains a virtual machine name VM1.
  Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
  Select and Place:
 
-[Image: 0058400001.jpg]
+{{img:/exam-media/az-104/T6/0058400001.jpg}}
 
 - [x] A. Create an Azure Backup vault
 - [x] B. Create a backup policy and configure the backup
@@ -8578,7 +8553,7 @@ You have an Azure subscription that contains a virtual machine name VM1.
 - [ ] D. Create a Recovery Services vault
 - [ ] E. Delegate permissions for the vault
 
-## Q513 (Topic 6, Original #32)
+## Q508 (Topic 6, Original #32)
 
 You have a subnet named Subnet1 that contains Azure virtual machines. A network security group (NSG) named NSG1 is associated to Subnet1. NSG1 only contains the default rules.
  You need to create a rule in NSG1 to prevent the hosts on Subnet1 form connecting to the Azure portal. The hosts must be able to connect to other internet hosts.
@@ -8589,7 +8564,7 @@ You have a subnet named Subnet1 that contains Azure virtual machines. A network 
 - [x] C. Service Tag
 - [ ] D. Application security group
 
-## Q514 (Topic 6, Original #34)
+## Q509 (Topic 6, Original #34)
 
 You have an Azure App Service web app named App1.
  You need to collect performance traces for App1.
@@ -8600,11 +8575,11 @@ You have an Azure App Service web app named App1.
 - [ ] C. the Deployment center
 - [ ] D. the Diagnose and solve problems settings
 
-## Q515 (Topic 6, Original #35)
+## Q510 (Topic 6, Original #35)
 
 You have an Azure subscription that contains the storage accounts shown in the following table.
 
-[Image: image618.png]
+{{img:/exam-media/az-104/T6/image618.png}}
 
  You deploy a web app named App1 to the West US Azure region.
 
@@ -8617,17 +8592,17 @@ You have an Azure subscription that contains the storage accounts shown in the f
 - [ ] C. storage3
 - [ ] D. storage4
 
-## Q516 (Topic 6, Original #36)
+## Q511 (Topic 6, Original #36)
 
 You have an Azure subscription that is linked to an Azure AD tenant. The tenant contains two users named User1 and User2.
 
  The subscription contains the resources shown in the following table.
 
-[Image: image619.png]
+{{img:/exam-media/az-104/T6/image619.png}}
 
  The subscription contains the alert rules shown in the following table.
 
-[Image: image620.png]
+{{img:/exam-media/az-104/T6/image620.png}}
 
  The users perform the following action:
 
@@ -8638,7 +8613,7 @@ You have an Azure subscription that is linked to an Azure AD tenant. The tenant 
 
  NOTE: Each correct selection is worth one point.
 
-[Image: image621.png]
+{{img:/exam-media/az-104/T6/image621.png}}
 
 - [ ] A. User1: No alert is triggered
 - [ ] B. User1: Only Alert1 is triggered
@@ -8646,7 +8621,7 @@ You have an Azure subscription that is linked to an Azure AD tenant. The tenant 
 - [x] D. User1: Alert1 and Alert2 are triggered
 - [x] E. User2: Alert1 and Alert2 are triggered
 
-## Q517 (Topic 6, Original #37)
+## Q512 (Topic 6, Original #37)
 
 You have an Azure subscription that contains multiple virtual machines in the West US Azure region.
 
@@ -8660,11 +8635,11 @@ You have an Azure subscription that contains multiple virtual machines in the We
 - [ ] D. a Microsoft Sentinel workspace
 - [x] E. a Data Collection Rule (DCR) in Azure Monitor
 
-## Q518 (Topic 6, Original #38)
+## Q513 (Topic 6, Original #38)
 
 You have an Azure subscription that contains eight virtual machines and the resources shown in the following table.
 
-[Image: image623.png]
+{{img:/exam-media/az-104/T6/image623.png}}
 
  You need to configure access for VNET1. The solution must meet the following requirements:
 
@@ -8678,7 +8653,7 @@ You have an Azure subscription that contains eight virtual machines and the reso
 - [ ] C. 3
 - [ ] D. 5
 
-## Q519 (Topic 6, Original #39)
+## Q514 (Topic 6, Original #39)
 
 You need to configure an Azure web app named contoso.azurewebsites.net to host www.contoso.com.
 
@@ -8689,7 +8664,7 @@ You need to configure an Azure web app named contoso.azurewebsites.net to host w
 - [ ] C. Create a CNAME record named asuid that contains the domain verification ID.
 - [ ] D. Create a TXT record named www.contoso.com that has a value of contoso.azurewebsites.net.
 
-## Q520 (Topic 6, Original #40)
+## Q515 (Topic 6, Original #40)
 
 You have an Azure subscription that contains 10 network security groups (NSGs), 10 virtual machines, and a Log Analytics workspace named Workspace1. Each NSG is connected to a virtual machine.
 
@@ -8702,11 +8677,11 @@ You have an Azure subscription that contains 10 network security groups (NSGs), 
 - [ ] C. Configure a private link.
 - [x] D. Configure NSG flow logs.
 
-## Q521 (Topic 6, Original #41)
+## Q516 (Topic 6, Original #41)
 
 You have an Azure subscription named Sub1 that contains the resources shown in the following table.
 
-[Image: image624.png]
+{{img:/exam-media/az-104/T6/image624.png}}
 
  Sub1 contains the following alert rule:
 
@@ -8729,7 +8704,7 @@ You have an Azure subscription named Sub1 that contains the resources shown in t
 - [ ] B. If you create a resource group in Sub1 on August 12, 2022, an email is sent to admin1@contoso.com
 - [x] C. If you add a tag to RG1 on August 15, 2022, an email is sent to admin1@contoso.com
 
-## Q522 (Topic 6, Original #42)
+## Q517 (Topic 6, Original #42)
 
 You have an Azure subscription that contains a storage account named storage1 in the North Europe Azure region.
 
@@ -8742,7 +8717,7 @@ You have an Azure subscription that contains a storage account named storage1 in
 - [ ] C. geo-redundant storage (GRS)
 - [ ] D. a lifecycle management rule
 
-## Q523 (Topic 6, Original #43)
+## Q518 (Topic 6, Original #43)
 
 You have an Azure subscription that contains two Log Analytics workspaces named Workspace1 and Workspace2 and 100 virtual machines that run Windows Server.
 
@@ -8758,7 +8733,7 @@ You have an Azure subscription that contains two Log Analytics workspaces named 
 - [ ] B. the Windows Azure diagnostics extension (WAD)
 - [ ] C. the Windows VM agent
 
-## Q524 (Topic 6, Original #44)
+## Q519 (Topic 6, Original #44)
 
 You have an Azure subscription that contains a virtual machine named VM1 and an Azure function named App1.
 
@@ -8771,7 +8746,7 @@ You have an Azure subscription that contains a virtual machine named VM1 and an 
 - [x] C. an action group
 - [ ] D. an application group
 
-## Q525 (Topic 6, Original #45)
+## Q520 (Topic 6, Original #45)
 
 You have an Azure subscription that contains a virtual network named VNet1.
 
@@ -8786,7 +8761,7 @@ You have an Azure subscription that contains a virtual network named VNet1.
 - [ ] C. Azure Virtual Network Watcher
 - [ ] D. Log Analytics
 
-## Q526 (Topic 6, Original #46)
+## Q521 (Topic 6, Original #46)
 
 You deploy Azure virtual machines to three Azure regions
 
@@ -8806,7 +8781,7 @@ You deploy Azure virtual machines to three Azure regions
 - [x] D. Connection troubleshoot
 - [ ] E. elective security rules
 
-## Q527 (Topic 6, Original #47)
+## Q522 (Topic 6, Original #47)
 
 You have an Azure subscription.
 
@@ -8819,17 +8794,17 @@ You have an Azure subscription.
 - [ ] C. a Log Analytics workspace, a resource, and an action group
 - [ ] D. a data collection endpoint, an application security group, and a resource group
 
-## Q528 (Topic 6, Original #48)
+## Q523 (Topic 6, Original #48)
 
 You have an Azure subscription that contains the alerts shown in the following exhibit.
 
-[Image: image680.png]
+{{img:/exam-media/az-104/T6/image680.png}}
 
  Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
 
  NOTE: Each correct selection is worth one point.
 
-[Image: image681.png]
+{{img:/exam-media/az-104/T6/image681.png}}
 
 - [ ] A. Alert1: cannot be changed
 - [ ] B. Alert2: cannot be changed
@@ -8837,17 +8812,17 @@ You have an Azure subscription that contains the alerts shown in the following e
 - [x] D. Alert2: can be changed to New or Acknowledged
 - [ ] E. Alert1: can be changed to New only
 
-## Q529 (Topic 6, Original #49)
+## Q524 (Topic 6, Original #49)
 
 You create a Recovery Services vault backup policy named Policy1 as shown in the following exhibit:
 
-[Image: image752.png]
+{{img:/exam-media/az-104/T6/image752.png}}
 
  Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
 
  NOTE: Each correct selection is worth one point.
 
-[Image: image753.png]
+{{img:/exam-media/az-104/T6/image753.png}}
 
 - [ ] A. March1: 30days
 - [ ] B. November1: 30days
@@ -8855,19 +8830,19 @@ You create a Recovery Services vault backup policy named Policy1 as shown in the
 - [x] D. March1: 10years
 - [x] E. November1: 36 months
 
-## Q530 (Topic 6, Original #50)
+## Q525 (Topic 6, Original #50)
 
 You have an Azure subscription that contains the vaults shown in the following table.
 
-[Image: image755.png]
+{{img:/exam-media/az-104/T6/image755.png}}
 
  You deploy the virtual machines shown in the following table.
 
-[Image: image756.png]
+{{img:/exam-media/az-104/T6/image756.png}}
 
  You have the backup policies shown in the following table.
 
-[Image: image757.png]
+{{img:/exam-media/az-104/T6/image757.png}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
 
@@ -8877,7 +8852,7 @@ You have an Azure subscription that contains the vaults shown in the following t
 - [ ] B. VM2 can be backed up by using Policy3
 - [x] C. VM2 can be backed up by using Policy2
 
-## Q531 (Topic 6, Original #51)
+## Q526 (Topic 6, Original #51)
 
 You have an Azure subscription. The subscription contains virtual machines that connect to a virtual network named VNet1.
 
@@ -8892,21 +8867,21 @@ You have an Azure subscription. The subscription contains virtual machines that 
 - [x] C. an Azure Monitor Private Link Scope (AMPLS)
 - [ ] D. a private endpoint
 
-## Q532 (Topic 6, Original #52)
+## Q527 (Topic 6, Original #52)
 
 You have an Azure subscription that contains the vaults shown in the following table.
 
-[Image: image760.png]
+{{img:/exam-media/az-104/T6/image760.png}}
 
  You create a storage account that contains the resources shown in the following table.
 
-[Image: image761.png]
+{{img:/exam-media/az-104/T6/image761.png}}
 
  To which vault can you back up cont1 and share1? To answer, select the appropriate options in the answer area.
 
  NOTE: Each correct answer is worth one point.
 
-[Image: image762.png]
+{{img:/exam-media/az-104/T6/image762.png}}
 
 - [x] A. cont1: Backup only
 - [ ] B. share1: Backup only
@@ -8914,7 +8889,7 @@ You have an Azure subscription that contains the vaults shown in the following t
 - [ ] D. cont1: Recovery only
 - [ ] E. cont1: Cannot be backed up to Backup1 or Recovery1
 
-## Q533 (Topic 6, Original #53)
+## Q528 (Topic 6, Original #53)
 
 You have an Azure subscription that contains an Azure Stream Analytics job named Job1.
 
@@ -8927,7 +8902,7 @@ You have an Azure subscription that contains an Azure Stream Analytics job named
 - [ ] C. Late Input Events
 - [x] D. Backlogged Input Events
 
-## Q534 (Topic 6, Original #54)
+## Q529 (Topic 6, Original #54)
 
 You have an Azure subscription that contains an Azure SQL database named DB1.
 
@@ -8939,7 +8914,7 @@ You have an Azure subscription that contains an Azure SQL database named DB1.
 - [ ] B. Archive to a storage account.
 - [ ] C. Stream to an Azure event hub.
 
-## Q535 (Topic 6, Original #55)
+## Q530 (Topic 6, Original #55)
 
 You have an Azure subscription. The subscription contains virtual machines that run Windows Server.
 
@@ -8955,7 +8930,7 @@ You have an Azure subscription. The subscription contains virtual machines that 
 - [x] B. XPath
 - [ ] C. KQL
 
-## Q536 (Topic 6, Original #56)
+## Q531 (Topic 6, Original #56)
 
 You have an Azure subscription that contains a virtual machine named VM1.
 
@@ -8970,7 +8945,7 @@ You have an Azure subscription that contains a virtual machine named VM1.
 - [ ] C. the Log Analytics agent
 - [x] D. an Azure Monitor agent extension
 
-## Q537 (Topic 6, Original #57)
+## Q532 (Topic 6, Original #57)
 
 You have an Azure subscription that has Traffic Analytics configured.
 
@@ -8989,7 +8964,7 @@ You have an Azure subscription that has Traffic Analytics configured.
 - [ ] C. Diagnostic settings for NSG1
 - [ ] D. Insights for VM1
 
-## Q538 (Topic 6, Original #58)
+## Q533 (Topic 6, Original #58)
 
 You have an Azure subscription. The subscription contains 10 virtual machines that run Windows Server. Each virtual machine hosts a website in IIS and has the Azure Monitor Agent installed.
 
@@ -9003,21 +8978,21 @@ You have an Azure subscription. The subscription contains 10 virtual machines th
 - [ ] D. VM insights
 - [ ] E. a private endpoint
 
-## Q539 (Topic 6, Original #59)
+## Q534 (Topic 6, Original #59)
 
 You have an Azure subscription that contains two storage accounts named contoso101 and contoso102.
 
  The subscription contains the virtual machines shown in the following table.
 
-[Image: image794.png]
+{{img:/exam-media/az-104/T6/image794.png}}
 
  VNet1 has service endpoints configured as shown in the Service endpoints exhibit. (Click the Service endpoints tab.)
 
-[Image: image795.png]
+{{img:/exam-media/az-104/T6/image795.png}}
 
  The Microsoft.Storage service endpoint has the service endpoint policy shown in the Microsoft.Storage exhibit. (Click the Microsoft.Storage tab.)
 
-[Image: image796.png]
+{{img:/exam-media/az-104/T6/image796.png}}
 
  For each of the following statements, select Yes if the statement is true. Otherwise, select No.
 
@@ -9027,11 +9002,11 @@ You have an Azure subscription that contains two storage accounts named contoso1
 - [ ] B. VM2 can access contoso101
 - [x] C. VM2 uses a private IP address to access Azure AD
 
-## Q540 (Topic 6, Original #60)
+## Q535 (Topic 6, Original #60)
 
 You have an Azure subscription that contains an Azure Backup vault named Backup1, a Recovery Services vault named Recovery1, and the resources shown in the following table.
 
-[Image: image879.png]
+{{img:/exam-media/az-104/T6/image879.png}}
 
  You plan to back up the resources.
 
@@ -9039,7 +9014,7 @@ You have an Azure subscription that contains an Azure Backup vault named Backup1
 
  NOTE: Each correct selection is worth one point.
 
-[Image: image880.png]
+{{img:/exam-media/az-104/T6/image880.png}}
 
 - [ ] A. Backup1: App1
 - [x] B. Backup1: Disk1
@@ -9047,7 +9022,7 @@ You have an Azure subscription that contains an Azure Backup vault named Backup1
 - [ ] D. Recovery1: DB1
 - [x] E. Recovery1: VM1
 
-## Q541 (Topic 6, Original #61)
+## Q536 (Topic 6, Original #61)
 
 ADatum Corporation is consulting firm that has a main office in Montreal and branch offices in Seattle and New York.
 
@@ -9059,19 +9034,19 @@ ADatum Corporation is consulting firm that has a main office in Montreal and bra
 
  The subscription contains the storage accounts shown in the following table.
 
-[Image: image865.png]
+{{img:/exam-media/az-104/T6/image865.png}}
 
  The subscription contains the virtual machines shown in the following table.
 
-[Image: image866.png]
+{{img:/exam-media/az-104/T6/image866.png}}
 
  The subscription has an Azure container registry that contains the images shown in the following table.
 
-[Image: image867.png]
+{{img:/exam-media/az-104/T6/image867.png}}
 
  The subscription contains the resources shown in the following table.
 
-[Image: image868.png]
+{{img:/exam-media/az-104/T6/image868.png}}
 
  Azure Key Vault -
 
@@ -9079,21 +9054,21 @@ ADatum Corporation is consulting firm that has a main office in Montreal and bra
 
  Vault1 contains the certificates shown in the following table.
 
-[Image: image869.png]
+{{img:/exam-media/az-104/T6/image869.png}}
 
  Vault1 contains the keys shown in the following table.
 
-[Image: image870.png]
+{{img:/exam-media/az-104/T6/image870.png}}
 
  Microsoft Entra Environment -
 
  ADatum has a Microsoft Entra tenant named adatum.com that is linked to the Azure subscription and contains the users shown in the following table.
 
-[Image: image871.png]
+{{img:/exam-media/az-104/T6/image871.png}}
 
  The tenant contains the groups shown in the following table.
 
-[Image: image872.png]
+{{img:/exam-media/az-104/T6/image872.png}}
 
  The adatum.com tenant has a custom security attribute named Attribute1.
 
@@ -9126,7 +9101,7 @@ ADatum Corporation is consulting firm that has a main office in Montreal and bra
 
  NOTE: Each correct selection is worth one point.
 
-[Image: image882.png]
+{{img:/exam-media/az-104/T6/image882.png}}
 
 - [x] A. cont1: Daily
 - [x] B. share1: Every 4 hours
@@ -9134,7 +9109,7 @@ ADatum Corporation is consulting firm that has a main office in Montreal and bra
 - [ ] D. cont1: every 12 hours
 - [ ] E. share1: every hour
 
-## Q542 (Topic 7-16, Original #?)
+## Q537 (Topic 7-16, Original #?)
 
 Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso works with partner organizations to bring products to market.
  Contoso products are manufactured by using blueprint files that the company authors and maintains.
@@ -9151,7 +9126,7 @@ Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso wor
 
  A processing middle tier -
 
-[Image: 0012700006.png]
+{{img:/exam-media/az-104/T7-T16/0012700006.png}}
 
  Each tier is comprised of five virtual machines. Users access the web front end by using HTTPS only.
 
@@ -9186,7 +9161,7 @@ Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso wor
  Which two settings should you modify? To answer, select the appropriate settings in the answer area.
  Hot Area:
 
-[Image: 0013000001.png]
+{{img:/exam-media/az-104/T7-T16/0013000001.png}}
 
 - [ ] A. Users may join devices to Azue AD: All
 - [x] B. Users may join devices to Azue AD: Selected
@@ -9194,7 +9169,7 @@ Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso wor
 - [x] D. Require Mulit-Factor Auth to join devices: Yes
 - [ ] E. Require Mulit-Factor Auth to join devices: No
 
-## Q543 (Topic 7-16, Original #?)
+## Q538 (Topic 7-16, Original #?)
 
 Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso works with partner organizations to bring products to market.
  Contoso products are manufactured by using blueprint files that the company authors and maintains.
@@ -9211,7 +9186,7 @@ Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso wor
 
  A processing middle tier -
 
-[Image: 0012700006.png]
+{{img:/exam-media/az-104/T7-T16/0012700006.png}}
 
  Each tier is comprised of five virtual machines. Users access the web front end by using HTTPS only.
 
@@ -9249,7 +9224,7 @@ Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso wor
 - [x] C. From the Subscriptions blade, select the subscription, and then modify the Access control (IAM) settings
 - [ ] D. From the Subscriptions blade, select the subscription, and then modify the Properties
 
-## Q544 (Topic 7-16, Original #?)
+## Q539 (Topic 7-16, Original #?)
 
 General Overview -
  Contoso, Ltd. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York.
@@ -9261,21 +9236,21 @@ General Overview -
  Directory domain that syncs to the Azure AD tenant.
  The Azure AD tenant contains the users shown in the following table.
 
-[Image: 0059200001.png]
+{{img:/exam-media/az-104/T7-T16/0059200001.png}}
 
  Sub1 contains two resource groups named RG1 and RG2 and the virtual networks shown in the following table.
 
-[Image: 0059200002.png]
+{{img:/exam-media/az-104/T7-T16/0059200002.png}}
 
  User1 manages the resources in RG1. User4 manages the resources in RG2.
  Sub1 contains virtual machines that run Windows Server 2019 as shown in the following table
 
-[Image: 0059200003.png]
+{{img:/exam-media/az-104/T7-T16/0059200003.png}}
 
  No network security groups (NSGs) are associated to the network interfaces or the subnets.
  Sub1 contains the storage accounts shown in the following table.
 
-[Image: 0059300001.png]
+{{img:/exam-media/az-104/T7-T16/0059300001.png}}
 
  Requirements -
 
@@ -9285,14 +9260,14 @@ General Overview -
  Create a storage account named storage5 and configure storage replication for the Blob service.
  Create an NSG named NSG1 that will have the custom inbound security rules shown in the following table.
 
-[Image: 0059300005.png]
+{{img:/exam-media/az-104/T7-T16/0059300005.png}}
 
  Associate NSG1 to the network interface of VM1.
  Create an NSG named NSG2 that will have the custom outbound security rules shown in the following table.
 
-[Image: 0059300007.png]
+{{img:/exam-media/az-104/T7-T16/0059300007.png}}
 
-[Image: 0059400001.png]
+{{img:/exam-media/az-104/T7-T16/0059400001.png}}
 
  Associate NSG2 to VNET1/Subnet2.
 
@@ -9312,7 +9287,7 @@ General Overview -
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0059500001.png]
+{{img:/exam-media/az-104/T7-T16/0059500001.png}}
 
 - [ ] A. Recovery Services vaults: 4
 - [ ] B. Recovery Services vaults: 7
@@ -9320,7 +9295,7 @@ General Overview -
 - [x] D. Recovery Services vaults: 3
 - [x] E. Backup policies: 6
 
-## Q545 (Topic 7-16, Original #?)
+## Q540 (Topic 7-16, Original #?)
 
 Contoso, Ltd. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York.
 
@@ -9331,21 +9306,21 @@ Contoso, Ltd. is a consulting company that has a main office in Montreal and bra
  Directory domain that syncs to the Azure AD tenant.
  The Azure AD tenant contains the users shown in the following table.
 
-[Image: 0059200001.png]
+{{img:/exam-media/az-104/T7-T16/0059200001.png}}
 
  Sub1 contains two resource groups named RG1 and RG2 and the virtual networks shown in the following table.
 
-[Image: 0059200002.png]
+{{img:/exam-media/az-104/T7-T16/0059200002.png}}
 
  User1 manages the resources in RG1. User4 manages the resources in RG2.
  Sub1 contains virtual machines that run Windows Server 2019 as shown in the following table
 
-[Image: 0059200003.png]
+{{img:/exam-media/az-104/T7-T16/0059200003.png}}
 
  No network security groups (NSGs) are associated to the network interfaces or the subnets.
  Sub1 contains the storage accounts shown in the following table.
 
-[Image: 0059300001.png]
+{{img:/exam-media/az-104/T7-T16/0059300001.png}}
 
  Requirements -
 
@@ -9355,14 +9330,14 @@ Contoso, Ltd. is a consulting company that has a main office in Montreal and bra
  Create a storage account named storage5 and configure storage replication for the Blob service.
  Create an NSG named NSG1 that will have the custom inbound security rules shown in the following table.
 
-[Image: 0059300005.png]
+{{img:/exam-media/az-104/T7-T16/0059300005.png}}
 
  Associate NSG1 to the network interface of VM1.
  Create an NSG named NSG2 that will have the custom outbound security rules shown in the following table.
 
-[Image: 0059300007.png]
+{{img:/exam-media/az-104/T7-T16/0059300007.png}}
 
-[Image: 0059400001.png]
+{{img:/exam-media/az-104/T7-T16/0059400001.png}}
 
  Associate NSG2 to VNET1/Subnet2.
 
@@ -9381,7 +9356,7 @@ Contoso, Ltd. is a consulting company that has a main office in Montreal and bra
  Which three actions should you perform in sequence? To answer, move all actions from the list of actions to the answer area and arrange them in the correct order.
  Select and Place:
 
-[Image: 0059800001.jpg]
+{{img:/exam-media/az-104/T7-T16/0059800001.jpg}}
 
 - [x] A. Create a Log Analytics workspace
 - [x] B. Collect Windows performance counters from the Log Analytics agents
@@ -9389,7 +9364,7 @@ Contoso, Ltd. is a consulting company that has a main office in Montreal and bra
 - [ ] D. Configure the Diagnostics settings
 - [ ] E. Create an Azure SQL database
 
-## Q546 (Topic 7-16, Original #?)
+## Q541 (Topic 7-16, Original #?)
 
 Contoso, Ltd. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York.
 
@@ -9400,21 +9375,21 @@ Contoso, Ltd. is a consulting company that has a main office in Montreal and bra
  Directory domain that syncs to the Azure AD tenant.
  The Azure AD tenant contains the users shown in the following table.
 
-[Image: 0013400001.png]
+{{img:/exam-media/az-104/T7-T16/0013400001.png}}
 
  Sub1 contains two resource groups named RG1 and RG2 and the virtual networks shown in the following table.
 
-[Image: 0013400002.png]
+{{img:/exam-media/az-104/T7-T16/0013400002.png}}
 
  User1 manages the resources in RG1. User4 manages the resources in RG2.
  Sub1 contains virtual machines that run Windows Server 2019 as shown in the following table
 
-[Image: 0013400003-4fc5b1c920e47c737559fef1f0b8cdfc1b918ff9.png]
+{{img:/exam-media/az-104/T7-T16/0013400003-4fc5b1c920e47c737559fef1f0b8cdfc1b918ff9.png}}
 
  No network security groups (NSGs) are associated to the network interfaces or the subnets.
  Sub1 contains the storage accounts shown in the following table.
 
-[Image: 0013500001.png]
+{{img:/exam-media/az-104/T7-T16/0013500001.png}}
 
  Requirements -
 
@@ -9424,14 +9399,14 @@ Contoso, Ltd. is a consulting company that has a main office in Montreal and bra
  Create a storage account named storage5 and configure storage replication for the Blob service.
  Create an NSG named NSG1 that will have the custom inbound security rules shown in the following table.
 
-[Image: 0013500005.png]
+{{img:/exam-media/az-104/T7-T16/0013500005.png}}
 
  Associate NSG1 to the network interface of VM1.
  Create an NSG named NSG2 that will have the custom outbound security rules shown in the following table.
 
-[Image: 0013500007.png]
+{{img:/exam-media/az-104/T7-T16/0013500007.png}}
 
-[Image: 0013600001.png]
+{{img:/exam-media/az-104/T7-T16/0013600001.png}}
 
  Associate NSG2 to VNET1/Subnet2.
 
@@ -9451,7 +9426,7 @@ Contoso, Ltd. is a consulting company that has a main office in Montreal and bra
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0013700001-939169390dd1165667d5505db90210d7ceb6ccde.png]
+{{img:/exam-media/az-104/T7-T16/0013700001-939169390dd1165667d5505db90210d7ceb6ccde.png}}
 
 - [ ] A. User1: Contributor for RG1
 - [ ] B. User1: Contributor for Sub1
@@ -9459,7 +9434,7 @@ Contoso, Ltd. is a consulting company that has a main office in Montreal and bra
 - [x] D. User4: Resource Policy Contributor for RG2
 - [ ] E. User4: Security Admin for Sub1
 
-## Q547 (Topic 7-16, Original #?)
+## Q542 (Topic 7-16, Original #?)
 
 General Overview -
  Contoso, Ltd. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York.
@@ -9471,21 +9446,21 @@ General Overview -
  Directory domain that syncs to the Azure AD tenant.
  The Azure AD tenant contains the users shown in the following table.
 
-[Image: 0013400001.png]
+{{img:/exam-media/az-104/T7-T16/0013400001.png}}
 
  Sub1 contains two resource groups named RG1 and RG2 and the virtual networks shown in the following table.
 
-[Image: 0013400002.png]
+{{img:/exam-media/az-104/T7-T16/0013400002.png}}
 
  User1 manages the resources in RG1. User4 manages the resources in RG2.
  Sub1 contains virtual machines that run Windows Server 2019 as shown in the following table
 
-[Image: 0013400003-4fc5b1c920e47c737559fef1f0b8cdfc1b918ff9.png]
+{{img:/exam-media/az-104/T7-T16/0013400003-4fc5b1c920e47c737559fef1f0b8cdfc1b918ff9.png}}
 
  No network security groups (NSGs) are associated to the network interfaces or the subnets.
  Sub1 contains the storage accounts shown in the following table.
 
-[Image: 0013500001.png]
+{{img:/exam-media/az-104/T7-T16/0013500001.png}}
 
  Requirements -
 
@@ -9495,14 +9470,14 @@ General Overview -
  Create a storage account named storage5 and configure storage replication for the Blob service.
  Create an NSG named NSG1 that will have the custom inbound security rules shown in the following table.
 
-[Image: 0013500005.png]
+{{img:/exam-media/az-104/T7-T16/0013500005.png}}
 
  Associate NSG1 to the network interface of VM1.
  Create an NSG named NSG2 that will have the custom outbound security rules shown in the following table.
 
-[Image: 0013500007.png]
+{{img:/exam-media/az-104/T7-T16/0013500007.png}}
 
-[Image: 0013600001.png]
+{{img:/exam-media/az-104/T7-T16/0013600001.png}}
 
  Associate NSG2 to VNET1/Subnet2.
 
@@ -9524,7 +9499,7 @@ General Overview -
 - [ ] C. On storage1 and storage4, change the Account kind type to StorageV2 (general purpose v2).
 - [ ] D. Create a shared access signature (SAS) for storage1, storage2, and storage4.
 
-## Q548 (Topic 7-16, Original #?)
+## Q543 (Topic 7-16, Original #?)
 
 Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso works with partner organizations to bring products to market.
  Contoso products are manufactured by using blueprint files that the company authors and maintains.
@@ -9541,7 +9516,7 @@ Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso wor
 
  A processing middle tier -
 
-[Image: 0021700006.png]
+{{img:/exam-media/az-104/T7-T16/0021700006.png}}
 
  Each tier is comprised of five virtual machines. Users access the web front end by using HTTPS only.
 
@@ -9579,7 +9554,7 @@ Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso wor
 - [ ] C. a backup policy
 - [x] D. a Recovery Services vault
 
-## Q549 (Topic 7-16, Original #?)
+## Q544 (Topic 7-16, Original #?)
 
 Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso works with partner organizations to bring products to market.
  Contoso products are manufactured by using blueprint files that the company authors and maintains.
@@ -9596,7 +9571,7 @@ Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso wor
 
  A processing middle tier -
 
-[Image: 0021700006.png]
+{{img:/exam-media/az-104/T7-T16/0021700006.png}}
 
  Each tier is comprised of five virtual machines. Users access the web front end by using HTTPS only.
 
@@ -9634,7 +9609,7 @@ Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso wor
 - [ ] C. Use the Azure Import/Export service.
 - [ ] D. Generate a shared access signature (SAS). Map a drive, and then copy the files by using File Explorer.
 
-## Q550 (Topic 7-16, Original #?)
+## Q545 (Topic 7-16, Original #?)
 
 Overview -
  Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso works with partner organizations to bring products to market.
@@ -9652,7 +9627,7 @@ Overview -
 
  A processing middle tier -
 
-[Image: 0021700006.png]
+{{img:/exam-media/az-104/T7-T16/0021700006.png}}
 
  Each tier is comprised of five virtual machines. Users access the web front end by using HTTPS only.
 
@@ -9691,7 +9666,7 @@ Overview -
 - [ ] B. Contoso requires a storage account that supports Azure Table storage
 - [ ] C. Contoso requires a storage account that supports Azure File storage
 
-## Q551 (Topic 7-16, Original #?)
+## Q546 (Topic 7-16, Original #?)
 
 Overview -
 
@@ -9705,21 +9680,21 @@ Overview -
  Directory domain that syncs to the Azure AD tenant.
  The Azure AD tenant contains the users shown in the following table.
 
-[Image: 0022300001.png]
+{{img:/exam-media/az-104/T7-T16/0022300001.png}}
 
  Sub1 contains two resource groups named RG1 and RG2 and the virtual networks shown in the following table.
 
-[Image: 0022300002.png]
+{{img:/exam-media/az-104/T7-T16/0022300002.png}}
 
  User1 manages the resources in RG1. User4 manages the resources in RG2.
  Sub1 contains virtual machines that run Windows Server 2019 as shown in the following table
 
-[Image: 0022300003.png]
+{{img:/exam-media/az-104/T7-T16/0022300003.png}}
 
  No network security groups (NSGs) are associated to the network interfaces or the subnets.
  Sub1 contains the storage accounts shown in the following table.
 
-[Image: 0022400001.png]
+{{img:/exam-media/az-104/T7-T16/0022400001.png}}
 
  Requirements -
 
@@ -9729,14 +9704,14 @@ Overview -
  Create a storage account named storage5 and configure storage replication for the Blob service.
  Create an NSG named NSG1 that will have the custom inbound security rules shown in the following table.
 
-[Image: 0022400005.png]
+{{img:/exam-media/az-104/T7-T16/0022400005.png}}
 
  Associate NSG1 to the network interface of VM1.
  Create an NSG named NSG2 that will have the custom outbound security rules shown in the following table.
 
-[Image: 0022400007.png]
+{{img:/exam-media/az-104/T7-T16/0022400007.png}}
 
-[Image: 0022500001.png]
+{{img:/exam-media/az-104/T7-T16/0022500001.png}}
 
  Associate NSG2 to VNET1/Subnet2.
 
@@ -9756,7 +9731,7 @@ Overview -
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0022600001.jpg]
+{{img:/exam-media/az-104/T7-T16/0022600001.jpg}}
 
 - [x] A. Container1: storage2 and storage3 only
 - [x] B. share1: storage2 only
@@ -9764,7 +9739,7 @@ Overview -
 - [ ] D. Container1: storage1, storage2 and storage3 only
 - [ ] E. Container1: storage2, storage3 and storage4 only
 
-## Q552 (Topic 7-16, Original #?)
+## Q547 (Topic 7-16, Original #?)
 
 General Overview -
  Contoso, Ltd. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York.
@@ -9776,21 +9751,21 @@ General Overview -
  Directory domain that syncs to the Azure AD tenant.
  The Azure AD tenant contains the users shown in the following table.
 
-[Image: 0022300001.png]
+{{img:/exam-media/az-104/T7-T16/0022300001.png}}
 
  Sub1 contains two resource groups named RG1 and RG2 and the virtual networks shown in the following table.
 
-[Image: 0022300002.png]
+{{img:/exam-media/az-104/T7-T16/0022300002.png}}
 
  User1 manages the resources in RG1. User4 manages the resources in RG2.
  Sub1 contains virtual machines that run Windows Server 2019 as shown in the following table
 
-[Image: 0022300003.png]
+{{img:/exam-media/az-104/T7-T16/0022300003.png}}
 
  No network security groups (NSGs) are associated to the network interfaces or the subnets.
  Sub1 contains the storage accounts shown in the following table.
 
-[Image: 0022400001.png]
+{{img:/exam-media/az-104/T7-T16/0022400001.png}}
 
  Requirements -
 
@@ -9800,14 +9775,14 @@ General Overview -
  Create a storage account named storage5 and configure storage replication for the Blob service.
  Create an NSG named NSG1 that will have the custom inbound security rules shown in the following table.
 
-[Image: 0022400005.png]
+{{img:/exam-media/az-104/T7-T16/0022400005.png}}
 
  Associate NSG1 to the network interface of VM1.
  Create an NSG named NSG2 that will have the custom outbound security rules shown in the following table.
 
-[Image: 0022400007.png]
+{{img:/exam-media/az-104/T7-T16/0022400007.png}}
 
-[Image: 0022500001.png]
+{{img:/exam-media/az-104/T7-T16/0022500001.png}}
 
  Associate NSG2 to VNET1/Subnet2.
 
@@ -9827,7 +9802,7 @@ General Overview -
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0022800001.jpg]
+{{img:/exam-media/az-104/T7-T16/0022800001.jpg}}
 
 - [x] A. Account kind: StorageV2 (general purpose v2)
 - [x] B. Destination: Storage2
@@ -9835,7 +9810,7 @@ General Overview -
 - [ ] D. Destination: Storage1
 - [ ] E. Account kind: BlockBlobStorage
 
-## Q553 (Topic 7-16, Original #?)
+## Q548 (Topic 7-16, Original #?)
 
 General Overview -
  Contoso, Ltd. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York.
@@ -9847,21 +9822,21 @@ General Overview -
  Directory domain that syncs to the Azure AD tenant.
  The Azure AD tenant contains the users shown in the following table.
 
-[Image: 0022300001.png]
+{{img:/exam-media/az-104/T7-T16/0022300001.png}}
 
  Sub1 contains two resource groups named RG1 and RG2 and the virtual networks shown in the following table.
 
-[Image: 0022300002.png]
+{{img:/exam-media/az-104/T7-T16/0022300002.png}}
 
  User1 manages the resources in RG1. User4 manages the resources in RG2.
  Sub1 contains virtual machines that run Windows Server 2019 as shown in the following table
 
-[Image: 0022300003.png]
+{{img:/exam-media/az-104/T7-T16/0022300003.png}}
 
  No network security groups (NSGs) are associated to the network interfaces or the subnets.
  Sub1 contains the storage accounts shown in the following table.
 
-[Image: 0022400001.png]
+{{img:/exam-media/az-104/T7-T16/0022400001.png}}
 
  Requirements -
 
@@ -9871,14 +9846,14 @@ General Overview -
  Create a storage account named storage5 and configure storage replication for the Blob service.
  Create an NSG named NSG1 that will have the custom inbound security rules shown in the following table.
 
-[Image: 0022400005.png]
+{{img:/exam-media/az-104/T7-T16/0022400005.png}}
 
  Associate NSG1 to the network interface of VM1.
  Create an NSG named NSG2 that will have the custom outbound security rules shown in the following table.
 
-[Image: 0022400007.png]
+{{img:/exam-media/az-104/T7-T16/0022400007.png}}
 
-[Image: 0022500001.png]
+{{img:/exam-media/az-104/T7-T16/0022500001.png}}
 
  Associate NSG2 to VNET1/Subnet2.
 
@@ -9900,7 +9875,7 @@ General Overview -
 - [ ] C. storage3
 - [ ] D. storage4
 
-## Q554 (Topic 7-16, Original #?)
+## Q549 (Topic 7-16, Original #?)
 
 Overview -
  Litware, Inc. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York.
@@ -9917,12 +9892,12 @@ Overview -
  Litware has data centers in the Montreal and Seattle offices. Each office has a firewall that can be configured as a VPN device.
  All infrastructure servers are virtualized. The virtualization environment contains the servers in the following table.
 
-[Image: 0034500001.png]
+{{img:/exam-media/az-104/T7-T16/0034500001.png}}
 
  Litware uses two web applications named App1 and App2. Each instance on each web application requires 1 GB of memory.
  The Azure subscription contains the resources in the following table.
 
-[Image: 0034500002.png]
+{{img:/exam-media/az-104/T7-T16/0034500002.png}}
 
  The network security team implements several network security groups (NSGs)
 
@@ -9939,7 +9914,7 @@ Overview -
  Litware must meet the following technical requirements:
  Ensure that WebApp1 can adjust the number of instances automatically based on the load and can scale up to five instances.
 
-[Image: 0034500007.png]
+{{img:/exam-media/az-104/T7-T16/0034500007.png}}
 
  Ensure that VM3 can establish outbound connections over TCP port 8080 to the applications servers in the Montreal office.
  Ensure that routing information is exchanged automatically between Azure and the routers in the Montreal office.
@@ -9958,7 +9933,7 @@ Overview -
 - [ ] D. The security recommendations in Azure Advisor
 - [x] E. IP flow verify in Azure Network Watcher
 
-## Q555 (Topic 7-16, Original #?)
+## Q550 (Topic 7-16, Original #?)
 
 Overview -
  Litware, Inc. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York.
@@ -9975,12 +9950,12 @@ Overview -
  Litware has data centers in the Montreal and Seattle offices. Each office has a firewall that can be configured as a VPN device.
  All infrastructure servers are virtualized. The virtualization environment contains the servers in the following table.
 
-[Image: 0050800001.png]
+{{img:/exam-media/az-104/T7-T16/0050800001.png}}
 
  Litware uses two web applications named App1 and App2. Each instance on each web application requires 1 GB of memory.
  The Azure subscription contains the resources in the following table.
 
-[Image: 0050800002.png]
+{{img:/exam-media/az-104/T7-T16/0050800002.png}}
 
  The network security team implements several network security groups (NSGs)
 
@@ -9997,7 +9972,7 @@ Overview -
  Litware must meet the following technical requirements:
  Ensure that WebApp1 can adjust the number of instances automatically based on the load and can scale up to five instances.
 
-[Image: 0050800007.png]
+{{img:/exam-media/az-104/T7-T16/0050800007.png}}
 
  Ensure that VM3 can establish outbound connections over TCP port 8080 to the applications servers in the Montreal office.
  Ensure that routing information is exchanged automatically between Azure and the routers in the Montreal office.
@@ -10014,7 +9989,7 @@ Overview -
 - [ ] C. Assign VM4 an IP address of 10.0.1.5/24.
 - [ ] D. Create a user-defined route from VNET1 to VNET3.
 
-## Q556 (Topic 7-16, Original #?)
+## Q551 (Topic 7-16, Original #?)
 
 Overview -
  Litware, Inc. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York.
@@ -10031,12 +10006,12 @@ Overview -
  Litware has data centers in the Montreal and Seattle offices. Each office has a firewall that can be configured as a VPN device.
  All infrastructure servers are virtualized. The virtualization environment contains the servers in the following table.
 
-[Image: 0050800001.png]
+{{img:/exam-media/az-104/T7-T16/0050800001.png}}
 
  Litware uses two web applications named App1 and App2. Each instance on each web application requires 1 GB of memory.
  The Azure subscription contains the resources in the following table.
 
-[Image: 0050800002.png]
+{{img:/exam-media/az-104/T7-T16/0050800002.png}}
 
  The network security team implements several network security groups (NSGs)
 
@@ -10053,7 +10028,7 @@ Overview -
  Litware must meet the following technical requirements:
  Ensure that WebApp1 can adjust the number of instances automatically based on the load and can scale up to five instances.
 
-[Image: 0050800007.png]
+{{img:/exam-media/az-104/T7-T16/0050800007.png}}
 
  Ensure that VM3 can establish outbound connections over TCP port 8080 to the applications servers in the Montreal office.
  Ensure that routing information is exchanged automatically between Azure and the routers in the Montreal office.
@@ -10068,7 +10043,7 @@ Overview -
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0051000001.png]
+{{img:/exam-media/az-104/T7-T16/0051000001.png}}
 
 - [x] A. Box1: Create a virtual network gateway and a local network gateway
 - [ ] B. Box1: Create a ExpressRoute circuit only
@@ -10076,7 +10051,7 @@ Overview -
 - [ ] D. Box2: Deploy ExpressRoute
 - [ ] E. Box2: Deploy a DirectAccess server
 
-## Q557 (Topic 7-16, Original #?)
+## Q552 (Topic 7-16, Original #?)
 
 Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso works with partner organizations to bring products to market.
  Contoso products are manufactured by using blueprint files that the company authors and maintains.
@@ -10093,7 +10068,7 @@ Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso wor
 
  A processing middle tier -
 
-[Image: 0051300006.png]
+{{img:/exam-media/az-104/T7-T16/0051300006.png}}
 
  Each tier is comprised of five virtual machines. Users access the web front end by using HTTPS only.
 
@@ -10129,7 +10104,7 @@ Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso wor
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0051500001.jpg]
+{{img:/exam-media/az-104/T7-T16/0051500001.jpg}}
 
 - [x] A. Number of virtual networks: 1
 - [x] B. Number of subnets per virtual network: 3
@@ -10137,7 +10112,7 @@ Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso wor
 - [ ] D. Number of subnets per virtual network: 2
 - [ ] E. Number of subnets per virtual network: 1
 
-## Q558 (Topic 7-16, Original #?)
+## Q553 (Topic 7-16, Original #?)
 
 Overview -
  Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso works with partner organizations to bring products to market.
@@ -10155,7 +10130,7 @@ Overview -
 
  A processing middle tier -
 
-[Image: 0051300006.png]
+{{img:/exam-media/az-104/T7-T16/0051300006.png}}
 
  Each tier is comprised of five virtual machines. Users access the web front end by using HTTPS only.
 
@@ -10195,7 +10170,7 @@ Overview -
 - [ ] C. Create an incoming security rule for port 443 from the Internet. Associate the NSG to all the subnets.
 - [ ] D. Create an outgoing security rule for port 443 from the Internet. Associate the NSG to all the subnets.
 
-## Q559 (Topic 7-16, Original #?)
+## Q554 (Topic 7-16, Original #?)
 
 Overview -
 
@@ -10209,21 +10184,21 @@ Overview -
  Directory domain that syncs to the Azure AD tenant.
  The Azure AD tenant contains the users shown in the following table.
 
-[Image: 0052000001.png]
+{{img:/exam-media/az-104/T7-T16/0052000001.png}}
 
  Sub1 contains two resource groups named RG1 and RG2 and the virtual networks shown in the following table.
 
-[Image: 0052000002.png]
+{{img:/exam-media/az-104/T7-T16/0052000002.png}}
 
  User1 manages the resources in RG1. User4 manages the resources in RG2.
  Sub1 contains virtual machines that run Windows Server 2019 as shown in the following table
 
-[Image: 0052000003.png]
+{{img:/exam-media/az-104/T7-T16/0052000003.png}}
 
  No network security groups (NSGs) are associated to the network interfaces or the subnets.
  Sub1 contains the storage accounts shown in the following table.
 
-[Image: 0052100001.png]
+{{img:/exam-media/az-104/T7-T16/0052100001.png}}
 
  Requirements -
 
@@ -10233,14 +10208,14 @@ Overview -
  Create a storage account named storage5 and configure storage replication for the Blob service.
  Create an NSG named NSG1 that will have the custom inbound security rules shown in the following table.
 
-[Image: 0052100005.png]
+{{img:/exam-media/az-104/T7-T16/0052100005.png}}
 
  Associate NSG1 to the network interface of VM1.
  Create an NSG named NSG2 that will have the custom outbound security rules shown in the following table.
 
-[Image: 0052100007.png]
+{{img:/exam-media/az-104/T7-T16/0052100007.png}}
 
-[Image: 0052200001.png]
+{{img:/exam-media/az-104/T7-T16/0052200001.png}}
 
  Associate NSG2 to VNET1/Subnet2.
 
@@ -10263,7 +10238,7 @@ Overview -
 - [ ] B. From VM2, you can establish a Remote Desktop session to VM3
 - [x] C. From VM2, you can ping VM3
 
-## Q560 (Topic 7-16, Original #?)
+## Q555 (Topic 7-16, Original #?)
 
 Overview -
 
@@ -10277,21 +10252,21 @@ Overview -
  Directory domain that syncs to the Azure AD tenant.
  The Azure AD tenant contains the users shown in the following table.
 
-[Image: 0052000001.png]
+{{img:/exam-media/az-104/T7-T16/0052000001.png}}
 
  Sub1 contains two resource groups named RG1 and RG2 and the virtual networks shown in the following table.
 
-[Image: 0052000002.png]
+{{img:/exam-media/az-104/T7-T16/0052000002.png}}
 
  User1 manages the resources in RG1. User4 manages the resources in RG2.
  Sub1 contains virtual machines that run Windows Server 2019 as shown in the following table
 
-[Image: 0052000003.png]
+{{img:/exam-media/az-104/T7-T16/0052000003.png}}
 
  No network security groups (NSGs) are associated to the network interfaces or the subnets.
  Sub1 contains the storage accounts shown in the following table.
 
-[Image: 0052100001.png]
+{{img:/exam-media/az-104/T7-T16/0052100001.png}}
 
  Requirements -
 
@@ -10301,14 +10276,14 @@ Overview -
  Create a storage account named storage5 and configure storage replication for the Blob service.
  Create an NSG named NSG1 that will have the custom inbound security rules shown in the following table.
 
-[Image: 0052100005.png]
+{{img:/exam-media/az-104/T7-T16/0052100005.png}}
 
  Associate NSG1 to the network interface of VM1.
  Create an NSG named NSG2 that will have the custom outbound security rules shown in the following table.
 
-[Image: 0052100007.png]
+{{img:/exam-media/az-104/T7-T16/0052100007.png}}
 
-[Image: 0052200001.png]
+{{img:/exam-media/az-104/T7-T16/0052200001.png}}
 
  Associate NSG2 to VNET1/Subnet2.
 
@@ -10330,7 +10305,7 @@ Overview -
 - [x] C. Redeploy VM1 and VM2 to the same availability set.
 - [ ] D. Create a new NSG and associate the NSG to VNET1/Subnet1.
 
-## Q561 (Topic 7-16, Original #?)
+## Q556 (Topic 7-16, Original #?)
 
 You need to ensure that VM1 can communicate with VM4. The solution must minimize administrative effort.
 
@@ -10341,7 +10316,7 @@ You need to ensure that VM1 can communicate with VM4. The solution must minimize
 - [ ] C. Assign VM4 an IP address of 10.0.1.5/24.
 - [x] D. Establish peering between VNET1 and VNET3.
 
-## Q562 (Topic 7-16, Original #?)
+## Q557 (Topic 7-16, Original #?)
 
 Overview -
  Litware, Inc. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York.
@@ -10358,12 +10333,12 @@ Overview -
  Litware has data centers in the Montreal and Seattle offices. Each office has a firewall that can be configured as a VPN device.
  All infrastructure servers are virtualized. The virtualization environment contains the servers in the following table.
 
-[Image: 0058800001.png]
+{{img:/exam-media/az-104/T7-T16/0058800001.png}}
 
  Litware uses two web applications named App1 and App2. Each instance on each web application requires 1 GB of memory.
  The Azure subscription contains the resources in the following table.
 
-[Image: 0058800002.png]
+{{img:/exam-media/az-104/T7-T16/0058800002.png}}
 
  The network security team implements several network security groups (NSGs)
 
@@ -10380,7 +10355,7 @@ Overview -
  Litware must meet the following technical requirements:
  Ensure that WebApp1 can adjust the number of instances automatically based on the load and can scale up to five instances.
 
-[Image: 0058800007.png]
+{{img:/exam-media/az-104/T7-T16/0058800007.png}}
 
  Ensure that VM3 can establish outbound connections over TCP port 8080 to the applications servers in the Montreal office.
  Ensure that routing information is exchanged automatically between Azure and the routers in the Montreal office.
@@ -10398,7 +10373,7 @@ Overview -
  NOTE: Each correct selection is worth one point.
  Hot Area:
 
-[Image: 0058900009.png]
+{{img:/exam-media/az-104/T7-T16/0058900009.png}}
 
 - [x] A. Box1: Get-AzRoleDefinition
 - [x] B. Box2: ConvertTo-Json
@@ -10406,7 +10381,7 @@ Overview -
 - [ ] D. Box2: ConvertTo-Xml
 - [ ] E. Box2: ConvertFrom-Json
 
-## Q563 (Topic 7-16, Original #?)
+## Q558 (Topic 7-16, Original #?)
 
 Overview -
  Litware, Inc. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York.
@@ -10423,12 +10398,12 @@ Overview -
  Litware has data centers in the Montreal and Seattle offices. Each office has a firewall that can be configured as a VPN device.
  All infrastructure servers are virtualized. The virtualization environment contains the servers in the following table.
 
-[Image: 0058800001.png]
+{{img:/exam-media/az-104/T7-T16/0058800001.png}}
 
  Litware uses two web applications named App1 and App2. Each instance on each web application requires 1 GB of memory.
  The Azure subscription contains the resources in the following table.
 
-[Image: 0058800002.png]
+{{img:/exam-media/az-104/T7-T16/0058800002.png}}
 
  The network security team implements several network security groups (NSGs)
 
@@ -10445,7 +10420,7 @@ Overview -
  Litware must meet the following technical requirements:
  Ensure that WebApp1 can adjust the number of instances automatically based on the load and can scale up to five instances.
 
-[Image: 0058800007.png]
+{{img:/exam-media/az-104/T7-T16/0058800007.png}}
 
  Ensure that VM3 can establish outbound connections over TCP port 8080 to the applications servers in the Montreal office.
  Ensure that routing information is exchanged automatically between Azure and the routers in the Montreal office.

@@ -28,15 +28,25 @@ export function grade(q: Question, r: Response): GradeResult {
   }
   if (r.kind === 'dragdrop') {
     const targets = q.targets ?? [];
-    const expected = new Map<string, string>();
+    // A few source questions assign the identical correct value to two
+    // different targets (e.g. two dropdowns that both resolve to "SAS
+    // token") via two distinct option rows with the same text. The user
+    // can't tell those rows apart, so correctness is judged by the text
+    // they picked for each target, not which specific row's id happened to
+    // land there.
+    const textById = new Map((q.options ?? []).map((o) => [o.id, o.text]));
+    const expectedText = new Map<string, string>();
     for (const raw of q.correct ?? []) {
       const idx = raw.indexOf(':');
       if (idx <= 0) continue;
-      expected.set(raw.slice(0, idx), raw.slice(idx + 1));
+      const targetId = raw.slice(0, idx);
+      const optionId = raw.slice(idx + 1);
+      expectedText.set(targetId, textById.get(optionId) ?? optionId);
     }
     let got = 0;
     for (const t of targets) {
-      if (r.assignments[t.id] && r.assignments[t.id] === expected.get(t.id)) got += 1;
+      const assignedId = r.assignments[t.id];
+      if (assignedId && textById.get(assignedId) === expectedText.get(t.id)) got += 1;
     }
     return { correct: got === targets.length, partial: { got, total: targets.length } };
   }

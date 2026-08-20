@@ -59,7 +59,7 @@ export const az104Questions: Question[] = [
     topic: "Topic 1",
     prompt: "Your company has an Azure Active Directory (Azure AD) subscription.\n You want to implement an Azure AD conditional access policy.\n The policy must be configured to require members of the Global Administrators group to use Multi-Factor Authentication and an Azure AD-joined device when they connect to Azure AD from untrusted locations.\n Solution: You access the Azure portal to alter the session control of the Azure AD conditional access policy.\n Does the solution meet the goal?",
     keySource: "source",
-    explanation: "Source: Az-104 T1.apkg",
+    explanation: "Source: Az-104 T1.apkg #3",
     type: "single",
     options: [
       {
@@ -81,7 +81,7 @@ export const az104Questions: Question[] = [
     topic: "Topic 1",
     prompt: "Your company has an Azure Active Directory (Azure AD) subscription.\n You want to implement an Azure AD conditional access policy.\n The policy must be configured to require members of the Global Administrators group to use Multi-Factor Authentication and an Azure AD-joined device when they connect to Azure AD from untrusted locations.\n Solution: You access the Azure portal to alter the grant control of the Azure AD conditional access policy.\n Does the solution meet the goal?",
     keySource: "source",
-    explanation: "Source: Az-104 T1.apkg",
+    explanation: "Source: Az-104 T1.apkg #4",
     type: "single",
     options: [
       {
@@ -482,7 +482,7 @@ export const az104Questions: Question[] = [
     prompt: "DRAG DROP -\n  You have downloaded an Azure Resource Manager (ARM) template to deploy numerous virtual machines (VMs). The ARM template is based on a current VM, but must be adapted to reference an administrative password.\n You need to make sure that the password cannot be stored in plain text.\n You are preparing to create the necessary components to achieve your goal.\n Which of the following should you create to achieve your goal? Answer by dragging the correct option from the list to the answer area.",
     keySource: "source",
     explanation: "Source: Az-104 T1.apkg #20",
-    type: "multiple",
+    type: "drag-drop",
     options: [
       {
         id: "A",
@@ -505,9 +505,19 @@ export const az104Questions: Question[] = [
         text: "An Azure policy"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      }
+    ],
     correct: [
-      "A",
-      "D"
+      "t1:A",
+      "t2:D"
     ]
   },
   {
@@ -574,10 +584,10 @@ export const az104Questions: Question[] = [
     id: 23,
     number: 23,
     topic: "Topic 1",
-    prompt: "DRAG DROP -   Your company has an Azure subscription that includes a number of Azure virtual machines (VMs), which are all part of the same virtual network.   Your company also has an on-premises Hyper-V server that hosts a VM, named VM1, which must be replicated to Azure.   Which of the following objects that must be created to achieve this goal? Answer by dragging the correct option from the list to the answer area.   Select and Place:\n[Image: https://www.examtopics.com/assets/media/exam-media/04223/0002200001.png]",
+    prompt: "DRAG DROP -   Your company has an Azure subscription that includes a number of Azure virtual machines (VMs), which are all part of the same virtual network.   Your company also has an on-premises Hyper-V server that hosts a VM, named VM1, which must be replicated to Azure.   Which of the following objects that must be created to achieve this goal? Answer by dragging the correct option from the list to the answer area.   Select and Place:\n{{img:https://www.examtopics.com/assets/media/exam-media/04223/0002200001.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T1.apkg #23",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T1/0002300001.png}}\nSource: Az-104 T1.apkg #23",
+    type: "drag-drop",
     options: [
       {
         id: "A",
@@ -600,10 +610,24 @@ export const az104Questions: Question[] = [
         text: "Replication policy"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      },
+      {
+        id: "t3",
+        text: "Blank 3"
+      }
+    ],
     correct: [
-      "A",
-      "C",
-      "E"
+      "t1:A",
+      "t2:C",
+      "t3:E"
     ]
   },
   {
@@ -1064,10 +1088,10 @@ export const az104Questions: Question[] = [
     id: 41,
     number: 1,
     topic: "Topic 2",
-    prompt: "HOTSPOT -\nYou have an Azure subscription named Subscription1 that contains a resource group named RG1.\nIn RG1, you create an internal load balancer named LB1 and a public load balancer named LB2.\nYou need to ensure that an administrator named Admin1 can manage LB1 and LB2. The solution must follow the principle of least privilege.\nWhich role should you assign to Admin1 for each task? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:\n\n[Image: 0003600001.jpg]",
+    prompt: "HOTSPOT -\nYou have an Azure subscription named Subscription1 that contains a resource group named RG1.\nIn RG1, you create an internal load balancer named LB1 and a public load balancer named LB2.\nYou need to ensure that an administrator named Admin1 can manage LB1 and LB2. The solution must follow the principle of least privilege.\nWhich role should you assign to Admin1 for each task? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:\n\n{{img:/exam-media/az-104/T2/0003600001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T2.apkg #1",
-    type: "multiple",
+    explanation: "Reference: https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles\nSource: Az-104 T2.apkg #1",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
@@ -1090,9 +1114,19 @@ export const az104Questions: Question[] = [
         text: "Network Contributor on LB2"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      }
+    ],
     correct: [
-      "B",
-      "E"
+      "t1:B",
+      "t2:E"
     ]
   },
   {
@@ -1164,8 +1198,8 @@ export const az104Questions: Question[] = [
     id: 44,
     number: 4,
     topic: "Topic 2",
-    prompt: "You have an Azure Active Directory (Azure AD) tenant named contoso.com that contains the users shown in the following table:\n\n[Image: 0003900001.png]\n\n User3 is the owner of Group1.\n Group2 is a member of Group1.\n You configure an access review named Review1 as shown in the following exhibit:\n\n[Image: 0004000001-e122a8a0d4d3523af02ba45380ee892bd89f341e.jpg]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
-    keySource: "domain",
+    prompt: "You have an Azure Active Directory (Azure AD) tenant named contoso.com that contains the users shown in the following table:\n\n{{img:/exam-media/az-104/T2/0003900001.png}}\n\n User3 is the owner of Group1.\n Group2 is a member of Group1.\n You configure an access review named Review1 as shown in the following exhibit:\n\n{{img:/exam-media/az-104/T2/0004000001-e122a8a0d4d3523af02ba45380ee892bd89f341e.jpg}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
+    keySource: "source",
     explanation: "Source: Az-104 T2.apkg #4",
     type: "hotspot-boolean",
     statements: [
@@ -1190,8 +1224,8 @@ export const az104Questions: Question[] = [
     id: 45,
     number: 5,
     topic: "Topic 2",
-    prompt: "HOTSPOT -\n You have the Azure management groups shown in the following table:\n\n[Image: 0004200001.png]\n\n You add Azure subscriptions to the management groups as shown in the following table:\n\n[Image: 0004200002.png]\n\n You create the Azure policies shown in the following table:\n\n[Image: 0004200003.png]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
-    keySource: "domain",
+    prompt: "HOTSPOT -\n You have the Azure management groups shown in the following table:\n\n{{img:/exam-media/az-104/T2/0004200001.png}}\n\n You add Azure subscriptions to the management groups as shown in the following table:\n\n{{img:/exam-media/az-104/T2/0004200002.png}}\n\n You create the Azure policies shown in the following table:\n\n{{img:/exam-media/az-104/T2/0004200003.png}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
+    keySource: "source",
     explanation: "Source: Az-104 T2.apkg #5",
     type: "hotspot-boolean",
     statements: [
@@ -1216,7 +1250,7 @@ export const az104Questions: Question[] = [
     id: 46,
     number: 6,
     topic: "Topic 2",
-    prompt: "You have an Azure policy as shown in the following exhibit:\n\n[Image: 0004500001-4a3a2705483aaab78f28ec59a529ea8c5dfcf34b.png]\n\n What is the effect of the policy?",
+    prompt: "You have an Azure policy as shown in the following exhibit:\n\n{{img:/exam-media/az-104/T2/0004500001-4a3a2705483aaab78f28ec59a529ea8c5dfcf34b.png}}\n\n What is the effect of the policy?",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #6",
     type: "single",
@@ -1246,44 +1280,54 @@ export const az104Questions: Question[] = [
     id: 47,
     number: 7,
     topic: "Topic 2",
-    prompt: "HOTSPOT -\n You have an Azure subscription that contains the resources shown in the following table:\n\n[Image: 0004600001-2928bf7554bb2115aa77e1efcb1e244078cbc4fd.png]\n\n You assign a policy to RG6 as shown in the following table:\n o RG6, you apply the tag: RGroup: RG6.\n You deploy a virtual network named VNET2 to RG6.\n Which tags apply to VNET1 and VNET2? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0004700001.png]",
+    prompt: "HOTSPOT -\n You have an Azure subscription that contains the resources shown in the following table:\n\n{{img:/exam-media/az-104/T2/0004600001-2928bf7554bb2115aa77e1efcb1e244078cbc4fd.png}}\n\n You assign a policy to RG6 as shown in the following table:\n o RG6, you apply the tag: RGroup: RG6.\n You deploy a virtual network named VNET2 to RG6.\n Which tags apply to VNET1 and VNET2? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T2/0004700001.png}}",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #7",
-    type: "multiple",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "VNET1: None"
+        text: "None"
       },
       {
         id: "B",
-        text: "VNET1: Department: D1 only"
+        text: "Department: D1 only"
       },
       {
         id: "C",
-        text: "VNET1: D1, and Label:Value1 only"
+        text: "D1, and Label:Value1 only"
       },
       {
         id: "D",
-        text: "VNET2: None"
+        text: "None"
       },
       {
         id: "E",
-        text: "VNET2: Label:Value1 only"
+        text: "Label:Value1 only"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "VNET1"
+      },
+      {
+        id: "t2",
+        text: "VNET2"
       }
     ],
     correct: [
-      "B",
-      "E"
+      "t1:B",
+      "t2:E"
     ]
   },
   {
     id: 48,
     number: 8,
     topic: "Topic 2",
-    prompt: "You have an Azure subscription named AZPT1 that contains the resources shown in the following table:\n\n[Image: 0004900001.png]\n\n You create a new Azure subscription named AZPT2.\n You need to identify which resources can be moved to AZPT2.\n Which resources should you identify?",
+    prompt: "You have an Azure subscription named AZPT1 that contains the resources shown in the following table:\n\n{{img:/exam-media/az-104/T2/0004900001.png}}\n\n You create a new Azure subscription named AZPT2.\n You need to identify which resources can be moved to AZPT2.\n Which resources should you identify?",
     keySource: "source",
-    explanation: "Source: Az-104 T2.apkg #8",
+    explanation: "Recovery Services vault (RVAULT1)  → ❌ cannot be moved across subscriptions.\nSource: Az-104 T2.apkg #8",
     type: "single",
     options: [
       {
@@ -1457,7 +1501,7 @@ export const az104Questions: Question[] = [
     id: 54,
     number: 14,
     topic: "Topic 2",
-    prompt: "You have Azure Active Directory tenant named Contoso.com that includes following users:\n\n[Image: 0005300004.png]\n\n Contoso.com includes following Windows 10 devices:\n\n[Image: 0005300005.png]\n\n You create following security groups in Contoso.com:\n\n[Image: 0005400001-c06b6be2e9cac3290a6ef3fe22a40955065c232e.png]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
+    prompt: "You have Azure Active Directory tenant named Contoso.com that includes following users:\n\n{{img:/exam-media/az-104/T2/0005300004.png}}\n\n Contoso.com includes following Windows 10 devices:\n\n{{img:/exam-media/az-104/T2/0005300005.png}}\n\n You create following security groups in Contoso.com:\n\n{{img:/exam-media/az-104/T2/0005400001-c06b6be2e9cac3290a6ef3fe22a40955065c232e.png}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #14",
     type: "hotspot-boolean",
@@ -1483,7 +1527,7 @@ export const az104Questions: Question[] = [
     id: 55,
     number: 15,
     topic: "Topic 2",
-    prompt: "You have an Azure subscription that contains a resource group named RG26.\n RG26 is set to the West Europe location and is used to create temporary resources for a project. RG26 contains the resources shown in the following table.\n\n[Image: 0005600001.jpg]\n\n SQLDB01 is backed up to RGV1.\n When the project is complete, you attempt to delete RG26 from the Azure portal. The deletion fails.\n You need to delete RG26.\n What should you do first?",
+    prompt: "You have an Azure subscription that contains a resource group named RG26.\n RG26 is set to the West Europe location and is used to create temporary resources for a project. RG26 contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T2/0005600001.jpg}}\n\n SQLDB01 is backed up to RGV1.\n When the project is complete, you attempt to delete RG26 from the Azure portal. The deletion fails.\n You need to delete RG26.\n What should you do first?",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #15",
     type: "single",
@@ -1639,10 +1683,10 @@ export const az104Questions: Question[] = [
     id: 61,
     number: 21,
     topic: "Topic 2",
-    prompt: "DRAG DROP -\nYou have an Azure subscription that is used by four departments in your company. The subscription contains 10 resource groups. Each department uses resources in several resource groups.\nYou need to send a report to the finance department. The report must detail the costs for each department.\nWhich three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.\nSelect and Place:\n\n[Image: 0006100001-113fdc6717317bfd6fbdf8e4352a87b2f0e83933.png]",
+    prompt: "DRAG DROP -\nYou have an Azure subscription that is used by four departments in your company. The subscription contains 10 resource groups. Each department uses resources in several resource groups.\nYou need to send a report to the finance department. The report must detail the costs for each department.\nWhich three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.\nSelect and Place:\n\n{{img:/exam-media/az-104/T2/0006100001-113fdc6717317bfd6fbdf8e4352a87b2f0e83933.png}}",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #21",
-    type: "multiple",
+    type: "drag-drop",
     options: [
       {
         id: "A",
@@ -1665,10 +1709,24 @@ export const az104Questions: Question[] = [
         text: "Open the Resource costs blade of each resource group"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      },
+      {
+        id: "t3",
+        text: "Blank 3"
+      }
+    ],
     correct: [
-      "A",
-      "B",
-      "C"
+      "t1:A",
+      "t2:B",
+      "t3:C"
     ]
   },
   {
@@ -1705,7 +1763,7 @@ export const az104Questions: Question[] = [
     id: 63,
     number: 23,
     topic: "Topic 2",
-    prompt: "You have an Azure subscription that contains a virtual network named VNET1 in the East US 2 region. A network interface named VM1-NI is connected to\n VNET1.\n You successfully deploy the following Azure Resource Manager template.\n\n[Image: 0006500001.jpg]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
+    prompt: "You have an Azure subscription that contains a virtual network named VNET1 in the East US 2 region. A network interface named VM1-NI is connected to\n VNET1.\n You successfully deploy the following Azure Resource Manager template.\n\n{{img:/exam-media/az-104/T2/0006500001.jpg}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #23",
     type: "hotspot-boolean",
@@ -1731,7 +1789,7 @@ export const az104Questions: Question[] = [
     id: 64,
     number: 24,
     topic: "Topic 2",
-    prompt: "You have an Azure subscription named Subscription1. Subscription1 contains the resource groups in the following table.\n\n[Image: 0006700001-f0320ccb703b4fba923c55ea94156fcd73a6696e.png]\n\n RG1 has a web app named WebApp1. WebApp1 is located in West Europe.\n You move WebApp1 to RG2.\n What is the effect of the move?",
+    prompt: "You have an Azure subscription named Subscription1. Subscription1 contains the resource groups in the following table.\n\n{{img:/exam-media/az-104/T2/0006700001-f0320ccb703b4fba923c55ea94156fcd73a6696e.png}}\n\n RG1 has a web app named WebApp1. WebApp1 is located in West Europe.\n You move WebApp1 to RG2.\n What is the effect of the move?",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #24",
     type: "single",
@@ -1761,10 +1819,10 @@ export const az104Questions: Question[] = [
     id: 65,
     number: 25,
     topic: "Topic 2",
-    prompt: "You have an Azure subscription named Subscription1 that has a subscription ID of c276fc76-9cd4-44c9-99a7-4fd71546436e.\nYou need to create a custom RBAC role named CR1 that meets the following requirements:\n✑ Can be assigned only to the resource groups in Subscription1\n✑ Prevents the management of the access permissions for the resource groups\n✑ Allows the viewing, creating, modifying, and deleting of resources within the resource groups\nWhat should you specify in the assignable scopes and the permission elements of the definition of CR1? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:\n\n[Image: 0006900001.jpg]",
+    prompt: "You have an Azure subscription named Subscription1 that has a subscription ID of c276fc76-9cd4-44c9-99a7-4fd71546436e.\nYou need to create a custom RBAC role named CR1 that meets the following requirements:\n✑ Can be assigned only to the resource groups in Subscription1\n✑ Prevents the management of the access permissions for the resource groups\n✑ Allows the viewing, creating, modifying, and deleting of resources within the resource groups\nWhat should you specify in the assignable scopes and the permission elements of the definition of CR1? To answer, select the appropriate options in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:\n\n{{img:/exam-media/az-104/T2/0006900001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T2.apkg #25",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T2/image889.png}}\nSource: Az-104 T2.apkg #25",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
@@ -1787,9 +1845,19 @@ export const az104Questions: Question[] = [
         text: "Microsoft.Security/"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      }
+    ],
     correct: [
-      "B",
-      "C"
+      "t1:B",
+      "t2:C"
     ]
   },
   {
@@ -1861,36 +1929,36 @@ export const az104Questions: Question[] = [
     id: 68,
     number: 28,
     topic: "Topic 2",
-    prompt: "HOTSPOT -\nYou have an Azure Active Directory (Azure AD) tenant.\nYou need to create a conditional access policy that requires all users to use multi-factor authentication when they access the Azure portal.\nWhich three settings should you configure? To answer, select the appropriate settings in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:\n\n[Image: 0007300001.png]",
+    prompt: "HOTSPOT -\nYou have an Azure Active Directory (Azure AD) tenant.\nYou need to create a conditional access policy that requires all users to use multi-factor authentication when they access the Azure portal.\nWhich three settings should you configure? To answer, select the appropriate settings in the answer area.\nNOTE: Each correct selection is worth one point.\nHot Area:\n\n{{img:/exam-media/az-104/T2/0007300001.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T2.apkg #28",
-    type: "multiple",
-    options: [
+    explanation: "{{img:/exam-media/az-104/T2/0007500001.png}}\n  The Answer is correct .\n- Select Users & Groups : Where you have to choose all users.\n- Select Cloud apps or actions: to specify the Azure portal\n- Grant: to grant the MFA.\nThose are the minimum requirements to create MFA policy. No conditions are required in the question.\nReference: https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/app-based-mfa\nSource: Az-104 T2.apkg #28",
+    type: "hotspot-boolean",
+    statements: [
       {
-        id: "A",
-        text: "Users and Group"
+        id: "s1",
+        text: "Users and Group",
+        answer: true
       },
       {
-        id: "B",
-        text: "Cloud Apps"
+        id: "s2",
+        text: "Cloud Apps",
+        answer: true
       },
       {
-        id: "C",
-        text: "Conditions"
+        id: "s3",
+        text: "Conditions",
+        answer: false
       },
       {
-        id: "D",
-        text: "Grant"
+        id: "s4",
+        text: "Grant",
+        answer: true
       },
       {
-        id: "E",
-        text: "Session"
+        id: "s5",
+        text: "Session",
+        answer: false
       }
-    ],
-    correct: [
-      "A",
-      "B",
-      "D"
     ]
   },
   {
@@ -1957,70 +2025,81 @@ export const az104Questions: Question[] = [
     id: 71,
     number: 31,
     topic: "Topic 2",
-    prompt: "HOTSPOT -\n You have an Azure Active Directory (Azure AD) tenant named adatum.com. Adatum.com contains the groups in the following table.\n\n[Image: 0007800001.jpg]\n\n You create two user accounts that are configured as shown in the following table.\n\n[Image: 0007800002.png]\n\n Of which groups are User1 and User2 members? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0007900001-5ca3cb8b53698a9e7d9013327a1396f5a8961bfe.png]",
+    prompt: "HOTSPOT -\n You have an Azure Active Directory (Azure AD) tenant named adatum.com. Adatum.com contains the groups in the following table.\n\n{{img:/exam-media/az-104/T2/0007800001.jpg}}\n\n You create two user accounts that are configured as shown in the following table.\n\n{{img:/exam-media/az-104/T2/0007800002.png}}\n\n Of which groups are User1 and User2 members? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T2/0007900001-5ca3cb8b53698a9e7d9013327a1396f5a8961bfe.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T2.apkg #31",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T2/0008000001.png}}\nReference: https://docs.microsoft.com/en-us/sccm/core/clients/manage/collections/create-collections\nSource: Az-104 T2.apkg #31",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "User1: Group1 only"
+        text: "Group1 only"
       },
       {
         id: "B",
-        text: "User2: Group1 and Group2 only"
+        text: "Group1 and Group2 only"
       },
       {
         id: "C",
-        text: "User1: Group2 only"
+        text: "Group2 only"
       },
       {
         id: "D",
-        text: "User1: Group3 only"
+        text: "Group3 only"
       },
       {
         id: "E",
-        text: "User2: Group2 and Group3 only"
+        text: "Group2 and Group3 only"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "User1"
+      },
+      {
+        id: "t2",
+        text: "User2"
       }
     ],
     correct: [
-      "A",
-      "B"
+      "t1:A",
+      "t2:B"
     ]
   },
   {
     id: 72,
     number: 32,
     topic: "Topic 2",
-    prompt: "You have a hybrid deployment of Azure Active Directory (Azure AD) that contains the users shown in the following table.\n\n[Image: 0008100001.png]\n\n You need to modify the JobTitle and UsageLocation attributes for the users.\n For which users can you modify the attributes from Azure AD? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0008200001.png]",
+    prompt: "You have a hybrid deployment of Azure Active Directory (Azure AD) that contains the users shown in the following table.\n\n{{img:/exam-media/az-104/T2/0008100001.png}}\n\n You need to modify the JobTitle and UsageLocation attributes for the users.\n For which users can you modify the attributes from Azure AD? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T2/0008200001.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T2.apkg #32",
-    type: "multiple",
-    options: [
+    explanation: "{{img:/exam-media/az-104/T2/0008300001.png}}\nReference: https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal\nSource: Az-104 T2.apkg #32",
+    type: "hotspot-boolean",
+    statements: [
       {
-        id: "A",
-        text: "JobTitle: User1 only"
+        id: "s1",
+        text: "JobTitle: User1 only",
+        answer: false
       },
       {
-        id: "B",
-        text: "UsageLocation: User1 and User2 only"
+        id: "s2",
+        text: "UsageLocation: User1 and User2 only",
+        answer: true
       },
       {
-        id: "C",
-        text: "JobTitle: User1 and User3 only"
+        id: "s3",
+        text: "JobTitle: User1 and User3 only",
+        answer: false
       },
       {
-        id: "D",
-        text: "UsageLocation: User1, User2, and User3"
+        id: "s4",
+        text: "UsageLocation: User1, User2, and User3",
+        answer: true
       },
       {
-        id: "E",
-        text: "UsageLocation: User1 and User3 only"
+        id: "s5",
+        text: "UsageLocation: User1 and User3 only",
+        answer: false
       }
-    ],
-    correct: [
-      "B",
-      "D"
     ]
   },
   {
@@ -2123,7 +2202,7 @@ export const az104Questions: Question[] = [
     id: 77,
     number: 37,
     topic: "Topic 2",
-    prompt: "You have an Azure Active Directory (Azure AD) tenant that contains three global administrators named Admin1, Admin2, and Admin3.\n The tenant is associated to an Azure subscription. Access control for the subscription is configured as shown in the Access control exhibit. (Click the Access\n Control tab.)\n\n[Image: 0008700001.jpg]\n\n You sign in to the Azure portal as Admin1 and configure the tenant as shown in the Tenant exhibit. (Click the Tenant tab.)\n\n[Image: 0008800001.jpg]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
+    prompt: "You have an Azure Active Directory (Azure AD) tenant that contains three global administrators named Admin1, Admin2, and Admin3.\n The tenant is associated to an Azure subscription. Access control for the subscription is configured as shown in the Access control exhibit. (Click the Access\n Control tab.)\n\n{{img:/exam-media/az-104/T2/0008700001.jpg}}\n\n You sign in to the Azure portal as Admin1 and configure the tenant as shown in the Tenant exhibit. (Click the Tenant tab.)\n\n{{img:/exam-media/az-104/T2/0008800001.jpg}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #37",
     type: "hotspot-boolean",
@@ -2179,7 +2258,7 @@ export const az104Questions: Question[] = [
     id: 79,
     number: 39,
     topic: "Topic 2",
-    prompt: "You have an Azure subscription that contains a resource group named TestRG.\n You use TestRG to validate an Azure deployment.\n TestRG contains the following resources:\n\n[Image: 0009100001.png]\n\n You need to delete TestRG.\n What should you do first?",
+    prompt: "You have an Azure subscription that contains a resource group named TestRG.\n You use TestRG to validate an Azure deployment.\n TestRG contains the following resources:\n\n{{img:/exam-media/az-104/T2/0009100001.png}}\n\n You need to delete TestRG.\n What should you do first?",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #39",
     type: "single",
@@ -2239,10 +2318,10 @@ export const az104Questions: Question[] = [
     id: 81,
     number: 41,
     topic: "Topic 2",
-    prompt: "DRAG DROP -\n You have an Azure Active Directory (Azure AD) tenant that has the contoso.onmicrosoft.com domain name.\n You have a domain name of contoso.com registered at a third-party registrar.\n You need to ensure that you can create Azure AD users that have names containing a suffix of @contoso.com.\n Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.\n Select and Place:\n\n[Image: 0009300001.jpg]",
+    prompt: "DRAG DROP -\n You have an Azure Active Directory (Azure AD) tenant that has the contoso.onmicrosoft.com domain name.\n You have a domain name of contoso.com registered at a third-party registrar.\n You need to ensure that you can create Azure AD users that have names containing a suffix of @contoso.com.\n Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.\n Select and Place:\n\n{{img:/exam-media/az-104/T2/0009300001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T2.apkg #41",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T2/0009300002.jpg}}\n = Correct order\nSource: Az-104 T2.apkg #41",
+    type: "drag-drop",
     options: [
       {
         id: "A",
@@ -2265,36 +2344,28 @@ export const az104Questions: Question[] = [
         text: "Create an Azure DNS zone"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      },
+      {
+        id: "t3",
+        text: "Blank 3"
+      }
+    ],
     correct: [
-      "A",
-      "B",
-      "C"
+      "t1:A",
+      "t2:B",
+      "t3:C"
     ]
   },
   {
     id: 82,
-    number: 42,
-    topic: "Topic 2",
-    prompt: "duplicate of #22",
-    keySource: "domain",
-    explanation: "Source: Az-104 T2.apkg #42",
-    type: "single",
-    options: [
-      {
-        id: "A",
-        text: "No options extracted"
-      },
-      {
-        id: "B",
-        text: "Other / unsure"
-      }
-    ],
-    correct: [
-      "A"
-    ]
-  },
-  {
-    id: 83,
     number: 43,
     topic: "Topic 2",
     prompt: "You have a registered DNS domain named contoso.com.\n You create a public Azure DNS zone named contoso.com.\n You need to ensure that records created in the contoso.com zone are resolvable from the internet.\n What should you do?",
@@ -2324,10 +2395,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 84,
+    id: 83,
     number: 44,
     topic: "Topic 2",
-    prompt: "You have an Azure subscription that contains a storage account named storage1. The subscription is linked to an Azure Active Directory (Azure AD) tenant named contoso.com that syncs to an on-premises Active Directory domain.\n The domain contains the security principals shown in the following table.\n\n[Image: 0009600001.png]\n\n In Azure AD, you create a user named User2.\n The storage1 account contains a file share named share1 and has the following configurations.\n\n[Image: 0009600002.png]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
+    prompt: "You have an Azure subscription that contains a storage account named storage1. The subscription is linked to an Azure Active Directory (Azure AD) tenant named contoso.com that syncs to an on-premises Active Directory domain.\n The domain contains the security principals shown in the following table.\n\n{{img:/exam-media/az-104/T2/0009600001.png}}\n\n In Azure AD, you create a user named User2.\n The storage1 account contains a file share named share1 and has the following configurations.\n\n{{img:/exam-media/az-104/T2/0009600002.png}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #44",
     type: "hotspot-boolean",
@@ -2350,13 +2421,13 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 85,
+    id: 84,
     number: 45,
     topic: "Topic 2",
-    prompt: "You have an Azure subscription named Subscription1 that contains a virtual network VNet1.\n You add the users in the following table.\n\n[Image: 0009700003.png]\n\n Which user can perform each configuration? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0009800001.jpg]",
+    prompt: "You have an Azure subscription named Subscription1 that contains a virtual network VNet1.\n You add the users in the following table.\n\n{{img:/exam-media/az-104/T2/0009700003.png}}\n\n Which user can perform each configuration? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T2/0009800001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T2.apkg #45",
-    type: "multiple",
+    explanation: "Box 1: User1 and User3 only.\n User1: The Owner Role lets you manage everything, including access to resources.\n User3: The Network Contributor role lets you manage networks, including creating subnets.\n Box 2: User1 only.\n The Security Admin role: In Security Center only: Can view security policies, view security states, edit security policies, view alerts and recommendations, dismiss alerts and recommendations.\n\n{{img:/exam-media/az-104/T2/0009900001-fb8dcf3086c091d20063d5214989f134780869ac.jpg}}\nSource: Az-104 T2.apkg #45",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
@@ -2379,48 +2450,68 @@ export const az104Questions: Question[] = [
         text: "Assign a user the Reader role to VNet1: User3 only"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      }
+    ],
     correct: [
-      "A",
-      "C"
+      "t1:A",
+      "t2:C"
+    ]
+  },
+  {
+    id: 85,
+    number: 46,
+    topic: "Topic 2",
+    prompt: "You have the Azure resources shown on the following exhibit.\n\n{{img:/exam-media/az-104/T2/0010000001.jpg}}\n\n You plan to track resource usage and prevent the deletion of resources.\n To which resources can you apply locks and tags? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T2/0010100001.png}}",
+    keySource: "source",
+    explanation: "Source: Az-104 T2.apkg #46",
+    type: "hotspot-dropdown",
+    options: [
+      {
+        id: "A",
+        text: "Sub1,RG1, and Vm1 only"
+      },
+      {
+        id: "B",
+        text: "Rg1 and Vm1 only"
+      },
+      {
+        id: "C",
+        text: "Sub1, Rg1, and Vm1 only"
+      },
+      {
+        id: "D",
+        text: "Tenant Root Group, Mg1, Sub1, Rg1, and VM1"
+      },
+      {
+        id: "E",
+        text: "Sub1 and RG1 only"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "Locks"
+      },
+      {
+        id: "t2",
+        text: "Tags"
+      }
+    ],
+    correct: [
+      "t1:A",
+      "t2:C"
     ]
   },
   {
     id: 86,
-    number: 46,
-    topic: "Topic 2",
-    prompt: "You have the Azure resources shown on the following exhibit.\n\n[Image: 0010000001.jpg]\n\n You plan to track resource usage and prevent the deletion of resources.\n To which resources can you apply locks and tags? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0010100001.png]",
-    keySource: "source",
-    explanation: "Source: Az-104 T2.apkg #46",
-    type: "multiple",
-    options: [
-      {
-        id: "A",
-        text: "Locks: Sub1,RG1, and Vm1 only"
-      },
-      {
-        id: "B",
-        text: "Locks: Rg1 and Vm1 only"
-      },
-      {
-        id: "C",
-        text: "Tags: Sub1, Rg1, and Vm1 only"
-      },
-      {
-        id: "D",
-        text: "Tags: Tenant Root Group, Mg1, Sub1, Rg1, and VM1"
-      },
-      {
-        id: "E",
-        text: "Tags: Sub1 and RG1 only"
-      }
-    ],
-    correct: [
-      "A",
-      "C"
-    ]
-  },
-  {
-    id: 87,
     number: 47,
     topic: "Topic 2",
     prompt: "You have an Azure Active Directory (Azure AD) tenant.\n You plan to delete multiple users by using Bulk delete in the Azure Active Directory admin center.\n You need to create and upload a file for the bulk delete.\n Which user attributes should you include in the file?",
@@ -2454,12 +2545,12 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 88,
+    id: 87,
     number: 48,
     topic: "Topic 2",
-    prompt: "You have an Azure subscription named Sub1 that contains the Azure resources shown in the following table.\n\n[Image: 0010400001-86c2938f5b408bb8ed5e17225e4f910989158b34.png]\n\n You assign an Azure policy that has the following settings:\n ✑ Scope: Sub1\n ✑ Exclusions: Sub1/RG1/VNET1\n ✑ Policy definition: Append a tag and its value to resources\n ✑ Policy enforcement: Enabled\n ✑ Tag name: Tag4\n ✑ Tag value: value4\n You assign tags to the resources as shown in the following table.\n\n[Image: 0010400008.png]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
-    keySource: "domain",
-    explanation: "Source: Az-104 T2.apkg #48",
+    prompt: "You have an Azure subscription named Sub1 that contains the Azure resources shown in the following table.\n\n{{img:/exam-media/az-104/T2/0010400001-86c2938f5b408bb8ed5e17225e4f910989158b34.png}}\n\n You assign an Azure policy that has the following settings:\n ✑ Scope: Sub1\n ✑ Exclusions: Sub1/RG1/VNET1\n ✑ Policy definition: Append a tag and its value to resources\n ✑ Policy enforcement: Enabled\n ✑ Tag name: Tag4\n ✑ Tag value: value4\n You assign tags to the resources as shown in the following table.\n\n{{img:/exam-media/az-104/T2/0010400008.png}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
+    keySource: "source",
+    explanation: "Box 1: No -\n The Azure Policy will add Tag4 to RG1.\n\n Box 2: No -\n Tags applied to the resource group or subscription aren't inherited by the resources although you can enable inheritance with Azure Policy. Storage1 has Tag3:\n Value1 and the Azure Policy will add Tag4.\n\n Box 3: No -\n Tags applied to the resource group or subscription aren't inherited by the resources so VNET1 does not have Tag2.\n VNET1 has Tag3:value2. VNET1 is excluded from the Azure Policy so Tag4 will not be added to VNET1.\nReference: https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources?tabs=json\nSource: Az-104 T2.apkg #48",
     type: "hotspot-boolean",
     statements: [
       {
@@ -2480,7 +2571,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 89,
+    id: 88,
     number: 49,
     topic: "Topic 2",
     prompt: "You need to ensure that an Azure Active Directory (Azure AD) user named Admin1 is assigned the required role to enable Traffic Analytics for an Azure subscription.\n Solution: You assign the Traffic Manager Contributor role at the subscription level to Admin1.\n Does this meet the goal?",
@@ -2502,7 +2593,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 90,
+    id: 89,
     number: 50,
     topic: "Topic 2",
     prompt: "You have three offices and an Azure subscription that contains an Azure Active Directory (Azure AD) tenant.\n You need to grant user management permissions to a local administrator in each office.\n What should you use?",
@@ -2532,7 +2623,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 91,
+    id: 90,
     number: 51,
     topic: "Topic 2",
     prompt: "You have an Azure Directory (Azure AD) tenant named Adatum and an Azure Subscription named Subscription1. Adatum contains a group named Developers.\n Subscription1 contains a resource group named Dev.\n You need to provide the Developers group with the ability to create Azure logic apps in the Dev resource group.\n Solution: On Dev, you assign the Logic App Contributor role to the Developers group.\n Does this meet the goal?",
@@ -2554,13 +2645,13 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 92,
+    id: 91,
     number: 52,
     topic: "Topic 2",
-    prompt: "You have an Azure Load Balancer named LB1.\n You assign a user named User1 the roles shown in the following exhibit.\n\n[Image: 0010800001.jpg]\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0010900001.jpg]",
+    prompt: "You have an Azure Load Balancer named LB1.\n You assign a user named User1 the roles shown in the following exhibit.\n\n{{img:/exam-media/az-104/T2/0010800001.jpg}}\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T2/0010900001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T2.apkg #52",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T2/0010900002.jpg}}\nReference: https://docs.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles ,   https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#virtual-machine-contributor\nSource: Az-104 T2.apkg #52",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
@@ -2583,69 +2674,68 @@ export const az104Questions: Question[] = [
         text: "User1 can modify the load balancing rules in the resource group"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      }
+    ],
     correct: [
-      "C",
-      "D"
+      "t1:C",
+      "t2:D"
+    ]
+  },
+  {
+    id: 92,
+    number: 54,
+    topic: "Topic 2",
+    prompt: "HOTSPOT -\n You configure the custom role shown in the following exhibit.\n\n{{img:/exam-media/az-104/T2/0011200001.png}}\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T2/0011300001.png}}",
+    keySource: "source",
+    explanation: "{{img:/exam-media/az-104/T2/image891.png}}\nSource: Az-104 T2.apkg #54",
+    type: "hotspot-dropdown",
+    options: [
+      {
+        id: "A",
+        text: "actions"
+      },
+      {
+        id: "B",
+        text: "roletype"
+      },
+      {
+        id: "C",
+        text: "notActions"
+      },
+      {
+        id: "D",
+        text: "dataActions"
+      },
+      {
+        id: "E",
+        text: "assignableScopes"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "#1"
+      },
+      {
+        id: "t2",
+        text: "#2"
+      }
+    ],
+    correct: [
+      "t1:D",
+      "t2:E"
     ]
   },
   {
     id: 93,
-    number: 53,
-    topic: "Topic 2",
-    prompt: "Copy of #16",
-    keySource: "domain",
-    explanation: "Source: Az-104 T2.apkg #53",
-    type: "single",
-    options: [
-      {
-        id: "A",
-        text: "No options extracted"
-      },
-      {
-        id: "B",
-        text: "Other / unsure"
-      }
-    ],
-    correct: [
-      "A"
-    ]
-  },
-  {
-    id: 94,
-    number: 54,
-    topic: "Topic 2",
-    prompt: "HOTSPOT -\n You configure the custom role shown in the following exhibit.\n\n[Image: 0011200001.png]\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0011300001.png]",
-    keySource: "source",
-    explanation: "Source: Az-104 T2.apkg #54",
-    type: "single",
-    options: [
-      {
-        id: "A",
-        text: "#1: actions"
-      },
-      {
-        id: "B",
-        text: "#1: roletype"
-      },
-      {
-        id: "C",
-        text: "#2: notActions"
-      },
-      {
-        id: "D",
-        text: "#1: dataActions"
-      },
-      {
-        id: "E",
-        text: "#2: assignableScopes"
-      }
-    ],
-    correct: [
-      "D"
-    ]
-  },
-  {
-    id: 95,
     number: 55,
     topic: "Topic 2",
     prompt: "You have an Azure subscription that contains a storage account named storage1. The storage1 account contains a file share named share1.\n The subscription is linked to a hybrid Azure Active Directory (Azure AD) tenant that contains a security group named Group1.\n You need to grant Group1 the Storage File Data SMB Share Elevated Contributor role for share1.\n What should you do first?",
@@ -2675,7 +2765,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 96,
+    id: 94,
     number: 56,
     topic: "Topic 2",
     prompt: "You have 15 Azure subscriptions.\n You have an Azure Active Directory (Azure AD) tenant that contains a security group named Group1.\n You plan to purchase additional Azure subscription.\n You need to ensure that Group1 can manage role assignments for the existing subscriptions and the planned subscriptions. The solution must meet the following requirements:\n ✑ Use the principle of least privilege.\n ✑ Minimize administrative effort.\n What should you do?",
@@ -2705,45 +2795,55 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 97,
+    id: 95,
     number: 57,
     topic: "Topic 2",
-    prompt: "HOTSPOT -\n You have an Azure subscription that contains the hierarchy shown in the following exhibit.\n\n[Image: 0011800001-af958f9523f284c1fe71f23a61eca16a25579b0d.png]\n\n You create an Azure Policy definition named Policy1.\n To which Azure resources can you assign Policy1 and which Azure resources can you specify as exclusions from Policy1? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0011900001.png]",
+    prompt: "HOTSPOT -\n You have an Azure subscription that contains the hierarchy shown in the following exhibit.\n\n{{img:/exam-media/az-104/T2/0011800001-af958f9523f284c1fe71f23a61eca16a25579b0d.png}}\n\n You create an Azure Policy definition named Policy1.\n To which Azure resources can you assign Policy1 and which Azure resources can you specify as exclusions from Policy1? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T2/0011900001.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T2.apkg #57",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T2/image892.png}}\nSource: Az-104 T2.apkg #57",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "You can assign Policy1 to: Subscription1 and RG1 only"
+        text: "Subscription1 and RG1 only"
       },
       {
         id: "B",
-        text: "You can assign Policy1 to: Tenant Root Group, ManagementGroup1, Subscription1 and RG1 only"
+        text: "Tenant Root Group, ManagementGroup1, Subscription1 and RG1 only"
       },
       {
         id: "C",
-        text: "You can assign Policy1 to: Tenant Root Group, ManagementGroup1, Subscription1, RG1 and VM1"
+        text: "Tenant Root Group, ManagementGroup1, Subscription1, RG1 and VM1"
       },
       {
         id: "D",
-        text: "You can exclude Policy1 from: ManagementGroup1, Subscription1, RG1 and VM1 only"
+        text: "ManagementGroup1, Subscription1, RG1 and VM1 only"
       },
       {
         id: "E",
-        text: "You can exclude Policy1 from: Rg1 and VM1 only"
+        text: "Rg1 and VM1 only"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "You can assign Policy1 to"
+      },
+      {
+        id: "t2",
+        text: "You can exclude Policy1 from"
       }
     ],
     correct: [
-      "B",
-      "D"
+      "t1:B",
+      "t2:D"
     ]
   },
   {
-    id: 98,
+    id: 96,
     number: 58,
     topic: "Topic 2",
-    prompt: "You have an Azure subscription that contains the following users in an Azure Active Directory tenant named contoso.onmicrosoft.com:\n\n[Image: 0012100001-0e7a6c953f065195fcc0d5360891c7835b7b6e8e.png]\n\n User1 creates a new Azure Active Directory tenant named external.contoso.onmicrosoft.com.\n You need to create new user accounts in external.contoso.onmicrosoft.com.\n Solution: You instruct User2 to create the user accounts.\n Does that meet the goal?",
+    prompt: "You have an Azure subscription that contains the following users in an Azure Active Directory tenant named contoso.onmicrosoft.com:\n\n{{img:/exam-media/az-104/T2/0012100001-0e7a6c953f065195fcc0d5360891c7835b7b6e8e.png}}\n\n User1 creates a new Azure Active Directory tenant named external.contoso.onmicrosoft.com.\n You need to create new user accounts in external.contoso.onmicrosoft.com.\n Solution: You instruct User2 to create the user accounts.\n Does that meet the goal?",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #58",
     type: "single",
@@ -2762,10 +2862,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 99,
+    id: 97,
     number: 59,
     topic: "Topic 2",
-    prompt: "You have an Azure subscription that contains the following users in an Azure Active Directory tenant named contoso.onmicrosoft.com:\n\n[Image: 0012200001.png]\n\n User1 creates a new Azure Active Directory tenant named external.contoso.onmicrosoft.com.\n You need to create new user accounts in external.contoso.onmicrosoft.com.\n Solution: You instruct User4 to create the user accounts.\n Does that meet the goal?",
+    prompt: "You have an Azure subscription that contains the following users in an Azure Active Directory tenant named contoso.onmicrosoft.com:\n\n{{img:/exam-media/az-104/T2/0012200001.png}}\n\n User1 creates a new Azure Active Directory tenant named external.contoso.onmicrosoft.com.\n You need to create new user accounts in external.contoso.onmicrosoft.com.\n Solution: You instruct User4 to create the user accounts.\n Does that meet the goal?",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #59",
     type: "single",
@@ -2784,10 +2884,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 100,
+    id: 98,
     number: 60,
     topic: "Topic 2",
-    prompt: "You have an Azure subscription that contains the following users in an Azure Active Directory tenant named contoso.onmicrosoft.com:\n\n[Image: 0012300001-0e7a6c953f065195fcc0d5360891c7835b7b6e8e.png]\n\n User1 creates a new Azure Active Directory tenant named external.contoso.onmicrosoft.com.\n You need to create new user accounts in external.contoso.onmicrosoft.com.\n Solution: You instruct User3 to create the user accounts.\n Does that meet the goal?",
+    prompt: "You have an Azure subscription that contains the following users in an Azure Active Directory tenant named contoso.onmicrosoft.com:\n\n{{img:/exam-media/az-104/T2/0012300001-0e7a6c953f065195fcc0d5360891c7835b7b6e8e.png}}\n\n User1 creates a new Azure Active Directory tenant named external.contoso.onmicrosoft.com.\n You need to create new user accounts in external.contoso.onmicrosoft.com.\n Solution: You instruct User3 to create the user accounts.\n Does that meet the goal?",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #60",
     type: "single",
@@ -2806,7 +2906,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 101,
+    id: 99,
     number: 61,
     topic: "Topic 2",
     prompt: "You have two Azure subscriptions named Sub1 and Sub2.\n An administrator creates a custom role that has an assignable scope to a resource group named RG1 in Sub1.\n You need to ensure that you can apply the custom role to any resource group in Sub1 and Sub2. The solution must minimize administrative effort.\n What should you do?",
@@ -2836,10 +2936,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 102,
+    id: 100,
     number: 62,
     topic: "Topic 2",
-    prompt: "You have an Azure Subscription that contains a storage account named storageacct1234 and two users named User1 and User2.\n You assign User1 the roles shown in the following exhibit.\n\n[Image: 0012500001.jpg]\n\n Which two actions can User1 perform? Each correct answer presents a complete solution.\n NOTE: Each correct selection is worth one point.",
+    prompt: "You have an Azure Subscription that contains a storage account named storageacct1234 and two users named User1 and User2.\n You assign User1 the roles shown in the following exhibit.\n\n{{img:/exam-media/az-104/T2/0012500001.jpg}}\n\n Which two actions can User1 perform? Each correct answer presents a complete solution.\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #62",
     type: "multiple",
@@ -2871,29 +2971,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 103,
-    number: 63,
-    topic: "Topic 2",
-    prompt: "#22 duplicate",
-    keySource: "domain",
-    explanation: "Source: Az-104 T2.apkg #63",
-    type: "single",
-    options: [
-      {
-        id: "A",
-        text: "No options extracted"
-      },
-      {
-        id: "B",
-        text: "Other / unsure"
-      }
-    ],
-    correct: [
-      "A"
-    ]
-  },
-  {
-    id: 104,
+    id: 101,
     number: 64,
     topic: "Topic 2",
     prompt: "You have an Azure App Services web app named App1.\n\n You plan to deploy App1 by using Web Deploy.\n\n You need to ensure that the developers of App1 can use their Azure AD credentials to deploy content to App1. The solution must use the principle of least privilege.\n\n What should you do?",
@@ -2923,7 +3001,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 105,
+    id: 102,
     number: 65,
     topic: "Topic 2",
     prompt: "You have an Azure Active Directory (Azure AD) tenant named contoso.com.\n\n You have a CSV file that contains the names and email addresses of 500 external users.\n\n You need to create a guest user account in contoso.com for each of the 500 external users.\n\n Solution: From Azure AD in the Azure portal, you use the Bulk invite users operation.\n\n Does this meet the goal?",
@@ -2945,47 +3023,57 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 106,
+    id: 103,
     number: 66,
     topic: "Topic 2",
-    prompt: "HOTSPOT -\n\n You have an Azure subscription that is linked to an Azure AD tenant. The tenant contains the custom role-based access control (RBAC) roles shown in the following table.\n\n[Image: image567.png]\n\n From the Azure portal, you need to create two custom roles named Role3 and Role4. Role3 will be an Azure subscription role. Role4 will be an Azure AD role.\n\n Which roles can you clone to create the new roles? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.\n\n[Image: image568.png]",
+    prompt: "HOTSPOT -\n\n You have an Azure subscription that is linked to an Azure AD tenant. The tenant contains the custom role-based access control (RBAC) roles shown in the following table.\n\n{{img:/exam-media/az-104/T2/image567.png}}\n\n From the Azure portal, you need to create two custom roles named Role3 and Role4. Role3 will be an Azure subscription role. Role4 will be an Azure AD role.\n\n Which roles can you clone to create the new roles? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.\n\n{{img:/exam-media/az-104/T2/image568.png}}",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #66",
-    type: "multiple",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "Role3: Role1 only"
+        text: "Role1 only"
       },
       {
         id: "B",
-        text: "Role4: Built-in Azure subscription roles only"
+        text: "Built-in Azure subscription roles only"
       },
       {
         id: "C",
-        text: "Role3: Role1 and built-in Azure subscription roles only"
+        text: "Role1 and built-in Azure subscription roles only"
       },
       {
         id: "D",
-        text: "Role4: Role1, Role2, built-in Azure subscription roles, and built-in Azure Entra ID roles"
+        text: "Role1, Role2, built-in Azure subscription roles, and built-in Azure Entra ID roles"
       },
       {
         id: "E",
-        text: "Role3: Role1, Role2, built-in Azure subscription roles, and built-in Azure Entra ID roles"
+        text: "Role1, Role2, built-in Azure subscription roles, and built-in Azure Entra ID roles"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "Role3"
+      },
+      {
+        id: "t2",
+        text: "Role4"
       }
     ],
     correct: [
-      "D",
-      "E"
+      "t1:E",
+      "t2:D"
     ]
   },
   {
-    id: 107,
+    id: 104,
     number: 68,
     topic: "Topic 2",
     prompt: "You have an Azure subscription named Sub1 that contains two users named User1 and User2.\n\n You need to assign role-based access control (RBAC) roles to User1 and User2. The users must be able to perform the following tasks in Sub1:\n\n • User1 must view the data in any storage account.\n • User2 must assign users the Contributor role for storage accounts.\n\n The solution must use the principle of least privilege.\n\n Which RBAC role should you assign to each user? To answer, drag the appropriate roles to the correct users. Each role may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.",
     keySource: "source",
-    explanation: "Source: Az-104 T2.apkg #68",
+    explanation: "User1: Reader and Data Acess\nUSer2: Owner\nSource: Az-104 T2.apkg #68",
     type: "multiple",
     options: [
       {
@@ -3011,7 +3099,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 108,
+    id: 105,
     number: 68,
     topic: "Topic 2",
     prompt: "You have an Azure subscription that contains 10 virtual machines, a key vault named Vault1, and a network security group (NSG) named NSG1. All the resources are deployed to the East US Azure region.\n\n The virtual machines are protected by using NSG1. NSG1 is configured to block all outbound traffic to the internet.\n\n You need to ensure that the virtual machines can access Vault1. The solution must use the principle of least privilege and minimize administrative effort\n\n What should you configure as the destination of the outbound security rule for NSG1?",
@@ -3037,10 +3125,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 109,
+    id: 106,
     number: 69,
     topic: "Topic 2",
-    prompt: "You have an Azure AD tenant named adatum.com that contains the groups shown in the following table.\n\n[Image: image572.png]\n\n Adatum.com contains the users shown in the following table.\n\n[Image: image573.png]\n\n You assign the Azure Active Directory Premium Plan 2 license to Group1 and User4.\n\n Which users are assigned the Azure Active Directory Premium Plan 2 license?",
+    prompt: "You have an Azure AD tenant named adatum.com that contains the groups shown in the following table.\n\n{{img:/exam-media/az-104/T2/image572.png}}\n\n Adatum.com contains the users shown in the following table.\n\n{{img:/exam-media/az-104/T2/image573.png}}\n\n You assign the Azure Active Directory Premium Plan 2 license to Group1 and User4.\n\n Which users are assigned the Azure Active Directory Premium Plan 2 license?",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #69",
     type: "single",
@@ -3067,10 +3155,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 110,
+    id: 107,
     number: 70,
     topic: "Topic 2",
-    prompt: "You have an Azure AD tenant named contoso.com.\n\n You have two external partner organizations named fabrikam.com and litwareinc.com. Fabrikam.com is configured as a connected organization.\n\n You create an access package as shown in the Access package exhibit. (Click the Access package tab.)\n\n[Image: image574.png]\n\n You configure the external user lifecycle settings as shown in the Lifecycle exhibit. (Click the Lifecycle tab.)\n\n[Image: image575.png]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+    prompt: "You have an Azure AD tenant named contoso.com.\n\n You have two external partner organizations named fabrikam.com and litwareinc.com. Fabrikam.com is configured as a connected organization.\n\n You create an access package as shown in the Access package exhibit. (Click the Access package tab.)\n\n{{img:/exam-media/az-104/T2/image574.png}}\n\n You configure the external user lifecycle settings as shown in the Lifecycle exhibit. (Click the Lifecycle tab.)\n\n{{img:/exam-media/az-104/T2/image575.png}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #70",
     type: "hotspot-boolean",
@@ -3093,7 +3181,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 111,
+    id: 108,
     number: 71,
     topic: "Topic 2",
     prompt: "You have an Azure subscription named Subscription1 that contains a virtual network named VNet1. VNet1 is in a resource group named RG1.\n\n Subscription1 has a user named User1. User1 has the following roles:\n\n • Reader\n • Security Admin\n • Security Reader\n\n You need to ensure that User1 can assign the Reader role for VNet1 to other users.\n\n What should you do?",
@@ -3123,10 +3211,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 112,
+    id: 109,
     number: 72,
     topic: "Topic 2",
-    prompt: "You have an Azure subscription that contains the users shown in the following table.\n\n[Image: image627.png]\n\n The groups are configured as shown in the following table.\n\n[Image: image628.png]\n\n You have a resource group named RG1 as shown in the following exhibit.\n\n[Image: image629.png]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+    prompt: "You have an Azure subscription that contains the users shown in the following table.\n\n{{img:/exam-media/az-104/T2/image627.png}}\n\n The groups are configured as shown in the following table.\n\n{{img:/exam-media/az-104/T2/image628.png}}\n\n You have a resource group named RG1 as shown in the following exhibit.\n\n{{img:/exam-media/az-104/T2/image629.png}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #72",
     type: "hotspot-boolean",
@@ -3149,32 +3237,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 113,
-    number: 73,
-    topic: "Topic 2",
-    prompt: "Duplicate of #71",
-    keySource: "domain",
-    explanation: "Source: Az-104 T2.apkg #73",
-    type: "single",
-    options: [
-      {
-        id: "A",
-        text: "No options extracted"
-      },
-      {
-        id: "B",
-        text: "Other / unsure"
-      }
-    ],
-    correct: [
-      "A"
-    ]
-  },
-  {
-    id: 114,
+    id: 110,
     number: 74,
     topic: "Topic 2",
-    prompt: "Your on-premises network contains a VPN gateway.\n\n You have an Azure subscription that contains the resources shown in the following table.\n\n[Image: image646.png]\n\n You need to ensure that all the traffic from VM1 to storage1 travels across the Microsoft backbone network.\n\n What should you configure?",
+    prompt: "Your on-premises network contains a VPN gateway.\n\n You have an Azure subscription that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T2/image646.png}}\n\n You need to ensure that all the traffic from VM1 to storage1 travels across the Microsoft backbone network.\n\n What should you configure?",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #74",
     type: "single",
@@ -3201,10 +3267,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 115,
+    id: 111,
     number: 75,
     topic: "Topic 2",
-    prompt: "HOTSPOT\n -\n\n You have an Azure subscription that contains a user named User1 and the resources shown in the following table.\n\n[Image: image647.png]\n\n NSG1 is associated to networkinterface1.\n\n User1 has role assignments for NSG1 as shown in the following table.\n\n[Image: image648.png]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+    prompt: "HOTSPOT\n -\n\n You have an Azure subscription that contains a user named User1 and the resources shown in the following table.\n\n{{img:/exam-media/az-104/T2/image647.png}}\n\n NSG1 is associated to networkinterface1.\n\n User1 has role assignments for NSG1 as shown in the following table.\n\n{{img:/exam-media/az-104/T2/image648.png}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #75",
     type: "hotspot-boolean",
@@ -3227,59 +3293,36 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 116,
-    number: 76,
-    topic: "Topic 2",
-    prompt: "Duplicate of #72",
-    keySource: "domain",
-    explanation: "Source: Az-104 T2.apkg #76",
-    type: "single",
-    options: [
-      {
-        id: "A",
-        text: "No options extracted"
-      },
-      {
-        id: "B",
-        text: "Other / unsure"
-      }
-    ],
-    correct: [
-      "A"
-    ]
-  },
-  {
-    id: 117,
+    id: 112,
     number: 77,
     topic: "Topic 2",
     prompt: "HOTSPOT\n -\n\n You have three Azure subscriptions named Sub1, Sub2, and Sub3 that are linked to an Azure AD tenant.\n\n The tenant contains a user named User1, a security group named Group1, and a management group named MG1. User is a member of Group1.\n\n Sub1 and Sub2 are members of MG1. Sub1 contains a resource group named RG1. RG1 contains five Azure functions.\n\n You create the following role assignments for MG1:\n\n • Group1: Reader\n • User1: User Access Administrator\n\n You assign User the Virtual Machine Contributor role for Sub1 and Sub2.",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #77",
-    type: "multiple",
-    options: [
+    type: "hotspot-boolean",
+    statements: [
       {
-        id: "A",
-        text: "The Group1 members can view the configurations of the Azure functions"
+        id: "s1",
+        text: "The Group1 members can view the configurations of the Azure functions",
+        answer: true
       },
       {
-        id: "B",
-        text: "User1 can assign the Owner role for RG1"
+        id: "s2",
+        text: "User1 can assign the Owner role for RG1",
+        answer: true
       },
       {
-        id: "C",
-        text: "User1 can create a new resource froup and deploy a virtual machine to the new group"
+        id: "s3",
+        text: "User1 can create a new resource froup and deploy a virtual machine to the new group",
+        answer: false
       }
-    ],
-    correct: [
-      "A",
-      "B"
     ]
   },
   {
-    id: 118,
+    id: 113,
     number: 78,
     topic: "Topic 2",
-    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n[Image: image657.png]\n\n You need to assign User1 the Storage File Data SMB Share Contributor role for share1.\n\n What should you do first?",
+    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T2/image657.png}}\n\n You need to assign User1 the Storage File Data SMB Share Contributor role for share1.\n\n What should you do first?",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #78",
     type: "single",
@@ -3306,10 +3349,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 119,
+    id: 114,
     number: 80,
     topic: "Topic 2",
-    prompt: "You have an Azure AD tenant named adatum.com that contains the groups shown in the following table.\n\n[Image: image666.png]\n\n Adatum.com contains the users shown in the following table.\n\n[Image: image667.png]\n\n You assign an Azure Active Directory Premium P2 license to Group1 as shown in the following exhibit.\n\n[Image: image668.png]\n\n Group2 is NOT directly assigned a license.\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+    prompt: "You have an Azure AD tenant named adatum.com that contains the groups shown in the following table.\n\n{{img:/exam-media/az-104/T2/image666.png}}\n\n Adatum.com contains the users shown in the following table.\n\n{{img:/exam-media/az-104/T2/image667.png}}\n\n You assign an Azure Active Directory Premium P2 license to Group1 as shown in the following exhibit.\n\n{{img:/exam-media/az-104/T2/image668.png}}\n\n Group2 is NOT directly assigned a license.\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #80",
     type: "hotspot-boolean",
@@ -3332,42 +3375,52 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 120,
+    id: 115,
     number: 81,
     topic: "Topic 2",
-    prompt: "HOTSPOT\n -\n\n You have a hybrid deployment of Azure Active Directory (Azure AD) that contains the users shown in the following table.\n\n[Image: image683.png]\n\n You need to modify the JobTitle and UsageLocation attributes for the users.\n\n For which users can you modify the attributes from Azure AD? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.\n\n[Image: image684.png]",
+    prompt: "HOTSPOT\n -\n\n You have a hybrid deployment of Azure Active Directory (Azure AD) that contains the users shown in the following table.\n\n{{img:/exam-media/az-104/T2/image683.png}}\n\n You need to modify the JobTitle and UsageLocation attributes for the users.\n\n For which users can you modify the attributes from Azure AD? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.\n\n{{img:/exam-media/az-104/T2/image684.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T2.apkg #81",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T2/image685.png}}\nSource: Az-104 T2.apkg #81",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "JobTitle: User1 only"
+        text: "User1 only"
       },
       {
         id: "B",
-        text: "JobTitle: User1 and User2 only"
+        text: "User1 and User2 only"
       },
       {
         id: "C",
-        text: "JobTitle: User1 and User3 only"
+        text: "User1 and User3 only"
       },
       {
         id: "D",
-        text: "UsageLocation: User1 and User3 only"
+        text: "User1 and User3 only"
       },
       {
         id: "E",
-        text: "UsageLocation: User1 and User2, and User3"
+        text: "User1 and User2, and User3"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "JobTitle"
+      },
+      {
+        id: "t2",
+        text: "UsageLocation"
       }
     ],
     correct: [
-      "C",
-      "E"
+      "t1:C",
+      "t2:E"
     ]
   },
   {
-    id: 121,
+    id: 116,
     number: 82,
     topic: "Topic 2",
     prompt: "You have an Azure Active Directory (Azure AD) tenant named contoso.com.\n\n You have a CSV file that contains the names and email addresses of 500 external users.\n\n You need to create a guest user account in contoso.com for each of the 500 external users.\n\n Solution: You create a PowerShell script that runs the New-MgUser cmdlet for each external user.\n\n Does this meet the goal?",
@@ -3389,7 +3442,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 122,
+    id: 117,
     number: 83,
     topic: "Topic 2",
     prompt: "You have an Azure Active Directory (Azure AD) tenant named contoso.com.\n\n You have a CSV file that contains the names and email addresses of 500 external users.\n\n You need to create a guest user account in contoso.com for each of the 500 external users.\n\n Solution: You create a PowerShell script that runs the New-MgInvitation cmdlet for each external user.\n\n Does this meet the goal?",
@@ -3411,7 +3464,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 123,
+    id: 118,
     number: 84,
     topic: "Topic 2",
     prompt: "A user named User1 has the following roles for Subscription1:\n\n • Reader\n • Security Admin\n • Security Reader\n\n You need to ensure that User1 can assign the Reader role for VNet1 to other users.\n\n What should you do?",
@@ -3441,7 +3494,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 124,
+    id: 119,
     number: 85,
     topic: "Topic 2",
     prompt: "You have an Azure subscription named Subscription1 that contains virtual network named VNet1. VNet1 is in a resource group named RG1.\n\n User named User1 has the following roles for Subscription1:\n\n • Reader\n • Security Admin\n • Security Reader\n\n You need to ensure that User1 can assign the Reader role for VNet1 to other users.\n What should you do?",
@@ -3471,10 +3524,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 125,
+    id: 120,
     number: 86,
     topic: "Topic 2",
-    prompt: "You have an Azure Storage account named storage1 that uses Azure Blob storage and Azure File storage.\n\n You need to use AzCopy to copy data to the blob storage and file storage in storage1.\n\n Which authentication method should you use for each type of storage? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.\n\n[Image: image691.png]",
+    prompt: "You have an Azure Storage account named storage1 that uses Azure Blob storage and Azure File storage.\n\n You need to use AzCopy to copy data to the blob storage and file storage in storage1.\n\n Which authentication method should you use for each type of storage? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.\n\n{{img:/exam-media/az-104/T2/image691.png}}",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #86",
     type: "multiple",
@@ -3506,12 +3559,12 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 126,
+    id: 121,
     number: 87,
     topic: "Topic 2",
-    prompt: "You have an Azure AD tenant that contains a user named External User.\n\n External User authenticates to the tenant by using   external195@gmail.com  .\n\n You need to ensure that External User authenticates to the tenant by using   contractor@gmail.com  .\n\n Which two settings should you configure from the Overview blade? To answer, select the appropriate settings in the answer area.\n\n NOTE: Each correct answer is worth one point.\n\n[Image: image693.png]",
+    prompt: "You have an Azure AD tenant that contains a user named External User.\n\n External User authenticates to the tenant by using   external195@gmail.com  .\n\n You need to ensure that External User authenticates to the tenant by using   contractor@gmail.com  .\n\n Which two settings should you configure from the Overview blade? To answer, select the appropriate settings in the answer area.\n\n NOTE: Each correct answer is worth one point.\n\n{{img:/exam-media/az-104/T2/image693.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T2.apkg #87",
+    explanation: "{{img:/exam-media/az-104/T2/image694.png}}\nSource: Az-104 T2.apkg #87",
     type: "multiple",
     options: [
       {
@@ -3529,10 +3582,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 127,
+    id: 122,
     number: 88,
     topic: "Topic 2",
-    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n[Image: image695.png]\n\n You need to assign Workspace1 a role to allow read, write, and delete operations for the data stored in the containers of storage1.\n\n Which role should you assign?",
+    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T2/image695.png}}\n\n You need to assign Workspace1 a role to allow read, write, and delete operations for the data stored in the containers of storage1.\n\n Which role should you assign?",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #88",
     type: "single",
@@ -3559,7 +3612,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 128,
+    id: 123,
     number: 89,
     topic: "Topic 2",
     prompt: "You have an Azure subscription named Subscription1 that contains virtual network named VNet1. VNet1 is in a resource group named RG1.\n\n A user named User1 has the following roles for Subscription1:\n\n • Reader\n • Security Admin\n • Security Reader\n\n You need to ensure that User1 can assign the Reader role for VNet1 to other users.\n\n What should you do?",
@@ -3589,10 +3642,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 129,
+    id: 124,
     number: 90,
     topic: "Topic 2",
-    prompt: "You have an Azure AD tenant that contains the groups shown in the following table.\n\n[Image: image696.png]\n\n You purchase Azure Active Directory Premium P2 licenses.\n\n To which groups can you assign a license?",
+    prompt: "You have an Azure AD tenant that contains the groups shown in the following table.\n\n{{img:/exam-media/az-104/T2/image696.png}}\n\n You purchase Azure Active Directory Premium P2 licenses.\n\n To which groups can you assign a license?",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #90",
     type: "single",
@@ -3623,12 +3676,12 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 130,
+    id: 125,
     number: 91,
     topic: "Topic 2",
-    prompt: "You have an Azure AD tenant.\n\nYou need to create a Microsoft 365 group that contains only members of a marketing department in France.\n\nHow should you complete the dynamic membership rule? To answer, select the appropriate options in the answer area.\n\nNOTE: Each correct answer is worth one point.\n\n[Image: image697.png]",
+    prompt: "You have an Azure AD tenant.\n\nYou need to create a Microsoft 365 group that contains only members of a marketing department in France.\n\nHow should you complete the dynamic membership rule? To answer, select the appropriate options in the answer area.\n\nNOTE: Each correct answer is worth one point.\n\n{{img:/exam-media/az-104/T2/image697.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T2.apkg #91",
+    explanation: "{{img:/exam-media/az-104/T2/image698.png}}\nSource: Az-104 T2.apkg #91",
     type: "multiple",
     options: [
       {
@@ -3659,10 +3712,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 131,
+    id: 126,
     number: 93,
     topic: "Topic 2",
-    prompt: "You have an Azure subscription named Sub1 that contains the blob containers shown in the following table.\n\n[Image: image701.png]\n\n Sub1 contains two users named User1 and User2. Both users are assigned the Reader role at the Sub1 scope.\n\n You have a condition named Condition1 as shown in the following exhibit.\n\n[Image: image702.png]\n\n You have a condition named Condition2 as shown in the following exhibit.\n\n[Image: image703.png]\n\n You assign roles to User1 and User2 as shown in the following table.\n\n[Image: image704.png]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
+    prompt: "You have an Azure subscription named Sub1 that contains the blob containers shown in the following table.\n\n{{img:/exam-media/az-104/T2/image701.png}}\n\n Sub1 contains two users named User1 and User2. Both users are assigned the Reader role at the Sub1 scope.\n\n You have a condition named Condition1 as shown in the following exhibit.\n\n{{img:/exam-media/az-104/T2/image702.png}}\n\n You have a condition named Condition2 as shown in the following exhibit.\n\n{{img:/exam-media/az-104/T2/image703.png}}\n\n You assign roles to User1 and User2 as shown in the following table.\n\n{{img:/exam-media/az-104/T2/image704.png}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #93",
     type: "hotspot-boolean",
@@ -3685,7 +3738,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 132,
+    id: 127,
     number: 94,
     topic: "Topic 2",
     prompt: "You have an Azure Active Directory (Azure AD) tenant named contoso.com.\n\n You have a CSV file that contains the names and email addresses of 500 external users.\n\n You need to create a guest user account in contoso.com for each of the 500 external users.\n\n Solution: You create a PowerShell script that runs the New-MgUser cmdlet for each user.\n\n Does this meet the goal?",
@@ -3707,10 +3760,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 133,
+    id: 128,
     number: 95,
     topic: "Topic 2",
-    prompt: "You purchase a new Azure subscription.\n\n You create an Azure Resource Manager (ARM) template named deploy.json as shown in the following exhibit.\n\n[Image: image764.png]\n\n You connect to the subscription and run the following command.\n\n New-AzDeployment –Location westus –TemplateFile “deploy.json”\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
+    prompt: "You purchase a new Azure subscription.\n\n You create an Azure Resource Manager (ARM) template named deploy.json as shown in the following exhibit.\n\n{{img:/exam-media/az-104/T2/image764.png}}\n\n You connect to the subscription and run the following command.\n\n New-AzDeployment –Location westus –TemplateFile “deploy.json”\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #95",
     type: "hotspot-boolean",
@@ -3733,10 +3786,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 134,
+    id: 129,
     number: 96,
     topic: "Topic 2",
-    prompt: "Your on-premises network contains a VPN gateway.\n\n You have an Azure subscription that contains the resources shown in the following table.\n\n[Image: image768.png]\n\n You need to ensure that all the traffic from VM1 to storage1 travels across the Microsoft backbone network.\n\n What should you configure?",
+    prompt: "Your on-premises network contains a VPN gateway.\n\n You have an Azure subscription that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T2/image768.png}}\n\n You need to ensure that all the traffic from VM1 to storage1 travels across the Microsoft backbone network.\n\n What should you configure?",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #96",
     type: "single",
@@ -3763,10 +3816,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 135,
+    id: 130,
     number: 99,
     topic: "Topic 2",
-    prompt: "You have an Azure subscription named Sub1 that contains the resources shown in the following table.\n\n[Image: image769.png]\n\n You create a user named Admin1.\n\n To what can you add Admin1 as a co-administrator?",
+    prompt: "You have an Azure subscription named Sub1 that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T2/image769.png}}\n\n You create a user named Admin1.\n\n To what can you add Admin1 as a co-administrator?",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #99",
     type: "single",
@@ -3793,10 +3846,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 136,
+    id: 131,
     number: 102,
     topic: "Topic 2",
-    prompt: "You have a Microsoft Entra tenant that is linked to the subscriptions shown in the following table.\n\n[Image: image818.png]\n\n You have the resource groups shown in the following table.\n\n[Image: image819.png]\n\n You assign roles to users as shown in the following table.\n\n[Image: image820.png]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
+    prompt: "You have a Microsoft Entra tenant that is linked to the subscriptions shown in the following table.\n\n{{img:/exam-media/az-104/T2/image818.png}}\n\n You have the resource groups shown in the following table.\n\n{{img:/exam-media/az-104/T2/image819.png}}\n\n You assign roles to users as shown in the following table.\n\n{{img:/exam-media/az-104/T2/image820.png}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #102",
     type: "hotspot-boolean",
@@ -3819,7 +3872,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 137,
+    id: 132,
     number: 104,
     topic: "Topic 2",
     prompt: "You have a Microsoft Entra tenant.\n\n You plan to perform a bulk import of users.\n\n You need to ensure that imported user objects are added automatically as the members of a specific group based on each user's department. The solution must minimize administrative effort.\n\n Which two actions should you perform? Each correct answer presents part of the solution.\n\n NOTE: Each correct selection is worth one point.",
@@ -3854,7 +3907,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 138,
+    id: 133,
     number: 105,
     topic: "Topic 2",
     prompt: "You have an Azure subscription that contains a storage account named storage1.\n\n You need to ensure that the access keys for storage1 rotate automatically.\n\n What should you configure?",
@@ -3888,10 +3941,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 139,
+    id: 134,
     number: 106,
     topic: "Topic 2",
-    prompt: "You have an Azure subscription that contains the Microsoft Entra identities shown in the following table.\n\n[Image: image835.png]\n\n You need to enable self-service password reset (SSPR).\n\n For which identities can you enable SSPR in the Azure portal?",
+    prompt: "You have an Azure subscription that contains the Microsoft Entra identities shown in the following table.\n\n{{img:/exam-media/az-104/T2/image835.png}}\n\n You need to enable self-service password reset (SSPR).\n\n For which identities can you enable SSPR in the Azure portal?",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #106",
     type: "single",
@@ -3922,12 +3975,12 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 140,
+    id: 135,
     number: 107,
     topic: "Topic 2",
-    prompt: "You have a Microsoft Entra tenant.\n\nYou need to ensure that when a new Microsoft 365 group is created, the group name is automatically formatted as follows:\n\n[Image: image851.png]\n\nWhich three actions should you perform in sequence in the Microsoft Entra admin center? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.\n\n[Image: image849.png]",
+    prompt: "You have a Microsoft Entra tenant.\n\nYou need to ensure that when a new Microsoft 365 group is created, the group name is automatically formatted as follows:\n\n{{img:/exam-media/az-104/T2/image851.png}}\n\nWhich three actions should you perform in sequence in the Microsoft Entra admin center? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.\n\n{{img:/exam-media/az-104/T2/image849.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T2.apkg #107",
+    explanation: "{{img:/exam-media/az-104/T2/image850.png}}\nSource: Az-104 T2.apkg #107",
     type: "multiple",
     options: [
       {
@@ -3958,12 +4011,12 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 141,
+    id: 136,
     number: 108,
     topic: "Topic 2",
-    prompt: "You have a Microsoft Entra tenant that contains the users shown in the following table.\n\n[Image: image858.png]\n\n The tenant contains the groups shown in the following table.\n\n[Image: image859.png]\n\n Which users and groups can be deleted? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.",
+    prompt: "You have a Microsoft Entra tenant that contains the users shown in the following table.\n\n{{img:/exam-media/az-104/T2/image858.png}}\n\n The tenant contains the groups shown in the following table.\n\n{{img:/exam-media/az-104/T2/image859.png}}\n\n Which users and groups can be deleted? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source: Az-104 T2.apkg #108",
+    explanation: "{{img:/exam-media/az-104/T2/image861.png}}\nSource: Az-104 T2.apkg #108",
     type: "multiple",
     options: [
       {
@@ -3993,10 +4046,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 142,
+    id: 137,
     number: 109,
     topic: "Topic 2",
-    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n[Image: image862.png]\n\n You plan to use an Azure key vault to provide a secret to app1.\n\n What should you create for app1 to access the key vault, and from which key vault can the secret be used? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.",
+    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T2/image862.png}}\n\n You plan to use an Azure key vault to provide a secret to app1.\n\n What should you create for app1 to access the key vault, and from which key vault can the secret be used? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #109",
     type: "multiple",
@@ -4028,7 +4081,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 143,
+    id: 138,
     number: 110,
     topic: "Topic 2",
     prompt: "You have a Microsoft Entra tenant named contoso.com.\n\n You collaborate with an external partner named fabrikam.com.\n\n You plan to invite users in fabrikam.com to the contoso.com tenant.\n\n You need to ensure that invitations can be sent only to fabrikam.com users.\n\n What should you do in the Microsoft Entra admin center?",
@@ -4058,7 +4111,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 144,
+    id: 139,
     number: 111,
     topic: "Topic 2",
     prompt: "You have an Azure subscription that contains a storage account named storage1. The storage1 account contains blob data.\n\n You need to assign a role to a user named User1 to ensure that the user can access the blob data in storage1. The role assignment must support conditions.\n\n Which two roles can you assign to User1? Each correct answer presents a complete solution.\n\n NOTE: Each correct selection is worth one point.",
@@ -4093,11 +4146,11 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 145,
+    id: 140,
     number: 112,
     topic: "Topic 2",
-    prompt: "Case study -\n\n This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.\n\n To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.\n\n At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.\n\n To start the case study -\n To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.\n\n Overview -\n\n ADatum Corporation is consulting firm that has a main office in Montreal and branch offices in Seattle and New York.\n\n Existing Environment -\n\n Azure Environment -\n\n ADatum has an Azure subscription that contains three resource groups named RG1, RG2, and RG3.\n\n The subscription contains the storage accounts shown in the following table.\n\n[Image: image865.png]\n\n The subscription contains the virtual machines shown in the following table.\n\n[Image: image866.png]\n\n The subscription has an Azure container registry that contains the images shown in the following table.\n\n[Image: image867.png]\n\n The subscription contains the resources shown in the following table.\n\n[Image: image868.png]\n\n Azure Key Vault -\n\n The subscription contains an Azure key vault named Vault1.\n\n Vault1 contains the certificates shown in the following table.\n\n[Image: image869.png]\n\n Vault1 contains the keys shown in the following table.\n\n[Image: image870.png]\n\n Microsoft Entra Environment -\n\n ADatum has a Microsoft Entra tenant named adatum.com that is linked to the Azure subscription and contains the users shown in the following table.\n\n[Image: image871.png]\n\n The tenant contains the groups shown in the following table.\n\n[Image: image872.png]\n\n The adatum.com tenant has a custom security attribute named Attribute1.\n\n Planned Changes -\n\n ADatum plans to implement the following changes:\n\n • Configure a data collection rule (DCR) named DCR1 to collect only system events that have an event ID of 4648 from VM2 and VM4.\n • In storage1, create a new container named cont2 that has the following access policies: o Three stored access policies named Stored1, Stored2, and Stored3 o A legal hold for immutable blob storage\n • Whenever possible, use directories to organize storage account content.\n • Grant User1 the permissions required to link Zone1 to VNet1.\n • Assign Attribute1 to supported adatum.com resources.\n • In storage2, create an encryption scope named Scope1.\n • Deploy new containers by using Image1 or Image2.\n\n Technical Requirements -\n\n ADatum must meet the following technical requirements:\n\n • Use TLS for WebApp1.\n • Follow the principle of least privilege.\n • Grant permissions at the required scope only.\n • Ensure that Scope1 is used to encrypt storage services.\n • Use Azure Backup to back up cont1 and share1 as frequently as possible.\n • Whenever possible, use Azure Disk Encryption and a key encryption key (KEK) to encrypt the virtual machines.\n\n You need to implement the planned change for Attribute1.\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
-    keySource: "domain",
+    prompt: "Case study -\n\n This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.\n\n To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.\n\n At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.\n\n To start the case study -\n To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.\n\n Overview -\n\n ADatum Corporation is consulting firm that has a main office in Montreal and branch offices in Seattle and New York.\n\n Existing Environment -\n\n Azure Environment -\n\n ADatum has an Azure subscription that contains three resource groups named RG1, RG2, and RG3.\n\n The subscription contains the storage accounts shown in the following table.\n\n{{img:/exam-media/az-104/T2/image865.png}}\n\n The subscription contains the virtual machines shown in the following table.\n\n{{img:/exam-media/az-104/T2/image866.png}}\n\n The subscription has an Azure container registry that contains the images shown in the following table.\n\n{{img:/exam-media/az-104/T2/image867.png}}\n\n The subscription contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T2/image868.png}}\n\n Azure Key Vault -\n\n The subscription contains an Azure key vault named Vault1.\n\n Vault1 contains the certificates shown in the following table.\n\n{{img:/exam-media/az-104/T2/image869.png}}\n\n Vault1 contains the keys shown in the following table.\n\n{{img:/exam-media/az-104/T2/image870.png}}\n\n Microsoft Entra Environment -\n\n ADatum has a Microsoft Entra tenant named adatum.com that is linked to the Azure subscription and contains the users shown in the following table.\n\n{{img:/exam-media/az-104/T2/image871.png}}\n\n The tenant contains the groups shown in the following table.\n\n{{img:/exam-media/az-104/T2/image872.png}}\n\n The adatum.com tenant has a custom security attribute named Attribute1.\n\n Planned Changes -\n\n ADatum plans to implement the following changes:\n\n • Configure a data collection rule (DCR) named DCR1 to collect only system events that have an event ID of 4648 from VM2 and VM4.\n • In storage1, create a new container named cont2 that has the following access policies: o Three stored access policies named Stored1, Stored2, and Stored3 o A legal hold for immutable blob storage\n • Whenever possible, use directories to organize storage account content.\n • Grant User1 the permissions required to link Zone1 to VNet1.\n • Assign Attribute1 to supported adatum.com resources.\n • In storage2, create an encryption scope named Scope1.\n • Deploy new containers by using Image1 or Image2.\n\n Technical Requirements -\n\n ADatum must meet the following technical requirements:\n\n • Use TLS for WebApp1.\n • Follow the principle of least privilege.\n • Grant permissions at the required scope only.\n • Ensure that Scope1 is used to encrypt storage services.\n • Use Azure Backup to back up cont1 and share1 as frequently as possible.\n • Whenever possible, use Azure Disk Encryption and a key encryption key (KEK) to encrypt the virtual machines.\n\n You need to implement the planned change for Attribute1.\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
+    keySource: "source",
     explanation: "Source: Az-104 T2.apkg #112",
     type: "hotspot-boolean",
     statements: [
@@ -4119,10 +4172,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 146,
+    id: 141,
     number: 113,
     topic: "Topic 2",
-    prompt: "You have a Microsoft Entra tenant configured as shown in the following exhibit.\n\n[Image: image875.png]\n\n The tenant contains the identities shown in the following table.\n\n[Image: image876.png]\n\n You purchase a Microsoft Fabric license.\n\n To which identities can you assign the license?",
+    prompt: "You have a Microsoft Entra tenant configured as shown in the following exhibit.\n\n{{img:/exam-media/az-104/T2/image875.png}}\n\n The tenant contains the identities shown in the following table.\n\n{{img:/exam-media/az-104/T2/image876.png}}\n\n You purchase a Microsoft Fabric license.\n\n To which identities can you assign the license?",
     keySource: "source",
     explanation: "Source: Az-104 T2.apkg #113",
     type: "single",
@@ -4149,7 +4202,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 147,
+    id: 142,
     number: 114,
     topic: "Topic 2",
     prompt: "You have an Azure subscription that contains a storage account named storage. The storage account contains a blob that stores images.\n\n Client access to storage1 is granted by using a shared access signature (SAS).\n\n You need to ensure that users receive a warning message when they generate a SAS that exceeds a seven-day time period.\n\n What should you do for storage?",
@@ -4179,10 +4232,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 148,
+    id: 143,
     number: 1,
     topic: "Topic 3",
-    prompt: "You have an Azure subscription named Subscription1 that contains the storage accounts shown in the following table:\n\n[Image: 0014000001.png]\n\n You plan to use the Azure Import/Export service to export data from Subscription1.\n You need to identify which storage account can be used to export the data.\n What should you identify?",
+    prompt: "You have an Azure subscription named Subscription1 that contains the storage accounts shown in the following table:\n\n{{img:/exam-media/az-104/T3/0014000001.png}}\n\n You plan to use the Azure Import/Export service to export data from Subscription1.\n You need to identify which storage account can be used to export the data.\n What should you identify?",
     keySource: "source",
     explanation: "Source: Az-104 T3.apkg #1",
     type: "single",
@@ -4209,45 +4262,55 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 149,
+    id: 144,
     number: 2,
     topic: "Topic 3",
-    prompt: "You have Azure Storage accounts as shown in the following exhibit.\n\n[Image: 0014100001.jpg]\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0014200001.jpg]",
+    prompt: "You have Azure Storage accounts as shown in the following exhibit.\n\n{{img:/exam-media/az-104/T3/0014100001.jpg}}\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T3/0014200001.jpg}}",
     keySource: "source",
     explanation: "Source: Az-104 T3.apkg #2",
-    type: "multiple",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "Table Storage: storageaccount1 only"
+        text: "storageaccount1 only"
       },
       {
         id: "B",
-        text: "Table Storage: storageaccount2 only"
+        text: "storageaccount2 only"
       },
       {
         id: "C",
-        text: "Table Storage: storageaccount1 and  storageaccount2 only"
+        text: "storageaccount1 and  storageaccount2 only"
       },
       {
         id: "D",
-        text: "Blob Storage: storageaccount2 and  storageaccount3 only"
+        text: "storageaccount2 and  storageaccount3 only"
       },
       {
         id: "E",
-        text: "Blob Storage:all the storage accounts"
+        text: "all the storage accounts"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "Table Storage"
+      },
+      {
+        id: "t2",
+        text: "Blob Storage"
       }
     ],
     correct: [
-      "C",
-      "E"
+      "t1:C",
+      "t2:E"
     ]
   },
   {
-    id: 150,
+    id: 145,
     number: 3,
     topic: "Topic 3",
-    prompt: "You have Azure subscription that includes data in following locations:\n\n[Image: 0014300004.png]\n\n You plan to export data by using Azure import/export job named Export1.\n You need to identify the data that can be exported by using Export1.\n Which data should you identify?",
+    prompt: "You have Azure subscription that includes data in following locations:\n\n{{img:/exam-media/az-104/T3/0014300004.png}}\n\n You plan to export data by using Azure import/export job named Export1.\n You need to identify the data that can be exported by using Export1.\n Which data should you identify?",
     keySource: "source",
     explanation: "Source: Az-104 T3.apkg #3",
     type: "single",
@@ -4274,48 +4337,58 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 151,
+    id: 146,
     number: 4,
     topic: "Topic 3",
-    prompt: "HOTSPOT -\n You have an Azure Storage account named storage1.\n You have an Azure App Service app named App1 and an app named App2 that runs in an Azure container instance. Each app uses a managed identity.\n You need to ensure that App1 and App2 can read blobs from storage1. The solution must meet the following requirements:\n ✑ Minimize the number of secrets used.\n ✑ Ensure that App2 can only read from storage1 for the next 30 days.\n What should you configure in storage1 for each app? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0014500001.jpg]",
+    prompt: "HOTSPOT -\n You have an Azure Storage account named storage1.\n You have an Azure App Service app named App1 and an app named App2 that runs in an Azure container instance. Each app uses a managed identity.\n You need to ensure that App1 and App2 can read blobs from storage1. The solution must meet the following requirements:\n ✑ Minimize the number of secrets used.\n ✑ Ensure that App2 can only read from storage1 for the next 30 days.\n What should you configure in storage1 for each app? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T3/0014500001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T3.apkg #4",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T3/image901.png}}\nSource: Az-104 T3.apkg #4",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "App1: Access keys"
+        text: "Access keys"
       },
       {
         id: "B",
-        text: "App1: Access control (IAM)"
+        text: "Access control (IAM)"
       },
       {
         id: "C",
-        text: "App2: Access control (IAM)"
+        text: "Access control (IAM)"
       },
       {
         id: "D",
-        text: "App1: Shared access signatures(SAS)"
+        text: "Shared access signatures(SAS)"
       },
       {
         id: "E",
-        text: "App2: Shared access signatures(SAS)"
+        text: "Shared access signatures(SAS)"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "App1"
+      },
+      {
+        id: "t2",
+        text: "App2"
       }
     ],
     correct: [
-      "B",
-      "E"
+      "t1:B",
+      "t2:E"
     ]
   },
   {
-    id: 152,
+    id: 147,
     number: 5,
     topic: "Topic 3",
-    prompt: "HOTSPOT -\n You need to create an Azure Storage account that meets the following requirements:\n ✑ Minimizes costs\n ✑ Supports hot, cool, and archive blob tiers\n ✑ Provides fault tolerance if a disaster affects the Azure region where the account resides\n How should you complete the command? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0014700004.jpg]",
+    prompt: "HOTSPOT -\n You need to create an Azure Storage account that meets the following requirements:\n ✑ Minimizes costs\n ✑ Supports hot, cool, and archive blob tiers\n ✑ Provides fault tolerance if a disaster affects the Azure region where the account resides\n How should you complete the command? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T3/0014700004.jpg}}",
     keySource: "source",
     explanation: "Source: Az-104 T3.apkg #5",
-    type: "multiple",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
@@ -4338,16 +4411,26 @@ export const az104Questions: Question[] = [
         text: "Standard_LRS"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      }
+    ],
     correct: [
-      "C",
-      "D"
+      "t1:C",
+      "t2:D"
     ]
   },
   {
-    id: 153,
+    id: 148,
     number: 6,
     topic: "Topic 3",
-    prompt: "You have an Azure subscription that contains the resources in the following table.\n\n[Image: 0014900001.png]\n\n Store1 contains a file share named data. Data contains 5,000 files.\n You need to synchronize the files in the file share named data to an on-premises server named Server1.\n Which three actions should you perform? Each correct answer presents part of the solution.\n NOTE: Each correct selection is worth one point.",
+    prompt: "You have an Azure subscription that contains the resources in the following table.\n\n{{img:/exam-media/az-104/T3/0014900001.png}}\n\n Store1 contains a file share named data. Data contains 5,000 files.\n You need to synchronize the files in the file share named data to an on-premises server named Server1.\n Which three actions should you perform? Each correct answer presents part of the solution.\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
     explanation: "Source: Az-104 T3.apkg #6",
     type: "multiple",
@@ -4380,10 +4463,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 154,
+    id: 149,
     number: 7,
     topic: "Topic 3",
-    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n[Image: 0015000001-6ee844567e04b7fd707dc665c82e86724df35f2d.png]\n\n The status of VM1 is Running.\n You assign an Azure policy as shown in the exhibit. (Click the Exhibit tab.)\n\n[Image: 0015100001.jpg]\n\n You assign the policy by using the following parameters:\n Microsoft.ClassicNetwork/virtualNetworks\n Microsoft.Network/virtualNetworks\n Microsoft.Compute/virtualMachines\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
+    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T3/0015000001-6ee844567e04b7fd707dc665c82e86724df35f2d.png}}\n\n The status of VM1 is Running.\n You assign an Azure policy as shown in the exhibit. (Click the Exhibit tab.)\n\n{{img:/exam-media/az-104/T3/0015100001.jpg}}\n\n You assign the policy by using the following parameters:\n Microsoft.ClassicNetwork/virtualNetworks\n Microsoft.Network/virtualNetworks\n Microsoft.Compute/virtualMachines\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
     explanation: "Source: Az-104 T3.apkg #7",
     type: "hotspot-boolean",
@@ -4406,13 +4489,13 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 155,
+    id: 150,
     number: 8,
     topic: "Topic 3",
-    prompt: "You have an Azure subscription that contains a storage account.\n You have an on-premises server named Server1 that runs Windows Server 2016. Server1 has 2 TB of data.\n You need to transfer the data to the storage account by using the Azure Import/Export service.\n In which order should you perform the actions? To answer, move all actions from the list of actions to the answer area and arrange them in the correct order.\n NOTE: More than one order of answer choices is correct. You will receive credit for any of the correct orders you select.\n Select and Place:\n\n[Image: 0015300001.jpg]",
+    prompt: "You have an Azure subscription that contains a storage account.\n You have an on-premises server named Server1 that runs Windows Server 2016. Server1 has 2 TB of data.\n You need to transfer the data to the storage account by using the Azure Import/Export service.\n In which order should you perform the actions? To answer, move all actions from the list of actions to the answer area and arrange them in the correct order.\n NOTE: More than one order of answer choices is correct. You will receive credit for any of the correct orders you select.\n Select and Place:\n\n{{img:/exam-media/az-104/T3/0015300001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T3.apkg #8",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T3/0015400001.jpg}}\nSource: Az-104 T3.apkg #8",
+    type: "drag-drop",
     options: [
       {
         id: "A",
@@ -4431,18 +4514,36 @@ export const az104Questions: Question[] = [
         text: "4. From the Azure portal, update the import job"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      },
+      {
+        id: "t3",
+        text: "Blank 3"
+      },
+      {
+        id: "t4",
+        text: "Blank 4"
+      }
+    ],
     correct: [
-      "A",
-      "B",
-      "C",
-      "D"
+      "t1:A",
+      "t2:B",
+      "t3:C",
+      "t4:D"
     ]
   },
   {
-    id: 156,
+    id: 151,
     number: 9,
     topic: "Topic 3",
-    prompt: "You have Azure subscription that includes following Azure file shares:\n\n[Image: 0015500001.png]\n\n You have the following on-premises servers:\n\n[Image: 0015500002.png]\n\n You create a Storage Sync Service named Sync1 and an Azure File Sync group named Group1. Group1 uses share1 as a cloud endpoint.\n You register Server1 and Server2 in Sync1. You add D:\\Folder1 on Server1 as a server endpoint of Group1.\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
+    prompt: "You have Azure subscription that includes following Azure file shares:\n\n{{img:/exam-media/az-104/T3/0015500001.png}}\n\n You have the following on-premises servers:\n\n{{img:/exam-media/az-104/T3/0015500002.png}}\n\n You create a Storage Sync Service named Sync1 and an Azure File Sync group named Group1. Group1 uses share1 as a cloud endpoint.\n You register Server1 and Server2 in Sync1. You add D:\\Folder1 on Server1 as a server endpoint of Group1.\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
     explanation: "Source: Az-104 T3.apkg #9",
     type: "hotspot-boolean",
@@ -4465,13 +4566,13 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 157,
+    id: 152,
     number: 11,
     topic: "Topic 3",
-    prompt: "You have an Azure subscription that contains an Azure Storage account.\n You plan to copy an on-premises virtual machine image to a container named vmimages.\n You need to create the container for the planned image.\n Which command should you run? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0016000001-492139605c77e25b53d016922267838fade591f6.png]",
+    prompt: "You have an Azure subscription that contains an Azure Storage account.\n You plan to copy an on-premises virtual machine image to a container named vmimages.\n You need to create the container for the planned image.\n Which command should you run? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T3/0016000001-492139605c77e25b53d016922267838fade591f6.png}}",
     keySource: "source",
     explanation: "Source: Az-104 T3.apkg #11",
-    type: "multiple",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
@@ -4494,19 +4595,29 @@ export const az104Questions: Question[] = [
         text: "dfs"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      }
+    ],
     correct: [
-      "A",
-      "D"
+      "t1:A",
+      "t2:D"
     ]
   },
   {
-    id: 158,
+    id: 153,
     number: 10,
     topic: "Topic 3",
-    prompt: "You have an Azure subscription named Subscription1.\n You create an Azure Storage account named contosostorage, and then you create a file share named data.\n Which UNC path should you include in a script that references files from the data file share? To answer, drag the appropriate values to the correct targets. Each value may be used once, more than once or not at all. You may need to drag the split bar between panes or scroll to view content.\n NOTE: Each correct selection is worth one point.\n Select and Place:\n\n[Image: 0015700001.jpg]",
+    prompt: "You have an Azure subscription named Subscription1.\n You create an Azure Storage account named contosostorage, and then you create a file share named data.\n Which UNC path should you include in a script that references files from the data file share? To answer, drag the appropriate values to the correct targets. Each value may be used once, more than once or not at all. You may need to drag the split bar between panes or scroll to view content.\n NOTE: Each correct selection is worth one point.\n Select and Place:\n\n{{img:/exam-media/az-104/T3/0015700001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T3.apkg #10",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T3/0015800001.jpg}}\nSource: Az-104 T3.apkg #10",
+    type: "drag-drop",
     options: [
       {
         id: "A",
@@ -4529,55 +4640,79 @@ export const az104Questions: Question[] = [
         text: "blob.core.windows.net"
       }
     ],
-    correct: [
-      "A",
-      "B",
-      "C"
-    ]
-  },
-  {
-    id: 159,
-    number: 12,
-    topic: "Topic 3",
-    prompt: "You have an Azure File sync group that has the endpoints shown in the following table.\n\n[Image: 0016100002.png]\n\n Cloud tiering is enabled for Endpoint3.\n You add a file named File1 to Endpoint1 and a file named File2 to Endpoint2.\n On which endpoints will File1 and File2 be available within 24 hours of adding the files? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0016200001.jpg]",
-    keySource: "source",
-    explanation: "Source: Az-104 T3.apkg #12",
-    type: "multiple",
-    options: [
+    targets: [
       {
-        id: "A",
-        text: "File1: Endpoint1 only"
+        id: "t1",
+        text: "Blank 1"
       },
       {
-        id: "B",
-        text: "File1: Endpoint3 only"
+        id: "t2",
+        text: "Blank 2"
       },
       {
-        id: "C",
-        text: "File2: Endpoint1, Endpoint2, and Endpoint3"
-      },
-      {
-        id: "D",
-        text: "File2: Endpoint2 and Endpoint3 only"
-      },
-      {
-        id: "E",
-        text: "File2: Endpoint1 only"
+        id: "t3",
+        text: "Blank 3"
       }
     ],
     correct: [
-      "A",
-      "C"
+      "t1:A",
+      "t2:B",
+      "t3:C"
     ]
   },
   {
-    id: 160,
+    id: 154,
+    number: 12,
+    topic: "Topic 3",
+    prompt: "You have an Azure File sync group that has the endpoints shown in the following table.\n\n{{img:/exam-media/az-104/T3/0016100002.png}}\n\n Cloud tiering is enabled for Endpoint3.\n You add a file named File1 to Endpoint1 and a file named File2 to Endpoint2.\n On which endpoints will File1 and File2 be available within 24 hours of adding the files? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T3/0016200001.jpg}}",
+    keySource: "source",
+    explanation: "Source: Az-104 T3.apkg #12",
+    type: "hotspot-dropdown",
+    options: [
+      {
+        id: "A",
+        text: "Endpoint1 only"
+      },
+      {
+        id: "B",
+        text: "Endpoint3 only"
+      },
+      {
+        id: "C",
+        text: "Endpoint1, Endpoint2, and Endpoint3"
+      },
+      {
+        id: "D",
+        text: "Endpoint2 and Endpoint3 only"
+      },
+      {
+        id: "E",
+        text: "Endpoint1 only"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "File1"
+      },
+      {
+        id: "t2",
+        text: "File2"
+      }
+    ],
+    correct: [
+      "t1:A",
+      "t2:C"
+    ]
+  },
+  {
+    id: 155,
     number: 13,
     topic: "Topic 3",
-    prompt: "You have several Azure virtual machines on a virtual network named VNet1.\n You configure an Azure Storage account as shown in the following exhibit.\n\n[Image: 0016400001.jpg]\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0016500001.jpg]",
+    prompt: "You have several Azure virtual machines on a virtual network named VNet1.\n You configure an Azure Storage account as shown in the following exhibit.\n\n{{img:/exam-media/az-104/T3/0016400001.jpg}}\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T3/0016500001.jpg}}",
     keySource: "source",
     explanation: "Source: Az-104 T3.apkg #13",
-    type: "multiple",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
@@ -4600,16 +4735,26 @@ export const az104Questions: Question[] = [
         text: "2. never"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      }
+    ],
     correct: [
-      "C",
-      "E"
+      "t1:C",
+      "t2:E"
     ]
   },
   {
-    id: 161,
+    id: 156,
     number: 14,
     topic: "Topic 3",
-    prompt: "You have a sync group named Sync1 that has a cloud endpoint. The cloud endpoint includes a file named File1.txt.\n Your on-premises network contains servers that run Windows Server 2016. The servers are configured as shown in the following table.\n\n[Image: 0016700001.png]\n\n You add Share1 as an endpoint for Sync1. One hour later, you add Share2 as an endpoint for Sync1.\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
+    prompt: "You have a sync group named Sync1 that has a cloud endpoint. The cloud endpoint includes a file named File1.txt.\n Your on-premises network contains servers that run Windows Server 2016. The servers are configured as shown in the following table.\n\n{{img:/exam-media/az-104/T3/0016700001.png}}\n\n You add Share1 as an endpoint for Sync1. One hour later, you add Share2 as an endpoint for Sync1.\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
     explanation: "Source: Az-104 T3.apkg #14",
     type: "hotspot-boolean",
@@ -4632,10 +4777,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 162,
+    id: 157,
     number: 15,
     topic: "Topic 3",
-    prompt: "You have an Azure subscription that contains the storage accounts shown in the following table.\n\n[Image: 0016900001.png]\n\n You need to identify which storage account can be converted to zone-redundant storage (ZRS) replication by requesting a live migration from Azure support.\n What should you identify?",
+    prompt: "You have an Azure subscription that contains the storage accounts shown in the following table.\n\n{{img:/exam-media/az-104/T3/0016900001.png}}\n\n You need to identify which storage account can be converted to zone-redundant storage (ZRS) replication by requesting a live migration from Azure support.\n What should you identify?",
     keySource: "source",
     explanation: "Source: Az-104 T3.apkg #15",
     type: "single",
@@ -4662,7 +4807,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 163,
+    id: 158,
     number: 16,
     topic: "Topic 3",
     prompt: "You have an Azure subscription that contains a storage account named account1.\n You plan to upload the disk files of a virtual machine to account1 from your on-premises network. The on-premises network uses a public IP address space of\n 131.107.1.0/24.\n You plan to use the disk files to provision an Azure virtual machine named VM1. VM1 will be attached to a virtual network named VNet1. VNet1 uses an IP address space of 192.168.0.0/24.\n You need to configure account1 to meet the following requirements:\n ✑ Ensure that you can upload the disk files to account1.\n ✑ Ensure that you can attach the disks to VM1.\n ✑ Prevent all other access to account1.\n Which two actions should you perform? Each correct answer presents part of the solution.\n NOTE: Each correct selection is worth one point.",
@@ -4697,13 +4842,13 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 164,
+    id: 159,
     number: 17,
     topic: "Topic 3",
-    prompt: "You have an on-premises file server named Server1 that runs Windows Server 2016.\n You have an Azure subscription that contains an Azure file share.\n You deploy an Azure File Sync Storage Sync Service, and you create a sync group.\n You need to synchronize files from Server1 to Azure.\n Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.\n Select and Place:\n\n[Image: 0017200001-f6086e5bbbac3bf4f89388681fd829f015590c59.png]",
+    prompt: "You have an on-premises file server named Server1 that runs Windows Server 2016.\n You have an Azure subscription that contains an Azure file share.\n You deploy an Azure File Sync Storage Sync Service, and you create a sync group.\n You need to synchronize files from Server1 to Azure.\n Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.\n Select and Place:\n\n{{img:/exam-media/az-104/T3/0017200001-f6086e5bbbac3bf4f89388681fd829f015590c59.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T3.apkg #17",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T3/0017300001-e562da642ac14ed7fb1e62aa6f9c8edc68f6c0de.png}}\nSource: Az-104 T3.apkg #17",
+    type: "drag-drop",
     options: [
       {
         id: "A",
@@ -4726,49 +4871,73 @@ export const az104Questions: Question[] = [
         text: "Install the DFS Replication server role on Server1"
       }
     ],
-    correct: [
-      "A",
-      "B",
-      "C"
-    ]
-  },
-  {
-    id: 165,
-    number: 18,
-    topic: "Topic 3",
-    prompt: "You plan to create an Azure Storage account in the Azure region of East US 2.\n You need to create a storage account that meets the following requirements:\n ✑ Replicates synchronously.\n ✑ Remains available if a single data center in the region fails.\n How should you configure the storage account? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0017400003.png]",
-    keySource: "source",
-    explanation: "Source: Az-104 T3.apkg #18",
-    type: "multiple",
-    options: [
+    targets: [
       {
-        id: "A",
-        text: "Replication: Zone-redundant storage (ZRS)"
+        id: "t1",
+        text: "Blank 1"
       },
       {
-        id: "B",
-        text: "Replication: Geo-redundant storage (GRS)"
+        id: "t2",
+        text: "Blank 2"
       },
       {
-        id: "C",
-        text: "Replication:: Locally-redundant storage (LRS)"
-      },
-      {
-        id: "D",
-        text: "Account type: Blob storage"
-      },
-      {
-        id: "E",
-        text: "Account type: Storage V2 (general purpose V2)"
+        id: "t3",
+        text: "Blank 3"
       }
     ],
     correct: [
-      "A",
-      "E"
+      "t1:A",
+      "t2:B",
+      "t3:C"
     ]
   },
   {
-    id: 166,
+    id: 160,
+    number: 18,
+    topic: "Topic 3",
+    prompt: "You plan to create an Azure Storage account in the Azure region of East US 2.\n You need to create a storage account that meets the following requirements:\n ✑ Replicates synchronously.\n ✑ Remains available if a single data center in the region fails.\n How should you configure the storage account? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T3/0017400003.png}}",
+    keySource: "source",
+    explanation: "{{img:/exam-media/az-104/T3/0017500001.png}}\nSource: Az-104 T3.apkg #18",
+    type: "hotspot-dropdown",
+    options: [
+      {
+        id: "A",
+        text: "Zone-redundant storage (ZRS)"
+      },
+      {
+        id: "B",
+        text: "Geo-redundant storage (GRS)"
+      },
+      {
+        id: "C",
+        text: ": Locally-redundant storage (LRS)"
+      },
+      {
+        id: "D",
+        text: "Blob storage"
+      },
+      {
+        id: "E",
+        text: "Storage V2 (general purpose V2)"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "Replication"
+      },
+      {
+        id: "t2",
+        text: "Account type"
+      }
+    ],
+    correct: [
+      "t1:A",
+      "t2:E"
+    ]
+  },
+  {
+    id: 161,
     number: 19,
     topic: "Topic 3",
     prompt: "You plan to use the Azure Import/Export service to copy files to a storage account.\n Which two files should you create before you prepare the drives for the import job? Each correct answer presents part of the solution.\n NOTE: Each correct selection is worth one point.",
@@ -4803,7 +4972,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 167,
+    id: 162,
     number: 20,
     topic: "Topic 3",
     prompt: "You have a Recovery Service vault that you use to test backups. The test backups contain two protected virtual machines.\n You need to delete the Recovery Services vault.\n What should you do first?",
@@ -4833,42 +5002,52 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 168,
+    id: 163,
     number: 21,
     topic: "Topic 3",
-    prompt: "You have an Azure subscription named Subscription1 that contains the resources shown in the following table.\n\n[Image: 0017800001-9fc8266bbb9872b6161ebf88266862d000652da5.png]\n\n In storage1, you create a blob container named blob1 and a file share named share1.\n Which resources can be backed up to Vault1 and Vault2? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0017900001.png]",
+    prompt: "You have an Azure subscription named Subscription1 that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T3/0017800001-9fc8266bbb9872b6161ebf88266862d000652da5.png}}\n\n In storage1, you create a blob container named blob1 and a file share named share1.\n Which resources can be backed up to Vault1 and Vault2? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T3/0017900001.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T3.apkg #21",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T3/0018000001-c4e7966082ef0c5c28ab1b3756f516c189041c04.png}}\nSource: Az-104 T3.apkg #21",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "Vault1 for backups:VM1 only"
+        text: "VM1 only"
       },
       {
         id: "B",
-        text: "Vault1 for backups:Vm1 and share1 only"
+        text: "Vm1 and share1 only"
       },
       {
         id: "C",
-        text: "Vault1 for backups:Vm1 and SQL1 only"
+        text: "Vm1 and SQL1 only"
       },
       {
         id: "D",
-        text: "Vault2 for backups: share1 only"
+        text: "share1 only"
       },
       {
         id: "E",
-        text: "Vault2 for backups: storage1 only"
+        text: "storage1 only"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "Vault1 for backups"
+      },
+      {
+        id: "t2",
+        text: "Vault2 for backups"
       }
     ],
     correct: [
-      "A",
-      "D"
+      "t1:A",
+      "t2:D"
     ]
   },
   {
-    id: 169,
+    id: 164,
     number: 22,
     topic: "Topic 3",
     prompt: "You have an Azure subscription named Subscription1.\n You have 5 TB of data that you need to transfer to Subscription1.\n You plan to use an Azure Import/Export job.\n What can you use as the destination of the imported data?",
@@ -4898,13 +5077,13 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 170,
+    id: 165,
     number: 23,
     topic: "Topic 3",
-    prompt: "You have an Azure subscription.\nYou create the Azure Storage account shown in the following exhibit.\n\n[Image: 0018300001-323f8d2c5f68541eaa0614db7767ad8460e411f8.jpg]\n\nUse the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\nNOTE: Each correct selection is worth one point.\nHot Area:\n\n[Image: 0018400001.png]",
+    prompt: "You have an Azure subscription.\nYou create the Azure Storage account shown in the following exhibit.\n\n{{img:/exam-media/az-104/T3/0018300001-323f8d2c5f68541eaa0614db7767ad8460e411f8.jpg}}\n\nUse the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\nNOTE: Each correct selection is worth one point.\nHot Area:\n\n{{img:/exam-media/az-104/T3/0018400001.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T3.apkg #23",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T3/0018400002.png}}\nSource: Az-104 T3.apkg #23",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
@@ -4927,13 +5106,23 @@ export const az104Questions: Question[] = [
         text: "Performance"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      }
+    ],
     correct: [
-      "C",
-      "D"
+      "t1:C",
+      "t2:D"
     ]
   },
   {
-    id: 171,
+    id: 166,
     number: 24,
     topic: "Topic 3",
     prompt: "You have an Azure Storage account named storage1.\n You plan to use AzCopy to copy data to storage1.\n You need to identify the storage services in storage1 to which you can copy the data.\n Which storage services should you identify?",
@@ -4967,42 +5156,52 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 172,
+    id: 167,
     number: 25,
     topic: "Topic 3",
-    prompt: "You have an Azure Storage account named storage1 that uses Azure Blob storage and Azure File storage.\n You need to use AzCopy to copy data to the blob storage and file storage in storage1.\n Which authentication method should you use for each type of storage? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0018700001-6b649140730bf6b815ca58350334cae7c537460b.png]",
+    prompt: "You have an Azure Storage account named storage1 that uses Azure Blob storage and Azure File storage.\n You need to use AzCopy to copy data to the blob storage and file storage in storage1.\n Which authentication method should you use for each type of storage? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T3/0018700001-6b649140730bf6b815ca58350334cae7c537460b.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T3.apkg #25",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T3/0018700002.png}}\nSource: Az-104 T3.apkg #25",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "Blob storage: Entra ID only"
+        text: "Entra ID only"
       },
       {
         id: "B",
-        text: "Blob storage: Access keys and shared access signatures(SAS) only"
+        text: "Access keys and shared access signatures(SAS) only"
       },
       {
         id: "C",
-        text: "Blob storage: Entra ID ans shared access signatures(SAS9 only"
+        text: "Entra ID ans shared access signatures(SAS9 only"
       },
       {
         id: "D",
-        text: "File storage: shared access signatures(SAS) only"
+        text: "shared access signatures(SAS) only"
       },
       {
         id: "E",
-        text: "File storage: Entra ID only"
+        text: "Entra ID only"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blob storage"
+      },
+      {
+        id: "t2",
+        text: "File storage"
       }
     ],
     correct: [
-      "C",
-      "D"
+      "t1:C",
+      "t2:D"
     ]
   },
   {
-    id: 173,
+    id: 168,
     number: 26,
     topic: "Topic 3",
     prompt: "You have an Azure subscription that contains an Azure Storage account.\n You plan to create an Azure container instance named container1 that will use a Docker image named Image1. Image1 contains a Microsoft SQL Server instance that requires persistent storage.\n You need to configure a storage service for Container1.\n What should you use?",
@@ -5032,7 +5231,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 174,
+    id: 169,
     number: 27,
     topic: "Topic 3",
     prompt: "You have an app named App1 that runs on two Azure virtual machines named VM1 and VM2.\n You plan to implement an Azure Availability Set for App1. The solution must ensure that App1 is available during planned maintenance of the hardware hosting\n VM1 and VM2.\n What should you include in the Availability Set?",
@@ -5062,7 +5261,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 175,
+    id: 170,
     number: 28,
     topic: "Topic 3",
     prompt: "You have an Azure subscription named Subscription1.\n You have 5 TB of data that you need to transfer to Subscription1.\n You plan to use an Azure Import/Export job.\n What can you use as the destination of the imported data?",
@@ -5092,13 +5291,13 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 176,
+    id: 171,
     number: 29,
     topic: "Topic 3",
-    prompt: "You have an Azure subscription that contains an Azure file share.\n You have an on-premises server named Server1 that runs Windows Server 2016.\n You plan to set up Azure File Sync between Server1 and the Azure file share.\n You need to prepare the subscription for the planned Azure File Sync.\n Which two actions should you perform in the Azure subscription? To answer, drag the appropriate actions to the correct targets. Each action may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.\n NOTE: Each correct selection is worth one point.\n  Select and Place:\n\n[Image: 0019100001-b3fdbdebc5808328dde74c024e5587630bda147a.png]",
+    prompt: "You have an Azure subscription that contains an Azure file share.\n You have an on-premises server named Server1 that runs Windows Server 2016.\n You plan to set up Azure File Sync between Server1 and the Azure file share.\n You need to prepare the subscription for the planned Azure File Sync.\n Which two actions should you perform in the Azure subscription? To answer, drag the appropriate actions to the correct targets. Each action may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.\n NOTE: Each correct selection is worth one point.\n  Select and Place:\n\n{{img:/exam-media/az-104/T3/0019100001-b3fdbdebc5808328dde74c024e5587630bda147a.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T3.apkg #29",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T3/image906.png}}\nSource: Az-104 T3.apkg #29",
+    type: "drag-drop",
     options: [
       {
         id: "A",
@@ -5117,16 +5316,26 @@ export const az104Questions: Question[] = [
         text: "Run Server Registration"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      }
+    ],
     correct: [
-      "A",
-      "C"
+      "t1:A",
+      "t2:C"
     ]
   },
   {
-    id: 177,
+    id: 172,
     number: 30,
     topic: "Topic 3",
-    prompt: "You have an Azure subscription that contains the file shares shown in the following table.\n\n[Image: 0019200001-dd9193449a06ae18350bc4d1f93a8581ce87466b.png]\n\n You have the on-premises file shares shown in the following table.\n\n[Image: 0019200002.png]\n\n You create an Azure file sync group named Sync1 and perform the following actions:\n ✑ Add share1 as the cloud endpoint for Sync1.\n ✑ Add data1 as a server endpoint for Sync1.\n ✑ Register Server1 and Server2 to Sync1.\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.\n Hot Area:",
+    prompt: "You have an Azure subscription that contains the file shares shown in the following table.\n\n{{img:/exam-media/az-104/T3/0019200001-dd9193449a06ae18350bc4d1f93a8581ce87466b.png}}\n\n You have the on-premises file shares shown in the following table.\n\n{{img:/exam-media/az-104/T3/0019200002.png}}\n\n You create an Azure file sync group named Sync1 and perform the following actions:\n ✑ Add share1 as the cloud endpoint for Sync1.\n ✑ Add data1 as a server endpoint for Sync1.\n ✑ Register Server1 and Server2 to Sync1.\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.\n Hot Area:",
     keySource: "source",
     explanation: "Source: Az-104 T3.apkg #30",
     type: "hotspot-boolean",
@@ -5149,83 +5358,103 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 178,
+    id: 173,
     number: 31,
     topic: "Topic 3",
-    prompt: "You have an Azure subscription named Subscription1 that contains the resources shown in the following table:\n\n[Image: 0019400001.png]\n\n You plan to configure Azure Backup reports for Vault1.\n You are configuring the Diagnostics settings for the AzureBackupReports log.\n Which storage accounts and which Log Analytics workspaces can you use for the Azure Backup reports of Vault1? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0019500001.jpg]",
+    prompt: "You have an Azure subscription named Subscription1 that contains the resources shown in the following table:\n\n{{img:/exam-media/az-104/T3/0019400001.png}}\n\n You plan to configure Azure Backup reports for Vault1.\n You are configuring the Diagnostics settings for the AzureBackupReports log.\n Which storage accounts and which Log Analytics workspaces can you use for the Azure Backup reports of Vault1? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T3/0019500001.jpg}}",
     keySource: "source",
     explanation: "Source: Az-104 T3.apkg #31",
-    type: "multiple",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "Storage accounts: storage1 only"
+        text: "storage1 only"
       },
       {
         id: "B",
-        text: "Storage accounts: storage2 only"
+        text: "storage2 only"
       },
       {
         id: "C",
-        text: "Storage accounts: storage1, storage2, and storage2 only"
+        text: "storage1, storage2, and storage2 only"
       },
       {
         id: "D",
-        text: "Log Analytics workspaces: Analytics3 only"
+        text: "Analytics3 only"
       },
       {
         id: "E",
-        text: "Log Analytics workspaces: Analytics2 only"
+        text: "Analytics2 only"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "Storage accounts"
+      },
+      {
+        id: "t2",
+        text: "Log Analytics workspaces"
       }
     ],
     correct: [
-      "C",
-      "D"
+      "t1:C",
+      "t2:D"
     ]
   },
   {
-    id: 179,
+    id: 174,
     number: 32,
     topic: "Topic 3",
-    prompt: "You have an Azure subscription that contains the storage accounts shown in the following exhibit.\n\n[Image: 0019600001-b7796552adde91f1b87b7143253dd16a2f370674.png]\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0019700001.png]",
+    prompt: "You have an Azure subscription that contains the storage accounts shown in the following exhibit.\n\n{{img:/exam-media/az-104/T3/0019600001-b7796552adde91f1b87b7143253dd16a2f370674.png}}\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T3/0019700001.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T3.apkg #32",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T3/image907.png}}\nSource: Az-104 T3.apkg #32",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "premium file share in: contoso101 only"
+        text: "contoso101 only"
       },
       {
         id: "B",
-        text: "premium file share in: contoso104 only"
+        text: "contoso104 only"
       },
       {
         id: "C",
-        text: "Archive access tier in: contoso101 or contoso103 only"
+        text: "contoso101 or contoso103 only"
       },
       {
         id: "D",
-        text: "Archive access tier in: contoso101 only"
+        text: "contoso101 only"
       },
       {
         id: "E",
-        text: "Archive access tier in: contoso101 , contoso102, contoso103, and contoso104"
+        text: "contoso101 , contoso102, contoso103, and contoso104"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "premium file share in"
+      },
+      {
+        id: "t2",
+        text: "Archive access tier in"
       }
     ],
     correct: [
-      "B",
-      "C"
+      "t1:B",
+      "t2:C"
     ]
   },
   {
-    id: 180,
+    id: 175,
     number: 33,
     topic: "Topic 3",
-    prompt: "You have an Azure subscription named Subscription1.\n In Subscription1, you create an Azure file share named share1.\n You create a shared access signature (SAS) named SAS1 as shown in the following exhibit:\n\n[Image: 0019900001.png]\n\n To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0020000001-9128caf767abb271e148a1df28b154861a6ffeb8.jpg]",
+    prompt: "You have an Azure subscription named Subscription1.\n In Subscription1, you create an Azure file share named share1.\n You create a shared access signature (SAS) named SAS1 as shown in the following exhibit:\n\n{{img:/exam-media/az-104/T3/0019900001.png}}\n\n To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T3/0020000001-9128caf767abb271e148a1df28b154861a6ffeb8.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T3.apkg #33",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T3/image908.png}}\nSource: Az-104 T3.apkg #33",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
@@ -5248,13 +5477,23 @@ export const az104Questions: Question[] = [
         text: "2. will have no access"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      }
+    ],
     correct: [
-      "B",
-      "E"
+      "t1:B",
+      "t2:E"
     ]
   },
   {
-    id: 181,
+    id: 176,
     number: 34,
     topic: "Topic 3",
     prompt: "You have two Azure virtual machines named VM1 and VM2. You have two Recovery Services vaults named RSV1 and RSV2.\nVM2 is backed up to RSV1.\nYou need to back up VM2 to RSV2.\nWhat should you do first?",
@@ -5284,7 +5523,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 182,
+    id: 177,
     number: 35,
     topic: "Topic 3",
     prompt: "You have a general-purpose v1 Azure Storage account named storage1 that uses locally-redundant storage (LRS).\n You need to ensure that the data in the storage account is protected if a zone fails. The solution must minimize costs and administrative effort.\n What should you do first?",
@@ -5314,10 +5553,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 183,
+    id: 178,
     number: 36,
     topic: "Topic 3",
-    prompt: "You have an Azure subscription that contains the storage accounts shown in the following table.\n\n[Image: 0020200001.png]\n\n You plan to manage the data stored in the accounts by using lifecycle management rules.\n To which storage accounts can you apply lifecycle management rules?",
+    prompt: "You have an Azure subscription that contains the storage accounts shown in the following table.\n\n{{img:/exam-media/az-104/T3/0020200001.png}}\n\n You plan to manage the data stored in the accounts by using lifecycle management rules.\n To which storage accounts can you apply lifecycle management rules?",
     keySource: "source",
     explanation: "Source: Az-104 T3.apkg #36",
     type: "single",
@@ -5348,7 +5587,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 184,
+    id: 179,
     number: 37,
     topic: "Topic 3",
     prompt: "You create an Azure Storage account named contosostorage.\n You plan to create a file share named data.\n Users need to map a drive to the data file share from home computers that run Windows 10.\n Which outbound port should you open between the home computers and the data file share?",
@@ -5374,10 +5613,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 185,
+    id: 180,
     number: 39,
     topic: "Topic 3",
-    prompt: "You have an Azure subscription that contains an Azure Storage account named storageaccount1.\n You export storageaccount1 as an Azure Resource Manager template. The template contains the following sections.\n\n[Image: 0020500001.jpg]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point\n Hot Area:",
+    prompt: "You have an Azure subscription that contains an Azure Storage account named storageaccount1.\n You export storageaccount1 as an Azure Resource Manager template. The template contains the following sections.\n\n{{img:/exam-media/az-104/T3/0020500001.jpg}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point\n Hot Area:",
     keySource: "source",
     explanation: "Source: Az-104 T3.apkg #39",
     type: "hotspot-boolean",
@@ -5400,10 +5639,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 186,
+    id: 181,
     number: 40,
     topic: "Topic 3",
-    prompt: "You have an Azure subscription that contains a storage account named storage1.\n You have the devices shown in the following table.\n\n[Image: 0020700001.png]\n\n From which devices can you use AzCopy to copy data to storage1?",
+    prompt: "You have an Azure subscription that contains a storage account named storage1.\n You have the devices shown in the following table.\n\n{{img:/exam-media/az-104/T3/0020700001.png}}\n\n From which devices can you use AzCopy to copy data to storage1?",
     keySource: "source",
     explanation: "Source: Az-104 T3.apkg #40",
     type: "single",
@@ -5430,7 +5669,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 187,
+    id: 182,
     number: 41,
     topic: "Topic 3",
     prompt: "You have an Azure Storage account named storage1 that contains a blob container named container1.\n You need to prevent new content added to container1 from being modified for one year.\n What should you configure?",
@@ -5460,10 +5699,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 188,
+    id: 183,
     number: 42,
     topic: "Topic 3",
-    prompt: "You have an Azure Storage account named storage1 that contains a blob container. The blob container has a default access tier of Hot. Storage1 contains a container named conainer1.\n You create lifecycle management rules in storage1 as shown in the following table.\n\n[Image: 0020800001.png]\n\n You perform the actions shown in the following table.\n\n[Image: 0020900001.png]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.\n Hot Area:",
+    prompt: "You have an Azure Storage account named storage1 that contains a blob container. The blob container has a default access tier of Hot. Storage1 contains a container named conainer1.\n You create lifecycle management rules in storage1 as shown in the following table.\n\n{{img:/exam-media/az-104/T3/0020800001.png}}\n\n You perform the actions shown in the following table.\n\n{{img:/exam-media/az-104/T3/0020900001.png}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.\n Hot Area:",
     keySource: "source",
     explanation: "Source: Az-104 T3.apkg #42",
     type: "hotspot-boolean",
@@ -5486,7 +5725,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 189,
+    id: 184,
     number: 43,
     topic: "Topic 3",
     prompt: "You are configuring Azure Active Directory (Azure AD) authentication for an Azure Storage account named storage1.\n You need to ensure that the members of a group named Group1 can upload files by using the Azure portal. The solution must use the principle of least privilege.\n Which two roles should you configure for storage1? Each correct answer presents part of the solution.\n NOTE: Each correct selection is worth one point.",
@@ -5521,13 +5760,13 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 190,
+    id: 185,
     number: 44,
     topic: "Topic 3",
-    prompt: "You have an Azure Storage account named storage1 that stores images.\n You need to create a new storage account and replicate the images in storage1 to the new account by using object replication.\n How should you configure the new account? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0021100001.jpg]",
+    prompt: "You have an Azure Storage account named storage1 that stores images.\n You need to create a new storage account and replicate the images in storage1 to the new account by using object replication.\n How should you configure the new account? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T3/0021100001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T3.apkg #44",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T3/0021200001.jpg}}\nSource: Az-104 T3.apkg #44",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
@@ -5550,13 +5789,23 @@ export const az104Questions: Question[] = [
         text: "File share"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      }
+    ],
     correct: [
-      "A",
-      "D"
+      "t1:A",
+      "t2:D"
     ]
   },
   {
-    id: 191,
+    id: 186,
     number: 45,
     topic: "Topic 3",
     prompt: "You have an on-premises server that contains a folder named D:\\Folder1.\n You need to copy the contents of D:\\Folder1 to the public container in an Azure Storage account named contosodata.\n Which command should you run?",
@@ -5586,7 +5835,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 192,
+    id: 187,
     number: 46,
     topic: "Topic 3",
     prompt: "You have an Azure subscription.\n In the Azure portal, you plan to create a storage account named storage1 that will have the following settings:\n ✑ Performance: Standard\n ✑ Replication: Zone-redundant storage (ZRS)\n ✑ Access tier (default): Cool\n ✑ Hierarchical namespace: Disabled\n You need to ensure that you can set Account kind for storage1 to BlockBlobStorage.\n Which setting should you modify first?",
@@ -5616,42 +5865,52 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 193,
+    id: 188,
     number: 47,
     topic: "Topic 3",
-    prompt: "You have an Azure subscription that contains the storage accounts shown in the following table.\n\n[Image: 0021400001.png]\n\n You plan to use AzCopy to copy a blob from container1 directly to share1.\n You need to identify which authentication method to use when you use AzCopy.\n What should you identify for each account? To answer, drag the appropriate authentication methods to the correct accounts. Each method may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.\n NOTE: Each correct selection is worth one point.\n Select and Place:\n\n[Image: 0021500001.jpg]",
+    prompt: "You have an Azure subscription that contains the storage accounts shown in the following table.\n\n{{img:/exam-media/az-104/T3/0021400001.png}}\n\n You plan to use AzCopy to copy a blob from container1 directly to share1.\n You need to identify which authentication method to use when you use AzCopy.\n What should you identify for each account? To answer, drag the appropriate authentication methods to the correct accounts. Each method may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.\n NOTE: Each correct selection is worth one point.\n Select and Place:\n\n{{img:/exam-media/az-104/T3/0021500001.jpg}}",
     keySource: "source",
     explanation: "Source: Az-104 T3.apkg #47",
-    type: "multiple",
+    type: "drag-drop",
     options: [
       {
         id: "A",
-        text: "storage1: OAuth"
+        text: "OAuth"
       },
       {
         id: "B",
-        text: "storage2: A storage account access key"
+        text: "A storage account access key"
       },
       {
         id: "C",
-        text: "storage1: A storage account access key"
+        text: "A storage account access key"
       },
       {
         id: "D",
-        text: "storage1: A shared access signature (SAS) token"
+        text: "A shared access signature (SAS) token"
       },
       {
         id: "E",
-        text: "storage2: A shared access signature (SAS) token"
+        text: "A shared access signature (SAS) token"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "storage1"
+      },
+      {
+        id: "t2",
+        text: "storage2"
       }
     ],
     correct: [
-      "D",
-      "E"
+      "t1:D",
+      "t2:E"
     ]
   },
   {
-    id: 194,
+    id: 189,
     number: 48,
     topic: "Topic 3",
     prompt: "You create an Azure Storage account.\n You plan to add 10 blob containers to the storage account.\n For one of the containers, you need to use a different key to encrypt data at rest.\n What should you do before you create the container?",
@@ -5681,11 +5940,11 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 195,
+    id: 190,
     number: 49,
     topic: "Topic 3",
-    prompt: "You have an Azure subscription. The subscription contains a storage account named storage1 that has the lifecycle management rules shown in the following table.\n\n[Image: image578.png]\n\n On June 1, you store two blobs in storage1 as shown in the following table.\n\n[Image: image579.png]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
-    keySource: "domain",
+    prompt: "You have an Azure subscription. The subscription contains a storage account named storage1 that has the lifecycle management rules shown in the following table.\n\n{{img:/exam-media/az-104/T3/image578.png}}\n\n On June 1, you store two blobs in storage1 as shown in the following table.\n\n{{img:/exam-media/az-104/T3/image579.png}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
+    keySource: "source",
     explanation: "Source: Az-104 T3.apkg #49",
     type: "hotspot-boolean",
     statements: [
@@ -5707,10 +5966,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 196,
+    id: 191,
     number: 50,
     topic: "Topic 3",
-    prompt: "HOTSPOT\n -\n\n You have an Azure subscription.\n\n You plan to deploy a storage account named storage1 by using the following Azure Resource Manager (ARM) template.\n\n[Image: image582.png]\n\n For each of the following statements, select Yes if the statement is hue. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
+    prompt: "HOTSPOT\n -\n\n You have an Azure subscription.\n\n You plan to deploy a storage account named storage1 by using the following Azure Resource Manager (ARM) template.\n\n{{img:/exam-media/az-104/T3/image582.png}}\n\n For each of the following statements, select Yes if the statement is hue. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
     explanation: "Source: Az-104 T3.apkg #50",
     type: "hotspot-boolean",
@@ -5733,10 +5992,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 197,
+    id: 192,
     number: 52,
     topic: "Topic 3",
-    prompt: "You have an Azure subscription that contains a storage account named storage1. The storage1 account contains a container named container1.\n\n You need to create a lifecycle management rule for storage1 that will automatically move the blobs in container1 to the lowest-cost tier after 90 days.\n\n How should you complete the rule? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.\n\n[Image: image585.png]",
+    prompt: "You have an Azure subscription that contains a storage account named storage1. The storage1 account contains a container named container1.\n\n You need to create a lifecycle management rule for storage1 that will automatically move the blobs in container1 to the lowest-cost tier after 90 days.\n\n How should you complete the rule? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.\n\n{{img:/exam-media/az-104/T3/image585.png}}",
     keySource: "source",
     explanation: "Source: Az-104 T3.apkg #52",
     type: "multiple",
@@ -5768,12 +6027,12 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 198,
+    id: 193,
     number: 53,
     topic: "Topic 3",
-    prompt: "You have an Azure subscription that contains a virtual machine named VM1.\n\nYou need to back up VM1. The solution must ensure that backups are stored across three availability zones in the primary region.\n\nWhich three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.\n\n[Image: image587.png]",
+    prompt: "You have an Azure subscription that contains a virtual machine named VM1.\n\nYou need to back up VM1. The solution must ensure that backups are stored across three availability zones in the primary region.\n\nWhich three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.\n\n{{img:/exam-media/az-104/T3/image587.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T3.apkg #53",
+    explanation: "{{img:/exam-media/az-104/T3/image588.png}}\nSource: Az-104 T3.apkg #53",
     type: "multiple",
     options: [
       {
@@ -5804,10 +6063,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 199,
+    id: 194,
     number: 55,
     topic: "Topic 3",
-    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n[Image: image589.png]\n\n You need to perform the tasks shown in the following table.\n\n[Image: image590.png]\n\n Which tasks can you perform by using Azure Storage Explorer?",
+    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T3/image589.png}}\n\n You need to perform the tasks shown in the following table.\n\n{{img:/exam-media/az-104/T3/image590.png}}\n\n Which tasks can you perform by using Azure Storage Explorer?",
     keySource: "source",
     explanation: "Source: Az-104 T3.apkg #55",
     type: "single",
@@ -5838,7 +6097,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 200,
+    id: 195,
     number: 57,
     topic: "Topic 3",
     prompt: "You have an Azure subscription that contains a storage account named storage1.\n\n You plan to create a blob container named container1.\n\n You need to use customer-managed key encryption for container1.\n\n Which key should you use?",
@@ -5872,10 +6131,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 201,
+    id: 196,
     number: 61,
     topic: "Topic 3",
-    prompt: "You have an Azure subscription. The subscription contains a storage account named storage1 that has the lifecycle management rules shown in the following table.\n\n[Image: image639.png]\n\n On June 1, you store a blob named File1 in the Hot access tier of storage1.\n\n What is the state of File1 on June 7?",
+    prompt: "You have an Azure subscription. The subscription contains a storage account named storage1 that has the lifecycle management rules shown in the following table.\n\n{{img:/exam-media/az-104/T3/image639.png}}\n\n On June 1, you store a blob named File1 in the Hot access tier of storage1.\n\n What is the state of File1 on June 7?",
     keySource: "source",
     explanation: "Source: Az-104 T3.apkg #61",
     type: "single",
@@ -5902,12 +6161,12 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 202,
+    id: 197,
     number: 64,
     topic: "Topic 3",
-    prompt: "You have an Azure subscription that contains a storage account named storage1. The storage1 account contains a container named container1.\n\n You create a blob lifecycle rule named rule1.\n\n You need to configure rule1 to automatically move blobs that were NOT updated for 45 days from contained to the Cool access tier.\n\n How should you complete the rule? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.\n\n[Image: image651.png]",
+    prompt: "You have an Azure subscription that contains a storage account named storage1. The storage1 account contains a container named container1.\n\n You create a blob lifecycle rule named rule1.\n\n You need to configure rule1 to automatically move blobs that were NOT updated for 45 days from contained to the Cool access tier.\n\n How should you complete the rule? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.\n\n{{img:/exam-media/az-104/T3/image651.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T3.apkg #64",
+    explanation: "{{img:/exam-media/az-104/T3/image652.png}}\nSource: Az-104 T3.apkg #64",
     type: "multiple",
     options: [
       {
@@ -5937,7 +6196,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 203,
+    id: 198,
     number: 66,
     topic: "Topic 3",
     prompt: "You plan to create an Azure Storage account named storage1 that will contain a file share named share1.\n\n You need to ensure that share1 can support SMB Multichannel. The solution must minimize costs.\n\n How should you configure storage?",
@@ -5967,12 +6226,12 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 204,
+    id: 199,
     number: 68,
     topic: "Topic 3",
     prompt: "You have an Azure subscription that contains a storage account named storage1.\n\n You plan to use conditions when assigning role-based access control (RBAC) roles to storage1.\n\n Which storage1 services support conditions when assigning roles?",
     keySource: "source",
-    explanation: "Source: Az-104 T3.apkg #68",
+    explanation: "f.     files shares and tables only\nSource: Az-104 T3.apkg #68",
     type: "single",
     options: [
       {
@@ -6001,10 +6260,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 205,
+    id: 200,
     number: 69,
     topic: "Topic 3",
-    prompt: "You have an Azure subscription that contains the resource groups shown in the following table.\n\n[Image: image658.png]\n\n The subscription contains the virtual networks shown in the following table.\n\n[Image: image659.png]\n\n You plan to deploy the Azure Kubernetes Service (AKS) clusters shown in the following table.\n\n[Image: image660.png]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
+    prompt: "You have an Azure subscription that contains the resource groups shown in the following table.\n\n{{img:/exam-media/az-104/T3/image658.png}}\n\n The subscription contains the virtual networks shown in the following table.\n\n{{img:/exam-media/az-104/T3/image659.png}}\n\n You plan to deploy the Azure Kubernetes Service (AKS) clusters shown in the following table.\n\n{{img:/exam-media/az-104/T3/image660.png}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
     explanation: "Source: Az-104 T3.apkg #69",
     type: "hotspot-boolean",
@@ -6027,7 +6286,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 206,
+    id: 201,
     number: 70,
     topic: "Topic 3",
     prompt: "You have an Azure Storage account named storage1.\n\n You need to enable a user named User1 to list and regenerate storage account keys for storage1.\n\n Solution: You assign the Storage Account Encryption Scope Contributor Role to User1.\n\n Does this meet the goal?",
@@ -6049,13 +6308,13 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 207,
+    id: 202,
     number: 71,
     topic: "Topic 3",
-    prompt: "You have an Azure subscription that has offices in the East US and West US Azure regions.\n\n You plan to create the storage account shown in the following exhibit.\n\n[Image: image671.png]\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n\n NOTE: Each correct selection is worth one point.\n\n[Image: image672.png]",
+    prompt: "You have an Azure subscription that has offices in the East US and West US Azure regions.\n\n You plan to create the storage account shown in the following exhibit.\n\n{{img:/exam-media/az-104/T3/image671.png}}\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n\n NOTE: Each correct selection is worth one point.\n\n{{img:/exam-media/az-104/T3/image672.png}}",
     keySource: "domain",
-    explanation: "Source: Az-104 T3.apkg #71",
-    type: "single",
+    explanation: "{{img:/exam-media/az-104/T3/image911.png}}\nSource: Az-104 T3.apkg #71",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
@@ -6078,17 +6337,23 @@ export const az104Questions: Question[] = [
         text: "Encryption type"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      }
+    ],
     correct: [
-      "A"
+      "t1:A"
     ]
   },
   {
-    id: 208,
+    id: 203,
     number: 72,
     topic: "Topic 3",
     prompt: "You have an Azure subscription.\n\n You plan to deploy a new storage account.\n\n You need to configure encryption for the account. The solution must meet the following requirements:\n\n • Use a customer-managed key stored in a key vault.\n • Use the maximum supported bit length.\n\n Which type of key and which bit length should you use? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source: Az-104 T3.apkg #72",
+    explanation: "{{img:/exam-media/az-104/T3/image675.png}}\nSource: Az-104 T3.apkg #72",
     type: "multiple",
     options: [
       {
@@ -6118,7 +6383,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 209,
+    id: 204,
     number: 73,
     topic: "Topic 3",
     prompt: "You have an Azure Storage account that contains 5,000 blobs accessed by multiple users.\n\n You need to ensure that the users can view only specific blobs based on blob index tags.\n\n What should you include in the solution?",
@@ -6148,12 +6413,12 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 210,
+    id: 205,
     number: 74,
     topic: "Topic 3",
     prompt: "You have an Azure Storage account named storage1.\n\n For storage1, you create an encryption scope named Scope1.\n\n Which storage types can you encrypt by using Scope?",
     keySource: "source",
-    explanation: "Source: Az-104 T3.apkg #74",
+    explanation: "f.  file shares, containers, tables, and queues\nSource: Az-104 T3.apkg #74",
     type: "single",
     options: [
       {
@@ -6182,7 +6447,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 211,
+    id: 206,
     number: 78,
     topic: "Topic 3",
     prompt: "You have an Azure virtual machine named VM1 and an Azure key vault named Vault1.\n\n On VM1, you plan to configure Azure Disk Encryption to use a key encryption key (KEK).\n\n You need to prepare Vault1 for Azure Disk Encryption.\n\n Which two actions should you perform on Vault1? Each correct answer presents part of the solution.",
@@ -6217,7 +6482,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 212,
+    id: 207,
     number: 79,
     topic: "Topic 3",
     prompt: "You have an Azure subscription that contains a virtual machine named VM1 and an Azure key vault named KV1.\n\n You need to configure encryption for VM1. The solution must meet the following requirements:\n\n • Store and use the encryption key in KV1.\n • Maintain encryption if VM1 is downloaded from Azure.\n • Encrypt both the operating system disk and the data disks.\n\n Which encryption method should you use?",
@@ -6247,7 +6512,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 213,
+    id: 208,
     number: 81,
     topic: "Topic 3",
     prompt: "You have an Azure subscription that contains a storage account named storage1. The storage1 account contains a container named container1.\n\n You need to configure access to container1. The solution must meet the following requirements:\n • Only allow read access.\n • Allow both HTTP and HTTPS protocols.\n • Apply access permissions to all the content in the container.\n\n What should you use?",
@@ -6277,7 +6542,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 214,
+    id: 209,
     number: 82,
     topic: "Topic 3",
     prompt: "You need to create an Azure Storage account named storage1. The solution must meet the following requirements:\n\n • Support Azure Data Lake Storage.\n • Minimize costs for infrequently accessed data.\n • Automatically replicate data to a secondary Azure region.\n\n Which three options should you configure for storage1? Each correct answer presents part of the solution.\n\n NOTE: Each correct answer is worth one point.",
@@ -6313,10 +6578,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 215,
+    id: 210,
     number: 83,
     topic: "Topic 3",
-    prompt: "You have an Azure Storage account named storage1 that contains two containers named container1 and container2. Blob versioning is enabled for both containers.\n\n You periodically take blob snapshots of critical blobs.\n\n You create the following lifecycle management policy.\n\n[Image: image770.png]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
+    prompt: "You have an Azure Storage account named storage1 that contains two containers named container1 and container2. Blob versioning is enabled for both containers.\n\n You periodically take blob snapshots of critical blobs.\n\n You create the following lifecycle management policy.\n\n{{img:/exam-media/az-104/T3/image770.png}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
     explanation: "Source: Az-104 T3.apkg #83",
     type: "hotspot-boolean",
@@ -6339,10 +6604,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 216,
+    id: 211,
     number: 84,
     topic: "Topic 3",
-    prompt: "You have an Azure subscription that contains the storage accounts shown in the following table.\n\n[Image: image773.png]\n\n Which storage account can be converted to zone-redundant storage (ZRS) replication?",
+    prompt: "You have an Azure subscription that contains the storage accounts shown in the following table.\n\n{{img:/exam-media/az-104/T3/image773.png}}\n\n Which storage account can be converted to zone-redundant storage (ZRS) replication?",
     keySource: "source",
     explanation: "Source: Az-104 T3.apkg #84",
     type: "single",
@@ -6369,7 +6634,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 217,
+    id: 212,
     number: 86,
     topic: "Topic 3",
     prompt: "You have an Azure Storage account named storage1.\n\n You need to enable a user named User1 to list and regenerate storage account keys for storage1.\n\n Solution: You assign the Storage Account Key Operator Service Role to User1.\n\n Does this meet the goal?",
@@ -6391,7 +6656,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 218,
+    id: 213,
     number: 94,
     topic: "Topic 3",
     prompt: "You have an Azure Storage account named storage1.\n\n You need to enable a user named User1 to list and regenerate storage account keys for storage1.\n\n Solution: You assign the Reader and Data Access role to User1.\n\n Does this meet the goal?",
@@ -6413,7 +6678,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 219,
+    id: 214,
     number: 95,
     topic: "Topic 3",
     prompt: "You have an Azure subscription that contains a Standard SKU Azure container registry named ContReg1.\n\n You need to ensure that ContReg1 supports geo-replication.\n\n What should you do first for ContReg1?",
@@ -6447,10 +6712,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 220,
+    id: 215,
     number: 96,
     topic: "Topic 3",
-    prompt: "Case study -\n\n This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.\n\n To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.\n\n At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.\n\n To start the case study -\n To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.\n\n Overview -\n\n ADatum Corporation is consulting firm that has a main office in Montreal and branch offices in Seattle and New York.\n\n Existing Environment -\n\n Azure Environment -\n\n ADatum has an Azure subscription that contains three resource groups named RG1, RG2, and RG3.\n\n The subscription contains the storage accounts shown in the following table.\n\n[Image: image865.png]\n\n The subscription contains the virtual machines shown in the following table.\n\n[Image: image866.png]\n\n The subscription has an Azure container registry that contains the images shown in the following table.\n\n[Image: image867.png]\n\n The subscription contains the resources shown in the following table.\n\n[Image: image868.png]\n\n Azure Key Vault -\n\n The subscription contains an Azure key vault named Vault1.\n\n Vault1 contains the certificates shown in the following table.\n\n[Image: image869.png]\n\n Vault1 contains the keys shown in the following table.\n\n[Image: image870.png]\n\n Microsoft Entra Environment -\n\n ADatum has a Microsoft Entra tenant named adatum.com that is linked to the Azure subscription and contains the users shown in the following table.\n\n[Image: image871.png]\n\n The tenant contains the groups shown in the following table.\n\n[Image: image872.png]\n\n The adatum.com tenant has a custom security attribute named Attribute1.\n\n Planned Changes -\n\n ADatum plans to implement the following changes:\n\n • Configure a data collection rule (DCR) named DCR1 to collect only system events that have an event ID of 4648 from VM2 and VM4.\n • In storage1, create a new container named cont2 that has the following access policies: o Three stored access policies named Stored1, Stored2, and Stored3 o A legal hold for immutable blob storage\n • Whenever possible, use directories to organize storage account content.\n • Grant User1 the permissions required to link Zone1 to VNet1.\n • Assign Attribute1 to supported adatum.com resources.\n • In storage2, create an encryption scope named Scope1.\n • Deploy new containers by using Image1 or Image2.\n\n Technical Requirements -\n\n ADatum must meet the following technical requirements:\n\n • Use TLS for WebApp1.\n • Follow the principle of least privilege.\n • Grant permissions at the required scope only.\n • Ensure that Scope1 is used to encrypt storage services.\n • Use Azure Backup to back up cont1 and share1 as frequently as possible.\n • Whenever possible, use Azure Disk Encryption and a key encryption key (KEK) to encrypt the virtual machines.\n\n You implement the planned changes for cont2.\n\n What is the maximum number of additional access policies you can create for cont2? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.\n\n[Image: image877.png]",
+    prompt: "Case study -\n\n This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.\n\n To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.\n\n At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.\n\n To start the case study -\n To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.\n\n Overview -\n\n ADatum Corporation is consulting firm that has a main office in Montreal and branch offices in Seattle and New York.\n\n Existing Environment -\n\n Azure Environment -\n\n ADatum has an Azure subscription that contains three resource groups named RG1, RG2, and RG3.\n\n The subscription contains the storage accounts shown in the following table.\n\n{{img:/exam-media/az-104/T3/image865.png}}\n\n The subscription contains the virtual machines shown in the following table.\n\n{{img:/exam-media/az-104/T3/image866.png}}\n\n The subscription has an Azure container registry that contains the images shown in the following table.\n\n{{img:/exam-media/az-104/T3/image867.png}}\n\n The subscription contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T3/image868.png}}\n\n Azure Key Vault -\n\n The subscription contains an Azure key vault named Vault1.\n\n Vault1 contains the certificates shown in the following table.\n\n{{img:/exam-media/az-104/T3/image869.png}}\n\n Vault1 contains the keys shown in the following table.\n\n{{img:/exam-media/az-104/T3/image870.png}}\n\n Microsoft Entra Environment -\n\n ADatum has a Microsoft Entra tenant named adatum.com that is linked to the Azure subscription and contains the users shown in the following table.\n\n{{img:/exam-media/az-104/T3/image871.png}}\n\n The tenant contains the groups shown in the following table.\n\n{{img:/exam-media/az-104/T3/image872.png}}\n\n The adatum.com tenant has a custom security attribute named Attribute1.\n\n Planned Changes -\n\n ADatum plans to implement the following changes:\n\n • Configure a data collection rule (DCR) named DCR1 to collect only system events that have an event ID of 4648 from VM2 and VM4.\n • In storage1, create a new container named cont2 that has the following access policies: o Three stored access policies named Stored1, Stored2, and Stored3 o A legal hold for immutable blob storage\n • Whenever possible, use directories to organize storage account content.\n • Grant User1 the permissions required to link Zone1 to VNet1.\n • Assign Attribute1 to supported adatum.com resources.\n • In storage2, create an encryption scope named Scope1.\n • Deploy new containers by using Image1 or Image2.\n\n Technical Requirements -\n\n ADatum must meet the following technical requirements:\n\n • Use TLS for WebApp1.\n • Follow the principle of least privilege.\n • Grant permissions at the required scope only.\n • Ensure that Scope1 is used to encrypt storage services.\n • Use Azure Backup to back up cont1 and share1 as frequently as possible.\n • Whenever possible, use Azure Disk Encryption and a key encryption key (KEK) to encrypt the virtual machines.\n\n You implement the planned changes for cont2.\n\n What is the maximum number of additional access policies you can create for cont2? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.\n\n{{img:/exam-media/az-104/T3/image877.png}}",
     keySource: "source",
     explanation: "Source: Az-104 T3.apkg #96",
     type: "multiple",
@@ -6482,10 +6747,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 221,
+    id: 216,
     number: 97,
     topic: "Topic 3",
-    prompt: "Case study -\n\n This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.\n\n To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.\n\n At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.\n\n To start the case study -\n To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.\n\n Overview -\n\n ADatum Corporation is consulting firm that has a main office in Montreal and branch offices in Seattle and New York.\n\n Existing Environment -\n\n Azure Environment -\n\n ADatum has an Azure subscription that contains three resource groups named RG1, RG2, and RG3.\n\n The subscription contains the storage accounts shown in the following table.\n\n[Image: image865.png]\n\n The subscription contains the virtual machines shown in the following table.\n\n[Image: image866.png]\n\n The subscription has an Azure container registry that contains the images shown in the following table.\n\n[Image: image867.png]\n\n The subscription contains the resources shown in the following table.\n\n[Image: image868.png]\n\n Azure Key Vault -\n\n The subscription contains an Azure key vault named Vault1.\n\n Vault1 contains the certificates shown in the following table.\n\n[Image: image869.png]\n\n Vault1 contains the keys shown in the following table.\n\n[Image: image870.png]\n\n Microsoft Entra Environment -\n\n ADatum has a Microsoft Entra tenant named adatum.com that is linked to the Azure subscription and contains the users shown in the following table.\n\n[Image: image871.png]\n\n The tenant contains the groups shown in the following table.\n\n[Image: image872.png]\n\n The adatum.com tenant has a custom security attribute named Attribute1.\n\n Planned Changes -\n\n ADatum plans to implement the following changes:\n\n • Configure a data collection rule (DCR) named DCR1 to collect only system events that have an event ID of 4648 from VM2 and VM4.\n • In storage1, create a new container named cont2 that has the following access policies: o Three stored access policies named Stored1, Stored2, and Stored3 o A legal hold for immutable blob storage\n • Whenever possible, use directories to organize storage account content.\n • Grant User1 the permissions required to link Zone1 to VNet1.\n • Assign Attribute1 to supported adatum.com resources.\n • In storage2, create an encryption scope named Scope1.\n • Deploy new containers by using Image1 or Image2.\n\n Technical Requirements -\n\n ADatum must meet the following technical requirements:\n\n • Use TLS for WebApp1.\n • Follow the principle of least privilege.\n • Grant permissions at the required scope only.\n • Ensure that Scope1 is used to encrypt storage services.\n • Use Azure Backup to back up cont1 and share1 as frequently as possible.\n • Whenever possible, use Azure Disk Encryption and a key encryption key (KEK) to encrypt the virtual machines.\n\n You need to configure encryption for the virtual machines. The solution must meet the technical requirements.\n\n Which virtual machines can you encrypt?",
+    prompt: "Case study -\n\n This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.\n\n To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.\n\n At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.\n\n To start the case study -\n To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.\n\n Overview -\n\n ADatum Corporation is consulting firm that has a main office in Montreal and branch offices in Seattle and New York.\n\n Existing Environment -\n\n Azure Environment -\n\n ADatum has an Azure subscription that contains three resource groups named RG1, RG2, and RG3.\n\n The subscription contains the storage accounts shown in the following table.\n\n{{img:/exam-media/az-104/T3/image865.png}}\n\n The subscription contains the virtual machines shown in the following table.\n\n{{img:/exam-media/az-104/T3/image866.png}}\n\n The subscription has an Azure container registry that contains the images shown in the following table.\n\n{{img:/exam-media/az-104/T3/image867.png}}\n\n The subscription contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T3/image868.png}}\n\n Azure Key Vault -\n\n The subscription contains an Azure key vault named Vault1.\n\n Vault1 contains the certificates shown in the following table.\n\n{{img:/exam-media/az-104/T3/image869.png}}\n\n Vault1 contains the keys shown in the following table.\n\n{{img:/exam-media/az-104/T3/image870.png}}\n\n Microsoft Entra Environment -\n\n ADatum has a Microsoft Entra tenant named adatum.com that is linked to the Azure subscription and contains the users shown in the following table.\n\n{{img:/exam-media/az-104/T3/image871.png}}\n\n The tenant contains the groups shown in the following table.\n\n{{img:/exam-media/az-104/T3/image872.png}}\n\n The adatum.com tenant has a custom security attribute named Attribute1.\n\n Planned Changes -\n\n ADatum plans to implement the following changes:\n\n • Configure a data collection rule (DCR) named DCR1 to collect only system events that have an event ID of 4648 from VM2 and VM4.\n • In storage1, create a new container named cont2 that has the following access policies: o Three stored access policies named Stored1, Stored2, and Stored3 o A legal hold for immutable blob storage\n • Whenever possible, use directories to organize storage account content.\n • Grant User1 the permissions required to link Zone1 to VNet1.\n • Assign Attribute1 to supported adatum.com resources.\n • In storage2, create an encryption scope named Scope1.\n • Deploy new containers by using Image1 or Image2.\n\n Technical Requirements -\n\n ADatum must meet the following technical requirements:\n\n • Use TLS for WebApp1.\n • Follow the principle of least privilege.\n • Grant permissions at the required scope only.\n • Ensure that Scope1 is used to encrypt storage services.\n • Use Azure Backup to back up cont1 and share1 as frequently as possible.\n • Whenever possible, use Azure Disk Encryption and a key encryption key (KEK) to encrypt the virtual machines.\n\n You need to configure encryption for the virtual machines. The solution must meet the technical requirements.\n\n Which virtual machines can you encrypt?",
     keySource: "source",
     explanation: "Source: Az-104 T3.apkg #97",
     type: "single",
@@ -6512,10 +6777,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 222,
+    id: 217,
     number: 98,
     topic: "Topic 3",
-    prompt: "Case study -\n\nThis is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.\n\nTo answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.\n\nAt the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.\n\nTo start the case study -\nTo display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.\n\nOverview -\n\nADatum Corporation is consulting firm that has a main office in Montreal and branch offices in Seattle and New York.\n\nExisting Environment -\n\nAzure Environment -\n\nADatum has an Azure subscription that contains three resource groups named RG1, RG2, and RG3.\n\nThe subscription contains the storage accounts shown in the following table.\n\n[Image: image865.png]\n\nThe subscription contains the virtual machines shown in the following table.\n\n[Image: image866.png]\n\nThe subscription has an Azure container registry that contains the images shown in the following table.\n\n[Image: image867.png]\n\nThe subscription contains the resources shown in the following table.\n\n[Image: image868.png]\n\nAzure Key Vault -\n\nThe subscription contains an Azure key vault named Vault1.\n\nVault1 contains the certificates shown in the following table.\n\n[Image: image869.png]\n\nVault1 contains the keys shown in the following table.\n\n[Image: image870.png]\n\nMicrosoft Entra Environment -\n\nADatum has a Microsoft Entra tenant named adatum.com that is linked to the Azure subscription and contains the users shown in the following table.\n\n[Image: image871.png]\n\nThe tenant contains the groups shown in the following table.\n\n[Image: image872.png]\n\nThe adatum.com tenant has a custom security attribute named Attribute1.\n\nPlanned Changes -\n\nADatum plans to implement the following changes:\n\n• Configure a data collection rule (DCR) named DCR1 to collect only system events that have an event ID of 4648 from VM2 and VM4.\n• In storage1, create a new container named cont2 that has the following access policies: o Three stored access policies named Stored1, Stored2, and Stored3 o A legal hold for immutable blob storage\n• Whenever possible, use directories to organize storage account content.\n• Grant User1 the permissions required to link Zone1 to VNet1.\n• Assign Attribute1 to supported adatum.com resources.\n• In storage2, create an encryption scope named Scope1.\n• Deploy new containers by using Image1 or Image2.\n\nTechnical Requirements -\n\nADatum must meet the following technical requirements:\n\n• Use TLS for WebApp1.\n• Follow the principle of least privilege.\n• Grant permissions at the required scope only.\n• Ensure that Scope1 is used to encrypt storage services.\n• Use Azure Backup to back up cont1 and share1 as frequently as possible.\n• Whenever possible, use Azure Disk Encryption and a key encryption key (KEK) to encrypt the virtual machines.\n\nYou need to implement the planned changes for the storage account content.\n\nWhich containers and file shares can you use to organize the content?",
+    prompt: "Case study -\n\nThis is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.\n\nTo answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.\n\nAt the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.\n\nTo start the case study -\nTo display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.\n\nOverview -\n\nADatum Corporation is consulting firm that has a main office in Montreal and branch offices in Seattle and New York.\n\nExisting Environment -\n\nAzure Environment -\n\nADatum has an Azure subscription that contains three resource groups named RG1, RG2, and RG3.\n\nThe subscription contains the storage accounts shown in the following table.\n\n{{img:/exam-media/az-104/T3/image865.png}}\n\nThe subscription contains the virtual machines shown in the following table.\n\n{{img:/exam-media/az-104/T3/image866.png}}\n\nThe subscription has an Azure container registry that contains the images shown in the following table.\n\n{{img:/exam-media/az-104/T3/image867.png}}\n\nThe subscription contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T3/image868.png}}\n\nAzure Key Vault -\n\nThe subscription contains an Azure key vault named Vault1.\n\nVault1 contains the certificates shown in the following table.\n\n{{img:/exam-media/az-104/T3/image869.png}}\n\nVault1 contains the keys shown in the following table.\n\n{{img:/exam-media/az-104/T3/image870.png}}\n\nMicrosoft Entra Environment -\n\nADatum has a Microsoft Entra tenant named adatum.com that is linked to the Azure subscription and contains the users shown in the following table.\n\n{{img:/exam-media/az-104/T3/image871.png}}\n\nThe tenant contains the groups shown in the following table.\n\n{{img:/exam-media/az-104/T3/image872.png}}\n\nThe adatum.com tenant has a custom security attribute named Attribute1.\n\nPlanned Changes -\n\nADatum plans to implement the following changes:\n\n• Configure a data collection rule (DCR) named DCR1 to collect only system events that have an event ID of 4648 from VM2 and VM4.\n• In storage1, create a new container named cont2 that has the following access policies: o Three stored access policies named Stored1, Stored2, and Stored3 o A legal hold for immutable blob storage\n• Whenever possible, use directories to organize storage account content.\n• Grant User1 the permissions required to link Zone1 to VNet1.\n• Assign Attribute1 to supported adatum.com resources.\n• In storage2, create an encryption scope named Scope1.\n• Deploy new containers by using Image1 or Image2.\n\nTechnical Requirements -\n\nADatum must meet the following technical requirements:\n\n• Use TLS for WebApp1.\n• Follow the principle of least privilege.\n• Grant permissions at the required scope only.\n• Ensure that Scope1 is used to encrypt storage services.\n• Use Azure Backup to back up cont1 and share1 as frequently as possible.\n• Whenever possible, use Azure Disk Encryption and a key encryption key (KEK) to encrypt the virtual machines.\n\nYou need to implement the planned changes for the storage account content.\n\nWhich containers and file shares can you use to organize the content?",
     keySource: "source",
     explanation: "Source: Az-104 T3.apkg #98",
     type: "single",
@@ -6546,10 +6811,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 223,
+    id: 218,
     number: 85,
     topic: "Topic 3",
-    prompt: "You have an Azure subscription that contains the devices shown in the following table.\n\n[Image: image774.png]\n\n On which devices can you install Azure Storage Explorer?",
+    prompt: "You have an Azure subscription that contains the devices shown in the following table.\n\n{{img:/exam-media/az-104/T3/image774.png}}\n\n On which devices can you install Azure Storage Explorer?",
     keySource: "source",
     explanation: "Source: Az-104 T3.apkg #85",
     type: "single",
@@ -6580,10 +6845,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 224,
+    id: 219,
     number: 89,
     topic: "Topic 3",
-    prompt: "You have an Azure subscription. The subscription contains a storage account named storage1 that has the lifecycle management rules shown in the following table.\n\n[Image: image782.png]\n\n On June 1, you store two blobs in storage1 as shown in the following table.\n\n[Image: image783.png]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
+    prompt: "You have an Azure subscription. The subscription contains a storage account named storage1 that has the lifecycle management rules shown in the following table.\n\n{{img:/exam-media/az-104/T3/image782.png}}\n\n On June 1, you store two blobs in storage1 as shown in the following table.\n\n{{img:/exam-media/az-104/T3/image783.png}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
     explanation: "Source: Az-104 T3.apkg #89",
     type: "hotspot-boolean",
@@ -6606,10 +6871,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 225,
+    id: 220,
     number: 91,
     topic: "Topic 3",
-    prompt: "You have an Azure subscription linked to a hybrid Microsoft Entra tenant. The tenant contains the users shown in the following table.\n\n[Image: image824.png]\n\n You create the Azure Files shares shown in the following table.\n\n[Image: image825.png]\n\n You configure identity-based access for contoso2024 as shown in the following exhibit.\n\n[Image: image826.png]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
+    prompt: "You have an Azure subscription linked to a hybrid Microsoft Entra tenant. The tenant contains the users shown in the following table.\n\n{{img:/exam-media/az-104/T3/image824.png}}\n\n You create the Azure Files shares shown in the following table.\n\n{{img:/exam-media/az-104/T3/image825.png}}\n\n You configure identity-based access for contoso2024 as shown in the following exhibit.\n\n{{img:/exam-media/az-104/T3/image826.png}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
     explanation: "Source: Az-104 T3.apkg #91",
     type: "hotspot-boolean",
@@ -6632,10 +6897,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 226,
+    id: 221,
     number: 92,
     topic: "Topic 3",
-    prompt: "Your network contains an on-premises Active Directory Domain Services (AD DS) domain.\n\n The domain contains the identities shown in the following table.\n\n[Image: image836.png]\n\n You have an Azure subscription that contains a storage account named storage1. The file shares in storage1 have an identity source of AD DS and Default share-level permissions set to Enable permissions for all authenticated users and groups.\n\n You create an Azure Files share named share1 that has the roles shown in the following table.\n\n[Image: image837.png]\n\n You have a Microsoft Entra tenant that contains a cloud-only user named User3.\n\n You use Microsoft Entra Connect to sync OU1 from the AD DS domain to the Microsoft Entra tenant.\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
+    prompt: "Your network contains an on-premises Active Directory Domain Services (AD DS) domain.\n\n The domain contains the identities shown in the following table.\n\n{{img:/exam-media/az-104/T3/image836.png}}\n\n You have an Azure subscription that contains a storage account named storage1. The file shares in storage1 have an identity source of AD DS and Default share-level permissions set to Enable permissions for all authenticated users and groups.\n\n You create an Azure Files share named share1 that has the roles shown in the following table.\n\n{{img:/exam-media/az-104/T3/image837.png}}\n\n You have a Microsoft Entra tenant that contains a cloud-only user named User3.\n\n You use Microsoft Entra Connect to sync OU1 from the AD DS domain to the Microsoft Entra tenant.\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
     explanation: "Source: Az-104 T3.apkg #92",
     type: "hotspot-boolean",
@@ -6658,10 +6923,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 227,
+    id: 222,
     number: 93,
     topic: "Topic 3",
-    prompt: "You have an Azure subscription that contains the storage accounts shown in the following table.\n\n[Image: image852.png]\n\n Which storage account can be converted to zone-redundant storage (ZRS) replication?",
+    prompt: "You have an Azure subscription that contains the storage accounts shown in the following table.\n\n{{img:/exam-media/az-104/T3/image852.png}}\n\n Which storage account can be converted to zone-redundant storage (ZRS) replication?",
     keySource: "source",
     explanation: "Source: Az-104 T3.apkg #93",
     type: "single",
@@ -6692,7 +6957,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 228,
+    id: 223,
     number: 1,
     topic: "Topic 4",
     prompt: "You deploy an Azure Kubernetes Service (AKS) cluster named AKS1.\n You need to deploy a YAML file to AKS1.\n Solution: From Azure CLI, you run az aks.\n Does this meet the goal?",
@@ -6714,7 +6979,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 229,
+    id: 224,
     number: 2,
     topic: "Topic 4",
     prompt: "You deploy an Azure Kubernetes Service (AKS) cluster named AKS1.\n You need to deploy a YAML file to AKS1.\n Solution: From Azure CLI, you run the kubectl client.\n Does this meet the goal?",
@@ -6736,7 +7001,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 230,
+    id: 225,
     number: 3,
     topic: "Topic 4",
     prompt: "You deploy an Azure Kubernetes Service (AKS) cluster named AKS1.\n You need to deploy a YAML file to AKS1.\n Solution: From Azure CLI, you run azcopy.\n Does this meet the goal?",
@@ -6758,7 +7023,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 231,
+    id: 226,
     number: 4,
     topic: "Topic 4",
     prompt: "You have an Azure virtual machine named VM1 that runs Windows Server 2016.\n You need to create an alert in Azure when more than two error events are logged to the System event log on VM1 within an hour.\n Solution: You create an Azure storage account and configure shared access signatures (SASs). You install the Microsoft Monitoring Agent on VM1. You create an alert in Azure Monitor and specify the storage account as the source.\n Does that meet the goal?",
@@ -6780,42 +7045,52 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 232,
+    id: 227,
     number: 5,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription named Subscription1. Subscription1 contains the resources in the following table.\n\n[Image: 0023300001.png]\n\n VNet1 is in RG1. VNet2 is in RG2. There is no connectivity between VNet1 and VNet2.\n An administrator named Admin1 creates an Azure virtual machine named VM1 in RG1. VM1 uses a disk named Disk1 and connects to VNet1. Admin1 then installs a custom application in VM1.\n You need to move the custom application to VNet2. The solution must minimize administrative effort.\n Which two actions should you perform? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0023400001.png]",
+    prompt: "You have an Azure subscription named Subscription1. Subscription1 contains the resources in the following table.\n\n{{img:/exam-media/az-104/T4/0023300001.png}}\n\n VNet1 is in RG1. VNet2 is in RG2. There is no connectivity between VNet1 and VNet2.\n An administrator named Admin1 creates an Azure virtual machine named VM1 in RG1. VM1 uses a disk named Disk1 and connects to VNet1. Admin1 then installs a custom application in VM1.\n You need to move the custom application to VNet2. The solution must minimize administrative effort.\n Which two actions should you perform? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T4/0023400001.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T4.apkg #5",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T4/0023500001.png}}\nSource: Az-104 T4.apkg #5",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "First action:Create a network interface in RG2"
+        text: "Create a network interface in RG2"
       },
       {
         id: "B",
-        text: "First action: Delete Vm1"
+        text: "Delete Vm1"
       },
       {
         id: "C",
-        text: "Second action: Attach a network interface"
+        text: "Attach a network interface"
       },
       {
         id: "D",
-        text: "Second action: Create a new virtual machine"
+        text: "Create a new virtual machine"
       },
       {
         id: "E",
-        text: "Second action: Move Vm1 to RG2"
+        text: "Move Vm1 to RG2"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "First action"
+      },
+      {
+        id: "t2",
+        text: "Second action"
       }
     ],
     correct: [
-      "B",
-      "D"
+      "t1:B",
+      "t2:D"
     ]
   },
   {
-    id: 233,
+    id: 228,
     number: 6,
     topic: "Topic 4",
     prompt: "You download an Azure Resource Manager template based on an existing virtual machine. The template will be used to deploy 100 virtual machines.\n You need to modify the template to reference an administrative password. You must prevent the password from being stored in plain text.\n What should you create to store the password?",
@@ -6845,48 +7120,58 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 234,
+    id: 229,
     number: 7,
     topic: "Topic 4",
-    prompt: "You have the App Service plans shown in the following table.\n\n[Image: 0023600001.png]\n\n You plan to create the Azure web apps shown in the following table.\n\n[Image: 0023700001.png]\n\n You need to identify which App Service plans can be used for the web apps.\n What should you identify? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0023700002.png]",
+    prompt: "You have the App Service plans shown in the following table.\n\n{{img:/exam-media/az-104/T4/0023600001.png}}\n\n You plan to create the Azure web apps shown in the following table.\n\n{{img:/exam-media/az-104/T4/0023700001.png}}\n\n You need to identify which App Service plans can be used for the web apps.\n What should you identify? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T4/0023700002.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T4.apkg #7",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T4/0023800001.png}}\nSource: Az-104 T4.apkg #7",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "Webapp1: ASP1 only"
+        text: "ASP1 only"
       },
       {
         id: "B",
-        text: "Webapp1: ASP3 only"
+        text: "ASP3 only"
       },
       {
         id: "C",
-        text: "Webapp1: ASP1 and ASP3  only"
+        text: "ASP1 and ASP3  only"
       },
       {
         id: "D",
-        text: "Webap2: ASP1 only"
+        text: "ASP1 only"
       },
       {
         id: "E",
-        text: "Webap2: ASP1 and ASP2 only"
+        text: "ASP1 and ASP2 only"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "Webapp1"
+      },
+      {
+        id: "t2",
+        text: "Webap2"
       }
     ],
     correct: [
-      "C",
-      "D"
+      "t1:C",
+      "t2:D"
     ]
   },
   {
-    id: 235,
+    id: 230,
     number: 8,
     topic: "Topic 4",
-    prompt: "You create a virtual machine scale set named Scale1. Scale1 is configured as shown in the following exhibit.\n\n[Image: 0024000001.png]\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0024100001-de6659b19931a8f924691f68fee262efd39c8998.jpg]",
+    prompt: "You create a virtual machine scale set named Scale1. Scale1 is configured as shown in the following exhibit.\n\n{{img:/exam-media/az-104/T4/0024000001.png}}\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T4/0024100001-de6659b19931a8f924691f68fee262efd39c8998.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T4.apkg #8",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T4/0024200001.jpg}}\nSource: Az-104 T4.apkg #8",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
@@ -6909,13 +7194,23 @@ export const az104Questions: Question[] = [
         text: "2. 4 virtual machine"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      }
+    ],
     correct: [
-      "C",
-      "D"
+      "t1:C",
+      "t2:D"
     ]
   },
   {
-    id: 236,
+    id: 231,
     number: 9,
     topic: "Topic 4",
     prompt: "You plan to automate the deployment of a virtual machine scale set that uses the Windows Server 2016 Datacenter image.\n You need to ensure that when the scale set virtual machines are provisioned, they have web server components installed.\n Which two actions should you perform? Each correct answer presents part of the solution.\n NOTE: Each correct selection is worth one point.",
@@ -6950,13 +7245,13 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 237,
+    id: 232,
     number: 10,
     topic: "Topic 4",
-    prompt: "You have an Azure Kubernetes Service (AKS) cluster named AKS1 and a computer named Computer1 that runs Windows 10. Computer1 that has the Azure CLI installed.\n You need to install the kubectl client on Computer1.\n Which command should you run? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0024400001.jpg]",
+    prompt: "You have an Azure Kubernetes Service (AKS) cluster named AKS1 and a computer named Computer1 that runs Windows 10. Computer1 that has the Azure CLI installed.\n You need to install the kubectl client on Computer1.\n Which command should you run? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T4/0024400001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T4.apkg #10",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T4/0024400002.jpg}}\nSource: Az-104 T4.apkg #10",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
@@ -6979,19 +7274,29 @@ export const az104Questions: Question[] = [
         text: "pull"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      }
+    ],
     correct: [
-      "A",
-      "C"
+      "t1:A",
+      "t2:C"
     ]
   },
   {
-    id: 238,
+    id: 233,
     number: 11,
     topic: "Topic 4",
-    prompt: "You onboard 10 Azure virtual machines to Azure Automation State Configuration.\n You need to use Azure Automation State Configuration to manage the ongoing consistency of the virtual machine configurations.\n Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.\n NOTE: More than one order of answer choices is correct. You will receive credit for any of the correct orders you select.\n Select and Place:\n\n[Image: 0024500001.jpg]",
+    prompt: "You onboard 10 Azure virtual machines to Azure Automation State Configuration.\n You need to use Azure Automation State Configuration to manage the ongoing consistency of the virtual machine configurations.\n Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.\n NOTE: More than one order of answer choices is correct. You will receive credit for any of the correct orders you select.\n Select and Place:\n\n{{img:/exam-media/az-104/T4/0024500001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T4.apkg #11",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T4/image916.png}}\nSource: Az-104 T4.apkg #11",
+    type: "drag-drop",
     options: [
       {
         id: "A",
@@ -7014,17 +7319,31 @@ export const az104Questions: Question[] = [
         text: "Create a management group"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      },
+      {
+        id: "t3",
+        text: "Blank 3"
+      }
+    ],
     correct: [
-      "A",
-      "B",
-      "C"
+      "t1:A",
+      "t2:B",
+      "t3:C"
     ]
   },
   {
-    id: 239,
+    id: 234,
     number: 12,
     topic: "Topic 4",
-    prompt: "You have an Azure Resource Manager template named Template1 that is used to deploy an Azure virtual machine.\n Template1 contains the following text:\n\n[Image: 0024700001.png]\n\n The variables section in Template1 contains the following text:\n \"location\": \"westeurope\"\n The resources section in Template1 contains the following text:\n\n[Image: 0024700002.png]\n\n You need to deploy the virtual machine to the West US location by using Template1.\n What should you do?",
+    prompt: "You have an Azure Resource Manager template named Template1 that is used to deploy an Azure virtual machine.\n Template1 contains the following text:\n\n{{img:/exam-media/az-104/T4/0024700001.png}}\n\n The variables section in Template1 contains the following text:\n \"location\": \"westeurope\"\n The resources section in Template1 contains the following text:\n\n{{img:/exam-media/az-104/T4/0024700002.png}}\n\n You need to deploy the virtual machine to the West US location by using Template1.\n What should you do?",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #12",
     type: "single",
@@ -7047,7 +7366,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 240,
+    id: 235,
     number: 13,
     topic: "Topic 4",
     prompt: "You create an App Service plan named Plan1 and an Azure web app named webapp1.\n You discover that the option to create a staging slot is unavailable.\n You need to create a staging slot for Plan1.\n What should you do first?",
@@ -7077,7 +7396,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 241,
+    id: 236,
     number: 14,
     topic: "Topic 4",
     prompt: "You plan to move a distributed on-premises app named App1 to an Azure subscription.\n After the planned move, App1 will be hosted on several Azure virtual machines.\n You need to ensure that App1 always runs on at least eight virtual machines during planned Azure maintenance.\n What should you create?",
@@ -7107,7 +7426,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 242,
+    id: 237,
     number: 15,
     topic: "Topic 4",
     prompt: "You have an Azure virtual machine named VM1 that runs Windows Server 2016.\n You need to create an alert in Azure when more than two error events are logged to the System event log on VM1 within an hour.\n Solution: You create an event subscription on VM1. You create an alert in Azure Monitor and specify VM1 as the source\n Does this meet the goal?",
@@ -7129,7 +7448,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 243,
+    id: 238,
     number: 16,
     topic: "Topic 4",
     prompt: "You have an Azure virtual machine named VM1. VM1 was deployed by using a custom Azure Resource Manager template named ARM1.json.\n You receive a notification that VM1 will be affected by maintenance.\n You need to move VM1 to a different host immediately.\n Solution: From the Overview blade, you move the virtual machine to a different subscription.\n Does this meet the goal?",
@@ -7151,7 +7470,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 244,
+    id: 239,
     number: 17,
     topic: "Topic 4",
     prompt: "You have an Azure virtual machine named VM1. VM1 was deployed by using a custom Azure Resource Manager template named ARM1.json.\n You receive a notification that VM1 will be affected by maintenance.\n You need to move VM1 to a different host immediately.\n Solution: From the Redeploy blade, you click Redeploy.\n Does this meet the goal?",
@@ -7173,7 +7492,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 245,
+    id: 240,
     number: 18,
     topic: "Topic 4",
     prompt: "You have an Azure virtual machine named VM1. VM1 was deployed by using a custom Azure Resource Manager template named ARM1.json.\n You receive a notification that VM1 will be affected by maintenance.\n You need to move VM1 to a different host immediately.\n Solution: From the Update management blade, you click Enable.\n Does this meet the goal?",
@@ -7195,7 +7514,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 246,
+    id: 241,
     number: 19,
     topic: "Topic 4",
     prompt: "You have an Azure subscription that contains a web app named webapp1.\n You need to add a custom domain named www.contoso.com to webapp1.\n What should you do first?",
@@ -7225,10 +7544,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 247,
+    id: 242,
     number: 20,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n[Image: 0025300001.png]\n\n VM1 connects to VNET1.\n You need to connect VM1 to VNET2.\n Solution: You move VM1 to RG2, and then you add a new network interface to VM1.\n Does this meet the goal?",
+    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T4/0025300001.png}}\n\n VM1 connects to VNET1.\n You need to connect VM1 to VNET2.\n Solution: You move VM1 to RG2, and then you add a new network interface to VM1.\n Does this meet the goal?",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #20",
     type: "single",
@@ -7247,10 +7566,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 248,
+    id: 243,
     number: 21,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n[Image: 0025400001.png]\n\nVM1 connects to VNET1.\nYou need to connect VM1 to VNET2.\nSolution: You delete VM1. You recreate VM1, and then you create a new network interface for VM1 and connect it to VNET2.\nDoes this meet the goal?",
+    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T4/0025400001.png}}\n\nVM1 connects to VNET1.\nYou need to connect VM1 to VNET2.\nSolution: You delete VM1. You recreate VM1, and then you create a new network interface for VM1 and connect it to VNET2.\nDoes this meet the goal?",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #21",
     type: "single",
@@ -7269,10 +7588,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 249,
+    id: 244,
     number: 22,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n[Image: 0025600001.png]\n\n VM1 connects to VNET1.\n You need to connect VM1 to VNET2.\n Solution: You turn off VM1, and then you add a new network interface to VM1.\n Does this meet the goal?",
+    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T4/0025600001.png}}\n\n VM1 connects to VNET1.\n You need to connect VM1 to VNET2.\n Solution: You turn off VM1, and then you add a new network interface to VM1.\n Does this meet the goal?",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #22",
     type: "single",
@@ -7291,10 +7610,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 250,
+    id: 245,
     number: 23,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription named Subscription1 that contains the quotas shown in the following table.\n\n[Image: 0025700001.png]\n\n You deploy virtual machines to Subscription1 as shown in the following table.\n\n[Image: 0025700002.png]\n\n You plan to deploy the virtual machines shown in the following table.\n\n[Image: 0025700003.png]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.\n Hot Area:",
+    prompt: "You have an Azure subscription named Subscription1 that contains the quotas shown in the following table.\n\n{{img:/exam-media/az-104/T4/0025700001.png}}\n\n You deploy virtual machines to Subscription1 as shown in the following table.\n\n{{img:/exam-media/az-104/T4/0025700002.png}}\n\n You plan to deploy the virtual machines shown in the following table.\n\n{{img:/exam-media/az-104/T4/0025700003.png}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.\n Hot Area:",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #23",
     type: "hotspot-boolean",
@@ -7317,13 +7636,13 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 251,
+    id: 246,
     number: 24,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription that contains an Azure Availability Set named WEBPROD-AS-USE2 as shown in the following exhibit.\n\n[Image: 0025900001.png]\n\n You add 14 virtual machines to WEBPROD-AS-USE2.\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0026000001.png]",
+    prompt: "You have an Azure subscription that contains an Azure Availability Set named WEBPROD-AS-USE2 as shown in the following exhibit.\n\n{{img:/exam-media/az-104/T4/0025900001.png}}\n\n You add 14 virtual machines to WEBPROD-AS-USE2.\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T4/0026000001.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T4.apkg #24",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T4/0026100001.png}}\nSource: Az-104 T4.apkg #24",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
@@ -7346,16 +7665,26 @@ export const az104Questions: Question[] = [
         text: "2. 10"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      }
+    ],
     correct: [
-      "A",
-      "D"
+      "t1:A",
+      "t2:D"
     ]
   },
   {
-    id: 252,
+    id: 247,
     number: 25,
     topic: "Topic 4",
-    prompt: "You deploy an Azure Kubernetes Service (AKS) cluster named Cluster1 that uses the IP addresses shown in the following table.\n\n[Image: 0026200001.png]\n\n You need to provide internet users with access to the applications that run in Cluster1.\n Which IP address should you include in the DNS record for Cluster1?",
+    prompt: "You deploy an Azure Kubernetes Service (AKS) cluster named Cluster1 that uses the IP addresses shown in the following table.\n\n{{img:/exam-media/az-104/T4/0026200001.png}}\n\n You need to provide internet users with access to the applications that run in Cluster1.\n Which IP address should you include in the DNS record for Cluster1?",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #25",
     type: "single",
@@ -7382,7 +7711,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 253,
+    id: 248,
     number: 26,
     topic: "Topic 4",
     prompt: "You have a deployment template named Template1 that is used to deploy 10 Azure web apps.\n You need to identify what to deploy before you deploy Template1. The solution must minimize Azure costs.\n What should you identify?",
@@ -7416,13 +7745,13 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 254,
+    id: 249,
     number: 27,
     topic: "Topic 4",
-    prompt: "You plan to deploy an Azure container instance by using the following Azure Resource Manager template.\n\n[Image: 0026400001.png]\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the template.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0026500001.jpg]",
+    prompt: "You plan to deploy an Azure container instance by using the following Azure Resource Manager template.\n\n{{img:/exam-media/az-104/T4/0026400001.png}}\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the template.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T4/0026500001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T4.apkg #27",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T4/0026500002.jpg}}\nSource: Az-104 T4.apkg #27",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
@@ -7445,13 +7774,23 @@ export const az104Questions: Question[] = [
         text: "2. the container must be redeployed"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      }
+    ],
     correct: [
-      "A",
-      "D"
+      "t1:A",
+      "t2:D"
     ]
   },
   {
-    id: 255,
+    id: 250,
     number: 28,
     topic: "Topic 4",
     prompt: "You have an Azure subscription that contains a virtual machine named VM1. VM1 hosts a line-of-business application that is available 24 hours a day. VM1 has one network interface and one managed disk. VM1 uses the D4s v3 size.\n You plan to make the following changes to VM1:\n ✑ Change the size to D8s v3.\n ✑ Add a 500-GB managed disk.\n ✑ Add the Puppet Agent extension.\n ✑ Enable Desired State Configuration Management.\n Which change will cause downtime for VM1?",
@@ -7481,10 +7820,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 256,
+    id: 251,
     number: 29,
     topic: "Topic 4",
-    prompt: "You have an app named App1 that runs on an Azure web app named webapp1.\n The developers at your company upload an update of App1 to a Git repository named Git1.\n Webapp1 has the deployment slots shown in the following table.\n\n[Image: 0026700001.png]\n\n You need to ensure that the App1 update is tested before the update is made available to users.\n Which two actions should you perform? Each correct answer presents part of the solution.\n NOTE: Each correct selection is worth one point.",
+    prompt: "You have an app named App1 that runs on an Azure web app named webapp1.\n The developers at your company upload an update of App1 to a Git repository named Git1.\n Webapp1 has the deployment slots shown in the following table.\n\n{{img:/exam-media/az-104/T4/0026700001.png}}\n\n You need to ensure that the App1 update is tested before the update is made available to users.\n Which two actions should you perform? Each correct answer presents part of the solution.\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #29",
     type: "multiple",
@@ -7516,12 +7855,12 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 257,
+    id: 252,
     number: 30,
     topic: "Topic 4",
     prompt: "You have an Azure subscription named Subscription1 that has the following providers registered:\n ✑ Authorization\n ✑ Automation\n ✑ Resources\n ✑ Compute\n ✑ KeyVault\n ✑ Network\n ✑ Storage\n ✑ Billing\n ✑ Web\n Subscription1 contains an Azure virtual machine named VM1 that has the following configurations:\n ✑ Private IP address: 10.0.0.4 (dynamic)\n ✑ Network security group (NSG): NSG1\n ✑ Public IP address: None\n ✑ Availability set: AVSet\n ✑ Subnet: 10.0.0.0/24\n ✑ Managed disks: No\n ✑ Location: East US\n You need to record all the successful and failed connection attempts to VM1.\n Which three actions should you perform? Each correct answer presents part of the solution.\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source: Az-104 T4.apkg #30",
+    explanation: "D. Register the MicrosoftLogAnalytics provider.\nSource: Az-104 T4.apkg #30",
     type: "multiple",
     options: [
       {
@@ -7552,7 +7891,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 258,
+    id: 253,
     number: 31,
     topic: "Topic 4",
     prompt: "You need to deploy an Azure virtual machine scale set that contains five instances as quickly as possible.\n What should you do?",
@@ -7582,10 +7921,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 259,
+    id: 254,
     number: 32,
     topic: "Topic 4",
-    prompt: "You plan to create the Azure web apps shown in the following table.\n\n[Image: 0026900001.jpg]\n\n What is the minimum number of App Service plans you should create for the web apps?",
+    prompt: "You plan to create the Azure web apps shown in the following table.\n\n{{img:/exam-media/az-104/T4/0026900001.jpg}}\n\n What is the minimum number of App Service plans you should create for the web apps?",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #32",
     type: "single",
@@ -7612,13 +7951,13 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 260,
+    id: 255,
     number: 33,
     topic: "Topic 4",
-    prompt: "You have a pay-as-you-go Azure subscription that contains the virtual machines shown in the following table.\n\n[Image: 0027000001-59aaa678ae41664cb64237dce47ee48ed144c013.png]\n\n You create the budget shown in the following exhibit.\n\n[Image: 0027100001.jpg]\n\n The AG1 action group contains a user named   admin@contoso.com   only.\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n Hot Area:\n\n[Image: 0027200001.jpg]",
+    prompt: "You have a pay-as-you-go Azure subscription that contains the virtual machines shown in the following table.\n\n{{img:/exam-media/az-104/T4/0027000001-59aaa678ae41664cb64237dce47ee48ed144c013.png}}\n\n You create the budget shown in the following exhibit.\n\n{{img:/exam-media/az-104/T4/0027100001.jpg}}\n\n The AG1 action group contains a user named   admin@contoso.com   only.\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n Hot Area:\n\n{{img:/exam-media/az-104/T4/0027200001.jpg}}",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #33",
-    type: "multiple",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
@@ -7641,13 +7980,23 @@ export const az104Questions: Question[] = [
         text: "one email notifications will be sent each month"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      }
+    ],
     correct: [
-      "B",
-      "E"
+      "t1:B",
+      "t2:E"
     ]
   },
   {
-    id: 261,
+    id: 256,
     number: 34,
     topic: "Topic 4",
     prompt: "You have an Azure subscription named Subscription1. Subscription1 contains a resource group named RG1. RG1 contains resources that were deployed by using templates.\n You need to view the date and time when the resources were created in RG1.\n Solution: From the Subscriptions blade, you select the subscription, and then click Programmatic deployment.\n Does this meet the goal?",
@@ -7669,10 +8018,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 262,
+    id: 257,
     number: 35,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n[Image: 0027400001.png]\n\n VM1 connects to VNET1.\n You need to connect VM1 to VNET2.\n Solution: You create a new network interface, and then you add the network interface to VM1.\n Does this meet the goal?",
+    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T4/0027400001.png}}\n\n VM1 connects to VNET1.\n You need to connect VM1 to VNET2.\n Solution: You create a new network interface, and then you add the network interface to VM1.\n Does this meet the goal?",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #35",
     type: "single",
@@ -7691,10 +8040,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 263,
+    id: 258,
     number: 36,
     topic: "Topic 4",
-    prompt: "You have an Azure Active Directory (Azure AD) tenant named adatum.com that contains the users shown in the following table.\n\n[Image: 0027500001.png]\n\n Adatum.com has the following configurations:\n ✑ Users may join devices to Azure AD is set to User1.\n ✑ Additional local administrators on Azure AD joined devices is set to None.\n You deploy Windows 10 to a computer named Computer1. User1 joins Computer1 to adatum.com.\n You need to identify the local Administrator group membership on Computer1.\n Which users are members of the local Administrators group?",
+    prompt: "You have an Azure Active Directory (Azure AD) tenant named adatum.com that contains the users shown in the following table.\n\n{{img:/exam-media/az-104/T4/0027500001.png}}\n\n Adatum.com has the following configurations:\n ✑ Users may join devices to Azure AD is set to User1.\n ✑ Additional local administrators on Azure AD joined devices is set to None.\n You deploy Windows 10 to a computer named Computer1. User1 joins Computer1 to adatum.com.\n You need to identify the local Administrator group membership on Computer1.\n Which users are members of the local Administrators group?",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #36",
     type: "single",
@@ -7725,10 +8074,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 264,
+    id: 259,
     number: 37,
     topic: "Topic 4",
-    prompt: "You have Azure subscriptions named Subscription1 and Subscription2.\n Subscription1 has following resource groups:\n\n[Image: 0027600001.png]\n\n RG1 includes a web app named App1 in the West Europe location.\n Subscription2 contains the following resource groups:\n\n[Image: 0027600002.png]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.\n Hot Area:",
+    prompt: "You have Azure subscriptions named Subscription1 and Subscription2.\n Subscription1 has following resource groups:\n\n{{img:/exam-media/az-104/T4/0027600001.png}}\n\n RG1 includes a web app named App1 in the West Europe location.\n Subscription2 contains the following resource groups:\n\n{{img:/exam-media/az-104/T4/0027600002.png}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.\n Hot Area:",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #37",
     type: "hotspot-boolean",
@@ -7751,80 +8100,100 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 265,
+    id: 260,
     number: 38,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription named Subscription1 that contains the following resource group:\n ✑ Name: RG1\n ✑ Region: West US\n ✑ Tag: `tag1`: `value1`\n You assign an Azure policy named Policy1 to Subscription1 by using the following configurations:\n ✑ Exclusions: None\n ✑ Policy definition: Append a tag and its value to resources\n ✑ Assignment name: Policy1\n ✑ Parameters:\n ✑ Tag name: tag2\n\n Tag value: value2 -\n\n[Image: 0027800009.png]\n\n After Policy1 is assigned, you create a storage account that has the following configuration:\n ✑ Name: storage1\n ✑ Location: West US\n ✑ Resource group: RG1\n ✑ Tags: `tag3`: `value3`\n You need to identify which tags are assigned to each resource.\n What should you identify? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0027900005.jpg]",
+    prompt: "You have an Azure subscription named Subscription1 that contains the following resource group:\n ✑ Name: RG1\n ✑ Region: West US\n ✑ Tag: `tag1`: `value1`\n You assign an Azure policy named Policy1 to Subscription1 by using the following configurations:\n ✑ Exclusions: None\n ✑ Policy definition: Append a tag and its value to resources\n ✑ Assignment name: Policy1\n ✑ Parameters:\n ✑ Tag name: tag2\n\n Tag value: value2 -\n\n{{img:/exam-media/az-104/T4/0027800009.png}}\n\n After Policy1 is assigned, you create a storage account that has the following configuration:\n ✑ Name: storage1\n ✑ Location: West US\n ✑ Resource group: RG1\n ✑ Tags: `tag3`: `value3`\n You need to identify which tags are assigned to each resource.\n What should you identify? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T4/0027900005.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T4.apkg #38",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T4/0028000001.jpg}}\nSource: Az-104 T4.apkg #38",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "Tags assigned to RG1: \"tag1\":\"value1\" only"
+        text: "\"tag1\":\"value1\" only"
       },
       {
         id: "B",
-        text: "Tags assigned to RG1: \"tag1\":\"value2\" only"
+        text: "\"tag1\":\"value2\" only"
       },
       {
         id: "C",
-        text: "Tags assigned to storage: \"tag3\":\"value3\" only"
+        text: "\"tag3\":\"value3\" only"
       },
       {
         id: "D",
-        text: "Tags assigned to storage: \"tag1\":\"value1\" and \"tag3\":\"value3\" only"
+        text: "\"tag1\":\"value1\" and \"tag3\":\"value3\" only"
       },
       {
         id: "E",
-        text: "Tags assigned to storage: \"tag2\":\"value2\" and \"tag3\":\"value3\" only"
+        text: "\"tag2\":\"value2\" and \"tag3\":\"value3\" only"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "Tags assigned to RG1"
+      },
+      {
+        id: "t2",
+        text: "Tags assigned to storage"
       }
     ],
     correct: [
-      "A",
-      "E"
+      "t1:A",
+      "t2:E"
     ]
   },
   {
-    id: 266,
+    id: 261,
     number: 39,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription named Subscription1.\nIn Subscription1, you create an alert rule named Alert1.\nThe Alert1 action group is configured as shown in the following exhibit.\n\n[Image: 0028100001.jpg]\n\nAlert1 alert criteria triggered every minute.\nUse the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\nNOTE: Each correct selection is worth one point.\nHot Area:\n\n[Image: 0028200001.png]",
+    prompt: "You have an Azure subscription named Subscription1.\nIn Subscription1, you create an alert rule named Alert1.\nThe Alert1 action group is configured as shown in the following exhibit.\n\n{{img:/exam-media/az-104/T4/0028100001.jpg}}\n\nAlert1 alert criteria triggered every minute.\nUse the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\nNOTE: Each correct selection is worth one point.\nHot Area:\n\n{{img:/exam-media/az-104/T4/0028200001.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T4.apkg #39",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T4/0028200002.png}}\nSource: Az-104 T4.apkg #39",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "Alert1: 0"
+        text: "0"
       },
       {
         id: "B",
-        text: "Alert1: 4"
+        text: "4"
       },
       {
         id: "C",
-        text: "Alert1: 60"
+        text: "60"
       },
       {
         id: "D",
-        text: "Alert2: 0"
+        text: "0"
       },
       {
         id: "E",
-        text: "Alert2: 12"
+        text: "12"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "Alert1"
+      },
+      {
+        id: "t2",
+        text: "Alert2"
       }
     ],
     correct: [
-      "C",
-      "E"
+      "t1:C",
+      "t2:E"
     ]
   },
   {
-    id: 267,
+    id: 262,
     number: 40,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription named Subscription1 that contains the resources shown in the following table.\n\n[Image: 0028300005.png]\n\n You create virtual machines in Subscription1 as shown in the following table.\n\n[Image: 0028400001.png]\n\n You plan to use Vault1 for the backup of as many virtual machines as possible.\n Which virtual machines can be backed up to Vault1?",
+    prompt: "You have an Azure subscription named Subscription1 that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T4/0028300005.png}}\n\n You create virtual machines in Subscription1 as shown in the following table.\n\n{{img:/exam-media/az-104/T4/0028400001.png}}\n\n You plan to use Vault1 for the backup of as many virtual machines as possible.\n Which virtual machines can be backed up to Vault1?",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #40",
     type: "single",
@@ -7855,7 +8224,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 268,
+    id: 263,
     number: 41,
     topic: "Topic 4",
     prompt: "You have an Azure Kubernetes Service (AKS) cluster named AKS1.\n You need to configure cluster autoscaler for AKS1.\n Which two tools should you use? Each correct answer presents a complete solution.\n NOTE: Each correct selection is worth one point.",
@@ -7890,7 +8259,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 269,
+    id: 264,
     number: 42,
     topic: "Topic 4",
     prompt: "You create the following resources in an Azure subscription:\n ✑ An Azure Container Registry instance named Registry1\n ✑ An Azure Kubernetes Service (AKS) cluster named Cluster1\n You create a container image named App1 on your administrative workstation.\n You need to deploy App1 to Cluster1.\n What should you do first?",
@@ -7920,10 +8289,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 270,
+    id: 265,
     number: 43,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n[Image: 0028600001.png]\n\n You need to configure a proximity placement group for VMSS1.\n Which proximity placement groups should you use?",
+    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T4/0028600001.png}}\n\n You need to configure a proximity placement group for VMSS1.\n Which proximity placement groups should you use?",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #43",
     type: "single",
@@ -7950,7 +8319,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 271,
+    id: 266,
     number: 44,
     topic: "Topic 4",
     prompt: "You have an Azure subscription named Subscription1. Subscription1 contains a resource group named RG1. RG1 contains resources that were deployed by using templates.\n You need to view the date and time when the resources were created in RG1.\n Solution: From the Subscriptions blade, you select the subscription, and then click Resource providers.\n Does this meet the goal?",
@@ -7972,7 +8341,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 272,
+    id: 267,
     number: 45,
     topic: "Topic 4",
     prompt: "You have an Azure subscription named Subscription1. Subscription1 contains a resource group named RG1. RG1 contains resources that were deployed by using templates.\n You need to view the date and time when the resources were created in RG1.\n Solution: From the RG1 blade, you click Automation script.\n Does this meet the goal?",
@@ -7994,7 +8363,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 273,
+    id: 268,
     number: 46,
     topic: "Topic 4",
     prompt: "You have an Azure subscription named Subscription1. Subscription1 contains a resource group named RG1. RG1 contains resources that were deployed by using templates.\n You need to view the date and time when the resources were created in RG1.\n Solution: From the RG1 blade, you click Deployments.\n Does this meet the goal?",
@@ -8016,7 +8385,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 274,
+    id: 269,
     number: 47,
     topic: "Topic 4",
     prompt: "You have an Azure subscription named Subscription1.\n You deploy a Linux virtual machine named VM1 to Subscription1.\n You need to monitor the metrics and the logs of VM1.\n What should you use?",
@@ -8046,13 +8415,13 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 275,
+    id: 270,
     number: 48,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription named Subscription1. Subscription1 contains a virtual machine named VM1.\n You install and configure a web server and a DNS server on VM1.\n VM1 has the effective network security rules shown in the following exhibit:\n\n[Image: 0029000001.jpg]\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0029100001.png]",
+    prompt: "You have an Azure subscription named Subscription1. Subscription1 contains a virtual machine named VM1.\n You install and configure a web server and a DNS server on VM1.\n VM1 has the effective network security rules shown in the following exhibit:\n\n{{img:/exam-media/az-104/T4/0029000001.jpg}}\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T4/0029100001.png}}",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #48",
-    type: "multiple",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
@@ -8075,13 +8444,23 @@ export const az104Questions: Question[] = [
         text: "2. can connect to only the web server on VM1"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      }
+    ],
     correct: [
-      "B",
-      "D"
+      "t1:B",
+      "t2:D"
     ]
   },
   {
-    id: 276,
+    id: 271,
     number: 49,
     topic: "Topic 4",
     prompt: "You plan to deploy three Azure virtual machines named VM1, VM2, and VM3. The virtual machines will host a web app named App1.\n You need to ensure that at least two virtual machines are available if a single Azure datacenter becomes unavailable.\n What should you deploy?",
@@ -8111,7 +8490,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 277,
+    id: 272,
     number: 50,
     topic: "Topic 4",
     prompt: "You have an Azure virtual machine named VM1 that runs Windows Server 2019.\n You save VM1 as a template named Template1 to the Azure Resource Manager library.\n You plan to deploy a virtual machine named VM2 from Template1.\n What can you configure during the deployment of VM2?",
@@ -8141,7 +8520,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 278,
+    id: 273,
     number: 51,
     topic: "Topic 4",
     prompt: "You have an Azure subscription that contains an Azure virtual machine named VM1. VM1 runs a financial reporting app named App1 that does not support multiple active instances.\n At the end of each month, CPU usage for VM1 peaks when App1 runs.\n You need to create a scheduled runbook to increase the processor performance of VM1 at the end of each month.\n What task should you include in the runbook?",
@@ -8175,7 +8554,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 279,
+    id: 274,
     number: 52,
     topic: "Topic 4",
     prompt: "You plan to deploy several Azure virtual machines that will run Windows Server 2019 in a virtual machine scale set by using an Azure Resource Manager template.\n You need to ensure that NGINX is available on all the virtual machines after they are deployed.\n What should you use?",
@@ -8205,13 +8584,13 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 280,
+    id: 275,
     number: 53,
     topic: "Topic 4",
-    prompt: "You deploy an Azure Kubernetes Service (AKS) cluster that has the network profile shown in the following exhibit.\n\n[Image: 0029500003.png]\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0029600001.jpg]",
+    prompt: "You deploy an Azure Kubernetes Service (AKS) cluster that has the network profile shown in the following exhibit.\n\n{{img:/exam-media/az-104/T4/0029500003.png}}\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T4/0029600001.jpg}}",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #53",
-    type: "multiple",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
@@ -8234,13 +8613,23 @@ export const az104Questions: Question[] = [
         text: "2. 172.17.0.1/16"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      }
+    ],
     correct: [
-      "A",
-      "D"
+      "t1:A",
+      "t2:D"
     ]
   },
   {
-    id: 281,
+    id: 276,
     number: 55,
     topic: "Topic 4",
     prompt: "You have an Azure virtual machine named VM1 that runs Windows Server 2019. The VM was deployed using default drive settings.\n You sign in to VM1 as a user named User1 and perform the following actions:\n ✑ Create files on drive C.\n ✑ Create files on drive D.\n ✑ Modify the screen saver timeout.\n ✑ Change the desktop background.\n You plan to redeploy VM1.\n Which changes will be lost after you redeploy VM1?",
@@ -8270,10 +8659,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 282,
+    id: 277,
     number: 56,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription.\n You have an on-premises virtual machine named VM1. The settings for VM1 are shown in the exhibit. (Click the Exhibit tab.)\n\n[Image: 0030300001.png]\n\n You need to ensure that you can use the disks attached to VM1 as a template for Azure virtual machines.\n What should you modify on VM1?",
+    prompt: "You have an Azure subscription.\n You have an on-premises virtual machine named VM1. The settings for VM1 are shown in the exhibit. (Click the Exhibit tab.)\n\n{{img:/exam-media/az-104/T4/0030300001.png}}\n\n You need to ensure that you can use the disks attached to VM1 as a template for Azure virtual machines.\n What should you modify on VM1?",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #56",
     type: "single",
@@ -8304,10 +8693,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 283,
+    id: 278,
     number: 58,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription named Subscription1 that is used by several departments at your company. Subscription1 contains the resources in the following table:\n\n[Image: 0030700001.png]\n\n Another administrator deploys a virtual machine named VM1 and an Azure Storage account named storage2 by using a single Azure Resource Manager template.\n You need to view the template used for the deployment.\n From which blade can you view the template that was used for the deployment?",
+    prompt: "You have an Azure subscription named Subscription1 that is used by several departments at your company. Subscription1 contains the resources in the following table:\n\n{{img:/exam-media/az-104/T4/0030700001.png}}\n\n Another administrator deploys a virtual machine named VM1 and an Azure Storage account named storage2 by using a single Azure Resource Manager template.\n You need to view the template used for the deployment.\n From which blade can you view the template that was used for the deployment?",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #58",
     type: "single",
@@ -8334,10 +8723,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 284,
+    id: 279,
     number: 59,
     topic: "Topic 4",
-    prompt: "You have an Azure web app named App1. App1 has the deployment slots shown in the following table:\n\n[Image: 0030900002.png]\n\n In webapp1-test, you test several changes to App1.\n You back up App1.\n You swap webapp1-test for webapp1-prod and discover that App1 is experiencing performance issues.\n You need to revert to the previous version of App1 as quickly as possible.\n What should you do?",
+    prompt: "You have an Azure web app named App1. App1 has the deployment slots shown in the following table:\n\n{{img:/exam-media/az-104/T4/0030900002.png}}\n\n In webapp1-test, you test several changes to App1.\n You back up App1.\n You swap webapp1-test for webapp1-prod and discover that App1 is experiencing performance issues.\n You need to revert to the previous version of App1 as quickly as possible.\n What should you do?",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #59",
     type: "single",
@@ -8364,42 +8753,52 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 285,
+    id: 280,
     number: 60,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription named Subscription1. Subscription1 contains two Azure virtual machines VM1 and VM2. VM1 and VM2 run Windows Server\n 2016.\n VM1 is backed up daily by Azure Backup without using the Azure Backup agent.\n VM1 is affected by ransomware that encrypts data.\n You need to restore the latest backup of VM1.\n To which location can you restore the backup? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0031100001.jpg]",
+    prompt: "You have an Azure subscription named Subscription1. Subscription1 contains two Azure virtual machines VM1 and VM2. VM1 and VM2 run Windows Server\n 2016.\n VM1 is backed up daily by Azure Backup without using the Azure Backup agent.\n VM1 is affected by ransomware that encrypts data.\n You need to restore the latest backup of VM1.\n To which location can you restore the backup? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T4/0031100001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T4.apkg #60",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T4/image919.png}}\nSource: Az-104 T4.apkg #60",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "file recovery of VM1 to: VM1 only"
+        text: "VM1 only"
       },
       {
         id: "B",
-        text: "file recovery of VM1 to: A new Azure virtual machine only"
+        text: "A new Azure virtual machine only"
       },
       {
         id: "C",
-        text: "file recovery of VM1 to: Any Windows computer that has Internet connectivity"
+        text: "Any Windows computer that has Internet connectivity"
       },
       {
         id: "D",
-        text: "restore VM1 to: VM1 or a new Azure vitual machine only"
+        text: "VM1 or a new Azure vitual machine only"
       },
       {
         id: "E",
-        text: "restore VM1 to: Any Windows computer that has Internet connectivity"
+        text: "Any Windows computer that has Internet connectivity"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "file recovery of VM1 to"
+      },
+      {
+        id: "t2",
+        text: "restore VM1 to"
       }
     ],
     correct: [
-      "C",
-      "D"
+      "t1:C",
+      "t2:D"
     ]
   },
   {
-    id: 286,
+    id: 281,
     number: 61,
     topic: "Topic 4",
     prompt: "You plan to back up an Azure virtual machine named VM1.\n You discover that the Backup Pre-Check status displays a status of Warning.\n What is a possible cause of the Warning status?",
@@ -8429,7 +8828,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 287,
+    id: 282,
     number: 62,
     topic: "Topic 4",
     prompt: "You have an Azure virtual machine named VM1. VM1 was deployed by using a custom Azure Resource Manager template named ARM1.json.\n You receive a notification that VM1 will be affected by maintenance.\n You need to move VM1 to a different host immediately.\n Solution: From the Overview blade, you move the virtual machine to a different resource group.\n Does this meet the goal?",
@@ -8451,42 +8850,52 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 288,
+    id: 283,
     number: 63,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription.\n You plan to use Azure Resource Manager templates to deploy 50 Azure virtual machines that will be part of the same availability set.\n You need to ensure that as many virtual machines as possible are available if the fabric fails or during servicing.\n How should you configure the template? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0031400001.png]",
+    prompt: "You have an Azure subscription.\n You plan to use Azure Resource Manager templates to deploy 50 Azure virtual machines that will be part of the same availability set.\n You need to ensure that as many virtual machines as possible are available if the fabric fails or during servicing.\n How should you configure the template? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T4/0031400001.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T4.apkg #63",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T4/image920.png}}\nSource: Az-104 T4.apkg #63",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "platformFaultDomainCount: 0"
+        text: "0"
       },
       {
         id: "B",
-        text: "platformFaultDomainCount: 2"
+        text: "2"
       },
       {
         id: "C",
-        text: "platformFaultDomainCount: 3"
+        text: "3"
       },
       {
         id: "D",
-        text: "platformUpdateDomainCount: 20"
+        text: "20"
       },
       {
         id: "E",
-        text: "platformUpdateDomainCount: 10"
+        text: "10"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "platformFaultDomainCount"
+      },
+      {
+        id: "t2",
+        text: "platformUpdateDomainCount"
       }
     ],
     correct: [
-      "C",
-      "D"
+      "t1:C",
+      "t2:D"
     ]
   },
   {
-    id: 289,
+    id: 284,
     number: 64,
     topic: "Topic 4",
     prompt: "You have an Azure virtual machine named VM1 that runs Windows Server 2016.\n You need to create an alert in Azure when more than two error events are logged to the System event log on VM1 within an hour.\n Solution: You create an Azure Log Analytics workspace and configure the Agent configuration settings. You install the Microsoft Monitoring Agent on VM1. You create an alert in Azure Monitor and specify the Log Analytics workspace as the source.\n Does this meet the goal?",
@@ -8508,45 +8917,55 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 290,
+    id: 285,
     number: 65,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription.\n You deploy a virtual machine scale set that is configured as shown in the following exhibit.\n\n[Image: 0031800001.png]\n\n Use the drop-down menus to select the answer choice that answers each question based on the information presented in the graphic\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0031900001.png]",
+    prompt: "You have an Azure subscription.\n You deploy a virtual machine scale set that is configured as shown in the following exhibit.\n\n{{img:/exam-media/az-104/T4/0031800001.png}}\n\n Use the drop-down menus to select the answer choice that answers each question based on the information presented in the graphic\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T4/0031900001.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T4.apkg #65",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T4/0032000001.jpg}}\nSource: Az-104 T4.apkg #65",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "9:00 AM : 2"
+        text: "00 AM : 2"
       },
       {
         id: "B",
-        text: "9:00 AM : 3"
+        text: "00 AM : 3"
       },
       {
         id: "C",
-        text: "9:00 AM : 5"
+        text: "00 AM : 5"
       },
       {
         id: "D",
-        text: "10:00 AM : 3"
+        text: "00 AM : 3"
       },
       {
         id: "E",
-        text: "10:00 AM : 1"
+        text: "00 AM : 1"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "9"
+      },
+      {
+        id: "t2",
+        text: "10"
       }
     ],
     correct: [
-      "B",
-      "E"
+      "t1:B",
+      "t2:E"
     ]
   },
   {
-    id: 291,
+    id: 286,
     number: 66,
     topic: "Topic 4",
-    prompt: "You have web apps in the West US, Central US and East US Azure regions.\n You have the App Service plans shown in the following table.\n\n[Image: 0032100001.png]\n\n You plan to create an additional App Service plan named ASP5 that will use the Linux operating system.\n You need to identify in which of the currently used locations you can deploy ASP5.\n What should you recommend?",
+    prompt: "You have web apps in the West US, Central US and East US Azure regions.\n You have the App Service plans shown in the following table.\n\n{{img:/exam-media/az-104/T4/0032100001.png}}\n\n You plan to create an additional App Service plan named ASP5 that will use the Linux operating system.\n You need to identify in which of the currently used locations you can deploy ASP5.\n What should you recommend?",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #66",
     type: "single",
@@ -8573,7 +8992,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 292,
+    id: 287,
     number: 67,
     topic: "Topic 4",
     prompt: "You plan to deploy several Azure virtual machines that will run Windows Server 2019 in a virtual machine scale set by using an Azure Resource Manager template.\n You need to ensure that NGINX is available on all the virtual machines after they are deployed.\n What should you use?",
@@ -8603,7 +9022,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 293,
+    id: 288,
     number: 69,
     topic: "Topic 4",
     prompt: "You deploy an Azure Kubernetes Service (AKS) cluster named AKS1.\n You need to deploy a YAML file to AKS1.\n Solution: From Azure Cloud Shell, you run az aks.\n Does this meet the goal?",
@@ -8625,7 +9044,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 294,
+    id: 289,
     number: 70,
     topic: "Topic 4",
     prompt: "You have an Azure virtual machine named VM1 that runs Windows Server 2016.\n You need to create an alert in Azure when more than two error events are logged to the System event log on VM1 within an hour.\n Solution: You create an Azure Log Analytics workspace and configure the data settings. You add the Microsoft Monitoring Agent VM extension to VM1. You create an alert in Azure Monitor and specify the Log Analytics workspace as the source.\n Does this meet the goal?",
@@ -8647,7 +9066,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 295,
+    id: 290,
     number: 71,
     topic: "Topic 4",
     prompt: "You have an Azure virtual machine named VM1 that runs Windows Server 2016.\n You need to create an alert in Azure when more than two error events are logged to the System event log on VM1 within an hour.\n Solution: You create an Azure Log Analytics workspace and configure the data settings. You install the Microsoft Monitoring Agent on VM1. You create an alert in\n Azure Monitor and specify the Log Analytics workspace as the source.\n Does this meet the goal",
@@ -8669,10 +9088,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 296,
+    id: 291,
     number: 72,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n[Image: 0032600001.png]\n\n All virtual machines run Windows Server 2016.\n On VM1, you back up a folder named Folder1 as shown in the following exhibit.\n\n[Image: 0032600002.jpg]\n\n You plan to restore the backup to a different virtual machine.\n You need to restore the backup to VM2.\n What should you do first?",
+    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T4/0032600001.png}}\n\n All virtual machines run Windows Server 2016.\n On VM1, you back up a folder named Folder1 as shown in the following exhibit.\n\n{{img:/exam-media/az-104/T4/0032600002.jpg}}\n\n You plan to restore the backup to a different virtual machine.\n You need to restore the backup to VM2.\n What should you do first?",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #72",
     type: "single",
@@ -8699,45 +9118,55 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 297,
+    id: 292,
     number: 73,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription.\n You need to use an Azure Resource Manager (ARM) template to create a virtual machine that will have multiple data disks.\n How should you complete the template? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0032800001.png]",
+    prompt: "You have an Azure subscription.\n You need to use an Azure Resource Manager (ARM) template to create a virtual machine that will have multiple data disks.\n How should you complete the template? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T4/0032800001.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T4.apkg #73",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T4/0032900001.png}}\nSource: Az-104 T4.apkg #73",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "storageProfile: copy"
+        text: "copy"
       },
       {
         id: "B",
-        text: "storageProfile:: copyIndex"
+        text: ": copyIndex"
       },
       {
         id: "C",
-        text: "lun: copy"
+        text: "copy"
       },
       {
         id: "D",
-        text: "lun: copyIndex"
+        text: "copyIndex"
       },
       {
         id: "E",
-        text: "lun: dependsOn"
+        text: "dependsOn"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "storageProfile"
+      },
+      {
+        id: "t2",
+        text: "lun"
       }
     ],
     correct: [
-      "A",
-      "D"
+      "t1:A",
+      "t2:D"
     ]
   },
   {
-    id: 298,
+    id: 293,
     number: 74,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription named Subscription1 that contains the resources shown in the following table.\n\n[Image: 0033000001.png]\n\n Subscription1 also includes a virtual network named VNET2. VM1 connects to a virtual network named VNET2 by using a network interface named NIC1.\n You need to create a new network interface named NIC2 for VM1.\n Solution: You create NIC2 in RG1 and West US.\n Does this meet the goal?",
+    prompt: "You have an Azure subscription named Subscription1 that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T4/0033000001.png}}\n\n Subscription1 also includes a virtual network named VNET2. VM1 connects to a virtual network named VNET2 by using a network interface named NIC1.\n You need to create a new network interface named NIC2 for VM1.\n Solution: You create NIC2 in RG1 and West US.\n Does this meet the goal?",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #74",
     type: "single",
@@ -8756,10 +9185,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 299,
+    id: 294,
     number: 75,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription named Subscription1 that contains the resources shown in the following table.\n\n[Image: 0033100001.png]\n\n Subscription1 also includes a virtual network named VNET2. VM1 connects to a virtual network named VNET2 by using a network interface named NIC1.\n You need to create a new network interface named NIC2 for VM1.\n Solution: You create NIC2 in RG2 and Central US.\n Does this meet the goal?",
+    prompt: "You have an Azure subscription named Subscription1 that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T4/0033100001.png}}\n\n Subscription1 also includes a virtual network named VNET2. VM1 connects to a virtual network named VNET2 by using a network interface named NIC1.\n You need to create a new network interface named NIC2 for VM1.\n Solution: You create NIC2 in RG2 and Central US.\n Does this meet the goal?",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #75",
     type: "single",
@@ -8778,10 +9207,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 300,
+    id: 295,
     number: 76,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription named Subscription1 that contains the resources shown in the following table.\n\n[Image: 0033200001.png]\n\n Subscription1 also includes a virtual network named VNET2. VM1 connects to a virtual network named VNET2 by using a network interface named NIC1.\n You need to create a new network interface named NIC2 for VM1.\n Solution: You create NIC2 in RG2 and West US.\n Does this meet the goal?",
+    prompt: "You have an Azure subscription named Subscription1 that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T4/0033200001.png}}\n\n Subscription1 also includes a virtual network named VNET2. VM1 connects to a virtual network named VNET2 by using a network interface named NIC1.\n You need to create a new network interface named NIC2 for VM1.\n Solution: You create NIC2 in RG2 and West US.\n Does this meet the goal?",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #76",
     type: "single",
@@ -8800,10 +9229,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 301,
+    id: 296,
     number: 77,
     topic: "Topic 4",
-    prompt: "You develop the following Azure Resource Manager (ARM) template to create a resource group and deploy an Azure Storage account to the resource group.\n\n[Image: 0033400001.jpg]\n\n Which cmdlet should you run to deploy the template?",
+    prompt: "You develop the following Azure Resource Manager (ARM) template to create a resource group and deploy an Azure Storage account to the resource group.\n\n{{img:/exam-media/az-104/T4/0033400001.jpg}}\n\n Which cmdlet should you run to deploy the template?",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #77",
     type: "single",
@@ -8830,42 +9259,52 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 302,
+    id: 297,
     number: 78,
     topic: "Topic 4",
-    prompt: "You have an Azure App Service app named WebApp1 that contains two folders named Folder1 and Folder2.\n You need to configure a daily backup of WebApp1. The solution must ensure that Folder2 is excluded from the backup.\n What should you create first, and what should you use to exclude Folder2? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0033600001.jpg]",
+    prompt: "You have an Azure App Service app named WebApp1 that contains two folders named Folder1 and Folder2.\n You need to configure a daily backup of WebApp1. The solution must ensure that Folder2 is excluded from the backup.\n What should you create first, and what should you use to exclude Folder2? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T4/0033600001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T4.apkg #78",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T4/0033700001.jpg}}\nSource: Az-104 T4.apkg #78",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "First create: An Azure storage account"
+        text: "An Azure storage account"
       },
       {
         id: "B",
-        text: "First create: A Bakup vault"
+        text: "A Bakup vault"
       },
       {
         id: "C",
-        text: "First create: A Revocery Services vault"
+        text: "A Revocery Services vault"
       },
       {
         id: "D",
-        text: "To exclude Folder2, use: a_backup.filter file"
+        text: "a_backup.filter file"
       },
       {
         id: "E",
-        text: "To exclude Folder2, use: a backup policy"
+        text: "a backup policy"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "First create"
+      },
+      {
+        id: "t2",
+        text: "To exclude Folder2, use"
       }
     ],
     correct: [
-      "A",
-      "D"
+      "t1:A",
+      "t2:D"
     ]
   },
   {
-    id: 303,
+    id: 298,
     number: 79,
     topic: "Topic 4",
     prompt: "You plan to deploy several Azure virtual machines that will run Windows Server 2019 in a virtual machine scale set by using an Azure Resource Manager template.\n You need to ensure that NGINX is available on all the virtual machines after they are deployed.\n What should you use?",
@@ -8895,13 +9334,13 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 304,
+    id: 299,
     number: 80,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription. The subscription contains a virtual machine that runs Windows 10.\n You need to join the virtual machine to an Active Directory domain.\n How should you complete the Azure Resource Manager (ARM) template? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0034000001.jpg]",
+    prompt: "You have an Azure subscription. The subscription contains a virtual machine that runs Windows 10.\n You need to join the virtual machine to an Active Directory domain.\n How should you complete the Azure Resource Manager (ARM) template? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T4/0034000001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T4.apkg #80",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T4/0034100001.jpg}}\nSource: Az-104 T4.apkg #80",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
@@ -8924,13 +9363,23 @@ export const az104Questions: Question[] = [
         text: "\"Settings\":{"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      }
+    ],
     correct: [
-      "C",
-      "D"
+      "t1:C",
+      "t2:D"
     ]
   },
   {
-    id: 305,
+    id: 300,
     number: 81,
     topic: "Topic 4",
     prompt: "You have an Azure subscription that contains three virtual machines named VM1, VM2, and VM3. All the virtual machines are in an availability set named AVSet1.\n\n You need to scale up VM1 to a new virtual machine size, but the intended size is unavailable.\n\n What should you do first?",
@@ -8960,13 +9409,13 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 306,
+    id: 301,
     number: 82,
     topic: "Topic 4",
-    prompt: "You are creating an Azure Kubernetes Services (AKS) cluster as shown in the following exhibit.\n\n[Image: image593.png]\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n\n NOTE: Each correct selection is worth one point.\n\n[Image: image594.png]",
+    prompt: "You are creating an Azure Kubernetes Services (AKS) cluster as shown in the following exhibit.\n\n{{img:/exam-media/az-104/T4/image593.png}}\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n\n NOTE: Each correct selection is worth one point.\n\n{{img:/exam-media/az-104/T4/image594.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T4.apkg #82",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T4/image595.png}}\nSource: Az-104 T4.apkg #82",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
@@ -8989,18 +9438,28 @@ export const az104Questions: Question[] = [
         text: "integrate AKS with azure container: authentication method"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      }
+    ],
     correct: [
-      "C",
-      "D"
+      "t1:C",
+      "t2:D"
     ]
   },
   {
-    id: 307,
+    id: 302,
     number: 83,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription that contains an Azure Kubernetes Service (AKS) cluster named Cluster1. Cluster1 hosts a node pool named Pool1 that has four nodes.\n\n You need to perform a coordinated upgrade of Cluster1. The solution must meet the following requirements:\n\n • Deploy two new nodes to perform the upgrade.\n • Minimize costs.\n\n How should you complete the command? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.\n\n[Image: image596.png]",
+    prompt: "You have an Azure subscription that contains an Azure Kubernetes Service (AKS) cluster named Cluster1. Cluster1 hosts a node pool named Pool1 that has four nodes.\n\n You need to perform a coordinated upgrade of Cluster1. The solution must meet the following requirements:\n\n • Deploy two new nodes to perform the upgrade.\n • Minimize costs.\n\n How should you complete the command? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.\n\n{{img:/exam-media/az-104/T4/image596.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T4.apkg #83",
+    explanation: "{{img:/exam-media/az-104/T4/image921.png}}\nSource: Az-104 T4.apkg #83",
     type: "multiple",
     options: [
       {
@@ -9030,10 +9489,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 308,
+    id: 303,
     number: 84,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription.\n\n You create the following file named Deploy.json.\n\n[Image: image598.png]\n\n You connect to the subscription and run the following commands.\n\n[Image: image599.png]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
+    prompt: "You have an Azure subscription.\n\n You create the following file named Deploy.json.\n\n{{img:/exam-media/az-104/T4/image598.png}}\n\n You connect to the subscription and run the following commands.\n\n{{img:/exam-media/az-104/T4/image599.png}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #84",
     type: "hotspot-boolean",
@@ -9056,7 +9515,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 309,
+    id: 304,
     number: 85,
     topic: "Topic 4",
     prompt: "You have an Azure container registry named Registry1 that contains an image named image1.\n\n You receive an error message when you attempt to deploy a container instance by using image1.\n\n You need to be able to deploy a container instance by using image1.\n\n Solution: You set Admin user to Enable for Registry1.\n\n Does this meet the goal?",
@@ -9078,12 +9537,12 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 310,
+    id: 305,
     number: 86,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription that contains a resource group named RG1.\n\n You plan to use an Azure Resource Manager (ARM) template named template1 to deploy resources. The solution must meet the following requirements:\n\n • Deploy new resources to RG1.\n • Remove all the existing resources from RG1 before deploying the new resources.\n\n How should you complete the command? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.\n\n[Image: image602.png]",
+    prompt: "You have an Azure subscription that contains a resource group named RG1.\n\n You plan to use an Azure Resource Manager (ARM) template named template1 to deploy resources. The solution must meet the following requirements:\n\n • Deploy new resources to RG1.\n • Remove all the existing resources from RG1 before deploying the new resources.\n\n How should you complete the command? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.\n\n{{img:/exam-media/az-104/T4/image602.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T4.apkg #86",
+    explanation: "{{img:/exam-media/az-104/T4/image603.png}}\nSource: Az-104 T4.apkg #86",
     type: "multiple",
     options: [
       {
@@ -9113,13 +9572,13 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 311,
+    id: 306,
     number: 87,
     topic: "Topic 4",
-    prompt: "You have an Azure App Service web app named app1.\n\n You configure autoscaling as shown in following exhibit.\n\n[Image: image604.png]\n\n You configure the autoscale rule criteria as shown in the following exhibit.\n\n[Image: image605.png]\n\n Use the drop-down menus to select the answer choice that answers each question based on the information presented in the graphic.\n\n NOTE: Each correct selection is worth one point.\n\n[Image: image606.png]",
+    prompt: "You have an Azure App Service web app named app1.\n\n You configure autoscaling as shown in following exhibit.\n\n{{img:/exam-media/az-104/T4/image604.png}}\n\n You configure the autoscale rule criteria as shown in the following exhibit.\n\n{{img:/exam-media/az-104/T4/image605.png}}\n\n Use the drop-down menus to select the answer choice that answers each question based on the information presented in the graphic.\n\n NOTE: Each correct selection is worth one point.\n\n{{img:/exam-media/az-104/T4/image606.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T4.apkg #87",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T4/image607.png}}\nSource: Az-104 T4.apkg #87",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
@@ -9142,16 +9601,26 @@ export const az104Questions: Question[] = [
         text: "15 minutes"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      }
+    ],
     correct: [
-      "B",
-      "E"
+      "t1:B",
+      "t2:E"
     ]
   },
   {
-    id: 312,
+    id: 307,
     number: 88,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription.\n\n You plan to deploy the Azure container instances shown in the following table.\n\n[Image: image643.png]\n\n Which instances can you deploy to a container group?",
+    prompt: "You have an Azure subscription.\n\n You plan to deploy the Azure container instances shown in the following table.\n\n{{img:/exam-media/az-104/T4/image643.png}}\n\n Which instances can you deploy to a container group?",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #88",
     type: "single",
@@ -9178,10 +9647,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 313,
+    id: 308,
     number: 90,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription that has the public IP addresses shown in the following table.\n\n[Image: image653.png]\n\n You plan to deploy an Instance of Azure Firewall Premium named FW1.\n\n Which IP addresses can you use?",
+    prompt: "You have an Azure subscription that has the public IP addresses shown in the following table.\n\n{{img:/exam-media/az-104/T4/image653.png}}\n\n You plan to deploy an Instance of Azure Firewall Premium named FW1.\n\n Which IP addresses can you use?",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #90",
     type: "single",
@@ -9208,12 +9677,12 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 314,
+    id: 309,
     number: 91,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription.\n\n You need to deploy a virtual machine by using an Azure Resource Manager (ARM) template.\n\n How should you complete the template? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.\n\n[Image: image676.png]",
+    prompt: "You have an Azure subscription.\n\n You need to deploy a virtual machine by using an Azure Resource Manager (ARM) template.\n\n How should you complete the template? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.\n\n{{img:/exam-media/az-104/T4/image676.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T4.apkg #91",
+    explanation: "{{img:/exam-media/az-104/T4/image677.png}}\nSource: Az-104 T4.apkg #91",
     type: "multiple",
     options: [
       {
@@ -9243,12 +9712,12 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 315,
+    id: 310,
     number: 92,
     topic: "Topic 4",
-    prompt: "You need to configure a new Azure App Service app named WebApp1. The solution must meet the following requirements:\n\n • WebApp1 must be able to verify a custom domain name of app.contoso.com.\n • WebApp1 must be able to automatically scale up to eight instances.\n • Costs and administrative effort must be minimized.\n\n Which pricing plan should you choose, and which type of record should you use to verify the domain? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct answer is worth one point.\n\n[Image: image686.png]",
+    prompt: "You need to configure a new Azure App Service app named WebApp1. The solution must meet the following requirements:\n\n • WebApp1 must be able to verify a custom domain name of app.contoso.com.\n • WebApp1 must be able to automatically scale up to eight instances.\n • Costs and administrative effort must be minimized.\n\n Which pricing plan should you choose, and which type of record should you use to verify the domain? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct answer is worth one point.\n\n{{img:/exam-media/az-104/T4/image686.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T4.apkg #92",
+    explanation: "{{img:/exam-media/az-104/T4/image687.png}}\nSource: Az-104 T4.apkg #92",
     type: "multiple",
     options: [
       {
@@ -9278,10 +9747,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 316,
+    id: 311,
     number: 93,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription that contains the virtual machines shown in the following table.\n\n[Image: image713.png]\n\n You create an Azure Compute Gallery named ComputeGallery1 as shown in the Azure Compute Gallery exhibit. (Click the Azure Compute Gallery tab.)\n\n[Image: image714.png]\n\n In ComputeGallery1, you create a virtual machine image definition named Image1 as shown in the image definition exhibit. (Click the Image Definition tab.)\n\n[Image: image715.png]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No,\n\n NOTE: Each correct selection is worth one point.",
+    prompt: "You have an Azure subscription that contains the virtual machines shown in the following table.\n\n{{img:/exam-media/az-104/T4/image713.png}}\n\n You create an Azure Compute Gallery named ComputeGallery1 as shown in the Azure Compute Gallery exhibit. (Click the Azure Compute Gallery tab.)\n\n{{img:/exam-media/az-104/T4/image714.png}}\n\n In ComputeGallery1, you create a virtual machine image definition named Image1 as shown in the image definition exhibit. (Click the Image Definition tab.)\n\n{{img:/exam-media/az-104/T4/image715.png}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No,\n\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #93",
     type: "hotspot-boolean",
@@ -9304,10 +9773,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 317,
+    id: 312,
     number: 94,
     topic: "Topic 4",
-    prompt: "You plan to create the Azure web apps shown in the following table.\n\n[Image: image718.png]\n\n What is the minimum number of App Service plans you should create for the web apps?",
+    prompt: "You plan to create the Azure web apps shown in the following table.\n\n{{img:/exam-media/az-104/T4/image718.png}}\n\n What is the minimum number of App Service plans you should create for the web apps?",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #94",
     type: "single",
@@ -9334,10 +9803,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 318,
+    id: 313,
     number: 85,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription that contains the resource groups shown in the following table.\n\n[Image: image719.png]\n\n You create the following Azure Resource Manager (ARM) template named deploy.json.\n\n[Image: image720.png]\n\n You deploy the template by running the following cmdlet.\n\n[Image: image721.png]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
+    prompt: "You have an Azure subscription that contains the resource groups shown in the following table.\n\n{{img:/exam-media/az-104/T4/image719.png}}\n\n You create the following Azure Resource Manager (ARM) template named deploy.json.\n\n{{img:/exam-media/az-104/T4/image720.png}}\n\n You deploy the template by running the following cmdlet.\n\n{{img:/exam-media/az-104/T4/image721.png}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #85",
     type: "hotspot-boolean",
@@ -9360,10 +9829,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 319,
+    id: 314,
     number: 96,
     topic: "Topic 4",
-    prompt: "You have an Azure App Service app named App1 that contains two running instances.\n\n You have an autoscale rule configured as shown in the following exhibit.\n\n[Image: image724.png]\n\n For the Instance limits scale condition setting, you set Maximum to 5.\n\n During a 30-minute period, App1 uses 80 percent of the available memory.\n\n What is the maximum number of instances for App1 during the 30-minute period?",
+    prompt: "You have an Azure App Service app named App1 that contains two running instances.\n\n You have an autoscale rule configured as shown in the following exhibit.\n\n{{img:/exam-media/az-104/T4/image724.png}}\n\n For the Instance limits scale condition setting, you set Maximum to 5.\n\n During a 30-minute period, App1 uses 80 percent of the available memory.\n\n What is the maximum number of instances for App1 during the 30-minute period?",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #96",
     type: "single",
@@ -9390,12 +9859,12 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 320,
+    id: 315,
     number: 97,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription that contains the container images shown in the following table.\n\n[Image: image725.png]\n\n You plan to use the following services:\n\n • Azure Container Instances\n • Azure Container Apps\n • Azure App Service\n\n In which services can you run the images? To answer, select the options in the answer area.\n\n NOTE: Each correct answer is worth one point.\n\n[Image: image726.png]",
+    prompt: "You have an Azure subscription that contains the container images shown in the following table.\n\n{{img:/exam-media/az-104/T4/image725.png}}\n\n You plan to use the following services:\n\n • Azure Container Instances\n • Azure Container Apps\n • Azure App Service\n\n In which services can you run the images? To answer, select the options in the answer area.\n\n NOTE: Each correct answer is worth one point.\n\n{{img:/exam-media/az-104/T4/image726.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T4.apkg #97",
+    explanation: "{{img:/exam-media/az-104/T4/image727.png}}\nSource: Az-104 T4.apkg #97",
     type: "multiple",
     options: [
       {
@@ -9425,7 +9894,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 321,
+    id: 316,
     number: 98,
     topic: "Topic 4",
     prompt: "You have an Azure AD tenant named contoso.com.\n\n You have an Azure subscription that contains an Azure App Service web app named App1 and an Azure key vault named KV1. KV1 contains a wildcard certificate for contoso.com.\n\n You have a user named   user1@contoso.com   that is assigned the Owner role for App1 and KV1.\n\n You need to configure App1 to use the wildcard certificate of KV1.\n\n What should you do first?",
@@ -9455,10 +9924,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 322,
+    id: 317,
     number: 99,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription.\n\n You plan to deploy the resources shown in the following table.\n\n[Image: image767.png]\n\n You need to create a single Azure Resource Manager (ARM) template that will be used to deploy the resources.\n\n Which resource should be added to the dependsOn section for VM1?",
+    prompt: "You have an Azure subscription.\n\n You plan to deploy the resources shown in the following table.\n\n{{img:/exam-media/az-104/T4/image767.png}}\n\n You need to create a single Azure Resource Manager (ARM) template that will be used to deploy the resources.\n\n Which resource should be added to the dependsOn section for VM1?",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #99",
     type: "single",
@@ -9485,10 +9954,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 323,
+    id: 318,
     number: 100,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription.\n\n You create the following Azure Resource Manager (ARM) template named Template.json.\n\n[Image: image786.png]\n\n You need to deploy Template.json.\n\n Which PowerShell cmdlet should you run from Azure Cloud Shell?",
+    prompt: "You have an Azure subscription.\n\n You create the following Azure Resource Manager (ARM) template named Template.json.\n\n{{img:/exam-media/az-104/T4/image786.png}}\n\n You need to deploy Template.json.\n\n Which PowerShell cmdlet should you run from Azure Cloud Shell?",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #100",
     type: "single",
@@ -9515,7 +9984,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 324,
+    id: 319,
     number: 101,
     topic: "Topic 4",
     prompt: "You have an Azure subscription that contains a resource group named RG1.\n\n You plan to create a storage account named storage1.\n\n You have a Bicep file named File1.\n\n You need to modify File1 so that it can be used to automate the deployment of storage1 to RG1.\n\n Which property should you modify?",
@@ -9545,10 +10014,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 325,
+    id: 320,
     number: 102,
     topic: "Topic 4",
-    prompt: "Your company purchases a new Azure subscription.\n\n You create a file named Deploy.json as shown in the following exhibit.\n\n[Image: image787.png]\n\n You connect to the subscription and run the following cmdlet.\n\n New-AzDeployment -Location westus -TemplateFile “deploy.json”\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
+    prompt: "Your company purchases a new Azure subscription.\n\n You create a file named Deploy.json as shown in the following exhibit.\n\n{{img:/exam-media/az-104/T4/image787.png}}\n\n You connect to the subscription and run the following cmdlet.\n\n New-AzDeployment -Location westus -TemplateFile “deploy.json”\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #102",
     type: "hotspot-boolean",
@@ -9571,10 +10040,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 326,
+    id: 321,
     number: 103,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n[Image: image790.png]\n\n You need to configure a proximity placement group for VMSS1.\n\n Which proximity placement groups should you use?",
+    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T4/image790.png}}\n\n You need to configure a proximity placement group for VMSS1.\n\n Which proximity placement groups should you use?",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #103",
     type: "single",
@@ -9601,10 +10070,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 327,
+    id: 322,
     number: 104,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription that contains the virtual networks shown in the following table.\n\n[Image: image809.png]\n\n The subscription contains the virtual machines shown in the following table.\n\n[Image: image810.png]\n\n The subscription contains the Azure App Service web apps shown in the following table.\n\n[Image: image811.png]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
+    prompt: "You have an Azure subscription that contains the virtual networks shown in the following table.\n\n{{img:/exam-media/az-104/T4/image809.png}}\n\n The subscription contains the virtual machines shown in the following table.\n\n{{img:/exam-media/az-104/T4/image810.png}}\n\n The subscription contains the Azure App Service web apps shown in the following table.\n\n{{img:/exam-media/az-104/T4/image811.png}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #104",
     type: "hotspot-boolean",
@@ -9627,10 +10096,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 328,
+    id: 323,
     number: 105,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription named Subscription1 that contains the resources shown in the following table.\n\n[Image: image814.png]\n\n You create virtual machines in Subscription1 as shown in the following table.\n\n[Image: image815.png]\n\n You plan to use Vault1 for the backup of as many virtual machines as possible.\n\n Which virtual machines can be backed up to Vault1?",
+    prompt: "You have an Azure subscription named Subscription1 that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T4/image814.png}}\n\n You create virtual machines in Subscription1 as shown in the following table.\n\n{{img:/exam-media/az-104/T4/image815.png}}\n\n You plan to use Vault1 for the backup of as many virtual machines as possible.\n\n Which virtual machines can be backed up to Vault1?",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #105",
     type: "single",
@@ -9661,7 +10130,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 329,
+    id: 324,
     number: 106,
     topic: "Topic 4",
     prompt: "You have an Azure subscription that contains an Azure container registry named ContReg1.\n\n You enable the Admin user for ContReg1.\n\n Which username can you use to sign in to ContReg1?",
@@ -9687,7 +10156,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 330,
+    id: 325,
     number: 107,
     topic: "Topic 4",
     prompt: "You have an Azure subscription.\n\n You plan to create an Azure container registry named ContReg1.\n\n You need to ensure that you can push and pull signed images for ContReg1.\n\n What should you do for ContReg1?",
@@ -9717,12 +10186,12 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 331,
+    id: 326,
     number: 108,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription that has the Azure container registries shown in the following table.\n\n[Image: image829.png]\n\n You plan to use ACR Tasks and configure private endpoint connections.\n\n Which container registries support ACR Tasks and private endpoints? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.\n\n[Image: image830.png]",
+    prompt: "You have an Azure subscription that has the Azure container registries shown in the following table.\n\n{{img:/exam-media/az-104/T4/image829.png}}\n\n You plan to use ACR Tasks and configure private endpoint connections.\n\n Which container registries support ACR Tasks and private endpoints? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.\n\n{{img:/exam-media/az-104/T4/image830.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T4.apkg #108",
+    explanation: "{{img:/exam-media/az-104/T4/image831.png}}\nSource: Az-104 T4.apkg #108",
     type: "multiple",
     options: [
       {
@@ -9752,7 +10221,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 332,
+    id: 327,
     number: 109,
     topic: "Topic 4",
     prompt: "You plan to deploy several Azure virtual machines that will run Windows Server 2022 in a virtual machine scale set by using an Azure Resource Manager template.\n\n You need to ensure that NGINX is available on all the virtual machines after they are deployed.\n\n What should you use?",
@@ -9782,10 +10251,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 333,
+    id: 328,
     number: 110,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription that contains a container group named Group1. Group1 contains two Azure container instances as shown in the following table.\n\n[Image: image832.png]\n\n You need to ensure that container2 can use CPU resources without negatively affecting container1.\n\n What should you do?",
+    prompt: "You have an Azure subscription that contains a container group named Group1. Group1 contains two Azure container instances as shown in the following table.\n\n{{img:/exam-media/az-104/T4/image832.png}}\n\n You need to ensure that container2 can use CPU resources without negatively affecting container1.\n\n What should you do?",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #110",
     type: "single",
@@ -9812,7 +10281,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 334,
+    id: 329,
     number: 111,
     topic: "Topic 4",
     prompt: "You have an Azure subscription.\n\n You plan to deploy a container.\n\n You need to recommend which Azure services can scale the container automatically.\n\n What should you recommend?",
@@ -9846,10 +10315,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 335,
+    id: 330,
     number: 112,
     topic: "Topic 4",
-    prompt: "You have an Azure subscription that uses Azure Container Instances.\n\n You have a computer that has Azure Command-Line Interface (CLI) and Docker installed.\n\n You create a container image named image1.\n\n You need to provision a new Azure container registry and add image1 to the registry.\n\n Which command should you run for each requirement? To answer, select the options in the answer area.\n\n NOTE: Each correct answer is worth one point.\n\n[Image: image833.png]",
+    prompt: "You have an Azure subscription that uses Azure Container Instances.\n\n You have a computer that has Azure Command-Line Interface (CLI) and Docker installed.\n\n You create a container image named image1.\n\n You need to provision a new Azure container registry and add image1 to the registry.\n\n Which command should you run for each requirement? To answer, select the options in the answer area.\n\n NOTE: Each correct answer is worth one point.\n\n{{img:/exam-media/az-104/T4/image833.png}}",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #112",
     type: "multiple",
@@ -9881,7 +10350,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 336,
+    id: 331,
     number: 113,
     topic: "Topic 4",
     prompt: "You have an Azure container registry named Registry1 that contains an image named image1.\n\n You receive an error message when you attempt to deploy a container instance by using image1.\n\n You need to be able to deploy a container instance by using image1.\n\n Solution: You assign the AcrPull role to ACR-Tasks-Network for Registry1.\n\n Does this meet the goal?",
@@ -9903,7 +10372,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 337,
+    id: 332,
     number: 114,
     topic: "Topic 4",
     prompt: "You have an Azure container registry named Registry1 that contains an image named image1.\n\n You receive an error message when you attempt to deploy a container instance by using image1.\n\n You need to be able to deploy a container instance by using image1.\n\n Solution: You select Use dedicated data endpoint for Registry1.\n\n Does this meet the goal?",
@@ -9925,7 +10394,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 338,
+    id: 333,
     number: 115,
     topic: "Topic 4",
     prompt: "You have an Azure container registry named Registry1 that contains an image named image1.\n\n You receive an error message when you attempt to deploy a container instance by using image1.\n\n You need to be able to deploy a container instance by using image1.\n\n Solution: You create a private endpoint connection for Registry1.\n\n Does this meet the goal?",
@@ -9947,7 +10416,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 339,
+    id: 334,
     number: 116,
     topic: "Topic 4",
     prompt: "You have a Standard Azure App Service plan named Plan1.\n\n You need to ensure that Plan1 will scale automatically when the CPU usage of the web app exceeds 80 percent.\n\n What should you select for Plan1?",
@@ -9981,10 +10450,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 340,
-    number: 340,
+    id: 335,
+    number: 335,
     topic: "Topic 4",
-    prompt: "This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.\n\n To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.\n\n At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.\n\n To start the case study -\n To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.\n\n Overview -\n\n ADatum Corporation is consulting firm that has a main office in Montreal and branch offices in Seattle and New York.\n\n Existing Environment -\n\n Azure Environment -\n\n ADatum has an Azure subscription that contains three resource groups named RG1, RG2, and RG3.\n\n The subscription contains the storage accounts shown in the following table.\n\n[Image: image865.png]\n\n The subscription contains the virtual machines shown in the following table.\n\n[Image: image866.png]\n\n The subscription has an Azure container registry that contains the images shown in the following table.\n\n[Image: image867.png]\n\n The subscription contains the resources shown in the following table.\n\n[Image: image868.png]\n\n Azure Key Vault -\n\n The subscription contains an Azure key vault named Vault1.\n\n Vault1 contains the certificates shown in the following table.\n\n[Image: image869.png]\n\n Vault1 contains the keys shown in the following table.\n\n[Image: image870.png]\n\n Microsoft Entra Environment -\n\n ADatum has a Microsoft Entra tenant named adatum.com that is linked to the Azure subscription and contains the users shown in the following table.\n\n[Image: image871.png]\n\n The tenant contains the groups shown in the following table.\n\n[Image: image872.png]\n\n The adatum.com tenant has a custom security attribute named Attribute1.\n\n Planned Changes -\n\n ADatum plans to implement the following changes:\n\n • Configure a data collection rule (DCR) named DCR1 to collect only system events that have an event ID of 4648 from VM2 and VM4.\n • In storage1, create a new container named cont2 that has the following access policies: o Three stored access policies named Stored1, Stored2, and Stored3 o A legal hold for immutable blob storage\n • Whenever possible, use directories to organize storage account content.\n • Grant User1 the permissions required to link Zone1 to VNet1.\n • Assign Attribute1 to supported adatum.com resources.\n • In storage2, create an encryption scope named Scope1.\n • Deploy new containers by using Image1 or Image2.\n\n Technical Requirements -\n\n ADatum must meet the following technical requirements:\n\n • Use TLS for WebApp1.\n • Follow the principle of least privilege.\n • Grant permissions at the required scope only.\n • Ensure that Scope1 is used to encrypt storage services.\n • Use Azure Backup to back up cont1 and share1 as frequently as possible.\n • Whenever possible, use Azure Disk Encryption and a key encryption key (KEK) to encrypt the virtual machines.\n\n You need to configure WebApp1 to meet the technical requirements.\n\n Which certificate can you use from Vault1?",
+    prompt: "This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.\n\n To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.\n\n At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.\n\n To start the case study -\n To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.\n\n Overview -\n\n ADatum Corporation is consulting firm that has a main office in Montreal and branch offices in Seattle and New York.\n\n Existing Environment -\n\n Azure Environment -\n\n ADatum has an Azure subscription that contains three resource groups named RG1, RG2, and RG3.\n\n The subscription contains the storage accounts shown in the following table.\n\n{{img:/exam-media/az-104/T4/image865.png}}\n\n The subscription contains the virtual machines shown in the following table.\n\n{{img:/exam-media/az-104/T4/image866.png}}\n\n The subscription has an Azure container registry that contains the images shown in the following table.\n\n{{img:/exam-media/az-104/T4/image867.png}}\n\n The subscription contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T4/image868.png}}\n\n Azure Key Vault -\n\n The subscription contains an Azure key vault named Vault1.\n\n Vault1 contains the certificates shown in the following table.\n\n{{img:/exam-media/az-104/T4/image869.png}}\n\n Vault1 contains the keys shown in the following table.\n\n{{img:/exam-media/az-104/T4/image870.png}}\n\n Microsoft Entra Environment -\n\n ADatum has a Microsoft Entra tenant named adatum.com that is linked to the Azure subscription and contains the users shown in the following table.\n\n{{img:/exam-media/az-104/T4/image871.png}}\n\n The tenant contains the groups shown in the following table.\n\n{{img:/exam-media/az-104/T4/image872.png}}\n\n The adatum.com tenant has a custom security attribute named Attribute1.\n\n Planned Changes -\n\n ADatum plans to implement the following changes:\n\n • Configure a data collection rule (DCR) named DCR1 to collect only system events that have an event ID of 4648 from VM2 and VM4.\n • In storage1, create a new container named cont2 that has the following access policies: o Three stored access policies named Stored1, Stored2, and Stored3 o A legal hold for immutable blob storage\n • Whenever possible, use directories to organize storage account content.\n • Grant User1 the permissions required to link Zone1 to VNet1.\n • Assign Attribute1 to supported adatum.com resources.\n • In storage2, create an encryption scope named Scope1.\n • Deploy new containers by using Image1 or Image2.\n\n Technical Requirements -\n\n ADatum must meet the following technical requirements:\n\n • Use TLS for WebApp1.\n • Follow the principle of least privilege.\n • Grant permissions at the required scope only.\n • Ensure that Scope1 is used to encrypt storage services.\n • Use Azure Backup to back up cont1 and share1 as frequently as possible.\n • Whenever possible, use Azure Disk Encryption and a key encryption key (KEK) to encrypt the virtual machines.\n\n You need to configure WebApp1 to meet the technical requirements.\n\n Which certificate can you use from Vault1?",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg",
     type: "single",
@@ -10015,7 +10484,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 341,
+    id: 336,
     number: 118,
     topic: "Topic 4",
     prompt: "You have an Azure virtual machine named VM1. VM1 was deployed by using a custom Azure Resource Manager template named ARM1.json.\n\n You receive a notification that VM1 will be affected by maintenance.\n\n You need to move VM1 to a different host immediately.\n\n Solution: From the resource group blade, move VM1 to another subscription.\n Does this meet the goal?",
@@ -10037,7 +10506,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 342,
+    id: 337,
     number: 119,
     topic: "Topic 4",
     prompt: "You have an Azure virtual machine named VM1. VM1 was deployed by using a custom Azure Resource Manager template named ARM1.json.\n\n You receive a notification that VM1 will be affected by maintenance.\n\n You need to move VM1 to a different host immediately.\n\n Solution: From the VM1 Redeploy + reapply blade, you select Redeploy.\n\n Does this meet the goal?",
@@ -10059,7 +10528,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 343,
+    id: 338,
     number: 120,
     topic: "Topic 4",
     prompt: "You have an Azure virtual machine named VM1. VM1 was deployed by using a custom Azure Resource Manager template named ARM1.json.\n\n You receive a notification that VM1 will be affected by maintenance.\n\n You need to move VM1 to a different host immediately.\n\n Solution: From the VM1 Updates blade, select One-time update.\n\n Does this meet the goal?",
@@ -10081,10 +10550,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 344,
+    id: 339,
     number: 121,
     topic: "Topic 4",
-    prompt: "This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.\n\n To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.\n\n At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.\n\n To start the case study -\n To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.\n\n Overview -\n\n ADatum Corporation is consulting firm that has a main office in Montreal and branch offices in Seattle and New York.\n\n Existing Environment -\n\n Azure Environment -\n\n ADatum has an Azure subscription that contains three resource groups named RG1, RG2, and RG3.\n\n The subscription contains the storage accounts shown in the following table.\n\n[Image: image865.png]\n\n The subscription contains the virtual machines shown in the following table.\n\n[Image: image866.png]\n\n The subscription has an Azure container registry that contains the images shown in the following table.\n\n[Image: image867.png]\n\n The subscription contains the resources shown in the following table.\n\n[Image: image868.png]\n\n Azure Key Vault -\n\n The subscription contains an Azure key vault named Vault1.\n\n Vault1 contains the certificates shown in the following table.\n\n[Image: image869.png]\n\n Vault1 contains the keys shown in the following table.\n\n[Image: image870.png]\n\n Microsoft Entra Environment -\n\n ADatum has a Microsoft Entra tenant named adatum.com that is linked to the Azure subscription and contains the users shown in the following table.\n\n[Image: image871.png]\n\n The tenant contains the groups shown in the following table.\n\n[Image: image872.png]\n\n The adatum.com tenant has a custom security attribute named Attribute1.\n\n Planned Changes -\n\n ADatum plans to implement the following changes:\n\n • Configure a data collection rule (DCR) named DCR1 to collect only system events that have an event ID of 4648 from VM2 and VM4.\n • In storage1, create a new container named cont2 that has the following access policies: o Three stored access policies named Stored1, Stored2, and Stored3 o A legal hold for immutable blob storage\n • Whenever possible, use directories to organize storage account content.\n • Grant User1 the permissions required to link Zone1 to VNet1.\n • Assign Attribute1 to supported adatum.com resources.\n • In storage2, create an encryption scope named Scope1.\n • Deploy new containers by using Image1 or Image2.\n\n Technical Requirements -\n\n ADatum must meet the following technical requirements:\n\n • Use TLS for WebApp1.\n • Follow the principle of least privilege.\n • Grant permissions at the required scope only.\n • Ensure that Scope1 is used to encrypt storage services.\n • Use Azure Backup to back up cont1 and share1 as frequently as possible.\n • Whenever possible, use Azure Disk Encryption and a key encryption key (KEK) to encrypt the virtual machines.\n\n You need to meet the technical requirements for the KEK.\n\n Which PowerShell cmdlet and key should you use?",
+    prompt: "This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.\n\n To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.\n\n At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.\n\n To start the case study -\n To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. If the case study has an All Information tab, note that the information displayed is identical to the information displayed on the subsequent tabs. When you are ready to answer a question, click the Question button to return to the question.\n\n Overview -\n\n ADatum Corporation is consulting firm that has a main office in Montreal and branch offices in Seattle and New York.\n\n Existing Environment -\n\n Azure Environment -\n\n ADatum has an Azure subscription that contains three resource groups named RG1, RG2, and RG3.\n\n The subscription contains the storage accounts shown in the following table.\n\n{{img:/exam-media/az-104/T4/image865.png}}\n\n The subscription contains the virtual machines shown in the following table.\n\n{{img:/exam-media/az-104/T4/image866.png}}\n\n The subscription has an Azure container registry that contains the images shown in the following table.\n\n{{img:/exam-media/az-104/T4/image867.png}}\n\n The subscription contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T4/image868.png}}\n\n Azure Key Vault -\n\n The subscription contains an Azure key vault named Vault1.\n\n Vault1 contains the certificates shown in the following table.\n\n{{img:/exam-media/az-104/T4/image869.png}}\n\n Vault1 contains the keys shown in the following table.\n\n{{img:/exam-media/az-104/T4/image870.png}}\n\n Microsoft Entra Environment -\n\n ADatum has a Microsoft Entra tenant named adatum.com that is linked to the Azure subscription and contains the users shown in the following table.\n\n{{img:/exam-media/az-104/T4/image871.png}}\n\n The tenant contains the groups shown in the following table.\n\n{{img:/exam-media/az-104/T4/image872.png}}\n\n The adatum.com tenant has a custom security attribute named Attribute1.\n\n Planned Changes -\n\n ADatum plans to implement the following changes:\n\n • Configure a data collection rule (DCR) named DCR1 to collect only system events that have an event ID of 4648 from VM2 and VM4.\n • In storage1, create a new container named cont2 that has the following access policies: o Three stored access policies named Stored1, Stored2, and Stored3 o A legal hold for immutable blob storage\n • Whenever possible, use directories to organize storage account content.\n • Grant User1 the permissions required to link Zone1 to VNet1.\n • Assign Attribute1 to supported adatum.com resources.\n • In storage2, create an encryption scope named Scope1.\n • Deploy new containers by using Image1 or Image2.\n\n Technical Requirements -\n\n ADatum must meet the following technical requirements:\n\n • Use TLS for WebApp1.\n • Follow the principle of least privilege.\n • Grant permissions at the required scope only.\n • Ensure that Scope1 is used to encrypt storage services.\n • Use Azure Backup to back up cont1 and share1 as frequently as possible.\n • Whenever possible, use Azure Disk Encryption and a key encryption key (KEK) to encrypt the virtual machines.\n\n You need to meet the technical requirements for the KEK.\n\n Which PowerShell cmdlet and key should you use?",
     keySource: "source",
     explanation: "Source: Az-104 T4.apkg #121",
     type: "single",
@@ -10111,10 +10580,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 345,
+    id: 340,
     number: 1,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription named Sub1.\n You plan to deploy a multi-tiered application that will contain the tiers shown in the following table.\n\n[Image: 0034700001.png]\n\n You need to recommend a networking solution to meet the following requirements:\n ✑ Ensure that communication between the web servers and the business logic tier spreads equally across the virtual machines.\n ✑ Protect the web servers from SQL injection attacks.\n Which Azure resource should you recommend for each requirement? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n\n[Image: 0034800001.jpg]",
+    prompt: "You have an Azure subscription named Sub1.\n You plan to deploy a multi-tiered application that will contain the tiers shown in the following table.\n\n{{img:/exam-media/az-104/T5/0034700001.png}}\n\n You need to recommend a networking solution to meet the following requirements:\n ✑ Ensure that communication between the web servers and the business logic tier spreads equally across the virtual machines.\n ✑ Protect the web servers from SQL injection attacks.\n Which Azure resource should you recommend for each requirement? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n\n{{img:/exam-media/az-104/T5/0034800001.jpg}}",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #1",
     type: "multiple",
@@ -10146,7 +10615,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 346,
+    id: 341,
     number: 2,
     topic: "Topic 5",
     prompt: "Your company has three offices. The offices are located in Miami, Los Angeles, and New York. Each office contains datacenter.\n You have an Azure subscription that contains resources in the East US and West US Azure regions. Each region contains a virtual network. The virtual networks are peered.\n You need to connect the datacenters to the subscription. The solution must minimize network latency between the datacenters.\n What should you create?",
@@ -10176,13 +10645,13 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 347,
+    id: 342,
     number: 3,
     topic: "Topic 5",
-    prompt: "You plan to deploy five virtual machines to a virtual network subnet.\n Each virtual machine will have a public IP address and a private IP address.\n Each virtual machine requires the same inbound and outbound security rules.\n What is the minimum number of network interfaces and network security groups that you require? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0035000001.jpg]",
+    prompt: "You plan to deploy five virtual machines to a virtual network subnet.\n Each virtual machine will have a public IP address and a private IP address.\n Each virtual machine requires the same inbound and outbound security rules.\n What is the minimum number of network interfaces and network security groups that you require? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T5/0035000001.jpg}}",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #3",
-    type: "multiple",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
@@ -10205,16 +10674,26 @@ export const az104Questions: Question[] = [
         text: "Minimum number of NSG: 10"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      }
+    ],
     correct: [
-      "A",
-      "C"
+      "t1:A",
+      "t2:C"
     ]
   },
   {
-    id: 348,
+    id: 343,
     number: 4,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n[Image: 0035200001.png]\n\n LB1 is configured as shown in the following table.\n\n[Image: 0035200002.png]\n\n You plan to create new inbound NAT rules that meet the following requirements:\n ✑ Provide Remote Desktop access to VM1 from the internet by using port 3389.\n ✑ Provide Remote Desktop access to VM2 from the internet by using port 3389.\n What should you create on LB1 before you can create the new inbound NAT rules?",
+    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T5/0035200001.png}}\n\n LB1 is configured as shown in the following table.\n\n{{img:/exam-media/az-104/T5/0035200002.png}}\n\n You plan to create new inbound NAT rules that meet the following requirements:\n ✑ Provide Remote Desktop access to VM1 from the internet by using port 3389.\n ✑ Provide Remote Desktop access to VM2 from the internet by using port 3389.\n What should you create on LB1 before you can create the new inbound NAT rules?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #4",
     type: "single",
@@ -10241,48 +10720,58 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 349,
+    id: 344,
     number: 5,
     topic: "Topic 5",
-    prompt: "You have Azure virtual machines that run Windows Server 2019 and are configured as shown in the following table.\n\n[Image: 0035300001.png]\n\n You create a private Azure DNS zone named adatum.com. You configure the adatum.com zone to allow auto registration from VNET1.\n Which A records will be added to the adatum.com zone for each virtual machine? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0035400001.jpg]",
+    prompt: "You have Azure virtual machines that run Windows Server 2019 and are configured as shown in the following table.\n\n{{img:/exam-media/az-104/T5/0035300001.png}}\n\n You create a private Azure DNS zone named adatum.com. You configure the adatum.com zone to allow auto registration from VNET1.\n Which A records will be added to the adatum.com zone for each virtual machine? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T5/0035400001.jpg}}",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #5",
-    type: "multiple",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "VM1: None"
+        text: "None"
       },
       {
         id: "B",
-        text: "VM1: Private IP address only"
+        text: "Private IP address only"
       },
       {
         id: "C",
-        text: "VM2: Private IP address only"
+        text: "Private IP address only"
       },
       {
         id: "D",
-        text: "VM2: Public IP address only"
+        text: "Public IP address only"
       },
       {
         id: "E",
-        text: "VM2: Private and public IP address only"
+        text: "Private and public IP address only"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "VM1"
+      },
+      {
+        id: "t2",
+        text: "VM2"
       }
     ],
     correct: [
-      "B",
-      "C"
+      "t1:B",
+      "t2:C"
     ]
   },
   {
-    id: 350,
+    id: 345,
     number: 6,
     topic: "Topic 5",
-    prompt: "You have an Azure virtual network named VNet1 that connects to your on-premises network by using a site-to-site VPN. VNet1 contains one subnet named\n Sunet1.\n Subnet1 is associated to a network security group (NSG) named NSG1. Subnet1 contains a basic internal load balancer named ILB1. ILB1 has three Azure virtual machines in the backend pool.\n You need to collect data about the IP addresses that connects to ILB1. You must be able to run interactive queries from the Azure portal against the collected data.\n What should you do? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0035600001.png]",
+    prompt: "You have an Azure virtual network named VNet1 that connects to your on-premises network by using a site-to-site VPN. VNet1 contains one subnet named\n Sunet1.\n Subnet1 is associated to a network security group (NSG) named NSG1. Subnet1 contains a basic internal load balancer named ILB1. ILB1 has three Azure virtual machines in the backend pool.\n You need to collect data about the IP addresses that connects to ILB1. You must be able to run interactive queries from the Azure portal against the collected data.\n What should you do? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T5/0035600001.png}}",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #6",
-    type: "multiple",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
@@ -10305,16 +10794,26 @@ export const az104Questions: Question[] = [
         text: "Resource to create: An AzureStorage account"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      }
+    ],
     correct: [
-      "B",
-      "D"
+      "t1:B",
+      "t2:D"
     ]
   },
   {
-    id: 351,
+    id: 346,
     number: 7,
     topic: "Topic 5",
-    prompt: "You have the Azure virtual networks shown in the following table.\n\n[Image: 0035700001.png]\n\n To which virtual networks can you establish a peering connection from VNet1?",
+    prompt: "You have the Azure virtual networks shown in the following table.\n\n{{img:/exam-media/az-104/T5/0035700001.png}}\n\n To which virtual networks can you establish a peering connection from VNet1?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #7",
     type: "single",
@@ -10341,12 +10840,12 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 352,
+    id: 347,
     number: 8,
     topic: "Topic 5",
     prompt: "You have an Azure subscription that contains a virtual network named VNet1. VNet1 contains four subnets named Gateway, Perimeter, NVA, and Production.\n The NVA subnet contains two network virtual appliances (NVAs) that will perform network traffic inspection between the Perimeter subnet and the Production subnet.\n You need to implement an Azure load balancer for the NVAs. The solution must meet the following requirements:\n ✑ The NVAs must run in an active-active configuration that uses automatic failover.\n ✑ The load balancer must load balance traffic to two services on the Production subnet. The services have different IP addresses.\n Which three actions should you perform? Each correct answer presents part of the solution.\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source: Az-104 T5.apkg #8",
+    explanation: "Add a frontend IP configuration, a backend pool, and a health probe (extra answer, wrong though)\nSource: Az-104 T5.apkg #8",
     type: "multiple",
     options: [
       {
@@ -10377,7 +10876,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 353,
+    id: 348,
     number: 9,
     topic: "Topic 5",
     prompt: "You have an Azure subscription named Subscription1 that contains two Azure virtual networks named VNet1 and VNet2. VNet1 contains a VPN gateway named\n VPNGW1 that uses static routing. There is a site-to-site VPN connection between your on-premises network and VNet1.\n On a computer named Client1 that runs Windows 10, you configure a point-to-site VPN connection to VNet1.\n You configure virtual network peering between VNet1 and VNet2. You verify that you can connect to VNet2 from the on-premises network. Client1 is unable to connect to VNet2.\n You need to ensure that you can connect Client1 to VNet2.\n What should you do?",
@@ -10407,37 +10906,36 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 354,
+    id: 349,
     number: 10,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription. The subscription contains virtual machines that run Windows Server 2016 and are configured as shown in the following table.\n\n[Image: 0036000001.png]\n\n You create a public Azure DNS zone named adatum.com and a private Azure DNS zone named contoso.com.\n You create a virtual network link for contoso.com as shown in the following exhibit.\n\n[Image: 0036100001.jpg]",
+    prompt: "You have an Azure subscription. The subscription contains virtual machines that run Windows Server 2016 and are configured as shown in the following table.\n\n{{img:/exam-media/az-104/T5/0036000001.png}}\n\n You create a public Azure DNS zone named adatum.com and a private Azure DNS zone named contoso.com.\n You create a virtual network link for contoso.com as shown in the following exhibit.\n\n{{img:/exam-media/az-104/T5/0036100001.jpg}}",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #10",
-    type: "multiple",
-    options: [
+    type: "hotspot-boolean",
+    statements: [
       {
-        id: "A",
-        text: "When VM1 starts, a record for VM1 is added to the contoso.com DNS zone."
+        id: "s1",
+        text: "When VM1 starts, a record for VM1 is added to the contoso.com DNS zone.",
+        answer: true
       },
       {
-        id: "B",
-        text: "When VM2 starts, a record for VM2 is added to the contoso.com DNS zone."
+        id: "s2",
+        text: "When VM2 starts, a record for VM2 is added to the contoso.com DNS zone.",
+        answer: true
       },
       {
-        id: "C",
-        text: "When VM3 starts, a record for VM3 is added to the contoso.com DNS zone."
+        id: "s3",
+        text: "When VM3 starts, a record for VM3 is added to the contoso.com DNS zone.",
+        answer: false
       }
-    ],
-    correct: [
-      "A",
-      "B"
     ]
   },
   {
-    id: 355,
+    id: 350,
     number: 11,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the resources in the following table.\n\n[Image: 0036300001.png]\n\n To which subnets can you apply NSG1?",
+    prompt: "You have an Azure subscription that contains the resources in the following table.\n\n{{img:/exam-media/az-104/T5/0036300001.png}}\n\n To which subnets can you apply NSG1?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #11",
     type: "single",
@@ -10468,13 +10966,13 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 356,
+    id: 351,
     number: 12,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains two virtual networks named VNet1 and VNet2. Virtual machines connect to the virtual networks.\n The virtual networks have the address spaces and the subnets configured as shown in the following table.\n\n[Image: 0036300002.png]\n\n You need to add the address space of 10.33.0.0/16 to VNet1. The solution must ensure that the hosts on VNet1 and VNet2 can communicate.\n Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.\n Select and Place:\n\n[Image: 0036400001.png]",
+    prompt: "You have an Azure subscription that contains two virtual networks named VNet1 and VNet2. Virtual machines connect to the virtual networks.\n The virtual networks have the address spaces and the subnets configured as shown in the following table.\n\n{{img:/exam-media/az-104/T5/0036300002.png}}\n\n You need to add the address space of 10.33.0.0/16 to VNet1. The solution must ensure that the hosts on VNet1 and VNet2 can communicate.\n Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.\n Select and Place:\n\n{{img:/exam-media/az-104/T5/0036400001.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T5.apkg #12",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T5/0036500001.png}}\nSource: Az-104 T5.apkg #12",
+    type: "drag-drop",
     options: [
       {
         id: "A",
@@ -10497,17 +10995,31 @@ export const az104Questions: Question[] = [
         text: "Remove VNet1"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      },
+      {
+        id: "t3",
+        text: "Blank 3"
+      }
+    ],
     correct: [
-      "A",
-      "B",
-      "C"
+      "t1:A",
+      "t2:B",
+      "t3:C"
     ]
   },
   {
-    id: 357,
+    id: 352,
     number: 13,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the resource groups shown in the following table.\n\n[Image: 0036600001.png]\n\n RG1 contains the resources shown in the following table.\n\n[Image: 0036600002.png]\n\n VM1 is running and connects to NIC1 and Disk1. NIC1 connects to VNET1.\n RG2 contains a public IP address named IP2 that is in the East US location. IP2 is not assigned to a virtual machine.\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
+    prompt: "You have an Azure subscription that contains the resource groups shown in the following table.\n\n{{img:/exam-media/az-104/T5/0036600001.png}}\n\n RG1 contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T5/0036600002.png}}\n\n VM1 is running and connects to NIC1 and Disk1. NIC1 connects to VNET1.\n RG2 contains a public IP address named IP2 that is in the East US location. IP2 is not assigned to a virtual machine.\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #13",
     type: "hotspot-boolean",
@@ -10530,7 +11042,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 358,
+    id: 353,
     number: 14,
     topic: "Topic 5",
     prompt: "You have an Azure web app named webapp1.\n You have a virtual network named VNET1 and an Azure virtual machine named VM1 that hosts a MySQL database. VM1 connects to VNET1.\n You need to ensure that webapp1 can access the data hosted on VM1.\n What should you do?",
@@ -10560,10 +11072,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 359,
+    id: 354,
     number: 15,
     topic: "Topic 5",
-    prompt: "You create an Azure VM named VM1 that runs Windows Server 2019.\n VM1 is configured as shown in the exhibit. (Click the Exhibit tab.)\n\n[Image: 0036900001.jpg]\n\n You need to enable Desired State Configuration for VM1.\n What should you do first?",
+    prompt: "You create an Azure VM named VM1 that runs Windows Server 2019.\n VM1 is configured as shown in the exhibit. (Click the Exhibit tab.)\n\n{{img:/exam-media/az-104/T5/0036900001.jpg}}\n\n You need to enable Desired State Configuration for VM1.\n What should you do first?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #15",
     type: "single",
@@ -10590,7 +11102,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 360,
+    id: 355,
     number: 16,
     topic: "Topic 5",
     prompt: "You have five Azure virtual machines that run Windows Server 2016. The virtual machines are configured as web servers.\n You have an Azure load balancer named LB1 that provides load balancing services for the virtual machines.\n You need to ensure that visitors are serviced by the same web server for each request.\n What should you configure?",
@@ -10620,7 +11132,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 361,
+    id: 356,
     number: 17,
     topic: "Topic 5",
     prompt: "You have an Azure subscription that contains the following resources:\n ✑ A virtual network that has a subnet named Subnet1\n ✑ Two network security groups (NSGs) named NSG-VM1 and NSG-Subnet1\n ✑ A virtual machine named VM1 that has the required Windows Server configurations to allow Remote Desktop connections\n NSG-Subnet1 has the default inbound security rules only.\n NSG-VM1 has the default inbound security rules and the following custom inbound security rule:\n ✑ Priority: 100\n ✑ Source: Any\n ✑ Source port range: *\n ✑ Destination: *\n ✑ Destination port range: 3389\n ✑ Protocol: UDP\n ✑ Action: Allow\n VM1 has a public IP address and is connected to Subnet1. NSG-VM1 is associated to the network interface of VM1. NSG-Subnet1 is associated to Subnet1.\n You need to be able to establish Remote Desktop connections from the internet to VM1.\n Solution: You add an inbound security rule to NSG-Subnet1 that allows connections from the Any source to the *destination for port range 3389 and uses the TCP protocol. You remove NSG-VM1 from the network interface of VM1.\n Does this meet the goal?",
@@ -10642,10 +11154,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 362,
+    id: 357,
     number: 18,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the following resources:\n ✑ A virtual network that has a subnet named Subnet1\n ✑ Two network security groups (NSGs) named NSG-VM1 and NSG-Subnet1\n ✑ A virtual machine named VM1 that has the required Windows Server configurations to allow Remote Desktop connections\n NSG-Subnet1 has the default inbound security rules only.\n NSG-VM1 has the default inbound security rules and the following custom inbound security rule:\n ✑ Priority: 100\n ✑ Source: Any\n ✑ Source port range: *\n ✑ Destination: *\n ✑ Destination port range: 3389\n\n Protocol: UDP -\n\n[Image: 0037200009.png]\n\n ✑ Action: Allow\n VM1 has a public IP address and is connected to Subnet1. NSG-VM1 is associated to the network interface of VM1. NSG-Subnet1 is associated to Subnet1.\n You need to be able to establish Remote Desktop connections from the internet to VM1.\n Solution: You add an inbound security rule to NSG-Subnet1 that allows connections from the internet source to the VirtualNetwork destination for port range 3389 and uses the UDP protocol.\n Does this meet the goal?",
+    prompt: "You have an Azure subscription that contains the following resources:\n ✑ A virtual network that has a subnet named Subnet1\n ✑ Two network security groups (NSGs) named NSG-VM1 and NSG-Subnet1\n ✑ A virtual machine named VM1 that has the required Windows Server configurations to allow Remote Desktop connections\n NSG-Subnet1 has the default inbound security rules only.\n NSG-VM1 has the default inbound security rules and the following custom inbound security rule:\n ✑ Priority: 100\n ✑ Source: Any\n ✑ Source port range: *\n ✑ Destination: *\n ✑ Destination port range: 3389\n\n Protocol: UDP -\n\n{{img:/exam-media/az-104/T5/0037200009.png}}\n\n ✑ Action: Allow\n VM1 has a public IP address and is connected to Subnet1. NSG-VM1 is associated to the network interface of VM1. NSG-Subnet1 is associated to Subnet1.\n You need to be able to establish Remote Desktop connections from the internet to VM1.\n Solution: You add an inbound security rule to NSG-Subnet1 that allows connections from the internet source to the VirtualNetwork destination for port range 3389 and uses the UDP protocol.\n Does this meet the goal?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #18",
     type: "single",
@@ -10664,7 +11176,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 363,
+    id: 358,
     number: 19,
     topic: "Topic 5",
     prompt: "You have an Azure subscription that contains the following resources:\n ✑ A virtual network that has a subnet named Subnet1\n ✑ Two network security groups (NSGs) named NSG-VM1 and NSG-Subnet1\n ✑ A virtual machine named VM1 that has the required Windows Server configurations to allow Remote Desktop connections\n NSG-Subnet1 has the default inbound security rules only.\n NSG-VM1 has the default inbound security rules and the following custom inbound security rule:\n ✑ Priority: 100\n ✑ Source: Any\n ✑ Source port range: *\n ✑ Destination: *\n ✑ Destination port range: 3389\n ✑ Protocol: UDP\n ✑ Action: Allow\n VM1 has a public IP address and is connected to Subnet1. NSG-VM1 is associated to the network interface of VM1. NSG-Subnet1 is associated to Subnet1.\n You need to be able to establish Remote Desktop connections from the internet to VM1.\n Solution: You add an inbound security rule to NSG-Subnet1 and NSG-VM1 that allows connections from the internet source to the VirtualNetwork destination for port range 3389 and uses the TCP protocol.\n Does this meet the goal?",
@@ -10686,45 +11198,55 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 364,
+    id: 359,
     number: 20,
     topic: "Topic 5",
-    prompt: "You have a virtual network named VNet1 that has the configuration shown in the following exhibit.\n\n[Image: 0037500001.jpg]\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0037600001.png]",
+    prompt: "You have a virtual network named VNet1 that has the configuration shown in the following exhibit.\n\n{{img:/exam-media/az-104/T5/0037500001.jpg}}\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T5/0037600001.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T5.apkg #20",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T5/image926.png}}\nSource: Az-104 T5.apkg #20",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "192.168.1.0/24: add a network interface"
+        text: "add a network interface"
       },
       {
         id: "B",
-        text: "10.2.1.0/24: add a subnet"
+        text: "add a subnet"
       },
       {
         id: "C",
-        text: "192.168.1.0/24: add an address space"
+        text: "add an address space"
       },
       {
         id: "D",
-        text: "10.2.1.0/24: add an address space"
+        text: "add an address space"
       },
       {
         id: "E",
-        text: "192.168.1.0/24: add a subnet"
+        text: "add a subnet"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "192.168.1.0/24"
+      },
+      {
+        id: "t2",
+        text: "10.2.1.0/24"
       }
     ],
     correct: [
-      "B",
-      "C"
+      "t1:C",
+      "t2:B"
     ]
   },
   {
-    id: 365,
+    id: 360,
     number: 21,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains a virtual network named VNET1. VNET1 contains the subnets shown in the following table.\n\n[Image: 0037800001.png]\n\n Each virtual machine uses a static IP address.\n You need to create network security groups (NSGs) to meet following requirements:\n ✑ Allow web requests from the internet to VM3, VM4, VM5, and VM6.\n ✑ Allow all connections between VM1 and VM2.\n ✑ Allow Remote Desktop connections to VM1.\n ✑ Prevent all other network traffic to VNET1.\n What is the minimum number of NSGs you should create?",
+    prompt: "You have an Azure subscription that contains a virtual network named VNET1. VNET1 contains the subnets shown in the following table.\n\n{{img:/exam-media/az-104/T5/0037800001.png}}\n\n Each virtual machine uses a static IP address.\n You need to create network security groups (NSGs) to meet following requirements:\n ✑ Allow web requests from the internet to VM3, VM4, VM5, and VM6.\n ✑ Allow all connections between VM1 and VM2.\n ✑ Allow Remote Desktop connections to VM1.\n ✑ Prevent all other network traffic to VNET1.\n What is the minimum number of NSGs you should create?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #21",
     type: "single",
@@ -10751,10 +11273,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 366,
+    id: 361,
     number: 22,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n[Image: 0037900001.png]\n\n The Not allowed resource types Azure policy that has policy enforcement enabled is assigned to RG1 and uses the following parameters:\n Microsoft.Network/virtualNetworks\n Microsoft.Compute/virtualMachines\n In RG1, you need to create a new virtual machine named VM2, and then connect VM2 to VNET1.\n What should you do first?",
+    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T5/0037900001.png}}\n\n The Not allowed resource types Azure policy that has policy enforcement enabled is assigned to RG1 and uses the following parameters:\n Microsoft.Network/virtualNetworks\n Microsoft.Compute/virtualMachines\n In RG1, you need to create a new virtual machine named VM2, and then connect VM2 to VNET1.\n What should you do first?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #22",
     type: "single",
@@ -10781,7 +11303,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 367,
+    id: 362,
     number: 23,
     topic: "Topic 5",
     prompt: "Your company has an Azure subscription named Subscription1.\n The company also has two on-premises servers named Server1 and Server2 that run Windows Server 2016. Server1 is configured as a DNS server that has a primary DNS zone named adatum.com. Adatum.com contains 1,000 DNS records.\n You manage Server1 and Subscription1 from Server2. Server2 has the following tools installed:\n ✑ The DNS Manager console\n ✑ Azure PowerShell\n ✑ Azure CLI 2.0\n You need to move the adatum.com zone to an Azure DNS zone in Subscription1. The solution must minimize administrative effort.\n What should you use?",
@@ -10811,7 +11333,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 368,
+    id: 363,
     number: 24,
     topic: "Topic 5",
     prompt: "You have a public load balancer that balances ports 80 and 443 across three virtual machines named VM1, VM2, and VM3.\n You need to direct all the Remote Desktop Protocol (RDP) connections to VM3 only.\n What should you configure?",
@@ -10841,74 +11363,84 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 369,
+    id: 364,
     number: 25,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription named Subscription1 that contains the virtual networks in the following table.\n\n[Image: 0038100001.png]\n\n Subscription1 contains the virtual machines in the following table.\n\n[Image: 0038200001.png]\n\n In Subscription1, you create a load balancer that has the following configurations:\n ✑ Name: LB1\n ✑ SKU: Basic\n ✑ Type: Internal\n ✑ Subnet: Subnet12\n ✑ Virtual network: VNET1",
+    prompt: "You have an Azure subscription named Subscription1 that contains the virtual networks in the following table.\n\n{{img:/exam-media/az-104/T5/0038100001.png}}\n\n Subscription1 contains the virtual machines in the following table.\n\n{{img:/exam-media/az-104/T5/0038200001.png}}\n\n In Subscription1, you create a load balancer that has the following configurations:\n ✑ Name: LB1\n ✑ SKU: Basic\n ✑ Type: Internal\n ✑ Subnet: Subnet12\n ✑ Virtual network: VNET1",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #25",
-    type: "single",
-    options: [
+    type: "hotspot-boolean",
+    statements: [
       {
-        id: "A",
-        text: "LB1 can balance the traffic between VM1 and VM2"
+        id: "s1",
+        text: "LB1 can balance the traffic between VM1 and VM2",
+        answer: true
       },
       {
-        id: "B",
-        text: "LB1 can balance the traffic between VM3 and VM4"
+        id: "s2",
+        text: "LB1 can balance the traffic between VM3 and VM4",
+        answer: false
       },
       {
-        id: "C",
-        text: "LB1 can balance the traffic between VM5 and VM6"
+        id: "s3",
+        text: "LB1 can balance the traffic between VM5 and VM6",
+        answer: false
       }
-    ],
-    correct: [
-      "A"
     ]
   },
   {
-    id: 370,
+    id: 365,
     number: 26,
     topic: "Topic 5",
-    prompt: "You have an Azure virtual machine that runs Windows Server 2019 and has the following configurations:\n ✑ Name: VM1\n ✑ Location: West US\n ✑ Connected to: VNET1\n ✑ Private IP address: 10.1.0.4\n ✑ Public IP addresses: 52.186.85.63\n ✑ DNS suffix in Windows Server: Adatum.com\n You create the Azure DNS zones shown in the following table.\n\n[Image: 0038400001.png]\n\n You need to identify which DNS zones you can link to VNET1 and the DNS zones to which VM1 can automatically register.\n Which zones should you identify? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0038400002.png]",
+    prompt: "You have an Azure virtual machine that runs Windows Server 2019 and has the following configurations:\n ✑ Name: VM1\n ✑ Location: West US\n ✑ Connected to: VNET1\n ✑ Private IP address: 10.1.0.4\n ✑ Public IP addresses: 52.186.85.63\n ✑ DNS suffix in Windows Server: Adatum.com\n You create the Azure DNS zones shown in the following table.\n\n{{img:/exam-media/az-104/T5/0038400001.png}}\n\n You need to identify which DNS zones you can link to VNET1 and the DNS zones to which VM1 can automatically register.\n Which zones should you identify? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T5/0038400002.png}}",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #26",
-    type: "multiple",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "VNET1: The private zones only"
+        text: "The private zones only"
       },
       {
         id: "B",
-        text: "DNS to VM: The private zones only"
+        text: "The private zones only"
       },
       {
         id: "C",
-        text: "VNET1: The public zones only"
+        text: "The public zones only"
       },
       {
         id: "D",
-        text: "VNET1: Adatum.com only"
+        text: "Adatum.com only"
       },
       {
         id: "E",
-        text: "DNS to VM: Adatum.pri and adatum.com only"
+        text: "Adatum.pri and adatum.com only"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "VNET1"
+      },
+      {
+        id: "t2",
+        text: "DNS to VM"
       }
     ],
     correct: [
-      "A",
-      "B"
+      "t1:A",
+      "t2:B"
     ]
   },
   {
-    id: 371,
+    id: 366,
     number: 27,
     topic: "Topic 5",
-    prompt: "You have an on-premises network that you plan to connect to Azure by using a site-so-site VPN.\n In Azure, you have an Azure virtual network named VNet1 that uses an address space of 10.0.0.0/16 VNet1 contains a subnet named Subnet1 that uses an address space of 10.0.0.0/24.\n You need to create a site-to-site VPN to Azure.\n Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.\n NOTE: More than one order of answer choice is correct. You will receive credit for any of the correct orders you select.\n Select and Place:\n\n[Image: 0038600001.png]",
+    prompt: "You have an on-premises network that you plan to connect to Azure by using a site-so-site VPN.\n In Azure, you have an Azure virtual network named VNet1 that uses an address space of 10.0.0.0/16 VNet1 contains a subnet named Subnet1 that uses an address space of 10.0.0.0/24.\n You need to create a site-to-site VPN to Azure.\n Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.\n NOTE: More than one order of answer choice is correct. You will receive credit for any of the correct orders you select.\n Select and Place:\n\n{{img:/exam-media/az-104/T5/0038600001.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T5.apkg #27",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T5/0038700001.png}}\nSource: Az-104 T5.apkg #27",
+    type: "drag-drop",
     options: [
       {
         id: "A",
@@ -10931,18 +11463,36 @@ export const az104Questions: Question[] = [
         text: "Create a Custom DNS server"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      },
+      {
+        id: "t3",
+        text: "Blank 3"
+      },
+      {
+        id: "t4",
+        text: "Blank 4"
+      }
+    ],
     correct: [
-      "A",
-      "B",
-      "C",
-      "D"
+      "t1:A",
+      "t2:B",
+      "t3:C",
+      "t4:D"
     ]
   },
   {
-    id: 372,
+    id: 367,
     number: 28,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the resources in the following table.\n\n[Image: 0038700002.png]\n\n VM1 and VM2 are deployed from the same template and host line-of-business applications.\n You configure the network security group (NSG) shown in the exhibit. (Click the Exhibit tab.)\n\n[Image: 0038800001.jpg]\n\n You need to prevent users of VM1 and VM2 from accessing websites on the Internet over TCP port 80.\n What should you do?",
+    prompt: "You have an Azure subscription that contains the resources in the following table.\n\n{{img:/exam-media/az-104/T5/0038700002.png}}\n\n VM1 and VM2 are deployed from the same template and host line-of-business applications.\n You configure the network security group (NSG) shown in the exhibit. (Click the Exhibit tab.)\n\n{{img:/exam-media/az-104/T5/0038800001.jpg}}\n\n You need to prevent users of VM1 and VM2 from accessing websites on the Internet over TCP port 80.\n What should you do?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #28",
     type: "single",
@@ -10969,11 +11519,11 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 373,
+    id: 368,
     number: 29,
     topic: "Topic 5",
     prompt: "You have two subscriptions named Subscription1 and Subscription2. Each subscription is associated to a different Azure AD tenant.\n Subscription1 contains a virtual network named VNet1. VNet1 contains an Azure virtual machine named VM1 and has an IP address space of 10.0.0.0/16.\n Subscription2 contains a virtual network named VNet2. VNet2 contains an Azure virtual machine named VM2 and has an IP address space of 10.10.0.0/24.\n You need to connect VNet1 to VNet2.\n What should you do first?",
-    keySource: "domain",
+    keySource: "source",
     explanation: "Source: Az-104 T5.apkg #29",
     type: "single",
     options: [
@@ -10995,14 +11545,14 @@ export const az104Questions: Question[] = [
       }
     ],
     correct: [
-      "A"
+      "D"
     ]
   },
   {
-    id: 374,
+    id: 369,
     number: 30,
     topic: "Topic 5",
-    prompt: "You plan to create an Azure virtual machine named VM1 that will be configured as shown in the following exhibit.\n\n[Image: 0039100001.png]\n\n The planned disk configurations for VM1 are shown in the following exhibit.\n\n[Image: 0039200001.jpg]\n\n You need to ensure that VM1 can be created in an Availability Zone.\n Which two settings should you modify? Each correct answer presents part of the solution.\n NOTE: Each correct selection is worth one point.",
+    prompt: "You plan to create an Azure virtual machine named VM1 that will be configured as shown in the following exhibit.\n\n{{img:/exam-media/az-104/T5/0039100001.png}}\n\n The planned disk configurations for VM1 are shown in the following exhibit.\n\n{{img:/exam-media/az-104/T5/0039200001.jpg}}\n\n You need to ensure that VM1 can be created in an Availability Zone.\n Which two settings should you modify? Each correct answer presents part of the solution.\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #30",
     type: "multiple",
@@ -11034,77 +11584,97 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 375,
+    id: 370,
     number: 31,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n[Image: 0039500001-5181da4aa8bce365ee9e8002cdfb2ec1e19ff7d3.png]\n\n VMSS1 is set to VM (virtual machines) orchestration mode.\n You need to deploy a new Azure virtual machine named VM1, and then add VM1 to VMSS1.\n Which resource group and location should you use to deploy VM1? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0039500002.png]",
+    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T5/0039500001-5181da4aa8bce365ee9e8002cdfb2ec1e19ff7d3.png}}\n\n VMSS1 is set to VM (virtual machines) orchestration mode.\n You need to deploy a new Azure virtual machine named VM1, and then add VM1 to VMSS1.\n Which resource group and location should you use to deploy VM1? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T5/0039500002.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T5.apkg #31",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T5/0039600001.png}}\nSource: Az-104 T5.apkg #31",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "Resource Group: RG1 only"
+        text: "RG1 only"
       },
       {
         id: "B",
-        text: "Resource Group: RG1 or RG2 only"
+        text: "RG1 or RG2 only"
       },
       {
         id: "C",
-        text: "Resource Group: RG1, RG2, RG3"
+        text: "RG1, RG2, RG3"
       },
       {
         id: "D",
-        text: "Location: West US only"
+        text: "West US only"
       },
       {
         id: "E",
-        text: "Location: Central US only"
+        text: "Central US only"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "Resource Group"
+      },
+      {
+        id: "t2",
+        text: "Location"
       }
     ],
     correct: [
-      "C",
-      "D"
+      "t1:C",
+      "t2:D"
     ]
   },
   {
-    id: 376,
+    id: 371,
     number: 32,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains three virtual networks named VNET1, VNET2, and VNET3.\n Peering for VNET1 is configured as shown in the following exhibit.\n\n[Image: 0039700001.png]\n\n Peering for VNET2 is configured as shown in the following exhibit.\n\n[Image: 0039700002.png]\n\n Peering for VNET3 is configured as shown in the following exhibit.\n\n[Image: 0039800001.png]\n\n How can packets be routed between the virtual networks? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0039800002.png]",
+    prompt: "You have an Azure subscription that contains three virtual networks named VNET1, VNET2, and VNET3.\n Peering for VNET1 is configured as shown in the following exhibit.\n\n{{img:/exam-media/az-104/T5/0039700001.png}}\n\n Peering for VNET2 is configured as shown in the following exhibit.\n\n{{img:/exam-media/az-104/T5/0039700002.png}}\n\n Peering for VNET3 is configured as shown in the following exhibit.\n\n{{img:/exam-media/az-104/T5/0039800001.png}}\n\n How can packets be routed between the virtual networks? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T5/0039800002.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T5.apkg #32",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T5/0039900001.png}}\nSource: Az-104 T5.apkg #32",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "VNET1: VNET2 only"
+        text: "VNET2 only"
       },
       {
         id: "B",
-        text: "VNET1: VNET3 only"
+        text: "VNET3 only"
       },
       {
         id: "C",
-        text: "VNET2: VNET1 only"
+        text: "VNET1 only"
       },
       {
         id: "D",
-        text: "VNET2: VNET3 only"
+        text: "VNET3 only"
       },
       {
         id: "E",
-        text: "VNET1: VNET1 and VNET3"
+        text: "VNET1 and VNET3"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "VNET1"
+      },
+      {
+        id: "t2",
+        text: "VNET2"
       }
     ],
     correct: [
-      "C",
-      "E"
+      "t1:E",
+      "t2:C"
     ]
   },
   {
-    id: 377,
+    id: 372,
     number: 33,
     topic: "Topic 5",
     prompt: "You have a computer named Computer1 that has a point-to-site VPN connection to an Azure virtual network named VNet1. The point-to-site connection uses a self-signed certificate.\n From Azure, you download and install the VPN client configuration package on a computer named Computer2.\n You need to ensure that you can establish a point-to-site VPN connection to VNet1 from Computer2.\n Solution: You modify the Azure Active Directory (Azure AD) authentication policies.\n Does this meet the goal?",
@@ -11126,7 +11696,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 378,
+    id: 373,
     number: 64,
     topic: "Topic 5",
     prompt: "You have a computer named Computer1 that has a point-to-site VPN connection to an Azure virtual network named VNet1. The point-to-site connection uses a self-signed certificate.\n From Azure, you download and install the VPN client configuration package on a computer named Computer2.\n You need to ensure that you can establish a point-to-site VPN connection to VNet1 from Computer2.\n Solution: You join Computer2 to Azure Active Directory (Azure AD).\n Does this meet the goal?",
@@ -11148,7 +11718,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 379,
+    id: 374,
     number: 35,
     topic: "Topic 5",
     prompt: "You have an Azure subscription that contains 10 virtual networks. The virtual networks are hosted in separate resource groups.\n Another administrator plans to create several network security groups (NSGs) in the subscription.\n You need to ensure that when an NSG is created, it automatically blocks TCP port 8080 between the virtual networks.\n Solution: You create a resource lock, and then you assign the lock to the subscription.\n Does this meet the goal?",
@@ -11170,10 +11740,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 380,
+    id: 375,
     number: 36,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription named Subscription1. Subscription1 contains a virtual machine named VM1.\n You have a computer named Computer1 that runs Windows 10. Computer1 is connected to the Internet.\n You add a network interface named vm1173 to VM1 as shown in the exhibit. (Click the Exhibit tab.)\n\n[Image: 0040200001.png]\n\n From Computer1, you attempt to connect to VM1 by using Remote Desktop, but the connection fails.\n You need to establish a Remote Desktop connection to VM1.\n What should you do first?",
+    prompt: "You have an Azure subscription named Subscription1. Subscription1 contains a virtual machine named VM1.\n You have a computer named Computer1 that runs Windows 10. Computer1 is connected to the Internet.\n You add a network interface named vm1173 to VM1 as shown in the exhibit. (Click the Exhibit tab.)\n\n{{img:/exam-media/az-104/T5/0040200001.png}}\n\n From Computer1, you attempt to connect to VM1 by using Remote Desktop, but the connection fails.\n You need to establish a Remote Desktop connection to VM1.\n What should you do first?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #36",
     type: "single",
@@ -11200,10 +11770,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 381,
+    id: 376,
     number: 37,
     topic: "Topic 5",
-    prompt: "You have the Azure virtual machines shown in the following table.\n\n[Image: 0040300001.png]\n\n A DNS service is installed on VM1.\n You configure the DNS servers settings for each virtual network as shown in the following exhibit.\n\n[Image: 0040400001.png]\n\n You need to ensure that all the virtual machines can resolve DNS names by using the DNS service on VM1.\n What should you do?",
+    prompt: "You have the Azure virtual machines shown in the following table.\n\n{{img:/exam-media/az-104/T5/0040300001.png}}\n\n A DNS service is installed on VM1.\n You configure the DNS servers settings for each virtual network as shown in the following exhibit.\n\n{{img:/exam-media/az-104/T5/0040400001.png}}\n\n You need to ensure that all the virtual machines can resolve DNS names by using the DNS service on VM1.\n What should you do?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #37",
     type: "single",
@@ -11230,12 +11800,12 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 382,
+    id: 377,
     number: 38,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the Azure virtual machines shown in the following table.\n\n[Image: 0040500001.png]\n\n You add inbound security rules to a network security group (NSG) named NSG1 as shown in the following table.\n\n[Image: 0040500002.png]\n\n You run Azure Network Watcher as shown in the following exhibit.\n\n[Image: 0040600001.jpg]\n\n You run Network Watcher again as shown in the following exhibit.\n\n[Image: 0040800001.jpg]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
+    prompt: "You have an Azure subscription that contains the Azure virtual machines shown in the following table.\n\n{{img:/exam-media/az-104/T5/0040500001.png}}\n\n You add inbound security rules to a network security group (NSG) named NSG1 as shown in the following table.\n\n{{img:/exam-media/az-104/T5/0040500002.png}}\n\n You run Azure Network Watcher as shown in the following exhibit.\n\n{{img:/exam-media/az-104/T5/0040600001.jpg}}\n\n You run Network Watcher again as shown in the following exhibit.\n\n{{img:/exam-media/az-104/T5/0040800001.jpg}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source: Az-104 T5.apkg #38",
+    explanation: "{{img:/exam-media/az-104/T5/image927.png}}\nSource: Az-104 T5.apkg #38",
     type: "hotspot-boolean",
     statements: [
       {
@@ -11256,7 +11826,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 383,
+    id: 378,
     number: 39,
     topic: "Topic 5",
     prompt: "You have the Azure virtual network named VNet1 that contains a subnet named Subnet1. Subnet1 contains three Azure virtual machines. Each virtual machine has a public IP address.\n The virtual machines host several applications that are accessible over port 443 to users on the Internet.\n Your on-premises network has a site-to-site VPN connection to VNet1.\n You discover that the virtual machines can be accessed by using the Remote Desktop Protocol (RDP) from the Internet and from the on-premises network.\n You need to prevent RDP access to the virtual machines from the Internet, unless the RDP connection is established from the on-premises network. The solution must ensure that all the applications can still be accessed by the Internet users.\n What should you do?",
@@ -11286,10 +11856,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 384,
+    id: 379,
     number: 40,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the resources in the following table.\n\n[Image: 0041100001.png]\n\n Subnet1 is associated to VNet1. NIC1 attaches VM1 to Subnet1.\n You need to apply ASG1 to VM1.\n What should you do?",
+    prompt: "You have an Azure subscription that contains the resources in the following table.\n\n{{img:/exam-media/az-104/T5/0041100001.png}}\n\n Subnet1 is associated to VNet1. NIC1 attaches VM1 to Subnet1.\n You need to apply ASG1 to VM1.\n What should you do?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #40",
     type: "single",
@@ -11312,7 +11882,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 385,
+    id: 380,
     number: 41,
     topic: "Topic 5",
     prompt: "You have an Azure subscription named Subscription1 that contains an Azure virtual network named VNet1. VNet1 connects to your on-premises network by using\n Azure ExpressRoute.\n You plan to prepare the environment for automatic failover in case of ExpressRoute failure.\n You need to connect VNet1 to the on-premises network by using a site-to-site VPN. The solution must minimize cost.\n Which three actions should you perform? Each correct answer presents part of the solution.\n NOTE: Each correct selection is worth one point.",
@@ -11348,47 +11918,57 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 386,
+    id: 381,
     number: 42,
     topic: "Topic 5",
-    prompt: "You have peering configured as shown in the following exhibit.\n\n[Image: 0041300001.jpg]\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0041300002.jpg]",
+    prompt: "You have peering configured as shown in the following exhibit.\n\n{{img:/exam-media/az-104/T5/0041300001.jpg}}\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T5/0041300002.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T5.apkg #42",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T5/0041400001.jpg}}\nSource: Az-104 T5.apkg #42",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "Box1: vNET6 only"
+        text: "vNET6 only"
       },
       {
         id: "B",
-        text: "Box1: vNET6 and vNET1 only"
+        text: "vNET6 and vNET1 only"
       },
       {
         id: "C",
-        text: "Box2: delete peering"
+        text: "delete peering"
       },
       {
         id: "D",
-        text: "Box2: add a subnet"
+        text: "add a subnet"
       },
       {
         id: "E",
-        text: "Box2: modify the address space"
+        text: "modify the address space"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "Box1"
+      },
+      {
+        id: "t2",
+        text: "Box2"
       }
     ],
     correct: [
-      "A",
-      "C"
+      "t1:A",
+      "t2:C"
     ]
   },
   {
-    id: 387,
+    id: 382,
     number: 43,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the resources in the following table.\n\n[Image: 0041500001.png]\n\n You install the Web Server server role (IIS) on VM1 and VM2, and then add VM1 and VM2 to LB1.\n LB1 is configured as shown in the LB1 exhibit. (Click the LB1 tab.)\n\n[Image: 0041500002.png]\n\n Rule1 is configured as shown in the Rule1 exhibit. (Click the Rule1 tab.)\n\n[Image: 0041600001.jpg]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+    prompt: "You have an Azure subscription that contains the resources in the following table.\n\n{{img:/exam-media/az-104/T5/0041500001.png}}\n\n You install the Web Server server role (IIS) on VM1 and VM2, and then add VM1 and VM2 to LB1.\n LB1 is configured as shown in the LB1 exhibit. (Click the LB1 tab.)\n\n{{img:/exam-media/az-104/T5/0041500002.png}}\n\n Rule1 is configured as shown in the Rule1 exhibit. (Click the Rule1 tab.)\n\n{{img:/exam-media/az-104/T5/0041600001.jpg}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
     keySource: "source",
-    explanation: "Source: Az-104 T5.apkg #43",
+    explanation: "{{img:/exam-media/az-104/T5/0041700002.jpg}}\nSource: Az-104 T5.apkg #43",
     type: "hotspot-boolean",
     statements: [
       {
@@ -11409,45 +11989,55 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 388,
+    id: 383,
     number: 44,
     topic: "Topic 5",
-    prompt: "You have an Azure virtual machine named VM1 that connects to a virtual network named VNet1. VM1 has the following configurations:\n ✑ Subnet: 10.0.0.0/24\n ✑ Availability set: AVSet\n ✑ Network security group (NSG): None\n ✑ Private IP address: 10.0.0.4 (dynamic)\n ✑ Public IP address: 40.90.219.6 (dynamic)\n You deploy a standard, Internet-facing load balancer named slb1.\n You need to configure slb1 to allow connectivity to VM1.\n Which changes should you apply to VM1 as you configure slb1? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0041900001.jpg]",
+    prompt: "You have an Azure virtual machine named VM1 that connects to a virtual network named VNet1. VM1 has the following configurations:\n ✑ Subnet: 10.0.0.0/24\n ✑ Availability set: AVSet\n ✑ Network security group (NSG): None\n ✑ Private IP address: 10.0.0.4 (dynamic)\n ✑ Public IP address: 40.90.219.6 (dynamic)\n You deploy a standard, Internet-facing load balancer named slb1.\n You need to configure slb1 to allow connectivity to VM1.\n Which changes should you apply to VM1 as you configure slb1? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T5/0041900001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T5.apkg #44",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T5/0041900002.jpg}}\nSource: Az-104 T5.apkg #44",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "Box1: Remove the public IP address from VM1"
+        text: "Remove the public IP address from VM1"
       },
       {
         id: "B",
-        text: "Box2: Create and configure an NSG"
+        text: "Create and configure an NSG"
       },
       {
         id: "C",
-        text: "Box2: Remove the public IP address from VM1"
+        text: "Remove the public IP address from VM1"
       },
       {
         id: "D",
-        text: "Box1: Create and configure an NSG"
+        text: "Create and configure an NSG"
       },
       {
         id: "E",
-        text: "Box2: Change the private IP address of VM1 to static"
+        text: "Change the private IP address of VM1 to static"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "Box1"
+      },
+      {
+        id: "t2",
+        text: "Box2"
       }
     ],
     correct: [
-      "A",
-      "B"
+      "t1:A",
+      "t2:B"
     ]
   },
   {
-    id: 389,
+    id: 384,
     number: 45,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n[Image: 0042000001.png]\n\n You need to create a network interface named NIC1.\n In which location can you create NIC1?",
+    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T5/0042000001.png}}\n\n You need to create a network interface named NIC1.\n In which location can you create NIC1?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #45",
     type: "single",
@@ -11474,10 +12064,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 390,
+    id: 385,
     number: 46,
     topic: "Topic 5",
-    prompt: "You have Azure virtual machines that run Windows Server 2019 and are configured as shown in the following table.\n\n[Image: 0042100001.png]\n\n You create a public Azure DNS zone named adatum.com and a private Azure DNS zone named contoso.com.\n For controso.com, you create a virtual network link named link1 as shown in the exhibit. (Click the Exhibit tab.)\n\n[Image: 0042200001.jpg]\n\n You discover that VM1 can resolve names in contoso.com but cannot resolve names in adatum.com. VM1 can resolve other hosts on the Internet.\n You need to ensure that VM1 can resolve host names in adatum.com.\n What should you do?",
+    prompt: "You have Azure virtual machines that run Windows Server 2019 and are configured as shown in the following table.\n\n{{img:/exam-media/az-104/T5/0042100001.png}}\n\n You create a public Azure DNS zone named adatum.com and a private Azure DNS zone named contoso.com.\n For controso.com, you create a virtual network link named link1 as shown in the exhibit. (Click the Exhibit tab.)\n\n{{img:/exam-media/az-104/T5/0042200001.jpg}}\n\n You discover that VM1 can resolve names in contoso.com but cannot resolve names in adatum.com. VM1 can resolve other hosts on the Internet.\n You need to ensure that VM1 can resolve host names in adatum.com.\n What should you do?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #46",
     type: "single",
@@ -11504,107 +12094,126 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 391,
+    id: 386,
     number: 47,
     topic: "Topic 5",
-    prompt: "You plan to use Azure Network Watcher to perform the following tasks:\n ✑ Task1: Identify a security rule that prevents a network packet from reaching an Azure virtual machine.\n ✑ Task2: Validate outbound connectivity from an Azure virtual machine to an external host.\n Which feature should you use for each task? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0042400001.jpg]",
+    prompt: "You plan to use Azure Network Watcher to perform the following tasks:\n ✑ Task1: Identify a security rule that prevents a network packet from reaching an Azure virtual machine.\n ✑ Task2: Validate outbound connectivity from an Azure virtual machine to an external host.\n Which feature should you use for each task? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T5/0042400001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T5.apkg #47",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T5/0042500001.jpg}}\nSource: Az-104 T5.apkg #47",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "Task1: IP flow verify"
+        text: "IP flow verify"
       },
       {
         id: "B",
-        text: "Task2: Connection troubleshoot"
+        text: "Connection troubleshoot"
       },
       {
         id: "C",
-        text: "Task1: Next hop"
+        text: "Next hop"
       },
       {
         id: "D",
-        text: "Task1: packet capture"
+        text: "packet capture"
       },
       {
         id: "E",
-        text: "Task2: NSG flow logs"
+        text: "NSG flow logs"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "Task1"
+      },
+      {
+        id: "t2",
+        text: "Task2"
       }
     ],
     correct: [
-      "A",
-      "B"
+      "t1:A",
+      "t2:B"
     ]
   },
   {
-    id: 392,
+    id: 387,
     number: 48,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the Azure virtual machines shown in the following table.\n\n[Image: 0042600001.png]\n\n You configure the network interfaces of the virtual machines to use the settings shown in the following table.\n\n[Image: 0042600002.png]\n\n From the settings of VNET1 you configure the DNS servers shown in the following exhibit.\n\n[Image: 0042700001.png]\n\n The virtual machines can successfully connect to the DNS server that has an IP address of 192.168.10.15 and the DNS server that has an IP address of\n 193.77.134.10.",
+    prompt: "You have an Azure subscription that contains the Azure virtual machines shown in the following table.\n\n{{img:/exam-media/az-104/T5/0042600001.png}}\n\n You configure the network interfaces of the virtual machines to use the settings shown in the following table.\n\n{{img:/exam-media/az-104/T5/0042600002.png}}\n\n From the settings of VNET1 you configure the DNS servers shown in the following exhibit.\n\n{{img:/exam-media/az-104/T5/0042700001.png}}\n\n The virtual machines can successfully connect to the DNS server that has an IP address of 192.168.10.15 and the DNS server that has an IP address of\n 193.77.134.10.",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #48",
-    type: "multiple",
-    options: [
+    type: "hotspot-boolean",
+    statements: [
       {
-        id: "A",
-        text: "Vm1 connects to 193.77.134.10 for DNS queries"
+        id: "s1",
+        text: "Vm1 connects to 193.77.134.10 for DNS queries",
+        answer: true
       },
       {
-        id: "B",
-        text: "Vm2 connects to 193.77.134.10 for DNS queries"
+        id: "s2",
+        text: "Vm2 connects to 193.77.134.10 for DNS queries",
+        answer: false
       },
       {
-        id: "C",
-        text: "Vm3 connects to 192.168.10.15 for DNS queries"
+        id: "s3",
+        text: "Vm3 connects to 192.168.10.15 for DNS queries",
+        answer: true
       }
-    ],
-    correct: [
-      "A",
-      "C"
     ]
   },
   {
-    id: 393,
+    id: 388,
     number: 49,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the resource groups shown in the following table.\n\n[Image: 0042900001.png]\n\n RG1 contains the resources shown in the following table.\n\n[Image: 0042900002.png]\n\n You need to identify which resources you can move from RG1 to RG2, and which resources you can move from RG2 to RG1.\n Which resources should you identify? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0043000001.jpg]",
+    prompt: "You have an Azure subscription that contains the resource groups shown in the following table.\n\n{{img:/exam-media/az-104/T5/0042900001.png}}\n\n RG1 contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T5/0042900002.png}}\n\n You need to identify which resources you can move from RG1 to RG2, and which resources you can move from RG2 to RG1.\n Which resources should you identify? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T5/0043000001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T5.apkg #49",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T5/image928.png}}\nSource: Az-104 T5.apkg #49",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "RG1 to RG2: IP1, VNEt2, an storage1"
+        text: "IP1, VNEt2, an storage1"
       },
       {
         id: "B",
-        text: "RG2 to RG1: IP2, VNEt2, an storage2"
+        text: "IP2, VNEt2, an storage2"
       },
       {
         id: "C",
-        text: "RG1 to RG2: None"
+        text: "None"
       },
       {
         id: "D",
-        text: "RG1 to RG2: Ip1 and VNET1 only"
+        text: "Ip1 and VNET1 only"
       },
       {
         id: "E",
-        text: "RG2 to RG1:IP2 and storage2"
+        text: "IP2 and storage2"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "RG1 to RG2"
+      },
+      {
+        id: "t2",
+        text: "RG2 to RG1"
       }
     ],
     correct: [
-      "A",
-      "B"
+      "t1:A",
+      "t2:B"
     ]
   },
   {
-    id: 394,
+    id: 389,
     number: 50,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the virtual machines shown in the following table.\n\n[Image: 0043200001.png]\n\n You deploy a load balancer that has the following configurations:\n ✑ Name: LB1\n ✑ Type: Internal\n ✑ SKU: Standard\n ✑ Virtual network: VNET1\n You need to ensure that you can add VM1 and VM2 to the backend pool of LB1.\n Solution: You create a Basic SKU public IP address, associate the address to the network interface of VM1, and then start VM1.\n Does this meet the goal?",
+    prompt: "You have an Azure subscription that contains the virtual machines shown in the following table.\n\n{{img:/exam-media/az-104/T5/0043200001.png}}\n\n You deploy a load balancer that has the following configurations:\n ✑ Name: LB1\n ✑ Type: Internal\n ✑ SKU: Standard\n ✑ Virtual network: VNET1\n You need to ensure that you can add VM1 and VM2 to the backend pool of LB1.\n Solution: You create a Basic SKU public IP address, associate the address to the network interface of VM1, and then start VM1.\n Does this meet the goal?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #50",
     type: "single",
@@ -11623,10 +12232,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 395,
+    id: 390,
     number: 51,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the virtual machines shown in the following table.\n\n[Image: 0043300002.png]\n\n You deploy a load balancer that has the following configurations:\n ✑ Name: LB1\n ✑ Type: Internal\n ✑ SKU: Standard\n ✑ Virtual network: VNET1\n You need to ensure that you can add VM1 and VM2 to the backend pool of LB1.\n Solution: You create a Standard SKU public IP address, associate the address to the network interface of VM1, and then stop VM2.\n Does this meet the goal?",
+    prompt: "You have an Azure subscription that contains the virtual machines shown in the following table.\n\n{{img:/exam-media/az-104/T5/0043300002.png}}\n\n You deploy a load balancer that has the following configurations:\n ✑ Name: LB1\n ✑ Type: Internal\n ✑ SKU: Standard\n ✑ Virtual network: VNET1\n You need to ensure that you can add VM1 and VM2 to the backend pool of LB1.\n Solution: You create a Standard SKU public IP address, associate the address to the network interface of VM1, and then stop VM2.\n Does this meet the goal?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #51",
     type: "single",
@@ -11645,10 +12254,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 396,
+    id: 391,
     number: 52,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the virtual machines shown in the following table.\n\n[Image: 0043400002.png]\n\n You deploy a load balancer that has the following configurations:\n ✑ Name: LB1\n ✑ Type: Internal\n ✑ SKU: Standard\n ✑ Virtual network: VNET1\n You need to ensure that you can add VM1 and VM2 to the backend pool of LB1.\n Solution: You create two Standard SKU public IP addresses and associate a Standard SKU public IP address to the network interface of each virtual machine.\n Does this meet the goal?",
+    prompt: "You have an Azure subscription that contains the virtual machines shown in the following table.\n\n{{img:/exam-media/az-104/T5/0043400002.png}}\n\n You deploy a load balancer that has the following configurations:\n ✑ Name: LB1\n ✑ Type: Internal\n ✑ SKU: Standard\n ✑ Virtual network: VNET1\n You need to ensure that you can add VM1 and VM2 to the backend pool of LB1.\n Solution: You create two Standard SKU public IP addresses and associate a Standard SKU public IP address to the network interface of each virtual machine.\n Does this meet the goal?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #52",
     type: "single",
@@ -11667,7 +12276,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 397,
+    id: 392,
     number: 53,
     topic: "Topic 5",
     prompt: "You have a computer named Computer1 that has a point-to-site VPN connection to an Azure virtual network named VNet1. The point-to-site connection uses a self-signed certificate.\n From Azure, you download and install the VPN client configuration package on a computer named Computer2.\n You need to ensure that you can establish a point-to-site VPN connection to VNet1 from Computer2.\n Solution: You export the client certificate from Computer1 and install the certificate on Computer2.\n Does this meet the goal?",
@@ -11689,10 +12298,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 398,
+    id: 393,
     number: 54,
     topic: "Topic 5",
-    prompt: "You have an Azure virtual machine named VM1.\n The network interface for VM1 is configured as shown in the exhibit. (Click the Exhibit tab.)\n\n[Image: 0043700001.jpg]\n\n You deploy a web server on VM1, and then create a secure website that is accessible by using the HTTPS protocol. VM1 is used as a web server only.\n You need to ensure that users can connect to the website from the Internet.\n What should you do?",
+    prompt: "You have an Azure virtual machine named VM1.\n The network interface for VM1 is configured as shown in the exhibit. (Click the Exhibit tab.)\n\n{{img:/exam-media/az-104/T5/0043700001.jpg}}\n\n You deploy a web server on VM1, and then create a secure website that is accessible by using the HTTPS protocol. VM1 is used as a web server only.\n You need to ensure that users can connect to the website from the Internet.\n What should you do?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #54",
     type: "single",
@@ -11719,7 +12328,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 399,
+    id: 394,
     number: 55,
     topic: "Topic 5",
     prompt: "Another administrator plans to create several network security groups (NSGs) in the subscription.\n You need to ensure that when an NSG is created, it automatically blocks TCP port 8080 between the virtual networks.\n Solution: From the Resource providers blade, you unregister the Microsoft.ClassicNetwork provider.\n Does this meet the goal?",
@@ -11741,37 +12350,36 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 400,
+    id: 395,
     number: 56,
     topic: "Topic 5",
-    prompt: "You manage two Azure subscriptions named Subscription1 and Subscription2.\n Subscription1 has following virtual networks:\n\n[Image: 0043900001.png]\n\n The virtual networks contain the following subnets:\n\n[Image: 0044000001.png]\n\n Subscription2 contains the following virtual network:\n ✑ Name: VNETA\n ✑ Address space: 10.10.128.0/17\n ✑ Location: Canada Central\n VNETA contains the following subnets:\n\n[Image: 0044000005.png]",
+    prompt: "You manage two Azure subscriptions named Subscription1 and Subscription2.\n Subscription1 has following virtual networks:\n\n{{img:/exam-media/az-104/T5/0043900001.png}}\n\n The virtual networks contain the following subnets:\n\n{{img:/exam-media/az-104/T5/0044000001.png}}\n\n Subscription2 contains the following virtual network:\n ✑ Name: VNETA\n ✑ Address space: 10.10.128.0/17\n ✑ Location: Canada Central\n VNETA contains the following subnets:\n\n{{img:/exam-media/az-104/T5/0044000005.png}}",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #56",
-    type: "multiple",
-    options: [
+    type: "hotspot-boolean",
+    statements: [
       {
-        id: "A",
-        text: "A Site-to-Site connection can be established between VNET1 and VNET2"
+        id: "s1",
+        text: "A Site-to-Site connection can be established between VNET1 and VNET2",
+        answer: false
       },
       {
-        id: "B",
-        text: "VNET1 and VNET2 can be peered"
+        id: "s2",
+        text: "VNET1 and VNET2 can be peered",
+        answer: true
       },
       {
-        id: "C",
-        text: "VNET1 and VNETA can be peered"
+        id: "s3",
+        text: "VNET1 and VNETA can be peered",
+        answer: true
       }
-    ],
-    correct: [
-      "B",
-      "C"
     ]
   },
   {
-    id: 401,
+    id: 396,
     number: 57,
     topic: "Topic 5",
-    prompt: "You have an app named App1 that is installed on two Azure virtual machines named VM1 and VM2. Connections to App1 are managed by using an Azure Load\n Balancer.\n The effective network security configurations for VM2 are shown in the following exhibit.\n\n[Image: 0044300001.jpg]\n\n You discover that connections to App1 from 131.107.100.50 over TCP port 443 fail.\n You verify that the Load Balancer rules are configured correctly.\n You need to ensure that connections to App1 can be established successfully from 131.107.100.50 over TCP port 443.\n Solution: You create an inbound security rule that denies all traffic from the 131.107.100.50 source and has a cost of 64999.\n Does this meet the goal?",
+    prompt: "You have an app named App1 that is installed on two Azure virtual machines named VM1 and VM2. Connections to App1 are managed by using an Azure Load\n Balancer.\n The effective network security configurations for VM2 are shown in the following exhibit.\n\n{{img:/exam-media/az-104/T5/0044300001.jpg}}\n\n You discover that connections to App1 from 131.107.100.50 over TCP port 443 fail.\n You verify that the Load Balancer rules are configured correctly.\n You need to ensure that connections to App1 can be established successfully from 131.107.100.50 over TCP port 443.\n Solution: You create an inbound security rule that denies all traffic from the 131.107.100.50 source and has a cost of 64999.\n Does this meet the goal?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #57",
     type: "single",
@@ -11790,10 +12398,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 402,
+    id: 397,
     number: 58,
     topic: "Topic 5",
-    prompt: "You have an app named App1 that is installed on two Azure virtual machines named VM1 and VM2. Connections to App1 are managed by using an Azure Load\n Balancer.\n The effective network security configurations for VM2 are shown in the following exhibit.\n\n[Image: 0044400001.jpg]\n\n You discover that connections to App1 from 131.107.100.50 over TCP port 443 fail.\n You verify that the Load Balancer rules are configured correctly.\n You need to ensure that connections to App1 can be established successfully from 131.107.100.50 over TCP port 443.\n Solution: You delete the BlockAllOther443 inbound security rule.\n Does this meet the goal?",
+    prompt: "You have an app named App1 that is installed on two Azure virtual machines named VM1 and VM2. Connections to App1 are managed by using an Azure Load\n Balancer.\n The effective network security configurations for VM2 are shown in the following exhibit.\n\n{{img:/exam-media/az-104/T5/0044400001.jpg}}\n\n You discover that connections to App1 from 131.107.100.50 over TCP port 443 fail.\n You verify that the Load Balancer rules are configured correctly.\n You need to ensure that connections to App1 can be established successfully from 131.107.100.50 over TCP port 443.\n Solution: You delete the BlockAllOther443 inbound security rule.\n Does this meet the goal?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #58",
     type: "single",
@@ -11812,10 +12420,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 403,
+    id: 398,
     number: 59,
     topic: "Topic 5",
-    prompt: "You have an app named App1 that is installed on two Azure virtual machines named VM1 and VM2. Connections to App1 are managed by using an Azure Load\n Balancer.\n The effective network security configurations for VM2 are shown in the following exhibit.\n\n[Image: 0044500001.jpg]\n\n You discover that connections to App1 from 131.107.100.50 over TCP port 443 fail.\n You verify that the Load Balancer rules are configured correctly.\n You need to ensure that connections to App1 can be established successfully from 131.107.100.50 over TCP port 443.\n Solution: You modify the priority of the Allow_131.107.100.50 inbound security rule.\n Does this meet the goal?",
+    prompt: "You have an app named App1 that is installed on two Azure virtual machines named VM1 and VM2. Connections to App1 are managed by using an Azure Load\n Balancer.\n The effective network security configurations for VM2 are shown in the following exhibit.\n\n{{img:/exam-media/az-104/T5/0044500001.jpg}}\n\n You discover that connections to App1 from 131.107.100.50 over TCP port 443 fail.\n You verify that the Load Balancer rules are configured correctly.\n You need to ensure that connections to App1 can be established successfully from 131.107.100.50 over TCP port 443.\n Solution: You modify the priority of the Allow_131.107.100.50 inbound security rule.\n Does this meet the goal?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #59",
     type: "single",
@@ -11834,7 +12442,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 404,
+    id: 399,
     number: 60,
     topic: "Topic 5",
     prompt: "You have an Azure subscription that contains 10 virtual networks. The virtual networks are hosted in separate resource groups.\n Another administrator plans to create several network security groups (NSGs) in the subscription.\n You need to ensure that when an NSG is created, it automatically blocks TCP port 8080 between the virtual networks.\n Solution: You assign a built-in policy definition to the subscription.\n Does this meet the goal?",
@@ -11856,7 +12464,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 405,
+    id: 400,
     number: 61,
     topic: "Topic 5",
     prompt: "You have an Azure subscription.\n You plan to deploy an Azure Kubernetes Service (AKS) cluster to support an app named App1. On-premises clients connect to App1 by using the IP address of the pod.\n For the AKS cluster, you need to choose a network type that will support App1.\n What should you choose?",
@@ -11886,10 +12494,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 406,
+    id: 401,
     number: 62,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the virtual machines shown in the following table.\n\n[Image: 0044800001.png]\n\n You deploy a load balancer that has the following configurations:\n ✑ Name: LB1\n ✑ Type: Internal\n ✑ SKU: Standard\n ✑ Virtual network: VNET1\n You need to ensure that you can add VM1 and VM2 to the backend pool of LB1.\n Solution: You disassociate the public IP address from the network interface of VM2.\n Does this meet the goal?",
+    prompt: "You have an Azure subscription that contains the virtual machines shown in the following table.\n\n{{img:/exam-media/az-104/T5/0044800001.png}}\n\n You deploy a load balancer that has the following configurations:\n ✑ Name: LB1\n ✑ Type: Internal\n ✑ SKU: Standard\n ✑ Virtual network: VNET1\n You need to ensure that you can add VM1 and VM2 to the backend pool of LB1.\n Solution: You disassociate the public IP address from the network interface of VM2.\n Does this meet the goal?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #62",
     type: "single",
@@ -11908,7 +12516,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 407,
+    id: 402,
     number: 63,
     topic: "Topic 5",
     prompt: "You have an Azure subscription that contains 10 virtual networks. The virtual networks are hosted in separate resource groups.\n Another administrator plans to create several network security groups (NSGs) in the subscription.\n You need to ensure that when an NSG is created, it automatically blocks TCP port 8080 between the virtual networks.\n Solution: You configure a custom policy definition, and then you assign the policy to the subscription.\n Does this meet the goal?",
@@ -11930,7 +12538,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 408,
+    id: 403,
     number: 64,
     topic: "Topic 5",
     prompt: "You have two Azure virtual networks named VNet1 and VNet2. VNet1 contains an Azure virtual machine named VM1. VNet2 contains an Azure virtual machine named VM2.\n VM1 hosts a frontend application that connects to VM2 to retrieve data.\n Users report that the frontend application is slower than usual.\n You need to view the average round-trip time (RTT) of the packets from VM1 to VM2.\n Which Azure Network Watcher feature should you use?",
@@ -11960,81 +12568,105 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 409,
+    id: 404,
     number: 65,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the public load balancers shown in the following table.\n\n[Image: 0045000001.png]\n\n You plan to create six virtual machines and to load balance requests to the virtual machines. Each load balancer will load balance three virtual machines.\n You need to create the virtual machines for the planned solution.\n How should you create the virtual machines? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0045100001.jpg]",
+    prompt: "You have an Azure subscription that contains the public load balancers shown in the following table.\n\n{{img:/exam-media/az-104/T5/0045000001.png}}\n\n You plan to create six virtual machines and to load balance requests to the virtual machines. Each load balancer will load balance three virtual machines.\n You need to create the virtual machines for the planned solution.\n How should you create the virtual machines? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T5/0045100001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T5.apkg #65",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T5/0045100002.jpg}}\nSource: Az-104 T5.apkg #65",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "LB1: be created in the same availability set or vortial machine scale set"
+        text: "be created in the same availability set or vortial machine scale set"
       },
       {
         id: "B",
-        text: "LB2: be connected to the same virtual network"
+        text: "be connected to the same virtual network"
       },
       {
         id: "C",
-        text: "LB1: be connected to the same virtual network"
+        text: "be connected to the same virtual network"
       },
       {
         id: "D",
-        text: "LB2: be created in the same availability set or vortial machine scale set"
+        text: "be created in the same availability set or vortial machine scale set"
       },
       {
         id: "E",
-        text: "LB2: be created in the same resource group"
+        text: "be created in the same resource group"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "LB1"
+      },
+      {
+        id: "t2",
+        text: "LB2"
       }
     ],
     correct: [
-      "A",
-      "B"
+      "t1:A",
+      "t2:B"
     ]
   },
   {
-    id: 410,
+    id: 405,
     number: 66,
     topic: "Topic 5",
-    prompt: "You have an on-premises data center and an Azure subscription. The data center contains two VPN devices. The subscription contains an Azure virtual network named VNet1. VNet1 contains a gateway subnet.\n You need to create a site-to-site VPN. The solution must ensure that if a single instance of an Azure VPN gateway fails, or a single on-premises VPN device fails, the failure will not cause an interruption that is longer than two minutes.\n What is the minimum number of public IP addresses, virtual network gateways, and local network gateways required in Azure? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0045300001.jpg]",
+    prompt: "You have an on-premises data center and an Azure subscription. The data center contains two VPN devices. The subscription contains an Azure virtual network named VNet1. VNet1 contains a gateway subnet.\n You need to create a site-to-site VPN. The solution must ensure that if a single instance of an Azure VPN gateway fails, or a single on-premises VPN device fails, the failure will not cause an interruption that is longer than two minutes.\n What is the minimum number of public IP addresses, virtual network gateways, and local network gateways required in Azure? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T5/0045300001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T5.apkg #66",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T5/image930.png}}\nSource: Az-104 T5.apkg #66",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "Public Ip addresses: 2"
+        text: "2"
       },
       {
         id: "B",
-        text: "Virtual network gateways: 1"
+        text: "1"
       },
       {
         id: "C",
-        text: "Local network gateways: 1"
+        text: "1"
       },
       {
         id: "D",
-        text: "Local network gateways: 2"
+        text: "2"
       },
       {
         id: "E",
-        text: "Public Ip addresses: 1"
+        text: "1"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "Public Ip addresses"
+      },
+      {
+        id: "t2",
+        text: "Virtual network gateways"
+      },
+      {
+        id: "t3",
+        text: "Local network gateways"
       }
     ],
     correct: [
-      "A",
-      "B",
-      "C"
+      "t1:A",
+      "t2:B",
+      "t3:C"
     ]
   },
   {
-    id: 411,
+    id: 406,
     number: 67,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains two virtual machines as shown in the following table.\n\n[Image: 0045500002.png]\n\n You perform a reverse DNS lookup for 10.0.0.4 from VM2.\n Which FQDN will be returned?",
+    prompt: "You have an Azure subscription that contains two virtual machines as shown in the following table.\n\n{{img:/exam-media/az-104/T5/0045500002.png}}\n\n You perform a reverse DNS lookup for 10.0.0.4 from VM2.\n Which FQDN will be returned?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #67",
     type: "single",
@@ -12061,10 +12693,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 412,
+    id: 407,
     number: 68,
     topic: "Topic 5",
-    prompt: "You have an app named App1 that is installed on two Azure virtual machines named VM1 and VM2. Connections to App1 are managed by using an Azure Load\n Balancer.\n The effective network security configurations for VM2 are shown in the following exhibit.\n\n[Image: 0045600001.jpg]\n\n You discover that connections to App1 from 131.107.100.50 over TCP port 443 fail.\n You verify that the Load Balancer rules are configured correctly.\n You need to ensure that connections to App1 can be established successfully from 131.107.100.50 over TCP port 443.\n Solution: You create an inbound security rule that allows any traffic from the AzureLoadBalancer source and has a cost of 150.\n Does this meet the goal?",
+    prompt: "You have an app named App1 that is installed on two Azure virtual machines named VM1 and VM2. Connections to App1 are managed by using an Azure Load\n Balancer.\n The effective network security configurations for VM2 are shown in the following exhibit.\n\n{{img:/exam-media/az-104/T5/0045600001.jpg}}\n\n You discover that connections to App1 from 131.107.100.50 over TCP port 443 fail.\n You verify that the Load Balancer rules are configured correctly.\n You need to ensure that connections to App1 can be established successfully from 131.107.100.50 over TCP port 443.\n Solution: You create an inbound security rule that allows any traffic from the AzureLoadBalancer source and has a cost of 150.\n Does this meet the goal?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #68",
     type: "single",
@@ -12083,12 +12715,12 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 413,
+    id: 408,
     number: 69,
     topic: "Topic 5",
     prompt: "You have an Azure subscription that contains a policy-based virtual network gateway named GW1 and a virtual network named VNet1.\n You need to ensure that you can configure a point-to-site connection from an on-premises computer to VNet1.\n Which two actions should you perform? Each correct answer presents part of the solution.\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source: Az-104 T5.apkg #69",
+    explanation: "F. Add a public IP address space to VNet1(wrong)\nSource: Az-104 T5.apkg #69",
     type: "multiple",
     options: [
       {
@@ -12118,10 +12750,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 414,
+    id: 409,
     number: 70,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the resources in the following table:\n\n[Image: 0045800001.png]\n\n In Azure, you create a private DNS zone named adatum.com. You set the registration virtual network to VNet2. The adatum.com zone is configured as shown in the following exhibit:\n\n[Image: 0045900001.png]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.\n Hot Area:",
+    prompt: "You have an Azure subscription that contains the resources in the following table:\n\n{{img:/exam-media/az-104/T5/0045800001.png}}\n\n In Azure, you create a private DNS zone named adatum.com. You set the registration virtual network to VNet2. The adatum.com zone is configured as shown in the following exhibit:\n\n{{img:/exam-media/az-104/T5/0045900001.png}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.\n Hot Area:",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #70",
     type: "hotspot-boolean",
@@ -12144,69 +12776,78 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 415,
+    id: 410,
     number: 71,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the virtual networks shown in the following table.\n\n[Image: 0046100001.png]\n\n The subscription contains the private DNS zones shown in the following table.\n\n[Image: 0046100002.png]\n\n You add virtual network links to the private DNS zones as shown in the following table.\n\n[Image: 0046200001.png]",
+    prompt: "You have an Azure subscription that contains the virtual networks shown in the following table.\n\n{{img:/exam-media/az-104/T5/0046100001.png}}\n\n The subscription contains the private DNS zones shown in the following table.\n\n{{img:/exam-media/az-104/T5/0046100002.png}}\n\n You add virtual network links to the private DNS zones as shown in the following table.\n\n{{img:/exam-media/az-104/T5/0046200001.png}}",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #71",
-    type: "multiple",
-    options: [
+    type: "hotspot-boolean",
+    statements: [
       {
-        id: "A",
-        text: "You can enable auto registration for Link2."
+        id: "s1",
+        text: "You can enable auto registration for Link2.",
+        answer: true
       },
       {
-        id: "B",
-        text: "You can add a virtual network link for VNET1 to Zone3.com"
+        id: "s2",
+        text: "You can add a virtual network link for VNET1 to Zone3.com",
+        answer: true
       },
       {
-        id: "C",
-        text: "You can add a virtual network link for VNET2 to Zone1.com and enable auto registration"
+        id: "s3",
+        text: "You can add a virtual network link for VNET2 to Zone1.com and enable auto registration",
+        answer: true
       }
-    ],
-    correct: [
-      "A",
-      "B"
     ]
   },
   {
-    id: 416,
+    id: 411,
     number: 72,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription.\n You plan to use an Azure Resource Manager template to deploy a virtual network named VNET1 that will use Azure Bastion.\n How should you complete the template? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0046400001.png]",
+    prompt: "You have an Azure subscription.\n You plan to use an Azure Resource Manager template to deploy a virtual network named VNET1 that will use Azure Bastion.\n How should you complete the template? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T5/0046400001.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T5.apkg #72",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T5/0046500001.png}}\nSource: Az-104 T5.apkg #72",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "name: AzureBastionSubnet"
+        text: "AzureBastionSubnet"
       },
       {
         id: "B",
-        text: "name: AzureFirewallSubnet"
+        text: "AzureFirewallSubnet"
       },
       {
         id: "C",
-        text: "adressPrefix: 10.10.10.0/27"
+        text: "10.10.10.0/27"
       },
       {
         id: "D",
-        text: "adressPrefix: 10.10.10.0/29"
+        text: "10.10.10.0/29"
       },
       {
         id: "E",
-        text: "adressPrefix: 10.10.10.0/30"
+        text: "10.10.10.0/30"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "name"
+      },
+      {
+        id: "t2",
+        text: "adressPrefix"
       }
     ],
     correct: [
-      "A",
-      "C"
+      "t1:A",
+      "t2:C"
     ]
   },
   {
-    id: 417,
+    id: 412,
     number: 73,
     topic: "Topic 5",
     prompt: "You manage a virtual network named VNet1 that is hosted in the West US Azure region.\n VNet1 hosts two virtual machines named VM1 and VM2 that run Windows Server.\n You need to inspect all the network traffic from VM1 to VM2 for a period of three hours.\n Solution: From Azure Network Watcher, you create a packet capture.\n Does this meet the goal?",
@@ -12228,7 +12869,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 418,
+    id: 413,
     number: 74,
     topic: "Topic 5",
     prompt: "You manage a virtual network named VNet1 that is hosted in the West US Azure region.\n VNet1 hosts two virtual machines named VM1 and VM2 that run Windows Server.\n You need to inspect all the network traffic from VM1 to VM2 for a period of three hours.\n Solution: From Azure Network Watcher, you create a connection monitor.\n Does this meet the goal?",
@@ -12250,7 +12891,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 419,
+    id: 414,
     number: 75,
     topic: "Topic 5",
     prompt: "You manage a virtual network named VNet1 that is hosted in the West US Azure region.\n VNet1 hosts two virtual machines named VM1 and VM2 that run Windows Server.\n You need to inspect all the network traffic from VM1 to VM2 for a period of three hours.\n Solution: From Performance Monitor, you create a Data Collector Set (DCS).\n Does this meet the goal?",
@@ -12272,13 +12913,13 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 420,
+    id: 415,
     number: 76,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n[Image: 0046800001.png]\n\n You need to load balance HTTPS connections to vm1 and vm2 by using lb1.\n Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.\n Select and Place:\n\n[Image: 0046900001.jpg]",
+    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T5/0046800001.png}}\n\n You need to load balance HTTPS connections to vm1 and vm2 by using lb1.\n Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.\n Select and Place:\n\n{{img:/exam-media/az-104/T5/0046900001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T5.apkg #76",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T5/0047000001.jpg}}\nSource: Az-104 T5.apkg #76",
+    type: "drag-drop",
     options: [
       {
         id: "A",
@@ -12301,14 +12942,28 @@ export const az104Questions: Question[] = [
         text: "Create an availability set"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      },
+      {
+        id: "t3",
+        text: "Blank 3"
+      }
+    ],
     correct: [
-      "A",
-      "B",
-      "C"
+      "t1:A",
+      "t2:B",
+      "t3:C"
     ]
   },
   {
-    id: 421,
+    id: 416,
     number: 77,
     topic: "Topic 5",
     prompt: "You manage a virtual network named VNet1 that is hosted in the West US Azure region.\n VNet1 hosts two virtual machines named VM1 and VM2 that run Windows Server.\n You need to inspect all the network traffic from VM1 to VM2 for a period of three hours.\n Solution: From Azure Monitor, you create a metric on Network In and Network Out.\n Does this meet the goal?",
@@ -12330,10 +12985,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 422,
+    id: 417,
     number: 78,
     topic: "Topic 5",
-    prompt: "You have an app named App1 that is installed on two Azure virtual machines named VM1 and VM2. Connections to App1 are managed by using an Azure Load\n Balancer.\n The effective network security configurations for VM2 are shown in the following exhibit.\n\n[Image: 0047200001.jpg]\n\n You discover that connections to App1 from 131.107.100.50 over TCP port 443 fail.\n You verify that the Load Balancer rules are configured correctly.\n You need to ensure that connections to App1 can be established successfully from 131.107.100.50 over TCP port 443.\n Solution: You create an inbound security rule that denies all traffic from the 131.107.100.50 source and has a priority of 64999.\n Does this meet the goal?",
+    prompt: "You have an app named App1 that is installed on two Azure virtual machines named VM1 and VM2. Connections to App1 are managed by using an Azure Load\n Balancer.\n The effective network security configurations for VM2 are shown in the following exhibit.\n\n{{img:/exam-media/az-104/T5/0047200001.jpg}}\n\n You discover that connections to App1 from 131.107.100.50 over TCP port 443 fail.\n You verify that the Load Balancer rules are configured correctly.\n You need to ensure that connections to App1 can be established successfully from 131.107.100.50 over TCP port 443.\n Solution: You create an inbound security rule that denies all traffic from the 131.107.100.50 source and has a priority of 64999.\n Does this meet the goal?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #78",
     type: "single",
@@ -12352,13 +13007,13 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 423,
+    id: 418,
     number: 79,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains two on-premises locations named site1 and site2.\n You need to connect site1 and site2 by using an Azure Virtual WAN.\n Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.\n Select and Place:\n\n[Image: 0047300001.jpg]",
+    prompt: "You have an Azure subscription that contains two on-premises locations named site1 and site2.\n You need to connect site1 and site2 by using an Azure Virtual WAN.\n Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.\n Select and Place:\n\n{{img:/exam-media/az-104/T5/0047300001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T5.apkg #79",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T5/0047300002.jpg}}\nSource: Az-104 T5.apkg #79",
+    type: "drag-drop",
     options: [
       {
         id: "A",
@@ -12381,44 +13036,62 @@ export const az104Questions: Question[] = [
         text: "Connect the VPN sites to the hub"
       }
     ],
-    correct: [
-      "A",
-      "B",
-      "D",
-      "E"
-    ]
-  },
-  {
-    id: 424,
-    number: 80,
-    topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the virtual networks shown in the following table.\n\n[Image: 0047400001.png]\n\n You have the virtual machines shown in the following table.\n\n[Image: 0047400002.png]\n\n You have the virtual network interfaces shown in the following table.\n\n[Image: 0047400003.png]\n\n Server1 is a DNS server that contains the resources shown in the following table.\n\n[Image: 0047400004.png]\n\n You have an Azure private DNS zone named contoso.com that has a virtual network link to VNET2 and the records shown in the following table.\n\n[Image: 0047500001.png]",
-    keySource: "source",
-    explanation: "Source: Az-104 T5.apkg #80",
-    type: "single",
-    options: [
+    targets: [
       {
-        id: "A",
-        text: "Server2 resolves host2.contoso.com to 131.107.50.50"
+        id: "t1",
+        text: "Blank 1"
       },
       {
-        id: "B",
-        text: "Server2 resolves host1.contoso.com to 131.107.10.15"
+        id: "t2",
+        text: "Blank 2"
       },
       {
-        id: "C",
-        text: "Server3 resolves host2.contoso.com to 131.107.50.50"
+        id: "t3",
+        text: "Blank 3"
+      },
+      {
+        id: "t4",
+        text: "Blank 4"
       }
     ],
     correct: [
-      "B"
+      "t1:D",
+      "t2:A",
+      "t3:B",
+      "t4:E"
     ]
   },
   {
-    id: 425,
+    id: 419,
+    number: 80,
+    topic: "Topic 5",
+    prompt: "You have an Azure subscription that contains the virtual networks shown in the following table.\n\n{{img:/exam-media/az-104/T5/0047400001.png}}\n\n You have the virtual machines shown in the following table.\n\n{{img:/exam-media/az-104/T5/0047400002.png}}\n\n You have the virtual network interfaces shown in the following table.\n\n{{img:/exam-media/az-104/T5/0047400003.png}}\n\n Server1 is a DNS server that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T5/0047400004.png}}\n\n You have an Azure private DNS zone named contoso.com that has a virtual network link to VNET2 and the records shown in the following table.\n\n{{img:/exam-media/az-104/T5/0047500001.png}}",
+    keySource: "source",
+    explanation: "Source: Az-104 T5.apkg #80",
+    type: "hotspot-boolean",
+    statements: [
+      {
+        id: "s1",
+        text: "Server2 resolves host2.contoso.com to 131.107.50.50",
+        answer: false
+      },
+      {
+        id: "s2",
+        text: "Server2 resolves host1.contoso.com to 131.107.10.15",
+        answer: true
+      },
+      {
+        id: "s3",
+        text: "Server3 resolves host2.contoso.com to 131.107.50.50",
+        answer: false
+      }
+    ]
+  },
+  {
+    id: 420,
     number: 81,
     topic: "Topic 5",
-    prompt: "You have a virtual network named VNet1 as shown in the exhibit. (Click the Exhibit tab.)\n\n[Image: 0047600001.png]\n\n No devices are connected to VNet1.\n You plan to peer VNet1 to another virtual network named VNet2. VNet2 has an address space of 10.2.0.0/16.\n You need to create the peering.\n What should you do first?",
+    prompt: "You have a virtual network named VNet1 as shown in the exhibit. (Click the Exhibit tab.)\n\n{{img:/exam-media/az-104/T5/0047600001.png}}\n\n No devices are connected to VNet1.\n You plan to peer VNet1 to another virtual network named VNet2. VNet2 has an address space of 10.2.0.0/16.\n You need to create the peering.\n What should you do first?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #81",
     type: "single",
@@ -12445,10 +13118,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 426,
+    id: 421,
     number: 82,
     topic: "Topic 5",
-    prompt: "You have the Azure virtual machines shown in the following table.\n\n[Image: 0047700001.png]\n\n VNET1 is linked to a private DNS zone named contoso.com that contains the records shown in the following table.\n\n[Image: 0047700002.png]\n\n You need to ping VM2 from VM1.\n Which DNS names can you use to ping VM2?",
+    prompt: "You have the Azure virtual machines shown in the following table.\n\n{{img:/exam-media/az-104/T5/0047700001.png}}\n\n VNET1 is linked to a private DNS zone named contoso.com that contains the records shown in the following table.\n\n{{img:/exam-media/az-104/T5/0047700002.png}}\n\n You need to ping VM2 from VM1.\n Which DNS names can you use to ping VM2?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #82",
     type: "single",
@@ -12479,44 +13152,62 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 427,
+    id: 422,
     number: 83,
     topic: "Topic 5",
-    prompt: "You have a network security group (NSG) named NSG1 that has the rules defined in the exhibit. (Click the Exhibit tab.)\n\n[Image: 0047900001.jpg]\n\n NSG1 is associated to a subnet named Subnet1. Subnet1 contains the virtual machines shown in the following table.\n\n[Image: 0047900002.png]\n\n You need to add a rule to NSG1 to ensure that VM1 can ping VM2. The solution must use the principle of least privilege.\n How should you configure the rule? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0048000001.jpg]",
+    prompt: "You have a network security group (NSG) named NSG1 that has the rules defined in the exhibit. (Click the Exhibit tab.)\n\n{{img:/exam-media/az-104/T5/0047900001.jpg}}\n\n NSG1 is associated to a subnet named Subnet1. Subnet1 contains the virtual machines shown in the following table.\n\n{{img:/exam-media/az-104/T5/0047900002.png}}\n\n You need to add a rule to NSG1 to ensure that VM1 can ping VM2. The solution must use the principle of least privilege.\n How should you configure the rule? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T5/0048000001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T5.apkg #83",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T5/image933.png}}\nSource: Az-104 T5.apkg #83",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "Direction: Inbound"
+        text: "Inbound"
       },
       {
         id: "B",
-        text: "Source: 10.0.0.10"
+        text: "10.0.0.10"
       },
       {
         id: "C",
-        text: "Direction: Outbound"
+        text: "Outbound"
       },
       {
         id: "D",
-        text: "Destination: 10.1.0.11"
+        text: "10.1.0.11"
       },
       {
         id: "E",
-        text: "Priority: 110"
+        text: "110"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "Direction"
+      },
+      {
+        id: "t2",
+        text: "Source"
+      },
+      {
+        id: "t3",
+        text: "Destination"
+      },
+      {
+        id: "t4",
+        text: "Priority"
       }
     ],
     correct: [
-      "B",
-      "C",
-      "D",
-      "E"
+      "t1:C",
+      "t2:B",
+      "t3:D",
+      "t4:E"
     ]
   },
   {
-    id: 428,
+    id: 423,
     number: 84,
     topic: "Topic 5",
     prompt: "You have a computer named Computer1 that has a point-to-site VPN connection to an Azure virtual network named VNet1. The point-to-site connection uses a self-signed certificate.\n From Azure, you download and install the VPN client configuration package on a computer named Computer2.\n You need to ensure that you can establish a point-to-site VPN connection to VNet1 from Computer2.\n Solution: On Computer2, you set the Startup type for the IPSec Policy Agent service to Automatic.\n Does this meet the goal?",
@@ -12538,10 +13229,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 429,
+    id: 424,
     number: 86,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that uses the public IP addresses shown in the following table.\n\n[Image: 0048300001.png]\n\n You need to create a public Azure Standard Load Balancer.\n Which public IP addresses can you use?",
+    prompt: "You have an Azure subscription that uses the public IP addresses shown in the following table.\n\n{{img:/exam-media/az-104/T5/0048300001.png}}\n\n You need to create a public Azure Standard Load Balancer.\n Which public IP addresses can you use?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #86",
     type: "single",
@@ -12568,7 +13259,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 430,
+    id: 425,
     number: 87,
     topic: "Topic 5",
     prompt: "You have an Azure subscription.\n You are deploying an Azure Kubernetes Service (AKS) cluster that will contain multiple pods. The pods will use kubernet networking.\n You need to restrict network traffic between the pods.\n What should you configure on the AKS cluster?",
@@ -12598,46 +13289,60 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 431,
+    id: 426,
     number: 88,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains a virtual network named VNet1. VNet1 uses an IP address space of 10.0.0.0/16 and contains the VPN Gateway and subnets in the following table:\n\n[Image: 0048500001.png]\n\n Subnet1 contains a virtual appliance named VM1 that operates as a router.\n You create a routing table named RT1.\n You need to route all inbound traffic from the VPN gateway to VNet1 through VM1.\n How should you configure RT1? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0048600001.jpg]",
+    prompt: "You have an Azure subscription that contains a virtual network named VNet1. VNet1 uses an IP address space of 10.0.0.0/16 and contains the VPN Gateway and subnets in the following table:\n\n{{img:/exam-media/az-104/T5/0048500001.png}}\n\n Subnet1 contains a virtual appliance named VM1 that operates as a router.\n You create a routing table named RT1.\n You need to route all inbound traffic from the VPN gateway to VNet1 through VM1.\n How should you configure RT1? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T5/0048600001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T5.apkg #88",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T5/0048700001.jpg}}\nSource: Az-104 T5.apkg #88",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "Address prefix: 10.0.0.0/16"
+        text: "10.0.0.0/16"
       },
       {
         id: "B",
-        text: "Next hop type: Virtual appliance"
+        text: "Virtual appliance"
       },
       {
         id: "C",
-        text: "Assignet to: GatewaySubnet"
+        text: "GatewaySubnet"
       },
       {
         id: "D",
-        text: "Address prefix: 10.0.1.0/24"
+        text: "10.0.1.0/24"
       },
       {
         id: "E",
-        text: "Next hop type: Virtual network"
+        text: "Virtual network"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "Address prefix"
+      },
+      {
+        id: "t2",
+        text: "Next hop type"
+      },
+      {
+        id: "t3",
+        text: "Assignet to"
       }
     ],
     correct: [
-      "A",
-      "B",
-      "C"
+      "t1:A",
+      "t2:B",
+      "t3:C"
     ]
   },
   {
-    id: 432,
+    id: 427,
     number: 90,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the virtual machines shown in the following table:\n\n[Image: 0048900001.png]\n\n VM1 and VM2 use public IP addresses. From Windows Server 2019 on VM1 and VM2, you allow inbound Remote Desktop connections.\n Subnet1 and Subnet2 are in a virtual network named VNET1.\n The subscription contains two network security groups (NSGs) named NSG1 and NSG2. NSG1 uses only the default rules.\n NSG2 uses the default rules and the following custom incoming rule:\n ✑ Priority: 100\n ✑ Name: Rule1\n ✑ Port: 3389\n ✑ Protocol: TCP\n ✑ Source: Any\n ✑ Destination: Any\n ✑ Action: Allow\n NSG1 is associated to Subnet1. NSG2 is associated to the network interface of VM2.\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
+    prompt: "You have an Azure subscription that contains the virtual machines shown in the following table:\n\n{{img:/exam-media/az-104/T5/0048900001.png}}\n\n VM1 and VM2 use public IP addresses. From Windows Server 2019 on VM1 and VM2, you allow inbound Remote Desktop connections.\n Subnet1 and Subnet2 are in a virtual network named VNET1.\n The subscription contains two network security groups (NSGs) named NSG1 and NSG2. NSG1 uses only the default rules.\n NSG2 uses the default rules and the following custom incoming rule:\n ✑ Priority: 100\n ✑ Name: Rule1\n ✑ Port: 3389\n ✑ Protocol: TCP\n ✑ Source: Any\n ✑ Destination: Any\n ✑ Action: Allow\n NSG1 is associated to Subnet1. NSG2 is associated to the network interface of VM2.\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #90",
     type: "hotspot-boolean",
@@ -12660,7 +13365,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 433,
+    id: 428,
     number: 91,
     topic: "Topic 5",
     prompt: "You have an Azure subscription that contains two virtual machines named VM1 and VM2.\n You create an Azure load balancer.\n You plan to create a load balancing rule that will load balance HTTPS traffic between VM1 and VM2.\n Which two additional load balancer resources should you create before you can create the load balancing rule? Each correct answer presents part of the solution.\n NOTE: Each correct selection is worth one point.",
@@ -12695,7 +13400,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 434,
+    id: 429,
     number: 92,
     topic: "Topic 5",
     prompt: "You have an on-premises network that contains a database server named dbserver1.\n You have an Azure subscription.\n You plan to deploy three Azure virtual machines. Each virtual machine will be deployed to a separate availability zone.\n You need to configure an Azure VPN gateway for a site-to-site VPN. The solution must ensure that the virtual machines can connect to dbserver1.\n Which type of public IP address SKU and assignment should you use for the gateway?",
@@ -12721,10 +13426,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 435,
+    id: 430,
     number: 93,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the virtual machines shown in the following table.\n\n[Image: image854.png]\n\n The subscription contains a storage account named contoso2024 as shown in the following exhibit.\n\n[Image: image855.png]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
+    prompt: "You have an Azure subscription that contains the virtual machines shown in the following table.\n\n{{img:/exam-media/az-104/T5/image854.png}}\n\n The subscription contains a storage account named contoso2024 as shown in the following exhibit.\n\n{{img:/exam-media/az-104/T5/image855.png}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #93",
     type: "hotspot-boolean",
@@ -12747,33 +13452,34 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 436,
+    id: 431,
     number: 94,
     topic: "Topic 5",
-    prompt: "You have two Azure virtual machines as shown in the following table.\n\n[Image: 0049500001.png]\n\n You create the Azure DNS zones shown in the following table.\n\n[Image: 0049500002.jpg]\n\n You perform the following actions:\n ✑ ׀¢׀¾ fabrikam.com, you add a virtual network link to vnet1 and enable auto registration.\n ✑ For contoso.com, you assign vm1 and vm2 the Owner role.\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
+    prompt: "You have two Azure virtual machines as shown in the following table.\n\n{{img:/exam-media/az-104/T5/0049500001.png}}\n\n You create the Azure DNS zones shown in the following table.\n\n{{img:/exam-media/az-104/T5/0049500002.jpg}}\n\n You perform the following actions:\n ✑ ׀¢׀¾ fabrikam.com, you add a virtual network link to vnet1 and enable auto registration.\n ✑ For contoso.com, you assign vm1 and vm2 the Owner role.\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #94",
-    type: "hotspot-boolean",
-    statements: [
+    type: "multiple",
+    options: [
       {
-        id: "s1",
-        text: "The DNS A record for vm1 is added to contoso.com and has the IP address of 131.107.50.20",
-        answer: false
+        id: "A",
+        text: "The DNS A record for vm1 is added to contoso.com and has the IP address of 131.107.50.20"
       },
       {
-        id: "s2",
-        text: "The DNS A record for vm1 is added to fabrikam.com and has the IP address of 10.0.1.4",
-        answer: true
+        id: "B",
+        text: "The DNS A record for vm1 is added to fabrikam.com and has the IP address of 10.0.1.4"
       },
       {
-        id: "s3",
-        text: "The DNS A record for vm1 is added to fabrikam.com and has the IP address of 10.0.1.5",
-        answer: true
+        id: "C",
+        text: "The DNS A record for vm1 is added to fabrikam.com and has the IP address of 10.0.1.5"
       }
+    ],
+    correct: [
+      "B",
+      "C"
     ]
   },
   {
-    id: 437,
+    id: 432,
     number: 95,
     topic: "Topic 5",
     prompt: "You have an on-premises datacenter and an Azure subscription.\n You plan to connect the datacenter to Azure by using ExpressRoute.\n You need to deploy an ExpressRoute gateway. The solution must meet the following requirements:\n ✑ Support up to 10 Gbps of traffic.\n ✑ Support availability zones.\n ✑ Support FastPath.\n ✑ Minimize costs.\n Which SKU should you deploy?",
@@ -12803,10 +13509,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 438,
+    id: 433,
     number: 96,
     topic: "Topic 5",
-    prompt: "You have a virtual network named VNET1 that contains the subnets shown in the following table:\n\n[Image: 0049800002.png]\n\n You have Azure virtual machines that have the network configurations shown in the following table:\n\n[Image: 0049900001.png]\n\n For NSG1, you create the inbound security rule shown in the following table:\n\n[Image: 0049900002.png]\n\n For NSG2, you create the inbound security rule shown in the following table:\n\n[Image: 0049900003.png]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
+    prompt: "You have a virtual network named VNET1 that contains the subnets shown in the following table:\n\n{{img:/exam-media/az-104/T5/0049800002.png}}\n\n You have Azure virtual machines that have the network configurations shown in the following table:\n\n{{img:/exam-media/az-104/T5/0049900001.png}}\n\n For NSG1, you create the inbound security rule shown in the following table:\n\n{{img:/exam-media/az-104/T5/0049900002.png}}\n\n For NSG2, you create the inbound security rule shown in the following table:\n\n{{img:/exam-media/az-104/T5/0049900003.png}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #96",
     type: "hotspot-boolean",
@@ -12829,34 +13535,33 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 439,
+    id: 434,
     number: 97,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription named Subscription1.\n Subscription1 contains the virtual machines in the following table:\n\n[Image: 0050100001-1e04ef19fb5b001859443c40ed9e5d9b33b5a5f1.png]\n\n Subscription1 contains a virtual network named VNet1 that has the subnets in the following table:\n\n[Image: 0050100002.png]\n\n VM3 has multiple network adapters, including a network adapter named NIC3. IP forwarding is enabled on NIC3. Routing is enabled on VM3.\n You create a route table named RT1 that contains the routes in the following table:\n\n[Image: 0050100003.png]\n\n You apply RT1 to Subnet1 and Subnet2.",
+    prompt: "You have an Azure subscription named Subscription1.\n Subscription1 contains the virtual machines in the following table:\n\n{{img:/exam-media/az-104/T5/0050100001-1e04ef19fb5b001859443c40ed9e5d9b33b5a5f1.png}}\n\n Subscription1 contains a virtual network named VNet1 that has the subnets in the following table:\n\n{{img:/exam-media/az-104/T5/0050100002.png}}\n\n VM3 has multiple network adapters, including a network adapter named NIC3. IP forwarding is enabled on NIC3. Routing is enabled on VM3.\n You create a route table named RT1 that contains the routes in the following table:\n\n{{img:/exam-media/az-104/T5/0050100003.png}}\n\n You apply RT1 to Subnet1 and Subnet2.",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #97",
-    type: "multiple",
-    options: [
+    type: "hotspot-boolean",
+    statements: [
       {
-        id: "A",
-        text: "VM3 can establish a network connection to VM1"
+        id: "s1",
+        text: "VM3 can establish a network connection to VM1",
+        answer: true
       },
       {
-        id: "B",
-        text: "If VM3 is turned off, VM2 can establish a network connection to VM1"
+        id: "s2",
+        text: "If VM3 is turned off, VM2 can establish a network connection to VM1",
+        answer: false
       },
       {
-        id: "C",
-        text: "Vm1 can establish a network connection to VM2"
+        id: "s3",
+        text: "Vm1 can establish a network connection to VM2",
+        answer: true
       }
-    ],
-    correct: [
-      "A",
-      "C"
     ]
   },
   {
-    id: 440,
+    id: 435,
     number: 98,
     topic: "Topic 5",
     prompt: "Your on-premises network contains an SMB share named Share1.\n You have an Azure subscription that contains the following resources:\n ✑ A web app named webapp1\n ✑ A virtual network named VNET1\n You need to ensure that webapp1 can connect to Share1.\n What should you deploy?",
@@ -12882,10 +13587,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 441,
+    id: 436,
     number: 99,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n[Image: image853.png]\n\n You create a public IP address named IP1.\n\n Which two resources can you associate to IP1? Each correct answer presents a complete solution.",
+    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T5/image853.png}}\n\n You create a public IP address named IP1.\n\n Which two resources can you associate to IP1? Each correct answer presents a complete solution.",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #99",
     type: "multiple",
@@ -12917,7 +13622,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 442,
+    id: 437,
     number: 100,
     topic: "Topic 5",
     prompt: "You have an Azure subscription that contains a storage account named storage1.\n\n You need to allow access to storage1 from selected networks and your home office. The solution must minimize administrative effort.\n\n What should you do first for storage1?",
@@ -12947,7 +13652,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 443,
+    id: 438,
     number: 101,
     topic: "Topic 5",
     prompt: "You plan to deploy route-based Site-to-Site VPN connections between several on-premises locations and an Azure virtual network.\n Which tunneling protocol should you use?",
@@ -12977,10 +13682,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 444,
+    id: 439,
     number: 102,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n[Image: image608.png]\n\n You configure Azure Site Recovery to replicate VM1 between the US East and West US regions.\n\n You perform a test failover of VM1 and specify VNET2 as the target virtual network.\n\n When the test version of VM1 is created, to which subnet will the virtual machine be connected?",
+    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T5/image608.png}}\n\n You configure Azure Site Recovery to replicate VM1 between the US East and West US regions.\n\n You perform a test failover of VM1 and specify VNET2 as the target virtual network.\n\n When the test version of VM1 is created, to which subnet will the virtual machine be connected?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #102",
     type: "single",
@@ -13007,33 +13712,33 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 445,
+    id: 440,
     number: 104,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the virtual networks shown in the following table.\n\n[Image: image845.png]\n\n You have the peering options shown in the following exhibit.\n\n[Image: image846.png]\n\n You need to design a communication strategy for the resources on the virtual networks.",
-    keySource: "domain",
+    prompt: "You have an Azure subscription that contains the virtual networks shown in the following table.\n\n{{img:/exam-media/az-104/T5/image845.png}}\n\n You have the peering options shown in the following exhibit.\n\n{{img:/exam-media/az-104/T5/image846.png}}\n\n You need to design a communication strategy for the resources on the virtual networks.",
+    keySource: "source",
     explanation: "Source: Az-104 T5.apkg #104",
-    type: "single",
-    options: [
+    type: "hotspot-boolean",
+    statements: [
       {
-        id: "A",
-        text: "Peering 1-2 is a possible configuration"
+        id: "s1",
+        text: "Peering 1-2 is a possible configuration",
+        answer: false
       },
       {
-        id: "B",
-        text: "Peering 1-3 is a possible configuration"
+        id: "s2",
+        text: "Peering 1-3 is a possible configuration",
+        answer: false
       },
       {
-        id: "C",
-        text: "Peering 3-2 is a possible configuration"
+        id: "s3",
+        text: "Peering 3-2 is a possible configuration",
+        answer: false
       }
-    ],
-    correct: [
-      "A"
     ]
   },
   {
-    id: 446,
+    id: 441,
     number: 105,
     topic: "Topic 5",
     prompt: "You have five Azure virtual machines that run Windows Server 2016. The virtual machines are configured as web servers.\n\n You have an Azure load balancer named LB1 that provides load balancing services for the virtual machines.\n\n You need to ensure that visitors are serviced by the same web server for each request.\n\n What should you configure?",
@@ -13063,7 +13768,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 447,
+    id: 442,
     number: 106,
     topic: "Topic 5",
     prompt: "You have an Azure subscription that contains 20 virtual machines, a network security group (NSG) named NSG1, and two virtual networks named VNET1 and VNET2 that are peered.\n\n You plan to deploy an Azure Bastion Basic SKU host named Bastion1 to VNET1.\n\n You need to configure NSG1 to allow inbound access to the virtual machines via Bastion1.\n\n Which port should you configure for the inbound security rule?",
@@ -13093,12 +13798,12 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 448,
+    id: 443,
     number: 107,
     topic: "Topic 5",
-    prompt: "Your network contains an on-premises Active Directory Domain Services (AD DS) domain named contoso.com. The domain contains the servers shown in the following table.\n\n[Image: image609.png]\n\n You plan to migrate contoso.com to Azure.\n\n You create an Azure virtual network named VNET1 that has the following settings:\n\n • Address space: 10.0.0.0/16\n • Subnet:\n o Name: Subnet1\n o IPv4: 10.0.1.0/24\n\n You need to move DC1 to VNET1. The solution must ensure that the member servers in contoso.com can resolve AD DS DNS names.\n\n How should you configure DC1? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.\n\n[Image: image610.png]",
+    prompt: "Your network contains an on-premises Active Directory Domain Services (AD DS) domain named contoso.com. The domain contains the servers shown in the following table.\n\n{{img:/exam-media/az-104/T5/image609.png}}\n\n You plan to migrate contoso.com to Azure.\n\n You create an Azure virtual network named VNET1 that has the following settings:\n\n • Address space: 10.0.0.0/16\n • Subnet:\n o Name: Subnet1\n o IPv4: 10.0.1.0/24\n\n You need to move DC1 to VNET1. The solution must ensure that the member servers in contoso.com can resolve AD DS DNS names.\n\n How should you configure DC1? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.\n\n{{img:/exam-media/az-104/T5/image610.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T5.apkg #107",
+    explanation: "{{img:/exam-media/az-104/T5/image611.png}}\nSource: Az-104 T5.apkg #107",
     type: "multiple",
     options: [
       {
@@ -13128,10 +13833,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 449,
+    id: 444,
     number: 109,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the virtual networks shown in the following table.\n\n[Image: image612.png]\n\n You need to deploy an Azure firewall named AF1 to RG1 in the West US Azure region.\n\n To which virtual networks can you deploy AF1?",
+    prompt: "You have an Azure subscription that contains the virtual networks shown in the following table.\n\n{{img:/exam-media/az-104/T5/image612.png}}\n\n You need to deploy an Azure firewall named AF1 to RG1 in the West US Azure region.\n\n To which virtual networks can you deploy AF1?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #109",
     type: "single",
@@ -13162,10 +13867,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 450,
+    id: 445,
     number: 110,
     topic: "Topic 5",
-    prompt: "You have an on-premises network.\n\n You have an Azure subscription that contains three virtual networks named VNET1. VNET2. and VNET3. The virtual networks are peered and connected to the on-premises network. The subscription contains the virtual machines shown in the following table.\n\n[Image: image613.png]\n\n You need to monitor connectivity between the virtual machines and the on-premises network by using Connection Monitor.\n\n What is the minimum number of connection monitors you should deploy?",
+    prompt: "You have an on-premises network.\n\n You have an Azure subscription that contains three virtual networks named VNET1. VNET2. and VNET3. The virtual networks are peered and connected to the on-premises network. The subscription contains the virtual machines shown in the following table.\n\n{{img:/exam-media/az-104/T5/image613.png}}\n\n You need to monitor connectivity between the virtual machines and the on-premises network by using Connection Monitor.\n\n What is the minimum number of connection monitors you should deploy?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #110",
     type: "single",
@@ -13192,33 +13897,33 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 451,
+    id: 446,
     number: 111,
     topic: "Topic 5",
-    prompt: "HOTSPOT -\n\n You plan to deploy the following Azure Resource Manager (ARM) template.\n\n[Image: image614.png]",
-    keySource: "domain",
-    explanation: "Source: Az-104 T5.apkg #111",
-    type: "single",
-    options: [
+    prompt: "HOTSPOT -\n\n You plan to deploy the following Azure Resource Manager (ARM) template.\n\n{{img:/exam-media/az-104/T5/image614.png}}",
+    keySource: "source",
+    explanation: "{{img:/exam-media/az-104/T5/image938.png}}\nSource: Az-104 T5.apkg #111",
+    type: "hotspot-boolean",
+    statements: [
       {
-        id: "A",
-        text: "LB1 will be connected to a subnet named VNET1/netname"
+        id: "s1",
+        text: "LB1 will be connected to a subnet named VNET1/netname",
+        answer: false
       },
       {
-        id: "B",
-        text: "LB1 can be deployed only to the resource group that contains VNET1"
+        id: "s2",
+        text: "LB1 can be deployed only to the resource group that contains VNET1",
+        answer: false
       },
       {
-        id: "C",
-        text: "The value of the sku variable an be provided as a parameter when the template is deployed from a command prompt"
+        id: "s3",
+        text: "The value of the sku variable an be provided as a parameter when the template is deployed from a command prompt",
+        answer: false
       }
-    ],
-    correct: [
-      "A"
     ]
   },
   {
-    id: 452,
+    id: 447,
     number: 112,
     topic: "Topic 5",
     prompt: "You have an Azure subscription that contains a storage account. The account stores website data.\n\n You need to ensure that inbound user traffic uses the Microsoft point-of-presence (POP) closest to the user's location.\n\n What should you configure?",
@@ -13248,7 +13953,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 453,
+    id: 448,
     number: 113,
     topic: "Topic 5",
     prompt: "You have two Azure virtual machines named VM1 and VM2 that run Windows Server. The virtual machines are in a subnet named Subnet1. Subnet1 is in a virtual network named VNet1.\n\n You need to prevent VM1 from accessing VM2 on port 3389.\n\n What should you do?",
@@ -13278,10 +13983,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 454,
+    id: 449,
     number: 114,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n[Image: image617.png]\n\n You need to manage outbound traffic from VNET1 by using Firewall1.\n\n What should you do first?",
+    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T5/image617.png}}\n\n You need to manage outbound traffic from VNET1 by using Firewall1.\n\n What should you do first?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #114",
     type: "single",
@@ -13308,10 +14013,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 455,
+    id: 450,
     number: 115,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n[Image: image645.png]\n\n All the resources connect to a virtual network named VNet1.\n\n You plan to deploy an Azure Bastion host named Bastion1 to VNet1.\n\n Which resources can be protected by using Bastion1?",
+    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T5/image645.png}}\n\n All the resources connect to a virtual network named VNet1.\n\n You plan to deploy an Azure Bastion host named Bastion1 to VNet1.\n\n Which resources can be protected by using Bastion1?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #115",
     type: "single",
@@ -13342,10 +14047,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 456,
+    id: 451,
     number: 118,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains 10 virtual machines and the resources shown in the following table.\n\n[Image: image654.png]\n\n You need to ensure that Bastion1 can support 100 concurrent SSH users. The solution must minimize administrative effort.\n\n What should you do first?",
+    prompt: "You have an Azure subscription that contains 10 virtual machines and the resources shown in the following table.\n\n{{img:/exam-media/az-104/T5/image654.png}}\n\n You need to ensure that Bastion1 can support 100 concurrent SSH users. The solution must minimize administrative effort.\n\n What should you do first?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #118",
     type: "single",
@@ -13372,12 +14077,12 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 457,
+    id: 452,
     number: 120,
     topic: "Topic 5",
-    prompt: "You have a Windows 11 device named Device and an Azure subscription that contains the resources shown in the following table.\n\n[Image: image663.png]\n\n Device1 has Azure PowerShell and Azure Command-Line Interface (CLI) installed.\n\n From Device1, you need to establish a Remote Desktop connection to VM1.\n\n Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.\n\n[Image: image664.png]",
+    prompt: "You have a Windows 11 device named Device and an Azure subscription that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T5/image663.png}}\n\n Device1 has Azure PowerShell and Azure Command-Line Interface (CLI) installed.\n\n From Device1, you need to establish a Remote Desktop connection to VM1.\n\n Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.\n\n{{img:/exam-media/az-104/T5/image664.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T5.apkg #120",
+    explanation: "{{img:/exam-media/az-104/T5/image665.png}}\nSource: Az-104 T5.apkg #120",
     type: "multiple",
     options: [
       {
@@ -13408,10 +14113,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 458,
+    id: 453,
     number: 122,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that has the public IP addresses shown in the following table.\n\n[Image: image678.png]\n\n You plan to deploy an Azure Bastion Basic SKU host named Bastion1.\n\n Which IP addresses can you use?",
+    prompt: "You have an Azure subscription that has the public IP addresses shown in the following table.\n\n{{img:/exam-media/az-104/T5/image678.png}}\n\n You plan to deploy an Azure Bastion Basic SKU host named Bastion1.\n\n Which IP addresses can you use?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #122",
     type: "single",
@@ -13442,10 +14147,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 459,
+    id: 454,
     number: 125,
     topic: "Topic 5",
-    prompt: "You have two Azure subscriptions named Sub1 and Sub2.\n\n Sub1 contains a virtual machine named VM1 and a storage account named storage1.\n\n VM1 is associated to the resources shown in the following table.\n\n[Image: image679.png]\n\n You need to move VM1 to Sub2.\n\n Which resources should you move to Sub2?",
+    prompt: "You have two Azure subscriptions named Sub1 and Sub2.\n\n Sub1 contains a virtual machine named VM1 and a storage account named storage1.\n\n VM1 is associated to the resources shown in the following table.\n\n{{img:/exam-media/az-104/T5/image679.png}}\n\n You need to move VM1 to Sub2.\n\n Which resources should you move to Sub2?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #125",
     type: "single",
@@ -13472,7 +14177,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 460,
+    id: 455,
     number: 129,
     topic: "Topic 5",
     prompt: "You have an Azure subscription.\n\n You create a routing table named RT1.\n\n You need to add a route to RT1 that specifies the next hop IP address.\n\n Which next hop type should you select?",
@@ -13502,10 +14207,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 461,
+    id: 456,
     number: 130,
     topic: "Topic 5",
-    prompt: "You have two Azure subscriptions named Sub1 and Sub2 that are linked to separate Microsoft Entra tenants.\n\n[Image: image844.png]\n\n You have the virtual networks shown in the following table.\n\n Which virtual networks can you peer with VNet1?",
+    prompt: "You have two Azure subscriptions named Sub1 and Sub2 that are linked to separate Microsoft Entra tenants.\n\n{{img:/exam-media/az-104/T5/image844.png}}\n\n You have the virtual networks shown in the following table.\n\n Which virtual networks can you peer with VNet1?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #130",
     type: "single",
@@ -13536,7 +14241,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 462,
+    id: 457,
     number: 131,
     topic: "Topic 5",
     prompt: "You have an Azure subscription that contains a Recovery Services vault named Vault1.\n\n You need to enable multi-user authorization (MAU) for Vault1.\n\n Which resource should you create first?",
@@ -13566,10 +14271,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 463,
+    id: 458,
     number: 132,
     topic: "Topic 5",
-    prompt: "You have an app named App1 that is installed on two Azure virtual machines named VM1 and VM2. Connections to App1 are managed by using an Azure Load Balancer.\n\n The effective network security configurations for VM2 are shown in the following exhibit.\n\n[Image: image688.png]\n\n You discover that connections to App1 from 131.107.100.50 over TCP port 443 fail.\n\n You verify that the Load Balancer rules are configured correctly.\n\n You need to ensure that connections to App1 can be established successfully from 131.107.100.50 over TCP port 443.\n\n Solution: You create an inbound security rule that allows any traffic from the AzureLoadBalancer source and has a priority of 150.\n\n Does this meet the goal?",
+    prompt: "You have an app named App1 that is installed on two Azure virtual machines named VM1 and VM2. Connections to App1 are managed by using an Azure Load Balancer.\n\n The effective network security configurations for VM2 are shown in the following exhibit.\n\n{{img:/exam-media/az-104/T5/image688.png}}\n\n You discover that connections to App1 from 131.107.100.50 over TCP port 443 fail.\n\n You verify that the Load Balancer rules are configured correctly.\n\n You need to ensure that connections to App1 can be established successfully from 131.107.100.50 over TCP port 443.\n\n Solution: You create an inbound security rule that allows any traffic from the AzureLoadBalancer source and has a priority of 150.\n\n Does this meet the goal?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #132",
     type: "single",
@@ -13588,10 +14293,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 464,
+    id: 459,
     number: 133,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n[Image: image843.png]\n\n You create a route table named RT1 in the East US Azure region.\n\n To which resources can you associate RT1?",
+    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T5/image843.png}}\n\n You create a route table named RT1 in the East US Azure region.\n\n To which resources can you associate RT1?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #133",
     type: "single",
@@ -13622,10 +14327,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 465,
+    id: 460,
     number: 134,
     topic: "Topic 5",
-    prompt: "You create an Azure VM named VM1 that runs Windows Server 2019.\n\n VM1 is configured as shown in the exhibit. (Click the Exhibit tab.)\n\n[Image: image690.png]\n\n You need to enable Desired State Configuration for VM1.\n\n What should you do first?",
+    prompt: "You create an Azure VM named VM1 that runs Windows Server 2019.\n\n VM1 is configured as shown in the exhibit. (Click the Exhibit tab.)\n\n{{img:/exam-media/az-104/T5/image690.png}}\n\n You need to enable Desired State Configuration for VM1.\n\n What should you do first?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #134",
     type: "single",
@@ -13652,12 +14357,12 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 466,
+    id: 461,
     number: 135,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the virtual networks shown in the following table.\n\n[Image: image728.png]\n\n The subnets have the IP address spaces shown in the following table.\n\n[Image: image729.png]\n\n You plan to create a container app named contapp1 in the East US Azure region.\n\n You need to create a container app environment named con-env1 that meets the following requirements:\n\n • Uses its own virtual network.\n • Uses its own subnet.\n • Is connected to the smallest possible subnet.\n\n To which virtual networks can you connect con-env1, and which subnet mask should you use? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.\n\n[Image: image730.png]",
+    prompt: "You have an Azure subscription that contains the virtual networks shown in the following table.\n\n{{img:/exam-media/az-104/T5/image728.png}}\n\n The subnets have the IP address spaces shown in the following table.\n\n{{img:/exam-media/az-104/T5/image729.png}}\n\n You plan to create a container app named contapp1 in the East US Azure region.\n\n You need to create a container app environment named con-env1 that meets the following requirements:\n\n • Uses its own virtual network.\n • Uses its own subnet.\n • Is connected to the smallest possible subnet.\n\n To which virtual networks can you connect con-env1, and which subnet mask should you use? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.\n\n{{img:/exam-media/az-104/T5/image730.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T5.apkg #135",
+    explanation: "{{img:/exam-media/az-104/T5/image939.png}}\nSource: Az-104 T5.apkg #135",
     type: "multiple",
     options: [
       {
@@ -13687,10 +14392,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 467,
+    id: 462,
     number: 136,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the virtual networks shown in the following table.\n\n[Image: image732.png]\n\n All the virtual networks are peered. Each virtual network contains nine virtual machines.\n\n You need to configure secure RDP connections to the virtual machines by using Azure Bastion.\n\n What is the minimum number of Bastion hosts required?",
+    prompt: "You have an Azure subscription that contains the virtual networks shown in the following table.\n\n{{img:/exam-media/az-104/T5/image732.png}}\n\n All the virtual networks are peered. Each virtual network contains nine virtual machines.\n\n You need to configure secure RDP connections to the virtual machines by using Azure Bastion.\n\n What is the minimum number of Bastion hosts required?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #136",
     type: "single",
@@ -13717,38 +14422,38 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 468,
+    id: 463,
     number: 137,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the virtual networks shown in the following table.\n\n[Image: image733.png]\n\n The subscription contains the virtual machines shown in the following table.\n\n[Image: image734.png]\n\n Each virtual machine contains only a private IP address.\n\n You create an Azure bastion for VNet1 as shown in the following exhibit.\n\n[Image: image735.png]",
+    prompt: "You have an Azure subscription that contains the virtual networks shown in the following table.\n\n{{img:/exam-media/az-104/T5/image733.png}}\n\n The subscription contains the virtual machines shown in the following table.\n\n{{img:/exam-media/az-104/T5/image734.png}}\n\n Each virtual machine contains only a private IP address.\n\n You create an Azure bastion for VNet1 as shown in the following exhibit.\n\n{{img:/exam-media/az-104/T5/image735.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T5.apkg #137",
-    type: "single",
-    options: [
+    explanation: "{{img:/exam-media/az-104/T5/image940.png}}\nSource: Az-104 T5.apkg #137",
+    type: "hotspot-boolean",
+    statements: [
       {
-        id: "A",
-        text: "The Remote Desktop Connection client (mstc.exe) can be used to connect to VM1 through to VM1 through Bastion1"
+        id: "s1",
+        text: "The Remote Desktop Connection client (mstc.exe) can be used to connect to VM1 through to VM1 through Bastion1",
+        answer: false
       },
       {
-        id: "B",
-        text: "The Azure Portal can use SSH to connect to VM2 through Bastion1"
+        id: "s2",
+        text: "The Azure Portal can use SSH to connect to VM2 through Bastion1",
+        answer: true
       },
       {
-        id: "C",
-        text: "The Azure Portal can be used to connect to VM3 through Bastion1"
+        id: "s3",
+        text: "The Azure Portal can be used to connect to VM3 through Bastion1",
+        answer: false
       }
-    ],
-    correct: [
-      "B"
     ]
   },
   {
-    id: 469,
+    id: 464,
     number: 138,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the virtual networks shown in the following table.\n\n[Image: image738.png]\n\n The subscription contains the subnets shown in the following table.\n\n[Image: image739.png]\n\n The subscription contains the storage accounts shown in the following table.\n\n[Image: image740.png]\n\n You create a service endpoint policy named Policy1 in the South Central US Azure region to allow connectivity to all the storage accounts in the subscription.\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.\n\n[Image: image741.png]",
+    prompt: "You have an Azure subscription that contains the virtual networks shown in the following table.\n\n{{img:/exam-media/az-104/T5/image738.png}}\n\n The subscription contains the subnets shown in the following table.\n\n{{img:/exam-media/az-104/T5/image739.png}}\n\n The subscription contains the storage accounts shown in the following table.\n\n{{img:/exam-media/az-104/T5/image740.png}}\n\n You create a service endpoint policy named Policy1 in the South Central US Azure region to allow connectivity to all the storage accounts in the subscription.\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.\n\n{{img:/exam-media/az-104/T5/image741.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T5.apkg #138",
+    explanation: "{{img:/exam-media/az-104/T5/image941.png}}\nSource: Az-104 T5.apkg #138",
     type: "hotspot-boolean",
     statements: [
       {
@@ -13769,7 +14474,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 470,
+    id: 465,
     number: 139,
     topic: "Topic 5",
     prompt: "You have an Azure virtual network named VNet1 that contains the following settings:\n\n • IPv4 address space: 172.16.10.0/24\n • Subnet name: Subnet1\n • Subnet address range: 172.16.10.0/25\n\n What is the maximum number of virtual machines that can connect to Subnet1?",
@@ -13803,7 +14508,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 471,
+    id: 466,
     number: 140,
     topic: "Topic 5",
     prompt: "You have an Azure subscription that contains a resource group named RG1 and a virtual network named VNet1.\n\n You plan to create an Azure container instance named container1.\n\n You need to be able to configure DNS name label scope reuse for container1.\n\n What should you configure for container1?",
@@ -13833,38 +14538,38 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 472,
+    id: 467,
     number: 141,
     topic: "Topic 5",
-    prompt: "You have the Azure virtual machines shown in the following table.\n\n[Image: image743.png]\n\n VNET1, VNET2, and VNET3 are peered.\n\n VM4 has a DNS server that is authoritative for a zone named contoso.com and contains the records shown in the following table.\n\n[Image: image744.png]\n\n The virtual networks are configured to use the DNS servers shown in the following table.\n\n[Image: image745.png]",
+    prompt: "You have the Azure virtual machines shown in the following table.\n\n{{img:/exam-media/az-104/T5/image743.png}}\n\n VNET1, VNET2, and VNET3 are peered.\n\n VM4 has a DNS server that is authoritative for a zone named contoso.com and contains the records shown in the following table.\n\n{{img:/exam-media/az-104/T5/image744.png}}\n\n The virtual networks are configured to use the DNS servers shown in the following table.\n\n{{img:/exam-media/az-104/T5/image745.png}}",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #141",
-    type: "single",
-    options: [
+    type: "hotspot-boolean",
+    statements: [
       {
-        id: "A",
-        text: "From VM1, server1.contoso.com resolves to 131.107.3.3"
+        id: "s1",
+        text: "From VM1, server1.contoso.com resolves to 131.107.3.3",
+        answer: false
       },
       {
-        id: "B",
-        text: "From VM2, server1.contoso.com resolves to 131.107.3.3"
+        id: "s2",
+        text: "From VM2, server1.contoso.com resolves to 131.107.3.3",
+        answer: true
       },
       {
-        id: "C",
-        text: "From VM3, server2.contoso.com resolves to 131.107.2.4"
+        id: "s3",
+        text: "From VM3, server2.contoso.com resolves to 131.107.2.4",
+        answer: false
       }
-    ],
-    correct: [
-      "B"
     ]
   },
   {
-    id: 473,
+    id: 468,
     number: 142,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains a resource group named RG1.\n\n You plan to create an Azure Resource Manager (ARM) template to deploy a new virtual machine named VM1. VM1 must support the capture of performance data.\n\n You need to specify resource dependencies for the ARM template.\n\n In which order should you deploy the resources? To answer, move all resources from the list of resources to the answer area and arrange them in the correct order.\n\n[Image: image748.png]",
+    prompt: "You have an Azure subscription that contains a resource group named RG1.\n\n You plan to create an Azure Resource Manager (ARM) template to deploy a new virtual machine named VM1. VM1 must support the capture of performance data.\n\n You need to specify resource dependencies for the ARM template.\n\n In which order should you deploy the resources? To answer, move all resources from the list of resources to the answer area and arrange them in the correct order.\n\n{{img:/exam-media/az-104/T5/image748.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T5.apkg #142",
+    explanation: "{{img:/exam-media/az-104/T5/image749.png}}\nSource: Az-104 T5.apkg #142",
     type: "multiple",
     options: [
       {
@@ -13887,11 +14592,12 @@ export const az104Questions: Question[] = [
     correct: [
       "A",
       "B",
-      "C"
+      "C",
+      "D"
     ]
   },
   {
-    id: 474,
+    id: 469,
     number: 143,
     topic: "Topic 5",
     prompt: "You have an Azure subscription.\n\n You are creating a new Azure container instance that will have the following settings:\n\n • Container name: cont1\n • SKU: Standard\n • OS type: Windows\n • Networking type: Public\n • Memory (GiB): 2.5\n • Number of CPU cores: 2\n\n You discover that the Private setting for Networking type is unavailable.\n\n You need to ensure that cont1 can be configured to use private networking.\n\n Which setting should you change?",
@@ -13925,10 +14631,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 475,
+    id: 470,
     number: 144,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the virtual networks shown in the following table.\n\n[Image: image750.png]\n\n The subscription contains the virtual machines shown in the following table.\n\n[Image: image751.png]\n\n All the virtual machines have only private IP addresses.\n\n You deploy an Azure Bastion host named Bastion1 to VNet1.\n\n To which virtual machines can you connect through Bastion1?",
+    prompt: "You have an Azure subscription that contains the virtual networks shown in the following table.\n\n{{img:/exam-media/az-104/T5/image750.png}}\n\n The subscription contains the virtual machines shown in the following table.\n\n{{img:/exam-media/az-104/T5/image751.png}}\n\n All the virtual machines have only private IP addresses.\n\n You deploy an Azure Bastion host named Bastion1 to VNet1.\n\n To which virtual machines can you connect through Bastion1?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #144",
     type: "single",
@@ -13955,10 +14661,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 476,
+    id: 471,
     number: 145,
     topic: "Topic 5",
-    prompt: "You have the Azure virtual networks shown in the following table.\n\n[Image: image817.png]\n\n Which virtual networks can you peer with VNet1?",
+    prompt: "You have the Azure virtual networks shown in the following table.\n\n{{img:/exam-media/az-104/T5/image817.png}}\n\n Which virtual networks can you peer with VNet1?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #145",
     type: "single",
@@ -13985,7 +14691,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 477,
+    id: 472,
     number: 146,
     topic: "Topic 5",
     prompt: "You have an Azure subscription.\n\n You plan to migrate 50 virtual machines from VMware vSphere to the subscription.\n\n You create a Recovery Services vault.\n\n What should you do next?",
@@ -14015,12 +14721,12 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 478,
+    id: 473,
     number: 147,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the virtual networks shown in the following table.\n\n[Image: image791.png]\n\n Each virtual network has 50 connected virtual machines.\n\n You need to implement Azure Bastion. The solution must meet the fallowing requirements:\n\n • Support host scaling.\n • Support uploading and downloading files.\n • Support the virtual machines on both VNet1 and VNet2.\n • Minimize the number of addresses on the Azure Bastion subnet.\n\n How should you configure Azure Bastion? To answer, select the options in the answer area.\n\n NOTE: Each correct answer is worth one point.\n\n[Image: image792.png]",
+    prompt: "You have an Azure subscription that contains the virtual networks shown in the following table.\n\n{{img:/exam-media/az-104/T5/image791.png}}\n\n Each virtual network has 50 connected virtual machines.\n\n You need to implement Azure Bastion. The solution must meet the fallowing requirements:\n\n • Support host scaling.\n • Support uploading and downloading files.\n • Support the virtual machines on both VNet1 and VNet2.\n • Minimize the number of addresses on the Azure Bastion subnet.\n\n How should you configure Azure Bastion? To answer, select the options in the answer area.\n\n NOTE: Each correct answer is worth one point.\n\n{{img:/exam-media/az-104/T5/image792.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T5.apkg #147",
+    explanation: "{{img:/exam-media/az-104/T5/image793.png}}\nSource: Az-104 T5.apkg #147",
     type: "multiple",
     options: [
       {
@@ -14050,10 +14756,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 479,
+    id: 474,
     number: 148,
     topic: "Topic 5",
-    prompt: "You have an Azure subscription that contains the virtual networks shown in the following table.\n\n[Image: image816.png]\n\n You need to ensure that all the traffic between VNet1 and VNet2 traverses the Microsoft backbone network.\n\n What should you configure?",
+    prompt: "You have an Azure subscription that contains the virtual networks shown in the following table.\n\n{{img:/exam-media/az-104/T5/image816.png}}\n\n You need to ensure that all the traffic between VNet1 and VNet2 traverses the Microsoft backbone network.\n\n What should you configure?",
     keySource: "source",
     explanation: "Source: Az-104 T5.apkg #148",
     type: "single",
@@ -14080,7 +14786,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 480,
+    id: 475,
     number: 149,
     topic: "Topic 5",
     prompt: "You have an Azure subscription that contains two peered virtual networks named VNet1 and VNet2. VNet1 has a VPN gateway that uses static routing,\n\n The on-premises network has a VPN connection that uses the VPN gateway of VNet1.\n\n You need to configure access for users on the on-premises network to connect to a virtual machine on VNet2. The solution must minimize costs.\n\n Which type of connectivity should you use?",
@@ -14110,7 +14816,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 481,
+    id: 476,
     number: 150,
     topic: "Topic 5",
     prompt: "You have an Azure subscription that contains two peered virtual networks named VNet1 and VNet2.\n\n You have a Network Virtual Appliance (NVA) named NetVA1.\n\n You need to ensure that the traffic from VNet1 to VNet2 is inspected by using NetVA1.\n\n What should you use?",
@@ -14140,10 +14846,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 482,
+    id: 477,
     number: 1,
     topic: "Topic 6",
-    prompt: "You have an Azure subscription that has a Recovery Services vault named Vault1. The subscription contains the virtual machines shown in the following table:\n\n[Image: 0052600001.png]\n\n You plan to schedule backups to occur every night at 23:00.\n Which virtual machines can you back up by using Azure Backup?",
+    prompt: "You have an Azure subscription that has a Recovery Services vault named Vault1. The subscription contains the virtual machines shown in the following table:\n\n{{img:/exam-media/az-104/T6/0052600001.png}}\n\n You plan to schedule backups to occur every night at 23:00.\n Which virtual machines can you back up by using Azure Backup?",
     keySource: "source",
     explanation: "Source: Az-104 T6.apkg #1",
     type: "single",
@@ -14170,7 +14876,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 483,
+    id: 478,
     number: 2,
     topic: "Topic 6",
     prompt: "You have an Azure subscription that contains a virtual machine named VM1.\n\n You plan to deploy an Azure Monitor alert rule that will trigger an alert when CPU usage on VM1 exceeds 80 percent.\n\n You need to ensure that the alert rule sends an email message to two users named User1 and User2.\n\n What should you create for Azure Monitor?",
@@ -14200,10 +14906,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 484,
+    id: 479,
     number: 3,
     topic: "Topic 6",
-    prompt: "You have the Azure virtual machines shown in the following table:\n\n[Image: 0053100001.png]\n\n You have a Recovery Services vault that protects VM1 and VM2.\n You need to protect VM3 and VM4 by using Recovery Services.\n What should you do first?",
+    prompt: "You have the Azure virtual machines shown in the following table:\n\n{{img:/exam-media/az-104/T6/0053100001.png}}\n\n You have a Recovery Services vault that protects VM1 and VM2.\n You need to protect VM3 and VM4 by using Recovery Services.\n What should you do first?",
     keySource: "source",
     explanation: "Source: Az-104 T6.apkg #3",
     type: "single",
@@ -14230,45 +14936,55 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 485,
+    id: 480,
     number: 4,
     topic: "Topic 6",
-    prompt: "You have an Azure subscription that contains an Azure Storage account named storage1 and the users shown in the following table.\n\n[Image: 0053200001.png]\n\n You plan to monitor storage1 and to configure email notifications for the signals shown in the following table.\n\n[Image: 0053200002.png]\n\n You need to identify the minimum number of alert rules and action groups required for the planned monitoring.\n How many alert rules and action groups should you identify? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0053300001.jpg]",
+    prompt: "You have an Azure subscription that contains an Azure Storage account named storage1 and the users shown in the following table.\n\n{{img:/exam-media/az-104/T6/0053200001.png}}\n\n You plan to monitor storage1 and to configure email notifications for the signals shown in the following table.\n\n{{img:/exam-media/az-104/T6/0053200002.png}}\n\n You need to identify the minimum number of alert rules and action groups required for the planned monitoring.\n How many alert rules and action groups should you identify? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T6/0053300001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T6.apkg #4",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T6/0053400001.jpg}}\nSource: Az-104 T6.apkg #4",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "Alert rules: 3"
+        text: "3"
       },
       {
         id: "B",
-        text: "Alert rules: 4"
+        text: "4"
       },
       {
         id: "C",
-        text: "Action groups: 2"
+        text: "2"
       },
       {
         id: "D",
-        text: "Action groups: 3"
+        text: "3"
       },
       {
         id: "E",
-        text: "Action groups: 4"
+        text: "4"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "Alert rules"
+      },
+      {
+        id: "t2",
+        text: "Action groups"
       }
     ],
     correct: [
-      "B",
-      "D"
+      "t1:B",
+      "t2:D"
     ]
   },
   {
-    id: 486,
+    id: 481,
     number: 5,
     topic: "Topic 6",
-    prompt: "You have an Azure subscription that contains the identities shown in the following table.\n\n[Image: 0053500001.png]\n\n User1, Principal1, and Group1 are assigned the Monitoring Reader role.\n An action group named AG1 has the Email Azure Resource Manager Role notification type and is configured to email the Monitoring Reader role.\n You create an alert rule named Alert1 that uses AG1.\n You need to identity who will receive an email notification when Alert1 is triggered.\n Who should you identify?",
+    prompt: "You have an Azure subscription that contains the identities shown in the following table.\n\n{{img:/exam-media/az-104/T6/0053500001.png}}\n\n User1, Principal1, and Group1 are assigned the Monitoring Reader role.\n An action group named AG1 has the Email Azure Resource Manager Role notification type and is configured to email the Monitoring Reader role.\n You create an alert rule named Alert1 that uses AG1.\n You need to identity who will receive an email notification when Alert1 is triggered.\n Who should you identify?",
     keySource: "source",
     explanation: "Source: Az-104 T6.apkg #5",
     type: "single",
@@ -14295,77 +15011,97 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 487,
+    id: 482,
     number: 6,
     topic: "Topic 6",
-    prompt: "You have an Azure virtual machine named VM1 and a Recovery Services vault named Vault1.\n You create a backup policy named Policy1 as shown in the exhibit. (Click the Exhibit tab.)\n\n[Image: 0053600001.jpg]\n\n You configure the backup of VM1 to use Policy1 on Thursday, January 1 at 1:00 AM.\n You need to identify the number of available recovery points for VM1.\n How many recovery points are available on January 8 and January 15? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0053700001.jpg]",
+    prompt: "You have an Azure virtual machine named VM1 and a Recovery Services vault named Vault1.\n You create a backup policy named Policy1 as shown in the exhibit. (Click the Exhibit tab.)\n\n{{img:/exam-media/az-104/T6/0053600001.jpg}}\n\n You configure the backup of VM1 to use Policy1 on Thursday, January 1 at 1:00 AM.\n You need to identify the number of available recovery points for VM1.\n How many recovery points are available on January 8 and January 15? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T6/0053700001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T6.apkg #6",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T6/0053800001.jpg}}\nSource: Az-104 T6.apkg #6",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "Jan 8: 6"
+        text: "6"
       },
       {
         id: "B",
-        text: "Jan 8: 9"
+        text: "9"
       },
       {
         id: "C",
-        text: "Jan 15: 8"
+        text: "8"
       },
       {
         id: "D",
-        text: "Jan 15: 17"
+        text: "17"
       },
       {
         id: "E",
-        text: "Jan 15: 5"
+        text: "5"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "Jan 8"
+      },
+      {
+        id: "t2",
+        text: "Jan 15"
       }
     ],
     correct: [
-      "A",
-      "C"
+      "t1:A",
+      "t2:C"
     ]
   },
   {
-    id: 488,
+    id: 483,
     number: 7,
     topic: "Topic 6",
-    prompt: "You have the web apps shown in the following table.\n\n[Image: 0053900001.png]\n\n You need to monitor the performance and usage of the apps by using Azure Application Insights. The solution must minimize modifications to the application code.\n What should you do on each app? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0054000001.png]",
+    prompt: "You have the web apps shown in the following table.\n\n{{img:/exam-media/az-104/T6/0053900001.png}}\n\n You need to monitor the performance and usage of the apps by using Azure Application Insights. The solution must minimize modifications to the application code.\n What should you do on each app? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T6/0054000001.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T6.apkg #7",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T6/0054100001.png}}\nSource: Az-104 T6.apkg #7",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "App1: Install the Application Insights Agent"
+        text: "Install the Application Insights Agent"
       },
       {
         id: "B",
-        text: "App2: Install the Application Insights Agent"
+        text: "Install the Application Insights Agent"
       },
       {
         id: "C",
-        text: "App1: Install the Azure Monitor agent"
+        text: "Install the Azure Monitor agent"
       },
       {
         id: "D",
-        text: "App2: Install the Application Insights SDK"
+        text: "Install the Application Insights SDK"
       },
       {
         id: "E",
-        text: "App1: Install the Application Insights SDK"
+        text: "Install the Application Insights SDK"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "App1"
+      },
+      {
+        id: "t2",
+        text: "App2"
       }
     ],
     correct: [
-      "A",
-      "B"
+      "t1:A",
+      "t2:B"
     ]
   },
   {
-    id: 489,
+    id: 484,
     number: 8,
     topic: "Topic 6",
     prompt: "You have an Azure virtual machine named VM1.\n You use Azure Backup to create a backup of VM1 named Backup1.\n After creating Backup1, you perform the following changes to VM1:\n ✑ Modify the size of VM1.\n ✑ Copy a file named Budget.xls to a folder named Data.\n ✑ Reset the password for the built-in administrator account.\n ✑ Add a data disk to VM1.\n An administrator uses the Replace existing option to restore VM1 from Backup1.\n You need to ensure that all the changes to VM1 are restored.\n Which change should you perform again?",
@@ -14395,11 +15131,11 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 490,
+    id: 485,
     number: 9,
     topic: "Topic 6",
-    prompt: "You have an Azure Active Directory (Azure AD) tenant named contoso.onmicrosoft.com that contains the users shown in the following table.\n\n[Image: 0054300001.png]\n\n You enable password reset for contoso.onmicrosoft.com as shown in the Password Reset exhibit. (Click the Password Reset tab.)\n\n[Image: 0054300002.png]\n\n You configure the authentication methods for password reset as shown in the Authentication Methods exhibit. (Click the Authentication Methods tab.)\n\n[Image: 0054400001.png]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
-    keySource: "domain",
+    prompt: "You have an Azure Active Directory (Azure AD) tenant named contoso.onmicrosoft.com that contains the users shown in the following table.\n\n{{img:/exam-media/az-104/T6/0054300001.png}}\n\n You enable password reset for contoso.onmicrosoft.com as shown in the Password Reset exhibit. (Click the Password Reset tab.)\n\n{{img:/exam-media/az-104/T6/0054300002.png}}\n\n You configure the authentication methods for password reset as shown in the Authentication Methods exhibit. (Click the Authentication Methods tab.)\n\n{{img:/exam-media/az-104/T6/0054400001.png}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
+    keySource: "source",
     explanation: "Source: Az-104 T6.apkg #9",
     type: "hotspot-boolean",
     statements: [
@@ -14421,7 +15157,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 491,
+    id: 486,
     number: 10,
     topic: "Topic 6",
     prompt: "Your company has a main office in London that contains 100 client computers.\n Three years ago, you migrated to Azure Active Directory (Azure AD).\n The company's security policy states that all personal devices and corporate-owned devices must be registered or joined to Azure AD.\n A remote user named User1 is unable to join a personal device to Azure AD from a home network.\n You verify that User1 was able to join devices to Azure AD in the past.\n You need to ensure that User1 can join the device to Azure AD.\n What should you do?",
@@ -14451,10 +15187,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 492,
+    id: 487,
     number: 11,
     topic: "Topic 6",
-    prompt: "You have two Azure App Service app named App1 and App2. Each app has a production deployment slot and a test deployment slot.\n The Backup Configuration settings for the production slots are shown in the following table.\n\n[Image: 0054700001.png]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.\n Hot Area:",
+    prompt: "You have two Azure App Service app named App1 and App2. Each app has a production deployment slot and a test deployment slot.\n The Backup Configuration settings for the production slots are shown in the following table.\n\n{{img:/exam-media/az-104/T6/0054700001.png}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.\n Hot Area:",
     keySource: "source",
     explanation: "Source: Az-104 T6.apkg #11",
     type: "hotspot-boolean",
@@ -14477,36 +15213,36 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 493,
+    id: 488,
     number: 12,
     topic: "Topic 6",
-    prompt: "You have an Azure subscription that contains an Azure Active Directory (Azure AD) tenant named contoso.com. The tenant is synced to the on-premises Active\n Directory domain. The domain contains the users shown in the following table.\n\n[Image: 0054900001.png]\n\n You enable self-service password reset (SSPR) for all users and configure SSPR to have the following authentication methods:\n ✑ Number of methods required to reset: 2\n ✑ Methods available to users: Mobile phone, Security questions\n ✑ Number of questions required to register: 3\n ✑ Number of questions required to reset: 3\n You select the following security questions:\n ✑ What is your favorite food?\n ✑ In what city was your first job?\n ✑ What was the name of your first pet?",
+    prompt: "You have an Azure subscription that contains an Azure Active Directory (Azure AD) tenant named contoso.com. The tenant is synced to the on-premises Active\n Directory domain. The domain contains the users shown in the following table.\n\n{{img:/exam-media/az-104/T6/0054900001.png}}\n\n You enable self-service password reset (SSPR) for all users and configure SSPR to have the following authentication methods:\n ✑ Number of methods required to reset: 2\n ✑ Methods available to users: Mobile phone, Security questions\n ✑ Number of questions required to register: 3\n ✑ Number of questions required to reset: 3\n You select the following security questions:\n ✑ What is your favorite food?\n ✑ In what city was your first job?\n ✑ What was the name of your first pet?",
     keySource: "source",
     explanation: "Source: Az-104 T6.apkg #12",
-    type: "single",
-    options: [
+    type: "hotspot-boolean",
+    statements: [
       {
-        id: "A",
-        text: "SecAdmin1 must answer the following question during the self-service password reset: In what city was your first job?"
+        id: "s1",
+        text: "SecAdmin1 must answer the following question during the self-service password reset: In what city was your first job?",
+        answer: false
       },
       {
-        id: "B",
-        text: "BillAdmin1 must answer the following question during the self-service password reset: What is you favorite food?"
+        id: "s2",
+        text: "BillAdmin1 must answer the following question during the self-service password reset: What is you favorite food?",
+        answer: false
       },
       {
-        id: "C",
-        text: "User1 must answer the following question during the self-service password reset: What was the name of your first pet?"
+        id: "s3",
+        text: "User1 must answer the following question during the self-service password reset: What was the name of your first pet?",
+        answer: true
       }
-    ],
-    correct: [
-      "C"
     ]
   },
   {
-    id: 494,
+    id: 489,
     number: 13,
     topic: "Topic 6",
-    prompt: "You have an Azure subscription that contains the following users in an Azure Active Directory tenant named contoso.onmicrosoft.com:\n\n[Image: 0055100001.png]\n\n User1 creates a new Azure Active Directory tenant named external.contoso.onmicrosoft.com.\n You need to create new user accounts in external.contoso.onmicrosoft.com.\n Solution: You instruct User1 to create the user accounts.\n Does that meet the goal?",
+    prompt: "You have an Azure subscription that contains the following users in an Azure Active Directory tenant named contoso.onmicrosoft.com:\n\n{{img:/exam-media/az-104/T6/0055100001.png}}\n\n User1 creates a new Azure Active Directory tenant named external.contoso.onmicrosoft.com.\n You need to create new user accounts in external.contoso.onmicrosoft.com.\n Solution: You instruct User1 to create the user accounts.\n Does that meet the goal?",
     keySource: "source",
     explanation: "Source: Az-104 T6.apkg #13",
     type: "single",
@@ -14525,7 +15261,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 495,
+    id: 490,
     number: 14,
     topic: "Topic 6",
     prompt: "You have an existing Azure subscription that contains 10 virtual machines.\n You need to monitor the latency between your on-premises network and the virtual machines.\n What should you use?",
@@ -14555,13 +15291,13 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 496,
+    id: 491,
     number: 15,
     topic: "Topic 6",
-    prompt: "You have an Azure App Service plan named ASP1.\n CPU usage for ASP1 is shown in the following exhibit.\n\n[Image: 0055300001.jpg]\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0055400001.png]",
+    prompt: "You have an Azure App Service plan named ASP1.\n CPU usage for ASP1 is shown in the following exhibit.\n\n{{img:/exam-media/az-104/T6/0055300001.jpg}}\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T6/0055400001.png}}",
     keySource: "source",
     explanation: "Source: Az-104 T6.apkg #15",
-    type: "multiple",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
@@ -14584,19 +15320,29 @@ export const az104Questions: Question[] = [
         text: "scaled down"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      }
+    ],
     correct: [
-      "B",
-      "D"
+      "t1:B",
+      "t2:D"
     ]
   },
   {
-    id: 497,
+    id: 492,
     number: 16,
     topic: "Topic 6",
-    prompt: "You have an Azure Linux virtual machine that is protected by Azure Backup.\n One week ago, two files were deleted from the virtual machine.\n You need to restore the deleted files to an on-premises Windows Server 2016 computer as quickly as possible.\n Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.\n Select and Place:\n\n[Image: 0055700001.png]",
+    prompt: "You have an Azure Linux virtual machine that is protected by Azure Backup.\n One week ago, two files were deleted from the virtual machine.\n You need to restore the deleted files to an on-premises Windows Server 2016 computer as quickly as possible.\n Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.\n Select and Place:\n\n{{img:/exam-media/az-104/T6/0055700001.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T6.apkg #16",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T6/0055800001.png}}\nSource: Az-104 T6.apkg #16",
+    type: "drag-drop",
     options: [
       {
         id: "A",
@@ -14619,21 +15365,39 @@ export const az104Questions: Question[] = [
         text: "From Azure portal, click Restore VM from the vault"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      },
+      {
+        id: "t3",
+        text: "Blank 3"
+      },
+      {
+        id: "t4",
+        text: "Blank 4"
+      }
+    ],
     correct: [
-      "A",
-      "B",
-      "C",
-      "D"
+      "t1:A",
+      "t2:B",
+      "t3:C",
+      "t4:D"
     ]
   },
   {
-    id: 498,
+    id: 493,
     number: 17,
     topic: "Topic 6",
-    prompt: "You purchase a new Azure subscription named Subscription1.\n You create a virtual machine named VM1 in Subscription1. VM1 is not protected by Azure Backup.\n You need to protect VM1 by using Azure Backup. Backups must be created at 01:00 and stored for 30 days.\n What should you do? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0056200001.jpg]",
+    prompt: "You purchase a new Azure subscription named Subscription1.\n You create a virtual machine named VM1 in Subscription1. VM1 is not protected by Azure Backup.\n You need to protect VM1 by using Azure Backup. Backups must be created at 01:00 and stored for 30 days.\n What should you do? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T6/0056200001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T6.apkg #17",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T6/0056300001.jpg}}\nSource: Az-104 T6.apkg #17",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
@@ -14656,13 +15420,23 @@ export const az104Questions: Question[] = [
         text: "Box2: batch job"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      }
+    ],
     correct: [
-      "A",
-      "B"
+      "t1:A",
+      "t2:B"
     ]
   },
   {
-    id: 499,
+    id: 494,
     number: 18,
     topic: "Topic 6",
     prompt: "You have an Azure virtual machine named VM1.\n Azure collects events from VM1.\n You are creating an alert rule in Azure Monitor to notify an administrator when an error is logged in the System event log of VM1.\n Which target resource should you monitor in the alert rule?",
@@ -14692,7 +15466,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 500,
+    id: 495,
     number: 19,
     topic: "Topic 6",
     prompt: "You have an Azure subscription that contains 100 virtual machines.\n You regularly create and delete virtual machines.\n You need to identify unattached disks that can be deleted.\n What should you do?",
@@ -14722,7 +15496,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 501,
+    id: 496,
     number: 20,
     topic: "Topic 6",
     prompt: "You have an Azure web app named webapp1.\n Users report that they often experience HTTP 500 errors when they connect to webapp1.\n You need to provide the developers of webapp1 with real-time access to the connection errors. The solution must provide all the connection error details.\n What should you do first?",
@@ -14752,7 +15526,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 502,
+    id: 497,
     number: 21,
     topic: "Topic 6",
     prompt: "You have an Azure web app named App1.\n You need to monitor the availability of App1 by using a multi-step web test.\n What should you use in Azure Monitor?",
@@ -14782,13 +15556,13 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 503,
+    id: 498,
     number: 22,
     topic: "Topic 6",
-    prompt: "You have an Azure subscription that has diagnostic logging enabled and is configured to send logs to a Log Analytics workspace.\n You are investigating a service outage.\n You need to view the event time, the event name, and the affected resources.\n How should you complete the query? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0056700001.jpg]",
+    prompt: "You have an Azure subscription that has diagnostic logging enabled and is configured to send logs to a Log Analytics workspace.\n You are investigating a service outage.\n You need to view the event time, the event name, and the affected resources.\n How should you complete the query? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T6/0056700001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T6.apkg #22",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T6/0056800001.jpg}}\nSource: Az-104 T6.apkg #22",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
@@ -14811,13 +15585,23 @@ export const az104Questions: Question[] = [
         text: "| join"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      }
+    ],
     correct: [
-      "A",
-      "D"
+      "t1:A",
+      "t2:D"
     ]
   },
   {
-    id: 504,
+    id: 499,
     number: 23,
     topic: "Topic 6",
     prompt: "You have a Recovery Services vault named RSV1. RSV1 has a backup policy that retains instant snapshots for five days and daily backup for 14 days.\n RSV1 performs daily backups of VM1. VM1 hosts a static website that was updated eight days ago.\n You need to recover VM1 to a point eight days ago. The solution must minimize downtime.\n What should you do first?",
@@ -14847,82 +15631,102 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 505,
+    id: 500,
     number: 24,
     topic: "Topic 6",
-    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n[Image: 0057000001.png]\n\n You plan to create a data collection rule named DCR1 in Azure Monitor.\n Which resources can you set as data sources in DCR1, and which resources can you set as destinations in DCR1? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0057100001.jpg]",
+    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T6/0057000001.png}}\n\n You plan to create a data collection rule named DCR1 in Azure Monitor.\n Which resources can you set as data sources in DCR1, and which resources can you set as destinations in DCR1? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T6/0057100001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T6.apkg #24",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T6/0057200001.jpg}}\nSource: Az-104 T6.apkg #24",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "Data sources: VM1 only"
+        text: "VM1 only"
       },
       {
         id: "B",
-        text: "Destinations: Workspace1 only"
+        text: "Workspace1 only"
       },
       {
         id: "C",
-        text: "Data sources: VM1 and storage1 only"
+        text: "VM1 and storage1 only"
       },
       {
         id: "D",
-        text: "Data sources: VM1, storage1 and DB1 only"
+        text: "VM1, storage1 and DB1 only"
       },
       {
         id: "E",
-        text: "Destinations: Workspace1 and storage1 only"
+        text: "Workspace1 and storage1 only"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "Data sources"
+      },
+      {
+        id: "t2",
+        text: "Destinations"
       }
     ],
     correct: [
-      "A",
-      "B"
+      "t1:A",
+      "t2:B"
     ]
   },
   {
-    id: 506,
+    id: 501,
     number: 25,
     topic: "Topic 6",
-    prompt: "You have the role assignment file shown in the following exhibit.\n\n[Image: 0057300001.png]\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0057400001.png]",
+    prompt: "You have the role assignment file shown in the following exhibit.\n\n{{img:/exam-media/az-104/T6/0057300001.png}}\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T6/0057400001.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T6.apkg #25",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T6/0057500001.jpg}}\nSource: Az-104 T6.apkg #25",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "Box1: User1 and User3 are"
+        text: "User1 and User3 are"
       },
       {
         id: "B",
-        text: "Box1: User3 and User4 are"
+        text: "User3 and User4 are"
       },
       {
         id: "C",
-        text: "Box2: User1 and User4"
+        text: "User1 and User4"
       },
       {
         id: "D",
-        text: "Box2: User1, User2 and USer4"
+        text: "User1, User2 and USer4"
       },
       {
         id: "E",
-        text: "Box2: User1,User2, User3 and User4"
+        text: "User1,User2, User3 and User4"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "Box1"
+      },
+      {
+        id: "t2",
+        text: "Box2"
       }
     ],
     correct: [
-      "A",
-      "C"
+      "t1:A",
+      "t2:C"
     ]
   },
   {
-    id: 507,
+    id: 502,
     number: 26,
     topic: "Topic 6",
-    prompt: "You have the following custom role-based access control (RBAC) role.\n\n[Image: 0057600001.png]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
+    prompt: "You have the following custom role-based access control (RBAC) role.\n\n{{img:/exam-media/az-104/T6/0057600001.png}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source: Az-104 T6.apkg #26",
+    explanation: "{{img:/exam-media/az-104/T6/image946.png}}\nSource: Az-104 T6.apkg #26",
     type: "hotspot-boolean",
     statements: [
       {
@@ -14943,10 +15747,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 508,
+    id: 503,
     number: 27,
     topic: "Topic 6",
-    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n[Image: 0057800001.png]\n\n NSG1 is configured as shown in the following exhibit.\n\n[Image: 0057800002.jpg]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
+    prompt: "You have an Azure subscription that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T6/0057800001.png}}\n\n NSG1 is configured as shown in the following exhibit.\n\n{{img:/exam-media/az-104/T6/0057800002.jpg}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
     explanation: "Source: Az-104 T6.apkg #27",
     type: "hotspot-boolean",
@@ -14969,7 +15773,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 509,
+    id: 504,
     number: 28,
     topic: "Topic 6",
     prompt: "You have an Azure subscription named Subscription1 that contains two Azure virtual networks named VNet1 and VNet2. VNet1 contains a VPN gateway named\n VPNGW1 that uses static routing. There is a site-to-site VPN connection between your on-premises network and VNet1.\n On a computer named Client1 that runs Windows 10, you configure a point-to-site VPN connection to VNet1.\n You configure virtual network peering between VNet1 and VNet2. You verify that you can connect to VNet2 from the on-premises network. Client1 is unable to connect to VNet2.\n You need to ensure that you can connect Client1 to VNet2.\n What should you do?",
@@ -14999,33 +15803,33 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 510,
+    id: 505,
     number: 29,
     topic: "Topic 6",
-    prompt: "You have two Azure subscriptions named Sub1 and Sub2. Sub1 is in a management group named MG1. Sub2 is in a management group named MG2.\n You have the resource groups shown in the following table.\n\n[Image: 0058000001.png]\n\n You have the virtual machines shown in the following table.\n\n[Image: 0058100001.png]\n\n You assign roles to users as shown in the following table.\n\n[Image: 0058100002.png]",
-    keySource: "domain",
+    prompt: "You have two Azure subscriptions named Sub1 and Sub2. Sub1 is in a management group named MG1. Sub2 is in a management group named MG2.\n You have the resource groups shown in the following table.\n\n{{img:/exam-media/az-104/T6/0058000001.png}}\n\n You have the virtual machines shown in the following table.\n\n{{img:/exam-media/az-104/T6/0058100001.png}}\n\n You assign roles to users as shown in the following table.\n\n{{img:/exam-media/az-104/T6/0058100002.png}}",
+    keySource: "source",
     explanation: "Source: Az-104 T6.apkg #29",
-    type: "single",
-    options: [
+    type: "hotspot-boolean",
+    statements: [
       {
-        id: "A",
-        text: "User1 can sign in to VM1"
+        id: "s1",
+        text: "User1 can sign in to VM1",
+        answer: false
       },
       {
-        id: "B",
-        text: "User2 can manage disks and disk snapshots of VM1"
+        id: "s2",
+        text: "User2 can manage disks and disk snapshots of VM1",
+        answer: false
       },
       {
-        id: "C",
-        text: "User2 can manage disks and disk Snapshots of VM3"
+        id: "s3",
+        text: "User2 can manage disks and disk Snapshots of VM3",
+        answer: false
       }
-    ],
-    correct: [
-      "A"
     ]
   },
   {
-    id: 511,
+    id: 506,
     number: 30,
     topic: "Topic 6",
     prompt: "You have an Azure Active Directory (Azure AD) tenant that is linked to 10 Azure subscriptions.\n You need to centrally monitor user activity across all the subscriptions.\n What should you use?",
@@ -15055,13 +15859,13 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 512,
+    id: 507,
     number: 31,
     topic: "Topic 6",
-    prompt: "You have an Azure subscription that contains a virtual machine name VM1.\n VM1 has an operating system disk named Disk1 and a data disk named Disk2.\n You need to back up Disk2 by using Azure Backup.\n Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.\n Select and Place:\n\n[Image: 0058400001.jpg]",
+    prompt: "You have an Azure subscription that contains a virtual machine name VM1.\n VM1 has an operating system disk named Disk1 and a data disk named Disk2.\n You need to back up Disk2 by using Azure Backup.\n Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.\n Select and Place:\n\n{{img:/exam-media/az-104/T6/0058400001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T6.apkg #31",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T6/0058400002.jpg}}\nSource: Az-104 T6.apkg #31",
+    type: "drag-drop",
     options: [
       {
         id: "A",
@@ -15084,14 +15888,28 @@ export const az104Questions: Question[] = [
         text: "Delegate permissions for the vault"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      },
+      {
+        id: "t3",
+        text: "Blank 3"
+      }
+    ],
     correct: [
-      "A",
-      "B",
-      "C"
+      "t1:A",
+      "t2:B",
+      "t3:C"
     ]
   },
   {
-    id: 513,
+    id: 508,
     number: 32,
     topic: "Topic 6",
     prompt: "You have a subnet named Subnet1 that contains Azure virtual machines. A network security group (NSG) named NSG1 is associated to Subnet1. NSG1 only contains the default rules.\n You need to create a rule in NSG1 to prevent the hosts on Subnet1 form connecting to the Azure portal. The hosts must be able to connect to other internet hosts.\n To what should you set Destination in the rule?",
@@ -15121,7 +15939,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 514,
+    id: 509,
     number: 34,
     topic: "Topic 6",
     prompt: "You have an Azure App Service web app named App1.\n You need to collect performance traces for App1.\n What should you use?",
@@ -15151,10 +15969,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 515,
+    id: 510,
     number: 35,
     topic: "Topic 6",
-    prompt: "You have an Azure subscription that contains the storage accounts shown in the following table.\n\n[Image: image618.png]\n\n You deploy a web app named App1 to the West US Azure region.\n\n You need to back up App1. The solution must minimize costs.\n\n Which storage account should you use as the target for the backup?",
+    prompt: "You have an Azure subscription that contains the storage accounts shown in the following table.\n\n{{img:/exam-media/az-104/T6/image618.png}}\n\n You deploy a web app named App1 to the West US Azure region.\n\n You need to back up App1. The solution must minimize costs.\n\n Which storage account should you use as the target for the backup?",
     keySource: "source",
     explanation: "Source: Az-104 T6.apkg #35",
     type: "single",
@@ -15181,12 +15999,12 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 516,
+    id: 511,
     number: 36,
     topic: "Topic 6",
-    prompt: "You have an Azure subscription that is linked to an Azure AD tenant. The tenant contains two users named User1 and User2.\n\n The subscription contains the resources shown in the following table.\n\n[Image: image619.png]\n\n The subscription contains the alert rules shown in the following table.\n\n[Image: image620.png]\n\n The users perform the following action:\n\n • User1 creates a new virtual disk and attaches the disk to VM1\n • User2 creates a new resource tag and assigns the tag to RG1 and VM1\n\n Which alert rules are triggered by each user? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.\n\n[Image: image621.png]",
+    prompt: "You have an Azure subscription that is linked to an Azure AD tenant. The tenant contains two users named User1 and User2.\n\n The subscription contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T6/image619.png}}\n\n The subscription contains the alert rules shown in the following table.\n\n{{img:/exam-media/az-104/T6/image620.png}}\n\n The users perform the following action:\n\n • User1 creates a new virtual disk and attaches the disk to VM1\n • User2 creates a new resource tag and assigns the tag to RG1 and VM1\n\n Which alert rules are triggered by each user? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.\n\n{{img:/exam-media/az-104/T6/image621.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T6.apkg #36",
+    explanation: "{{img:/exam-media/az-104/T6/image949.png}}\nSource: Az-104 T6.apkg #36",
     type: "multiple",
     options: [
       {
@@ -15216,7 +16034,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 517,
+    id: 512,
     number: 37,
     topic: "Topic 6",
     prompt: "You have an Azure subscription that contains multiple virtual machines in the West US Azure region.\n\n You need to use Traffic Analytics in Azure Network Watcher to monitor virtual machine traffic.\n\n Which two resources should you create? Each correct answer presents part of the solution.",
@@ -15251,10 +16069,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 518,
+    id: 513,
     number: 38,
     topic: "Topic 6",
-    prompt: "You have an Azure subscription that contains eight virtual machines and the resources shown in the following table.\n\n[Image: image623.png]\n\n You need to configure access for VNET1. The solution must meet the following requirements:\n\n • The virtual machines connected to VNET1 must be able to communicate with the virtual machines connected to VNET2 by using the Microsoft backbone.\n • The virtual machines connected to VNET1 must be able to access storage1, storage2, and Azure AD by using the Microsoft backbone.\n\n What is the minimum number of service endpoints you should add to VNET1?",
+    prompt: "You have an Azure subscription that contains eight virtual machines and the resources shown in the following table.\n\n{{img:/exam-media/az-104/T6/image623.png}}\n\n You need to configure access for VNET1. The solution must meet the following requirements:\n\n • The virtual machines connected to VNET1 must be able to communicate with the virtual machines connected to VNET2 by using the Microsoft backbone.\n • The virtual machines connected to VNET1 must be able to access storage1, storage2, and Azure AD by using the Microsoft backbone.\n\n What is the minimum number of service endpoints you should add to VNET1?",
     keySource: "source",
     explanation: "Source: Az-104 T6.apkg #38",
     type: "single",
@@ -15281,7 +16099,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 519,
+    id: 514,
     number: 39,
     topic: "Topic 6",
     prompt: "You need to configure an Azure web app named contoso.azurewebsites.net to host www.contoso.com.\n\n What should you do first?",
@@ -15311,7 +16129,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 520,
+    id: 515,
     number: 40,
     topic: "Topic 6",
     prompt: "You have an Azure subscription that contains 10 network security groups (NSGs), 10 virtual machines, and a Log Analytics workspace named Workspace1. Each NSG is connected to a virtual machine.\n\n You need to configure an Azure Monitor Network Insights alert that will be triggered when suspicious network traffic is detected.\n\n What should you do first?",
@@ -15341,34 +16159,33 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 521,
+    id: 516,
     number: 41,
     topic: "Topic 6",
-    prompt: "You have an Azure subscription named Sub1 that contains the resources shown in the following table.\n\n[Image: image624.png]\n\n Sub1 contains the following alert rule:\n\n • Name: Alert1\n • Scope: All resource groups in Sub1\n o Include all future resources\n • Condition: All administrative operations\n • Actions: Action1\n\n Sub1 contains the following alert processing rule:\n\n • Name: Rule1\n • Scope: Sub1\n • Rule type: Suppress notifications\n • Apply the rule: On a specific time\n o Start: August 10, 2022\n o End: August 13, 2022",
+    prompt: "You have an Azure subscription named Sub1 that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T6/image624.png}}\n\n Sub1 contains the following alert rule:\n\n • Name: Alert1\n • Scope: All resource groups in Sub1\n o Include all future resources\n • Condition: All administrative operations\n • Actions: Action1\n\n Sub1 contains the following alert processing rule:\n\n • Name: Rule1\n • Scope: Sub1\n • Rule type: Suppress notifications\n • Apply the rule: On a specific time\n o Start: August 10, 2022\n o End: August 13, 2022",
     keySource: "source",
-    explanation: "Source: Az-104 T6.apkg #41",
-    type: "multiple",
-    options: [
+    explanation: "{{img:/exam-media/az-104/T6/image626.png}}\nSource: Az-104 T6.apkg #41",
+    type: "hotspot-boolean",
+    statements: [
       {
-        id: "A",
-        text: "If you create a resource group in Sub1 on August 11, 2022, Alert1 is listed in the Azure portal"
+        id: "s1",
+        text: "If you create a resource group in Sub1 on August 11, 2022, Alert1 is listed in the Azure portal",
+        answer: true
       },
       {
-        id: "B",
-        text: "If you create a resource group in Sub1 on August 12, 2022, an email is sent to admin1@contoso.com"
+        id: "s2",
+        text: "If you create a resource group in Sub1 on August 12, 2022, an email is sent to admin1@contoso.com",
+        answer: false
       },
       {
-        id: "C",
-        text: "If you add a tag to RG1 on August 15, 2022, an email is sent to admin1@contoso.com"
+        id: "s3",
+        text: "If you add a tag to RG1 on August 15, 2022, an email is sent to admin1@contoso.com",
+        answer: true
       }
-    ],
-    correct: [
-      "A",
-      "C"
     ]
   },
   {
-    id: 522,
+    id: 517,
     number: 42,
     topic: "Topic 6",
     prompt: "You have an Azure subscription that contains a storage account named storage1 in the North Europe Azure region.\n\n You need to ensure that when blob data is added to storage1, a secondary copy is created in the East US region. The solution must minimize administrative effort.\n\n What should you configure?",
@@ -15398,7 +16215,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 523,
+    id: 518,
     number: 43,
     topic: "Topic 6",
     prompt: "You have an Azure subscription that contains two Log Analytics workspaces named Workspace1 and Workspace2 and 100 virtual machines that run Windows Server.\n\n You need to collect performance data and events from the virtual machines. The solution must meet the following requirements:\n\n • Logs must be sent to Workspace1 and Workspace 2.\n • All Windows events must be captured.\n • All security events must be captured.\n\n What should you install and configure on each virtual machine?",
@@ -15424,7 +16241,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 524,
+    id: 519,
     number: 44,
     topic: "Topic 6",
     prompt: "You have an Azure subscription that contains a virtual machine named VM1 and an Azure function named App1.\n\n You need to create an alert rule that will run App1 if VM1 stops.\n\n What should you create for the alert rule?",
@@ -15454,7 +16271,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 525,
+    id: 520,
     number: 45,
     topic: "Topic 6",
     prompt: "You have an Azure subscription that contains a virtual network named VNet1.\n\n VNet1 uses two ExpressRoute circuits that connect to two separate on-premises datacenters.\n\n You need to create a dashboard to display detailed metrics and a visual representation of the network topology.\n\n What should you use?",
@@ -15484,7 +16301,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 526,
+    id: 521,
     number: 46,
     topic: "Topic 6",
     prompt: "You deploy Azure virtual machines to three Azure regions\n\n Each region contains a virtual network. Each virtual network contains multiple subnets peered in a full mesh topology.\n\n Each subnet contains a network security group (NSG) that has defined rules.\n\n A user reports that he cannot use port 33000 to connect from a virtual machine in one region to a virtual machine in another region.\n\n Which two options can you use to diagnose the issue? Each correct answer presents a complete solution.\n\n NOTE: Each correct selection is worth one point.",
@@ -15519,7 +16336,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 527,
+    id: 522,
     number: 47,
     topic: "Topic 6",
     prompt: "You have an Azure subscription.\n\n You need to receive an email alert when a resource lock is removed from any resource in the subscription.\n\n What should you use to create an activity log alert in Azure Monitor?",
@@ -15549,82 +16366,102 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 528,
+    id: 523,
     number: 48,
     topic: "Topic 6",
-    prompt: "You have an Azure subscription that contains the alerts shown in the following exhibit.\n\n[Image: image680.png]\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n\n NOTE: Each correct selection is worth one point.\n\n[Image: image681.png]",
+    prompt: "You have an Azure subscription that contains the alerts shown in the following exhibit.\n\n{{img:/exam-media/az-104/T6/image680.png}}\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n\n NOTE: Each correct selection is worth one point.\n\n{{img:/exam-media/az-104/T6/image681.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T6.apkg #48",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T6/image950.png}}\nSource: Az-104 T6.apkg #48",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "Alert1: cannot be changed"
+        text: "cannot be changed"
       },
       {
         id: "B",
-        text: "Alert2: cannot be changed"
+        text: "cannot be changed"
       },
       {
         id: "C",
-        text: "Alert1: can be changed to New or Acknowledged"
+        text: "can be changed to New or Acknowledged"
       },
       {
         id: "D",
-        text: "Alert2: can be changed to New or Acknowledged"
+        text: "can be changed to New or Acknowledged"
       },
       {
         id: "E",
-        text: "Alert1: can be changed to New only"
+        text: "can be changed to New only"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "Alert1"
+      },
+      {
+        id: "t2",
+        text: "Alert2"
       }
     ],
     correct: [
-      "C",
-      "D"
+      "t1:C",
+      "t2:D"
     ]
   },
   {
-    id: 529,
+    id: 524,
     number: 49,
     topic: "Topic 6",
-    prompt: "You create a Recovery Services vault backup policy named Policy1 as shown in the following exhibit:\n\n[Image: image752.png]\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n\n NOTE: Each correct selection is worth one point.\n\n[Image: image753.png]",
+    prompt: "You create a Recovery Services vault backup policy named Policy1 as shown in the following exhibit:\n\n{{img:/exam-media/az-104/T6/image752.png}}\n\n Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.\n\n NOTE: Each correct selection is worth one point.\n\n{{img:/exam-media/az-104/T6/image753.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T6.apkg #49",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T6/image754.png}}\nSource: Az-104 T6.apkg #49",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "March1: 30days"
+        text: "30days"
       },
       {
         id: "B",
-        text: "November1: 30days"
+        text: "30days"
       },
       {
         id: "C",
-        text: "March1: 36months"
+        text: "36months"
       },
       {
         id: "D",
-        text: "March1: 10years"
+        text: "10years"
       },
       {
         id: "E",
-        text: "November1: 36 months"
+        text: "36 months"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "March1"
+      },
+      {
+        id: "t2",
+        text: "November1"
       }
     ],
     correct: [
-      "D",
-      "E"
+      "t1:D",
+      "t2:E"
     ]
   },
   {
-    id: 530,
+    id: 525,
     number: 50,
     topic: "Topic 6",
-    prompt: "You have an Azure subscription that contains the vaults shown in the following table.\n\n[Image: image755.png]\n\n You deploy the virtual machines shown in the following table.\n\n[Image: image756.png]\n\n You have the backup policies shown in the following table.\n\n[Image: image757.png]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
+    prompt: "You have an Azure subscription that contains the vaults shown in the following table.\n\n{{img:/exam-media/az-104/T6/image755.png}}\n\n You deploy the virtual machines shown in the following table.\n\n{{img:/exam-media/az-104/T6/image756.png}}\n\n You have the backup policies shown in the following table.\n\n{{img:/exam-media/az-104/T6/image757.png}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source: Az-104 T6.apkg #50",
+    explanation: "{{img:/exam-media/az-104/T6/image759.png}}\nSource: Az-104 T6.apkg #50",
     type: "hotspot-boolean",
     statements: [
       {
@@ -15645,7 +16482,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 531,
+    id: 526,
     number: 51,
     topic: "Topic 6",
     prompt: "You have an Azure subscription. The subscription contains virtual machines that connect to a virtual network named VNet1.\n\n You plan to configure Azure Monitor for VM Insights.\n\n You need to ensure that all the virtual machines only communicate with Azure Monitor through VNet1.\n\n What should you create first?",
@@ -15675,12 +16512,12 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 532,
+    id: 527,
     number: 52,
     topic: "Topic 6",
-    prompt: "You have an Azure subscription that contains the vaults shown in the following table.\n\n[Image: image760.png]\n\n You create a storage account that contains the resources shown in the following table.\n\n[Image: image761.png]\n\n To which vault can you back up cont1 and share1? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct answer is worth one point.\n\n[Image: image762.png]",
+    prompt: "You have an Azure subscription that contains the vaults shown in the following table.\n\n{{img:/exam-media/az-104/T6/image760.png}}\n\n You create a storage account that contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T6/image761.png}}\n\n To which vault can you back up cont1 and share1? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct answer is worth one point.\n\n{{img:/exam-media/az-104/T6/image762.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T6.apkg #52",
+    explanation: "{{img:/exam-media/az-104/T6/image763.png}}\nSource: Az-104 T6.apkg #52",
     type: "multiple",
     options: [
       {
@@ -15710,7 +16547,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 533,
+    id: 528,
     number: 53,
     topic: "Topic 6",
     prompt: "You have an Azure subscription that contains an Azure Stream Analytics job named Job1.\n\n You need to monitor input events for Job1 to identify the number of events that were NOT processed.\n\n Which metric should you use?",
@@ -15740,7 +16577,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 534,
+    id: 529,
     number: 54,
     topic: "Topic 6",
     prompt: "You have an Azure subscription that contains an Azure SQL database named DB1.\n\n You plan to use Azure Monitor to monitor the performance of DB1. You must be able to run queries to analyze log data.\n\n Which destination should you configure in the Diagnostic settings of DB1?",
@@ -15766,7 +16603,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 535,
+    id: 530,
     number: 55,
     topic: "Topic 6",
     prompt: "You have an Azure subscription. The subscription contains virtual machines that run Windows Server.\n\n You have a data collection rule (DCR) named Rule1.\n\n You plan to use the Azure Monitor Agent to collect events from Windows System event logs.\n\n You only need to collect system events that have an ID of 1001.\n\n Which type of query should you use for the data source in Rule1?",
@@ -15792,7 +16629,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 536,
+    id: 531,
     number: 56,
     topic: "Topic 6",
     prompt: "You have an Azure subscription that contains a virtual machine named VM1.\n\n You have an on-premises datacenter that contains a domain controller named DC1. ExpressRoute is used to connect the on-premises datacenter to Azure.\n\n You need to use Connection Monitor to identify network latency between VM1 and DC1.\n\n What should you install on DC1?",
@@ -15822,7 +16659,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 537,
+    id: 532,
     number: 57,
     topic: "Topic 6",
     prompt: "You have an Azure subscription that has Traffic Analytics configured.\n\n You deploy a new virtual machine named VM1 that has the following settings:\n\n • Region: East US\n • Virtual network: VNet1\n • NIC network security group: NSG1\n\n You need to monitor VM1 traffic by using Traffic Analytics.\n\n Which settings should you configure?",
@@ -15852,7 +16689,7 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 538,
+    id: 533,
     number: 58,
     topic: "Topic 6",
     prompt: "You have an Azure subscription. The subscription contains 10 virtual machines that run Windows Server. Each virtual machine hosts a website in IIS and has the Azure Monitor Agent installed.\n\n You need to collect the IIS logs from each virtual machine and store them in a Log Analytics workspace.\n\n What should you configure first?",
@@ -15886,10 +16723,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 539,
+    id: 534,
     number: 59,
     topic: "Topic 6",
-    prompt: "You have an Azure subscription that contains two storage accounts named contoso101 and contoso102.\n\n The subscription contains the virtual machines shown in the following table.\n\n[Image: image794.png]\n\n VNet1 has service endpoints configured as shown in the Service endpoints exhibit. (Click the Service endpoints tab.)\n\n[Image: image795.png]\n\n The Microsoft.Storage service endpoint has the service endpoint policy shown in the Microsoft.Storage exhibit. (Click the Microsoft.Storage tab.)\n\n[Image: image796.png]\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
+    prompt: "You have an Azure subscription that contains two storage accounts named contoso101 and contoso102.\n\n The subscription contains the virtual machines shown in the following table.\n\n{{img:/exam-media/az-104/T6/image794.png}}\n\n VNet1 has service endpoints configured as shown in the Service endpoints exhibit. (Click the Service endpoints tab.)\n\n{{img:/exam-media/az-104/T6/image795.png}}\n\n The Microsoft.Storage service endpoint has the service endpoint policy shown in the Microsoft.Storage exhibit. (Click the Microsoft.Storage tab.)\n\n{{img:/exam-media/az-104/T6/image796.png}}\n\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
     explanation: "Source: Az-104 T6.apkg #59",
     type: "hotspot-boolean",
@@ -15912,12 +16749,12 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 540,
+    id: 535,
     number: 60,
     topic: "Topic 6",
-    prompt: "You have an Azure subscription that contains an Azure Backup vault named Backup1, a Recovery Services vault named Recovery1, and the resources shown in the following table.\n\n[Image: image879.png]\n\n You plan to back up the resources.\n\n Which resource can be backed up to Backup1, and which resource can be backed up to Recovery1? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.\n\n[Image: image880.png]",
+    prompt: "You have an Azure subscription that contains an Azure Backup vault named Backup1, a Recovery Services vault named Recovery1, and the resources shown in the following table.\n\n{{img:/exam-media/az-104/T6/image879.png}}\n\n You plan to back up the resources.\n\n Which resource can be backed up to Backup1, and which resource can be backed up to Recovery1? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.\n\n{{img:/exam-media/az-104/T6/image880.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T6.apkg #60",
+    explanation: "{{img:/exam-media/az-104/T6/image881.png}}\nSource: Az-104 T6.apkg #60",
     type: "multiple",
     options: [
       {
@@ -15947,12 +16784,12 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 541,
+    id: 536,
     number: 61,
     topic: "Topic 6",
-    prompt: "ADatum Corporation is consulting firm that has a main office in Montreal and branch offices in Seattle and New York.\n\n Existing Environment -\n\n Azure Environment -\n\n ADatum has an Azure subscription that contains three resource groups named RG1, RG2, and RG3.\n\n The subscription contains the storage accounts shown in the following table.\n\n[Image: image865.png]\n\n The subscription contains the virtual machines shown in the following table.\n\n[Image: image866.png]\n\n The subscription has an Azure container registry that contains the images shown in the following table.\n\n[Image: image867.png]\n\n The subscription contains the resources shown in the following table.\n\n[Image: image868.png]\n\n Azure Key Vault -\n\n The subscription contains an Azure key vault named Vault1.\n\n Vault1 contains the certificates shown in the following table.\n\n[Image: image869.png]\n\n Vault1 contains the keys shown in the following table.\n\n[Image: image870.png]\n\n Microsoft Entra Environment -\n\n ADatum has a Microsoft Entra tenant named adatum.com that is linked to the Azure subscription and contains the users shown in the following table.\n\n[Image: image871.png]\n\n The tenant contains the groups shown in the following table.\n\n[Image: image872.png]\n\n The adatum.com tenant has a custom security attribute named Attribute1.\n\n Planned Changes -\n\n ADatum plans to implement the following changes:\n\n • Configure a data collection rule (DCR) named DCR1 to collect only system events that have an event ID of 4648 from VM2 and VM4.\n • In storage1, create a new container named cont2 that has the following access policies: o Three stored access policies named Stored1, Stored2, and Stored3 o A legal hold for immutable blob storage\n • Whenever possible, use directories to organize storage account content.\n • Grant User1 the permissions required to link Zone1 to VNet1.\n • Assign Attribute1 to supported adatum.com resources.\n • In storage2, create an encryption scope named Scope1.\n • Deploy new containers by using Image1 or Image2.\n\n Technical Requirements -\n\n ADatum must meet the following technical requirements:\n\n • Use TLS for WebApp1.\n • Follow the principle of least privilege.\n • Grant permissions at the required scope only.\n • Ensure that Scope1 is used to encrypt storage services.\n • Use Azure Backup to back up cont1 and share1 as frequently as possible.\n • Whenever possible, use Azure Disk Encryption and a key encryption key (KEK) to encrypt the virtual machines.\n\n You need to configure Azure Backup to meet the technical requirements for cont1 and share1.\n\n To what should you set the backup frequency for each resource? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.\n\n[Image: image882.png]",
+    prompt: "ADatum Corporation is consulting firm that has a main office in Montreal and branch offices in Seattle and New York.\n\n Existing Environment -\n\n Azure Environment -\n\n ADatum has an Azure subscription that contains three resource groups named RG1, RG2, and RG3.\n\n The subscription contains the storage accounts shown in the following table.\n\n{{img:/exam-media/az-104/T6/image865.png}}\n\n The subscription contains the virtual machines shown in the following table.\n\n{{img:/exam-media/az-104/T6/image866.png}}\n\n The subscription has an Azure container registry that contains the images shown in the following table.\n\n{{img:/exam-media/az-104/T6/image867.png}}\n\n The subscription contains the resources shown in the following table.\n\n{{img:/exam-media/az-104/T6/image868.png}}\n\n Azure Key Vault -\n\n The subscription contains an Azure key vault named Vault1.\n\n Vault1 contains the certificates shown in the following table.\n\n{{img:/exam-media/az-104/T6/image869.png}}\n\n Vault1 contains the keys shown in the following table.\n\n{{img:/exam-media/az-104/T6/image870.png}}\n\n Microsoft Entra Environment -\n\n ADatum has a Microsoft Entra tenant named adatum.com that is linked to the Azure subscription and contains the users shown in the following table.\n\n{{img:/exam-media/az-104/T6/image871.png}}\n\n The tenant contains the groups shown in the following table.\n\n{{img:/exam-media/az-104/T6/image872.png}}\n\n The adatum.com tenant has a custom security attribute named Attribute1.\n\n Planned Changes -\n\n ADatum plans to implement the following changes:\n\n • Configure a data collection rule (DCR) named DCR1 to collect only system events that have an event ID of 4648 from VM2 and VM4.\n • In storage1, create a new container named cont2 that has the following access policies: o Three stored access policies named Stored1, Stored2, and Stored3 o A legal hold for immutable blob storage\n • Whenever possible, use directories to organize storage account content.\n • Grant User1 the permissions required to link Zone1 to VNet1.\n • Assign Attribute1 to supported adatum.com resources.\n • In storage2, create an encryption scope named Scope1.\n • Deploy new containers by using Image1 or Image2.\n\n Technical Requirements -\n\n ADatum must meet the following technical requirements:\n\n • Use TLS for WebApp1.\n • Follow the principle of least privilege.\n • Grant permissions at the required scope only.\n • Ensure that Scope1 is used to encrypt storage services.\n • Use Azure Backup to back up cont1 and share1 as frequently as possible.\n • Whenever possible, use Azure Disk Encryption and a key encryption key (KEK) to encrypt the virtual machines.\n\n You need to configure Azure Backup to meet the technical requirements for cont1 and share1.\n\n To what should you set the backup frequency for each resource? To answer, select the appropriate options in the answer area.\n\n NOTE: Each correct selection is worth one point.\n\n{{img:/exam-media/az-104/T6/image882.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T6.apkg #61",
+    explanation: "{{img:/exam-media/az-104/T6/image952.png}}\nSource: Az-104 T6.apkg #61",
     type: "multiple",
     options: [
       {
@@ -15982,13 +16819,13 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 542,
-    number: 542,
+    id: 537,
+    number: 537,
     topic: "Topic 7-16",
-    prompt: "Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso works with partner organizations to bring products to market.\n Contoso products are manufactured by using blueprint files that the company authors and maintains.\n\n Existing Environment -\n Currently, Contoso uses multiple types of servers for business operations, including the following:\n File servers\n Domain controllers\n Microsoft SQL Server servers\n Your network contains an Active Directory forest named contoso.com. All servers and client computers are joined to Active Directory.\n You have a public-facing application named App1. App1 is comprised of the following three tiers:\n A SQL database\n A web front end\n\n A processing middle tier -\n\n[Image: 0012700006.png]\n\n Each tier is comprised of five virtual machines. Users access the web front end by using HTTPS only.\n\n Requirements -\n\n Planned Changes -\n Contoso plans to implement the following changes to the infrastructure:\n Move all the tiers of App1 to Azure.\n Move the existing product blueprint files to Azure Blob storage.\n Create a hybrid directory to support an upcoming Microsoft 365 migration project.\n\n Technical Requirements -\n Contoso must meet the following technical requirements:\n Move all the virtual machines for App1 to Azure.\n Minimize the number of open ports between the App1 tiers.\n Ensure that all the virtual machines for App1 are protected by backups.\n Copy the blueprint files to Azure over the Internet.\n Ensure that the blueprint files are stored in the archive storage tier.\n Ensure that partner access to the blueprint files is secured and temporary.\n Prevent user passwords or hashes of passwords from being stored in Azure.\n Use unmanaged standard storage for the hard disks of the virtual machines.\n Ensure that when users join devices to Azure Active Directory (Azure AD), the users use a mobile phone to verify their identity.\n Minimize administrative effort whenever possible.\n\n User Requirements -\n Contoso identifies the following requirements for users:\n Ensure that only users who are part of a group named Pilot can join devices to Azure AD.\n Designate a new user named Admin1 as the service admin for the Azure subscription.\n Admin1 must receive email alerts regarding service outages.\n Ensure that a new user named User3 can create network objects for the Azure subscription.  Question  HOTSPOT -\n You need to configure the Device settings to meet the technical requirements and the user requirements.\n Which two settings should you modify? To answer, select the appropriate settings in the answer area.\n Hot Area:\n\n[Image: 0013000001.png]",
+    prompt: "Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso works with partner organizations to bring products to market.\n Contoso products are manufactured by using blueprint files that the company authors and maintains.\n\n Existing Environment -\n Currently, Contoso uses multiple types of servers for business operations, including the following:\n File servers\n Domain controllers\n Microsoft SQL Server servers\n Your network contains an Active Directory forest named contoso.com. All servers and client computers are joined to Active Directory.\n You have a public-facing application named App1. App1 is comprised of the following three tiers:\n A SQL database\n A web front end\n\n A processing middle tier -\n\n{{img:/exam-media/az-104/T7-T16/0012700006.png}}\n\n Each tier is comprised of five virtual machines. Users access the web front end by using HTTPS only.\n\n Requirements -\n\n Planned Changes -\n Contoso plans to implement the following changes to the infrastructure:\n Move all the tiers of App1 to Azure.\n Move the existing product blueprint files to Azure Blob storage.\n Create a hybrid directory to support an upcoming Microsoft 365 migration project.\n\n Technical Requirements -\n Contoso must meet the following technical requirements:\n Move all the virtual machines for App1 to Azure.\n Minimize the number of open ports between the App1 tiers.\n Ensure that all the virtual machines for App1 are protected by backups.\n Copy the blueprint files to Azure over the Internet.\n Ensure that the blueprint files are stored in the archive storage tier.\n Ensure that partner access to the blueprint files is secured and temporary.\n Prevent user passwords or hashes of passwords from being stored in Azure.\n Use unmanaged standard storage for the hard disks of the virtual machines.\n Ensure that when users join devices to Azure Active Directory (Azure AD), the users use a mobile phone to verify their identity.\n Minimize administrative effort whenever possible.\n\n User Requirements -\n Contoso identifies the following requirements for users:\n Ensure that only users who are part of a group named Pilot can join devices to Azure AD.\n Designate a new user named Admin1 as the service admin for the Azure subscription.\n Admin1 must receive email alerts regarding service outages.\n Ensure that a new user named User3 can create network objects for the Azure subscription.  Question  HOTSPOT -\n You need to configure the Device settings to meet the technical requirements and the user requirements.\n Which two settings should you modify? To answer, select the appropriate settings in the answer area.\n Hot Area:\n\n{{img:/exam-media/az-104/T7-T16/0013000001.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T7-T16.apkg",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T7-T16/0013100001.png}}\nSource: Az-104 T7-T16.apkg",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
@@ -16011,16 +16848,26 @@ export const az104Questions: Question[] = [
         text: "Require Mulit-Factor Auth to join devices: No"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      }
+    ],
     correct: [
-      "B",
-      "D"
+      "t1:B",
+      "t2:D"
     ]
   },
   {
-    id: 543,
-    number: 543,
+    id: 538,
+    number: 538,
     topic: "Topic 7-16",
-    prompt: "Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso works with partner organizations to bring products to market.\n Contoso products are manufactured by using blueprint files that the company authors and maintains.\n\n Existing Environment -\n Currently, Contoso uses multiple types of servers for business operations, including the following:\n File servers\n Domain controllers\n Microsoft SQL Server servers\n Your network contains an Active Directory forest named contoso.com. All servers and client computers are joined to Active Directory.\n You have a public-facing application named App1. App1 is comprised of the following three tiers:\n A SQL database\n A web front end\n\n A processing middle tier -\n\n[Image: 0012700006.png]\n\n Each tier is comprised of five virtual machines. Users access the web front end by using HTTPS only.\n\n Requirements -\n\n Planned Changes -\n Contoso plans to implement the following changes to the infrastructure:\n Move all the tiers of App1 to Azure.\n Move the existing product blueprint files to Azure Blob storage.\n Create a hybrid directory to support an upcoming Microsoft 365 migration project.\n\n Technical Requirements -\n Contoso must meet the following technical requirements:\n Move all the virtual machines for App1 to Azure.\n Minimize the number of open ports between the App1 tiers.\n Ensure that all the virtual machines for App1 are protected by backups.\n Copy the blueprint files to Azure over the Internet.\n Ensure that the blueprint files are stored in the archive storage tier.\n Ensure that partner access to the blueprint files is secured and temporary.\n Prevent user passwords or hashes of passwords from being stored in Azure.\n Use unmanaged standard storage for the hard disks of the virtual machines.\n Ensure that when users join devices to Azure Active Directory (Azure AD), the users use a mobile phone to verify their identity.\n Minimize administrative effort whenever possible.\n\n User Requirements -\n Contoso identifies the following requirements for users:\n Ensure that only users who are part of a group named Pilot can join devices to Azure AD.\n Designate a new user named Admin1 as the service admin for the Azure subscription.\n Admin1 must receive email alerts regarding service outages.\n Ensure that a new user named User3 can create network objects for the Azure subscription.  Question  You need to meet the user requirement for Admin1.\n What should you do?",
+    prompt: "Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso works with partner organizations to bring products to market.\n Contoso products are manufactured by using blueprint files that the company authors and maintains.\n\n Existing Environment -\n Currently, Contoso uses multiple types of servers for business operations, including the following:\n File servers\n Domain controllers\n Microsoft SQL Server servers\n Your network contains an Active Directory forest named contoso.com. All servers and client computers are joined to Active Directory.\n You have a public-facing application named App1. App1 is comprised of the following three tiers:\n A SQL database\n A web front end\n\n A processing middle tier -\n\n{{img:/exam-media/az-104/T7-T16/0012700006.png}}\n\n Each tier is comprised of five virtual machines. Users access the web front end by using HTTPS only.\n\n Requirements -\n\n Planned Changes -\n Contoso plans to implement the following changes to the infrastructure:\n Move all the tiers of App1 to Azure.\n Move the existing product blueprint files to Azure Blob storage.\n Create a hybrid directory to support an upcoming Microsoft 365 migration project.\n\n Technical Requirements -\n Contoso must meet the following technical requirements:\n Move all the virtual machines for App1 to Azure.\n Minimize the number of open ports between the App1 tiers.\n Ensure that all the virtual machines for App1 are protected by backups.\n Copy the blueprint files to Azure over the Internet.\n Ensure that the blueprint files are stored in the archive storage tier.\n Ensure that partner access to the blueprint files is secured and temporary.\n Prevent user passwords or hashes of passwords from being stored in Azure.\n Use unmanaged standard storage for the hard disks of the virtual machines.\n Ensure that when users join devices to Azure Active Directory (Azure AD), the users use a mobile phone to verify their identity.\n Minimize administrative effort whenever possible.\n\n User Requirements -\n Contoso identifies the following requirements for users:\n Ensure that only users who are part of a group named Pilot can join devices to Azure AD.\n Designate a new user named Admin1 as the service admin for the Azure subscription.\n Admin1 must receive email alerts regarding service outages.\n Ensure that a new user named User3 can create network objects for the Azure subscription.  Question  You need to meet the user requirement for Admin1.\n What should you do?",
     keySource: "source",
     explanation: "Source: Az-104 T7-T16.apkg",
     type: "single",
@@ -16047,48 +16894,58 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 544,
-    number: 544,
+    id: 539,
+    number: 539,
     topic: "Topic 7-16",
-    prompt: "General Overview -\n Contoso, Ltd. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York.\n\n Environment -\n\n Existing Environment -\n Contoso has an Azure subscription named Sub1 that is linked to an Azure Active Directory (Azure AD) tenant. The network contains an on-premises Active\n Directory domain that syncs to the Azure AD tenant.\n The Azure AD tenant contains the users shown in the following table.\n\n[Image: 0059200001.png]\n\n Sub1 contains two resource groups named RG1 and RG2 and the virtual networks shown in the following table.\n\n[Image: 0059200002.png]\n\n User1 manages the resources in RG1. User4 manages the resources in RG2.\n Sub1 contains virtual machines that run Windows Server 2019 as shown in the following table\n\n[Image: 0059200003.png]\n\n No network security groups (NSGs) are associated to the network interfaces or the subnets.\n Sub1 contains the storage accounts shown in the following table.\n\n[Image: 0059300001.png]\n\n Requirements -\n\n Planned Changes -\n Contoso plans to implement the following changes:\n Create a blob container named container1 and a file share named share1 that will use the Cool storage tier.\n Create a storage account named storage5 and configure storage replication for the Blob service.\n Create an NSG named NSG1 that will have the custom inbound security rules shown in the following table.\n\n[Image: 0059300005.png]\n\n Associate NSG1 to the network interface of VM1.\n Create an NSG named NSG2 that will have the custom outbound security rules shown in the following table.\n\n[Image: 0059300007.png]\n\n[Image: 0059400001.png]\n\n Associate NSG2 to VNET1/Subnet2.\n\n Technical Requirements -\n Contoso must meet the following technical requirements:\n Create container1 and share1.\n Use the principle of least privilege.\n Create an Azure AD security group named Group4.\n Back up the Azure file shares and virtual machines by using Azure Backup.\n Trigger an alert if VM1 or VM2 has less than 20 GB of free space on volume C.\n Enable User1 to create Azure policy definitions and User2 to assign Azure policies to RG1.\n Create an internal Basic Azure Load Balancer named LB1 and connect the load balancer to VNET1/Subnet1\n Enable flow logging for IP traffic from VM5 and retain the flow logs for a period of eight months.\n Whenever possible, grant Group4 Azure role-based access control (Azure RBAC) read-only permissions to the Azure file shares.  Question  HOTSPOT -\n You need to configure Azure Backup to back up the file shares and virtual machines.\n What is the minimum number of Recovery Services vaults and backup policies you should create? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0059500001.png]",
+    prompt: "General Overview -\n Contoso, Ltd. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York.\n\n Environment -\n\n Existing Environment -\n Contoso has an Azure subscription named Sub1 that is linked to an Azure Active Directory (Azure AD) tenant. The network contains an on-premises Active\n Directory domain that syncs to the Azure AD tenant.\n The Azure AD tenant contains the users shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0059200001.png}}\n\n Sub1 contains two resource groups named RG1 and RG2 and the virtual networks shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0059200002.png}}\n\n User1 manages the resources in RG1. User4 manages the resources in RG2.\n Sub1 contains virtual machines that run Windows Server 2019 as shown in the following table\n\n{{img:/exam-media/az-104/T7-T16/0059200003.png}}\n\n No network security groups (NSGs) are associated to the network interfaces or the subnets.\n Sub1 contains the storage accounts shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0059300001.png}}\n\n Requirements -\n\n Planned Changes -\n Contoso plans to implement the following changes:\n Create a blob container named container1 and a file share named share1 that will use the Cool storage tier.\n Create a storage account named storage5 and configure storage replication for the Blob service.\n Create an NSG named NSG1 that will have the custom inbound security rules shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0059300005.png}}\n\n Associate NSG1 to the network interface of VM1.\n Create an NSG named NSG2 that will have the custom outbound security rules shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0059300007.png}}\n\n{{img:/exam-media/az-104/T7-T16/0059400001.png}}\n\n Associate NSG2 to VNET1/Subnet2.\n\n Technical Requirements -\n Contoso must meet the following technical requirements:\n Create container1 and share1.\n Use the principle of least privilege.\n Create an Azure AD security group named Group4.\n Back up the Azure file shares and virtual machines by using Azure Backup.\n Trigger an alert if VM1 or VM2 has less than 20 GB of free space on volume C.\n Enable User1 to create Azure policy definitions and User2 to assign Azure policies to RG1.\n Create an internal Basic Azure Load Balancer named LB1 and connect the load balancer to VNET1/Subnet1\n Enable flow logging for IP traffic from VM5 and retain the flow logs for a period of eight months.\n Whenever possible, grant Group4 Azure role-based access control (Azure RBAC) read-only permissions to the Azure file shares.  Question  HOTSPOT -\n You need to configure Azure Backup to back up the file shares and virtual machines.\n What is the minimum number of Recovery Services vaults and backup policies you should create? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T7-T16/0059500001.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T7-T16.apkg",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T7-T16/0059600001.png}}\nSource: Az-104 T7-T16.apkg",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "Recovery Services vaults: 4"
+        text: "4"
       },
       {
         id: "B",
-        text: "Recovery Services vaults: 7"
+        text: "7"
       },
       {
         id: "C",
-        text: "Backup policies: 5"
+        text: "5"
       },
       {
         id: "D",
-        text: "Recovery Services vaults: 3"
+        text: "3"
       },
       {
         id: "E",
-        text: "Backup policies: 6"
+        text: "6"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "Recovery Services vaults"
+      },
+      {
+        id: "t2",
+        text: "Backup policies"
       }
     ],
     correct: [
-      "D",
-      "E"
+      "t1:D",
+      "t2:E"
     ]
   },
   {
-    id: 545,
-    number: 545,
+    id: 540,
+    number: 540,
     topic: "Topic 7-16",
-    prompt: "Contoso, Ltd. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York.\n\n Environment -\n\n Existing Environment -\n Contoso has an Azure subscription named Sub1 that is linked to an Azure Active Directory (Azure AD) tenant. The network contains an on-premises Active\n Directory domain that syncs to the Azure AD tenant.\n The Azure AD tenant contains the users shown in the following table.\n\n[Image: 0059200001.png]\n\n Sub1 contains two resource groups named RG1 and RG2 and the virtual networks shown in the following table.\n\n[Image: 0059200002.png]\n\n User1 manages the resources in RG1. User4 manages the resources in RG2.\n Sub1 contains virtual machines that run Windows Server 2019 as shown in the following table\n\n[Image: 0059200003.png]\n\n No network security groups (NSGs) are associated to the network interfaces or the subnets.\n Sub1 contains the storage accounts shown in the following table.\n\n[Image: 0059300001.png]\n\n Requirements -\n\n Planned Changes -\n Contoso plans to implement the following changes:\n Create a blob container named container1 and a file share named share1 that will use the Cool storage tier.\n Create a storage account named storage5 and configure storage replication for the Blob service.\n Create an NSG named NSG1 that will have the custom inbound security rules shown in the following table.\n\n[Image: 0059300005.png]\n\n Associate NSG1 to the network interface of VM1.\n Create an NSG named NSG2 that will have the custom outbound security rules shown in the following table.\n\n[Image: 0059300007.png]\n\n[Image: 0059400001.png]\n\n Associate NSG2 to VNET1/Subnet2.\n\n Technical Requirements -\n Contoso must meet the following technical requirements:\n Create container1 and share1.\n Use the principle of least privilege.\n Create an Azure AD security group named Group4.\n Back up the Azure file shares and virtual machines by using Azure Backup.\n Trigger an alert if VM1 or VM2 has less than 20 GB of free space on volume C.\n Enable User1 to create Azure policy definitions and User2 to assign Azure policies to RG1.\n Create an internal Basic Azure Load Balancer named LB1 and connect the load balancer to VNET1/Subnet1\n Enable flow logging for IP traffic from VM5 and retain the flow logs for a period of eight months.\n Whenever possible, grant Group4 Azure role-based access control (Azure RBAC) read-only permissions to the Azure file shares.  Question  DRAG DROP -\n You need to configure the alerts for VM1 and VM2 to meet the technical requirements.\n Which three actions should you perform in sequence? To answer, move all actions from the list of actions to the answer area and arrange them in the correct order.\n Select and Place:\n\n[Image: 0059800001.jpg]",
+    prompt: "Contoso, Ltd. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York.\n\n Environment -\n\n Existing Environment -\n Contoso has an Azure subscription named Sub1 that is linked to an Azure Active Directory (Azure AD) tenant. The network contains an on-premises Active\n Directory domain that syncs to the Azure AD tenant.\n The Azure AD tenant contains the users shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0059200001.png}}\n\n Sub1 contains two resource groups named RG1 and RG2 and the virtual networks shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0059200002.png}}\n\n User1 manages the resources in RG1. User4 manages the resources in RG2.\n Sub1 contains virtual machines that run Windows Server 2019 as shown in the following table\n\n{{img:/exam-media/az-104/T7-T16/0059200003.png}}\n\n No network security groups (NSGs) are associated to the network interfaces or the subnets.\n Sub1 contains the storage accounts shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0059300001.png}}\n\n Requirements -\n\n Planned Changes -\n Contoso plans to implement the following changes:\n Create a blob container named container1 and a file share named share1 that will use the Cool storage tier.\n Create a storage account named storage5 and configure storage replication for the Blob service.\n Create an NSG named NSG1 that will have the custom inbound security rules shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0059300005.png}}\n\n Associate NSG1 to the network interface of VM1.\n Create an NSG named NSG2 that will have the custom outbound security rules shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0059300007.png}}\n\n{{img:/exam-media/az-104/T7-T16/0059400001.png}}\n\n Associate NSG2 to VNET1/Subnet2.\n\n Technical Requirements -\n Contoso must meet the following technical requirements:\n Create container1 and share1.\n Use the principle of least privilege.\n Create an Azure AD security group named Group4.\n Back up the Azure file shares and virtual machines by using Azure Backup.\n Trigger an alert if VM1 or VM2 has less than 20 GB of free space on volume C.\n Enable User1 to create Azure policy definitions and User2 to assign Azure policies to RG1.\n Create an internal Basic Azure Load Balancer named LB1 and connect the load balancer to VNET1/Subnet1\n Enable flow logging for IP traffic from VM5 and retain the flow logs for a period of eight months.\n Whenever possible, grant Group4 Azure role-based access control (Azure RBAC) read-only permissions to the Azure file shares.  Question  DRAG DROP -\n You need to configure the alerts for VM1 and VM2 to meet the technical requirements.\n Which three actions should you perform in sequence? To answer, move all actions from the list of actions to the answer area and arrange them in the correct order.\n Select and Place:\n\n{{img:/exam-media/az-104/T7-T16/0059800001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T7-T16.apkg",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T7-T16/image953.png}}\nSource: Az-104 T7-T16.apkg",
+    type: "drag-drop",
     options: [
       {
         id: "A",
@@ -16111,52 +16968,76 @@ export const az104Questions: Question[] = [
         text: "Create an Azure SQL database"
       }
     ],
-    correct: [
-      "A",
-      "B",
-      "C"
-    ]
-  },
-  {
-    id: 546,
-    number: 546,
-    topic: "Topic 7-16",
-    prompt: "Contoso, Ltd. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York.\n\n Environment -\n\n Existing Environment -\n Contoso has an Azure subscription named Sub1 that is linked to an Azure Active Directory (Azure AD) tenant. The network contains an on-premises Active\n Directory domain that syncs to the Azure AD tenant.\n The Azure AD tenant contains the users shown in the following table.\n\n[Image: 0013400001.png]\n\n Sub1 contains two resource groups named RG1 and RG2 and the virtual networks shown in the following table.\n\n[Image: 0013400002.png]\n\n User1 manages the resources in RG1. User4 manages the resources in RG2.\n Sub1 contains virtual machines that run Windows Server 2019 as shown in the following table\n\n[Image: 0013400003-4fc5b1c920e47c737559fef1f0b8cdfc1b918ff9.png]\n\n No network security groups (NSGs) are associated to the network interfaces or the subnets.\n Sub1 contains the storage accounts shown in the following table.\n\n[Image: 0013500001.png]\n\n Requirements -\n\n Planned Changes -\n Contoso plans to implement the following changes:\n Create a blob container named container1 and a file share named share1 that will use the Cool storage tier.\n Create a storage account named storage5 and configure storage replication for the Blob service.\n Create an NSG named NSG1 that will have the custom inbound security rules shown in the following table.\n\n[Image: 0013500005.png]\n\n Associate NSG1 to the network interface of VM1.\n Create an NSG named NSG2 that will have the custom outbound security rules shown in the following table.\n\n[Image: 0013500007.png]\n\n[Image: 0013600001.png]\n\n Associate NSG2 to VNET1/Subnet2.\n\n Technical Requirements -\n Contoso must meet the following technical requirements:\n Create container1 and share1.\n Use the principle of least privilege.\n Create an Azure AD security group named Group4.\n Back up the Azure file shares and virtual machines by using Azure Backup.\n Trigger an alert if VM1 or VM2 has less than 20 GB of free space on volume C.\n Enable User1 to create Azure policy definitions and User2 to assign Azure policies to RG1.\n Create an internal Basic Azure Load Balancer named LB1 and connect the load balancer to VNET1/Subnet1\n Enable flow logging for IP traffic from VM5 and retain the flow logs for a period of eight months.\n Whenever possible, grant Group4 Azure role-based access control (Azure RBAC) read-only permissions to the Azure file shares.  Question  HOTSPOT -\n You need to ensure that User1 can create initiative definitions, and User4 can assign initiatives to RG2. The solution must meet the technical requirements.\n Which role should you assign to each user? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0013700001-939169390dd1165667d5505db90210d7ceb6ccde.png]",
-    keySource: "source",
-    explanation: "Source: Az-104 T7-T16.apkg",
-    type: "multiple",
-    options: [
+    targets: [
       {
-        id: "A",
-        text: "User1: Contributor for RG1"
+        id: "t1",
+        text: "Blank 1"
       },
       {
-        id: "B",
-        text: "User1: Contributor for Sub1"
+        id: "t2",
+        text: "Blank 2"
       },
       {
-        id: "C",
-        text: "User1: Resource Policy Contributor for Sub1"
-      },
-      {
-        id: "D",
-        text: "User4: Resource Policy Contributor for RG2"
-      },
-      {
-        id: "E",
-        text: "User4: Security Admin for Sub1"
+        id: "t3",
+        text: "Blank 3"
       }
     ],
     correct: [
-      "C",
-      "D"
+      "t1:A",
+      "t2:B",
+      "t3:C"
     ]
   },
   {
-    id: 547,
-    number: 547,
+    id: 541,
+    number: 541,
     topic: "Topic 7-16",
-    prompt: "General Overview -\n Contoso, Ltd. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York.\n\n Environment -\n\n Existing Environment -\n Contoso has an Azure subscription named Sub1 that is linked to an Azure Active Directory (Azure AD) tenant. The network contains an on-premises Active\n Directory domain that syncs to the Azure AD tenant.\n The Azure AD tenant contains the users shown in the following table.\n\n[Image: 0013400001.png]\n\n Sub1 contains two resource groups named RG1 and RG2 and the virtual networks shown in the following table.\n\n[Image: 0013400002.png]\n\n User1 manages the resources in RG1. User4 manages the resources in RG2.\n Sub1 contains virtual machines that run Windows Server 2019 as shown in the following table\n\n[Image: 0013400003-4fc5b1c920e47c737559fef1f0b8cdfc1b918ff9.png]\n\n No network security groups (NSGs) are associated to the network interfaces or the subnets.\n Sub1 contains the storage accounts shown in the following table.\n\n[Image: 0013500001.png]\n\n Requirements -\n\n Planned Changes -\n Contoso plans to implement the following changes:\n Create a blob container named container1 and a file share named share1 that will use the Cool storage tier.\n Create a storage account named storage5 and configure storage replication for the Blob service.\n Create an NSG named NSG1 that will have the custom inbound security rules shown in the following table.\n\n[Image: 0013500005.png]\n\n Associate NSG1 to the network interface of VM1.\n Create an NSG named NSG2 that will have the custom outbound security rules shown in the following table.\n\n[Image: 0013500007.png]\n\n[Image: 0013600001.png]\n\n Associate NSG2 to VNET1/Subnet2.\n\n Technical Requirements -\n Contoso must meet the following technical requirements:\n Create container1 and share1.\n Use the principle of least privilege.\n Create an Azure AD security group named Group4.\n Back up the Azure file shares and virtual machines by using Azure Backup.\n Trigger an alert if VM1 or VM2 has less than 20 GB of free space on volume C.\n Enable User1 to create Azure policy definitions and User2 to assign Azure policies to RG1.\n Create an internal Basic Azure Load Balancer named LB1 and connect the load balancer to VNET1/Subnet1\n Enable flow logging for IP traffic from VM5 and retain the flow logs for a period of eight months.\n Whenever possible, grant Group4 Azure role-based access control (Azure RBAC) read-only permissions to the Azure file shares.  Question  You need to ensure that you can grant Group4 Azure RBAC read only permissions to all the Azure file shares.\n What should you do?",
+    prompt: "Contoso, Ltd. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York.\n\n Environment -\n\n Existing Environment -\n Contoso has an Azure subscription named Sub1 that is linked to an Azure Active Directory (Azure AD) tenant. The network contains an on-premises Active\n Directory domain that syncs to the Azure AD tenant.\n The Azure AD tenant contains the users shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0013400001.png}}\n\n Sub1 contains two resource groups named RG1 and RG2 and the virtual networks shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0013400002.png}}\n\n User1 manages the resources in RG1. User4 manages the resources in RG2.\n Sub1 contains virtual machines that run Windows Server 2019 as shown in the following table\n\n{{img:/exam-media/az-104/T7-T16/0013400003-4fc5b1c920e47c737559fef1f0b8cdfc1b918ff9.png}}\n\n No network security groups (NSGs) are associated to the network interfaces or the subnets.\n Sub1 contains the storage accounts shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0013500001.png}}\n\n Requirements -\n\n Planned Changes -\n Contoso plans to implement the following changes:\n Create a blob container named container1 and a file share named share1 that will use the Cool storage tier.\n Create a storage account named storage5 and configure storage replication for the Blob service.\n Create an NSG named NSG1 that will have the custom inbound security rules shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0013500005.png}}\n\n Associate NSG1 to the network interface of VM1.\n Create an NSG named NSG2 that will have the custom outbound security rules shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0013500007.png}}\n\n{{img:/exam-media/az-104/T7-T16/0013600001.png}}\n\n Associate NSG2 to VNET1/Subnet2.\n\n Technical Requirements -\n Contoso must meet the following technical requirements:\n Create container1 and share1.\n Use the principle of least privilege.\n Create an Azure AD security group named Group4.\n Back up the Azure file shares and virtual machines by using Azure Backup.\n Trigger an alert if VM1 or VM2 has less than 20 GB of free space on volume C.\n Enable User1 to create Azure policy definitions and User2 to assign Azure policies to RG1.\n Create an internal Basic Azure Load Balancer named LB1 and connect the load balancer to VNET1/Subnet1\n Enable flow logging for IP traffic from VM5 and retain the flow logs for a period of eight months.\n Whenever possible, grant Group4 Azure role-based access control (Azure RBAC) read-only permissions to the Azure file shares.  Question  HOTSPOT -\n You need to ensure that User1 can create initiative definitions, and User4 can assign initiatives to RG2. The solution must meet the technical requirements.\n Which role should you assign to each user? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T7-T16/0013700001-939169390dd1165667d5505db90210d7ceb6ccde.png}}",
+    keySource: "source",
+    explanation: "{{img:/exam-media/az-104/T7-T16/0013800001.png}}\nSource: Az-104 T7-T16.apkg",
+    type: "hotspot-dropdown",
+    options: [
+      {
+        id: "A",
+        text: "Contributor for RG1"
+      },
+      {
+        id: "B",
+        text: "Contributor for Sub1"
+      },
+      {
+        id: "C",
+        text: "Resource Policy Contributor for Sub1"
+      },
+      {
+        id: "D",
+        text: "Resource Policy Contributor for RG2"
+      },
+      {
+        id: "E",
+        text: "Security Admin for Sub1"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "User1"
+      },
+      {
+        id: "t2",
+        text: "User4"
+      }
+    ],
+    correct: [
+      "t1:C",
+      "t2:D"
+    ]
+  },
+  {
+    id: 542,
+    number: 542,
+    topic: "Topic 7-16",
+    prompt: "General Overview -\n Contoso, Ltd. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York.\n\n Environment -\n\n Existing Environment -\n Contoso has an Azure subscription named Sub1 that is linked to an Azure Active Directory (Azure AD) tenant. The network contains an on-premises Active\n Directory domain that syncs to the Azure AD tenant.\n The Azure AD tenant contains the users shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0013400001.png}}\n\n Sub1 contains two resource groups named RG1 and RG2 and the virtual networks shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0013400002.png}}\n\n User1 manages the resources in RG1. User4 manages the resources in RG2.\n Sub1 contains virtual machines that run Windows Server 2019 as shown in the following table\n\n{{img:/exam-media/az-104/T7-T16/0013400003-4fc5b1c920e47c737559fef1f0b8cdfc1b918ff9.png}}\n\n No network security groups (NSGs) are associated to the network interfaces or the subnets.\n Sub1 contains the storage accounts shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0013500001.png}}\n\n Requirements -\n\n Planned Changes -\n Contoso plans to implement the following changes:\n Create a blob container named container1 and a file share named share1 that will use the Cool storage tier.\n Create a storage account named storage5 and configure storage replication for the Blob service.\n Create an NSG named NSG1 that will have the custom inbound security rules shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0013500005.png}}\n\n Associate NSG1 to the network interface of VM1.\n Create an NSG named NSG2 that will have the custom outbound security rules shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0013500007.png}}\n\n{{img:/exam-media/az-104/T7-T16/0013600001.png}}\n\n Associate NSG2 to VNET1/Subnet2.\n\n Technical Requirements -\n Contoso must meet the following technical requirements:\n Create container1 and share1.\n Use the principle of least privilege.\n Create an Azure AD security group named Group4.\n Back up the Azure file shares and virtual machines by using Azure Backup.\n Trigger an alert if VM1 or VM2 has less than 20 GB of free space on volume C.\n Enable User1 to create Azure policy definitions and User2 to assign Azure policies to RG1.\n Create an internal Basic Azure Load Balancer named LB1 and connect the load balancer to VNET1/Subnet1\n Enable flow logging for IP traffic from VM5 and retain the flow logs for a period of eight months.\n Whenever possible, grant Group4 Azure role-based access control (Azure RBAC) read-only permissions to the Azure file shares.  Question  You need to ensure that you can grant Group4 Azure RBAC read only permissions to all the Azure file shares.\n What should you do?",
     keySource: "source",
     explanation: "Source: Az-104 T7-T16.apkg",
     type: "single",
@@ -16183,10 +17064,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 548,
-    number: 548,
+    id: 543,
+    number: 543,
     topic: "Topic 7-16",
-    prompt: "Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso works with partner organizations to bring products to market.\n Contoso products are manufactured by using blueprint files that the company authors and maintains.\n\n Existing Environment -\n Currently, Contoso uses multiple types of servers for business operations, including the following:\n File servers\n Domain controllers\n Microsoft SQL Server servers\n Your network contains an Active Directory forest named contoso.com. All servers and client computers are joined to Active Directory.\n You have a public-facing application named App1. App1 is comprised of the following three tiers:\n A SQL database\n A web front end\n\n A processing middle tier -\n\n[Image: 0021700006.png]\n\n Each tier is comprised of five virtual machines. Users access the web front end by using HTTPS only.\n\n Requirements -\n\n Planned Changes -\n Contoso plans to implement the following changes to the infrastructure:\n Move all the tiers of App1 to Azure.\n Move the existing product blueprint files to Azure Blob storage.\n Create a hybrid directory to support an upcoming Microsoft 365 migration project.\n\n Technical Requirements -\n Contoso must meet the following technical requirements:\n Move all the virtual machines for App1 to Azure.\n Minimize the number of open ports between the App1 tiers.\n Ensure that all the virtual machines for App1 are protected by backups.\n Copy the blueprint files to Azure over the Internet.\n Ensure that the blueprint files are stored in the archive storage tier.\n Ensure that partner access to the blueprint files is secured and temporary.\n Prevent user passwords or hashes of passwords from being stored in Azure.\n Use unmanaged standard storage for the hard disks of the virtual machines.\n Ensure that when users join devices to Azure Active Directory (Azure AD), the users use a mobile phone to verify their identity.\n Minimize administrative effort whenever possible.\n\n User Requirements -\n Contoso identifies the following requirements for users:\n Ensure that only users who are part of a group named Pilot can join devices to Azure AD.\n Designate a new user named Admin1 as the service admin for the Azure subscription.\n Admin1 must receive email alerts regarding service outages.\n Ensure that a new user named User3 can create network objects for the Azure subscription.  Question  You need to implement a backup solution for App1 after the application is moved.\n What should you create first?",
+    prompt: "Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso works with partner organizations to bring products to market.\n Contoso products are manufactured by using blueprint files that the company authors and maintains.\n\n Existing Environment -\n Currently, Contoso uses multiple types of servers for business operations, including the following:\n File servers\n Domain controllers\n Microsoft SQL Server servers\n Your network contains an Active Directory forest named contoso.com. All servers and client computers are joined to Active Directory.\n You have a public-facing application named App1. App1 is comprised of the following three tiers:\n A SQL database\n A web front end\n\n A processing middle tier -\n\n{{img:/exam-media/az-104/T7-T16/0021700006.png}}\n\n Each tier is comprised of five virtual machines. Users access the web front end by using HTTPS only.\n\n Requirements -\n\n Planned Changes -\n Contoso plans to implement the following changes to the infrastructure:\n Move all the tiers of App1 to Azure.\n Move the existing product blueprint files to Azure Blob storage.\n Create a hybrid directory to support an upcoming Microsoft 365 migration project.\n\n Technical Requirements -\n Contoso must meet the following technical requirements:\n Move all the virtual machines for App1 to Azure.\n Minimize the number of open ports between the App1 tiers.\n Ensure that all the virtual machines for App1 are protected by backups.\n Copy the blueprint files to Azure over the Internet.\n Ensure that the blueprint files are stored in the archive storage tier.\n Ensure that partner access to the blueprint files is secured and temporary.\n Prevent user passwords or hashes of passwords from being stored in Azure.\n Use unmanaged standard storage for the hard disks of the virtual machines.\n Ensure that when users join devices to Azure Active Directory (Azure AD), the users use a mobile phone to verify their identity.\n Minimize administrative effort whenever possible.\n\n User Requirements -\n Contoso identifies the following requirements for users:\n Ensure that only users who are part of a group named Pilot can join devices to Azure AD.\n Designate a new user named Admin1 as the service admin for the Azure subscription.\n Admin1 must receive email alerts regarding service outages.\n Ensure that a new user named User3 can create network objects for the Azure subscription.  Question  You need to implement a backup solution for App1 after the application is moved.\n What should you create first?",
     keySource: "source",
     explanation: "Source: Az-104 T7-T16.apkg",
     type: "single",
@@ -16213,10 +17094,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 549,
-    number: 549,
+    id: 544,
+    number: 544,
     topic: "Topic 7-16",
-    prompt: "Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso works with partner organizations to bring products to market.\n Contoso products are manufactured by using blueprint files that the company authors and maintains.\n\n Existing Environment -\n Currently, Contoso uses multiple types of servers for business operations, including the following:\n File servers\n Domain controllers\n Microsoft SQL Server servers\n Your network contains an Active Directory forest named contoso.com. All servers and client computers are joined to Active Directory.\n You have a public-facing application named App1. App1 is comprised of the following three tiers:\n A SQL database\n A web front end\n\n A processing middle tier -\n\n[Image: 0021700006.png]\n\n Each tier is comprised of five virtual machines. Users access the web front end by using HTTPS only.\n\n Requirements -\n\n Planned Changes -\n Contoso plans to implement the following changes to the infrastructure:\n Move all the tiers of App1 to Azure.\n Move the existing product blueprint files to Azure Blob storage.\n Create a hybrid directory to support an upcoming Microsoft 365 migration project.\n\n Technical Requirements -\n Contoso must meet the following technical requirements:\n Move all the virtual machines for App1 to Azure.\n Minimize the number of open ports between the App1 tiers.\n Ensure that all the virtual machines for App1 are protected by backups.\n Copy the blueprint files to Azure over the Internet.\n Ensure that the blueprint files are stored in the archive storage tier.\n Ensure that partner access to the blueprint files is secured and temporary.\n Prevent user passwords or hashes of passwords from being stored in Azure.\n Use unmanaged standard storage for the hard disks of the virtual machines.\n Ensure that when users join devices to Azure Active Directory (Azure AD), the users use a mobile phone to verify their identity.\n Minimize administrative effort whenever possible.\n\n User Requirements -\n Contoso identifies the following requirements for users:\n Ensure that only users who are part of a group named Pilot can join devices to Azure AD.\n Designate a new user named Admin1 as the service admin for the Azure subscription.\n Admin1 must receive email alerts regarding service outages.\n Ensure that a new user named User3 can create network objects for the Azure subscription.  Question  You need to move the blueprint files to Azure.\n What should you do?",
+    prompt: "Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso works with partner organizations to bring products to market.\n Contoso products are manufactured by using blueprint files that the company authors and maintains.\n\n Existing Environment -\n Currently, Contoso uses multiple types of servers for business operations, including the following:\n File servers\n Domain controllers\n Microsoft SQL Server servers\n Your network contains an Active Directory forest named contoso.com. All servers and client computers are joined to Active Directory.\n You have a public-facing application named App1. App1 is comprised of the following three tiers:\n A SQL database\n A web front end\n\n A processing middle tier -\n\n{{img:/exam-media/az-104/T7-T16/0021700006.png}}\n\n Each tier is comprised of five virtual machines. Users access the web front end by using HTTPS only.\n\n Requirements -\n\n Planned Changes -\n Contoso plans to implement the following changes to the infrastructure:\n Move all the tiers of App1 to Azure.\n Move the existing product blueprint files to Azure Blob storage.\n Create a hybrid directory to support an upcoming Microsoft 365 migration project.\n\n Technical Requirements -\n Contoso must meet the following technical requirements:\n Move all the virtual machines for App1 to Azure.\n Minimize the number of open ports between the App1 tiers.\n Ensure that all the virtual machines for App1 are protected by backups.\n Copy the blueprint files to Azure over the Internet.\n Ensure that the blueprint files are stored in the archive storage tier.\n Ensure that partner access to the blueprint files is secured and temporary.\n Prevent user passwords or hashes of passwords from being stored in Azure.\n Use unmanaged standard storage for the hard disks of the virtual machines.\n Ensure that when users join devices to Azure Active Directory (Azure AD), the users use a mobile phone to verify their identity.\n Minimize administrative effort whenever possible.\n\n User Requirements -\n Contoso identifies the following requirements for users:\n Ensure that only users who are part of a group named Pilot can join devices to Azure AD.\n Designate a new user named Admin1 as the service admin for the Azure subscription.\n Admin1 must receive email alerts regarding service outages.\n Ensure that a new user named User3 can create network objects for the Azure subscription.  Question  You need to move the blueprint files to Azure.\n What should you do?",
     keySource: "source",
     explanation: "Source: Az-104 T7-T16.apkg",
     type: "single",
@@ -16243,12 +17124,12 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 550,
-    number: 550,
+    id: 545,
+    number: 545,
     topic: "Topic 7-16",
-    prompt: "Overview -\n Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso works with partner organizations to bring products to market.\n Contoso products are manufactured by using blueprint files that the company authors and maintains.\n\n Existing Environment -\n Currently, Contoso uses multiple types of servers for business operations, including the following:\n File servers\n Domain controllers\n Microsoft SQL Server servers\n Your network contains an Active Directory forest named contoso.com. All servers and client computers are joined to Active Directory.\n You have a public-facing application named App1. App1 is comprised of the following three tiers:\n A SQL database\n A web front end\n\n A processing middle tier -\n\n[Image: 0021700006.png]\n\n Each tier is comprised of five virtual machines. Users access the web front end by using HTTPS only.\n\n Requirements -\n\n Planned Changes -\n Contoso plans to implement the following changes to the infrastructure:\n Move all the tiers of App1 to Azure.\n Move the existing product blueprint files to Azure Blob storage.\n Create a hybrid directory to support an upcoming Microsoft 365 migration project.\n\n Technical Requirements -\n Contoso must meet the following technical requirements:\n Move all the virtual machines for App1 to Azure.\n Minimize the number of open ports between the App1 tiers.\n Ensure that all the virtual machines for App1 are protected by backups.\n Copy the blueprint files to Azure over the Internet.\n Ensure that the blueprint files are stored in the archive storage tier.\n Ensure that partner access to the blueprint files is secured and temporary.\n Prevent user passwords or hashes of passwords from being stored in Azure.\n Use unmanaged standard storage for the hard disks of the virtual machines.\n Ensure that when users join devices to Azure Active Directory (Azure AD), the users use a mobile phone to verify their identity.\n Minimize administrative effort whenever possible.\n\n User Requirements -\n Contoso identifies the following requirements for users:\n Ensure that only users who are part of a group named Pilot can join devices to Azure AD.\n Designate a new user named Admin1 as the service admin for the Azure subscription.\n Admin1 must receive email alerts regarding service outages.\n Ensure that a new user named User3 can create network objects for the Azure subscription.  Question  HOTSPOT -\n You need to identify the storage requirements for Contoso.\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
+    prompt: "Overview -\n Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso works with partner organizations to bring products to market.\n Contoso products are manufactured by using blueprint files that the company authors and maintains.\n\n Existing Environment -\n Currently, Contoso uses multiple types of servers for business operations, including the following:\n File servers\n Domain controllers\n Microsoft SQL Server servers\n Your network contains an Active Directory forest named contoso.com. All servers and client computers are joined to Active Directory.\n You have a public-facing application named App1. App1 is comprised of the following three tiers:\n A SQL database\n A web front end\n\n A processing middle tier -\n\n{{img:/exam-media/az-104/T7-T16/0021700006.png}}\n\n Each tier is comprised of five virtual machines. Users access the web front end by using HTTPS only.\n\n Requirements -\n\n Planned Changes -\n Contoso plans to implement the following changes to the infrastructure:\n Move all the tiers of App1 to Azure.\n Move the existing product blueprint files to Azure Blob storage.\n Create a hybrid directory to support an upcoming Microsoft 365 migration project.\n\n Technical Requirements -\n Contoso must meet the following technical requirements:\n Move all the virtual machines for App1 to Azure.\n Minimize the number of open ports between the App1 tiers.\n Ensure that all the virtual machines for App1 are protected by backups.\n Copy the blueprint files to Azure over the Internet.\n Ensure that the blueprint files are stored in the archive storage tier.\n Ensure that partner access to the blueprint files is secured and temporary.\n Prevent user passwords or hashes of passwords from being stored in Azure.\n Use unmanaged standard storage for the hard disks of the virtual machines.\n Ensure that when users join devices to Azure Active Directory (Azure AD), the users use a mobile phone to verify their identity.\n Minimize administrative effort whenever possible.\n\n User Requirements -\n Contoso identifies the following requirements for users:\n Ensure that only users who are part of a group named Pilot can join devices to Azure AD.\n Designate a new user named Admin1 as the service admin for the Azure subscription.\n Admin1 must receive email alerts regarding service outages.\n Ensure that a new user named User3 can create network objects for the Azure subscription.  Question  HOTSPOT -\n You need to identify the storage requirements for Contoso.\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source: Az-104 T7-T16.apkg",
+    explanation: "{{img:/exam-media/az-104/T7-T16/0022100001-9c16d470049d77c9a3cb0c4ed7dc81156ba2c638.jpg}}\nSource: Az-104 T7-T16.apkg",
     type: "hotspot-boolean",
     statements: [
       {
@@ -16269,80 +17150,100 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 551,
-    number: 551,
+    id: 546,
+    number: 546,
     topic: "Topic 7-16",
-    prompt: "Overview -\n\n General Overview -\n Contoso, Ltd. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York.\n\n Environment -\n\n Existing Environment -\n Contoso has an Azure subscription named Sub1 that is linked to an Azure Active Directory (Azure AD) tenant. The network contains an on-premises Active\n Directory domain that syncs to the Azure AD tenant.\n The Azure AD tenant contains the users shown in the following table.\n\n[Image: 0022300001.png]\n\n Sub1 contains two resource groups named RG1 and RG2 and the virtual networks shown in the following table.\n\n[Image: 0022300002.png]\n\n User1 manages the resources in RG1. User4 manages the resources in RG2.\n Sub1 contains virtual machines that run Windows Server 2019 as shown in the following table\n\n[Image: 0022300003.png]\n\n No network security groups (NSGs) are associated to the network interfaces or the subnets.\n Sub1 contains the storage accounts shown in the following table.\n\n[Image: 0022400001.png]\n\n Requirements -\n\n Planned Changes -\n Contoso plans to implement the following changes:\n Create a blob container named container1 and a file share named share1 that will use the Cool storage tier.\n Create a storage account named storage5 and configure storage replication for the Blob service.\n Create an NSG named NSG1 that will have the custom inbound security rules shown in the following table.\n\n[Image: 0022400005.png]\n\n Associate NSG1 to the network interface of VM1.\n Create an NSG named NSG2 that will have the custom outbound security rules shown in the following table.\n\n[Image: 0022400007.png]\n\n[Image: 0022500001.png]\n\n Associate NSG2 to VNET1/Subnet2.\n\n Technical Requirements -\n Contoso must meet the following technical requirements:\n Create container1 and share1.\n Use the principle of least privilege.\n Create an Azure AD security group named Group4.\n Back up the Azure file shares and virtual machines by using Azure Backup.\n Trigger an alert if VM1 or VM2 has less than 20 GB of free space on volume C.\n Enable User1 to create Azure policy definitions and User2 to assign Azure policies to RG1.\n Create an internal Basic Azure Load Balancer named LB1 and connect the load balancer to VNET1/Subnet1\n Enable flow logging for IP traffic from VM5 and retain the flow logs for a period of eight months.\n Whenever possible, grant Group4 Azure role-based access control (Azure RBAC) read-only permissions to the Azure file shares.  Question  HOTSPOT -\n You need to create container1 and share1.\n Which storage accounts should you use for each resource? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0022600001.jpg]",
+    prompt: "Overview -\n\n General Overview -\n Contoso, Ltd. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York.\n\n Environment -\n\n Existing Environment -\n Contoso has an Azure subscription named Sub1 that is linked to an Azure Active Directory (Azure AD) tenant. The network contains an on-premises Active\n Directory domain that syncs to the Azure AD tenant.\n The Azure AD tenant contains the users shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0022300001.png}}\n\n Sub1 contains two resource groups named RG1 and RG2 and the virtual networks shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0022300002.png}}\n\n User1 manages the resources in RG1. User4 manages the resources in RG2.\n Sub1 contains virtual machines that run Windows Server 2019 as shown in the following table\n\n{{img:/exam-media/az-104/T7-T16/0022300003.png}}\n\n No network security groups (NSGs) are associated to the network interfaces or the subnets.\n Sub1 contains the storage accounts shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0022400001.png}}\n\n Requirements -\n\n Planned Changes -\n Contoso plans to implement the following changes:\n Create a blob container named container1 and a file share named share1 that will use the Cool storage tier.\n Create a storage account named storage5 and configure storage replication for the Blob service.\n Create an NSG named NSG1 that will have the custom inbound security rules shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0022400005.png}}\n\n Associate NSG1 to the network interface of VM1.\n Create an NSG named NSG2 that will have the custom outbound security rules shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0022400007.png}}\n\n{{img:/exam-media/az-104/T7-T16/0022500001.png}}\n\n Associate NSG2 to VNET1/Subnet2.\n\n Technical Requirements -\n Contoso must meet the following technical requirements:\n Create container1 and share1.\n Use the principle of least privilege.\n Create an Azure AD security group named Group4.\n Back up the Azure file shares and virtual machines by using Azure Backup.\n Trigger an alert if VM1 or VM2 has less than 20 GB of free space on volume C.\n Enable User1 to create Azure policy definitions and User2 to assign Azure policies to RG1.\n Create an internal Basic Azure Load Balancer named LB1 and connect the load balancer to VNET1/Subnet1\n Enable flow logging for IP traffic from VM5 and retain the flow logs for a period of eight months.\n Whenever possible, grant Group4 Azure role-based access control (Azure RBAC) read-only permissions to the Azure file shares.  Question  HOTSPOT -\n You need to create container1 and share1.\n Which storage accounts should you use for each resource? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T7-T16/0022600001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T7-T16.apkg",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T7-T16/0022700001-fecc8db9cdae968c7bd1054e419464ce0bc48f50.jpg}}\nSource: Az-104 T7-T16.apkg",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "Container1: storage2 and storage3 only"
+        text: "storage2 and storage3 only"
       },
       {
         id: "B",
-        text: "share1: storage2 only"
+        text: "storage2 only"
       },
       {
         id: "C",
-        text: "share1: storage4 only"
+        text: "storage4 only"
       },
       {
         id: "D",
-        text: "Container1: storage1, storage2 and storage3 only"
+        text: "storage1, storage2 and storage3 only"
       },
       {
         id: "E",
-        text: "Container1: storage2, storage3 and storage4 only"
+        text: "storage2, storage3 and storage4 only"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "Container1"
+      },
+      {
+        id: "t2",
+        text: "share1"
       }
     ],
     correct: [
-      "A",
-      "B"
+      "t1:A",
+      "t2:B"
     ]
   },
   {
-    id: 552,
-    number: 552,
+    id: 547,
+    number: 547,
     topic: "Topic 7-16",
-    prompt: "General Overview -\n Contoso, Ltd. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York.\n\n Environment -\n\n Existing Environment -\n Contoso has an Azure subscription named Sub1 that is linked to an Azure Active Directory (Azure AD) tenant. The network contains an on-premises Active\n Directory domain that syncs to the Azure AD tenant.\n The Azure AD tenant contains the users shown in the following table.\n\n[Image: 0022300001.png]\n\n Sub1 contains two resource groups named RG1 and RG2 and the virtual networks shown in the following table.\n\n[Image: 0022300002.png]\n\n User1 manages the resources in RG1. User4 manages the resources in RG2.\n Sub1 contains virtual machines that run Windows Server 2019 as shown in the following table\n\n[Image: 0022300003.png]\n\n No network security groups (NSGs) are associated to the network interfaces or the subnets.\n Sub1 contains the storage accounts shown in the following table.\n\n[Image: 0022400001.png]\n\n Requirements -\n\n Planned Changes -\n Contoso plans to implement the following changes:\n Create a blob container named container1 and a file share named share1 that will use the Cool storage tier.\n Create a storage account named storage5 and configure storage replication for the Blob service.\n Create an NSG named NSG1 that will have the custom inbound security rules shown in the following table.\n\n[Image: 0022400005.png]\n\n Associate NSG1 to the network interface of VM1.\n Create an NSG named NSG2 that will have the custom outbound security rules shown in the following table.\n\n[Image: 0022400007.png]\n\n[Image: 0022500001.png]\n\n Associate NSG2 to VNET1/Subnet2.\n\n Technical Requirements -\n Contoso must meet the following technical requirements:\n Create container1 and share1.\n Use the principle of least privilege.\n Create an Azure AD security group named Group4.\n Back up the Azure file shares and virtual machines by using Azure Backup.\n Trigger an alert if VM1 or VM2 has less than 20 GB of free space on volume C.\n Enable User1 to create Azure policy definitions and User2 to assign Azure policies to RG1.\n Create an internal Basic Azure Load Balancer named LB1 and connect the load balancer to VNET1/Subnet1\n Enable flow logging for IP traffic from VM5 and retain the flow logs for a period of eight months.\n Whenever possible, grant Group4 Azure role-based access control (Azure RBAC) read-only permissions to the Azure file shares.  Question  HOTSPOT -\n You need to create storage5. The solution must support the planned changes.\n Which type of storage account should you use, and which account should you configure as the destination storage account? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0022800001.jpg]",
+    prompt: "General Overview -\n Contoso, Ltd. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York.\n\n Environment -\n\n Existing Environment -\n Contoso has an Azure subscription named Sub1 that is linked to an Azure Active Directory (Azure AD) tenant. The network contains an on-premises Active\n Directory domain that syncs to the Azure AD tenant.\n The Azure AD tenant contains the users shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0022300001.png}}\n\n Sub1 contains two resource groups named RG1 and RG2 and the virtual networks shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0022300002.png}}\n\n User1 manages the resources in RG1. User4 manages the resources in RG2.\n Sub1 contains virtual machines that run Windows Server 2019 as shown in the following table\n\n{{img:/exam-media/az-104/T7-T16/0022300003.png}}\n\n No network security groups (NSGs) are associated to the network interfaces or the subnets.\n Sub1 contains the storage accounts shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0022400001.png}}\n\n Requirements -\n\n Planned Changes -\n Contoso plans to implement the following changes:\n Create a blob container named container1 and a file share named share1 that will use the Cool storage tier.\n Create a storage account named storage5 and configure storage replication for the Blob service.\n Create an NSG named NSG1 that will have the custom inbound security rules shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0022400005.png}}\n\n Associate NSG1 to the network interface of VM1.\n Create an NSG named NSG2 that will have the custom outbound security rules shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0022400007.png}}\n\n{{img:/exam-media/az-104/T7-T16/0022500001.png}}\n\n Associate NSG2 to VNET1/Subnet2.\n\n Technical Requirements -\n Contoso must meet the following technical requirements:\n Create container1 and share1.\n Use the principle of least privilege.\n Create an Azure AD security group named Group4.\n Back up the Azure file shares and virtual machines by using Azure Backup.\n Trigger an alert if VM1 or VM2 has less than 20 GB of free space on volume C.\n Enable User1 to create Azure policy definitions and User2 to assign Azure policies to RG1.\n Create an internal Basic Azure Load Balancer named LB1 and connect the load balancer to VNET1/Subnet1\n Enable flow logging for IP traffic from VM5 and retain the flow logs for a period of eight months.\n Whenever possible, grant Group4 Azure role-based access control (Azure RBAC) read-only permissions to the Azure file shares.  Question  HOTSPOT -\n You need to create storage5. The solution must support the planned changes.\n Which type of storage account should you use, and which account should you configure as the destination storage account? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T7-T16/0022800001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T7-T16.apkg",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T7-T16/0022900001.jpg}}\nSource: Az-104 T7-T16.apkg",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "Account kind: StorageV2 (general purpose v2)"
+        text: "StorageV2 (general purpose v2)"
       },
       {
         id: "B",
-        text: "Destination: Storage2"
+        text: "Storage2"
       },
       {
         id: "C",
-        text: "Destination: Storage3"
+        text: "Storage3"
       },
       {
         id: "D",
-        text: "Destination: Storage1"
+        text: "Storage1"
       },
       {
         id: "E",
-        text: "Account kind: BlockBlobStorage"
+        text: "BlockBlobStorage"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "Account kind"
+      },
+      {
+        id: "t2",
+        text: "Destination"
       }
     ],
     correct: [
-      "A",
-      "B"
+      "t1:A",
+      "t2:B"
     ]
   },
   {
-    id: 553,
-    number: 553,
+    id: 548,
+    number: 548,
     topic: "Topic 7-16",
-    prompt: "General Overview -\n Contoso, Ltd. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York.\n\n Environment -\n\n Existing Environment -\n Contoso has an Azure subscription named Sub1 that is linked to an Azure Active Directory (Azure AD) tenant. The network contains an on-premises Active\n Directory domain that syncs to the Azure AD tenant.\n The Azure AD tenant contains the users shown in the following table.\n\n[Image: 0022300001.png]\n\n Sub1 contains two resource groups named RG1 and RG2 and the virtual networks shown in the following table.\n\n[Image: 0022300002.png]\n\n User1 manages the resources in RG1. User4 manages the resources in RG2.\n Sub1 contains virtual machines that run Windows Server 2019 as shown in the following table\n\n[Image: 0022300003.png]\n\n No network security groups (NSGs) are associated to the network interfaces or the subnets.\n Sub1 contains the storage accounts shown in the following table.\n\n[Image: 0022400001.png]\n\n Requirements -\n\n Planned Changes -\n Contoso plans to implement the following changes:\n Create a blob container named container1 and a file share named share1 that will use the Cool storage tier.\n Create a storage account named storage5 and configure storage replication for the Blob service.\n Create an NSG named NSG1 that will have the custom inbound security rules shown in the following table.\n\n[Image: 0022400005.png]\n\n Associate NSG1 to the network interface of VM1.\n Create an NSG named NSG2 that will have the custom outbound security rules shown in the following table.\n\n[Image: 0022400007.png]\n\n[Image: 0022500001.png]\n\n Associate NSG2 to VNET1/Subnet2.\n\n Technical Requirements -\n Contoso must meet the following technical requirements:\n Create container1 and share1.\n Use the principle of least privilege.\n Create an Azure AD security group named Group4.\n Back up the Azure file shares and virtual machines by using Azure Backup.\n Trigger an alert if VM1 or VM2 has less than 20 GB of free space on volume C.\n Enable User1 to create Azure policy definitions and User2 to assign Azure policies to RG1.\n Create an internal Basic Azure Load Balancer named LB1 and connect the load balancer to VNET1/Subnet1\n Enable flow logging for IP traffic from VM5 and retain the flow logs for a period of eight months.\n Whenever possible, grant Group4 Azure role-based access control (Azure RBAC) read-only permissions to the Azure file shares.  Question  You need to identify which storage account to use for the flow logging of IP traffic from VM5. The solution must meet the retention requirements.\n Which storage account should you identify?",
+    prompt: "General Overview -\n Contoso, Ltd. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York.\n\n Environment -\n\n Existing Environment -\n Contoso has an Azure subscription named Sub1 that is linked to an Azure Active Directory (Azure AD) tenant. The network contains an on-premises Active\n Directory domain that syncs to the Azure AD tenant.\n The Azure AD tenant contains the users shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0022300001.png}}\n\n Sub1 contains two resource groups named RG1 and RG2 and the virtual networks shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0022300002.png}}\n\n User1 manages the resources in RG1. User4 manages the resources in RG2.\n Sub1 contains virtual machines that run Windows Server 2019 as shown in the following table\n\n{{img:/exam-media/az-104/T7-T16/0022300003.png}}\n\n No network security groups (NSGs) are associated to the network interfaces or the subnets.\n Sub1 contains the storage accounts shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0022400001.png}}\n\n Requirements -\n\n Planned Changes -\n Contoso plans to implement the following changes:\n Create a blob container named container1 and a file share named share1 that will use the Cool storage tier.\n Create a storage account named storage5 and configure storage replication for the Blob service.\n Create an NSG named NSG1 that will have the custom inbound security rules shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0022400005.png}}\n\n Associate NSG1 to the network interface of VM1.\n Create an NSG named NSG2 that will have the custom outbound security rules shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0022400007.png}}\n\n{{img:/exam-media/az-104/T7-T16/0022500001.png}}\n\n Associate NSG2 to VNET1/Subnet2.\n\n Technical Requirements -\n Contoso must meet the following technical requirements:\n Create container1 and share1.\n Use the principle of least privilege.\n Create an Azure AD security group named Group4.\n Back up the Azure file shares and virtual machines by using Azure Backup.\n Trigger an alert if VM1 or VM2 has less than 20 GB of free space on volume C.\n Enable User1 to create Azure policy definitions and User2 to assign Azure policies to RG1.\n Create an internal Basic Azure Load Balancer named LB1 and connect the load balancer to VNET1/Subnet1\n Enable flow logging for IP traffic from VM5 and retain the flow logs for a period of eight months.\n Whenever possible, grant Group4 Azure role-based access control (Azure RBAC) read-only permissions to the Azure file shares.  Question  You need to identify which storage account to use for the flow logging of IP traffic from VM5. The solution must meet the retention requirements.\n Which storage account should you identify?",
     keySource: "source",
     explanation: "Source: Az-104 T7-T16.apkg",
     type: "single",
@@ -16369,10 +17270,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 554,
-    number: 554,
+    id: 549,
+    number: 549,
     topic: "Topic 7-16",
-    prompt: "Overview -\n Litware, Inc. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York.\n The Montreal office has 2,000 employees. The Seattle office has 1,000 employees. The New York office has 200 employees.\n All the resources used by Litware are hosted on-premises.\n Litware creates a new Azure subscription. The Azure Active Directory (Azure AD) tenant uses a domain named litware.onmicrosoft.com. The tenant uses the\n Premium P1 pricing tier.\n\n Existing Environment -\n The network contains an Active Directory forest named litware.com. All domain controllers are configured as DNS servers and host the litware.com DNS zone.\n Litware has finance, human resources, sales, research, and information technology departments. Each department has an organizational unit (OU) that contains all the accounts of that respective department. All the user accounts have the department attribute set to their respective department. New users are added frequently.\n Litware.com contains a user named User1.\n All the offices connect by using private connections.\n Litware has data centers in the Montreal and Seattle offices. Each office has a firewall that can be configured as a VPN device.\n All infrastructure servers are virtualized. The virtualization environment contains the servers in the following table.\n\n[Image: 0034500001.png]\n\n Litware uses two web applications named App1 and App2. Each instance on each web application requires 1 GB of memory.\n The Azure subscription contains the resources in the following table.\n\n[Image: 0034500002.png]\n\n The network security team implements several network security groups (NSGs)\n\n Requirements -\n\n Planned Changes -\n Litware plans to implement the following changes:\n Deploy Azure ExpressRoute to the Montreal office.\n Migrate the virtual machines hosted on Server1 and Server2 to Azure.\n Synchronize on-premises Active Directory to Azure Active Directory (Azure AD).\n Migrate App1 and App2 to two Azure web apps named WebApp1 and WebApp2.\n\n Technical Requirements -\n Litware must meet the following technical requirements:\n Ensure that WebApp1 can adjust the number of instances automatically based on the load and can scale up to five instances.\n\n[Image: 0034500007.png]\n\n Ensure that VM3 can establish outbound connections over TCP port 8080 to the applications servers in the Montreal office.\n Ensure that routing information is exchanged automatically between Azure and the routers in the Montreal office.\n Enable Azure Multi-Factor Authentication (MFA) for the users in the finance department only.\n Ensure that webapp2.azurewebsites.net can be accessed by using the name app2.litware.com.\n Connect the New York office to VNet1 over the Internet by using an encrypted connection.\n Create a workflow to send an email message when the settings of VM4 are modified.\n Create a custom Azure role named Role1 that is based on the Reader role.\n Minimize costs whenever possible.  Question  You discover that VM3 does NOT meet the technical requirements.\n You need to verify whether the issue relates to the NSGs.\n What should you use?",
+    prompt: "Overview -\n Litware, Inc. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York.\n The Montreal office has 2,000 employees. The Seattle office has 1,000 employees. The New York office has 200 employees.\n All the resources used by Litware are hosted on-premises.\n Litware creates a new Azure subscription. The Azure Active Directory (Azure AD) tenant uses a domain named litware.onmicrosoft.com. The tenant uses the\n Premium P1 pricing tier.\n\n Existing Environment -\n The network contains an Active Directory forest named litware.com. All domain controllers are configured as DNS servers and host the litware.com DNS zone.\n Litware has finance, human resources, sales, research, and information technology departments. Each department has an organizational unit (OU) that contains all the accounts of that respective department. All the user accounts have the department attribute set to their respective department. New users are added frequently.\n Litware.com contains a user named User1.\n All the offices connect by using private connections.\n Litware has data centers in the Montreal and Seattle offices. Each office has a firewall that can be configured as a VPN device.\n All infrastructure servers are virtualized. The virtualization environment contains the servers in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0034500001.png}}\n\n Litware uses two web applications named App1 and App2. Each instance on each web application requires 1 GB of memory.\n The Azure subscription contains the resources in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0034500002.png}}\n\n The network security team implements several network security groups (NSGs)\n\n Requirements -\n\n Planned Changes -\n Litware plans to implement the following changes:\n Deploy Azure ExpressRoute to the Montreal office.\n Migrate the virtual machines hosted on Server1 and Server2 to Azure.\n Synchronize on-premises Active Directory to Azure Active Directory (Azure AD).\n Migrate App1 and App2 to two Azure web apps named WebApp1 and WebApp2.\n\n Technical Requirements -\n Litware must meet the following technical requirements:\n Ensure that WebApp1 can adjust the number of instances automatically based on the load and can scale up to five instances.\n\n{{img:/exam-media/az-104/T7-T16/0034500007.png}}\n\n Ensure that VM3 can establish outbound connections over TCP port 8080 to the applications servers in the Montreal office.\n Ensure that routing information is exchanged automatically between Azure and the routers in the Montreal office.\n Enable Azure Multi-Factor Authentication (MFA) for the users in the finance department only.\n Ensure that webapp2.azurewebsites.net can be accessed by using the name app2.litware.com.\n Connect the New York office to VNet1 over the Internet by using an encrypted connection.\n Create a workflow to send an email message when the settings of VM4 are modified.\n Create a custom Azure role named Role1 that is based on the Reader role.\n Minimize costs whenever possible.  Question  You discover that VM3 does NOT meet the technical requirements.\n You need to verify whether the issue relates to the NSGs.\n What should you use?",
     keySource: "source",
     explanation: "Source: Az-104 T7-T16.apkg",
     type: "single",
@@ -16403,10 +17304,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 555,
-    number: 555,
+    id: 550,
+    number: 550,
     topic: "Topic 7-16",
-    prompt: "Overview -\n Litware, Inc. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York.\n The Montreal office has 2,000 employees. The Seattle office has 1,000 employees. The New York office has 200 employees.\n All the resources used by Litware are hosted on-premises.\n Litware creates a new Azure subscription. The Azure Active Directory (Azure AD) tenant uses a domain named litware.onmicrosoft.com. The tenant uses the\n Premium P1 pricing tier.\n\n Existing Environment -\n The network contains an Active Directory forest named litware.com. All domain controllers are configured as DNS servers and host the litware.com DNS zone.\n Litware has finance, human resources, sales, research, and information technology departments. Each department has an organizational unit (OU) that contains all the accounts of that respective department. All the user accounts have the department attribute set to their respective department. New users are added frequently.\n Litware.com contains a user named User1.\n All the offices connect by using private connections.\n Litware has data centers in the Montreal and Seattle offices. Each office has a firewall that can be configured as a VPN device.\n All infrastructure servers are virtualized. The virtualization environment contains the servers in the following table.\n\n[Image: 0050800001.png]\n\n Litware uses two web applications named App1 and App2. Each instance on each web application requires 1 GB of memory.\n The Azure subscription contains the resources in the following table.\n\n[Image: 0050800002.png]\n\n The network security team implements several network security groups (NSGs)\n\n Requirements -\n\n Planned Changes -\n Litware plans to implement the following changes:\n Deploy Azure ExpressRoute to the Montreal office.\n Migrate the virtual machines hosted on Server1 and Server2 to Azure.\n Synchronize on-premises Active Directory to Azure Active Directory (Azure AD).\n Migrate App1 and App2 to two Azure web apps named WebApp1 and WebApp2.\n\n Technical Requirements -\n Litware must meet the following technical requirements:\n Ensure that WebApp1 can adjust the number of instances automatically based on the load and can scale up to five instances.\n\n[Image: 0050800007.png]\n\n Ensure that VM3 can establish outbound connections over TCP port 8080 to the applications servers in the Montreal office.\n Ensure that routing information is exchanged automatically between Azure and the routers in the Montreal office.\n Enable Azure Multi-Factor Authentication (MFA) for the users in the finance department only.\n Ensure that webapp2.azurewebsites.net can be accessed by using the name app2.litware.com.\n Connect the New York office to VNet1 over the Internet by using an encrypted connection.\n Create a workflow to send an email message when the settings of VM4 are modified.\n Create a custom Azure role named Role1 that is based on the Reader role.\n Minimize costs whenever possible.  Question  You need to ensure that VM1 can communicate with VM4. The solution must minimize the administrative effort.\n What should you do?",
+    prompt: "Overview -\n Litware, Inc. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York.\n The Montreal office has 2,000 employees. The Seattle office has 1,000 employees. The New York office has 200 employees.\n All the resources used by Litware are hosted on-premises.\n Litware creates a new Azure subscription. The Azure Active Directory (Azure AD) tenant uses a domain named litware.onmicrosoft.com. The tenant uses the\n Premium P1 pricing tier.\n\n Existing Environment -\n The network contains an Active Directory forest named litware.com. All domain controllers are configured as DNS servers and host the litware.com DNS zone.\n Litware has finance, human resources, sales, research, and information technology departments. Each department has an organizational unit (OU) that contains all the accounts of that respective department. All the user accounts have the department attribute set to their respective department. New users are added frequently.\n Litware.com contains a user named User1.\n All the offices connect by using private connections.\n Litware has data centers in the Montreal and Seattle offices. Each office has a firewall that can be configured as a VPN device.\n All infrastructure servers are virtualized. The virtualization environment contains the servers in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0050800001.png}}\n\n Litware uses two web applications named App1 and App2. Each instance on each web application requires 1 GB of memory.\n The Azure subscription contains the resources in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0050800002.png}}\n\n The network security team implements several network security groups (NSGs)\n\n Requirements -\n\n Planned Changes -\n Litware plans to implement the following changes:\n Deploy Azure ExpressRoute to the Montreal office.\n Migrate the virtual machines hosted on Server1 and Server2 to Azure.\n Synchronize on-premises Active Directory to Azure Active Directory (Azure AD).\n Migrate App1 and App2 to two Azure web apps named WebApp1 and WebApp2.\n\n Technical Requirements -\n Litware must meet the following technical requirements:\n Ensure that WebApp1 can adjust the number of instances automatically based on the load and can scale up to five instances.\n\n{{img:/exam-media/az-104/T7-T16/0050800007.png}}\n\n Ensure that VM3 can establish outbound connections over TCP port 8080 to the applications servers in the Montreal office.\n Ensure that routing information is exchanged automatically between Azure and the routers in the Montreal office.\n Enable Azure Multi-Factor Authentication (MFA) for the users in the finance department only.\n Ensure that webapp2.azurewebsites.net can be accessed by using the name app2.litware.com.\n Connect the New York office to VNet1 over the Internet by using an encrypted connection.\n Create a workflow to send an email message when the settings of VM4 are modified.\n Create a custom Azure role named Role1 that is based on the Reader role.\n Minimize costs whenever possible.  Question  You need to ensure that VM1 can communicate with VM4. The solution must minimize the administrative effort.\n What should you do?",
     keySource: "source",
     explanation: "Source: Az-104 T7-T16.apkg",
     type: "single",
@@ -16433,48 +17334,58 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 556,
-    number: 556,
+    id: 551,
+    number: 551,
     topic: "Topic 7-16",
-    prompt: "Overview -\n Litware, Inc. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York.\n The Montreal office has 2,000 employees. The Seattle office has 1,000 employees. The New York office has 200 employees.\n All the resources used by Litware are hosted on-premises.\n Litware creates a new Azure subscription. The Azure Active Directory (Azure AD) tenant uses a domain named litware.onmicrosoft.com. The tenant uses the\n Premium P1 pricing tier.\n\n Existing Environment -\n The network contains an Active Directory forest named litware.com. All domain controllers are configured as DNS servers and host the litware.com DNS zone.\n Litware has finance, human resources, sales, research, and information technology departments. Each department has an organizational unit (OU) that contains all the accounts of that respective department. All the user accounts have the department attribute set to their respective department. New users are added frequently.\n Litware.com contains a user named User1.\n All the offices connect by using private connections.\n Litware has data centers in the Montreal and Seattle offices. Each office has a firewall that can be configured as a VPN device.\n All infrastructure servers are virtualized. The virtualization environment contains the servers in the following table.\n\n[Image: 0050800001.png]\n\n Litware uses two web applications named App1 and App2. Each instance on each web application requires 1 GB of memory.\n The Azure subscription contains the resources in the following table.\n\n[Image: 0050800002.png]\n\n The network security team implements several network security groups (NSGs)\n\n Requirements -\n\n Planned Changes -\n Litware plans to implement the following changes:\n Deploy Azure ExpressRoute to the Montreal office.\n Migrate the virtual machines hosted on Server1 and Server2 to Azure.\n Synchronize on-premises Active Directory to Azure Active Directory (Azure AD).\n Migrate App1 and App2 to two Azure web apps named WebApp1 and WebApp2.\n\n Technical Requirements -\n Litware must meet the following technical requirements:\n Ensure that WebApp1 can adjust the number of instances automatically based on the load and can scale up to five instances.\n\n[Image: 0050800007.png]\n\n Ensure that VM3 can establish outbound connections over TCP port 8080 to the applications servers in the Montreal office.\n Ensure that routing information is exchanged automatically between Azure and the routers in the Montreal office.\n Enable Azure Multi-Factor Authentication (MFA) for the users in the finance department only.\n Ensure that webapp2.azurewebsites.net can be accessed by using the name app2.litware.com.\n Connect the New York office to VNet1 over the Internet by using an encrypted connection.\n Create a workflow to send an email message when the settings of VM4 are modified.\n Create a custom Azure role named Role1 that is based on the Reader role.\n Minimize costs whenever possible.  Question  HOTSPOT -\n You need to meet the connection requirements for the New York office.\n What should you do? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0051000001.png]",
+    prompt: "Overview -\n Litware, Inc. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York.\n The Montreal office has 2,000 employees. The Seattle office has 1,000 employees. The New York office has 200 employees.\n All the resources used by Litware are hosted on-premises.\n Litware creates a new Azure subscription. The Azure Active Directory (Azure AD) tenant uses a domain named litware.onmicrosoft.com. The tenant uses the\n Premium P1 pricing tier.\n\n Existing Environment -\n The network contains an Active Directory forest named litware.com. All domain controllers are configured as DNS servers and host the litware.com DNS zone.\n Litware has finance, human resources, sales, research, and information technology departments. Each department has an organizational unit (OU) that contains all the accounts of that respective department. All the user accounts have the department attribute set to their respective department. New users are added frequently.\n Litware.com contains a user named User1.\n All the offices connect by using private connections.\n Litware has data centers in the Montreal and Seattle offices. Each office has a firewall that can be configured as a VPN device.\n All infrastructure servers are virtualized. The virtualization environment contains the servers in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0050800001.png}}\n\n Litware uses two web applications named App1 and App2. Each instance on each web application requires 1 GB of memory.\n The Azure subscription contains the resources in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0050800002.png}}\n\n The network security team implements several network security groups (NSGs)\n\n Requirements -\n\n Planned Changes -\n Litware plans to implement the following changes:\n Deploy Azure ExpressRoute to the Montreal office.\n Migrate the virtual machines hosted on Server1 and Server2 to Azure.\n Synchronize on-premises Active Directory to Azure Active Directory (Azure AD).\n Migrate App1 and App2 to two Azure web apps named WebApp1 and WebApp2.\n\n Technical Requirements -\n Litware must meet the following technical requirements:\n Ensure that WebApp1 can adjust the number of instances automatically based on the load and can scale up to five instances.\n\n{{img:/exam-media/az-104/T7-T16/0050800007.png}}\n\n Ensure that VM3 can establish outbound connections over TCP port 8080 to the applications servers in the Montreal office.\n Ensure that routing information is exchanged automatically between Azure and the routers in the Montreal office.\n Enable Azure Multi-Factor Authentication (MFA) for the users in the finance department only.\n Ensure that webapp2.azurewebsites.net can be accessed by using the name app2.litware.com.\n Connect the New York office to VNet1 over the Internet by using an encrypted connection.\n Create a workflow to send an email message when the settings of VM4 are modified.\n Create a custom Azure role named Role1 that is based on the Reader role.\n Minimize costs whenever possible.  Question  HOTSPOT -\n You need to meet the connection requirements for the New York office.\n What should you do? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T7-T16/0051000001.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T7-T16.apkg",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T7-T16/0051100001.png}}\nSource: Az-104 T7-T16.apkg",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "Box1: Create a virtual network gateway and a local network gateway"
+        text: "Create a virtual network gateway and a local network gateway"
       },
       {
         id: "B",
-        text: "Box1: Create a ExpressRoute circuit only"
+        text: "Create a ExpressRoute circuit only"
       },
       {
         id: "C",
-        text: "Box2: Configure a site-to-site VPN connection"
+        text: "Configure a site-to-site VPN connection"
       },
       {
         id: "D",
-        text: "Box2: Deploy ExpressRoute"
+        text: "Deploy ExpressRoute"
       },
       {
         id: "E",
-        text: "Box2: Deploy a DirectAccess server"
+        text: "Deploy a DirectAccess server"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "Box1"
+      },
+      {
+        id: "t2",
+        text: "Box2"
       }
     ],
     correct: [
-      "A",
-      "C"
+      "t1:A",
+      "t2:C"
     ]
   },
   {
-    id: 557,
-    number: 557,
+    id: 552,
+    number: 552,
     topic: "Topic 7-16",
-    prompt: "Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso works with partner organizations to bring products to market.\n Contoso products are manufactured by using blueprint files that the company authors and maintains.\n\n Existing Environment -\n Currently, Contoso uses multiple types of servers for business operations, including the following:\n File servers\n Domain controllers\n Microsoft SQL Server servers\n Your network contains an Active Directory forest named contoso.com. All servers and client computers are joined to Active Directory.\n You have a public-facing application named App1. App1 is comprised of the following three tiers:\n A SQL database\n A web front end\n\n A processing middle tier -\n\n[Image: 0051300006.png]\n\n Each tier is comprised of five virtual machines. Users access the web front end by using HTTPS only.\n\n Requirements -\n\n Planned Changes -\n Contoso plans to implement the following changes to the infrastructure:\n Move all the tiers of App1 to Azure.\n Move the existing product blueprint files to Azure Blob storage.\n Create a hybrid directory to support an upcoming Microsoft 365 migration project.\n\n Technical Requirements -\n Contoso must meet the following technical requirements:\n Move all the virtual machines for App1 to Azure.\n Minimize the number of open ports between the App1 tiers.\n Ensure that all the virtual machines for App1 are protected by backups.\n Copy the blueprint files to Azure over the Internet.\n Ensure that the blueprint files are stored in the archive storage tier.\n Ensure that partner access to the blueprint files is secured and temporary.\n Prevent user passwords or hashes of passwords from being stored in Azure.\n Use unmanaged standard storage for the hard disks of the virtual machines.\n Ensure that when users join devices to Azure Active Directory (Azure AD), the users use a mobile phone to verify their identity.\n Minimize administrative effort whenever possible.\n\n User Requirements -\n Contoso identifies the following requirements for users:\n Ensure that only users who are part of a group named Pilot can join devices to Azure AD.\n Designate a new user named Admin1 as the service admin for the Azure subscription.\n Admin1 must receive email alerts regarding service outages.\n Ensure that a new user named User3 can create network objects for the Azure subscription.  Question  HOTSPOT -\n You need to recommend a solution for App1. The solution must meet the technical requirements.\n What should you include in the recommendation? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0051500001.jpg]",
+    prompt: "Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso works with partner organizations to bring products to market.\n Contoso products are manufactured by using blueprint files that the company authors and maintains.\n\n Existing Environment -\n Currently, Contoso uses multiple types of servers for business operations, including the following:\n File servers\n Domain controllers\n Microsoft SQL Server servers\n Your network contains an Active Directory forest named contoso.com. All servers and client computers are joined to Active Directory.\n You have a public-facing application named App1. App1 is comprised of the following three tiers:\n A SQL database\n A web front end\n\n A processing middle tier -\n\n{{img:/exam-media/az-104/T7-T16/0051300006.png}}\n\n Each tier is comprised of five virtual machines. Users access the web front end by using HTTPS only.\n\n Requirements -\n\n Planned Changes -\n Contoso plans to implement the following changes to the infrastructure:\n Move all the tiers of App1 to Azure.\n Move the existing product blueprint files to Azure Blob storage.\n Create a hybrid directory to support an upcoming Microsoft 365 migration project.\n\n Technical Requirements -\n Contoso must meet the following technical requirements:\n Move all the virtual machines for App1 to Azure.\n Minimize the number of open ports between the App1 tiers.\n Ensure that all the virtual machines for App1 are protected by backups.\n Copy the blueprint files to Azure over the Internet.\n Ensure that the blueprint files are stored in the archive storage tier.\n Ensure that partner access to the blueprint files is secured and temporary.\n Prevent user passwords or hashes of passwords from being stored in Azure.\n Use unmanaged standard storage for the hard disks of the virtual machines.\n Ensure that when users join devices to Azure Active Directory (Azure AD), the users use a mobile phone to verify their identity.\n Minimize administrative effort whenever possible.\n\n User Requirements -\n Contoso identifies the following requirements for users:\n Ensure that only users who are part of a group named Pilot can join devices to Azure AD.\n Designate a new user named Admin1 as the service admin for the Azure subscription.\n Admin1 must receive email alerts regarding service outages.\n Ensure that a new user named User3 can create network objects for the Azure subscription.  Question  HOTSPOT -\n You need to recommend a solution for App1. The solution must meet the technical requirements.\n What should you include in the recommendation? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T7-T16/0051500001.jpg}}",
     keySource: "source",
-    explanation: "Source: Az-104 T7-T16.apkg",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T7-T16/0051600001.jpg}}\nSource: Az-104 T7-T16.apkg",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
@@ -16497,16 +17408,26 @@ export const az104Questions: Question[] = [
         text: "Number of subnets per virtual network: 1"
       }
     ],
+    targets: [
+      {
+        id: "t1",
+        text: "Blank 1"
+      },
+      {
+        id: "t2",
+        text: "Blank 2"
+      }
+    ],
     correct: [
-      "A",
-      "B"
+      "t1:A",
+      "t2:B"
     ]
   },
   {
-    id: 558,
-    number: 558,
+    id: 553,
+    number: 553,
     topic: "Topic 7-16",
-    prompt: "Overview -\n Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso works with partner organizations to bring products to market.\n Contoso products are manufactured by using blueprint files that the company authors and maintains.\n\n Existing Environment -\n Currently, Contoso uses multiple types of servers for business operations, including the following:\n File servers\n Domain controllers\n Microsoft SQL Server servers\n Your network contains an Active Directory forest named contoso.com. All servers and client computers are joined to Active Directory.\n You have a public-facing application named App1. App1 is comprised of the following three tiers:\n A SQL database\n A web front end\n\n A processing middle tier -\n\n[Image: 0051300006.png]\n\n Each tier is comprised of five virtual machines. Users access the web front end by using HTTPS only.\n\n Requirements -\n\n Planned Changes -\n Contoso plans to implement the following changes to the infrastructure:\n Move all the tiers of App1 to Azure.\n Move the existing product blueprint files to Azure Blob storage.\n Create a hybrid directory to support an upcoming Microsoft 365 migration project.\n\n Technical Requirements -\n Contoso must meet the following technical requirements:\n Move all the virtual machines for App1 to Azure.\n Minimize the number of open ports between the App1 tiers.\n Ensure that all the virtual machines for App1 are protected by backups.\n Copy the blueprint files to Azure over the Internet.\n Ensure that the blueprint files are stored in the archive storage tier.\n Ensure that partner access to the blueprint files is secured and temporary.\n Prevent user passwords or hashes of passwords from being stored in Azure.\n Use unmanaged standard storage for the hard disks of the virtual machines.\n Ensure that when users join devices to Azure Active Directory (Azure AD), the users use a mobile phone to verify their identity.\n Minimize administrative effort whenever possible.\n\n User Requirements -\n Contoso identifies the following requirements for users:\n Ensure that only users who are part of a group named Pilot can join devices to Azure AD.\n Designate a new user named Admin1 as the service admin for the Azure subscription.\n Admin1 must receive email alerts regarding service outages.\n Ensure that a new user named User3 can create network objects for the Azure subscription.  Question  You are planning the move of App1 to Azure.\n You create a network security group (NSG).\n You need to recommend a solution to provide users with access to App1.\n What should you recommend?",
+    prompt: "Overview -\n Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso works with partner organizations to bring products to market.\n Contoso products are manufactured by using blueprint files that the company authors and maintains.\n\n Existing Environment -\n Currently, Contoso uses multiple types of servers for business operations, including the following:\n File servers\n Domain controllers\n Microsoft SQL Server servers\n Your network contains an Active Directory forest named contoso.com. All servers and client computers are joined to Active Directory.\n You have a public-facing application named App1. App1 is comprised of the following three tiers:\n A SQL database\n A web front end\n\n A processing middle tier -\n\n{{img:/exam-media/az-104/T7-T16/0051300006.png}}\n\n Each tier is comprised of five virtual machines. Users access the web front end by using HTTPS only.\n\n Requirements -\n\n Planned Changes -\n Contoso plans to implement the following changes to the infrastructure:\n Move all the tiers of App1 to Azure.\n Move the existing product blueprint files to Azure Blob storage.\n Create a hybrid directory to support an upcoming Microsoft 365 migration project.\n\n Technical Requirements -\n Contoso must meet the following technical requirements:\n Move all the virtual machines for App1 to Azure.\n Minimize the number of open ports between the App1 tiers.\n Ensure that all the virtual machines for App1 are protected by backups.\n Copy the blueprint files to Azure over the Internet.\n Ensure that the blueprint files are stored in the archive storage tier.\n Ensure that partner access to the blueprint files is secured and temporary.\n Prevent user passwords or hashes of passwords from being stored in Azure.\n Use unmanaged standard storage for the hard disks of the virtual machines.\n Ensure that when users join devices to Azure Active Directory (Azure AD), the users use a mobile phone to verify their identity.\n Minimize administrative effort whenever possible.\n\n User Requirements -\n Contoso identifies the following requirements for users:\n Ensure that only users who are part of a group named Pilot can join devices to Azure AD.\n Designate a new user named Admin1 as the service admin for the Azure subscription.\n Admin1 must receive email alerts regarding service outages.\n Ensure that a new user named User3 can create network objects for the Azure subscription.  Question  You are planning the move of App1 to Azure.\n You create a network security group (NSG).\n You need to recommend a solution to provide users with access to App1.\n What should you recommend?",
     keySource: "source",
     explanation: "Source: Az-104 T7-T16.apkg",
     type: "single",
@@ -16533,12 +17454,12 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 559,
-    number: 559,
+    id: 554,
+    number: 554,
     topic: "Topic 7-16",
-    prompt: "Overview -\n\n General Overview -\n Contoso, Ltd. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York.\n\n Environment -\n\n Existing Environment -\n Contoso has an Azure subscription named Sub1 that is linked to an Azure Active Directory (Azure AD) tenant. The network contains an on-premises Active\n Directory domain that syncs to the Azure AD tenant.\n The Azure AD tenant contains the users shown in the following table.\n\n[Image: 0052000001.png]\n\n Sub1 contains two resource groups named RG1 and RG2 and the virtual networks shown in the following table.\n\n[Image: 0052000002.png]\n\n User1 manages the resources in RG1. User4 manages the resources in RG2.\n Sub1 contains virtual machines that run Windows Server 2019 as shown in the following table\n\n[Image: 0052000003.png]\n\n No network security groups (NSGs) are associated to the network interfaces or the subnets.\n Sub1 contains the storage accounts shown in the following table.\n\n[Image: 0052100001.png]\n\n Requirements -\n\n Planned Changes -\n Contoso plans to implement the following changes:\n Create a blob container named container1 and a file share named share1 that will use the Cool storage tier.\n Create a storage account named storage5 and configure storage replication for the Blob service.\n Create an NSG named NSG1 that will have the custom inbound security rules shown in the following table.\n\n[Image: 0052100005.png]\n\n Associate NSG1 to the network interface of VM1.\n Create an NSG named NSG2 that will have the custom outbound security rules shown in the following table.\n\n[Image: 0052100007.png]\n\n[Image: 0052200001.png]\n\n Associate NSG2 to VNET1/Subnet2.\n\n Technical Requirements -\n Contoso must meet the following technical requirements:\n Create container1 and share1.\n Use the principle of least privilege.\n Create an Azure AD security group named Group4.\n Back up the Azure file shares and virtual machines by using Azure Backup.\n Trigger an alert if VM1 or VM2 has less than 20 GB of free space on volume C.\n Enable User1 to create Azure policy definitions and User2 to assign Azure policies to RG1.\n Create an internal Basic Azure Load Balancer named LB1 and connect the load balancer to VNET1/Subnet1\n Enable flow logging for IP traffic from VM5 and retain the flow logs for a period of eight months.\n Whenever possible, grant Group4 Azure role-based access control (Azure RBAC) read-only permissions to the Azure file shares.  Question  HOTSPOT -\n You implement the planned changes for NSG1 and NSG2.\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
+    prompt: "Overview -\n\n General Overview -\n Contoso, Ltd. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York.\n\n Environment -\n\n Existing Environment -\n Contoso has an Azure subscription named Sub1 that is linked to an Azure Active Directory (Azure AD) tenant. The network contains an on-premises Active\n Directory domain that syncs to the Azure AD tenant.\n The Azure AD tenant contains the users shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0052000001.png}}\n\n Sub1 contains two resource groups named RG1 and RG2 and the virtual networks shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0052000002.png}}\n\n User1 manages the resources in RG1. User4 manages the resources in RG2.\n Sub1 contains virtual machines that run Windows Server 2019 as shown in the following table\n\n{{img:/exam-media/az-104/T7-T16/0052000003.png}}\n\n No network security groups (NSGs) are associated to the network interfaces or the subnets.\n Sub1 contains the storage accounts shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0052100001.png}}\n\n Requirements -\n\n Planned Changes -\n Contoso plans to implement the following changes:\n Create a blob container named container1 and a file share named share1 that will use the Cool storage tier.\n Create a storage account named storage5 and configure storage replication for the Blob service.\n Create an NSG named NSG1 that will have the custom inbound security rules shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0052100005.png}}\n\n Associate NSG1 to the network interface of VM1.\n Create an NSG named NSG2 that will have the custom outbound security rules shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0052100007.png}}\n\n{{img:/exam-media/az-104/T7-T16/0052200001.png}}\n\n Associate NSG2 to VNET1/Subnet2.\n\n Technical Requirements -\n Contoso must meet the following technical requirements:\n Create container1 and share1.\n Use the principle of least privilege.\n Create an Azure AD security group named Group4.\n Back up the Azure file shares and virtual machines by using Azure Backup.\n Trigger an alert if VM1 or VM2 has less than 20 GB of free space on volume C.\n Enable User1 to create Azure policy definitions and User2 to assign Azure policies to RG1.\n Create an internal Basic Azure Load Balancer named LB1 and connect the load balancer to VNET1/Subnet1\n Enable flow logging for IP traffic from VM5 and retain the flow logs for a period of eight months.\n Whenever possible, grant Group4 Azure role-based access control (Azure RBAC) read-only permissions to the Azure file shares.  Question  HOTSPOT -\n You implement the planned changes for NSG1 and NSG2.\n For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n NOTE: Each correct selection is worth one point.",
     keySource: "source",
-    explanation: "Source: Az-104 T7-T16.apkg",
+    explanation: "{{img:/exam-media/az-104/T7-T16/image954.png}}\nSource: Az-104 T7-T16.apkg",
     type: "hotspot-boolean",
     statements: [
       {
@@ -16559,10 +17480,10 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 560,
-    number: 560,
+    id: 555,
+    number: 555,
     topic: "Topic 7-16",
-    prompt: "Overview -\n\n General Overview -\n Contoso, Ltd. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York.\n\n Environment -\n\n Existing Environment -\n Contoso has an Azure subscription named Sub1 that is linked to an Azure Active Directory (Azure AD) tenant. The network contains an on-premises Active\n Directory domain that syncs to the Azure AD tenant.\n The Azure AD tenant contains the users shown in the following table.\n\n[Image: 0052000001.png]\n\n Sub1 contains two resource groups named RG1 and RG2 and the virtual networks shown in the following table.\n\n[Image: 0052000002.png]\n\n User1 manages the resources in RG1. User4 manages the resources in RG2.\n Sub1 contains virtual machines that run Windows Server 2019 as shown in the following table\n\n[Image: 0052000003.png]\n\n No network security groups (NSGs) are associated to the network interfaces or the subnets.\n Sub1 contains the storage accounts shown in the following table.\n\n[Image: 0052100001.png]\n\n Requirements -\n\n Planned Changes -\n Contoso plans to implement the following changes:\n Create a blob container named container1 and a file share named share1 that will use the Cool storage tier.\n Create a storage account named storage5 and configure storage replication for the Blob service.\n Create an NSG named NSG1 that will have the custom inbound security rules shown in the following table.\n\n[Image: 0052100005.png]\n\n Associate NSG1 to the network interface of VM1.\n Create an NSG named NSG2 that will have the custom outbound security rules shown in the following table.\n\n[Image: 0052100007.png]\n\n[Image: 0052200001.png]\n\n Associate NSG2 to VNET1/Subnet2.\n\n Technical Requirements -\n Contoso must meet the following technical requirements:\n Create container1 and share1.\n Use the principle of least privilege.\n Create an Azure AD security group named Group4.\n Back up the Azure file shares and virtual machines by using Azure Backup.\n Trigger an alert if VM1 or VM2 has less than 20 GB of free space on volume C.\n Enable User1 to create Azure policy definitions and User2 to assign Azure policies to RG1.\n Create an internal Basic Azure Load Balancer named LB1 and connect the load balancer to VNET1/Subnet1\n Enable flow logging for IP traffic from VM5 and retain the flow logs for a period of eight months.\n Whenever possible, grant Group4 Azure role-based access control (Azure RBAC) read-only permissions to the Azure file shares.  Question  You need to add VM1 and VM2 to the backend pool of LB1.\n What should you do first?",
+    prompt: "Overview -\n\n General Overview -\n Contoso, Ltd. is a consulting company that has a main office in Montreal and branch offices in Seattle and New York.\n\n Environment -\n\n Existing Environment -\n Contoso has an Azure subscription named Sub1 that is linked to an Azure Active Directory (Azure AD) tenant. The network contains an on-premises Active\n Directory domain that syncs to the Azure AD tenant.\n The Azure AD tenant contains the users shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0052000001.png}}\n\n Sub1 contains two resource groups named RG1 and RG2 and the virtual networks shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0052000002.png}}\n\n User1 manages the resources in RG1. User4 manages the resources in RG2.\n Sub1 contains virtual machines that run Windows Server 2019 as shown in the following table\n\n{{img:/exam-media/az-104/T7-T16/0052000003.png}}\n\n No network security groups (NSGs) are associated to the network interfaces or the subnets.\n Sub1 contains the storage accounts shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0052100001.png}}\n\n Requirements -\n\n Planned Changes -\n Contoso plans to implement the following changes:\n Create a blob container named container1 and a file share named share1 that will use the Cool storage tier.\n Create a storage account named storage5 and configure storage replication for the Blob service.\n Create an NSG named NSG1 that will have the custom inbound security rules shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0052100005.png}}\n\n Associate NSG1 to the network interface of VM1.\n Create an NSG named NSG2 that will have the custom outbound security rules shown in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0052100007.png}}\n\n{{img:/exam-media/az-104/T7-T16/0052200001.png}}\n\n Associate NSG2 to VNET1/Subnet2.\n\n Technical Requirements -\n Contoso must meet the following technical requirements:\n Create container1 and share1.\n Use the principle of least privilege.\n Create an Azure AD security group named Group4.\n Back up the Azure file shares and virtual machines by using Azure Backup.\n Trigger an alert if VM1 or VM2 has less than 20 GB of free space on volume C.\n Enable User1 to create Azure policy definitions and User2 to assign Azure policies to RG1.\n Create an internal Basic Azure Load Balancer named LB1 and connect the load balancer to VNET1/Subnet1\n Enable flow logging for IP traffic from VM5 and retain the flow logs for a period of eight months.\n Whenever possible, grant Group4 Azure role-based access control (Azure RBAC) read-only permissions to the Azure file shares.  Question  You need to add VM1 and VM2 to the backend pool of LB1.\n What should you do first?",
     keySource: "source",
     explanation: "Source: Az-104 T7-T16.apkg",
     type: "single",
@@ -16589,8 +17510,8 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 561,
-    number: 561,
+    id: 556,
+    number: 556,
     topic: "Topic 7-16",
     prompt: "You need to ensure that VM1 can communicate with VM4. The solution must minimize administrative effort.\n\n What should you do?",
     keySource: "source",
@@ -16619,45 +17540,55 @@ export const az104Questions: Question[] = [
     ]
   },
   {
-    id: 562,
-    number: 562,
+    id: 557,
+    number: 557,
     topic: "Topic 7-16",
-    prompt: "Overview -\n Litware, Inc. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York.\n The Montreal office has 2,000 employees. The Seattle office has 1,000 employees. The New York office has 200 employees.\n All the resources used by Litware are hosted on-premises.\n Litware creates a new Azure subscription. The Azure Active Directory (Azure AD) tenant uses a domain named litware.onmicrosoft.com. The tenant uses the\n Premium P1 pricing tier.\n\n Existing Environment -\n The network contains an Active Directory forest named litware.com. All domain controllers are configured as DNS servers and host the litware.com DNS zone.\n Litware has finance, human resources, sales, research, and information technology departments. Each department has an organizational unit (OU) that contains all the accounts of that respective department. All the user accounts have the department attribute set to their respective department. New users are added frequently.\n Litware.com contains a user named User1.\n All the offices connect by using private connections.\n Litware has data centers in the Montreal and Seattle offices. Each office has a firewall that can be configured as a VPN device.\n All infrastructure servers are virtualized. The virtualization environment contains the servers in the following table.\n\n[Image: 0058800001.png]\n\n Litware uses two web applications named App1 and App2. Each instance on each web application requires 1 GB of memory.\n The Azure subscription contains the resources in the following table.\n\n[Image: 0058800002.png]\n\n The network security team implements several network security groups (NSGs)\n\n Requirements -\n\n Planned Changes -\n Litware plans to implement the following changes:\n Deploy Azure ExpressRoute to the Montreal office.\n Migrate the virtual machines hosted on Server1 and Server2 to Azure.\n Synchronize on-premises Active Directory to Azure Active Directory (Azure AD).\n Migrate App1 and App2 to two Azure web apps named WebApp1 and WebApp2.\n\n Technical Requirements -\n Litware must meet the following technical requirements:\n Ensure that WebApp1 can adjust the number of instances automatically based on the load and can scale up to five instances.\n\n[Image: 0058800007.png]\n\n Ensure that VM3 can establish outbound connections over TCP port 8080 to the applications servers in the Montreal office.\n Ensure that routing information is exchanged automatically between Azure and the routers in the Montreal office.\n Enable Azure Multi-Factor Authentication (MFA) for the users in the finance department only.\n Ensure that webapp2.azurewebsites.net can be accessed by using the name app2.litware.com.\n Connect the New York office to VNet1 over the Internet by using an encrypted connection.\n Create a workflow to send an email message when the settings of VM4 are modified.\n Create a custom Azure role named Role1 that is based on the Reader role.\n Minimize costs whenever possible.\n  Question\n  HOTSPOT -\n\n You need to implement Role1.\n Which command should you run before you create Role1? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n[Image: 0058900009.png]",
+    prompt: "Overview -\n Litware, Inc. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York.\n The Montreal office has 2,000 employees. The Seattle office has 1,000 employees. The New York office has 200 employees.\n All the resources used by Litware are hosted on-premises.\n Litware creates a new Azure subscription. The Azure Active Directory (Azure AD) tenant uses a domain named litware.onmicrosoft.com. The tenant uses the\n Premium P1 pricing tier.\n\n Existing Environment -\n The network contains an Active Directory forest named litware.com. All domain controllers are configured as DNS servers and host the litware.com DNS zone.\n Litware has finance, human resources, sales, research, and information technology departments. Each department has an organizational unit (OU) that contains all the accounts of that respective department. All the user accounts have the department attribute set to their respective department. New users are added frequently.\n Litware.com contains a user named User1.\n All the offices connect by using private connections.\n Litware has data centers in the Montreal and Seattle offices. Each office has a firewall that can be configured as a VPN device.\n All infrastructure servers are virtualized. The virtualization environment contains the servers in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0058800001.png}}\n\n Litware uses two web applications named App1 and App2. Each instance on each web application requires 1 GB of memory.\n The Azure subscription contains the resources in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0058800002.png}}\n\n The network security team implements several network security groups (NSGs)\n\n Requirements -\n\n Planned Changes -\n Litware plans to implement the following changes:\n Deploy Azure ExpressRoute to the Montreal office.\n Migrate the virtual machines hosted on Server1 and Server2 to Azure.\n Synchronize on-premises Active Directory to Azure Active Directory (Azure AD).\n Migrate App1 and App2 to two Azure web apps named WebApp1 and WebApp2.\n\n Technical Requirements -\n Litware must meet the following technical requirements:\n Ensure that WebApp1 can adjust the number of instances automatically based on the load and can scale up to five instances.\n\n{{img:/exam-media/az-104/T7-T16/0058800007.png}}\n\n Ensure that VM3 can establish outbound connections over TCP port 8080 to the applications servers in the Montreal office.\n Ensure that routing information is exchanged automatically between Azure and the routers in the Montreal office.\n Enable Azure Multi-Factor Authentication (MFA) for the users in the finance department only.\n Ensure that webapp2.azurewebsites.net can be accessed by using the name app2.litware.com.\n Connect the New York office to VNet1 over the Internet by using an encrypted connection.\n Create a workflow to send an email message when the settings of VM4 are modified.\n Create a custom Azure role named Role1 that is based on the Reader role.\n Minimize costs whenever possible.\n  Question\n  HOTSPOT -\n\n You need to implement Role1.\n Which command should you run before you create Role1? To answer, select the appropriate options in the answer area.\n NOTE: Each correct selection is worth one point.\n Hot Area:\n\n{{img:/exam-media/az-104/T7-T16/0058900009.png}}",
     keySource: "source",
-    explanation: "Source: Az-104 T7-T16.apkg",
-    type: "multiple",
+    explanation: "{{img:/exam-media/az-104/T7-T16/0058900010.png}}\nSource: Az-104 T7-T16.apkg",
+    type: "hotspot-dropdown",
     options: [
       {
         id: "A",
-        text: "Box1: Get-AzRoleDefinition"
+        text: "Get-AzRoleDefinition"
       },
       {
         id: "B",
-        text: "Box2: ConvertTo-Json"
+        text: "ConvertTo-Json"
       },
       {
         id: "C",
-        text: "Box1: Get-AzResourceProvider"
+        text: "Get-AzResourceProvider"
       },
       {
         id: "D",
-        text: "Box2: ConvertTo-Xml"
+        text: "ConvertTo-Xml"
       },
       {
         id: "E",
-        text: "Box2: ConvertFrom-Json"
+        text: "ConvertFrom-Json"
+      }
+    ],
+    targets: [
+      {
+        id: "t1",
+        text: "Box1"
+      },
+      {
+        id: "t2",
+        text: "Box2"
       }
     ],
     correct: [
-      "A",
-      "B"
+      "t1:A",
+      "t2:B"
     ]
   },
   {
-    id: 563,
-    number: 563,
+    id: 558,
+    number: 558,
     topic: "Topic 7-16",
-    prompt: "Overview -\n Litware, Inc. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York.\n The Montreal office has 2,000 employees. The Seattle office has 1,000 employees. The New York office has 200 employees.\n All the resources used by Litware are hosted on-premises.\n Litware creates a new Azure subscription. The Azure Active Directory (Azure AD) tenant uses a domain named litware.onmicrosoft.com. The tenant uses the\n Premium P1 pricing tier.\n\n Existing Environment -\n The network contains an Active Directory forest named litware.com. All domain controllers are configured as DNS servers and host the litware.com DNS zone.\n Litware has finance, human resources, sales, research, and information technology departments. Each department has an organizational unit (OU) that contains all the accounts of that respective department. All the user accounts have the department attribute set to their respective department. New users are added frequently.\n Litware.com contains a user named User1.\n All the offices connect by using private connections.\n Litware has data centers in the Montreal and Seattle offices. Each office has a firewall that can be configured as a VPN device.\n All infrastructure servers are virtualized. The virtualization environment contains the servers in the following table.\n\n[Image: 0058800001.png]\n\n Litware uses two web applications named App1 and App2. Each instance on each web application requires 1 GB of memory.\n The Azure subscription contains the resources in the following table.\n\n[Image: 0058800002.png]\n\n The network security team implements several network security groups (NSGs)\n\n Requirements -\n\n Planned Changes -\n Litware plans to implement the following changes:\n Deploy Azure ExpressRoute to the Montreal office.\n Migrate the virtual machines hosted on Server1 and Server2 to Azure.\n Synchronize on-premises Active Directory to Azure Active Directory (Azure AD).\n Migrate App1 and App2 to two Azure web apps named WebApp1 and WebApp2.\n\n Technical Requirements -\n Litware must meet the following technical requirements:\n Ensure that WebApp1 can adjust the number of instances automatically based on the load and can scale up to five instances.\n\n[Image: 0058800007.png]\n\n Ensure that VM3 can establish outbound connections over TCP port 8080 to the applications servers in the Montreal office.\n Ensure that routing information is exchanged automatically between Azure and the routers in the Montreal office.\n Enable Azure Multi-Factor Authentication (MFA) for the users in the finance department only.\n Ensure that webapp2.azurewebsites.net can be accessed by using the name app2.litware.com.\n Connect the New York office to VNet1 over the Internet by using an encrypted connection.\n Create a workflow to send an email message when the settings of VM4 are modified.\n Create a custom Azure role named Role1 that is based on the Reader role.\n Minimize costs whenever possible.  Question  You need to recommend a solution to automate the configuration for the finance department users. The solution must meet the technical requirements.\n What should you include in the recommendation?",
+    prompt: "Overview -\n Litware, Inc. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York.\n The Montreal office has 2,000 employees. The Seattle office has 1,000 employees. The New York office has 200 employees.\n All the resources used by Litware are hosted on-premises.\n Litware creates a new Azure subscription. The Azure Active Directory (Azure AD) tenant uses a domain named litware.onmicrosoft.com. The tenant uses the\n Premium P1 pricing tier.\n\n Existing Environment -\n The network contains an Active Directory forest named litware.com. All domain controllers are configured as DNS servers and host the litware.com DNS zone.\n Litware has finance, human resources, sales, research, and information technology departments. Each department has an organizational unit (OU) that contains all the accounts of that respective department. All the user accounts have the department attribute set to their respective department. New users are added frequently.\n Litware.com contains a user named User1.\n All the offices connect by using private connections.\n Litware has data centers in the Montreal and Seattle offices. Each office has a firewall that can be configured as a VPN device.\n All infrastructure servers are virtualized. The virtualization environment contains the servers in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0058800001.png}}\n\n Litware uses two web applications named App1 and App2. Each instance on each web application requires 1 GB of memory.\n The Azure subscription contains the resources in the following table.\n\n{{img:/exam-media/az-104/T7-T16/0058800002.png}}\n\n The network security team implements several network security groups (NSGs)\n\n Requirements -\n\n Planned Changes -\n Litware plans to implement the following changes:\n Deploy Azure ExpressRoute to the Montreal office.\n Migrate the virtual machines hosted on Server1 and Server2 to Azure.\n Synchronize on-premises Active Directory to Azure Active Directory (Azure AD).\n Migrate App1 and App2 to two Azure web apps named WebApp1 and WebApp2.\n\n Technical Requirements -\n Litware must meet the following technical requirements:\n Ensure that WebApp1 can adjust the number of instances automatically based on the load and can scale up to five instances.\n\n{{img:/exam-media/az-104/T7-T16/0058800007.png}}\n\n Ensure that VM3 can establish outbound connections over TCP port 8080 to the applications servers in the Montreal office.\n Ensure that routing information is exchanged automatically between Azure and the routers in the Montreal office.\n Enable Azure Multi-Factor Authentication (MFA) for the users in the finance department only.\n Ensure that webapp2.azurewebsites.net can be accessed by using the name app2.litware.com.\n Connect the New York office to VNet1 over the Internet by using an encrypted connection.\n Create a workflow to send an email message when the settings of VM4 are modified.\n Create a custom Azure role named Role1 that is based on the Reader role.\n Minimize costs whenever possible.  Question  You need to recommend a solution to automate the configuration for the finance department users. The solution must meet the technical requirements.\n What should you include in the recommendation?",
     keySource: "source",
     explanation: "Source: Az-104 T7-T16.apkg",
     type: "single",
