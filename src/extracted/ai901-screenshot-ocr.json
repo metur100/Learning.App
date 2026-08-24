@@ -1,0 +1,162 @@
+[
+  {
+    "file": "Screenshot 2026-08-24 002241.png",
+    "text": "Question 53 of 128\nHOTSPOT\nSelect the answer that correctly completes the sentence.\nAnswer Area\nThe Microsoft responsible Al principle of reliability wl,\nand safety requires Al systems to enable human oversight\nensure equitable outcomes\nperform consistently under expected conditions\nprovide clear explanations"
+  },
+  {
+    "file": "Screenshot 2026-08-24 002255.png",
+    "text": "Question 54 of 128\n\nHOTSPOT\n\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\nNOTE: Each correct selection is worth one point.\nAnswer Area\nStatements Yes No\nImage analysis capabilities in Microsoft Foundry Tools can perform optical character recognition (OCR). Oo O\nImage analysis capabilities in Microsoft Foundry Tools can generate captions and descriptive tags for oO O\nimages.\nImage analysis capabilities in Microsoft Foundry Tools are designed primarily to create new images from text eo} (e]\nprompts."
+  },
+  {
+    "file": "Screenshot 2026-08-24 002301.png",
+    "text": "Question 55 of 128\n\nHOTSPOT\n\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\nNOTE: Each correct selection is worth one point.\nAnswer Area\nStatements Yes No\nUsing Azure Speech in Foundry Tools for batch transcription requires live audio input from a microphone. 0] Oo\nAzure Speech in Foundry Tools can analyze video frames to detect and label objects while transcribing Oo Oo\naudio.\nSpeech translation in Azure Speech in Foundry Tools only supports translating speech into spoken outputin =~ O Oo\nanother language."
+  },
+  {
+    "file": "Screenshot 2026-08-24 002313.png",
+    "text": "HOTSPOT\n\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\nNOTE: Each correct selection is worth one point.\n\nAnswer Area\n\nStatements Yes No\nYou can deploy a supported base model directly from the model catalog. [0] (o]\nThe playground is used to create the model deployment before the model can be tested. o oO\nAfter deploying a model, you can use the playground in the Microsoft Foundry portal to send prompts and oO (e]\nreview responses."
+  },
+  {
+    "file": "Screenshot 2026-08-24 002324.png",
+    "text": "Question 57 of 128\nHOTSPOT\nSelect the answer that correctly completes the sentence.\nAnswer Area\nAzure Content Understanding in Foundry Tools uses\n¥ | to convert speech to text from audio and video.\ndiarization\nkey phrase extraction\n| synthesis\n|\n| transcription"
+  },
+  {
+    "file": "Screenshot 2026-08-24 002334.png",
+    "text": "Question 58 of 128\nHOTSPOT\nSelect the answer that correctly completes the sentence.\nAnswer Area\n¥ can be used to extract text from images.\nComputer vision\nGenerative Al\nNatural language processing"
+  },
+  {
+    "file": "Screenshot 2026-08-24 002348.png",
+    "text": "Question 59 of 128\nYou are developing a simple application that uses the Microsoft Foundry SDK to send chat prompts to a\nmodel.\nWhich three elements should you provide in the code to run the application? Each correct answer\npresents part of the solution.\nNOTE: Each correct selection is worth one point.\n(a) the model deployment name v\nB the task type\nC the Foundry project display name\n(0) Microsoft Entra ID credentials v\n3 the endpoint URL v\nCorrect answers: A, D, E"
+  },
+  {
+    "file": "Screenshot 2026-08-24 002402.png",
+    "text": "Question 60 of 128\nWhat are two types of generative Al models? Each correct answer presents a complete solution.\nNOTE: Each correct answer is worth one point\nA computer vision\n8] GPT v\n[c DALE v\nD transformer\nE natural language processing\nCorrect answers: B,C"
+  },
+  {
+    "file": "Screenshot 2026-08-24 083954.png",
+    "text": "Question 61 of 128\nHOTSPOT\nSelect the answer that correctly completes the sentence.\nAnswer Area\nTo enable an agent in Microsoft Foundry to call Azure Language in Foundry Tools text analysis,\nyou must configure -\nthe Azure Al Search index\na Foundry model deployment\nthe Azure Language MCP server\nan Azure Speech in Foundry Tools service endpoint"
+  },
+  {
+    "file": "Screenshot 2026-08-24 084000.png",
+    "text": "Question 63 of 128\n\nHOTSPOT\n\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\nNOTE: Each correct selection is worth one point.\nAnswer Area\nStatements Yes No\nTo process prompts that contain images, you must deploy a multimodal generative Al model. o o\nIn the Foundry playground, you can provide an image by uploading a loca file or by specifying a publicly © ©\naccessible URL\nA multimodal model can interpret multiple images included in a single prompt. o o"
+  },
+  {
+    "file": "Screenshot 2026-08-24 084009.png",
+    "text": "Question 66 of 125\nHOTSPOT\nYou are developing an application that analyzes invoices by using Azure Content Understanding in\nFoundry Tools.\nYou have a custom analyzer named invoiceAnalyzer.\nYou need to use the analyzer to process invoice files.\nHow should you complete the Python code? To answer, select the appropriate option in the answer area.\nNOTE: Each correct selection is worth one point.\nAnswer Area\npoller = client.begin_analyze(\n( = LY =tinvoiceanalyzer”,\n| analyzer id\nextraction_type\nmodel_name\nschema id\ninput_urleurl\n)"
+  },
+  {
+    "file": "Screenshot 2026-08-24 084016.png",
+    "text": "Question 67 of 128\n\nHOTSPOT\n\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\nNOTE: Each correct selection is worth one point.\n\n-\n‘Statements Yes No.\n‘Speech synthesis converts spoken audio into written text. o o\n‘Speech recognition can detect and transcribe spoken input o o\nText 0 speech in Azure Speech in Foundry Tools can translate textinputinto audible speechin adifferent ~~ © O\nmar"
+  },
+  {
+    "file": "Screenshot 2026-08-24 084135.png",
+    "text": "Question 71 of 128\n\nHOTSPOT\n\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\nNOTE: Each correct selection is worth one point.\n\n—\ns a.\nasia"
+  },
+  {
+    "file": "Screenshot 2026-08-24 084141.png",
+    "text": "Question 72 of 128\nDRAG DROP\nMatch the description to the corresponding Microsoft Foundry tools.\nTo answer, drag the appropriate description from the column on the left to its tool on the right. Each\ndescription may be used once, more than once, or not at all.\nNOTE: Each correct selection is worth one point.\n\nDescriptions. Answer Area\n\n‘Transcribes spoken input\n\nossen"
+  },
+  {
+    "file": "Screenshot 2026-08-24 084154.png",
+    "text": "Question 77 of 128\n\nHOTSPOT\n\nSelect the answer that correctly completes the sentence.\n\nAnswer Area\n“> converts spoken audio into text.\n\nAzure Language in Foundry Tools\nAzure Speech in Foundry Tools\nAzure Vision in Foundry Tools\nAzure OpenAl in Foundry Models"
+  },
+  {
+    "file": "Screenshot 2026-08-24 084159.png",
+    "text": "Question 78 of 128\n\nHOTSPOT\n\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\nNOTE: Each correct selection is worth one point.\n\nAnswer Area\n\nStatements Yes No\nWhisper models in Azure OpenAl are used to convert speech to text. o o\nEmbedding models in Azure OpenAl are used to convert text into numeric vectors. o o\n‘GPT-4.1 models in Azure OpenAl are used to generate images based on natural language OO\nprompts."
+  },
+  {
+    "file": "Screenshot 2026-08-24 084210.png",
+    "text": "Question 84 of 128\nHOTSPOT\nSelect the answer that correctly completes the sentence.\n_—\nee"
+  },
+  {
+    "file": "Screenshot 2026-08-24 084214.png",
+    "text": "Question 85 of 128\nHOTSPOT\nSelect the answer that correctly completes the sentence.\nAnswer Area\nThe interactive answering of questions entered by a user as part of an\napplication is an example of =\ncomputer vision.\nnatural language processing.\nforecasting."
+  },
+  {
+    "file": "Screenshot 2026-08-24 084223.png",
+    "text": "Question 88 of 128\nHOTSPOT\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\n—\n= a\ner ————. 5 Ws"
+  },
+  {
+    "file": "Screenshot 2026-08-24 084249.png",
+    "text": "Question 90 of 128\n\nHOTSPOT\n\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\nNOTE: Each correct selection is worth one point.\nAnswer Area\nStatements Yes No\nAll Al models can analyze and generate images. [¢} [¢}\nA multimodal generative Al model can interpret image input in a prompt. [e] [e]\nA multimodal model can process prompts that include both text and images. OO"
+  },
+  {
+    "file": "Screenshot 2026-08-24 084253.png",
+    "text": "Question 91 of 128\nHOTSPOT\nSelect the answer that correctly completes the sentence.\nAnswer Area.\nCounting the number of animals in an area based on a video feedis an exompleof [Tv]\nforecasting.\ncomputer vision.\nknowledge mining"
+  },
+  {
+    "file": "Screenshot 2026-08-24 084259.png",
+    "text": "Question 92 of 128\n\nHOTSPOT\n\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\nNOTE: Each correct selection is worth one point.\n-—\nStatements. Yes No\nTransparency focuses on increasing system performance and throughput. o o\nTransparency is supported when users are informed about an Al system's purpose and limitations. [¢] o\nProviding meaningful explanations of how an Al system generates its results supports transparency. O [e]"
+  },
+  {
+    "file": "Screenshot 2026-08-24 084303.png",
+    "text": "Question 93 of 128\nHOTSPOT\nSelect the answer that correctly completes the sentence.\ni\n‘When developing an Al system for self-driving cars, the Microsoft >| principle for responsible Al\ninclusiveness"
+  },
+  {
+    "file": "Screenshot 2026-08-24 084307.png",
+    "text": "Question 95 of 128\nHOTSPOT\nSelect the answer that correctly completes the sentence.\n‘Answer Area\nTo process prompts that contain images, you must deploy | model in Microsoft Foundry.\nan embedding\na multimodal\na speech to text\na text-only"
+  },
+  {
+    "file": "Screenshot 2026-08-24 084311.png",
+    "text": "Question 97 of 128\n\nHOTSPOT\n\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\nNOTE: Each correct selection is worth one point.\nAnswer Area\n‘Statements. Yes No\nLimiting access to Al systems and data reduces the risk of unauthorized data exposure. [e] [e]\nSharing personal user data improves collaboration and supports responsible Al practices. o o\nProtecting personal data and complying with data regulations are key considerations in responsible Al. ~~ O o"
+  },
+  {
+    "file": "Screenshot 2026-08-24 084315.png",
+    "text": "Question 98 of 128\nHOTSPOT\nSelect the answer that correctly completes the sentence.\nAnswer Area\n[¥ is used to extract dates, quantities, and locations from text.\nKey phrase extraction\nLanguage detection\nNamed Entity Recognition (NER)\nSentiment Analysis"
+  },
+  {
+    "file": "Screenshot 2026-08-24 084321.png",
+    "text": "Question 99 of 125\nHOTSPOT\nYou deploy a model named gpt-image-1 in Microsoft Foundry.\nYou need to ensure that an application can generate an image from a user prompt by using the OpenAl\nImages APL.\nHow should you complete the Python code? To answer, select the appropriate option in the answer area.\nNOTE: Each correct selection is worth one point.\nAnswer Area\nresponse = client.responses. vi (\nmodels\"gpt-inage-2° chat.completions.create\nimages create\nprompt=prompt 9\ni images generate\nresponses.create"
+  },
+  {
+    "file": "Screenshot 2026-08-24 084330.png",
+    "text": "Question 104 of 128\nHOTSPOT\nYou have a Microsoft Foundry project that contains a vision-enabled model deployment.\nYou need to develop an application that uses the Azure OpenAl client library to send prompts to the\nmodel.\nHow should you complete the Python code? To answer, select the appropriate options in the answer\narea.\nNOTE: Each correct selection is worth one point.\nAnswer Area\nresponse = client. ¥ .create(\nJeti\nmodel=\"gpt-40\", | COMP! letions\ninput=prompt, embeddings\n) images\nresponses"
+  },
+  {
+    "file": "Screenshot 2026-08-24 084333.png",
+    "text": "Question 105 of 128\n\nHOTSPOT\n\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\nNOTE: Each correct selection is worth one point.\n\n—e\n\not I.\nGenerative Al models predict the next token in a sequence based on pattems learned during training. ~~ O ls)\nA system prompt can be used to influence the behavior and tone of the responses generated by a o []\nemer\nIncreasing the Temperature parameter makes the responses generated by generative Al models more. [e] o\ndeterministic and consistent."
+  },
+  {
+    "file": "Screenshot 2026-08-24 084337.png",
+    "text": "Question 106 of 128\nHOTSPOT\nSelect the answer that correctly completes the sentence.\nAnswer Area\nAvirtual assistant that converts spoken customer ~ workload.\nrequests nto written text relies on a key phrase extraction\nNatural Language Understanding (NLU)\nspeech\ntext analysis"
+  },
+  {
+    "file": "Screenshot 2026-08-24 084342.png",
+    "text": "Question 109 of 128\nHOTSPOT\nSelect the answer that correctly completes the sentence.\nAnswer Area\nAfter a generative Al model is deployed, applications ~~ | > of the model.\nsend requests to the model by calling the API endpoint\nembedding vector\ntraining dataset\nURL parameter"
+  },
+  {
+    "file": "Screenshot 2026-08-24 084346.png",
+    "text": "Question 110 of 128\n\nHOTSPOT\n\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\nNOTE: Each correct selection is worth one point.\nAnswer Area\nStatements Yes No\nAll Al models can analyze and generate images. Oo oO\nA vision-enabled generative Al model can extract text from images. [¢] Oo\nA multimodal model can process prompts that include both text and images. [eo] [e]"
+  },
+  {
+    "file": "Screenshot 2026-08-24 084351.png",
+    "text": "Question 112 of 128\n\nHOTSPOT\n\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\nNOTE: Each correct selection is worth one point.\ni\n‘Statements. Yes No\nA single method of user input for an Al system provides an inclusive experience. o o\nIncreasing the overall number of users that use an Al system supports an inclusive experience. o o\nDesigning an Al system that accommodates users that have different language preferences supports ~~ O o\nmz"
+  },
+  {
+    "file": "Screenshot 2026-08-24 084355.png",
+    "text": "Question 113 of 128\n\nHOTSPOT\n\nSelect the answer that correctly completes the sentence.\n\nAnswer Area\nA multimodal model >.\n\nanalyzes images to detect objects\ncreates new visual content based on text prompts\norganizes structured numerical data into predictive categories\nuses pattern matching to retrieve similar images from a fixed database:"
+  },
+  {
+    "file": "Screenshot 2026-08-24 084400.png",
+    "text": "Question 117 of 128\n\nHOTSPOT\n\nSelect the answer that correctly completes the sentence.\n\nAnswer Area\n\nWhen developing a lightweight chat application by using the Microsoft Foundry SOK, use the\n| class to access deployments, agents, and indexes.\nAlProjectClient\nChatCompletionsClient\nFoundryLocalManager\nModelCatalogClient"
+  },
+  {
+    "file": "Screenshot 2026-08-24 084403.png",
+    "text": "Question 118 of 128\nHOTSPOT\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\nNOTE: Each correct selection is worth one point.\n—\np- oo\n‘Azure Content Understanding in Foundry Tools can extract structured information from documents, images, ~~ O o"
+  },
+  {
+    "file": "Screenshot 2026-08-24 084410.png",
+    "text": "Question 119 of 125\nYou have the process shown in the following exhibit.\nEE [—\n\no ox SR ——\nou can use our REST API to manage your Knowledoe iy) iN\nBae Sea ere for tats nips. kD Pr TPE ———\n\nfreer\nwh\nae Cum ter\noot 12000 Tan’\nin amis - - b\name apr\n[A] Te your message. i) Ee\nf\n;\nf\nWhich type of Al solution is shown in the diagram?\nA a sentiment analysis solution\n© a computer vision application\n© anagent\n© a machine learning model\npss"
+  },
+  {
+    "file": "Screenshot 2026-08-24 084429.png",
+    "text": "Question 120 of 128\nYou have the following REST API request.\nbody = {\n“praompt™: “A polar bear on the beach holding an icecream”,\n\"size\": \"1024x1024\",\n\"n\": 1,\n“style”: “vivid”\nWhich Azure OpenAl model should you use to process the request?\nA DALL-E\n5 Codex\n© GPT-41\nWhisper"
+  },
+  {
+    "file": "Screenshot 2026-08-24 084440.png",
+    "text": "Question 127 of 128.\nDRAG DROP\nMatch the principles of responsible Al to appropriate requirements.\nTo answer, drag the appropriate principles from the column on the left to its requirement on the right.\nEach principle may be used once, more than once, or not at all. You may need to drag the split bar\nbetween panes or scroll to view content.\nNOTE: Each correct selection is worth one point.\nPrinciples Answer Area\nP=] C1] The system must not discriminate based on gender, race, or ge\nET ———\nReliab and safety Automated deision-making processes must be recorded 0 that approved users can\nidentity why a decision was made."
+  },
+  {
+    "file": "Screenshot 2026-08-24 084444.png",
+    "text": "Question 128 of 128\n\nHOTSPOT\n\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\n\nNOTE: Each correct selection is worth one point.\n\n_—\n\nStatements Yes. No\n‘A summarization model is used to transcribe spoken audio into written text. o oO\nAchat completion model can generate vector embeddings for semantic tasks. o o\nAn embedding model can generate vector representations of the provided input. O o"
+  }
+]

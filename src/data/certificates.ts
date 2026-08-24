@@ -1,5 +1,6 @@
 import type { CertificateId, Question } from '../types';
 import { questions as ai901Base } from './questions';
+import { ai901NewQuestions } from './banks/ai901.generated';
 import { az104Questions } from './banks/az104.generated';
 import { az204Questions } from './banks/az204.generated';
 import { az305Questions } from './banks/az305.generated';
@@ -27,8 +28,25 @@ function withCertId(items: Question[], certificateId: CertificateId, idOffset: n
   }));
 }
 
+function mergeAi901(base: Question[], imported: Question[]): Question[] {
+  const byNumber = new Map<number, Question>();
+
+  for (const q of base) {
+    byNumber.set(q.number, q);
+  }
+
+  // Only append numbers above the legacy base range (1-52).
+  for (const q of imported) {
+    if (q.number > 52) {
+      byNumber.set(q.number, q);
+    }
+  }
+
+  return [...byNumber.values()].sort((a, b) => a.number - b.number);
+}
+
 export const questionBanks: Record<CertificateId, Question[]> = {
-  'ai-901': withCertId(ai901Base, 'ai-901', 0),
+  'ai-901': withCertId(mergeAi901(ai901Base, ai901NewQuestions), 'ai-901', 0),
   'az-104': withCertId(az104Questions, 'az-104', 100000),
   'az-204': withCertId(az204Questions, 'az-204', 200000),
   'az-305': withCertId(az305Questions, 'az-305', 300000),
