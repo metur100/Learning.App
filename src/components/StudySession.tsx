@@ -4,7 +4,7 @@ import type { GradeResult, Question } from '../types';
 import { QuestionCard } from './QuestionCard';
 import { useAppData } from '../hooks/useAppData';
 import { schedule } from '../services/scheduler';
-import type { Response } from '../services/grading';
+import { grade, isAnswered, type Response } from '../services/grading';
 
 interface Props {
   queue: Question[];
@@ -228,7 +228,33 @@ export function StudySession({
 
     const qid = current.question.id;
     const st = entryStates[current.entryId] ?? { response: null, graded: false, result: null };
-    const isCorrectNow = Boolean(st.graded && st.result?.correct);
+    let evaluated = st;
+
+    // Auto-check on Next so users don't need an explicit "Check answer" click.
+    if (!st.graded && st.response && isAnswered(current.question, st.response)) {
+      const r = grade(current.question, st.response);
+      const card = data.cards[qid];
+      if (card) {
+        updateCard(schedule(card, r.correct));
+        recordAttempt({ questionId: qid, correct: r.correct, at: new Date().toISOString(), mode });
+      }
+
+      setEntryStates((prev) => {
+        const existing = prev[current.entryId] ?? { response: null, graded: false, result: null };
+        return {
+          ...prev,
+          [current.entryId]: { ...existing, graded: true, result: r },
+        };
+      });
+
+      if (r.correct) {
+        setCorrectByQuestion((prev) => ({ ...prev, [qid]: true }));
+      }
+
+      evaluated = { ...st, graded: true, result: r };
+    }
+
+    const isCorrectNow = Boolean(evaluated.graded && evaluated.result?.correct);
     const isResolved = Boolean(correctByQuestion[qid] || isCorrectNow);
 
     let nextEntries = entries;
@@ -252,7 +278,18 @@ export function StudySession({
     setEntries(nextEntries);
     setNextEntryId(idSeed);
     setIndex((i) => Math.min(i + 1, nextEntries.length - 1));
-  }, [current, entryStates, correctByQuestion, entries, index, nextEntryId]);
+  }, [
+    current,
+    entryStates,
+    correctByQuestion,
+    entries,
+    index,
+    nextEntryId,
+    data.cards,
+    updateCard,
+    recordAttempt,
+    mode,
+  ]);
 
   if (entries.length === 0) {
     return (
