@@ -2,3 +2,13 @@ node_modules
 dist
 *.local
 .DS_Store
+
+# Local agent/context notes
+AGENT_CONTEXT.md
+LEARNING_APP_BEST_PRACTICES.md
+
+# TypeScript incremental build metadata
+*.tsbuildinfo
+
+# Generated JS config sibling
+vite.config.js

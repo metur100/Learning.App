@@ -34,6 +34,10 @@ function shuffle<T>(arr: T[]): T[] {
     const j = Math.floor(Math.random() * (i + 1));
     [a[i], a[j]] = [a[j], a[i]];
   }
+  // Keep shuffle random, but avoid "no visible change" when possible.
+  if (a.length > 1 && a.every((v, i) => v === arr[i])) {
+    [a[0], a[1]] = [a[1], a[0]];
+  }
   return a;
 }
 
@@ -84,7 +88,7 @@ export function QuestionCard({
     if (!question.options) return [];
     return shuffleOptions ? shuffle(question.options) : question.options;
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [question.id, question.options, shuffleOptions]);
+  }, [question.id, question.options, shuffleOptions, resetToken]);
 
   const isMulti = question.type === "multiple";
   const isBoolean = question.type === "hotspot-boolean";
