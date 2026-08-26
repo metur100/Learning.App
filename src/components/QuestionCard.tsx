@@ -84,6 +84,11 @@ export function QuestionCard({
     setResult(initialResult);
   }, [question.id, resetToken]);
 
+  useEffect(() => {
+    setChecked(initialChecked);
+    setResult(initialResult);
+  }, [initialChecked, initialResult]);
+
   const options = useMemo(() => {
     if (!question.options) return [];
     return shuffleOptions ? shuffle(question.options) : question.options;

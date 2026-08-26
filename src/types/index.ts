@@ -90,6 +90,7 @@ export interface Settings {
   selectedCertificate: CertificateId;
   showExplanationImmediately: boolean;
   shuffleOptions: boolean;
+  showCheckedAnswerBeforeNext: boolean;
   examLength: number;
   examMinutes: number;
   theme: "system" | "light" | "dark";

@@ -1,13 +1,15 @@
-import { useEffect, useState } from 'react';
-import { useAppData } from '../hooks/useAppData';
-import { certificates } from '../data/certificates';
-import { useQuestionBank } from '../hooks/useQuestionBank';
+import { useEffect, useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleInfo } from "@fortawesome/free-solid-svg-icons";
+import { useAppData } from "../hooks/useAppData";
+import { certificates } from "../data/certificates";
+import { useQuestionBank } from "../hooks/useQuestionBank";
 
 export function SettingsPage() {
   const { data, updateSettings, doResetProgress, doResetAll } = useAppData();
   const { questions } = useQuestionBank();
   const s = data.settings;
-  const [confirm, setConfirm] = useState<null | 'progress' | 'all'>(null);
+  const [confirm, setConfirm] = useState<null | "progress" | "all">(null);
 
   useEffect(() => {
     const max = Math.max(5, questions.length);
@@ -28,7 +30,7 @@ export function SettingsPage() {
           {certificates.map((c) => (
             <button
               key={c.id}
-              className={`certpick__card${s.selectedCertificate === c.id ? ' is-active' : ''}`}
+              className={`certpick__card${s.selectedCertificate === c.id ? " is-active" : ""}`}
               onClick={() => updateSettings({ selectedCertificate: c.id })}
               aria-pressed={s.selectedCertificate === c.id}
             >
@@ -45,7 +47,9 @@ export function SettingsPage() {
           <input
             type="checkbox"
             checked={s.showExplanationImmediately}
-            onChange={(e) => updateSettings({ showExplanationImmediately: e.target.checked })}
+            onChange={(e) =>
+              updateSettings({ showExplanationImmediately: e.target.checked })
+            }
           />
           <span>Show explanation as soon as I check an answer</span>
         </label>
@@ -53,9 +57,30 @@ export function SettingsPage() {
           <input
             type="checkbox"
             checked={s.shuffleOptions}
-            onChange={(e) => updateSettings({ shuffleOptions: e.target.checked })}
+            onChange={(e) =>
+              updateSettings({ shuffleOptions: e.target.checked })
+            }
           />
           <span>Shuffle answer options</span>
+        </label>
+        <label className="toggle">
+          <input
+            type="checkbox"
+            checked={s.showCheckedAnswerBeforeNext}
+            onChange={(e) =>
+              updateSettings({ showCheckedAnswerBeforeNext: e.target.checked })
+            }
+          />
+          <span className="toggle__text">
+            1 sec check{" "}
+            <span
+              className="toggle__hint"
+              aria-label="Info"
+              title="When you click Next question, your current answer is auto-checked, shown briefly, then the next question appears."
+            >
+              <FontAwesomeIcon icon={faCircleInfo} />
+            </span>
+          </span>
         </label>
       </section>
 
@@ -68,7 +93,15 @@ export function SettingsPage() {
             min={5}
             max={Math.max(5, questions.length)}
             value={s.examLength}
-            onChange={(e) => updateSettings({ examLength: clamp(+e.target.value, 5, Math.max(5, questions.length)) })}
+            onChange={(e) =>
+              updateSettings({
+                examLength: clamp(
+                  +e.target.value,
+                  5,
+                  Math.max(5, questions.length),
+                ),
+              })
+            }
           />
         </label>
         <label className="field">
@@ -78,7 +111,9 @@ export function SettingsPage() {
             min={5}
             max={120}
             value={s.examMinutes}
-            onChange={(e) => updateSettings({ examMinutes: clamp(+e.target.value, 5, 120) })}
+            onChange={(e) =>
+              updateSettings({ examMinutes: clamp(+e.target.value, 5, 120) })
+            }
           />
         </label>
       </section>
@@ -86,10 +121,10 @@ export function SettingsPage() {
       <section className="settings-group">
         <h2>Appearance</h2>
         <div className="segmented" role="radiogroup" aria-label="Theme">
-          {(['system', 'light', 'dark'] as const).map((t) => (
+          {(["system", "light", "dark"] as const).map((t) => (
             <button
               key={t}
-              className={`segmented__btn${s.theme === t ? ' is-on' : ''}`}
+              className={`segmented__btn${s.theme === t ? " is-on" : ""}`}
               role="radio"
               aria-checked={s.theme === t}
               onClick={() => updateSettings({ theme: t })}
@@ -102,34 +137,49 @@ export function SettingsPage() {
 
       <section className="settings-group settings-group--danger">
         <h2>Reset</h2>
-        <p className="danger-note">These actions clear data stored in this browser and cannot be undone.</p>
+        <p className="danger-note">
+          These actions clear data stored in this browser and cannot be undone.
+        </p>
         <div className="danger-actions">
-          <button className="btn btn--danger" onClick={() => setConfirm('progress')}>
+          <button
+            className="btn btn--danger"
+            onClick={() => setConfirm("progress")}
+          >
             Reset progress
           </button>
-          <button className="btn btn--danger" onClick={() => setConfirm('all')}>
+          <button className="btn btn--danger" onClick={() => setConfirm("all")}>
             Reset everything
           </button>
         </div>
       </section>
 
       {confirm && (
-        <div className="modal" role="dialog" aria-modal="true" aria-labelledby="confirm-title">
+        <div
+          className="modal"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="confirm-title"
+        >
           <div className="modal__box">
             <h3 id="confirm-title">
-              {confirm === 'progress' ? 'Reset selected certificate progress?' : 'Reset everything?'}
+              {confirm === "progress"
+                ? "Reset selected certificate progress?"
+                : "Reset everything?"}
             </h3>
             <p>
-                  {confirm === 'progress'
-                    ? 'Only the selected certificate progress and history will be cleared. Other certificates are kept.'
-                : 'Progress, history, and settings will all be restored to defaults.'}
+              {confirm === "progress"
+                ? "Only the selected certificate progress and history will be cleared. Other certificates are kept."
+                : "Progress, history, and settings will all be restored to defaults."}
             </p>
             <div className="modal__actions">
-              <button className="btn" onClick={() => setConfirm(null)}>Cancel</button>
+              <button className="btn" onClick={() => setConfirm(null)}>
+                Cancel
+              </button>
               <button
                 className="btn btn--danger"
                 onClick={() => {
-                      if (confirm === 'progress') doResetProgress(s.selectedCertificate);
+                  if (confirm === "progress")
+                    doResetProgress(s.selectedCertificate);
                   else doResetAll();
                   setConfirm(null);
                 }}
