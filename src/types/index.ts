@@ -1,17 +1,22 @@
 /** Domain and app-wide type definitions for the AI-901 study app. */
 
-export type CertificateId = 'ai-901' | 'az-104' | 'az-204' | 'az-305' | 'az-400';
+export type CertificateId =
+  | "ai-901"
+  | "az-104"
+  | "az-204"
+  | "az-305"
+  | "az-400";
 
 export type QuestionType =
-  | 'single' // one correct option
-  | 'multiple' // two or more correct options
-  | 'hotspot-select' // "complete the sentence" — pick one option
-  | 'hotspot-dropdown' // one or more dropdown blanks
-  | 'hotspot-boolean' // per-statement Yes/No grid
-  | 'drag-drop'; // assign values to one or more targets
+  | "single" // one correct option
+  | "multiple" // two or more correct options
+  | "hotspot-select" // "complete the sentence" — pick one option
+  | "hotspot-dropdown" // one or more dropdown blanks
+  | "hotspot-boolean" // per-statement Yes/No grid
+  | "drag-drop"; // assign values to one or more targets
 
 /** Where a question's answer key came from. */
-export type KeySource = 'source' | 'domain';
+export type KeySource = "source" | "domain";
 
 export interface Option {
   id: string; // 'A' | 'B' | ...
@@ -51,7 +56,7 @@ export interface Question {
 }
 
 /** Spaced-repetition scheduling state for a single question. */
-export type SrsStatus = 'new' | 'learning' | 'review' | 'mastered';
+export type SrsStatus = "new" | "learning" | "review" | "mastered";
 
 export interface CardState {
   questionId: number;
@@ -78,7 +83,7 @@ export interface AttemptRecord {
   /** ISO timestamp. */
   at: string;
   /** Which mode produced the attempt. */
-  mode: 'learn' | 'review' | 'exam' | 'browse';
+  mode: "learn" | "review" | "exam" | "browse";
 }
 
 export interface Settings {
@@ -87,7 +92,7 @@ export interface Settings {
   shuffleOptions: boolean;
   examLength: number;
   examMinutes: number;
-  theme: 'system' | 'light' | 'dark';
+  theme: "system" | "light" | "dark";
 }
 
 export interface AppData {
