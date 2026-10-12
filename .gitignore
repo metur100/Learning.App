@@ -12,3 +12,6 @@ LEARNING_APP_BEST_PRACTICES.md
 
 # Generated JS config sibling
 vite.config.js
+
+# Source exam PDFs (personal, watermarked copies) - only extracted data is committed
+src/data/**/*.pdf

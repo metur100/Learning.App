@@ -28,7 +28,8 @@ built asset URLs work on Pages.
 
 ## What is inside
 
-- Certificate selector (Settings) to switch between AI-901 and AZ-204.
+- Certificate selector (Settings) to switch between AI-901, AI-103, AZ-104,
+  AZ-204, AZ-305 and AZ-400.
 - Dashboard - cards due now, status breakdown (new / learning / review / mastered),
   attempt and accuracy bars, quick links.
 - Learn - work through new questions.
@@ -40,7 +41,9 @@ built asset URLs work on Pages.
 
 ## Question types
 
-Single choice, multiple choice, hotspot "complete the sentence", and Yes/No
+Single choice, multiple choice, hotspot "complete the sentence", hotspot
+dropdowns (each dropdown can carry its own choices, e.g. code completion with
+`[1]`, `[2]` markers), drag & drop (including ordered sequences), and Yes/No
 statement grids. Each question is graded and shows an explanation.
 
 ## Answer keys
@@ -48,6 +51,22 @@ statement grids. Each question is graded and shows an explanation.
 Where the source material included an official answer, the question uses it.
 Where the source withheld a key (some hotspot items), the answer was supplied
 from Azure AI domain knowledge and the card shows an "expert key" badge.
+
+### AI-103 bank
+
+Generated from the Examice AI-103 PDF (161 questions). The PDF itself is not
+committed (it is a personal, watermarked copy); its extracted, watermark-free
+text and images are.
+
+    npm run extract:ai103   # PDF -> src/extracted/ai103-parsed.json + ai103-media/
+    npm run build:ai103     # -> src/data/banks/ai103.generated.ts + public/exam-media/ai-103/
+
+- `src/extracted/ai103-transcriptions.json` - answer areas, code and exhibits
+  that are images in the PDF, transcribed into dropdowns / drag & drop /
+  Yes-No statements.
+- `src/extracted/ai103-key-fixes.json` - answer keys corrected after checking
+  Microsoft Learn (with a `note` citing the source) and explanations written
+  where the PDF gave only a letter or contradicted its own key.
 
 ## Data and privacy
 

@@ -1,0 +1,2701 @@
+{
+  "1": {
+    "type": "hotspot-dropdown",
+    "exhibits": [],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "Deployment type:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Standard"
+          },
+          {
+            "id": "B",
+            "text": "Global Standard"
+          },
+          {
+            "id": "C",
+            "text": "Global Provisioned"
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "text": "Version update policy:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Once the current version expires"
+          },
+          {
+            "id": "B",
+            "text": "Opt out of automatic model version upgrades"
+          },
+          {
+            "id": "C",
+            "text": "Upgrade once a new default version becomes available"
+          }
+        ]
+      }
+    ],
+    "correct": [
+      "t1:A",
+      "t2:B"
+    ],
+    "explanation": "A Standard (regional) deployment provides pay-as-you-go capacity that scales with traffic without reserved provisioned throughput, and processes data in the deployment's EU region (Global Standard may process data in any Azure geography; Global Provisioned requires reserved capacity). Opting out of automatic model version upgrades keeps the model version fixed, ensuring consistent Agent1 responses.",
+    "keySource": "source"
+  },
+  "4": {
+    "type": "hotspot-boolean",
+    "exhibits": [],
+    "statements": [
+      {
+        "id": "s1",
+        "text": "The LangChain service will appear in Traces without configuring a tracer.",
+        "answer": false
+      },
+      {
+        "id": "s2",
+        "text": "Setting different OTEL_SERVICE_NAME values separates the services in Application Insights.",
+        "answer": true
+      },
+      {
+        "id": "s3",
+        "text": "When using enable_content_recording=False, prompts and tool data will be captured in the telemetry.",
+        "answer": false
+      }
+    ],
+    "explanation": "LangChain requires an OpenTelemetry tracer (such as AzureAIOpenTelemetryTracer) or equivalent callback instrumentation to emit its runs to Application Insights. Different OTEL_SERVICE_NAME values map to distinct service/cloud role names, so the services can be distinguished in the same resource. Setting enable_content_recording=False prevents prompt content and tool call data from being recorded in telemetry.",
+    "keySource": "source"
+  },
+  "5": {
+    "type": "drag-drop",
+    "exhibits": [],
+    "options": [
+      {
+        "id": "A",
+        "text": "Multi-file task in pro mode"
+      },
+      {
+        "id": "B",
+        "text": "Multi-file task in standard mode"
+      },
+      {
+        "id": "C",
+        "text": "Single-file task in pro mode"
+      },
+      {
+        "id": "D",
+        "text": "Single-file task in standard mode"
+      }
+    ],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "Pipeline1:"
+      },
+      {
+        "id": "t2",
+        "text": "Pipeline2:"
+      }
+    ],
+    "correct": [
+      "t1:D",
+      "t2:A"
+    ],
+    "explanation": "Standard mode supports cost-effective, high-volume extraction from individual standalone documents such as PDF invoices. Pro mode supports multi-file processing, multi-step reasoning, cross-document validation, and the use of reference data.",
+    "keySource": "source"
+  },
+  "6": {
+    "type": "hotspot-dropdown",
+    "exhibits": [],
+    "codeContext": "from azure.identity import DefaultAzureCredential\nfrom azure.ai.projects import AIProjectClient\ncredential = [1]()\n\nproject_client = AIProjectClient(\n    endpoint=\"https://contosoai.services.ai.azure.com/api/projects/project1\",\n    credential=credential,\n)\nwith project_client.get_openai_client() as openai_client:\n    response = openai_client.responses.[2](\n        model=\"trail-guide-chat\",\n        input=\"Create a 3-day hiking itinerary near Seattle.\",\n    )\n    print(response.output_text)",
+    "targets": [
+      {
+        "id": "t1",
+        "text": "[1] credential = ____()",
+        "options": [
+          {
+            "id": "A",
+            "text": "AzureKeyCredential"
+          },
+          {
+            "id": "B",
+            "text": "ClientSecretCredential"
+          },
+          {
+            "id": "C",
+            "text": "DefaultAzureCredential"
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "text": "[2] response = openai_client.responses.____(",
+        "options": [
+          {
+            "id": "A",
+            "text": "compact"
+          },
+          {
+            "id": "B",
+            "text": "create"
+          },
+          {
+            "id": "C",
+            "text": "retrieve"
+          }
+        ]
+      }
+    ],
+    "correct": [
+      "t1:C",
+      "t2:B"
+    ],
+    "explanation": "DefaultAzureCredential authenticates by using a Microsoft Entra managed identity when the application runs in Azure, and AIProjectClient accepts that token credential (AzureKeyCredential uses an API key; ClientSecretCredential uses a service principal secret). The Responses API sends a new prompt with openai_client.responses.create(); retrieve gets an existing response and compact compacts prior response context.",
+    "keySource": "source"
+  },
+  "7": {
+    "type": "hotspot-dropdown",
+    "exhibits": [],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "If/else condition expression:",
+        "options": [
+          {
+            "id": "A",
+            "text": "IsBlank(Local.Var01)"
+          },
+          {
+            "id": "B",
+            "text": "IsEmpty(Local.Var01)"
+          },
+          {
+            "id": "C",
+            "text": "Not(IsBlank(Local.Var01))"
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "text": "Send message expression:",
+        "options": [
+          {
+            "id": "A",
+            "text": "{Local.Var01}"
+          },
+          {
+            "id": "B",
+            "text": "{Upper(Local.Var01)}"
+          },
+          {
+            "id": "C",
+            "text": "{Upper(Var01)}"
+          }
+        ]
+      }
+    ],
+    "correct": [
+      "t1:C",
+      "t2:B"
+    ],
+    "explanation": "Not(IsBlank(Local.Var01)) evaluates to true only when the local variable has a value (IsEmpty applies to tables, not single values). Upper(Local.Var01) converts the stored response to uppercase; the variable must be referenced with its Local scope, and the braces insert the evaluated Power Fx expression into the Send message content.",
+    "keySource": "source"
+  },
+  "8": {
+    "type": "hotspot-dropdown",
+    "exhibits": [],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "Guardrails:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Select Tool call and set Action to Block."
+          },
+          {
+            "id": "B",
+            "text": "Select User input and Output and set Action to Annotate."
+          },
+          {
+            "id": "C",
+            "text": "Select User input and Tool response and set Action to Annotate."
+          },
+          {
+            "id": "D",
+            "text": "Select User input, Output, Tool response, and Tool call and set Action to Block."
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "text": "Storage access:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Storage account access keys"
+          },
+          {
+            "id": "B",
+            "text": "A user-assigned identity that is assigned the Storage Queue Data Contributor role"
+          },
+          {
+            "id": "C",
+            "text": "A system-assigned managed identity that is assigned the Storage Blob Data Reader role"
+          },
+          {
+            "id": "D",
+            "text": "A system-assigned managed identity that is assigned the Storage Blob Data Contributor role"
+          }
+        ]
+      }
+    ],
+    "correct": [
+      "t1:D",
+      "t2:C"
+    ],
+    "explanation": "Blocking at all agent intervention points (user input, tool call, tool response, and output) prevents harmful content from entering through user input or tools and from being returned; Annotate only labels content and does not prevent it. A system-assigned managed identity gives identity-based access without storage keys, and Storage Blob Data Reader grants only the read access Content Safety needs to retrieve the screenshots from the blob URLs (Contributor would exceed least privilege).",
+    "keySource": "source"
+  },
+  "9": {
+    "type": "single",
+    "exhibits": [
+      {
+        "file": "p016_1.png",
+        "after": "contains three agents as shown in the following table."
+      }
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "a workflow"
+      },
+      {
+        "id": "B",
+        "text": "threads and runs without a workflow"
+      },
+      {
+        "id": "C",
+        "text": "a multi-agent group chat session"
+      },
+      {
+        "id": "D",
+        "text": "separate agent runs coordinated in the application code"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "A Foundry workflow orchestrates multiple agents in a deterministic, step-based sequence with conditional branching (e.g., an if/else to optionally invoke ActionAgent based on TriageAgent's result) and shared variables/state, without custom orchestration code. A group chat is non-deterministic, and coordinating separate runs or threads in application code requires more development effort.",
+    "keySource": "source"
+  },
+  "11": {
+    "type": "hotspot-dropdown",
+    "exhibits": [],
+    "codeContext": "steps:\n  - id: propose_refund\n    type: agent\n    agent: PaymentAgent\n  - id: approval\n    type: [1]\n  - id: execute_refund\n    type: agent\n    agent: PaymentAgent\n    condition: [2]",
+    "targets": [
+      {
+        "id": "t1",
+        "text": "[1] approval step type: ____",
+        "options": [
+          {
+            "id": "A",
+            "text": "ask_question"
+          },
+          {
+            "id": "B",
+            "text": "basic_chat"
+          },
+          {
+            "id": "C",
+            "text": "data_transformation"
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "text": "[2] execute_refund condition: ____",
+        "options": [
+          {
+            "id": "A",
+            "text": "approval == \"approved\""
+          },
+          {
+            "id": "B",
+            "text": "propose_refund.output != null"
+          },
+          {
+            "id": "C",
+            "text": "true"
+          }
+        ]
+      }
+    ],
+    "correct": [
+      "t1:A",
+      "t2:A"
+    ],
+    "explanation": "The approval step uses ask_question to pause the workflow and obtain a human response (human-in-the-loop). The execute_refund agent step runs only when the approval response equals \"approved\"; the other conditions would run the refund without an explicit approval.",
+    "keySource": "source"
+  },
+  "14": {
+    "type": "single",
+    "exhibits": [
+      {
+        "file": "p021_1.png",
+        "after": "You are provided with the following code snippet that runs the agent."
+      }
+    ],
+    "codeContext": "run = project_client.agents.runs.create_and_process(\n    thread_id=thread.id,\n    agent_id=agent.id\n)",
+    "options": [
+      {
+        "id": "A",
+        "text": "tool_choice={\"required\"}"
+      },
+      {
+        "id": "B",
+        "text": "tool_choice={\"auto\"}"
+      },
+      {
+        "id": "C",
+        "text": "tool_choice={\"type\":\"knowledge_base\"}"
+      },
+      {
+        "id": "D",
+        "text": "tool_choice={\"type\":\"mcp\"}"
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "explanation": "The snippet uses the Agent Service runs API (create_and_process). To force the model to call one specific tool on a run, pass that tool's specification in tool_choice, for example tool_choice={\"type\": \"bing_grounding\"}, so for the MCP tool use {\"type\": \"mcp\"}. \"auto\" lets the model decide, \"required\" only forces some tool call (and {\"required\"} is not even a valid object), and \"knowledge_base\" is not a tool type.",
+    "note": "Source marked A. Microsoft Learn (Foundry Agent Service classic, What are tools > Using tool_choice) shows forcing a specific tool on create_and_process with tool_choice={\"type\": \"<tool>\"}; \"mcp\" is a valid named tool choice type. https://learn.microsoft.com/en-us/azure/foundry-classic/agents/how-to/tools-classic/overview",
+    "keySource": "domain"
+  },
+  "15": {
+    "type": "drag-drop",
+    "exhibits": [],
+    "options": [
+      {
+        "id": "A",
+        "text": "Groundedness evaluation metrics"
+      },
+      {
+        "id": "B",
+        "text": "Latency breakdown traces"
+      },
+      {
+        "id": "C",
+        "text": "Risk and safety metrics"
+      },
+      {
+        "id": "D",
+        "text": "Token usage analytics"
+      }
+    ],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "Unsupported responses:"
+      },
+      {
+        "id": "t2",
+        "text": "Policy violations:"
+      }
+    ],
+    "correct": [
+      "t1:A",
+      "t2:C"
+    ],
+    "explanation": "Groundedness metrics assess whether generated answers are supported by the retrieved internal documentation. Risk and safety metrics assess harmful, unsafe, or policy-violating response content. Latency traces and token analytics evaluate neither answer support nor policy compliance.",
+    "keySource": "source"
+  },
+  "18": {
+    "type": "hotspot-dropdown",
+    "exhibits": [],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "Metrics to enable:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Model Availability Rate and Provisioned Utilization"
+          },
+          {
+            "id": "B",
+            "text": "Only Tokens Cache Match Rate"
+          },
+          {
+            "id": "C",
+            "text": "Only Total Requests filtered to status code 200"
+          },
+          {
+            "id": "D",
+            "text": "Time To Response and Total Tokens"
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "text": "Diagnostic log to collect:",
+        "options": [
+          {
+            "id": "A",
+            "text": "AllMetrics"
+          },
+          {
+            "id": "B",
+            "text": "audit"
+          },
+          {
+            "id": "C",
+            "text": "RequestResponse"
+          },
+          {
+            "id": "D",
+            "text": "trace"
+          }
+        ]
+      }
+    ],
+    "correct": [
+      "t1:A",
+      "t2:C"
+    ],
+    "explanation": "Model Availability Rate identifies model unavailability, while Provisioned Utilization identifies capacity pressure (resource limits) that causes HTTP 429 errors. RequestResponse logs capture inference request and response details needed to investigate \"No relevant information found\" responses and inference failures.",
+    "keySource": "source"
+  },
+  "20": {
+    "type": "hotspot-dropdown",
+    "exhibits": [],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "Set tool_choice to:",
+        "options": [
+          {
+            "id": "A",
+            "text": "auto"
+          },
+          {
+            "id": "B",
+            "text": "none"
+          },
+          {
+            "id": "C",
+            "text": "required"
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "text": "Configure the tool to authenticate by:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Storing API keys in prompts"
+          },
+          {
+            "id": "B",
+            "text": "Using the shared project agent identity"
+          },
+          {
+            "id": "C",
+            "text": "Using a distinct agent identity bound to the client application"
+          }
+        ]
+      }
+    ],
+    "correct": [
+      "t1:C",
+      "t2:C"
+    ],
+    "explanation": "tool_choice=required forces at least one tool invocation in every run, ensuring the retrieval step occurs before a response is generated (auto lets the model skip tools, none disables them). A distinct agent identity isolates the published agent from other project resources, authenticates tool calls as that agent, and supports audit tracing, unlike API keys in prompts or a shared project identity.",
+    "keySource": "source"
+  },
+  "30": {
+    "type": "drag-drop",
+    "exhibits": [],
+    "codeContext": "run_payload = {\n    \"assistant_id\": agent_id,\n    [1] : [2] ,\n    \"metadata\": {\n        \"scenario\": \"ticket-triage\"\n    }\n}",
+    "options": [
+      {
+        "id": "A",
+        "text": "\"auto\""
+      },
+      {
+        "id": "B",
+        "text": "\"required\""
+      },
+      {
+        "id": "C",
+        "text": "\"response_format\""
+      },
+      {
+        "id": "D",
+        "text": "\"tool_choice\""
+      },
+      {
+        "id": "E",
+        "text": "\"tools\""
+      },
+      {
+        "id": "F",
+        "text": "\"type\""
+      }
+    ],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "[1] key"
+      },
+      {
+        "id": "t2",
+        "text": "[2] value"
+      }
+    ],
+    "correct": [
+      "t1:D",
+      "t2:B"
+    ],
+    "explanation": "The tool_choice run parameter controls whether the agent can respond without invoking a tool. Setting \"tool_choice\": \"required\" forces the agent to call at least one available tool during execution; \"auto\" (the default) lets the model skip tools.",
+    "keySource": "source"
+  },
+  "32": {
+    "type": "drag-drop",
+    "exhibits": [],
+    "options": [
+      {
+        "id": "A",
+        "text": "Code interpreter"
+      },
+      {
+        "id": "B",
+        "text": "Computer use"
+      },
+      {
+        "id": "C",
+        "text": "File search"
+      },
+      {
+        "id": "D",
+        "text": "Grounding with Bing Search"
+      },
+      {
+        "id": "E",
+        "text": "Microsoft Fabric"
+      }
+    ],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "Access up-to-date information from public websites:"
+      },
+      {
+        "id": "t2",
+        "text": "Perform calculations during conversations:"
+      },
+      {
+        "id": "t3",
+        "text": "Retrieve information from documents uploaded directly to the agent:"
+      }
+    ],
+    "correct": [
+      "t1:D",
+      "t2:A",
+      "t3:C"
+    ],
+    "explanation": "Grounding with Bing Search provides current information from public websites. Code interpreter writes and runs Python code in a sandbox to perform calculations during conversations. File search retrieves relevant content from files uploaded to the agent.",
+    "keySource": "source"
+  },
+  "35": {
+    "type": "hotspot-dropdown",
+    "exhibits": [],
+    "codeContext": "message = client.messages.create(\n    model=\"deployment-name\",\n    messages=[\n        {\"role\": \"user\", \"content\": \"Summarize the release notes in 3 bullet points.\"}\n    ],\n    max_tokens=800,\n    temperature= [1] ,\n\n    thinking={\"type\": \"enabled\"},\n    output_config={\"effort\": [2] }\n\n)",
+    "targets": [
+      {
+        "id": "t1",
+        "text": "[1] temperature= ____",
+        "options": [
+          {
+            "id": "A",
+            "text": "0"
+          },
+          {
+            "id": "B",
+            "text": "1"
+          },
+          {
+            "id": "C",
+            "text": "2"
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "text": "[2] output_config={\"effort\": ____}",
+        "options": [
+          {
+            "id": "A",
+            "text": "\"high\""
+          },
+          {
+            "id": "B",
+            "text": "\"low\""
+          },
+          {
+            "id": "C",
+            "text": "\"medium\""
+          }
+        ]
+      }
+    ],
+    "correct": [
+      "t1:A",
+      "t2:A"
+    ],
+    "explanation": "A temperature of 0 minimizes sampling randomness, which produces the most consistent wording for automated validation. Setting output_config effort to \"high\" (the highest value offered) allocates the most reasoning effort and therefore maximizes reasoning quality.",
+    "note": "Source answer (temperature 0, effort high) kept as the intended exam answer. Caveat: per Anthropic's Claude docs, temperature/top_k are incompatible with thinking on older Claude models (temperature must stay at the default 1 when thinking is on), and the newest models reject any non-default temperature; thinking {\"type\": \"enabled\"} without budget_tokens is also not valid on current models. In the real API this request would return a 400 error, so treat the item as testing the concepts (temperature 0 = most deterministic; effort high = best reasoning).",
+    "keySource": "source",
+    "caveat": "This is the intended exam answer. In the live Claude API, extended thinking cannot be combined with a modified temperature (current models reject non-default sampling parameters), so a real request would keep the default temperature and tune output_config.effort instead."
+  },
+  "37": {
+    "type": "hotspot-dropdown",
+    "exhibits": [],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "To retain user preferences across conversations, use:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Agent memory that uses persistent storage"
+          },
+          {
+            "id": "B",
+            "text": "Conversation history"
+          },
+          {
+            "id": "C",
+            "text": "Orchestration-managed session context"
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "text": "To enable users to provide contextual grounding during chats, use the:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Azure AI Search tool"
+          },
+          {
+            "id": "B",
+            "text": "Code interpreter tool"
+          },
+          {
+            "id": "C",
+            "text": "File search tool"
+          }
+        ]
+      }
+    ],
+    "correct": [
+      "t1:A",
+      "t2:C"
+    ],
+    "explanation": "Persistent agent memory retains user preferences beyond an individual conversation or session, whereas conversation history and session context are scoped to a single conversation. The File search tool supports documents uploaded during the chat and grounds responses by retrieving relevant content from those files.",
+    "keySource": "source"
+  },
+  "40": {
+    "type": "hotspot-dropdown",
+    "exhibits": [],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "Authentication method:",
+        "options": [
+          {
+            "id": "A",
+            "text": "A personal access token (PAT)"
+          },
+          {
+            "id": "B",
+            "text": "A user-assigned managed identity"
+          },
+          {
+            "id": "C",
+            "text": "An Azure Login action that uses OpenID Connect (OIDC)"
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "text": "If the evaluation results are NOT met, configure the workflow to:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Lock the target branch"
+          },
+          {
+            "id": "B",
+            "text": "Send an alert"
+          },
+          {
+            "id": "C",
+            "text": "Fail"
+          }
+        ]
+      }
+    ],
+    "correct": [
+      "t1:C",
+      "t2:C"
+    ],
+    "explanation": "The Azure Login action with OIDC gives GitHub Actions federated authentication to Azure without storing long-lived credentials. Failing the evaluation step fails the PR check, and when branch protection requires that check the pull request cannot merge until the thresholds are met.",
+    "keySource": "source"
+  },
+  "49": {
+    "type": "hotspot-dropdown",
+    "exhibits": [],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "Prompt shields action:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Disable the shield."
+          },
+          {
+            "id": "B",
+            "text": "Set action to block."
+          },
+          {
+            "id": "C",
+            "text": "Set action to annotate."
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "text": "Additional mitigation:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Enable Spotlighting."
+          },
+          {
+            "id": "B",
+            "text": "Create a custom blocklist."
+          },
+          {
+            "id": "C",
+            "text": "Use optical character recognition (OCR) to extract the text from the images first."
+          }
+        ]
+      }
+    ],
+    "correct": [
+      "t1:B",
+      "t2:A"
+    ],
+    "explanation": "Blocking prevents detected prompt injection attempts in uploaded screenshots from being processed (annotate only labels them). Spotlighting marks third-party document or image content as lower-trust input so the model separates untrusted embedded text from trusted system and user instructions.",
+    "keySource": "source"
+  },
+  "66": {
+    "type": "hotspot-dropdown",
+    "exhibits": [],
+    "codeContext": "import time\nfrom openai import OpenAI\nclient = OpenAI(\n    base_url= \"https://Contoso.openai.azure.com/openai/v1/\",\n    api_key=…,\n)\nvideo = client.videos.[1](\n    model=deployment_name,\n    prompt= \"A video of our products\",\n)\nwhile video.status not in [\"completed\", \"failed\", \"cancelled\"]:\n    time.sleep(20)\n    video = client.videos.[2](video.id)\n\nprint(video.status)",
+    "targets": [
+      {
+        "id": "t1",
+        "text": "[1] video = client.videos.____(model=deployment_name, prompt=...)",
+        "options": [
+          {
+            "id": "A",
+            "text": "create"
+          },
+          {
+            "id": "B",
+            "text": "download_content"
+          },
+          {
+            "id": "C",
+            "text": "list"
+          },
+          {
+            "id": "D",
+            "text": "retrieve"
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "text": "[2] video = client.videos.____(video.id)",
+        "options": [
+          {
+            "id": "A",
+            "text": "create"
+          },
+          {
+            "id": "B",
+            "text": "download_content"
+          },
+          {
+            "id": "C",
+            "text": "list"
+          },
+          {
+            "id": "D",
+            "text": "retrieve"
+          }
+        ]
+      }
+    ],
+    "correct": [
+      "t1:A",
+      "t2:D"
+    ],
+    "explanation": "videos.create submits the video-generation job with the deployment name and prompt. Video generation is asynchronous, so videos.retrieve(video.id) polls the existing job until its status is completed, failed, or cancelled; download_content is only used afterwards to fetch the finished video.",
+    "keySource": "source"
+  },
+  "68": {
+    "type": "hotspot-dropdown",
+    "exhibits": [],
+    "codeContext": "from azure.identity import DefaultAzureCredential\nfrom azure.ai.projects import AIProjectClient\nfrom azure.core.credentials import AzureKeyCredential\nmyEndpoint = \"https://contoso.services.ai.azure.com/api/projects/project1\"\nproject_client = AIProjectClient(\n    endpoint=myEndpoint,\n    credential= [1],\n)\nmyAgent = \"Agent1\"\nagent = project_client.agents.[2](agent_name=myAgent)\n\nprint(f\"Retrieved agent: {agent.name}\")",
+    "targets": [
+      {
+        "id": "t1",
+        "text": "[1] credential= ____",
+        "options": [
+          {
+            "id": "A",
+            "text": "AzureKeyCredential()"
+          },
+          {
+            "id": "B",
+            "text": "DefaultAzureCredential()"
+          },
+          {
+            "id": "C",
+            "text": "None"
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "text": "[2] agent = project_client.agents.____(agent_name=myAgent)",
+        "options": [
+          {
+            "id": "A",
+            "text": "create_version"
+          },
+          {
+            "id": "B",
+            "text": "get"
+          },
+          {
+            "id": "C",
+            "text": "get_version"
+          }
+        ]
+      }
+    ],
+    "correct": [
+      "t1:B",
+      "t2:B"
+    ],
+    "explanation": "DefaultAzureCredential uses Microsoft Entra ID authentication, satisfying the requirement that API keys must not be used (AzureKeyCredential is key-based). Agent1 already exists in Project1, so agents.get retrieves it by agent_name; create_version would create a new version and get_version requires a specific version.",
+    "keySource": "source"
+  },
+  "71": {
+    "type": "hotspot-dropdown",
+    "exhibits": [],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "To measure whether the responses are supported by the provided context and address the user query:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Coherence and Fluency"
+          },
+          {
+            "id": "B",
+            "text": "GPT similarity and F1 score"
+          },
+          {
+            "id": "C",
+            "text": "Groundedness and Relevance"
+          },
+          {
+            "id": "D",
+            "text": "Groundedness and ROUGE score"
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "text": "To measure whether responses contain sensitive or proprietary information:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hateful and unfair content"
+          },
+          {
+            "id": "B",
+            "text": "Indirect attack"
+          },
+          {
+            "id": "C",
+            "text": "Protected material"
+          },
+          {
+            "id": "D",
+            "text": "Violent content"
+          }
+        ]
+      }
+    ],
+    "correct": [
+      "t1:C",
+      "t2:C"
+    ],
+    "explanation": "Groundedness measures whether the response is supported by the supplied retrieval context, and Relevance measures whether it addresses the user query. The Protected material evaluator detects output that may contain proprietary or otherwise protected content.",
+    "keySource": "source"
+  },
+  "77": {
+    "type": "drag-drop",
+    "exhibits": [],
+    "codeContext": "from azure.ai.projects.models import MemorySearchTool, PromptAgentDefinition\nmem_store_name = \"agent_mem_store\"\nmemory_tool = MemorySearchTool(\n    memory_store_name=mem_store_name,\n    scope= [1],\n)\nagent_def = PromptAgentDefinition(\n    model= \"gpt-5.2\",\n    instructions= \"You are a customer support assistant.\",\n    tools= [2]\n)",
+    "options": [
+      {
+        "id": "A",
+        "text": "\"session\""
+      },
+      {
+        "id": "B",
+        "text": "\"{{$conversationId}}\""
+      },
+      {
+        "id": "C",
+        "text": "\"{{$userId}}\""
+      },
+      {
+        "id": "D",
+        "text": "[mem_store_name]"
+      },
+      {
+        "id": "E",
+        "text": "[memory_tool]"
+      },
+      {
+        "id": "F",
+        "text": "MemorySearchTool(\"support_mem_store\")"
+      }
+    ],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "[1] scope="
+      },
+      {
+        "id": "t2",
+        "text": "[2] tools="
+      }
+    ],
+    "correct": [
+      "t1:C",
+      "t2:E"
+    ],
+    "explanation": "The {{$userId}} system variable scopes memories to the authenticated user, so preferences are recalled across separate conversations without client-generated IDs ({{$conversationId}} would isolate memory per conversation). The memory_tool instance must be passed in the agent's tools list so the agent can search the configured memory store.",
+    "keySource": "source"
+  },
+  "79": {
+    "type": "hotspot-dropdown",
+    "exhibits": [],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "Orchestration pattern:",
+        "options": [
+          {
+            "id": "A",
+            "text": "The sequential template that passes outputs node by-node"
+          },
+          {
+            "id": "B",
+            "text": "The group chat template to dynamically route control between the agents"
+          },
+          {
+            "id": "C",
+            "text": "The human-in-the-loop template that pauses execution of the workflow for input"
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "text": "Approval checkpoints:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Add a Basic chat node."
+          },
+          {
+            "id": "B",
+            "text": "Add a Condition statement."
+          },
+          {
+            "id": "C",
+            "text": "Add an Ask a question node."
+          }
+        ]
+      }
+    ],
+    "correct": [
+      "t1:A",
+      "t2:C"
+    ],
+    "explanation": "A sequential workflow sends the PolicyWriter output to RiskReviewer in a fixed order, giving predictable execution (group chat routes dynamically, and a human-in-the-loop template would pause every run, including low-risk ones). An Ask a question node creates a human approval checkpoint for high-risk updates while low-risk updates continue automatically.",
+    "keySource": "source"
+  },
+  "86": {
+    "type": "drag-drop",
+    "exhibits": [],
+    "options": [
+      {
+        "id": "A",
+        "text": "classify"
+      },
+      {
+        "id": "B",
+        "text": "generate"
+      },
+      {
+        "id": "C",
+        "text": "group"
+      },
+      {
+        "id": "D",
+        "text": "string"
+      },
+      {
+        "id": "E",
+        "text": "table"
+      }
+    ],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "Field value type:"
+      },
+      {
+        "id": "t2",
+        "text": "Field method:"
+      }
+    ],
+    "correct": [
+      "t1:D",
+      "t2:B"
+    ],
+    "explanation": "A color-scheme description is free-text output, so the field value type is string. The generate method has the analyzer create the value from the video content (classify would pick from a fixed set of categories); with segmentation enabled, the field is produced per video segment.",
+    "keySource": "source"
+  },
+  "92": {
+    "type": "hotspot-dropdown",
+    "exhibits": [],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "Managed identity scope:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Enable a system-assigned managed identity at the Foundry level."
+          },
+          {
+            "id": "B",
+            "text": "Enable a system-assigned managed identity at the project level."
+          },
+          {
+            "id": "C",
+            "text": "Create a service principal and store the principal's client secret."
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "text": "Key Vault authorization method:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Add an API key to application settings."
+          },
+          {
+            "id": "B",
+            "text": "Add a Key Vault access policy for the secrets."
+          },
+          {
+            "id": "C",
+            "text": "Assign the Key Vault Secrets User role to the managed identity."
+          }
+        ]
+      }
+    ],
+    "correct": [
+      "t1:B",
+      "t2:C"
+    ],
+    "explanation": "The agent runs under the project's managed identity, so enabling a system-assigned managed identity at the project level lets it authenticate to Key Vault without a stored key and limits access to that project. The Key Vault Secrets User RBAC role grants read-only access to secret contents, following least privilege.",
+    "keySource": "source"
+  },
+  "93": {
+    "type": "hotspot-boolean",
+    "exhibits": [],
+    "statements": [
+      {
+        "id": "s1",
+        "text": "Changing the content filtering configuration to low severity will resolve the fine-tuning job issues.",
+        "answer": false
+      },
+      {
+        "id": "s2",
+        "text": "The difference between the 12% and 4% content harm defect rate is consistent with the different severity thresholds used in Run1 and Run2.",
+        "answer": true
+      },
+      {
+        "id": "s3",
+        "text": "The identical 6% protected material evaluation values across Run1 and Run2 indicate that this metric is unaffected by the change in the severity threshold.",
+        "answer": true
+      }
+    ],
+    "explanation": "The fine-tuning job fails because DB1 itself contains harmful content; a low severity threshold is more restrictive, and the automatic RAI checks on training data cannot be bypassed, so the dataset must be cleaned. Run1's medium threshold flags more content than Run2's high threshold, explaining 12% vs 4%. Protected material detection is independent of the harmful-content severity threshold, so both runs return 6%.",
+    "keySource": "source"
+  },
+  "94": {
+    "type": "drag-drop",
+    "exhibits": [],
+    "options": [
+      {
+        "id": "A",
+        "text": "Hierarchical spans"
+      },
+      {
+        "id": "B",
+        "text": "A KQL query filter"
+      },
+      {
+        "id": "C",
+        "text": "Sampling"
+      },
+      {
+        "id": "D",
+        "text": "Tool call attributes"
+      },
+      {
+        "id": "E",
+        "text": "Trace sampling policy"
+      }
+    ],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "Capture all the nested operations across the entire agent run:"
+      },
+      {
+        "id": "t2",
+        "text": "Record tool invocation arguments and results:"
+      }
+    ],
+    "correct": [
+      "t1:A",
+      "t2:D"
+    ],
+    "explanation": "Hierarchical (parent-child) spans capture all nested operations throughout an agent run. Tool call attributes store tool invocation arguments and returned results as trace metadata. Sampling, sampling policies and KQL filters control what is collected or queried, not the audit details themselves.",
+    "keySource": "source"
+  },
+  "95": {
+    "type": "drag-drop",
+    "exhibits": [],
+    "options": [
+      {
+        "id": "A",
+        "text": "Increase tenant-wide quotas."
+      },
+      {
+        "id": "B",
+        "text": "Move large content to files and use file search."
+      },
+      {
+        "id": "C",
+        "text": "Use additional agent tools to reduce the message size."
+      },
+      {
+        "id": "D",
+        "text": "Implement exponential backoff and jitter in the retry logic."
+      },
+      {
+        "id": "E",
+        "text": "Split content into smaller files before uploading the files."
+      }
+    ],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "HTTP 429:"
+      },
+      {
+        "id": "t2",
+        "text": "HTTP 400:"
+      }
+    ],
+    "correct": [
+      "t1:D",
+      "t2:E"
+    ],
+    "explanation": "Exponential backoff with jitter spreads out retries after rate-limit (429) responses, reducing failures while staying within the existing quota rather than raising it. Splitting content into smaller files keeps each upload within the service file-size limit that causes the 400 error.",
+    "keySource": "source"
+  },
+  "98": {
+    "type": "hotspot-dropdown",
+    "exhibits": [],
+    "codeContext": "resource existingKeyVault 'Microsoft.KeyVault/vaults@2024-11-01' existing = {\n    name: 'KV1'\n    scope: resourceGroup()\n}\nresource connection 'Microsoft.CognitiveServices/accounts/connections@2025-04-01-preview' = {\n    name: '${aiFoundryName}-keyvault'\n    parent: aiFoundry\n    properties: {\n        category: [1]\n        target: existingKeyVault.id\n        authType: [2]\n        isSharedToAll:\n            metadata: {\n                ApiType: 'Azure'\n                ResourceId: existingKeyVault.id\n                location: existingKeyVault.location\n            }\n    }\n}",
+    "targets": [
+      {
+        "id": "t1",
+        "text": "[1] category: ____",
+        "options": [
+          {
+            "id": "A",
+            "text": "'AzureAIService'"
+          },
+          {
+            "id": "B",
+            "text": "'AzureKeyVault'"
+          },
+          {
+            "id": "C",
+            "text": "'AzureOpenAI'"
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "text": "[2] authType: ____",
+        "options": [
+          {
+            "id": "A",
+            "text": "'AccountKey'"
+          },
+          {
+            "id": "B",
+            "text": "'AccountManagedIdentity'"
+          },
+          {
+            "id": "C",
+            "text": "'ApiKey'"
+          }
+        ]
+      }
+    ],
+    "correct": [
+      "t1:B",
+      "t2:B"
+    ],
+    "explanation": "The connection targets an Azure Key Vault resource, so the category is 'AzureKeyVault'. Foundry accesses the vault with the account's managed identity, so authType is 'AccountManagedIdentity'; key-based types are not used for a Key Vault connection.",
+    "note": "Source answer says \"ManagedIdentity\"; the dropdown option is 'AccountManagedIdentity', which is the value used in Microsoft's Key Vault connection Bicep sample, so that option was mapped.",
+    "keySource": "source",
+    "caveat": "In the answer area the managed-identity choice is shown as 'AccountManagedIdentity' (the Foundry account's managed identity)."
+  },
+  "99": {
+    "type": "hotspot-dropdown",
+    "exhibits": [],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "Knowledge grounding:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Configure retrieval from approved data sources."
+          },
+          {
+            "id": "B",
+            "text": "Upload the policy documents direct to the agent."
+          },
+          {
+            "id": "C",
+            "text": "Embed the policy documents directly into the agent instructions."
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "text": "Memory:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Use orchestration-managed session context."
+          },
+          {
+            "id": "B",
+            "text": "Enable agent memory that uses persistent storage."
+          },
+          {
+            "id": "C",
+            "text": "Retain user preferences in the state of the client application"
+          }
+        ]
+      }
+    ],
+    "correct": [
+      "t1:A",
+      "t2:B"
+    ],
+    "explanation": "Configuring retrieval from approved data sources restricts grounding to the curated company policy repositories. Persistent agent memory retains customer preferences across separate chat sessions, unlike session context (single session) or client-only state.",
+    "keySource": "source"
+  },
+  "101": {
+    "type": "hotspot-boolean",
+    "exhibits": [
+      {
+        "file": "p139_1.png",
+        "after": "You have the following code segment:"
+      }
+    ],
+    "codeContext": "for brand in image_analysis.brands:\n    if brand.confidence >= 0.75:\n        print(f\"\\nLogo of {brand.name} between {brand.rectangle.x}, {brand.rectangle.y} and {brand.rectangle.w}, {brand.rectangle.h}\")",
+    "statements": [
+      {
+        "id": "s1",
+        "text": "The code will display the name of each detected brand with a confidence equal to or higher than 75 percent.",
+        "answer": true
+      },
+      {
+        "id": "s2",
+        "text": "The code will display coordinates for the top-left corner of the rectangle that contains the brand logo of the displayed brands.",
+        "answer": true
+      },
+      {
+        "id": "s3",
+        "text": "The code will display coordinates for the bottom-right corner of the rectangle that contains the brand logo of the displayed brands.",
+        "answer": false
+      }
+    ],
+    "explanation": "The condition brand.confidence >= 0.75 prints every brand detected with a confidence of 75 percent or higher. The rectangle x and y values are the top-left corner of the bounding box, while w and h are the width and height, not the bottom-right coordinates.",
+    "keySource": "source"
+  },
+  "103": {
+    "type": "hotspot-dropdown",
+    "exhibits": [],
+    "codeContext": "az cognitiveservices account create -n myresource -g myResourceGroup --kind [1] --sku S -l WestEurope\n[2] '{\n  \"keySource\": \"Microsoft.KeyVault\",\n  \"keyVaultProperties\": {\n      \"keyName\": \"KeyName\",\n      \"keyVersion\": \"secretVersion\",\n      \"keyVaultUri\": \"https://issue23056kv.vault.azure.net/\"\n  }\n}'",
+    "targets": [
+      {
+        "id": "t1",
+        "text": "[1] --kind ____",
+        "options": [
+          {
+            "id": "A",
+            "text": "AIServices"
+          },
+          {
+            "id": "B",
+            "text": "LanguageAuthoring"
+          },
+          {
+            "id": "C",
+            "text": "OpenAI"
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "text": "[2] ____ '{ \"keySource\": \"Microsoft.KeyVault\", ... }'",
+        "options": [
+          {
+            "id": "A",
+            "text": "--api-properties"
+          },
+          {
+            "id": "B",
+            "text": "--assign-identity"
+          },
+          {
+            "id": "C",
+            "text": "--encryption"
+          }
+        ]
+      }
+    ],
+    "correct": [
+      "t1:C",
+      "t2:C"
+    ],
+    "explanation": "The OpenAI kind provides generative text models that can produce fictional store content in response to prompts. The --encryption parameter accepts the customer-managed key configuration shown (key source Microsoft.KeyVault, key name, version and Key Vault URI); --assign-identity only enables a managed identity and --api-properties sets API-specific properties.",
+    "keySource": "source"
+  },
+  "104": {
+    "type": "hotspot-dropdown",
+    "exhibits": [],
+    "codeContext": "def get_self_harm_severity(comment: str) -> int:\n    key = os.environ[\"CONTENT_SAFETY_KEY\"]\n    endpoint = os.environ[\"CONTENT_SAFETY_ENDPOINT\"]\n    client = ContentSafetyClient(endpoint, AzureKeyCredential(key))\n    request = [1]\n\n    response = [2]\n\n    result = next(\n        item for item in response.categories_analysis\n        if item.category == TextCategory.SELF_HARM\n    )\n    return result.severity",
+    "targets": [
+      {
+        "id": "t1",
+        "text": "[1] request = ____",
+        "options": [
+          {
+            "id": "A",
+            "text": "AnalyzeTextOptions(categories=comment)"
+          },
+          {
+            "id": "B",
+            "text": "AnalyzeTextOptions(text=[comment])"
+          },
+          {
+            "id": "C",
+            "text": "AnalyzeTextOptions(text=comment)"
+          },
+          {
+            "id": "D",
+            "text": "TextCategory.SELF_HARM(comment)"
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "text": "[2] response = ____",
+        "options": [
+          {
+            "id": "A",
+            "text": "client.analyze_image(request)"
+          },
+          {
+            "id": "B",
+            "text": "client.analyze_text(request)"
+          },
+          {
+            "id": "C",
+            "text": "client.moderate_text(request)"
+          },
+          {
+            "id": "D",
+            "text": "client.path(\"/text:analyze\").post(request)"
+          }
+        ]
+      }
+    ],
+    "correct": [
+      "t1:C",
+      "t2:B"
+    ],
+    "explanation": "AnalyzeTextOptions(text=comment) supplies the comment as a single string for the text moderation request (text is a string, not a list; categories expects TextCategory values). ContentSafetyClient.analyze_text(request) submits it and returns categories_analysis, which the code filters for TextCategory.SELF_HARM to return the severity.",
+    "keySource": "source"
+  },
+  "107": {
+    "type": "hotspot-boolean",
+    "exhibits": [
+      {
+        "file": "p145_1.png",
+        "after": "The application has the following code:"
+      }
+    ],
+    "codeContext": "sample_text = \"Contact John Doe at 312-555-1234 or john.doe@contoso.com. His SSN is 859-98-0987.\"\n\ndef redact_for_model(input_text):\n    payload = {\n        \"kind\": \"PiiEntityRecognition\",\n        \"parameters\": {\n            \"modelVersion\": \"latest\",\n            \"piiCategories\": [\"Person\", \"PhoneNumber\"],\n            \"redactionPolicies\": [\n                {\n                    \"policyKind\": \"entityMask\"\n                }\n            ]\n        },\n        \"analysisInput\": {\n            \"documents\": [\n                {\n                    \"id\": \"1\",\n                    \"language\": \"en\",\n                    \"text\": input_text\n                }\n            ]\n        }\n    }\n...\n    return {\n        \"text_for_model\": doc.get(\"redactedText\", \"\"),\n        \"audit\": [\n            (entity[\"text\"], entity[\"category\"], entity[\"confidenceScore\"])\n            for entity in doc[\"entities\"]\n        ]\n    }\nresult = redact_for_model(sample_text)",
+    "statements": [
+      {
+        "id": "s1",
+        "text": "For sample_text, audit will include entity records for Contact and SSN.",
+        "answer": false
+      },
+      {
+        "id": "s2",
+        "text": "For sample_text, text_for_model will include john.doe@contoso.com and 859-98-0987.",
+        "answer": true
+      },
+      {
+        "id": "s3",
+        "text": "For sample_text, text_for_model will contain entity type masks for John Doe and 312-555-1234.",
+        "answer": true
+      }
+    ],
+    "explanation": "piiCategories limits detection to Person and PhoneNumber, so no records for Contact or SSN appear in the audit, and the email address and SSN are not redacted and remain in text_for_model. The entityMask redaction policy replaces John Doe and 312-555-1234 with their entity types (for example [Person] and [PhoneNumber]).",
+    "keySource": "source"
+  },
+  "108": {
+    "type": "drag-drop",
+    "exhibits": [],
+    "options": [
+      {
+        "id": "A",
+        "text": "Initialize the training dataset."
+      },
+      {
+        "id": "B",
+        "text": "Train the classifier model."
+      },
+      {
+        "id": "C",
+        "text": "Create a project."
+      },
+      {
+        "id": "D",
+        "text": "Upload and tag images."
+      },
+      {
+        "id": "E",
+        "text": "Train the object detection model."
+      }
+    ],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "Step 1"
+      },
+      {
+        "id": "t2",
+        "text": "Step 2"
+      },
+      {
+        "id": "t3",
+        "text": "Step 3"
+      }
+    ],
+    "correct": [
+      "t1:C",
+      "t2:D",
+      "t3:B"
+    ],
+    "explanation": "First create a Custom Vision project that defines the classification scenario, then upload images of the components and tag them (for example faulty / non-faulty or by fault category), and finally train the classifier model on the tagged images.",
+    "keySource": "source"
+  },
+  "112": {
+    "type": "drag-drop",
+    "exhibits": [],
+    "options": [
+      {
+        "id": "A",
+        "text": "Regenerate the primary admin key"
+      },
+      {
+        "id": "B",
+        "text": "Regenerate the secondary admin key"
+      },
+      {
+        "id": "C",
+        "text": "Change the app to use the secondary admin key"
+      },
+      {
+        "id": "D",
+        "text": "Add a new query key"
+      },
+      {
+        "id": "E",
+        "text": "Change the app to use the new key"
+      },
+      {
+        "id": "F",
+        "text": "Delete the compromised key"
+      }
+    ],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "Step 1"
+      },
+      {
+        "id": "t2",
+        "text": "Step 2"
+      },
+      {
+        "id": "t3",
+        "text": "Step 3"
+      }
+    ],
+    "correct": [
+      "t1:D",
+      "t2:E",
+      "t3:F"
+    ],
+    "explanation": "A query key grants read-only access to the index documents, unlike an admin key, and query keys cannot be regenerated, only added and deleted. Adding a new query key and switching the app to it before deleting the compromised key keeps the app available while blocking further unauthorized use.",
+    "keySource": "source"
+  },
+  "113": {
+    "type": "hotspot-dropdown",
+    "exhibits": [],
+    "codeContext": "[1] https://management.azure.com/subscriptions/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/resourceGroups/RG1/providers/Microsoft.CognitiveService/accounts/CS1?api-version=2021-04-30\n{\n    \"location\": \"West US\",\n    \"kind\": \"[2]\",\n    \"sku\": {\n        \"name\": \"S0\"\n    },\n    \"properties\": {},\n    \"identity\": {\n        \"type\": \"SystemAssigned\"\n    }\n}",
+    "targets": [
+      {
+        "id": "t1",
+        "text": "[1] HTTP method",
+        "options": [
+          {
+            "id": "A",
+            "text": "PATCH"
+          },
+          {
+            "id": "B",
+            "text": "POST"
+          },
+          {
+            "id": "C",
+            "text": "PUT"
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "text": "[2] \"kind\": \"____\"",
+        "options": [
+          {
+            "id": "A",
+            "text": "CognitiveServices"
+          },
+          {
+            "id": "B",
+            "text": "ComputerVision"
+          },
+          {
+            "id": "C",
+            "text": "TextAnalytics"
+          }
+        ]
+      }
+    ],
+    "correct": [
+      "t1:C",
+      "t2:A"
+    ],
+    "explanation": "In Azure Resource Manager, PUT creates (or replaces) the resource at the specified resource ID; PATCH only updates an existing resource. The CognitiveServices kind creates a multi-service resource with a single key and endpoint and consolidated billing that covers sentiment analysis, OCR and future Azure Vision use, whereas ComputerVision and TextAnalytics are single-service kinds.",
+    "keySource": "source"
+  },
+  "114": {
+    "type": "hotspot-dropdown",
+    "exhibits": [
+      {
+        "file": "p155_1.png",
+        "after": "The performance of the model based on training data is shown in the following exhibit."
+      }
+    ],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "The percentage of false positives is:",
+        "options": [
+          {
+            "id": "A",
+            "text": "0"
+          },
+          {
+            "id": "B",
+            "text": "25"
+          },
+          {
+            "id": "C",
+            "text": "30"
+          },
+          {
+            "id": "D",
+            "text": "50"
+          },
+          {
+            "id": "E",
+            "text": "100"
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "text": "The value for the number of true positives divided by the total number of true positives and false negatives is:",
+        "options": [
+          {
+            "id": "A",
+            "text": "0"
+          },
+          {
+            "id": "B",
+            "text": "25"
+          },
+          {
+            "id": "C",
+            "text": "30"
+          },
+          {
+            "id": "D",
+            "text": "50"
+          },
+          {
+            "id": "E",
+            "text": "100"
+          }
+        ]
+      }
+    ],
+    "correct": [
+      "t1:A",
+      "t2:B"
+    ],
+    "explanation": "Precision is 100%, so none of the predicted positives are false positives, making the false-positive percentage 0. True positives divided by (true positives + false negatives) is the definition of recall, which the exhibit shows as 25%.",
+    "keySource": "source"
+  },
+  "117": {
+    "type": "hotspot-dropdown",
+    "exhibits": [],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "JSON data:",
+        "options": [
+          {
+            "id": "A",
+            "text": "File projection"
+          },
+          {
+            "id": "B",
+            "text": "Object projection"
+          },
+          {
+            "id": "C",
+            "text": "Table projection"
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "text": "Extracted text data:",
+        "options": [
+          {
+            "id": "A",
+            "text": "File projection"
+          },
+          {
+            "id": "B",
+            "text": "Object projection"
+          },
+          {
+            "id": "C",
+            "text": "Table projection"
+          }
+        ]
+      }
+    ],
+    "correct": [
+      "t1:B",
+      "t2:C"
+    ],
+    "explanation": "Object projections store enriched JSON document structures in Azure Blob Storage. Table projections store extracted text and other enriched fields as rows in Azure Table Storage for querying and analysis; file projections are only for binary content such as normalized images.",
+    "keySource": "source"
+  },
+  "118": {
+    "type": "hotspot-dropdown",
+    "exhibits": [],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "Project Types:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Classification"
+          },
+          {
+            "id": "B",
+            "text": "Object Detection"
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "text": "Classification Types:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Multiclass (Single tag per image)"
+          },
+          {
+            "id": "B",
+            "text": "Multilabel (Multiple tags per image)"
+          }
+        ]
+      },
+      {
+        "id": "t3",
+        "text": "Domains:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Adult"
+          },
+          {
+            "id": "B",
+            "text": "Food"
+          },
+          {
+            "id": "C",
+            "text": "General"
+          },
+          {
+            "id": "D",
+            "text": "General (compact)"
+          },
+          {
+            "id": "E",
+            "text": "Landmarks"
+          },
+          {
+            "id": "F",
+            "text": "Landmarks (compact)"
+          },
+          {
+            "id": "G",
+            "text": "Retail"
+          },
+          {
+            "id": "H",
+            "text": "Retail (compact)"
+          }
+        ]
+      }
+    ],
+    "correct": [
+      "t1:A",
+      "t2:A",
+      "t3:D"
+    ],
+    "explanation": "Each image contains exactly one of two labels (cat or dog), so a Classification project with Multiclass (single tag per image) is needed. The images are not specific to food, retail or landmarks, so the General domain applies, and only compact domains can be exported for on-device use in an iOS app.",
+    "keySource": "source"
+  },
+  "119": {
+    "type": "single",
+    "exhibits": [
+      {
+        "file": "p162_1.png",
+        "after": "You are provided with the following code snippet that runs the agent."
+      }
+    ],
+    "codeContext": "run = project_client.agents.runs.create_and_process(\n    thread_id=thread.id,\n    agent_id=agent.id\n)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Add the response_format parameter to the create_and_process() method call."
+      },
+      {
+        "id": "B",
+        "text": "Replace create_and_process() method with the create_thread_and_process_run() method."
+      },
+      {
+        "id": "C",
+        "text": "Add the toolset parameter to the create_and_process() method call."
+      },
+      {
+        "id": "D",
+        "text": "Add the tool_choice parameter to the create_and_process() method call."
+      }
+    ],
+    "correct": [
+      "D"
+    ],
+    "explanation": "The tool_choice parameter on a run overrides the model's automatic tool selection and can force a specific tool (here kbsearch) to be called on every run. response_format only controls output format, toolset just makes tools available (the model may still skip them), and create_thread_and_process_run only combines thread creation with the run.",
+    "keySource": "source"
+  },
+  "120": {
+    "type": "single",
+    "exhibits": [
+      {
+        "file": "p163_1.png",
+        "after": "You have the following function."
+      }
+    ],
+    "codeContext": "def get_key_words(textAnalyticsClient, text):\n\n    response = textAnalyticsClient.recognize_entities (documents = [text])[0]\n    print(\"Key Words:\")\n    for entity in response.entities:\n        print(\"\\t\\t\", entity.text)",
+    "options": [
+      {
+        "id": "A",
+        "text": "London and Buckingham Palace only"
+      },
+      {
+        "id": "B",
+        "text": "Tour and visit only"
+      },
+      {
+        "id": "C",
+        "text": "Our tour of London included a visit to Buckingham Palace"
+      },
+      {
+        "id": "D",
+        "text": "London and Tour only"
+      }
+    ],
+    "correct": [
+      "A"
+    ],
+    "explanation": "Despite its name, the function calls recognize_entities (named entity recognition), not key phrase extraction. NER returns only recognized entities such as the locations London and Buckingham Palace, so only those two are printed.",
+    "keySource": "source"
+  },
+  "121": {
+    "type": "hotspot-boolean",
+    "exhibits": [
+      {
+        "file": "p164_1.png",
+        "after": "You use the following code to start building the solution."
+      }
+    ],
+    "codeContext": "from azure.core.credentials import AzureKeyCredential\nfrom azure.ai.textanalytics import TextAnalyticsClient\n\nendpoint = os.environ[\"AZURE_TEXT_ANALYTICS_ENDPOINT\"]\nkey = os.environ[\"AZURE_TEXT_ANALYTICS_KEY\"]\n\ntext_analytics_client = TextAnalyticsClient(endpoint=endpoint, credential=AzureKeyCredential(key))\ndocuments = [\n    \"\"\"\n    Our tour guide took us up the Space Needle during our trip to Seattle last week.\n    \"\"\"\n]\n\nresult = text_analytics_client.recognize_linked_entities(documents)",
+    "statements": [
+      {
+        "id": "s1",
+        "text": "The code will detect the language of documents.",
+        "answer": false
+      },
+      {
+        "id": "s2",
+        "text": "The url attribute returned for each linked entity will be a Bing search link.",
+        "answer": false
+      },
+      {
+        "id": "s3",
+        "text": "The matches attribute returned for each linked entity will provide the location in a document where the entity is referenced.",
+        "answer": true
+      }
+    ],
+    "explanation": "recognize_linked_entities identifies entities and links them to a knowledge base; it does not perform language detection. The url points to the entity's entry in the data source (typically Wikipedia), not a Bing search link, and each entity's matches collection contains the offset and length of where it occurs in the document.",
+    "keySource": "source"
+  },
+  "122": {
+    "type": "hotspot-dropdown",
+    "exhibits": [],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "Model evaluation:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Configure private endpoint access."
+          },
+          {
+            "id": "B",
+            "text": "Use deployment lists and license tabs."
+          },
+          {
+            "id": "C",
+            "text": "Use tool catalog connections and run traces."
+          },
+          {
+            "id": "D",
+            "text": "Use model catalog leaderboards and model cards."
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "text": "Deployment option:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Bring your own model."
+          },
+          {
+            "id": "B",
+            "text": "Build a vector index."
+          },
+          {
+            "id": "C",
+            "text": "Use a serverless deployment."
+          },
+          {
+            "id": "D",
+            "text": "Use a managed compute deployment."
+          }
+        ]
+      }
+    ],
+    "correct": [
+      "t1:D",
+      "t2:C"
+    ],
+    "explanation": "Model catalog leaderboards and model cards in Microsoft Foundry compare candidate models by quality, cost and throughput. A serverless (pay-as-you-go API) deployment provides managed inference without hosting model weights in your subscription, unlike a managed compute deployment.",
+    "keySource": "source"
+  },
+  "124": {
+    "type": "hotspot-boolean",
+    "exhibits": [
+      {
+        "file": "p167_1.png",
+        "after": "You create the following Python code."
+      }
+    ],
+    "codeContext": "...\nopenai.api_key = key\nopenai.api_base = endpoint\nresponse = openai.ChatCompletion.create(\n    engine=deployment_name,\n    messages=[\n        {\"role\": \"system\", \"content\": \"You are a helpful assistant.\"},\n        {\"role\": \"user\", \"content\": \"What is an LLM?\"}\n    ]\n)\n\nprint(response['choices'][0]['message']['content'])\n...",
+    "statements": [
+      {
+        "id": "s1",
+        "text": "The response will contain an explanation of large language models (LLMs) that has a high degree of certainty.",
+        "answer": false
+      },
+      {
+        "id": "s2",
+        "text": "Changing \"What is an LLM?\" to \"What is an LLM in the context of AI models?\" will produce the intended response.",
+        "answer": true
+      },
+      {
+        "id": "s3",
+        "text": "Changing \"You are a helpful assistant.\" to \"You must answer only within the context of AI language models.\" will give a higher likelihood of producing the intended response.",
+        "answer": true
+      }
+    ],
+    "explanation": "\"LLM\" is ambiguous (it can also mean a Master of Laws degree), so a generative model cannot guarantee a high-certainty answer about large language models. Adding AI-model context to the user prompt disambiguates the term, and a system message restricting answers to AI language models further steers the response toward the intended meaning.",
+    "keySource": "source"
+  },
+  "128": {
+    "type": "hotspot-dropdown",
+    "exhibits": [],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "Extract text:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Azure AI Search"
+          },
+          {
+            "id": "B",
+            "text": "Azure Vision in Foundry Tools"
+          },
+          {
+            "id": "C",
+            "text": "Azure Document Intelligence in Foundry Tools"
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "text": "Perform sentiment analysis:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Azure AI Search"
+          },
+          {
+            "id": "B",
+            "text": "Azure AI Computer Vision"
+          },
+          {
+            "id": "C",
+            "text": "Azure Document Intelligence in Foundry Tools"
+          },
+          {
+            "id": "D",
+            "text": "Azure Language in Foundry Tools"
+          }
+        ]
+      }
+    ],
+    "correct": [
+      "t1:C",
+      "t2:D"
+    ],
+    "explanation": "Azure Document Intelligence extracts text and structure from PDF documents through its document analysis (Read/Layout) models. Azure Language provides text analytics features, including sentiment analysis, for the extracted text.",
+    "keySource": "source"
+  },
+  "130": {
+    "type": "hotspot-boolean",
+    "exhibits": [
+      {
+        "file": "p173_1.png",
+        "after": "You run the following command."
+      }
+    ],
+    "codeContext": "docker run --rm -it -p 5000:5000 --memory 10g --cpus 2 \\\nmcr.microsoft.com/azure-cognitive-services/textanalytics/sentiment \\\nEula=accept \\\nBilling={ENDPOINT_URI} \\\nApiKey={API_KEY}",
+    "statements": [
+      {
+        "id": "s1",
+        "text": "Going to http://localhost:5000/status will query the Azure endpoint to verify whether the API key used to start the container is valid.",
+        "answer": false
+      },
+      {
+        "id": "s2",
+        "text": "The container logging provider will write log data.",
+        "answer": false
+      },
+      {
+        "id": "s3",
+        "text": "Going to http://localhost:5000/swagger will provide the details to access the documentation for the available endpoints.",
+        "answer": true
+      }
+    ],
+    "explanation": "The /status endpoint verifies that the API key used to start the container is valid without causing an endpoint query to Azure. No logging provider or output mount (Logging/Mounts:Output) is configured in the command, so no log data is written. The /swagger endpoint exposes documentation for the container's available endpoints.",
+    "keySource": "source"
+  },
+  "133": {
+    "type": "drag-drop",
+    "exhibits": [],
+    "options": [
+      {
+        "id": "A",
+        "text": "Pull an image from Docker Hub."
+      },
+      {
+        "id": "B",
+        "text": "Run the container and specify an API key and the Endpoint URL of the Azure AI resource."
+      },
+      {
+        "id": "C",
+        "text": "Provision an on-premises Kubernetes cluster that is isolated from the internet."
+      },
+      {
+        "id": "D",
+        "text": "Provision an on-premises Kubernetes cluster that has internet connectivity."
+      },
+      {
+        "id": "E",
+        "text": "Provision an Azure Kubernetes Service (AKS) resource."
+      },
+      {
+        "id": "F",
+        "text": "Run the container and specify an App ID and Client Secret."
+      },
+      {
+        "id": "G",
+        "text": "Pull an image from the Microsoft Container Registry (MCR)."
+      }
+    ],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "Step 1"
+      },
+      {
+        "id": "t2",
+        "text": "Step 2"
+      },
+      {
+        "id": "t3",
+        "text": "Step 3"
+      }
+    ],
+    "correct": [
+      "t1:D",
+      "t2:G",
+      "t3:B"
+    ],
+    "explanation": "Azure AI Language containers process the confidential document content locally on-premises, so the cluster must be on-premises but still have internet connectivity, because the container must reach Azure for billing/metering. The container image is pulled from MCR, and the container is started with the resource's API key and endpoint URL (Billing).",
+    "keySource": "source"
+  },
+  "134": {
+    "type": "hotspot-dropdown",
+    "exhibits": [],
+    "codeContext": "[1]\n\"https://*.cognitiveservices.azure.com/vision/v3.2/analyze?visualFeatures=[2]&details={string}&language=en",
+    "targets": [
+      {
+        "id": "t1",
+        "text": "[1] HTTP method",
+        "options": [
+          {
+            "id": "A",
+            "text": "GET"
+          },
+          {
+            "id": "B",
+            "text": "PATCH"
+          },
+          {
+            "id": "C",
+            "text": "POST"
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "text": "[2] visualFeatures=____",
+        "options": [
+          {
+            "id": "A",
+            "text": "description"
+          },
+          {
+            "id": "B",
+            "text": "imageType"
+          },
+          {
+            "id": "C",
+            "text": "objects"
+          },
+          {
+            "id": "D",
+            "text": "tags"
+          }
+        ]
+      }
+    ],
+    "correct": [
+      "t1:C",
+      "t2:B"
+    ],
+    "explanation": "The Analyze Image API uses the POST method to submit an image URL or image binary in the request body. The imageType visual feature returns whether the image is clip art (clipArtType) or a line drawing (lineDrawingType).",
+    "keySource": "source"
+  },
+  "144": {
+    "type": "multiple",
+    "exhibits": [
+      {
+        "file": "p187_1.png",
+        "after": "The method has the following code."
+      }
+    ],
+    "codeContext": "def read_file_url(computervision_client, url_file):\n    read_response = computervision_client.read(url_file, raw=True)\n    read_operation_location = read_response.headers[\"Operation-Location\"]\n    operation_id = read_operation_location.split(\"/\")[-1]\n    read_result = computervision_client.get_read_result(operation_id)\n\n    for page in read_result.analyze_result.read_results:\n        for line in page.lines:\n            print(line.text)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Add code to verify the read_result.status value."
+      },
+      {
+        "id": "B",
+        "text": "Add code to verify the status of the read_operation_location value."
+      },
+      {
+        "id": "C",
+        "text": "Remove the operation_id parameter."
+      },
+      {
+        "id": "D",
+        "text": "Wrap the call to get_read_result within a loop that contains a delay."
+      }
+    ],
+    "correct": [
+      "A",
+      "D"
+    ],
+    "explanation": "OCR Read is asynchronous: the initial read request only returns an Operation-Location/operation ID. The code must call get_read_result repeatedly in a loop with a delay and check read_result.status until it reaches a terminal state (succeeded or failed). The operation-location value only identifies the operation and does not report its status.",
+    "keySource": "source"
+  },
+  "148": {
+    "type": "hotspot-dropdown",
+    "exhibits": [],
+    "codeContext": "...\nblocklist_name = \"ConfidentialTerms\"\nclient = ContentSafetyClient(endpoint, credential)\nrequest = [1] (\n    text=input_text,\n    blocklist_names=[blocklist_name],\n    halt_on_blocklist_hit=False\n)\nanalysis_result = [2] (request)\n...",
+    "targets": [
+      {
+        "id": "t1",
+        "text": "[1] request = ____(",
+        "options": [
+          {
+            "id": "A",
+            "text": "AddOrUpdateTextBlocklistItemsOptions"
+          },
+          {
+            "id": "B",
+            "text": "AnalyzeImageOptions"
+          },
+          {
+            "id": "C",
+            "text": "AnalyzeTextOptions"
+          },
+          {
+            "id": "D",
+            "text": "TextBlocklist"
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "text": "[2] analysis_result = ____(request)",
+        "options": [
+          {
+            "id": "A",
+            "text": "client.add_or_update_blocklist_items"
+          },
+          {
+            "id": "B",
+            "text": "client.analyze_image"
+          },
+          {
+            "id": "C",
+            "text": "client.analyze_text"
+          },
+          {
+            "id": "D",
+            "text": "client.list_text_blocklists"
+          }
+        ]
+      }
+    ],
+    "correct": [
+      "t1:C",
+      "t2:C"
+    ],
+    "explanation": "AnalyzeTextOptions builds the text moderation request containing input_text and the existing ConfidentialTerms blocklist. client.analyze_text submits that request to Azure AI Content Safety and returns the analysis result, including any blocklist matches; the other methods manage blocklists or analyze images.",
+    "keySource": "source"
+  },
+  "150": {
+    "type": "drag-drop",
+    "exhibits": [],
+    "options": [
+      {
+        "id": "A",
+        "text": "Food"
+      },
+      {
+        "id": "B",
+        "text": "General"
+      },
+      {
+        "id": "C",
+        "text": "General (compact)"
+      },
+      {
+        "id": "D",
+        "text": "Image classification"
+      },
+      {
+        "id": "E",
+        "text": "Logo"
+      },
+      {
+        "id": "F",
+        "text": "Object detection"
+      }
+    ],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "Project type:"
+      },
+      {
+        "id": "t2",
+        "text": "Domain:"
+      }
+    ],
+    "correct": [
+      "t1:F",
+      "t2:C"
+    ],
+    "explanation": "Object detection returns the location (bounding box) of each defect and lets the system count the detected products to verify that four samples are present. A compact domain such as General (compact) can be exported to run locally, which is needed because the factory has intermittent internet connectivity.",
+    "keySource": "source"
+  },
+  "152": {
+    "type": "drag-drop",
+    "exhibits": [],
+    "options": [
+      {
+        "id": "A",
+        "text": "From the Custom Vision portal, open the project."
+      },
+      {
+        "id": "B",
+        "text": "From the Azure Machine Learning studio, open the workspace."
+      },
+      {
+        "id": "C",
+        "text": "From Vision Studio, open the project."
+      },
+      {
+        "id": "D",
+        "text": "Upload sample images of the new products."
+      },
+      {
+        "id": "E",
+        "text": "Label the sample images."
+      },
+      {
+        "id": "F",
+        "text": "Retrain the model."
+      },
+      {
+        "id": "G",
+        "text": "Publish the model."
+      }
+    ],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "Step 1"
+      },
+      {
+        "id": "t2",
+        "text": "Step 2"
+      },
+      {
+        "id": "t3",
+        "text": "Step 3"
+      },
+      {
+        "id": "t4",
+        "text": "Step 4"
+      },
+      {
+        "id": "t5",
+        "text": "Step 5"
+      }
+    ],
+    "correct": [
+      "t1:A",
+      "t2:D",
+      "t3:E",
+      "t4:F",
+      "t5:G"
+    ],
+    "explanation": "The Custom Vision portal provides the lowest-effort workflow for updating an existing Custom Vision classifier. New product images must be uploaded and tagged before the classifier can be retrained, and the newly trained iteration must be published so the app can use it.",
+    "keySource": "source"
+  },
+  "154": {
+    "type": "hotspot-dropdown",
+    "exhibits": [],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "Provide access to AI1 by using:",
+        "options": [
+          {
+            "id": "A",
+            "text": "An API key"
+          },
+          {
+            "id": "B",
+            "text": "A bearer token"
+          },
+          {
+            "id": "C",
+            "text": "A shared access signature (SAS) token"
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "text": "Connect to the deployment by using:",
+        "options": [
+          {
+            "id": "A",
+            "text": "An API key"
+          },
+          {
+            "id": "B",
+            "text": "A deployment endpoint"
+          },
+          {
+            "id": "C",
+            "text": "A deployment name"
+          },
+          {
+            "id": "D",
+            "text": "A deployment type"
+          }
+        ]
+      }
+    ],
+    "correct": [
+      "t1:A",
+      "t2:C"
+    ],
+    "explanation": "An API key (sent in the api-key header) authenticates each app to the resource and can be kept secret so only the apps can use it. Each REST API request specifies the deployment name in the URL path (/openai/deployments/{deployment-name}/...), which routes the request to the deployment optimized for that app's workload.",
+    "keySource": "source"
+  },
+  "156": {
+    "type": "hotspot-dropdown",
+    "exhibits": [],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "To prevent access from the internet:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Configure an IP firewall."
+          },
+          {
+            "id": "B",
+            "text": "Create a private endpoint."
+          },
+          {
+            "id": "C",
+            "text": "Use Azure roles."
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "text": "To limit access to query specific indexes:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Create a private endpoint."
+          },
+          {
+            "id": "B",
+            "text": "Use Azure roles."
+          },
+          {
+            "id": "C",
+            "text": "Use key authentication."
+          }
+        ]
+      }
+    ],
+    "correct": [
+      "t1:B",
+      "t2:B"
+    ],
+    "explanation": "A private endpoint exposes Search1 through a private IP address in an Azure virtual network, so public internet access can be disabled. Azure RBAC (e.g., Search Index Data Reader scoped to an index) grants each app only the permissions to query its authorized indexes, whereas query keys apply to all indexes on the service.",
+    "keySource": "source"
+  },
+  "158": {
+    "type": "drag-drop",
+    "exhibits": [],
+    "options": [
+      {
+        "id": "A",
+        "text": "Request approval to run the container."
+      },
+      {
+        "id": "B",
+        "text": "Export model1 to Host1."
+      },
+      {
+        "id": "C",
+        "text": "Configure disk logging."
+      },
+      {
+        "id": "D",
+        "text": "Run the container."
+      },
+      {
+        "id": "E",
+        "text": "Retrain the model."
+      }
+    ],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "Step 1"
+      },
+      {
+        "id": "t2",
+        "text": "Step 2"
+      },
+      {
+        "id": "t3",
+        "text": "Step 3"
+      }
+    ],
+    "correct": [
+      "t1:A",
+      "t2:B",
+      "t3:D"
+    ],
+    "explanation": "Custom Speech containers require approval before they can be used. After approval, the custom speech-to-text model is exported to the Docker host so the container image can load it, and then the container is run on Host1 to perform speech-to-text locally. Disk logging and retraining are not required to run the model.",
+    "keySource": "source"
+  },
+  "160": {
+    "type": "hotspot-dropdown",
+    "exhibits": [],
+    "targets": [
+      {
+        "id": "t1",
+        "text": "Extract the text:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Azure Document Intelligence in Foundry Tools"
+          },
+          {
+            "id": "B",
+            "text": "Azure Language in Foundry Tools"
+          },
+          {
+            "id": "C",
+            "text": "Azure AI Search"
+          },
+          {
+            "id": "D",
+            "text": "Azure Vision in Foundry Tools"
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "text": "Identify well-known locations:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Azure Document Intelligence in Foundry Tools"
+          },
+          {
+            "id": "B",
+            "text": "Azure Language in Foundry Tools"
+          },
+          {
+            "id": "C",
+            "text": "Azure AI Search"
+          },
+          {
+            "id": "D",
+            "text": "Azure Vision in Foundry Tools"
+          }
+        ]
+      }
+    ],
+    "correct": [
+      "t1:D",
+      "t2:B"
+    ],
+    "explanation": "Azure Vision provides OCR (Read) to detect and extract text from road-sign photos with minimal development effort. Azure Language provides named entity recognition and entity linking to identify locations, including well-known places, in the extracted text.",
+    "keySource": "source"
+  },
+  "161": {
+    "type": "hotspot-dropdown",
+    "exhibits": [],
+    "codeContext": "docker run --rm -it -p 5000:5000 --memory 8g --cpus 1 \\\n[1] \\\nEula=accept \\\nBilling= [2] \\\nApiKey=xxxxxxxxxxxxxxxxxxxxxxxx",
+    "targets": [
+      {
+        "id": "t1",
+        "text": "[1] container image",
+        "options": [
+          {
+            "id": "A",
+            "text": "http://contoso.blob.core.windows.net"
+          },
+          {
+            "id": "B",
+            "text": "http://contoso.cognitiveservices.azure.com"
+          },
+          {
+            "id": "C",
+            "text": "mcr.microsoft.com/azure-cognitive-services/textanalytics/keyphrase"
+          },
+          {
+            "id": "D",
+            "text": "mcr.microsoft.com/azure-cognitive-services/textanalytics/sentiment"
+          }
+        ]
+      },
+      {
+        "id": "t2",
+        "text": "[2] Billing= ____",
+        "options": [
+          {
+            "id": "A",
+            "text": "http://contoso.blob.core.windows.net"
+          },
+          {
+            "id": "B",
+            "text": "http://contoso.cognitiveservices.azure.com"
+          },
+          {
+            "id": "C",
+            "text": "mcr.microsoft.com/azure-cognitive-services/textanalytics/keyphrase"
+          },
+          {
+            "id": "D",
+            "text": "mcr.microsoft.com/azure-cognitive-services/textanalytics/sentiment"
+          }
+        ]
+      }
+    ],
+    "correct": [
+      "t1:D",
+      "t2:B"
+    ],
+    "explanation": "The textanalytics/sentiment image from MCR provides the sentiment analysis capability (keyphrase would only extract key phrases). The Billing value must be the Azure AI Language resource endpoint used for metering, while ApiKey supplies that resource's access key.",
+    "keySource": "source"
+  }
+}

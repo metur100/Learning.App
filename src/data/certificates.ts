@@ -1,6 +1,7 @@
 import type { CertificateId, Question } from '../types';
 import { questions as ai901Base } from './questions';
 import { ai901NewQuestions } from './banks/ai901.generated';
+import { ai103Questions } from './banks/ai103.generated';
 import { az104Questions } from './banks/az104.generated';
 import { az204Questions } from './banks/az204.generated';
 import { az305Questions } from './banks/az305.generated';
@@ -14,6 +15,7 @@ export interface CertificateMeta {
 
 export const certificates: CertificateMeta[] = [
   { id: 'ai-901', code: 'AI-901', name: 'Azure AI Fundamentals' },
+  { id: 'ai-103', code: 'AI-103', name: 'Developing AI Apps and Agents on Azure' },
   { id: 'az-104', code: 'AZ-104', name: 'MS Azure Administrator' },
   { id: 'az-204', code: 'AZ-204', name: 'Developing Solutions for MS Azure' },
   { id: 'az-305', code: 'AZ-305', name: 'MS Azure Infrastructure Solutions' },
@@ -47,6 +49,7 @@ function mergeAi901(base: Question[], imported: Question[]): Question[] {
 
 export const questionBanks: Record<CertificateId, Question[]> = {
   'ai-901': withCertId(mergeAi901(ai901Base, ai901NewQuestions), 'ai-901', 0),
+  'ai-103': withCertId(ai103Questions, 'ai-103', 500000),
   'az-104': withCertId(az104Questions, 'az-104', 100000),
   'az-204': withCertId(az204Questions, 'az-204', 200000),
   'az-305': withCertId(az305Questions, 'az-305', 300000),

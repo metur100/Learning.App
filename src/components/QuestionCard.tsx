@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import type { GradeResult, Question } from "../types";
+import type { GradeResult, Option, Question } from "../types";
 import {
   grade,
   isAnswered,
@@ -95,6 +95,17 @@ export function QuestionCard({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [question.id, question.options, shuffleOptions, resetToken]);
 
+  /** Hotspot dropdowns that carry their own choices, keyed by target id. */
+  const targetOptions = useMemo(() => {
+    const m = new Map<string, Option[]>();
+    for (const t of question.targets ?? []) {
+      if (!t.options) continue;
+      m.set(t.id, shuffleOptions ? shuffle(t.options) : t.options);
+    }
+    return m;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [question.id, question.targets, shuffleOptions, resetToken]);
+
   const isMulti = question.type === "multiple";
   const isBoolean = question.type === "hotspot-boolean";
   const isDragDrop = question.type === "drag-drop";
@@ -156,8 +167,11 @@ export function QuestionCard({
     if (checked) return;
     setDragAssignments((prev) => {
       const next = { ...prev };
-      for (const key of Object.keys(next)) {
-        if (next[key] === optionId) delete next[key];
+      // A dragged value moves between slots; dropdowns are independent.
+      if (isDragDrop) {
+        for (const key of Object.keys(next)) {
+          if (next[key] === optionId) delete next[key];
+        }
       }
       next[targetId] = optionId;
       return next;
@@ -333,11 +347,12 @@ export function QuestionCard({
       ) : isHotspotDropdown ? (
         <div className="hsdd" aria-label="Hotspot answer area">
           {(question.targets ?? []).map((t) => {
+            const choices = targetOptions.get(t.id) ?? options;
             const assignedId = dragAssignments[t.id] ?? "";
             const right = showFeedback && isTargetRight(t.id, assignedId);
             const wrong =
               showFeedback && assignedId && !isTargetRight(t.id, assignedId);
-            const expected = options.find(
+            const expected = choices.find(
               (o) => o.id === expectedAssignments.get(t.id),
             );
             return (
@@ -352,7 +367,7 @@ export function QuestionCard({
                   onChange={(e) => assignTarget(t.id, e.target.value)}
                 >
                   <option value="">Select...</option>
-                  {options.map((opt) => (
+                  {choices.map((opt) => (
                     <option key={opt.id} value={opt.id}>
                       {opt.text}
                     </option>
@@ -442,6 +457,13 @@ export function QuestionCard({
 
 const IMG_MARKER = /^\{\{img:(.+)\}\}$/;
 
+/** Root-relative paths (`/exam-media/...`) live under `public/`, so they must
+ * follow Vite's base path (e.g. `/<repo>/` on GitHub Pages). */
+function assetUrl(src: string): string {
+  if (!src.startsWith("/") || src.startsWith("//")) return src;
+  return import.meta.env.BASE_URL.replace(/\/$/, "") + src;
+}
+
 /** Renders `\n`-joined text, turning any `{{img:URL}}` line (the extractor's
  * marker for an image embedded in the source material) into an <img>. */
 function renderLines(text: string) {
@@ -450,7 +472,9 @@ function renderLines(text: string) {
     if (trimmed === "") return <div key={i} className="qcard__gap" />;
     const imgMatch = trimmed.match(IMG_MARKER);
     if (imgMatch)
-      return <img key={i} className="qcard__image" src={imgMatch[1]} alt="" />;
+      return (
+        <img key={i} className="qcard__image" src={assetUrl(imgMatch[1])} alt="" />
+      );
     return <p key={i}>{renderBlank(line)}</p>;
   });
 }

@@ -1,0 +1,66 @@
+{
+  "10": {
+    "explanation": "In the Speech to text REST API (for example Endpoints_Create), the project property must reference the existing project by its URI, for example {\"self\": \"https://<resource>.cognitiveservices.azure.com/speechtotext/v3.2/projects/<id>\"}. Supplying a bare project ID or a custom speech project ID returns an invalid-project error. The custom speech endpoint URL identifies the deployment, not the project.",
+    "correct": [
+      "A"
+    ],
+    "keySource": "domain",
+    "note": "Source key B (custom speech project ID) contradicted its own reasoning, which argued for the project URL. Microsoft Learn (REST pivot): 'Set the project property to the URI of an existing project.' https://learn.microsoft.com/en-us/azure/ai-services/speech-service/how-to-custom-speech-deploy-model"
+  },
+  "21": {
+    "explanation": "The OpenAPI tool sends the stored API key only when it is created with connection-based authentication that points to Connection1. The key header is defined by an apiKey security scheme in the spec, and the tool's auth settings reference the project connection that holds the secret. If the tool isn't bound to Connection1 (for example, it uses anonymous auth), the header is never sent, so connecting the tool to Connection1 fixes the 401 error. Hard-coding the header in the spec would expose the secret. Identity passthrough sends an Entra token, not the API key, and the 'default connection' wouldn't target Connection1.",
+    "note": "Key D is correct, but the source reasoning argued for option B (adding the header manually), which contradicts the key. https://learn.microsoft.com/en-us/azure/ai-foundry/agents/how-to/tools/openapi"
+  },
+  "23": {
+    "explanation": "No. Prompt shields for user prompts detect direct jailbreak attacks in text that the user types. Instructions hidden inside uploaded images reach the model as extracted image text, which makes them indirect (document) attacks that prompt shields for documents are designed to catch. A user-prompt shield also does nothing about unsafe visual content, so this solution doesn't mitigate the risk.",
+    "note": "Key B is kept, but the source reasoning argued that the solution works (Yes), which contradicts the key. https://learn.microsoft.com/en-us/azure/ai-services/content-safety/concepts/jailbreak-detection"
+  },
+  "24": {
+    "explanation": "No. Image moderation classifies harmful visual content such as violence, sexual content, hate, and self-harm, and can block unsafe images. It doesn't analyze the text embedded in an image for hidden instructions, so the prompt-injection part of the risk stays open. Mitigating that part needs prompt shields for documents.",
+    "note": "Key B is kept, but the source reasoning argued that image moderation mitigates image-based prompt injection (Yes), which contradicts the key. https://learn.microsoft.com/en-us/azure/ai-services/content-safety/overview"
+  },
+  "27": {
+    "explanation": "The technical requirement is that responses based on the product sheets are relevant, complete, and accurate. Foundry's Retrieval Augmented Generation (RAG) evaluators cover all three: Relevance, Response Completeness, and Groundedness, plus Retrieval quality. Microsoft describes them as ensuring the AI-generated content is 'accurate, relevant, and complete'. A groundedness evaluator alone measures only whether the response is supported by the context (the precision/accuracy aspect), not relevance or completeness. Guardrails and fine-tuning don't assess responses.",
+    "correct": [
+      "A"
+    ],
+    "keySource": "domain",
+    "note": "Source key D (groundedness) contradicted its own reasoning, which argued for the RAG evaluator. Microsoft Learn: RAG system evaluators 'ensure that the AI-generated content is accurate, relevant, and complete'; groundedness covers only the precision aspect. https://learn.microsoft.com/en-us/azure/foundry/concepts/evaluation-evaluators/rag-evaluators"
+  },
+  "29": {
+    "explanation": "Deep, multi-step reasoning over long contexts and detailed natural-language generation grounded in Azure AI Search results call for a large language model (LLM). Small language models trade reasoning depth and context length for lower cost and latency. A key phrase extraction model only extracts terms and can't generate responses. Multimodality isn't required because the inputs are text.",
+    "note": "The source gave only the letter. Explanation added."
+  },
+  "54": {
+    "explanation": "Advanced data parsing performs OCR on scanned PDFs and uses layout analysis to create structure-aware chunks. It keeps headings and tables together, even detecting and merging tables that span pages, and attaches metadata such as headings and page numbers to each chunk. Reingesting with advanced parsing therefore meets all the requirements. Basic parsing with fixed-size chunking loses structure. Page-level OCR and page-level chunking split multipage tables at page boundaries and don't produce structure-aware chunks.",
+    "note": "Key A is kept, but the source reasoning described option B (OCR and page-level chunking), which contradicts the key. Microsoft Learn: advanced parsing 'detects, merges, and indexes tables—even those spanning multiple pages', and each chunk includes headings and page numbers. https://learn.microsoft.com/en-us/azure/azure-arc/edge-rag/advanced-data-parsing"
+  },
+  "56": {
+    "explanation": "The planned change requires analyzing invoices by evaluating both their visual layout and their textual content so that the details can be checked against contract terms. Azure Content Understanding in Foundry Tools is the multimodal, generative-AI-based service for this. It combines OCR and layout analysis (tables, logos, varied templates) with schema-based field extraction and reasoning, and it generalizes across layouts. Chat completions alone don't give reliable structured extraction. Image Analysis only describes visual content, and Document Intelligence is a narrower extraction service without the multimodal reasoning the scenario calls for.",
+    "note": "Key C is kept, but the source reasoning described Azure Document Intelligence (option B), which contradicts the key. https://learn.microsoft.com/en-us/azure/ai-services/content-understanding/overview"
+  },
+  "90": {
+    "explanation": "WebRTC is the recommended connection method for the GPT Realtime API when a client application streams audio in and plays audio back, because it is designed for the lowest latency, peer-to-peer media transport (around 100 ms). WebSockets also work but Microsoft says they are not recommended for real-time audio streaming because they have higher latency than WebRTC. RTMP is a broadcast streaming protocol and SIP targets telephony integration.",
+    "note": "Key B (WebRTC) is correct, but the source reasoning argued for WebSocket (option D), which contradicts the key. Microsoft Learn says: 'WebSockets aren't recommended for real-time audio streaming because they have higher latency than WebRTC.' https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/realtime-audio-webrtc"
+  },
+  "97": {
+    "explanation": "A standard deployment (serverless, pay-per-token Foundry Models deployment hosted by Microsoft) exposes a real-time REST endpoint, supports key-based as well as Microsoft Entra authentication, and runs on Microsoft-managed capacity, so it does not consume the VM vCPU quota of your subscription. Batch deployments are asynchronous, and self-hosted containers run on compute you provide.",
+    "note": "Key D kept. The source reasoning described a 'managed online endpoint', which is managed compute and does use VM/compute quota, so the explanation was rewritten. Note: current docs list 'Serverless API' as the deployment option and 'Standard' as a deployment type within it (key-based auth supported, no VM quota), so option A describes the same family. https://learn.microsoft.com/en-us/azure/foundry/concepts/deployments-overview"
+  },
+  "145": {
+    "explanation": "Prompt Shields (document attacks / indirect prompt injection) scans third-party grounding content, such as the product sheets and the text embedded in their images, for hidden instructions that try to take control of the agent. That meets the requirement to protect Agent1 from malicious instructions hidden in images. Protected material detection only flags copyrighted text (lyrics, articles, recipes, web content) and GitHub code, so it does not protect customer information. Violence and self-harm filters address unrelated harm categories.",
+    "correct": [
+      "A"
+    ],
+    "keySource": "domain",
+    "note": "Source marked B (protected material detection) and claimed it prevents customer data leakage. Protected material only detects copyrighted text and code (https://learn.microsoft.com/en-us/azure/ai-services/content-safety/concepts/protected-material). Prompt Shields detects document attacks, meaning hidden instructions in third-party content (https://learn.microsoft.com/en-us/azure/ai-services/content-safety/concepts/jailbreak-detection), which maps to the case requirement about malicious instructions in product-sheet images. No PII option is offered, so A is the only option that satisfies a stated security requirement."
+  },
+  "159": {
+    "explanation": "Custom question answering in Azure Language returns the stored answer from a knowledge base built from the HR policy PDFs, so the same question always gets the identical answer, and it needs little development (import the PDFs, then deploy). Azure OpenAI generates nondeterministic responses. Even with a low temperature or a seed, Microsoft states that determinism isn't guaranteed. Document Intelligence only extracts content, and Azure Machine Learning requires custom model development.",
+    "correct": [
+      "B"
+    ],
+    "keySource": "domain",
+    "note": "Source marked A (Azure OpenAI). Microsoft documents Azure OpenAI chat output as nondeterministic by default: 'Determinism isn't guaranteed with reproducible output' (https://learn.microsoft.com/en-us/azure/ai-foundry/openai/how-to/reproducible-output). Custom question answering (Azure Language) builds a knowledge base from FAQs, manuals and documents and returns the same stored answer each time (https://learn.microsoft.com/en-us/azure/ai-services/language-service/question-answering/overview). This matches the established AI-102 key for the same question."
+  }
+}

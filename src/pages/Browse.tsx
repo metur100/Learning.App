@@ -35,7 +35,15 @@ export function Browse() {
       if (type !== 'all' && item.type !== type) return false;
       if (status !== 'all' && data.cards[item.id]?.status !== status) return false;
       if (needle) {
-        const hay = (item.prompt + ' ' + (item.options?.map((o) => o.text).join(' ') ?? '')).toLowerCase();
+        const hay = [
+          item.prompt,
+          item.codeContext ?? '',
+          ...(item.options ?? []).map((o) => o.text),
+          ...(item.statements ?? []).map((s) => s.text),
+          ...(item.targets ?? []).flatMap((t) => [t.text, ...(t.options ?? []).map((o) => o.text)]),
+        ]
+          .join(' ')
+          .toLowerCase();
         if (!hay.includes(needle)) return false;
       }
       return true;
@@ -93,6 +101,19 @@ export function Browse() {
   );
 }
 
+const MARKER_LINE = /^(HOTSPOT|DRAG DROP|SIMULATION|Case Study)\s*-?$|^-$|^\{\{img:/i;
+
+/** One-line row summary: skips "HOTSPOT -" style markers; for case studies,
+ * shows the actual question instead of the shared scenario intro. */
+function summaryLine(prompt: string): string {
+  const lines = prompt.split('\n').map((l) => l.trim()).filter(Boolean);
+  if (lines.some((l) => /^Case Study\s*-?$/i.test(l))) {
+    const ask = [...lines].reverse().find((l) => /^You need to/.test(l));
+    if (ask) return `Case study: ${ask}`;
+  }
+  return lines.find((l) => !MARKER_LINE.test(l)) ?? lines[0] ?? '';
+}
+
 function BrowseRow({
   item,
   status,
@@ -106,7 +127,7 @@ function BrowseRow({
   onToggle: () => void;
   shuffle: boolean;
 }) {
-  const firstLine = item.prompt.split('\n').find((l) => l.trim()) ?? '';
+  const firstLine = summaryLine(item.prompt);
   return (
     <div className={`brow${open ? ' is-open' : ''}`}>
       <button className="brow__head" onClick={onToggle} aria-expanded={open}>

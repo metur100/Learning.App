@@ -1,0 +1,65 @@
+{
+  "total": 161,
+  "byType": {
+    "hotspot-dropdown": 32,
+    "single": 100,
+    "hotspot-boolean": 7,
+    "drag-drop": 14,
+    "multiple": 8
+  },
+  "byTopic": {
+    "Models & Deployment": 23,
+    "Responsible AI & Safety": 18,
+    "Search & RAG": 22,
+    "Monitoring & Evaluation": 9,
+    "Content Understanding & Documents": 12,
+    "Agents": 36,
+    "Speech": 7,
+    "Security & Identity": 8,
+    "Vision & Video": 17,
+    "Language": 9
+  },
+  "correctedKeys": [
+    10,
+    14,
+    27,
+    145,
+    159
+  ],
+  "writtenExplanations": [
+    9,
+    10,
+    14,
+    21,
+    23,
+    24,
+    27,
+    29,
+    54,
+    56,
+    90,
+    97,
+    119,
+    120,
+    145,
+    159
+  ],
+  "notes": {
+    "10": "Source key B (custom speech project ID) contradicted its own reasoning, which argued for the project URL. Microsoft Learn (REST pivot): 'Set the project property to the URI of an existing project.' https://learn.microsoft.com/en-us/azure/ai-services/speech-service/how-to-custom-speech-deploy-model",
+    "14": "Source marked A. Microsoft Learn (Foundry Agent Service classic, What are tools > Using tool_choice) shows forcing a specific tool on create_and_process with tool_choice={\"type\": \"<tool>\"}; \"mcp\" is a valid named tool choice type. https://learn.microsoft.com/en-us/azure/foundry-classic/agents/how-to/tools-classic/overview",
+    "21": "Key D is correct, but the source reasoning argued for option B (adding the header manually), which contradicts the key. https://learn.microsoft.com/en-us/azure/ai-foundry/agents/how-to/tools/openapi",
+    "23": "Key B is kept, but the source reasoning argued that the solution works (Yes), which contradicts the key. https://learn.microsoft.com/en-us/azure/ai-services/content-safety/concepts/jailbreak-detection",
+    "24": "Key B is kept, but the source reasoning argued that image moderation mitigates image-based prompt injection (Yes), which contradicts the key. https://learn.microsoft.com/en-us/azure/ai-services/content-safety/overview",
+    "27": "Source key D (groundedness) contradicted its own reasoning, which argued for the RAG evaluator. Microsoft Learn: RAG system evaluators 'ensure that the AI-generated content is accurate, relevant, and complete'; groundedness covers only the precision aspect. https://learn.microsoft.com/en-us/azure/foundry/concepts/evaluation-evaluators/rag-evaluators",
+    "29": "The source gave only the letter. Explanation added.",
+    "35": "Source answer (temperature 0, effort high) kept as the intended exam answer. Caveat: per Anthropic's Claude docs, temperature/top_k are incompatible with thinking on older Claude models (temperature must stay at the default 1 when thinking is on), and the newest models reject any non-default temperature; thinking {\"type\": \"enabled\"} without budget_tokens is also not valid on current models. In the real API this request would return a 400 error, so treat the item as testing the concepts (temperature 0 = most deterministic; effort high = best reasoning).",
+    "54": "Key A is kept, but the source reasoning described option B (OCR and page-level chunking), which contradicts the key. Microsoft Learn: advanced parsing 'detects, merges, and indexes tables—even those spanning multiple pages', and each chunk includes headings and page numbers. https://learn.microsoft.com/en-us/azure/azure-arc/edge-rag/advanced-data-parsing",
+    "56": "Key C is kept, but the source reasoning described Azure Document Intelligence (option B), which contradicts the key. https://learn.microsoft.com/en-us/azure/ai-services/content-understanding/overview",
+    "90": "Key B (WebRTC) is correct, but the source reasoning argued for WebSocket (option D), which contradicts the key. Microsoft Learn says: 'WebSockets aren't recommended for real-time audio streaming because they have higher latency than WebRTC.' https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/realtime-audio-webrtc",
+    "97": "Key D kept. The source reasoning described a 'managed online endpoint', which is managed compute and does use VM/compute quota, so the explanation was rewritten. Note: current docs list 'Serverless API' as the deployment option and 'Standard' as a deployment type within it (key-based auth supported, no VM quota), so option A describes the same family. https://learn.microsoft.com/en-us/azure/foundry/concepts/deployments-overview",
+    "98": "Source answer says \"ManagedIdentity\"; the dropdown option is 'AccountManagedIdentity', which is the value used in Microsoft's Key Vault connection Bicep sample, so that option was mapped.",
+    "145": "Source marked B (protected material detection) and claimed it prevents customer data leakage. Protected material only detects copyrighted text and code (https://learn.microsoft.com/en-us/azure/ai-services/content-safety/concepts/protected-material). Prompt Shields detects document attacks, meaning hidden instructions in third-party content (https://learn.microsoft.com/en-us/azure/ai-services/content-safety/concepts/jailbreak-detection), which maps to the case requirement about malicious instructions in product-sheet images. No PII option is offered, so A is the only option that satisfies a stated security requirement.",
+    "159": "Source marked A (Azure OpenAI). Microsoft documents Azure OpenAI chat output as nondeterministic by default: 'Determinism isn't guaranteed with reproducible output' (https://learn.microsoft.com/en-us/azure/ai-foundry/openai/how-to/reproducible-output). Custom question answering (Azure Language) builds a knowledge base from FAQs, manuals and documents and returns the same stored answer each time (https://learn.microsoft.com/en-us/azure/ai-services/language-service/question-answering/overview). This matches the established AI-102 key for the same question."
+  },
+  "errors": {}
+}

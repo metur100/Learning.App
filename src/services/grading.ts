@@ -61,6 +61,10 @@ export function isDragDropTargetCorrect(
   const expectedId = expectedByTarget.get(targetId);
   if (!expectedId) return false;
 
+  // A dropdown with its own choices: ids are scoped to that dropdown.
+  const target = q.targets?.find((t) => t.id === targetId);
+  if (target?.options) return assignedId === expectedId;
+
   const mode = resolveDragDropMode(q, expectedByTarget);
   if (mode === "strict-id") return assignedId === expectedId;
 

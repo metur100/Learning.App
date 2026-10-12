@@ -2,6 +2,7 @@
 
 export type CertificateId =
   | "ai-901"
+  | "ai-103"
   | "az-104"
   | "az-204"
   | "az-305"
@@ -32,6 +33,9 @@ export interface BooleanStatement {
 export interface DragDropTarget {
   id: string;
   text: string;
+  /** Hotspot dropdowns only: this dropdown's own choices. When absent, the
+   * question-level `options` pool is shared by every target. */
+  options?: Option[];
 }
 
 export interface Question {
