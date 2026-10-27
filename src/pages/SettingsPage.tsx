@@ -66,6 +66,16 @@ export function SettingsPage() {
         <label className="toggle">
           <input
             type="checkbox"
+            checked={s.shuffleQuestions}
+            onChange={(e) =>
+              updateSettings({ shuffleQuestions: e.target.checked })
+            }
+          />
+          <span>Shuffle question order in Learn and Review</span>
+        </label>
+        <label className="toggle">
+          <input
+            type="checkbox"
             checked={s.showCheckedAnswerBeforeNext}
             onChange={(e) =>
               updateSettings({ showCheckedAnswerBeforeNext: e.target.checked })

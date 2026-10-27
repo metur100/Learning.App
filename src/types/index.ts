@@ -94,6 +94,8 @@ export interface Settings {
   selectedCertificate: CertificateId;
   showExplanationImmediately: boolean;
   shuffleOptions: boolean;
+  /** Randomize question order each time a Learn/Review session starts. */
+  shuffleQuestions: boolean;
   showCheckedAnswerBeforeNext: boolean;
   examLength: number;
   examMinutes: number;

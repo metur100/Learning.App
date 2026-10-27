@@ -62,10 +62,25 @@ function snapshotKey(mode: "learn" | "review", certificateKey: string): string {
   return `${SESSION_KEY_PREFIX}${certificateKey}-${mode}`;
 }
 
-function makeFreshState(queue: Question[]): InitialSessionState {
+function shuffled<T>(arr: T[]): T[] {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function makeFreshState(
+  queue: Question[],
+  shuffleQuestions: boolean,
+): InitialSessionState {
+  // baseQuestionIds keeps the queue order so a saved session can be matched
+  // on resume; only the order the questions are shown in is shuffled.
   const baseQuestionIds = queue.map((q) => q.id);
+  const ordered = shuffleQuestions ? shuffled(queue) : queue;
   return {
-    entries: queue.map((question, i) => ({ entryId: i + 1, question })),
+    entries: ordered.map((question, i) => ({ entryId: i + 1, question })),
     nextEntryId: queue.length + 1,
     index: 0,
     entryStates: {},
@@ -85,8 +100,9 @@ function loadInitialState(
   queue: Question[],
   mode: "learn" | "review",
   certificateKey: string,
+  shuffleQuestions: boolean,
 ): InitialSessionState {
-  const fresh = makeFreshState(queue);
+  const fresh = makeFreshState(queue, shuffleQuestions);
   if (queue.length === 0) return fresh;
 
   const qById = new Map(queue.map((q) => [q.id, q]));
@@ -127,13 +143,19 @@ function loadInitialState(
       entries.length - 1,
     );
 
+    // Keep what was already seen (and the current question) in place, but
+    // reshuffle the upcoming questions on every resume.
+    const orderedEntries = shuffleQuestions
+      ? [...entries.slice(0, index + 1), ...shuffled(entries.slice(index + 1))]
+      : entries;
+
     const correctByQuestion: Record<number, boolean> = {};
     for (const qid of baseQuestionIds) {
       correctByQuestion[qid] = Boolean(parsed.correctByQuestion?.[qid]);
     }
 
     return {
-      entries,
+      entries: orderedEntries,
       nextEntryId,
       index,
       entryStates: parsed.entryStates ?? {},
@@ -157,8 +179,14 @@ export function StudySession({
 }: Props) {
   const { data, updateCard, recordAttempt } = useAppData();
   const initial = useMemo(
-    () => loadInitialState(queue, mode, certificateKey),
-    [queue, mode, certificateKey],
+    () =>
+      loadInitialState(
+        queue,
+        mode,
+        certificateKey,
+        data.settings.shuffleQuestions,
+      ),
+    [queue, mode, certificateKey, data.settings.shuffleQuestions],
   );
   const [entries, setEntries] = useState<SessionEntry[]>(initial.entries);
   const [nextEntryId, setNextEntryId] = useState(initial.nextEntryId);

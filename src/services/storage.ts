@@ -16,6 +16,7 @@ export const defaultSettings: Settings = {
   selectedCertificate: "ai-901",
   showExplanationImmediately: true,
   shuffleOptions: false,
+  shuffleQuestions: true,
   showCheckedAnswerBeforeNext: false,
   examLength: 20,
   examMinutes: 30,
